@@ -1,17 +1,35 @@
-# 薪火牌 · 轮回晋阶试玩版
+# 薪火牌 · 自适应牌桌试玩版 0.5
 
-`index.html` 是完整游戏，图片、GIF 和音效均已内嵌，无需后端或安装依赖。
+`index.html` 是完整游戏，图像、GIF、音效全部内嵌，无需安装依赖或配置后端。`xinhuo-demo.zip` 是可下载的发布包。
 
-`xinhuo-demo.zip` 是发布包，内含 `index.html`、发布说明和验证记录。下载后解压即可使用。
+## 试玩与下载
 
-本版包含五格战场、双方五张起手牌、七点生命、横移／换位／击退、880张同人卡牌及图鉴组牌。难度按余火 → 薪火 → 深渊顺序推进，通关当前16关才开启下一档；晋阶记录保存在浏览器。卡表尚未逐项穷尽或核对全部官方角色和变体。
+- GitHub Pages 部署完成后的游戏路径：[/FlightWilliams/game/](https://flightwilliams.github.io/FlightWilliams/game/)
+- [下载试玩 ZIP](https://github.com/FlightWilliams/FlightWilliams/raw/refs/heads/main/game/xinhuo-demo.zip)，解压后用浏览器打开 `index.html`。
 
-## 本地试玩
+## 自适应牌桌
 
-下载 `index.html` 后用浏览器打开。也可以把整个解压后的发布包文件夹上传到 Netlify Drop 发布。
+桌面使用宽牌桌与侧边信息栏；手机使用紧凑生命栏、五格战场和底部操作区。主牌桌按可视窗口高度布局；手牌较多时局部横向滑动。规则、战斗记录与完整卡牌说明通过独立滚动面板查看。
 
-## GitHub 下载
+增加动态可视高度、iPhone安全区域与横竖屏切换适配。手机主要按钮至少44px，姓名输入文字16px。作者Will Wang以11px金色小字位于首页最下方。
 
-打开本目录中的 `xinhuo-demo.zip`，使用 GitHub 的下载原始文件按钮即可保存。
+已在Chromium验证1920×1080、1366×768、1280×720、390×664、393×759、375×635、320×568、844×390，并模拟安全区与工具栏压缩后的可视高度。尚未进行真实iPhone Safari测试。
 
-本目录提供可直接运行的试玩文件；版本内容见发布包中的说明与验证记录。
+![桌面牌桌](preview-desktop.png)
+
+<details>
+<summary>查看手机布局</summary>
+
+![手机牌桌](preview-iphone.png)
+
+</details>
+
+## 规则与进阶
+
+双方五张起手、五格战场、七点生命；横移、换位、击退、守护、吸血、持续伤害等能力采用统一结算。880张同人卡牌可在图鉴中搜索和组牌。卡表尚未逐项穷尽或核对全部官方角色与变体。
+
+难度按余火 → 薪火 → 深渊顺序推进，通关当前16关才开启下一档。晋阶记录保存在当前浏览器，当前对局不自动续存。
+
+## 视觉参考
+
+参考[Wesnoth古铜按钮](https://github.com/wesnoth/wesnoth/tree/master/images/buttons)与[Forge卡牌桌面](https://github.com/Card-Forge/forge/tree/master/forge-gui/res/skins/default)，使用原创CSS实现烟熏木色、黄铜细框、炭黑刻槽和旧金按钮，未复制参考项目图像进游戏。详情见[设计参考](DESIGN.md)。
