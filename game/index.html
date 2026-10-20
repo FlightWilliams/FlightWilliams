@@ -387,6 +387,36 @@ html.keyboard-open .home-screen.title-screen{grid-template-rows:minmax(0,1fr) 14
  .player-deck-zone .ash-source{display:grid;position:absolute;left:0;bottom:0;width:15px;height:15px;font-size:7px}
  .home-screen #nm,.home-screen .home-start,.home-screen .home-secondary button{min-height:44px;height:44px}
 }
+/* Both sides share a left-aligned life panel and the same deck/counter rail. */
+.game-shell{grid-template-rows:48px 58px minmax(0,1fr) 58px 44px clamp(112px,16.4vh,148px)}
+.game-shell .side-hud{display:flex;align-items:center;justify-content:flex-start;gap:12px;padding:0 6px;min-width:0}
+.game-shell .side-hud>.life-panel{flex:1;min-width:0;width:auto;max-width:590px;height:100%;min-height:0}
+.game-shell .side-hud .player-life{padding:2px 12px;gap:10px}.game-shell .side-hud .candle-panel{max-width:none}
+.game-shell .side-stock>.deck-wrap{width:34px;flex:none}
+.reserve-summary{display:flex;align-items:center;justify-content:center;gap:10px;width:100px;height:40px;flex:none}
+.game-shell .player-stock .ash-source{position:relative;inset:auto;display:grid;width:24px;height:24px;font-size:10px;flex:none}
+.own-hand-count{display:flex;align-items:center;gap:5px;color:#d3bc88;font-size:13px;white-space:nowrap}.own-hand-count small{font-size:9px;color:#a18c63}.own-hand-count b{font-weight:500}
+.game-shell .hand-rack{grid-template-columns:minmax(0,1fr);gap:0}
+.interaction-bar>.cancel-selection{min-width:52px;min-height:44px;height:44px;padding:0 8px;flex:none;font-size:11px;color:#d3bd94}
+.home-screen .home-cancel-hint{font-size:10px;line-height:1.5;margin:0;text-align:center;color:#c9b17c;flex:none}
+@media(max-width:760px) and (orientation:portrait){
+ .game-shell{grid-template-rows:44px 54px minmax(0,1fr) 54px 44px 142px}
+ .game-shell .side-hud{gap:8px;padding:0 3px}.game-shell .side-hud .player-life{padding:1px 8px;gap:8px}
+ .game-shell .side-stock>.deck-wrap{width:26px}.reserve-summary{width:48px;height:32px;gap:4px}
+ .game-shell .player-stock .ash-source{width:17px;height:17px;font-size:8px}.own-hand-count{flex-direction:column;gap:0;font-size:10px;line-height:1.2}.own-hand-count small{font-size:7px}
+ .interaction-bar>.cancel-selection{min-width:44px;width:44px;padding:0 3px;font-size:10px}
+ .home-screen .home-cancel-hint{font-size:9px;line-height:1.4}
+}
+@media(max-width:360px) and (orientation:portrait){.game-shell{grid-template-rows:44px 50px minmax(0,1fr) 50px 44px 130px}.home-screen .home-cancel-hint{font-size:8px}}
+@media(max-height:520px) and (min-aspect-ratio:1.25/1){
+ .game-shell{grid-template-rows:44px minmax(0,1fr) 112px 90px}
+ .game-shell .side-hud{flex-direction:column;justify-content:center;gap:5px;padding:0}
+ .game-shell .side-hud>.life-panel{flex:none;width:100%;max-width:none;height:50px}
+ .game-shell .side-hud .player-life{padding:3px 5px;gap:0}
+ .game-shell .side-stock>.deck-wrap{width:26px}.reserve-summary{width:48px;height:26px;gap:4px}.game-shell .player-stock .ash-source{width:17px;height:17px;font-size:8px}.own-hand-count{flex-direction:column;gap:0;font-size:10px;line-height:1.2}.own-hand-count small{font-size:7px}
+ .interaction-bar{flex-wrap:wrap;align-content:center;justify-content:center;gap:4px}.game-shell .move-controls{height:44px;flex-basis:100%}.interaction-bar>.cancel-selection{width:100%;min-height:44px;height:44px;font-size:10px}.interaction-bar:has(.cancel-selection)>.card-info-button{display:none}
+ .home-screen .home-cancel-hint{font-size:8px;line-height:1.3}
+}
 
 </style>
 </head>
@@ -914,7 +944,7 @@ function pileHTML(side){
  const n=side==='p'?G.draw.length:G.ed.length,total=side==='p'?G.deck.length:G.st.dk.length,layers=Math.min(n,40),depth=Math.min(n*.55,22);
  return `<div class="deck-wrap"><div class="deck-pile" id="deck-${side}" role="img" aria-label="${side==='p'?'我方':'敌方'}牌堆，剩余${n}张">${n?Array.from({length:layers},(_,i)=>`<div class="deck-layer" style="transform:translate(${i*depth/Math.max(1,layers-1)}px,${-i*depth/Math.max(1,layers-1)}px)"></div>`).join(''):'<span class="deck-empty">空</span>'}</div><div class="deck-info"><span class="deck-name">${side==='p'?'我方':'敌方'}牌堆</span><span class="deck-count"><b>${n}</b><small> / ${total}</small></span></div></div>`;
 }
-function rulesHTML(){return `<div class="rules-copy"><p class="drawer-eyebrow">THE RULES OF EMBERS</p><h2>落牌之前</h2><p>你与敌人各有7点生命、五个战斗格。攻击空位或飞越对手会直击生命，生命归零即落败。</p><h3>抽牌与献祭</h3><p>双方起手5张，首回合无需再抽牌。你已有1张场上余灰。之后每回合免费获得1张余灰，再选择抽1张卡组牌或再取余灰。费用●代表需要献祭的友军数量；新召唤的牌下回合才能献祭。</p><h3>走位与先攻</h3><p>点选手牌，再选祭品与落点。未选手牌时，点击带横移／换位的友军，再用左右按钮调整位置，每回合一次。换位后双方均不能再次移动；击退不追加攻击。</p><p>奇数回合我方先攻，偶数回合敌方先攻；每张存活卡每轮最多攻击一次。守护可以拦截飞行；吸血和中毒只有造成伤害才生效。</p><h3>三重轮回</h3><p>余火 → 薪火 → 深渊。每档通关全部16关后才能开启下一档，晋阶记录保存在当前浏览器。第36回合仍未分胜负时，按生命、场面战力裁决；完全同分玩家获胜。</p><p class="drawer-note">手牌较多时可左右滑动；选牌后点“详情”阅读完整技能。当前对局不自动续存。</p></div>`}
+function rulesHTML(){return `<div class="rules-copy"><p class="drawer-eyebrow">THE RULES OF EMBERS</p><h2>落牌之前</h2><p>你与敌人各有7点生命、五个战斗格。攻击空位或飞越对手会直击生命，生命归零即落败。</p><h3>抽牌与献祭</h3><p>双方起手5张，首回合无需再抽牌。你已有1张场上余灰。之后每回合免费获得1张余灰，再选择抽1张卡组牌或再取余灰。费用●代表需要献祭的友军数量；新召唤的牌下回合才能献祭。</p><h3>走位与先攻</h3><p>点选手牌，再选祭品与落点。选错时按鼠标右键或Esc，手机点击“取消”，即可清除选牌、祭品和位移选择。取消仅清除待确认选择，已完成的出牌或移动不会撤回。未选手牌时，点击带横移／换位的友军，再用左右按钮调整位置，每回合一次。换位后双方均不能再次移动；击退不追加攻击。</p><p>奇数回合我方先攻，偶数回合敌方先攻；每张存活卡每轮最多攻击一次。守护可以拦截飞行；吸血和中毒只有造成伤害才生效。</p><h3>三重轮回</h3><p>余火 → 薪火 → 深渊。每档通关全部16关后才能开启下一档，晋阶记录保存在当前浏览器。第36回合仍未分胜负时，按生命、场面战力裁决；完全同分玩家获胜。</p><p class="drawer-note">手牌较多时可左右滑动；选牌后点“详情”阅读完整技能。当前对局不自动续存。</p></div>`}
 function selectedCard(){return G?.sel!=null?G.hand[G.sel]:G?.moveSel!=null?G.p[G.moveSel]:null}
 function drawerHTML(){
  let title='篝火手册',content=rulesHTML();
@@ -923,7 +953,7 @@ function drawerHTML(){
  return `<div class="drawer-backdrop"><button class="drawer-scrim" data-a="closepanel" aria-label="关闭面板"></button><section class="info-drawer" role="dialog" aria-modal="true" aria-labelledby="drawer-title"><div class="drawer-head"><h2 id="drawer-title">${esc(title)}</h2><button data-a="closepanel" aria-label="关闭面板">关闭 ×</button></div><div class="drawer-scroll">${content}</div></section></div>`;
 }
 function battleMessage(){const hc=selectedCard();return G.busy?'烛火摇曳，战斗结算中…':G.mustDraw?'已获余灰。选择抽卡，或再取余灰。':G.sel!=null?G.sac.size<hc.c?`选择 ${hc.c-G.sac.size} 张祭品，新牌下回合可献祭`:'点击空格或选中的祭品位置落牌':G.moveSel!=null?MOVE_HELP[hc.mv]||'点详情阅读卡牌能力，或选择手牌部署':'选择手牌部署，或点选位移卡调整位置'}
-function homepageHTML(){return `<main class="home-screen title-screen"><section class="home-hero"><div class="home-brand"><span class="home-eyebrow">A TABLE BY THE LAST FIRE</span><h1>薪火牌</h1><p class="subtitle">五席之间，余火未熄</p></div><div class="home-fire"><img src="${BONFIRE_GIF}" alt="燃烧的剑与篝火"></div><p class="home-caption">以遗骸为牌，以余火为注。</p><div class="home-stats"><span><b>5</b> 席战场</span><span><b>7</b> 点薪火</span><span><b>${POOL.length}</b> 张卡牌</span></div></section><section class="home-console"><div class="console-heading"><span>CONTINUE THE JOURNEY</span><h2>重燃你的轮回</h2></div>${journeyHTML()}<p class="home-mode">${difficulty==='story'?'余火轮回 · 关间回复3点薪火':difficulty==='standard'?'薪火轮回 · 后期部署节奏加快':'深渊轮回 · 更强的敌人与更少的回火'}</p><label class="name-label" for="nm">不死人的姓名</label><input id="nm" maxlength="5" value="${esc(pname)}" placeholder="输入姓名，或留空随机" autocomplete="off"><button class="pri home-start" data-a="start">${journey.cleared===3?'再战深渊':'点燃蜡烛 · '+RULES[difficulty].name.split(' · ')[0]}<span aria-hidden="true">✦</span></button><div class="home-secondary"><button data-a="catalog">图鉴与组牌</button><button data-a="rules">玩法手册</button></div><p class="home-save-note">通关晋阶记于此处 · 当前对局不自动续存</p></section><footer class="author-credit" aria-label="作者署名"><span class="sig">Will Wang</span></footer></main>`}
+function homepageHTML(){return `<main class="home-screen title-screen"><section class="home-hero"><div class="home-brand"><span class="home-eyebrow">A TABLE BY THE LAST FIRE</span><h1>薪火牌</h1><p class="subtitle">五席之间，余火未熄</p></div><div class="home-fire"><img src="${BONFIRE_GIF}" alt="燃烧的剑与篝火"></div><p class="home-caption">以遗骸为牌，以余火为注。</p><div class="home-stats"><span><b>5</b> 席战场</span><span><b>7</b> 点薪火</span><span><b>${POOL.length}</b> 张卡牌</span></div></section><section class="home-console"><div class="console-heading"><span>CONTINUE THE JOURNEY</span><h2>重燃你的轮回</h2></div>${journeyHTML()}<p class="home-mode">${difficulty==='story'?'余火轮回 · 关间回复3点薪火':difficulty==='standard'?'薪火轮回 · 后期部署节奏加快':'深渊轮回 · 更强的敌人与更少的回火'}</p><label class="name-label" for="nm">不死人的姓名</label><input id="nm" maxlength="5" value="${esc(pname)}" placeholder="输入姓名，或留空随机" autocomplete="off"><button class="pri home-start" data-a="start">${journey.cleared===3?'再战深渊':'点燃蜡烛 · '+RULES[difficulty].name.split(' · ')[0]}<span aria-hidden="true">✦</span></button><div class="home-secondary"><button data-a="catalog">图鉴与组牌</button><button data-a="rules">玩法手册</button></div><p class="home-cancel-hint">鼠标右键 / Esc 取消选择 · 手机点“取消”</p><p class="home-save-note">通关晋阶记于此处 · 当前对局不自动续存</p></section><footer class="author-credit" aria-label="作者署名"><span class="sig">Will Wang</span></footer></main>`}
 function render(){
  hideTip();const A=document.getElementById('app');boardObserver?.disconnect();
  A.classList.toggle('catalog-mode',OV==='catalog');A.classList.toggle('home-mode',OV==='title');A.classList.toggle('battle-mode',!!G&&OV!=='title'&&OV!=='catalog');
@@ -932,14 +962,15 @@ function render(){
  if(G&&OV!=='title'){
  const hc=G.sel!=null?G.hand[G.sel]:null,mc=G.moveSel!=null?G.p[G.moveSel]:null,selected=hc||mc;
  h+=`<main class="game-shell"><header class="hdr table-topbar"><div class="table-brand"><span class="table-emblem" aria-hidden="true">✦</span><div><strong>薪火牌</strong><small>${esc(G.st.n)} · ${G.lv}/${STG.length}关</small></div></div><nav class="table-tools" aria-label="游戏设置"><button class="icon-toggle" data-a="mute" aria-pressed="${!mute}" aria-label="${mute?'开启':'关闭'}音效">音效 ${mute?'关':'开'}</button><button class="icon-toggle" data-a="mus" aria-pressed="${!mmute}" aria-label="${mmute?'开启':'关闭'}音乐">音乐 ${mmute?'关':'开'}</button><button data-a="catalog">图鉴</button><button data-a="rules" aria-label="玩法手册">规则</button></nav></header>`;
- h+=`<section class="opponent-hud" aria-label="敌方生命与牌库">${healthHTML('e')}<div class="opponent-stock">${pileHTML('e')}<div class="enemy-hand" aria-label="敌方手牌${G.eh.length}张">${G.eh.map((c,i)=>`<div class="card-back ${i<G.eh.length-5?'hand-tucked':''}" data-index="${i}" aria-label="隐藏的敌方手牌"></div>`).join('')}<span class="enemy-hand-count">${G.eh.length}</span></div></div></section>`;
+ h+=`<section class="opponent-hud side-hud" aria-label="敌方生命与牌库">${healthHTML('e')}<div class="opponent-stock side-stock">${pileHTML('e')}<div class="enemy-hand" aria-label="敌方手牌${G.eh.length}张">${G.eh.map((c,i)=>`<div class="card-back ${i<G.eh.length-5?'hand-tucked':''}" data-index="${i}" aria-label="隐藏的敌方手牌"></div>`).join('')}<span class="enemy-hand-count">${G.eh.length}</span></div></div></section>`;
  h+=`<section class="table-arena" aria-label="五席战场"><div class="row board enemy-board">${G.e.map((c,i)=>c?cardHTML(c,'',`id="c-e-${i}" data-a="enemyinfo" data-i="${i}" tabindex="0"`):`<div class="slot" id="c-e-${i}"><small>${i+1}</small><span aria-hidden="true">◇</span></div>`).join('')}</div><div class="round-banner"><span>第 ${G.turn} / ${MATCH_LIMIT} 回合</span><i aria-hidden="true"></i><b>${G.turn%2?'我方':'敌方'}先攻</b><i aria-hidden="true"></i><span>双方各结算一次</span></div><div class="row board player-board">${G.p.map((c,i)=>{const ok=hc&&G.sac.size===hc.c&&(!c||G.sac.has(i)),sac=G.sac.has(i),mobile=c&&['shift','swap'].includes(c.mv)&&c.moved!==G.turn;return c?cardHTML(c,(sac?'sacrificing ':'')+(G.moveSel===i?'move-selected ':'')+(mobile?'can-move ':'')+(c.t===G.turn?'fresh':''),`id="c-p-${i}" data-a="s" data-i="${i}" tabindex="0" ${ok?'style="outline:2px solid var(--candle)"':''}`):`<div class="slot ${ok?'ok':''}" id="c-p-${i}" data-a="s" data-i="${i}" tabindex="0"><small>${i+1}</small><span aria-hidden="true">◇</span></div>`}).join('')}</div></section>`;
- h+=`<section class="player-vitals" aria-label="我方生命">${healthHTML('p')}</section><section class="interaction-bar">`;
+ h+=`<section class="player-vitals side-hud" aria-label="我方生命与牌库">${healthHTML('p')}<div class="opponent-stock player-stock side-stock">${pileHTML('p')}<div class="reserve-summary"><div class="ash-source" id="ash-source" role="img" aria-label="余灰来源">灰</div><span class="own-hand-count" aria-label="我方手牌${G.hand.length}张"><small>手牌</small><b>${G.hand.length}</b></span></div></div></section><section class="interaction-bar">`;
  if(mc&&['shift','swap'].includes(mc.mv))h+=`<div class="move-controls"><button data-a="move" data-d="-1" ${canMove('p',G.moveSel,-1)&&!G.busy&&!G.mustDraw?'':'disabled'} aria-label="左移一格">← 左移</button><span>${esc(mc.n)}<small>${mc.moved===G.turn?'本回合已移动':MOVE_LABEL[mc.mv]+' · 每回合一次'}</small></span><button data-a="move" data-d="1" ${canMove('p',G.moveSel,1)&&!G.busy&&!G.mustDraw?'':'disabled'} aria-label="右移一格">右移 →</button></div>`;
  else h+=`<p class="msg battle-message" aria-live="polite">${esc(battleMessage())}</p>`;
+ if(hasSelection())h+=`<button class="cancel-selection" data-a="cancel" ${G.busy?'disabled':''} aria-label="取消当前选择">取消</button>`;
  h+=`<button class="card-info-button" data-a="${selected?'details':'logs'}" aria-label="${selected?'卡牌详情':'战斗记录'}">${selected?'详情':'记录'}</button></section>`;
  h+=`<aside class="table-sidebar"><div class="sidebar-heading"><span>THE EMBER CHRONICLE</span><b>${RULES[difficulty].name.split(' · ')[0]}轮回</b></div><p class="stage-rule">${esc(G.st.pd)}</p><div class="sidebar-inspection">${selected?`<div class="inspection-card">${cardHTML(selected)}</div><p>${esc(selected.lore||'薪火仍在，命运未定。')}</p><button data-a="details">阅读完整能力</button>`:`<div class="table-seal" aria-hidden="true">✦</div><h3>读懂战局，再落一牌</h3><p>点选手牌查看属性。<br>带绿色刻印的友军可调整位置。</p>`}</div><div class="sidebar-actions"><button data-a="logs">战斗记录</button><button data-a="rules">篝火手册</button></div></aside>`;
- h+=`<section class="player-dock"><div class="hand-rack"><div class="player-deck-zone">${pileHTML('p')}<div class="ash-source" id="ash-source" role="img" aria-label="余灰来源">灰</div></div><div class="hand" aria-label="我方手牌，可左右滑动">${G.hand.map((c,i)=>cardHTML(c,i===G.sel?'sel':'',`data-a="h" data-i="${i}" tabindex="0"`)).join('')}</div></div><div class="action-column"><span class="action-caption">${G.mustDraw?'DRAW YOUR FATE':'COMMIT TO THE FIRE'}</span><div class="ctl">${G.mustDraw?`<button class="pri" data-a="deck" ${G.draw.length&&!G.busy?'':'disabled'}>抽卡组 · ${G.draw.length}</button><button data-a="sq" ${G.busy?'disabled':''}>再取余灰</button>`:`<button class="pri" data-a="end" ${G.busy?'disabled':''}>${G.busy?'战斗结算中…':'结束部署'}<small>${G.turn%2?'我方':'敌方'}先攻</small></button>`}</div></div></section></main>`;
+ h+=`<section class="player-dock"><div class="hand-rack"><div class="hand" aria-label="我方手牌，可左右滑动">${G.hand.map((c,i)=>cardHTML(c,i===G.sel?'sel':'',`data-a="h" data-i="${i}" tabindex="0"`)).join('')}</div></div><div class="action-column"><span class="action-caption">${G.mustDraw?'DRAW YOUR FATE':'COMMIT TO THE FIRE'}</span><div class="ctl">${G.mustDraw?`<button class="pri" data-a="deck" ${G.draw.length&&!G.busy?'':'disabled'}>抽卡组 · ${G.draw.length}</button><button data-a="sq" ${G.busy?'disabled':''}>再取余灰</button>`:`<button class="pri" data-a="end" ${G.busy?'disabled':''}>${G.busy?'战斗结算中…':'结束部署'}<small>${G.turn%2?'我方':'敌方'}先攻</small></button>`}</div></div></section></main>`;
  }
  if(OV==='title')h=homepageHTML();
  if(OV==='win')h+=`<div class="ov modal-screen reward-screen"><span class="modal-kicker">THE FIRE ENDURES</span><h2>薪火仍在燃烧</h2><p>${esc(G.st.n)} · 第${G.turn}回合获胜<br>生命 ${G.hp}/7 · 关间回复 ${RULES[difficulty].heal} 点</p><p>选择一张：关卡强卡、位移卡或支援卡</p><div class="row reward-row">${G.rw.map((c,i)=>cardHTML(c,'',`data-a="rw" data-i="${i}" tabindex="0"`)).join('')}</div><p>卡组超过18张时，可移除一张旧牌。</p></div>`;
@@ -960,10 +991,22 @@ function scheduleLayout(){cancelAnimationFrame(layoutFrame);layoutFrame=requestA
 function updateViewport(){const view=window.visualViewport;document.documentElement.classList.toggle('keyboard-open',!!view&&view.height<window.innerHeight*.75&&['INPUT','TEXTAREA'].includes(document.activeElement?.tagName));if(!view||view.scale===1)document.documentElement.style.setProperty('--app-height',(view?.height||window.innerHeight)+'px');scheduleLayout()}
 window.addEventListener('resize',updateViewport);window.addEventListener('orientationchange',updateViewport);window.visualViewport?.addEventListener('resize',updateViewport);updateViewport();
 
+function hasSelection(){return !!G&&(G.sel!=null||G.moveSel!=null||G.sac.size>0)}
+function cancelSelection(){
+ if(!G||OV!==null||G.busy||drawRunning||!hasSelection())return false;
+ G.sel=null;G.moveSel=null;G.sac.clear();
+ if(infoPanel==='details'){infoPanel=null;detailCardOverride=null}
+ render();return true;
+}
+document.addEventListener('contextmenu',event=>{
+ if(!document.getElementById('app').contains(event.target)||event.target.closest('input,textarea,select,[contenteditable]'))return;
+ if(cancelSelection())event.preventDefault();
+});
 function nextStage(){if(G.lv>=STG.length){OV='clear';render();return}G.lv++;battle()}
 document.addEventListener('click',async event=>{
  const t=event.target.closest('[data-a]');if(!t)return;const action=t.dataset.a,i=Number(t.dataset.i);
  if(action==='closepanel'){infoPanel=null;detailCardOverride=null;render();return}
+ if(action==='cancel'){cancelSelection();return}
  if(G?.busy||drawRunning)return;
  if(action==='enemyinfo'&&G&&!OV&&G.e[i]){detailCardOverride=G.e[i];infoPanel='details';render();requestAnimationFrame(()=>document.querySelector('.drawer-head button')?.focus());return}
  if(['rules','logs','details'].includes(action)){detailCardOverride=null;infoPanel=action;render();requestAnimationFrame(()=>document.querySelector('.drawer-head button')?.focus());return}
@@ -1002,7 +1045,7 @@ document.addEventListener('change',event=>{const t=event.target;if(t.id==='catga
 document.addEventListener('input',event=>{if(event.target.id!=='catsearch')return;const pos=event.target.selectionStart;catalogSearch=event.target.value;catalogPage=0;render();const input=document.getElementById('catsearch');input?.focus();input?.setSelectionRange(pos,pos)});
 document.addEventListener('keydown',event=>{if((event.key==='Enter'||event.key===' ')&&event.target.matches('[data-a][tabindex]')){event.preventDefault();event.target.click()}});
 
-document.addEventListener('keydown',event=>{if(event.key==='Escape'&&infoPanel){infoPanel=null;detailCardOverride=null;render()}});
+document.addEventListener('keydown',event=>{if(event.key!=='Escape')return;if(infoPanel){infoPanel=null;detailCardOverride=null;render();return}if(cancelSelection())event.preventDefault()});
 document.addEventListener('focusin',updateViewport);document.addEventListener('focusout',()=>requestAnimationFrame(updateViewport));
 
 render();
