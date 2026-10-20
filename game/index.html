@@ -315,6 +315,11 @@ select option{background:#281f16;color:#e4d0ab}
  button:not(:disabled):active{transform:none}
 }
 
+/* 首页署名放在所有内容之后，保持金色小字。 */
+.title-screen{justify-content:flex-start}
+.title-screen .author-credit{margin: auto 0 0;padding-top:18px;flex-shrink:0;text-align:center;color:#d7ad65}
+.title-screen .author-credit .sig{font-size:11px;line-height:1.5;font-style:normal;font-weight:500;color:#d7ad65;letter-spacing:.12em;text-shadow:none}
+
 </style>
 </head>
 <body>
@@ -852,7 +857,7 @@ function render(){
  h+=`<div class="msg battle-message" aria-live="polite">${esc(message)}</div><div class="supply player-supply">${pileHTML('p')}<span class="deck-info">起手5张<br>手牌 ${G.hand.length} 张</span><div class="ash-source" id="ash-source">余灰</div></div>`;
  h+=`<div class="hand">${G.hand.map((c,i)=>cardHTML(c,i===G.sel?'sel':'',`data-a="h" data-i="${i}" tabindex="0"`)).join('')}</div><div class="ctl">${G.mustDraw?`<button data-a="deck" ${G.draw.length&&!G.busy?'':'disabled'}>抽卡组 · ${G.draw.length}</button><button data-a="sq" ${G.busy?'disabled':''}>再取余灰</button>`:`<button class="pri" data-a="end" ${G.busy?'disabled':''}>结束部署 · ${G.turn%2?'我方':'敌方'}先攻</button>`}</div><details class="battle-log"><summary>战斗记录 · 下回合${G.turn%2?'敌方':'我方'}先攻</summary>${(G.log||[]).slice(-12).map(t=>`<p>${esc(t)}</p>`).join('')}</details>`;
  }
- if(OV==='title')h+=`<div class="ov title-screen"><div class="title-mark">✦</div><h1>薪火牌</h1><p class="subtitle">五席之间，余火未熄</p><p><span class="sig">Will Wang</span></p><p>双方 7 点生命 · 五格战场 · 每轮交换先攻<br>起手各 5 张；你另有一张场上余灰可献祭。<br>每回合免费获得余灰，并选择抽卡或再取余灰。<br>新召唤的牌下回合才能献祭。</p><p>横移：左右移入空格 · 换位：交换邻近友军<br>击退：命中后推开敌人 · 守护：拦截飞行<br>第 ${MATCH_LIMIT} 回合按生命、场面裁决，同分玩家获胜。</p><p>${POOL.length} 种卡牌 · ${STG.length} 关<br>恶魔之魂、黑暗之魂Ⅰ–Ⅲ、血源、只狼、艾尔登法环及DLC</p>${journeyHTML()}<p class="difficulty-hint">${difficulty==='story'?'敌方每轮最多出1张牌、关卡被动隔轮触发；关间回复3点。':difficulty==='challenge'?'敌方每轮抽2张、最多出2张，中高费牌+1血；关间回复1点。':'后期敌方偶数回合最多出2张；关间回复2点。'}</p><input id="nm" maxlength="5" value="${esc(pname)}" placeholder="输入不死人姓名"><button class="pri" data-a="start">${journey.cleared===3?'再战深渊':'点燃蜡烛 · '+RULES[difficulty].name.split(' · ')[0]}</button><button data-a="catalog">卡牌图鉴与组牌</button><p class="fine-print">通关晋阶记录保存在本机浏览器；失败后重试当前轮回。<br>死亡遗骸最多携带1张，当前对局不自动续存。</p></div>`;
+ if(OV==='title')h+=`<div class="ov title-screen"><div class="title-mark">✦</div><h1>薪火牌</h1><p class="subtitle">五席之间，余火未熄</p><p>双方 7 点生命 · 五格战场 · 每轮交换先攻<br>起手各 5 张；你另有一张场上余灰可献祭。<br>每回合免费获得余灰，并选择抽卡或再取余灰。<br>新召唤的牌下回合才能献祭。</p><p>横移：左右移入空格 · 换位：交换邻近友军<br>击退：命中后推开敌人 · 守护：拦截飞行<br>第 ${MATCH_LIMIT} 回合按生命、场面裁决，同分玩家获胜。</p><p>${POOL.length} 种卡牌 · ${STG.length} 关<br>恶魔之魂、黑暗之魂Ⅰ–Ⅲ、血源、只狼、艾尔登法环及DLC</p>${journeyHTML()}<p class="difficulty-hint">${difficulty==='story'?'敌方每轮最多出1张牌、关卡被动隔轮触发；关间回复3点。':difficulty==='challenge'?'敌方每轮抽2张、最多出2张，中高费牌+1血；关间回复1点。':'后期敌方偶数回合最多出2张；关间回复2点。'}</p><input id="nm" maxlength="5" value="${esc(pname)}" placeholder="输入不死人姓名"><button class="pri" data-a="start">${journey.cleared===3?'再战深渊':'点燃蜡烛 · '+RULES[difficulty].name.split(' · ')[0]}</button><button data-a="catalog">卡牌图鉴与组牌</button><p class="fine-print">通关晋阶记录保存在本机浏览器；失败后重试当前轮回。<br>死亡遗骸最多携带1张，当前对局不自动续存。</p><footer class="author-credit" aria-label="作者署名"><span class="sig">Will Wang</span></footer></div>`;
  if(OV==='win')h+=`<div class="ov reward-screen"><h2>薪火仍在燃烧</h2><p>${esc(G.st.n)} · 第${G.turn}回合获胜<br>生命 ${G.hp}/7 · 关间回复 ${RULES[difficulty].heal} 点（至少恢复至4点）</p><p>选择一张：关卡强卡、位移卡或支援卡</p><div class="row reward-row">${G.rw.map((c,i)=>cardHTML(c,'',`data-a="rw" data-i="${i}" tabindex="0"`)).join('')}</div><p>卡组超过18张时，可移除一张旧牌。</p></div>`;
  if(OV==='trim')h+=`<div class="ov trim-screen"><h2>整理行囊</h2><p>选择移除一张，保持18张卡组。</p><div class="trim-grid">${G.deck.map((c,i)=>`<button data-a="trim" data-i="${i}">${esc(c.n)}<small>${c.c}费 · ${c.a}/${c.h}</small></button>`).join('')}</div></div>`;
  if(OV==='dead')h+=`<div class="ov"><h2>你死了</h2><p>死于「${esc(G.dc.by)}」<br>通过 ${G.wins}/${STG.length} 关 · 击杀 ${G.kills} 个敌人</p>${cardHTML(G.dc)}<p>遗骸会在下次轮回中作为额外卡牌保留。</p><button class="pri" data-a="title">回到篝火</button></div>`;
