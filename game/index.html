@@ -417,6 +417,77 @@ html.keyboard-open .home-screen.title-screen{grid-template-rows:minmax(0,1fr) 14
  .interaction-bar{flex-wrap:wrap;align-content:center;justify-content:center;gap:4px}.game-shell .move-controls{height:44px;flex-basis:100%}.interaction-bar>.cancel-selection{width:100%;min-height:44px;height:44px;font-size:10px}.interaction-bar:has(.cancel-selection)>.card-info-button{display:none}
  .home-screen .home-cancel-hint{font-size:8px;line-height:1.3}
 }
+/* The guide points at live controls; only its small note catches pointer input. */
+.tutorial-layer{position:fixed;inset:0;z-index:100;pointer-events:none;isolation:isolate;color:#ead9b5;font-family:var(--ui-serif);text-align:left}
+.tutorial-layer.tutorial-paused{display:none}
+.tutorial-focus{position:fixed;z-index:1;pointer-events:none;border:2px solid #ffdb83;border-radius:7px;box-sizing:border-box;box-shadow:0 0 0 3px #17130cc9,0 0 0 4px #d3a65066,0 0 22px #e8ac4455,inset 0 0 12px #e8ac441a;animation:tutorial-focus-glow 2.4s ease-in-out infinite}
+.tutorial-arrows{position:fixed;inset:0;width:100%;height:100%;z-index:2;overflow:visible;pointer-events:none;filter:drop-shadow(0 2px 2px #000c)}
+.tutorial-arrows path{fill:none;stroke:#ffdb83;stroke-width:2;stroke-linecap:round;stroke-linejoin:round}
+.tutorial-arrows marker path{fill:#ffdb83;stroke:none}
+.tutorial-coach{position:fixed;z-index:3;pointer-events:auto;box-sizing:border-box;width:min(310px,calc(100vw - 24px));max-width:calc(100vw - 24px);max-height:calc(var(--app-height,100vh) - 24px);overflow:auto;overscroll-behavior:contain;-webkit-overflow-scrolling:touch;padding:8px 14px 13px;border:1px solid #c6a66a;border-top-color:#ead39d;border-bottom-color:#79603c;border-radius:7px;background:radial-gradient(ellipse at 10% 0,#83602d2b,transparent 80%),linear-gradient(115deg,#29271e,#171c16 75%);box-shadow:inset 0 0 0 3px #15180f,inset 0 0 0 4px #c09b4f35,0 6px 30px #000b;scrollbar-width:thin;scrollbar-color:#957644 #171c16;line-height:1.55}
+.tutorial-heading{display:flex;align-items:center;justify-content:space-between;gap:8px;min-height:44px;margin:-3px -7px 0 0}
+.tutorial-step-label{font-size:10px;line-height:1.4;letter-spacing:.12em;color:#c9ac70;font-weight:500}
+.tutorial-coach .tutorial-heading button{flex:none;min-width:44px;min-height:44px;height:44px;width:auto;margin:0;padding:0 7px;border:0;border-radius:3px;background:none;box-shadow:none;color:#b8aa89;font-size:11px;line-height:1.2;letter-spacing:0;text-shadow:none;font-weight:500}
+.tutorial-coach .tutorial-heading button::before{display:none}
+.tutorial-coach .tutorial-heading button:hover{color:#ffe2a0;background:#c7a46212}
+.tutorial-coach h2{font-size:18px;line-height:1.4;font-weight:500;letter-spacing:.05em;color:#f5ddb0;margin:0 0 7px;padding:0;text-align:left}
+.tutorial-coach p{font-size:14px;line-height:1.65;letter-spacing:0;color:#d9cfb7;margin:0;text-align:left;max-width:none}
+.tutorial-coach strong{color:#ffe09a;font-weight:700}
+.tutorial-coach .tutorial-tip{padding-top:7px;margin-top:7px;border-top:1px solid #b7975933;color:#adab90;font-size:11px;line-height:1.55}
+.tutorial-coach .tutorial-feedback{padding:5px 7px;margin-top:7px;border-left:2px solid #d88d50;background:#8f4d2022;color:#f0c08b;font-size:12px;line-height:1.5}
+.tutorial-footer{display:flex;justify-content:flex-end;align-items:center;gap:8px;margin-top:10px}
+.tutorial-coach .tutorial-footer button{min-height:44px;min-width:88px;padding:8px 12px;font-size:12px;line-height:1.4;letter-spacing:.02em}
+.tutorial-busy .tutorial-focus{animation:none;opacity:.6}
+.tutorial-busy .tutorial-coach{border-color:#9f8b63}
+.tutorial-home-link{display:inline-flex;align-items:center;justify-content:center;min-height:44px;margin-top:10px;padding:8px 14px;font-size:12px}
+.practice-badge{display:inline-flex;align-items:center;gap:5px;padding:2px 6px;border:1px solid #b79c5c77;border-radius:3px;background:#352e194d;color:#e2c68a;font-size:9px;font-weight:500;letter-spacing:.04em;white-space:nowrap}
+@keyframes tutorial-focus-glow{0%,100%{border-color:#f1c771;box-shadow:0 0 0 3px #17130cc9,0 0 0 4px #d3a65055,0 0 14px #e8ac4433}50%{border-color:#ffe8ac;box-shadow:0 0 0 3px #17130cc9,0 0 0 4px #d3a65088,0 0 24px #e8ac4466}}
+@media(max-width:420px){
+ .tutorial-coach{padding:6px 12px 11px;border-radius:6px}
+ .tutorial-heading{margin-top:-3px;margin-right:-6px}
+ .tutorial-coach h2{font-size:16px;margin-bottom:5px}
+ .tutorial-coach p{font-size:13px;line-height:1.6}
+ .tutorial-coach .tutorial-tip{font-size:10px;line-height:1.5;padding-top:5px;margin-top:5px}
+ .tutorial-step-label{font-size:9px;letter-spacing:.06em}
+ .tutorial-footer{margin-top:8px}
+ .practice-badge{font-size:8px;padding:1px 4px}
+}
+@media(max-height:520px) and (min-aspect-ratio:1.25/1){
+ .tutorial-coach{width:290px;padding:5px 12px 10px}
+ .tutorial-coach h2{font-size:16px;margin-bottom:4px}
+ .tutorial-coach p{font-size:12px;line-height:1.55}
+ .tutorial-coach .tutorial-tip{font-size:10px;line-height:1.45;margin-top:5px;padding-top:5px}
+ .tutorial-step-label{font-size:9px}
+}
+@media(prefers-reduced-motion:reduce){.tutorial-focus{animation:none}.tutorial-coach,.tutorial-arrows{transition:none}}
+/* A quiet author note shares the opening table with the fire. */
+.home-screen .home-tribute{width:100%;max-width:440px;margin:0;padding:9px 0 0;border-top:1px solid #a88a4b33;color:#c2b18d;font-size:12px;line-height:1.75;letter-spacing:.025em;text-align:left;flex:none}
+.home-screen .home-fire{height:clamp(100px,23vh,230px);flex-shrink:1;min-height:65px}
+@media(max-width:760px) and (orientation:portrait){
+ .home-screen.title-screen{grid-template-rows:minmax(174px,.55fr) minmax(0,1fr) 18px}
+ .home-screen .home-hero{grid-template-columns:minmax(0,1fr) 76px;grid-template-rows:minmax(60px,1fr) auto;gap:6px 8px;align-content:center}
+ .home-screen .home-fire{height:100%;max-height:85px;min-height:0;grid-column:2;grid-row:1}
+ .home-screen .home-fire img{max-height:85px;max-width:76px}
+ .home-screen .home-caption,.home-screen .home-stats{display:none}
+ .home-screen .home-tribute{grid-column:1/-1;grid-row:2;padding-top:6px;font-size:11px;line-height:1.55;letter-spacing:0;align-self:start}
+ .home-screen .home-console{padding-top:8px;padding-bottom:8px;gap:7px}
+}
+@media(max-width:360px) and (orientation:portrait){
+ .home-screen.title-screen{grid-template-rows:minmax(174px,.55fr) minmax(0,1fr) 18px;gap:6px}
+ .home-screen .home-hero{grid-template-columns:minmax(0,1fr) 66px;gap:4px 6px}
+ .home-screen .home-fire img{max-width:66px;max-height:76px}
+ .home-screen .home-tribute{font-size:11px;line-height:1.5;padding-top:5px}
+ .home-screen .home-console{gap:6px;padding:7px}
+ .home-screen .home-save-note{display:none}
+}
+@media(max-height:520px) and (min-aspect-ratio:1.25/1){
+ .home-screen .home-hero{gap:6px}
+ .home-screen .home-fire{height:clamp(48px,15vh,80px);min-height:36px}
+ .home-screen .home-caption,.home-screen .home-stats{display:none}
+ .home-screen .home-tribute{padding-top:7px;font-size:11px;line-height:1.5;letter-spacing:0}
+}
+/* Keep the name field reachable when the software keyboard covers the hero. */
+html.keyboard-open .home-screen .home-hero{display:none}
 
 </style>
 </head>
@@ -806,7 +877,7 @@ let difficulty=activeDifficulty(),catalogGame='all',catalogKind='all',catalogSea
 try{customDeck=JSON.parse(localStorage.getItem('mz_custom_deck')||'[]')}catch{}
 function completeDifficulty(){
  const index=DIFFICULTY_ORDER.indexOf(difficulty);
- if(!G||G.lv!==STG.length||G.wins<STG.length||G.tierRecorded||index!==journey.cleared)return;
+ if(!G||G.tutorial||G.lv!==STG.length||G.wins<STG.length||G.tierRecorded||index!==journey.cleared)return;
  G.tierRecorded=true;journey.cleared=Math.min(DIFFICULTY_ORDER.length,journey.cleared+1);
  try{localStorage.setItem(JOURNEY_STORAGE,JSON.stringify({version:1,cleared:journey.cleared}))}catch{}
 }
@@ -841,6 +912,7 @@ function stageDeck(st){
 }
 function opening(deck){const cheap=deck.findIndex(c=>c.c===1);if(cheap>=0)deck.push(deck.splice(cheap,1)[0]);return deck}
 function newRun(){
+ TUT=null;infoPanel=null;detailCardOverride=null;
  difficulty=activeDifficulty();
  const names=validDeck(customDeck)?customDeck:STARTER;
  G={lv:1,wins:0,kills:0,deck:names.map(n=>makeCard(POOL.find(c=>c.n===n))),sel:null,sac:new Set(),busy:1,log:[],history:[]};
@@ -854,7 +926,7 @@ async function battle(){
  G.p[2]={...SQ,t:0};G.e[2]={...fodder(G.st),t:0};render();snd('shuffle');
  for(const side of ['e','p','e','p','e','p','e','p','e']){takeCard(side);render();await drawIdle}
  takeCard('p',true);render();await drawIdle;await enemyPlay(1,true);
- G.mustDraw=0;G.busy=0;logBattle('双方各获5张起手牌；敌方已完成首次出牌。首回合无需再抽牌。');render();
+ G.mustDraw=0;G.busy=0;logBattle('双方各获5张起手牌；开局场上余灰已成熟，可立即献祭。新召唤的牌须等下一回合。首回合无需再抽牌。');render();
 }
 function eCard(n,st){const c=makeCard(POOL.find(c=>c.n===n),true),bonus=(difficulty==='challenge'&&c.c>=2?1:0);c.h+=Math.min(1,bonus);c.h0=c.h;return c}
 function sacrificeCandidates(c){return LANE_LIST.filter(i=>G.e[i]&&(G.e[i].t||0)<G.turn).sort((x,y)=>{const a=G.e[x],b=G.e[y];return (a.fod?0:10+a.a*2+a.h)-(b.fod?0:10+b.a*2+b.h)}).slice(0,c.c)}
@@ -871,6 +943,7 @@ function sacFx(x){
  if(triggered)G.passiveTurn=G.turn;
 }
 async function enemyPlay(anim=true,initial=false){
+ if(G.tutorial)return;
  const st=G.st,E=G.e;
  if(!initial){for(let k=0;k<(difficulty==='challenge'?2:1);k++){if(takeCard('e')){render();await drawIdle}}}
  const tokens=initial?0:(difficulty==='story'?1:difficulty==='challenge'?2:st.tier>=3&&G.turn%3===0?2:1);
@@ -926,8 +999,8 @@ async function endTurn(){
 }
 function chk(){if(OV==='win'||OV==='dead'||OV==='clear')return 1;if(G.hp<=0){lose();return 1}if(G.ehp<=0){win();return 1}return 0}
 function rewardCards(){const owned=new Set(G.deck.map(c=>c.n));const stage=stagePool(G.st).filter(c=>!owned.has(c.n)),all=POOL.filter(c=>!owned.has(c.n));const choose=(p,except=[])=>pick(p.filter(c=>!except.includes(c.n)));const result=[];for(const candidates of [stage.filter(c=>c.c>=2),all.filter(c=>c.mv),all.filter(c=>c.dr||c.dd||c.heal)]){const c=choose(candidates.length?candidates:all,result.map(c=>c.n));if(c)result.push(makeCard(c))}return result}
-function win(){if(OV==='win'||OV==='clear')return;G.wins++;G.history.push({stage:G.st.n,turns:G.turn,hp:G.hp});G.rw=rewardCards();completeDifficulty();G.busy=0;OV='win';snd('win');render()}
-function lose(reason){if(OV==='dead')return;const k=G.lastHit||G.killer||{n:reason||'余火耗尽',s:'bones'};G.dc={n:pname+'余灰',a:Math.min(3,1+Math.floor(G.wins/4)),h:Math.min(5,2+Math.floor(G.wins/4)),c:G.wins>=4?2:1,s:k.s||'bones',x:G.kills>=12?'soul':G.wins>=2?'ember':'rekindle',d:1,by:reason||k.n,at:k.at||'暗'};G.dc.a0=G.dc.a;G.dc.h0=G.dc.h;grave.push(cp(G.dc));try{localStorage.setItem('mz_grave',JSON.stringify(grave.slice(-30)))}catch{}G.busy=0;OV='dead';snd('die');render()}
+function win(){if(G.tutorial){G.busy=0;TUT.finished=true;render();return}if(OV==='win'||OV==='clear')return;G.wins++;G.history.push({stage:G.st.n,turns:G.turn,hp:G.hp});G.rw=rewardCards();completeDifficulty();G.busy=0;OV='win';snd('win');render()}
+function lose(reason){if(G.tutorial){G.busy=0;TUT.finished=true;render();return}if(OV==='dead')return;const k=G.lastHit||G.killer||{n:reason||'余火耗尽',s:'bones'};G.dc={n:pname+'余灰',a:Math.min(3,1+Math.floor(G.wins/4)),h:Math.min(5,2+Math.floor(G.wins/4)),c:G.wins>=4?2:1,s:k.s||'bones',x:G.kills>=12?'soul':G.wins>=2?'ember':'rekindle',d:1,by:reason||k.n,at:k.at||'暗'};G.dc.a0=G.dc.a;G.dc.h0=G.dc.h;grave.push(cp(G.dc));try{localStorage.setItem('mz_grave',JSON.stringify(grave.slice(-30)))}catch{}G.busy=0;OV='dead';snd('die');render()}
 async function commit(i){
  if(G.busy||G.sel==null)return;const c=G.hand[G.sel],sacs=[...G.sac];if(!c||sacs.length!==c.c||G.p[i]&&!G.sac.has(i)||sacs.some(j=>!G.p[j]||(G.p[j].t||0)>=G.turn))return;
  G.busy=1;if(sacs.length){sacs.forEach(j=>{const node=el('p',j);if(node)burn(node)});snd('burn');await wait(250)}
@@ -944,7 +1017,7 @@ function pileHTML(side){
  const n=side==='p'?G.draw.length:G.ed.length,total=side==='p'?G.deck.length:G.st.dk.length,layers=Math.min(n,40),depth=Math.min(n*.55,22);
  return `<div class="deck-wrap"><div class="deck-pile" id="deck-${side}" role="img" aria-label="${side==='p'?'我方':'敌方'}牌堆，剩余${n}张">${n?Array.from({length:layers},(_,i)=>`<div class="deck-layer" style="transform:translate(${i*depth/Math.max(1,layers-1)}px,${-i*depth/Math.max(1,layers-1)}px)"></div>`).join(''):'<span class="deck-empty">空</span>'}</div><div class="deck-info"><span class="deck-name">${side==='p'?'我方':'敌方'}牌堆</span><span class="deck-count"><b>${n}</b><small> / ${total}</small></span></div></div>`;
 }
-function rulesHTML(){return `<div class="rules-copy"><p class="drawer-eyebrow">THE RULES OF EMBERS</p><h2>落牌之前</h2><p>你与敌人各有7点生命、五个战斗格。攻击空位或飞越对手会直击生命，生命归零即落败。</p><h3>抽牌与献祭</h3><p>双方起手5张，首回合无需再抽牌。你已有1张场上余灰。之后每回合免费获得1张余灰，再选择抽1张卡组牌或再取余灰。费用●代表需要献祭的友军数量；新召唤的牌下回合才能献祭。</p><h3>走位与先攻</h3><p>点选手牌，再选祭品与落点。选错时按鼠标右键或Esc，手机点击“取消”，即可清除选牌、祭品和位移选择。取消仅清除待确认选择，已完成的出牌或移动不会撤回。未选手牌时，点击带横移／换位的友军，再用左右按钮调整位置，每回合一次。换位后双方均不能再次移动；击退不追加攻击。</p><p>奇数回合我方先攻，偶数回合敌方先攻；每张存活卡每轮最多攻击一次。守护可以拦截飞行；吸血和中毒只有造成伤害才生效。</p><h3>三重轮回</h3><p>余火 → 薪火 → 深渊。每档通关全部16关后才能开启下一档，晋阶记录保存在当前浏览器。第36回合仍未分胜负时，按生命、场面战力裁决；完全同分玩家获胜。</p><p class="drawer-note">手牌较多时可左右滑动；选牌后点“详情”阅读完整技能。当前对局不自动续存。</p></div>`}
+function rulesHTML(){return `<div class="rules-copy"><p class="drawer-eyebrow">THE RULES OF EMBERS</p><h2>落牌之前</h2><p>你与敌人各有7点生命、五个战斗格。攻击空位或飞越对手会直击生命，生命归零即落败。</p><button class="tutorial-home-link" data-a="tutorial">重看新手指引 · 两回合练习</button><h3>抽牌与献祭</h3><p>双方起手5张，首回合无需再抽牌。正式开局已有1张成熟的场上余灰，可立即献祭；本回合新部署的牌仍须等下一回合。之后每回合免费获得1张余灰，再选择抽1张卡组牌或再取余灰。费用●代表需要献祭的友军数量；新召唤的牌下回合才能献祭。</p><h3>走位与先攻</h3><p>点选手牌，再选祭品与落点。选错时按鼠标右键或Esc，手机点击“取消”，即可清除选牌、祭品和位移选择。取消仅清除待确认选择，已完成的出牌或移动不会撤回。未选手牌时，点击带横移／换位的友军，再用左右按钮调整位置，每回合一次。换位后双方均不能再次移动；击退不追加攻击。</p><p>奇数回合我方先攻，偶数回合敌方先攻；每张存活卡每轮最多攻击一次。守护可以拦截飞行；吸血和中毒只有造成伤害才生效。</p><h3>三重轮回</h3><p>余火 → 薪火 → 深渊。每档通关全部16关后才能开启下一档，晋阶记录保存在当前浏览器。第36回合仍未分胜负时，按生命、场面战力裁决；完全同分玩家获胜。</p><p class="drawer-note">手牌较多时可左右滑动；选牌后点“详情”阅读完整技能。当前对局不自动续存。</p></div>`}
 function selectedCard(){return G?.sel!=null?G.hand[G.sel]:G?.moveSel!=null?G.p[G.moveSel]:null}
 function drawerHTML(){
  let title='篝火手册',content=rulesHTML();
@@ -953,7 +1026,7 @@ function drawerHTML(){
  return `<div class="drawer-backdrop"><button class="drawer-scrim" data-a="closepanel" aria-label="关闭面板"></button><section class="info-drawer" role="dialog" aria-modal="true" aria-labelledby="drawer-title"><div class="drawer-head"><h2 id="drawer-title">${esc(title)}</h2><button data-a="closepanel" aria-label="关闭面板">关闭 ×</button></div><div class="drawer-scroll">${content}</div></section></div>`;
 }
 function battleMessage(){const hc=selectedCard();return G.busy?'烛火摇曳，战斗结算中…':G.mustDraw?'已获余灰。选择抽卡，或再取余灰。':G.sel!=null?G.sac.size<hc.c?`选择 ${hc.c-G.sac.size} 张祭品，新牌下回合可献祭`:'点击空格或选中的祭品位置落牌':G.moveSel!=null?MOVE_HELP[hc.mv]||'点详情阅读卡牌能力，或选择手牌部署':'选择手牌部署，或点选位移卡调整位置'}
-function homepageHTML(){return `<main class="home-screen title-screen"><section class="home-hero"><div class="home-brand"><span class="home-eyebrow">A TABLE BY THE LAST FIRE</span><h1>薪火牌</h1><p class="subtitle">五席之间，余火未熄</p></div><div class="home-fire"><img src="${BONFIRE_GIF}" alt="燃烧的剑与篝火"></div><p class="home-caption">以遗骸为牌，以余火为注。</p><div class="home-stats"><span><b>5</b> 席战场</span><span><b>7</b> 点薪火</span><span><b>${POOL.length}</b> 张卡牌</span></div></section><section class="home-console"><div class="console-heading"><span>CONTINUE THE JOURNEY</span><h2>重燃你的轮回</h2></div>${journeyHTML()}<p class="home-mode">${difficulty==='story'?'余火轮回 · 关间回复3点薪火':difficulty==='standard'?'薪火轮回 · 后期部署节奏加快':'深渊轮回 · 更强的敌人与更少的回火'}</p><label class="name-label" for="nm">不死人的姓名</label><input id="nm" maxlength="5" value="${esc(pname)}" placeholder="输入姓名，或留空随机" autocomplete="off"><button class="pri home-start" data-a="start">${journey.cleared===3?'再战深渊':'点燃蜡烛 · '+RULES[difficulty].name.split(' · ')[0]}<span aria-hidden="true">✦</span></button><div class="home-secondary"><button data-a="catalog">图鉴与组牌</button><button data-a="rules">玩法手册</button></div><p class="home-cancel-hint">鼠标右键 / Esc 取消选择 · 手机点“取消”</p><p class="home-save-note">通关晋阶记于此处 · 当前对局不自动续存</p></section><footer class="author-credit" aria-label="作者署名"><span class="sig">Will Wang</span></footer></main>`}
+function homepageHTML(){return `<main class="home-screen title-screen"><section class="home-hero"><div class="home-brand"><span class="home-eyebrow">A TABLE BY THE LAST FIRE</span><h1>薪火牌</h1><p class="subtitle">五席之间，余火未熄</p></div><div class="home-fire"><img src="${BONFIRE_GIF}" alt="燃烧的剑与篝火"></div><p class="home-caption">以遗骸为牌，以余火为注。</p><p class="home-tribute">致敬宫崎英高与那些余火未熄的世界。<br>我是一个忠实的魂游戏玩家，也热爱卡牌游戏，尤其喜欢《邪恶冥刻》。于是，我将自己喜爱的魂游戏角色融入献祭与对位战斗，独自制作了这款小小的卡牌游戏。愿你也能在牌桌前，找到继续前行的火光。</p><div class="home-stats"><span><b>5</b> 席战场</span><span><b>7</b> 点薪火</span><span><b>${POOL.length}</b> 张卡牌</span></div></section><section class="home-console"><div class="console-heading"><span>CONTINUE THE JOURNEY</span><h2>重燃你的轮回</h2></div>${journeyHTML()}<p class="home-mode">${difficulty==='story'?'余火轮回 · 关间回复3点薪火':difficulty==='standard'?'薪火轮回 · 后期部署节奏加快':'深渊轮回 · 更强的敌人与更少的回火'}</p><label class="name-label" for="nm">不死人的姓名</label><input id="nm" maxlength="5" value="${esc(pname)}" placeholder="输入姓名，或留空随机" autocomplete="off"><button class="pri home-start" data-a="start">${journey.cleared===3?'再战深渊':'点燃蜡烛 · '+RULES[difficulty].name.split(' · ')[0]}<span aria-hidden="true">✦</span></button><div class="home-secondary"><button data-a="catalog">图鉴与组牌</button><button data-a="rules">玩法手册</button></div><p class="home-cancel-hint">鼠标右键 / Esc 取消选择 · 手机点“取消”</p><p class="home-save-note">通关晋阶记于此处 · 当前对局不自动续存</p></section><footer class="author-credit" aria-label="作者署名"><span class="sig">Will Wang</span></footer></main>`}
 function render(){
  hideTip();const A=document.getElementById('app');boardObserver?.disconnect();
  A.classList.toggle('catalog-mode',OV==='catalog');A.classList.toggle('home-mode',OV==='title');A.classList.toggle('battle-mode',!!G&&OV!=='title'&&OV!=='catalog');
@@ -961,7 +1034,7 @@ function render(){
  let h='';
  if(G&&OV!=='title'){
  const hc=G.sel!=null?G.hand[G.sel]:null,mc=G.moveSel!=null?G.p[G.moveSel]:null,selected=hc||mc;
- h+=`<main class="game-shell"><header class="hdr table-topbar"><div class="table-brand"><span class="table-emblem" aria-hidden="true">✦</span><div><strong>薪火牌</strong><small>${esc(G.st.n)} · ${G.lv}/${STG.length}关</small></div></div><nav class="table-tools" aria-label="游戏设置"><button class="icon-toggle" data-a="mute" aria-pressed="${!mute}" aria-label="${mute?'开启':'关闭'}音效">音效 ${mute?'关':'开'}</button><button class="icon-toggle" data-a="mus" aria-pressed="${!mmute}" aria-label="${mmute?'开启':'关闭'}音乐">音乐 ${mmute?'关':'开'}</button><button data-a="catalog">图鉴</button><button data-a="rules" aria-label="玩法手册">规则</button></nav></header>`;
+ h+=`<main class="game-shell"><header class="hdr table-topbar"><div class="table-brand"><span class="table-emblem" aria-hidden="true">✦</span><div><strong>薪火牌</strong><small>${esc(G.st.n)}${G.tutorial?'':' · '+G.lv+'/'+STG.length+'关'}</small></div></div><nav class="table-tools" aria-label="游戏设置"><button class="icon-toggle" data-a="mute" aria-pressed="${!mute}" aria-label="${mute?'开启':'关闭'}音效">音效 ${mute?'关':'开'}</button><button class="icon-toggle" data-a="mus" aria-pressed="${!mmute}" aria-label="${mmute?'开启':'关闭'}音乐">音乐 ${mmute?'关':'开'}</button><button data-a="catalog">图鉴</button><button data-a="rules" aria-label="玩法手册">规则</button></nav></header>`;
  h+=`<section class="opponent-hud side-hud" aria-label="敌方生命与牌库">${healthHTML('e')}<div class="opponent-stock side-stock">${pileHTML('e')}<div class="enemy-hand" aria-label="敌方手牌${G.eh.length}张">${G.eh.map((c,i)=>`<div class="card-back ${i<G.eh.length-5?'hand-tucked':''}" data-index="${i}" aria-label="隐藏的敌方手牌"></div>`).join('')}<span class="enemy-hand-count">${G.eh.length}</span></div></div></section>`;
  h+=`<section class="table-arena" aria-label="五席战场"><div class="row board enemy-board">${G.e.map((c,i)=>c?cardHTML(c,'',`id="c-e-${i}" data-a="enemyinfo" data-i="${i}" tabindex="0"`):`<div class="slot" id="c-e-${i}"><small>${i+1}</small><span aria-hidden="true">◇</span></div>`).join('')}</div><div class="round-banner"><span>第 ${G.turn} / ${MATCH_LIMIT} 回合</span><i aria-hidden="true"></i><b>${G.turn%2?'我方':'敌方'}先攻</b><i aria-hidden="true"></i><span>双方各结算一次</span></div><div class="row board player-board">${G.p.map((c,i)=>{const ok=hc&&G.sac.size===hc.c&&(!c||G.sac.has(i)),sac=G.sac.has(i),mobile=c&&['shift','swap'].includes(c.mv)&&c.moved!==G.turn;return c?cardHTML(c,(sac?'sacrificing ':'')+(G.moveSel===i?'move-selected ':'')+(mobile?'can-move ':'')+(c.t===G.turn?'fresh':''),`id="c-p-${i}" data-a="s" data-i="${i}" tabindex="0" ${ok?'style="outline:2px solid var(--candle)"':''}`):`<div class="slot ${ok?'ok':''}" id="c-p-${i}" data-a="s" data-i="${i}" tabindex="0"><small>${i+1}</small><span aria-hidden="true">◇</span></div>`}).join('')}</div></section>`;
  h+=`<section class="player-vitals side-hud" aria-label="我方生命与牌库">${healthHTML('p')}<div class="opponent-stock player-stock side-stock">${pileHTML('p')}<div class="reserve-summary"><div class="ash-source" id="ash-source" role="img" aria-label="余灰来源">灰</div><span class="own-hand-count" aria-label="我方手牌${G.hand.length}张"><small>手牌</small><b>${G.hand.length}</b></span></div></div></section><section class="interaction-bar">`;
@@ -980,12 +1053,13 @@ function render(){
  if(infoPanel)h+=drawerHTML();
  A.innerHTML=h;const surface=A.querySelector('.game-shell,.home-screen');if(surface)surface.inert=!!infoPanel||(surface.classList.contains('game-shell')&&OV!==null);
  layoutGame();const arena=A.querySelector('.table-arena');if(arena&&window.ResizeObserver){boardObserver=new ResizeObserver(scheduleLayout);boardObserver.observe(arena)}
- syncMusic();flushDraws();
+ syncMusic();flushDraws();renderTutorial();
 }
 function layoutGame(){
  const shell=document.querySelector('.game-shell'),row=document.querySelector('.row.board'),hand=document.querySelector('.hand');
  if(shell&&row){const r=row.getBoundingClientRect(),gap=parseFloat(getComputedStyle(row).gap)||4,w=Math.floor(Math.min(144,(r.width-gap*4)/5,r.height/1.4));shell.style.setProperty('--battle-card-width',Math.max(24,w)+'px')}
  if(shell&&hand){const r=hand.getBoundingClientRect(),w=Math.floor(Math.min(88,(r.width-26)/Math.min(5,Math.max(1,G.hand.length)),(r.height-15)/1.4));shell.style.setProperty('--hand-card-width',Math.max(28,w)+'px')}
+ positionTutorial();
 }
 function scheduleLayout(){cancelAnimationFrame(layoutFrame);layoutFrame=requestAnimationFrame(layoutGame)}
 function updateViewport(){const view=window.visualViewport;document.documentElement.classList.toggle('keyboard-open',!!view&&view.height<window.innerHeight*.75&&['INPUT','TEXTAREA'].includes(document.activeElement?.tagName));if(!view||view.scale===1)document.documentElement.style.setProperty('--app-height',(view?.height||window.innerHeight)+'px');scheduleLayout()}
@@ -1008,6 +1082,7 @@ document.addEventListener('click',async event=>{
  if(action==='closepanel'){infoPanel=null;detailCardOverride=null;render();return}
  if(action==='cancel'){cancelSelection();return}
  if(G?.busy||drawRunning)return;
+ if(tutorialHandle(action,i))return;
  if(action==='enemyinfo'&&G&&!OV&&G.e[i]){detailCardOverride=G.e[i];infoPanel='details';render();requestAnimationFrame(()=>document.querySelector('.drawer-head button')?.focus());return}
  if(['rules','logs','details'].includes(action)){detailCardOverride=null;infoPanel=action;render();requestAnimationFrame(()=>document.querySelector('.drawer-head button')?.focus());return}
  if(action==='catalog'){returnOV=OV;OV='catalog';catalogPage=0;render();return}
@@ -1024,13 +1099,13 @@ document.addEventListener('click',async event=>{
  if(action==='nextdifficulty'&&OV==='clear'){const current=DIFFICULTY_ORDER.indexOf(difficulty);if(current<2&&journey.cleared<=current)return;newRun();return}
  if(action==='mute'){mute=!mute;render();return}
  if(action==='mus'){mmute=!mmute;if(MM)MM.gain.value=mmute?0:1;render();return}
- if(action==='start'){const name=document.getElementById('nm');pname=(name?.value.trim().slice(0,5))||NAMES[rnd(NAMES.length)];try{localStorage.setItem('mz_name',pname)}catch{}newRun();return}
+ if(action==='start'){const name=document.getElementById('nm');pname=(name?.value.trim().slice(0,5))||NAMES[rnd(NAMES.length)];try{localStorage.setItem('mz_name',pname)}catch{}if(tutorialNeeded())startTutorial();else newRun();return}
  if(action==='rw'&&OV==='win'){const c=G.rw[i];if(!c)return;G.deck.push(makeCard(c));unlock(c.n);if(G.deck.length>18){OV='trim';render()}else nextStage();return}
  if(action==='trim'&&OV==='trim'){G.deck.splice(i,1);nextStage();return}
  if(!G||OV)return;
  if(action==='end'){await endTurn();return}
- if(action==='deck'&&G.mustDraw&&G.draw.length){takeCard('p');G.mustDraw=0;render();return}
- if(action==='sq'&&G.mustDraw){takeCard('p',true);G.mustDraw=0;render();return}
+ if(action==='deck'&&G.mustDraw&&G.draw.length){takeCard('p');G.mustDraw=0;render();await drawIdle;render();return}
+ if(action==='sq'&&G.mustDraw){takeCard('p',true);G.mustDraw=0;render();await drawIdle;render();return}
  if(G.mustDraw)return;
  if(action==='h'){G.sel=G.sel===i?null:i;G.moveSel=null;G.sac.clear();render();return}
  if(action==='move'&&G.moveSel!=null){G.busy=1;await moveCard('p',G.moveSel,Number(t.dataset.d));G.busy=0;render();return}
@@ -1047,6 +1122,101 @@ document.addEventListener('keydown',event=>{if((event.key==='Enter'||event.key==
 
 document.addEventListener('keydown',event=>{if(event.key!=='Escape')return;if(infoPanel){infoPanel=null;detailCardOverride=null;render();return}if(cancelSelection())event.preventDefault()});
 document.addEventListener('focusin',updateViewport);document.addEventListener('focusout',()=>requestAnimationFrame(updateViewport));
+// A short practice uses the real draw, sacrifice and combat functions.
+const TUTORIAL_STORAGE='mz_tutorial_v1';
+let TUT=null;
+function tutorialNeeded(){try{return !localStorage.getItem(TUTORIAL_STORAGE)&&journey.cleared===0}catch{return journey.cleared===0}}
+function rememberTutorial(value){try{if(value==='done'||localStorage.getItem(TUTORIAL_STORAGE)!=='done')localStorage.setItem(TUTORIAL_STORAGE,value)}catch{}}
+async function startTutorial(){
+ infoPanel=null;detailCardOverride=null;OV=null;TUT={step:'ash',feedback:'',finished:false};
+ const card=n=>makeCard(POOL.find(c=>c.n===n));
+ const openingNames=['巨鸦','亡者','索拉尔','火防女'];
+ const remaining=STARTER.filter(n=>!openingNames.includes(n));
+ const targets=()=>makeCard({n:'练习木偶',a:0,h:5,c:0,at:'物理',lore:'练习用的零攻击木偶，不会反击，也没有守护。'},true);
+ G={tutorial:true,lv:1,wins:0,kills:0,deck:STARTER.map(card),p:Array(5).fill(null),e:Array(5).fill(null),hp:7,ehp:7,turn:1,passiveTurn:-1,sel:null,moveSel:null,sac:new Set(),busy:1,mustDraw:0,killer:null,lastHit:null,log:[],history:[],hand:[],eh:[],draw:[...remaining.map(card),...openingNames.slice().reverse().map(card)],ed:STARTER.map(card),st:{...STG[0],n:'篝火旁 · 新手练习',pd:'两回合练习：部署余灰 → 等待一轮 → 二选一抽牌 → 献祭召唤。练习可跳过。',dk:[...STARTER]}};
+ G.p[0]=makeCard({n:'练习·亡者',a:1,h:2,c:1,at:'物理',t:0,lore:'普通卡只攻击自己正对面的格子。'});
+ G.e[0]=targets();G.e[2]=targets();render();
+ takeCard('p',true);render();await drawIdle;
+ for(const side of ['e','p','e','p','e','p','e','p','e']){takeCard(side);render();await drawIdle}
+ G.busy=0;logBattle('新手练习：木偶不会反击。先部署一张余灰，等下一回合再献祭。');render();
+}
+function tutorialSync(){
+ if(!G?.tutorial||!TUT)return;
+ let step;
+ if(TUT.finished||G.turn>=3)step='done';
+ else if(G.turn===1)step=G.p[2]?'wait':G.sel!=null&&G.hand[G.sel]?.n==='余灰'?'place':'ash';
+ else if(G.mustDraw)step='draw';
+ else if(G.p[2]?.n==='巨鸦')step='attack';
+ else if(G.sel!=null&&G.hand[G.sel]?.n==='巨鸦')step=G.sac.has(2)?'summon':'sac';
+ else step='card';
+ if(TUT.step!==step){TUT.feedback='';TUT.step=step}
+ const hand=n=>`.hand [data-a="h"][data-i="${G.hand.findIndex(c=>c.n===n)}"]`;
+ TUT.targetSelectors={ash:[hand('余灰')],place:['#c-p-2'],wait:['[data-a="end"]','#c-p-2'],draw:['[data-a="deck"]','[data-a="sq"]'],card:[hand('巨鸦')],sac:['#c-p-2'],summon:['#c-p-2'],attack:['[data-a="end"]'],done:['#enemy-health']}[step];
+}
+function tutorialContent(){
+ const copy={
+ ash:['第 1 回合 · 1 / 3','先选一张余灰','起手有 <strong>5 张牌</strong>。余灰是零费祭品，先点击箭头指向的余灰手牌。','跟随金框点击即可；选错可右键、Esc，或点“取消”。'],
+ place:['第 1 回合 · 2 / 3','把余灰放到第三格','点击下方发亮的<strong>我方第三格</strong>，把选中的余灰部署上场。','普通卡只能攻击自己正对面的卡；对面空着时，才直击敌方生命。'],
+ wait:['第 1 回合 · 3 / 3','祭品要在场存活一回合','这张余灰<strong>本回合不能献祭</strong>，须存活到下一回合。点击“结束部署”，观察左侧亡者只攻击正对面的木偶。','新出场卡可在本回合攻击，但要到下一回合才可作祭品。'],
+ draw:['第 2 回合 · 1 / 5','卡组与余灰，二选一','本轮已<strong>免费获得 1 张余灰</strong>。现在任选一次：抽卡组牌，或再取余灰。<strong>自己的卡组有限，余灰无限</strong>。','卡组抽牌会让牌堆变薄；取余灰不消耗卡组。'],
+ card:['第 2 回合 · 2 / 5','选择飞行卡「巨鸦」','余灰已存活一回合，现在能献祭。先点击手牌<strong>巨鸦</strong>；卡名旁的 <strong>1 个 ●</strong> 表示需要 1 张祭品。','抽牌选择已完成，本轮不能再抽第二次。'],
+ sac:['第 2 回合 · 3 / 5','点选已经成熟的祭品','点击箭头指向的<strong>第三格余灰</strong>，将它标记为祭品。它会亮起红色献祭框。','手里的余灰需要先上场，并存活到下一回合，才能献祭。'],
+ summon:['第 2 回合 · 4 / 5','再点一次，献祭召唤','再点一次<strong>已标记的第三格</strong>，确认消耗余灰，把巨鸦召唤到原位。','这里只是确认位置；确认前可用右键、Esc 或“取消”重新选择。'],
+ attack:['第 2 回合 · 5 / 5','飞行可以越过对面的卡','巨鸦正对面仍有木偶。点击<strong>结束部署</strong>，观察巨鸦飞越它，直接扣除敌方生命。','守护是例外：有“守护”的对位卡能够拦截飞行。'],
+ done:['指引完成 · 薪火初燃','你已经学会了','左侧亡者只伤到正对面的木偶；巨鸦越过木偶，敌方生命 <strong>7 → 6</strong>。记住：<strong>祭品等一轮，抽牌二选一</strong>。','现在用你自己的卡组进入正式第一关。练习不计入通关与遗骸记录。']
+ };
+ return copy[TUT.step];
+}
+function tutorialHandle(action,i){
+ if(action==='tutorial'){startTutorial();return true}
+ if(!G?.tutorial||!TUT)return false;
+ if(action==='tutorial-skip'||action==='tutorial-finish'){
+  if(action==='tutorial-finish'&&TUT.step!=='done')return true;
+  rememberTutorial(action==='tutorial-finish'?'done':'seen');newRun();return true;
+ }
+ if(['rules','logs','details','enemyinfo','closepanel','mute','mus','cancel'].includes(action))return false;
+ tutorialSync();
+ const step=TUT.step;
+ const allowed=(action==='h'&&((['ash','place'].includes(step)&&G.hand[i]?.n==='余灰')||(['card','sac','summon'].includes(step)&&G.hand[i]?.n==='巨鸦')))
+  ||(action==='s'&&i===2&&['place','sac','summon'].includes(step))
+  ||(action==='end'&&['wait','attack'].includes(step))
+  ||(['deck','sq'].includes(action)&&step==='draw');
+ if(allowed){TUT.feedback='';return false}
+ TUT.feedback=step==='wait'?'这张余灰刚上场，还不能献祭。先结束本回合，让它存活一轮。':'先跟随金色箭头完成这一步；也可以点“跳过”进入正式游戏。';
+ render();return true;
+}
+function renderTutorial(){
+ if(!G?.tutorial||!TUT||OV!==null||infoPanel)return;
+ tutorialSync();const [label,title,text,tip]=tutorialContent(),busy=!!G.busy||drawRunning;
+ const layer=document.createElement('div');layer.className='tutorial-layer'+(busy?' tutorial-busy':'');
+ layer.innerHTML=`<svg class="tutorial-arrows" aria-hidden="true"><defs><marker id="tutorial-arrowhead" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M0,0 L8,4 L0,8 Z"/></marker></defs><g class="tutorial-lines"></g></svg><section class="tutorial-coach" role="region" aria-label="新手指引" aria-live="polite"><div class="tutorial-heading"><span class="tutorial-step-label">${label}</span><button data-a="tutorial-skip" ${busy?'disabled':''}>跳过</button></div><h2>${busy?'烛火摇曳，稍候…':title}</h2><p>${busy?'正在发牌或结算，完成后箭头会带你继续。':text}</p>${!busy?`<p class="tutorial-tip">${tip}</p>`:''}${TUT.feedback&&!busy?`<p class="tutorial-feedback">${esc(TUT.feedback)}</p>`:''}${TUT.step==='done'&&!busy?'<div class="tutorial-footer"><button class="pri" data-a="tutorial-finish">点燃蜡烛 · 正式启程</button></div>':''}</section>`;
+ document.getElementById('app').appendChild(layer);positionTutorial();
+}
+function positionTutorial(){
+ const layer=document.querySelector('.tutorial-layer'),coach=layer?.querySelector('.tutorial-coach');if(!coach||!TUT||!G?.tutorial)return;
+ layer.querySelectorAll('.tutorial-focus').forEach(n=>n.remove());
+ const view=window.visualViewport,vw=view?.width||innerWidth,vh=view?.height||innerHeight,pad=12;
+ const targets=(G.busy||drawRunning?[]:TUT.targetSelectors||[]).map(s=>document.querySelector(s)).filter(Boolean).map(n=>n.getBoundingClientRect()).filter(r=>r.width&&r.height);
+ for(const r of targets){const f=document.createElement('div');f.className='tutorial-focus';f.style.cssText=`left:${r.left-3}px;top:${r.top-3}px;width:${r.width+6}px;height:${r.height+6}px`;layer.appendChild(f)}
+ coach.style.width=Math.min(vw-24,vh<520&&vw>vh?290:310)+'px';coach.style.maxHeight=(vh-24)+'px';
+ const box=coach.getBoundingClientRect(),w=box.width,h=box.height;
+ const anchor=targets[0]||{left:vw/2,right:vw/2,top:vh,bottom:vh,width:0,height:0};
+ const xs=[(vw-w)/2,pad,vw-w-pad,anchor.right+20,anchor.left-w-20];
+ const ys=[anchor.top-h-22,anchor.bottom+22,pad,vh-h-pad];
+ const overlap=(x,y,r)=>Math.max(0,Math.min(x+w+8,r.right+8)-Math.max(x-8,r.left-8))*Math.max(0,Math.min(y+h+8,r.bottom+8)-Math.max(y-8,r.top-8));
+ let best=null;
+ for(let x of xs)for(let y of ys){x=Math.max(pad,Math.min(vw-w-pad,x));y=Math.max(pad,Math.min(vh-h-pad,y));const score=targets.reduce((n,r)=>n+overlap(x,y,r)*10000,0)+Math.hypot(x+w/2-(anchor.left+anchor.width/2),y+h/2-(anchor.top+anchor.height/2));if(!best||score<best.score)best={x,y,score}}
+ coach.style.left=best.x+'px';coach.style.top=best.y+'px';
+ const lines=layer.querySelector('.tutorial-lines');lines.innerHTML='';
+ if(!targets.length)return;
+ const r=coach.getBoundingClientRect();
+ for(const target of targets){const tx=target.left+target.width/2,ty=target.top+target.height/2;
+  let sx=Math.max(r.left+16,Math.min(r.right-16,tx)),sy=ty>r.bottom?r.bottom:ty<r.top?r.top:Math.max(r.top+16,Math.min(r.bottom-16,ty));
+  if(ty>=r.top&&ty<=r.bottom)sx=tx<r.left?r.left:r.right;
+  const dx=tx-sx,dy=ty-sy,len=Math.hypot(dx,dy)||1,ex=tx-dx/len*(Math.min(target.width,target.height)/2+8),ey=ty-dy/len*(Math.min(target.width,target.height)/2+8);
+  const path=document.createElementNS('http://www.w3.org/2000/svg','path');path.setAttribute('d',`M ${sx} ${sy} Q ${sx+dx*.25} ${sy+dy*.7} ${ex} ${ey}`);path.setAttribute('marker-end','url(#tutorial-arrowhead)');lines.appendChild(path);
+ }
+}
 
 render();
 </script>
