@@ -1,0 +1,32 @@
+Combat and reward audio for 薪火牌
+
+burn.wav (also embedded as COMBAT_AUDIO_SAMPLES.burn)
+Natural fire crackling: Ezwa; remix by Dinamic.
+Source: https://github.com/flareteam/flare-game/blob/af6eee6d339ac98011864bfe89da837fe7769c28/mods/fantasycore/soundfx/environment/open_fire_loop.ogg
+Source metadata credits Ezwa/Dinamic and identifies the original recording as Public Domain (pdsounds.org). This distributed adaptation follows the Flare content license, Creative Commons Attribution-ShareAlike 3.0 Unported:
+https://creativecommons.org/licenses/by-sa/3.0/
+Changes: excerpt 0.35–1.52 seconds, mono 22050Hz PCM, high/low-pass filtering, peak normalization and fades. burn.wav and its embedded PCM are distributed under CC-BY-SA-3.0. A standalone WAV and the full license accompany the game.
+
+blade.wav
+Sword contact: Pedro Santo / audione, Freesound #52458, CC0.
+https://freesound.org/people/audione/sounds/52458/
+Per-file license evidence and clipped source:
+https://github.com/benmarz/minimum_game/blob/c13436130911640292f0fcb18ac52c17a8ea7bd7/README.md
+https://github.com/benmarz/minimum_game/blob/c13436130911640292f0fcb18ac52c17a8ea7bd7/assets/sword-hit.wav
+Layered with sword-2.wav by Pixel-boy / Sparklin Labs (CC0).
+
+beast.wav, beastAlt.wav, beastBird.wav, beastBull.wav, bow.wav
+Monster, raven, bull and arrow effects: Pixel-boy / Sparklin Labs, Superpowers Asset Packs, CC0 1.0.
+https://github.com/sparklinlabs/superpowers-asset-packs/tree/e8674a03ab4456802f71f848c4df79eccca23f7a
+Sources: medieval-fantasy/sounds/monster-1.wav and monster-2.wav; western-fps-2d/sounds/raven-1.ogg, bulls.ogg and arrow.ogg; top-down-shooter/sounds/sword-2.wav.
+Changes: excerpts, mono resampling, EQ, normalization, fades, selected vocal pitch changes and sword layering. Monster clips are fantasy sound effects, not claimed as wildlife field recordings.
+
+impact.wav
+Metal impact: Kenney Vleugels / Kenney.nl, Impact Sounds, CC0.
+https://github.com/ETdoFresh/kenney.nl/blob/45df48c4d45f8716216b1a9e22df0b69cd9f5932/kenney_impactsounds/Audio/impactMetal_heavy_000.ogg
+Changes: mono resampling, EQ, normalization, fades and a generated low thud layer.
+
+magic.wav, spirit.wav, heal.wav, rare.wav
+Original synthesized spell, spirit, holy-healing and gemstone timbres created for this game. These are not recordings from Hearthstone or MU Online.
+
+The audio licenses above apply to their respective sound assets. They do not relicense unrelated game code, writing, artwork or audio.
