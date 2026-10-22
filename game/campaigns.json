@@ -1,0 +1,1142 @@
+{
+  "ds1": [
+    {
+      "boss": "奥斯卡",
+      "n": "魂Ⅰ · 奥斯卡",
+      "games": [
+        "ds1"
+      ],
+      "tier": 1,
+      "profile": {}
+    },
+    {
+      "boss": "不死院恶魔",
+      "n": "魂Ⅰ · 不死院恶魔",
+      "games": [
+        "ds1"
+      ],
+      "tier": 1,
+      "profile": {
+        "s": "thorn",
+        "mv": "push"
+      }
+    },
+    {
+      "boss": "牛头恶魔",
+      "n": "魂Ⅰ · 牛头恶魔",
+      "games": [
+        "ds1"
+      ],
+      "tier": 1,
+      "profile": {
+        "mv": "push"
+      }
+    },
+    {
+      "boss": "钟楼石像鬼",
+      "n": "魂Ⅰ · 钟楼石像鬼",
+      "games": [
+        "ds1"
+      ],
+      "tier": 1,
+      "profile": {
+        "s": "fly"
+      }
+    },
+    {
+      "boss": "帕奇",
+      "n": "魂Ⅰ · 帕奇",
+      "games": [
+        "ds1"
+      ],
+      "tier": 1,
+      "profile": {
+        "s": "abyss"
+      }
+    },
+    {
+      "boss": "索拉尔",
+      "n": "魂Ⅰ · 索拉尔",
+      "games": [
+        "ds1"
+      ],
+      "tier": 2,
+      "profile": {
+        "s": "guard",
+        "heal": 1
+      }
+    },
+    {
+      "boss": "月光蝶",
+      "n": "魂Ⅰ · 月光蝶",
+      "games": [
+        "ds1"
+      ],
+      "tier": 2,
+      "profile": {
+        "s": "fly",
+        "mv": "shift"
+      }
+    },
+    {
+      "boss": "魔女克拉格",
+      "n": "魂Ⅰ · 魔女克拉格",
+      "games": [
+        "ds1"
+      ],
+      "tier": 2,
+      "profile": {
+        "s": "thorn"
+      }
+    },
+    {
+      "boss": "铁傀儡",
+      "n": "魂Ⅰ · 铁傀儡",
+      "games": [
+        "ds1"
+      ],
+      "tier": 2,
+      "profile": {
+        "s": "guard",
+        "mv": "push"
+      }
+    },
+    {
+      "boss": "奥恩斯坦",
+      "n": "魂Ⅰ · 奥恩斯坦",
+      "games": [
+        "ds1"
+      ],
+      "tier": 2,
+      "profile": {
+        "mv": "shift"
+      }
+    },
+    {
+      "boss": "斯莫",
+      "n": "魂Ⅰ · 斯莫",
+      "games": [
+        "ds1"
+      ],
+      "tier": 2,
+      "profile": {
+        "mv": "push"
+      }
+    },
+    {
+      "boss": "墓王尼特",
+      "n": "魂Ⅰ · 墓王尼特",
+      "games": [
+        "ds1"
+      ],
+      "tier": 3,
+      "profile": {
+        "s": "bones",
+        "death": "emberling"
+      }
+    },
+    {
+      "boss": "亚尔特留斯",
+      "n": "魂Ⅰ · 亚尔特留斯",
+      "games": [
+        "ds1"
+      ],
+      "tier": 3,
+      "profile": {
+        "growth": true,
+        "mv": "shift",
+        "s": "guard"
+      }
+    },
+    {
+      "boss": "卡拉米特",
+      "n": "魂Ⅰ · 卡拉米特",
+      "games": [
+        "ds1"
+      ],
+      "tier": 3,
+      "profile": {
+        "s": "fly"
+      }
+    },
+    {
+      "boss": "深渊之主马努斯",
+      "n": "魂Ⅰ · 深渊之主马努斯",
+      "games": [
+        "ds1"
+      ],
+      "tier": 3,
+      "profile": {
+        "mv": "push",
+        "x": "soul"
+      }
+    },
+    {
+      "boss": "薪王葛温",
+      "n": "魂Ⅰ · 薪王葛温",
+      "games": [
+        "ds1"
+      ],
+      "tier": 3,
+      "profile": {
+        "s": "parry",
+        "x": "ember"
+      }
+    }
+  ],
+  "ds2": [
+    {
+      "boss": "最后的巨人",
+      "n": "魂Ⅱ · 最后的巨人",
+      "games": [
+        "ds2"
+      ],
+      "tier": 1,
+      "profile": {
+        "mv": "push"
+      }
+    },
+    {
+      "boss": "追逐者",
+      "n": "魂Ⅱ · 追逐者",
+      "games": [
+        "ds2"
+      ],
+      "tier": 1,
+      "profile": {
+        "s": "guard",
+        "mv": "shift"
+      }
+    },
+    {
+      "boss": "流放罪执行者",
+      "n": "魂Ⅱ · 流放罪执行者",
+      "games": [
+        "ds2"
+      ],
+      "tier": 1,
+      "profile": {}
+    },
+    {
+      "boss": "遗忘的罪人",
+      "n": "魂Ⅱ · 遗忘的罪人",
+      "games": [
+        "ds2"
+      ],
+      "tier": 1,
+      "profile": {
+        "mv": "shift"
+      }
+    },
+    {
+      "boss": "骷髅王",
+      "n": "魂Ⅱ · 骷髅王",
+      "games": [
+        "ds2"
+      ],
+      "tier": 1,
+      "profile": {
+        "s": "bones"
+      }
+    },
+    {
+      "boss": "毒妃米妲",
+      "n": "魂Ⅱ · 毒妃米妲",
+      "games": [
+        "ds2"
+      ],
+      "tier": 2,
+      "profile": {
+        "s": "poison"
+      }
+    },
+    {
+      "boss": "熔铁恶魔",
+      "n": "魂Ⅱ · 熔铁恶魔",
+      "games": [
+        "ds2"
+      ],
+      "tier": 2,
+      "profile": {
+        "s": "thorn",
+        "x": "ember"
+      }
+    },
+    {
+      "boss": "铁之古王",
+      "n": "魂Ⅱ · 铁之古王",
+      "games": [
+        "ds2"
+      ],
+      "tier": 2,
+      "profile": {
+        "mv": "push"
+      }
+    },
+    {
+      "boss": "公爵的芙蕾雅",
+      "n": "魂Ⅱ · 公爵的芙蕾雅",
+      "games": [
+        "ds2"
+      ],
+      "tier": 2,
+      "profile": {
+        "s": "poison",
+        "death": "spiders"
+      }
+    },
+    {
+      "boss": "腐败物",
+      "n": "魂Ⅱ · 腐败物",
+      "games": [
+        "ds2"
+      ],
+      "tier": 2,
+      "profile": {
+        "s": "regen"
+      }
+    },
+    {
+      "boss": "镜之骑士",
+      "n": "魂Ⅱ · 镜之骑士",
+      "games": [
+        "ds2"
+      ],
+      "tier": 2,
+      "profile": {
+        "s": "thorn",
+        "dr": 1
+      }
+    },
+    {
+      "boss": "娜香德拉",
+      "n": "魂Ⅱ · 娜香德拉",
+      "games": [
+        "ds2"
+      ],
+      "tier": 3,
+      "profile": {
+        "s": "vamp"
+      }
+    },
+    {
+      "boss": "王兄安第尔",
+      "n": "魂Ⅱ · 王兄安第尔",
+      "games": [
+        "ds2"
+      ],
+      "tier": 3,
+      "profile": {
+        "s": "regen"
+      }
+    },
+    {
+      "boss": "烟之骑士雷姆",
+      "n": "魂Ⅱ · 烟之骑士雷姆",
+      "games": [
+        "ds2"
+      ],
+      "tier": 3,
+      "profile": {
+        "s": "vamp",
+        "mv": "push"
+      }
+    },
+    {
+      "boss": "骑士亚伦",
+      "n": "魂Ⅱ · 骑士亚伦",
+      "games": [
+        "ds2"
+      ],
+      "tier": 3,
+      "profile": {
+        "s": "parry",
+        "mv": "shift"
+      }
+    },
+    {
+      "boss": "灼烧的白王",
+      "n": "魂Ⅱ · 灼烧的白王",
+      "games": [
+        "ds2"
+      ],
+      "tier": 3,
+      "profile": {
+        "s": "guard",
+        "death": "heal"
+      }
+    }
+  ],
+  "ds3": [
+    {
+      "boss": "灰烬审判者古达",
+      "n": "魂Ⅲ · 灰烬审判者古达",
+      "games": [
+        "ds3"
+      ],
+      "tier": 1,
+      "profile": {
+        "s": "guard",
+        "mv": "push"
+      }
+    },
+    {
+      "boss": "冷冽谷的玻尔多",
+      "n": "魂Ⅲ · 冷冽谷的玻尔多",
+      "games": [
+        "ds3"
+      ],
+      "tier": 1,
+      "profile": {
+        "s": "vamp",
+        "mv": "shift",
+        "death": "heal"
+      }
+    },
+    {
+      "boss": "结晶老者",
+      "n": "魂Ⅲ · 结晶老者",
+      "games": [
+        "ds3"
+      ],
+      "tier": 1,
+      "profile": {
+        "mv": "shift"
+      }
+    },
+    {
+      "boss": "幽邃主教群",
+      "n": "魂Ⅲ · 幽邃主教群",
+      "games": [
+        "ds3"
+      ],
+      "tier": 1,
+      "profile": {
+        "s": "regen"
+      }
+    },
+    {
+      "boss": "深渊守望者",
+      "n": "魂Ⅲ · 深渊守望者",
+      "games": [
+        "ds3"
+      ],
+      "tier": 1,
+      "profile": {
+        "s": "parry",
+        "mv": "shift",
+        "x": "rekindle"
+      }
+    },
+    {
+      "boss": "霸王沃尼尔",
+      "n": "魂Ⅲ · 霸王沃尼尔",
+      "games": [
+        "ds3"
+      ],
+      "tier": 2,
+      "profile": {
+        "s": "bones"
+      }
+    },
+    {
+      "boss": "教宗沙力万",
+      "n": "魂Ⅲ · 教宗沙力万",
+      "games": [
+        "ds3"
+      ],
+      "tier": 2,
+      "profile": {
+        "s": "parry",
+        "mv": "swap",
+        "death": "draw"
+      }
+    },
+    {
+      "boss": "巨人尤姆",
+      "n": "魂Ⅲ · 巨人尤姆",
+      "games": [
+        "ds3"
+      ],
+      "tier": 2,
+      "profile": {
+        "s": "guard",
+        "mv": "push"
+      }
+    },
+    {
+      "boss": "冷冽谷的舞娘",
+      "n": "魂Ⅲ · 冷冽谷的舞娘",
+      "games": [
+        "ds3"
+      ],
+      "tier": 2,
+      "profile": {
+        "mv": "shift"
+      }
+    },
+    {
+      "boss": "猎龙铠甲",
+      "n": "魂Ⅲ · 猎龙铠甲",
+      "games": [
+        "ds3"
+      ],
+      "tier": 2,
+      "profile": {
+        "s": "guard",
+        "mv": "push"
+      }
+    },
+    {
+      "boss": "洛斯里克王子",
+      "n": "魂Ⅲ · 洛斯里克王子",
+      "games": [
+        "ds3"
+      ],
+      "tier": 2,
+      "profile": {
+        "s": "regen"
+      }
+    },
+    {
+      "boss": "无名王者",
+      "n": "魂Ⅲ · 无名王者",
+      "games": [
+        "ds3"
+      ],
+      "tier": 3,
+      "profile": {
+        "mv": "shift"
+      }
+    },
+    {
+      "boss": "薪王们的化身",
+      "n": "魂Ⅲ · 薪王们的化身",
+      "games": [
+        "ds3"
+      ],
+      "tier": 3,
+      "profile": {
+        "s": "regen",
+        "mv": "shift",
+        "x": "rekindle"
+      }
+    },
+    {
+      "boss": "修女芙莉德",
+      "n": "魂Ⅲ · 修女芙莉德",
+      "games": [
+        "ds3"
+      ],
+      "tier": 3,
+      "profile": {
+        "mv": "shift"
+      }
+    },
+    {
+      "boss": "黑龙米狄尔",
+      "n": "魂Ⅲ · 黑龙米狄尔",
+      "games": [
+        "ds3"
+      ],
+      "tier": 3,
+      "profile": {
+        "s": "fly",
+        "mv": "push"
+      }
+    },
+    {
+      "boss": "盖尔",
+      "n": "魂Ⅲ · 盖尔",
+      "games": [
+        "ds3"
+      ],
+      "tier": 3,
+      "profile": {
+        "growth": true,
+        "mv": "shift"
+      }
+    }
+  ],
+  "bb": [
+    {
+      "boss": "教会野兽",
+      "n": "血源 · 教会野兽",
+      "games": [
+        "bb"
+      ],
+      "tier": 1,
+      "profile": {
+        "s": "regen",
+        "mv": "push"
+      }
+    },
+    {
+      "boss": "加斯科因",
+      "n": "血源 · 加斯科因",
+      "games": [
+        "bb"
+      ],
+      "tier": 1,
+      "profile": {
+        "s": "parry",
+        "mv": "shift"
+      }
+    },
+    {
+      "boss": "渴血兽",
+      "n": "血源 · 渴血兽",
+      "games": [
+        "bb"
+      ],
+      "tier": 1,
+      "profile": {
+        "s": "poison",
+        "mv": "shift"
+      }
+    },
+    {
+      "boss": "阿梅利亚",
+      "n": "血源 · 阿梅利亚",
+      "games": [
+        "bb"
+      ],
+      "tier": 1,
+      "profile": {
+        "s": "regen"
+      }
+    },
+    {
+      "boss": "汉威克女巫",
+      "n": "血源 · 汉威克女巫",
+      "games": [
+        "bb"
+      ],
+      "tier": 1,
+      "profile": {
+        "dr": 1
+      }
+    },
+    {
+      "boss": "雅南暗影",
+      "n": "血源 · 雅南暗影",
+      "games": [
+        "bb"
+      ],
+      "tier": 2,
+      "profile": {
+        "s": "parry",
+        "mv": "swap"
+      }
+    },
+    {
+      "boss": "罗姆",
+      "n": "血源 · 罗姆",
+      "games": [
+        "bb"
+      ],
+      "tier": 2,
+      "profile": {
+        "s": "guard"
+      }
+    },
+    {
+      "boss": "重生之古神",
+      "n": "血源 · 重生之古神",
+      "games": [
+        "bb"
+      ],
+      "tier": 2,
+      "profile": {
+        "s": "regen"
+      }
+    },
+    {
+      "boss": "米克拉什",
+      "n": "血源 · 米克拉什",
+      "games": [
+        "bb"
+      ],
+      "tier": 2,
+      "profile": {
+        "mv": "shift",
+        "dr": 1
+      }
+    },
+    {
+      "boss": "梅尔戈乳母",
+      "n": "血源 · 梅尔戈乳母",
+      "games": [
+        "bb"
+      ],
+      "tier": 2,
+      "profile": {
+        "s": "vamp"
+      }
+    },
+    {
+      "boss": "格曼",
+      "n": "血源 · 格曼",
+      "games": [
+        "bb"
+      ],
+      "tier": 2,
+      "profile": {
+        "s": "parry",
+        "mv": "shift",
+        "death": "draw"
+      }
+    },
+    {
+      "boss": "月之魔物",
+      "n": "血源 · 月之魔物",
+      "games": [
+        "bb"
+      ],
+      "tier": 3,
+      "profile": {
+        "s": "vamp"
+      }
+    },
+    {
+      "boss": "路德维希",
+      "n": "血源 · 路德维希",
+      "games": [
+        "bb"
+      ],
+      "tier": 3,
+      "profile": {
+        "s": "vamp",
+        "mv": "push",
+        "heal": 1
+      }
+    },
+    {
+      "boss": "玛丽亚",
+      "n": "血源 · 玛丽亚",
+      "games": [
+        "bb"
+      ],
+      "tier": 3,
+      "profile": {
+        "s": "vamp",
+        "mv": "shift",
+        "growth": true
+      }
+    },
+    {
+      "boss": "劳伦斯",
+      "n": "血源 · 劳伦斯",
+      "games": [
+        "bb"
+      ],
+      "tier": 3,
+      "profile": {
+        "s": "thorn"
+      }
+    },
+    {
+      "boss": "科斯孤儿",
+      "n": "血源 · 科斯孤儿",
+      "games": [
+        "bb"
+      ],
+      "tier": 3,
+      "profile": {
+        "s": "parry",
+        "mv": "push"
+      }
+    }
+  ],
+  "sekiro": [
+    {
+      "boss": "赤鬼",
+      "n": "只狼 · 赤鬼",
+      "games": [
+        "sekiro"
+      ],
+      "tier": 1,
+      "profile": {
+        "s": "guard",
+        "mv": "push"
+      }
+    },
+    {
+      "boss": "鬼刑部",
+      "n": "只狼 · 鬼刑部",
+      "games": [
+        "sekiro"
+      ],
+      "tier": 1,
+      "profile": {
+        "mv": "push"
+      }
+    },
+    {
+      "boss": "火牛",
+      "n": "只狼 · 火牛",
+      "games": [
+        "sekiro"
+      ],
+      "tier": 1,
+      "profile": {
+        "s": "thorn",
+        "mv": "push"
+      }
+    },
+    {
+      "boss": "蝴蝶夫人",
+      "n": "只狼 · 蝴蝶夫人",
+      "games": [
+        "sekiro"
+      ],
+      "tier": 1,
+      "profile": {
+        "s": "fly",
+        "mv": "swap",
+        "dr": 1
+      }
+    },
+    {
+      "boss": "弦一郎",
+      "n": "只狼 · 弦一郎",
+      "games": [
+        "sekiro"
+      ],
+      "tier": 1,
+      "profile": {
+        "s": "parry",
+        "mv": "push",
+        "dr": 1
+      }
+    },
+    {
+      "boss": "屏风猿猴",
+      "n": "只狼 · 屏风猿猴",
+      "games": [
+        "sekiro"
+      ],
+      "tier": 2,
+      "profile": {
+        "mv": "shift"
+      }
+    },
+    {
+      "boss": "狮子猿",
+      "n": "只狼 · 狮子猿",
+      "games": [
+        "sekiro"
+      ],
+      "tier": 2,
+      "profile": {
+        "x": "rekindle",
+        "mv": "push"
+      }
+    },
+    {
+      "boss": "无首狮子猿",
+      "n": "只狼 · 无首狮子猿",
+      "games": [
+        "sekiro"
+      ],
+      "tier": 2,
+      "profile": {
+        "s": "regen",
+        "mv": "push"
+      }
+    },
+    {
+      "boss": "破戒僧",
+      "n": "只狼 · 破戒僧",
+      "games": [
+        "sekiro"
+      ],
+      "tier": 2,
+      "profile": {
+        "s": "guard",
+        "mv": "shift"
+      }
+    },
+    {
+      "boss": "枭",
+      "n": "只狼 · 枭",
+      "games": [
+        "sekiro"
+      ],
+      "tier": 2,
+      "profile": {
+        "s": "parry",
+        "mv": "swap"
+      }
+    },
+    {
+      "boss": "宫内破戒僧",
+      "n": "只狼 · 宫内破戒僧",
+      "games": [
+        "sekiro"
+      ],
+      "tier": 2,
+      "profile": {
+        "s": "guard",
+        "mv": "shift"
+      }
+    },
+    {
+      "boss": "神龙",
+      "n": "只狼 · 神龙",
+      "games": [
+        "sekiro"
+      ],
+      "tier": 3,
+      "profile": {
+        "s": "guard"
+      }
+    },
+    {
+      "boss": "艾玛",
+      "n": "只狼 · 艾玛",
+      "games": [
+        "sekiro"
+      ],
+      "tier": 3,
+      "profile": {
+        "s": "parry",
+        "mv": "shift",
+        "heal": 1
+      }
+    },
+    {
+      "boss": "义父",
+      "n": "只狼 · 义父",
+      "games": [
+        "sekiro"
+      ],
+      "tier": 3,
+      "profile": {
+        "s": "parry",
+        "mv": "shift"
+      }
+    },
+    {
+      "boss": "怨恨之鬼",
+      "n": "只狼 · 怨恨之鬼",
+      "games": [
+        "sekiro"
+      ],
+      "tier": 3,
+      "profile": {
+        "s": "thorn",
+        "mv": "push",
+        "growth": true
+      }
+    },
+    {
+      "boss": "一心",
+      "n": "只狼 · 一心",
+      "games": [
+        "sekiro"
+      ],
+      "tier": 3,
+      "profile": {
+        "s": "parry",
+        "mv": "shift",
+        "dr": 1
+      }
+    }
+  ],
+  "er": [
+    {
+      "boss": "黄金树守卫",
+      "n": "法环 · 黄金树守卫",
+      "games": [
+        "er"
+      ],
+      "tier": 1,
+      "profile": {
+        "s": "guard",
+        "mv": "push"
+      }
+    },
+    {
+      "boss": "玛尔基特",
+      "n": "法环 · 玛尔基特",
+      "games": [
+        "er"
+      ],
+      "tier": 1,
+      "profile": {
+        "s": "parry",
+        "mv": "push",
+        "dr": 1,
+        "x": "soul"
+      }
+    },
+    {
+      "boss": "葛瑞克",
+      "n": "法环 · 葛瑞克",
+      "games": [
+        "er"
+      ],
+      "tier": 1,
+      "profile": {
+        "growth": true,
+        "mv": "push",
+        "heal": 1
+      }
+    },
+    {
+      "boss": "红狼拉达冈",
+      "n": "法环 · 红狼拉达冈",
+      "games": [
+        "er"
+      ],
+      "tier": 1,
+      "profile": {
+        "mv": "shift"
+      }
+    },
+    {
+      "boss": "蕾娜拉",
+      "n": "法环 · 蕾娜拉",
+      "games": [
+        "er"
+      ],
+      "tier": 1,
+      "profile": {
+        "s": "fly",
+        "heal": 1,
+        "dr": 1
+      }
+    },
+    {
+      "boss": "拉塔恩",
+      "n": "法环 · 拉塔恩",
+      "games": [
+        "er"
+      ],
+      "tier": 2,
+      "profile": {
+        "s": "guard",
+        "mv": "push"
+      }
+    },
+    {
+      "boss": "龙装大树守卫",
+      "n": "法环 · 龙装大树守卫",
+      "games": [
+        "er"
+      ],
+      "tier": 2,
+      "profile": {
+        "s": "guard",
+        "mv": "push"
+      }
+    },
+    {
+      "boss": "蒙葛特",
+      "n": "法环 · 蒙葛特",
+      "games": [
+        "er"
+      ],
+      "tier": 2,
+      "profile": {
+        "s": "parry",
+        "mv": "shift"
+      }
+    },
+    {
+      "boss": "拉卡德",
+      "n": "法环 · 拉卡德",
+      "games": [
+        "er"
+      ],
+      "tier": 2,
+      "profile": {
+        "s": "regen"
+      }
+    },
+    {
+      "boss": "莫格",
+      "n": "法环 · 莫格",
+      "games": [
+        "er"
+      ],
+      "tier": 2,
+      "profile": {
+        "s": "vamp"
+      }
+    },
+    {
+      "boss": "火焰巨人",
+      "n": "法环 · 火焰巨人",
+      "games": [
+        "er"
+      ],
+      "tier": 2,
+      "profile": {
+        "s": "guard",
+        "mv": "push"
+      }
+    },
+    {
+      "boss": "玛利喀斯",
+      "n": "法环 · 玛利喀斯",
+      "games": [
+        "er"
+      ],
+      "tier": 3,
+      "profile": {
+        "mv": "shift"
+      }
+    },
+    {
+      "boss": "葛孚雷",
+      "n": "法环 · 葛孚雷",
+      "games": [
+        "er"
+      ],
+      "tier": 3,
+      "profile": {
+        "s": "guard",
+        "mv": "push"
+      }
+    },
+    {
+      "boss": "玛莲妮亚",
+      "n": "法环 · 玛莲妮亚",
+      "games": [
+        "er"
+      ],
+      "tier": 3,
+      "profile": {
+        "s": "vamp",
+        "mv": "shift"
+      }
+    },
+    {
+      "boss": "拉达冈",
+      "n": "法环 · 拉达冈",
+      "games": [
+        "er"
+      ],
+      "tier": 3,
+      "profile": {
+        "s": "parry",
+        "death": "heal",
+        "x": "ember"
+      }
+    },
+    {
+      "boss": "艾尔登之兽",
+      "n": "法环 · 艾尔登之兽",
+      "games": [
+        "er"
+      ],
+      "tier": 3,
+      "profile": {
+        "s": "fly",
+        "heal": 1
+      }
+    }
+  ]
+}
