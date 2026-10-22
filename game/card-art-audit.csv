@@ -1,0 +1,989 @@
+﻿name,game,kind,rarity,baseName,family,features,portrait_description,rule,review
+不死院恶魔,ds1,boss,common,不死院恶魔,demon,horns;axe;jaw,短角宽脸与沉重巨锤的守门恶魔,boss-explicit,explicit Boss direction
+牛头恶魔,ds1,boss,common,牛头恶魔,bull,horns;axe;mane,横伸牛角、宽鼻孔与战斧的牛头恶魔,boss-explicit,explicit Boss direction
+羊头恶魔,ds1,boss,common,羊头恶魔,goat,horns;sword;beard,向上盘绕羊角、山羊面与双曲刀,boss-explicit,explicit Boss direction
+钟楼石像鬼,ds1,boss,common,钟楼石像鬼,demon,wings;helmet;flame,石质尖脸与蝠翼，嘴边透出火光,boss-explicit,explicit Boss direction
+月光蝶,ds1,boss,common,月光蝶,butterfly,moon;crystal;wings,修长触角与月纹薄翼的魔法蝶,boss-explicit,explicit Boss direction
+裂口龙,ds1,boss,common,裂口龙,dragon,jaw;tentacles;scar,小龙首下张开层叠獠牙的裂口巨龙,boss-explicit,explicit Boss direction
+魔女克拉格,ds1,boss,common,魔女克拉格,spider,longhair;flame;multipleArms,女性面孔与火焰蛛足融合的混沌魔女,boss-explicit,explicit Boss direction
+离群恶魔,ds1,boss,common,离群恶魔,demon,horns;staff;scar,折旧弯角与魔力纹路的地下恶魔,boss-explicit,explicit Boss direction
+铁傀儡,ds1,boss,common,铁傀儡,giant,helmet;iron;axe,封闭铁面与铆钉重甲的巨型傀儡,boss-explicit,explicit Boss direction
+奥恩斯坦,ds1,boss,common,奥恩斯坦,knight,helmet;mane;spear;plume,狮面黄金头盔与猎龙长枪,boss-explicit,explicit Boss direction
+斯莫,ds1,boss,common,斯莫,knight,helmet;iron;axe,圆顶厚盔、狭窄视孔与巨锤的刽子手,boss-explicit,explicit Boss direction
+三帖家族,ds1,boss,common,三帖家族,mage,mask;multipleFaces;staff,三张不同面具叠成的死灵术士,boss-explicit,explicit Boss direction
+墓王尼特,ds1,boss,common,墓王尼特,undead,skull;multipleFaces;sword,骸骨冠冕与无数小骷髅组成的墓王,boss-explicit,explicit Boss direction
+白龙希斯,ds1,boss,common,白龙希斯,dragon,crystal;fin;eye,无鳞白龙，头颈长出结晶与扇鳍,boss-explicit,explicit Boss direction
+小隆德四王,ds1,boss,common,小隆德四王,spirit,crown;multipleFaces;sword,四位幽暗王影与裂翼般王袍,boss-explicit,explicit Boss direction
+持续溃烂的生物,ds1,boss,common,持续溃烂的生物,giant,flame;tentacles;scar,熔岩烧灼的多臂巨躯与痛苦面孔,boss-explicit,explicit Boss direction
+恶魔火焰司祭,ds1,boss,common,恶魔火焰司祭,demon,horns;staff;flame,长角恶魔举起燃烧法杖,boss-explicit,explicit Boss direction
+百足恶魔,ds1,boss,common,百足恶魔,worm,centipede;jaw;flame,多节蜈蚣头与熔岩獠牙,boss-explicit,explicit Boss direction
+混沌的温床,ds1,boss,common,混沌的温床,plant,multipleArms;flame;eye,古树根须张成手臂，树心燃着混沌火,boss-explicit,explicit Boss direction
+巨狼希夫,ds1,boss,common,巨狼希夫,wolf,sword;mane;scar,灰色巨狼口衔宽刃大剑,boss-explicit,explicit Boss direction
+半龙普莉希拉,ds1,boss,common,半龙普莉希拉,human,horns;longhair;frost;tail,白发少女带龙角与柔软龙尾,boss-explicit,explicit Boss direction
+格温多林,ds1,boss,common,格温多林,mage,crown;moon;tail,月冠遮面，下方延展蛇尾的幻术神祇,boss-explicit,explicit Boss direction
+薪王葛温,ds1,boss,common,薪王葛温,human,crown;beard;flame;sword,燃尽王冠、长须与余火大剑,boss-explicit,explicit Boss direction
+圣兽,ds1,boss,common,圣兽,cat,horns;wings;tail,狮首、翼与蝎尾相合的守护圣兽,boss-explicit,explicit Boss direction
+亚尔特留斯,ds1,boss,common,亚尔特留斯,knight,helmet;sword;scar,倾斜狼纹头盔与受伤左臂的深渊骑士,boss-explicit,explicit Boss direction
+卡拉米特,ds1,boss,common,卡拉米特,dragon,horns;eye;flame,额中央独眼与黑色长角的灾厄古龙,boss-explicit,explicit Boss direction
+深渊之主马努斯,ds1,boss,common,深渊之主马努斯,demon,horns;multipleArms;eye,深渊獠牙兽首与畸长巨手,boss-explicit,explicit Boss direction
+索拉尔,ds1,npc,common,索拉尔,knight,helmet;halo;shield,顶着羽饰桶盔的太阳骑士,encounter-named-exception,explicit Boss direction
+西格迈尔,ds1,npc,common,西格迈尔,knight,helmet;iron;shield,圆葱般层叠的圆形重盔,named-exception,name/lore matched
+西格琳德,ds1,npc,common,西格琳德,knight,helmet;iron;sword,卡塔利纳圆葱头盔与女骑士长剑,named-exception,name/lore matched
+奥斯卡,ds1,npc,common,奥斯卡,knight,helmet;shield;sword,亚斯特拉封闭骑士盔与剑盾,encounter-named-exception,explicit Boss direction
+安德烈,ds1,npc,common,安德烈,human,beard;multipleArms;iron,白须强壮铁匠露出健硕肩膀,named-exception,name/lore matched
+巨人铁匠,ds1,npc,common,巨人铁匠,giant,helmet;iron;axe,巨人工匠戴粗厚工作面罩,named-exception,name/lore matched
+梵摩斯,ds1,npc,common,梵摩斯,undead,skull;iron;axe,枯骨头颅与铁匠锤的骷髅工匠,named-exception,name/lore matched
+格里格斯,ds1,npc,common,格里格斯,mage,hood;staff;crystal,温和的兜帽魔法学徒,named-exception,name/lore matched
+罗根,ds1,npc,common,罗根,mage,witchhat;beard;staff,巨大宽边尖帽与白须的结晶大师,named-exception,name/lore matched
+劳伦提乌斯,ds1,npc,common,劳伦提乌斯,mage,hood;flame;staff,布兜帽下的温和咒术师,named-exception,name/lore matched
+克拉娜,ds1,npc,common,克拉娜,mage,hood;longhair;flame,黑衣兜帽下的原初咒术魔女,named-exception,name/lore matched
+恩吉,ds1,npc,common,恩吉,human,hood;centipede;rags,卵囊寄生背部的佝偻侍从,named-exception,name/lore matched
+白蜘蛛姬,ds1,npc,common,白蜘蛛姬,spider,longhair;flower;scar,白色女性面容与虚弱蛛足的混沌之女,named-exception,name/lore matched
+雷雅,ds1,npc,common,雷雅,healer,hood;halo;staff,白头巾与祈祷法器的圣女,named-exception,name/lore matched
+佩特鲁斯,ds1,npc,common,佩特鲁斯,healer,helmet;shield;halo,短发教士带着圆盾与圣职法器,named-exception,name/lore matched
+帕奇,ds1,npc,common,帕奇,rogue,spear;shield;eye,光头机会主义者带着狡黠眼神,encounter-named-exception,explicit Boss direction
+阿斯特拉的安娜斯塔西亚,ds1,npc,common,阿斯特拉的安娜斯塔西亚,healer,hood;bandages;halo,蒙着灰色头巾的沉默防火女,named-exception,name/lore matched
+暗月女骑士,ds1,npc,common,暗月女骑士,knight,helmet;moon;sword,黄铜面甲与暗月标记的女骑士,named-exception,name/lore matched
+大弓手戈夫,ds1,npc,common,大弓手戈夫,giant,helmet;blindfold;iron,失明猎龙骑士的巨大旧盔,named-exception,name/lore matched
+王刃基亚兰,ds1,npc,common,王刃基亚兰,rogue,mask;sword;longhair,白色长面具与成对弯刃的王刃,named-exception,name/lore matched
+卡利姆的奥斯瓦尔德,ds1,npc,common,卡利姆的奥斯瓦尔德,rogue,mask;hood;eye,乌黑长袍与尖喙赦罪面具,named-exception,name/lore matched
+弗拉姆特,ds1,npc,common,弗拉姆特,snake,beard;jaw;eye,垂须与宽大牙口的世界大蛇,named-exception,name/lore matched
+黑暗大蛇卡斯,ds1,npc,common,黑暗大蛇卡斯,snake,beard;jaw;moon,黑暗中显出垂须与诡笑的大蛇,named-exception,name/lore matched
+不死镇商人,ds1,npc,common,不死镇商人,undead,hood;skull;sword,褴褛衣物中的失心亡者商人,named-exception,name/lore matched
+女亡灵商人,ds1,npc,common,女亡灵商人,undead,hood;skull;rags,铁栏后的骸骨面孔与旧兜帽,named-exception,name/lore matched
+多姆纳尔,ds1,npc,common,多姆纳尔,human,helmet;horns;iron,圆眼护目面罩与弯角商人头盔,named-exception,name/lore matched
+伊丽莎白,ds1,npc,common,伊丽莎白,mushroom,flower;halo;eye,有温和面孔的巨型蘑菇守护者,named-exception,name/lore matched
+黄王杰雷迈亚,ds1,npc,common,黄王杰雷迈亚,mage,crown;flame;staff,极高盘绕黄布冠与混沌火焰,named-exception,name/lore matched
+寇克,ds1,npc,common,寇克,knight,helmet;iron;sword,布满长铁刺的封闭骑士盔,named-exception,name/lore matched
+魔女贝拉特,ds1,npc,common,魔女贝拉特,mage,witchhat;staff;longhair,黑森林宽尖帽魔女握着法杖,named-exception,name/lore matched
+不死院游魂,ds1,mob,common,不死院游魂,undead,skull;rags,消瘦亡者面孔与破布颈领,undead-name,name/lore matched
+持盾游魂士兵,ds1,mob,common,持盾游魂士兵,undead,skull;rags,消瘦亡者面孔与破布颈领,undead-name,name/lore matched
+游魂弩兵,ds1,mob,common,游魂弩兵,undead,skull;rags,消瘦亡者面孔与破布颈领,undead-name,name/lore matched
+火把游魂,ds1,mob,common,火把游魂,undead,skull;rags,消瘦亡者面孔与破布颈领,undead-name,name/lore matched
+不死镇刺客,ds1,mob,common,不死镇刺客,rogue,hood;sword,轻装兜帽与遮面短刃的敏捷猎手,rogue-name,name/lore matched
+不死镇猎犬,ds1,mob,common,不死镇猎犬,dog,jaw;scar,垂耳与宽鼻的凶猛犬首,species-name,name/lore matched
+下水道老鼠,ds1,mob,common,下水道老鼠,rat,jaw;tail,圆耳、尖吻与长须的鼠首,species-name,name/lore matched
+大老鼠,ds1,mob,common,大老鼠,rat,jaw;tail,圆耳、尖吻与长须的鼠首,species-name,name/lore matched
+结晶蜥蜴,ds1,mob,common,结晶蜥蜴,lizard,tail;eye,尖吻小蜥蜴与背部细鳞,species-name,name/lore matched
+蛙眼咒蛙,ds1,mob,common,蛙眼咒蛙,frog,eye;jaw,宽嘴蛙脸与鼓起的假眼气囊,species-name,name/lore matched
+恶臭肉团,ds1,mob,common,恶臭肉团,blob,eye;tentacles,半透明软泥中显出的眼与口,species-name,name/lore matched
+黑森林树人,ds1,mob,common,黑森林树人,plant,flower;tentacles,树皮面孔与枝叶花冠,species-name,name/lore matched
+蘑菇小人,ds1,mob,common,蘑菇小人,mushroom,eye;flower,圆伞菌盖与朴实面孔的蘑菇人,species-name,name/lore matched
+蘑菇父母,ds1,elite,common,蘑菇父母,mushroom,eye;flower,圆伞菌盖与朴实面孔的蘑菇人,species-name,name/lore matched
+森林石骑士,ds1,elite,common,森林石骑士,knight,helmet;shield,盔甲面罩与相应兵器的人形战士,martial-name,name/lore matched
+巴勒德尔骑士,ds1,elite,common,巴勒德尔骑士,knight,helmet;sword,盔甲面罩与相应兵器的人形战士,martial-name,name/lore matched
+伯尼斯骑士,ds1,elite,common,伯尼斯骑士,knight,helmet;shield,盔甲面罩与相应兵器的人形战士,martial-name,name/lore matched
+黑骑士,ds1,elite,common,黑骑士,knight,helmet;shield,盔甲面罩与相应兵器的人形战士,martial-name,name/lore matched
+银骑士,ds1,elite,common,银骑士,knight,helmet;shield,盔甲面罩与相应兵器的人形战士,martial-name,name/lore matched
+银骑士大弓手,ds1,elite,common,银骑士大弓手,knight,helmet;sword,盔甲面罩与相应兵器的人形战士,martial-name,name/lore matched
+骷髅剑士,ds1,mob,common,骷髅剑士,undead,skull;iron,清晰颅骨、空眼窝与残存骨甲,undead-name,name/lore matched
+骷髅车轮,ds1,mob,common,骷髅车轮,undead,skull;iron,清晰颅骨、空眼窝与残存骨甲,undead-name,name/lore matched
+死灵术士,ds1,elite,common,死灵术士,mage,witchhat;staff,兜帽或尖帽下的施法者面孔,caster-name,name/lore matched
+巨人骷髅,ds1,elite,common,巨人骷髅,undead,skull;iron,清晰颅骨、空眼窝与残存骨甲,undead-name,name/lore matched
+骷髅兽,ds1,elite,common,骷髅兽,undead,skull;iron,清晰颅骨、空眼窝与残存骨甲,undead-name,name/lore matched
+塞恩蛇人士兵,ds1,mob,common,塞恩蛇人士兵,snake,tail;eye,鳞片长吻、分叉信子与盘绕蛇颈,species-name,name/lore matched
+塞恩蛇人法师,ds1,elite,common,塞恩蛇人法师,snake,tail;eye,鳞片长吻、分叉信子与盘绕蛇颈,species-name,name/lore matched
+古城巨人,ds1,elite,common,古城巨人,giant,scar;axe,宽大额骨与厚重肩膀的巨人,giant-name,name/lore matched
+楔形石恶魔,ds1,elite,common,楔形石恶魔,demon,horns;jaw,角状眉骨、獠牙与异色肌肤的鬼怪,demon-name,name/lore matched
+小隆德幽灵,ds1,mob,common,小隆德幽灵,spirit,halo;hood,半透明面孔与飘散的灵魂下摆,spirit-name,name/lore matched
+吸魂鬼,ds1,elite,common,吸魂鬼,knight,helmet;sword,与兵器、护甲相符的人形战斗者,martial-lore,name/lore matched
+飞龙谷蓝飞龙,ds1,elite,common,飞龙谷蓝飞龙,dragon,horns;wings,长吻龙首、角与厚鳞,species-name,name/lore matched
+赤飞龙,ds1,elite,common,赤飞龙,dragon,horns;wings,长吻龙首、角与厚鳞,species-name,name/lore matched
+画中鸦人,ds1,mob,common,画中鸦人,bird,wings;eye,尖喙、羽冠与侧眼的鸟首,species-name,name/lore matched
+绘画守护者,ds1,elite,common,绘画守护者,rogue,hood;mask;sword,白色兜帽与弯刀的绘画守护者,reviewed-exception,name/lore matched
+绘画世界方阵,ds1,mob,common,绘画世界方阵,blob,multipleFaces;shield;spear,持盾腐肉软泥聚成的多面方阵,reviewed-exception,name/lore matched
+画中毒瘤游魂,ds1,mob,common,画中毒瘤游魂,undead,skull;rags,消瘦亡者面孔与破布颈领,undead-name,name/lore matched
+恶魔遗迹岩虫,ds1,mob,common,恶魔遗迹岩虫,worm,centipede;jaw,环节长躯与放射状口器,species-name,name/lore matched
+混沌吞噬者,ds1,elite,common,混沌吞噬者,alien,eye;multipleArms,异样多眼与畸长肢体的怪物,species-name,name/lore matched
+伊扎里斯无头龙下身,ds1,elite,common,伊扎里斯无头龙下身,demon,multipleArms;flame;scar,没有头部与前躯的恶魔下身，熔岩照亮断裂身躯,reviewed-exception,name/lore matched
+水晶不死士兵,ds1,mob,common,水晶不死士兵,knight,helmet;sword,盔甲面罩与相应兵器的人形战士,martial-name,name/lore matched
+结晶巨偶,ds1,elite,common,结晶巨偶,giant,crystal;iron;eye,整张脸由蓝色棱晶组成的巨偶,reviewed-exception,name/lore matched
+书库传道者,ds1,elite,common,书库传道者,mage,witchhat;staff,兜帽或尖帽下的施法者面孔,caster-name,name/lore matched
+蛇女皮萨卡,ds1,mob,common,蛇女皮萨卡,snake,tail;eye,鳞片长吻、分叉信子与盘绕蛇颈,species-name,name/lore matched
+蛤蟆鳐,ds1,mob,common,蛤蟆鳐,fish,fin;wings;eye,宽阔鳐翼与圆钝额头的漂浮巨兽,reviewed-exception,name/lore matched
+深渊人性,ds1,mob,common,深渊人性,spirit,halo;hood,半透明面孔与飘散的灵魂下摆,spirit-name,name/lore matched
+乌拉席露市民,ds1,mob,common,乌拉席露市民,demon,multipleArms;scar;jaw,深渊拉长手臂与头部的扭曲市民,reviewed-exception,name/lore matched
+乌拉席露魔法师,ds1,elite,common,乌拉席露魔法师,mage,witchhat;staff,兜帽或尖帽下的施法者面孔,caster-name,name/lore matched
+链锤囚徒,ds1,elite,common,链锤囚徒,undead,skull;rags,消瘦亡者面孔与破布颈领,undead-name,name/lore matched
+石制守卫,ds1,elite,common,石制守卫,knight,helmet;shield,盔甲面罩与相应兵器的人形战士,martial-name,name/lore matched
+皇家御苑剪枝工,ds1,mob,common,皇家御苑剪枝工,plant,flower;tentacles,树皮面孔与枝叶花冠,species-name,name/lore matched
+最后的巨人,ds2,boss,common,最后的巨人,giant,eye;multipleArms;scar,头部中央空洞与断臂伤口的古巨人,boss-explicit,explicit Boss direction
+咒缚者,ds2,boss,common,咒缚者,knight,helmet;eye;sword;shield,单眼面甲、背负兵器的浮游重骑士,boss-explicit,explicit Boss direction
+猎龙人,ds2,boss,common,猎龙人,knight,helmet;spear;iron,红色重盔与猎龙长戟的守卫,boss-explicit,explicit Boss direction
+古龙猎人,ds2,boss,common,古龙猎人,knight,helmet;spear;mane,狮纹旧头盔与黑色猎龙枪,boss-explicit,explicit Boss direction
+流放罪执行者,ds2,boss,common,流放罪执行者,giant,multipleFaces;sword;scar,背靠背的双面刑吏与成对重刃,boss-explicit,explicit Boss direction
+茫然卫兵,ds2,boss,common,茫然卫兵,knight,helmet;spear;multipleFaces,细长面甲与三道卫兵轮廓,boss-explicit,explicit Boss direction
+遗忘的罪人,ds2,boss,common,遗忘的罪人,human,mask;sword;flame,束缚面具与燃烧长剑的被囚罪人,boss-explicit,explicit Boss direction
+骷髅王,ds2,boss,common,骷髅王,undead,crown;skull;multipleFaces,三位骷髅领主戴着不同旧冠,boss-explicit,explicit Boss direction
+刑吏的战车,ds2,boss,common,刑吏的战车,horse,multipleFaces;iron;skull,双头骸骨战马套着刑场铁缰,boss-explicit,explicit Boss direction
+贪婪恶魔,ds2,boss,common,贪婪恶魔,slug,jaw;scar;tail,肥硕蛞蝓般的吞食恶魔与巨大牙口,boss-explicit,explicit Boss direction
+毒妃米妲,ds2,boss,common,毒妃米妲,snake,crown;longhair;staff,戴冠蛇女与身侧捧起的断首,boss-explicit,explicit Boss direction
+熔铁恶魔,ds2,boss,common,熔铁恶魔,demon,horns;iron;flame;sword,铁甲牛角面孔，胸膛与剑刃燃火,boss-explicit,explicit Boss direction
+铁之古王,ds2,boss,common,铁之古王,demon,crown;horns;flame;wings,王冠与巨翼笼罩熔岩恶魔的面容,boss-explicit,explicit Boss direction
+蝎子纳吉卡,ds2,boss,common,蝎子纳吉卡,scorpion,longhair;tail;staff,女性上身配双螯与双弯蝎尾,boss-explicit,explicit Boss direction
+徘徊的术士与信徒,ds2,boss,common,徘徊的术士与信徒,mage,hood;staff;multipleFaces,兜帽术士围着面目模糊的信徒,boss-explicit,explicit Boss direction
+公爵的芙蕾雅,ds2,boss,common,公爵的芙蕾雅,spider,multipleFaces;eye;jaw,两颗蛛首与八条长腿的巨型蜘蛛,boss-explicit,explicit Boss direction
+鼠王先锋,ds2,boss,common,鼠王先锋,rat,crown;multipleFaces;jaw,鼠群围绕带王冠头鬃的首领,boss-explicit,explicit Boss direction
+鼠王试炼,ds2,boss,common,鼠王试炼,rat,mane;jaw;scar,犬型巨鼠，长吻与下垂的毒牙,boss-explicit,explicit Boss direction
+腐败物,ds2,boss,common,腐败物,undead,multipleFaces;multipleArms;axe,尸体堆叠的多面巨躯与屠刀,boss-explicit,explicit Boss direction
+镜之骑士,ds2,boss,common,镜之骑士,knight,helmet;shield;crystal,面具般银盔与光滑镜盾,boss-explicit,explicit Boss direction
+歌唱恶魔,ds2,boss,common,歌唱恶魔,frog,mask;jaw;tentacles,张开蛙颚，面具藏在喉中的歌唱恶魔,boss-explicit,explicit Boss direction
+王盾韦施塔德,ds2,boss,common,王盾韦施塔德,knight,helmet;axe;halo,钟形头盔与巨铃战锤的忠诚王盾,boss-explicit,explicit Boss direction
+王兄安第尔,ds2,boss,common,王兄安第尔,plant,flame;eye;tentacles,纠缠根须与火焰中露出的学者独眼,boss-explicit,explicit Boss direction
+巨人王,ds2,boss,common,巨人王,giant,crown;sword;eye,巨大空洞面孔、旧冠与巨剑,boss-explicit,explicit Boss direction
+王座守护者,ds2,boss,common,王座守护者,knight,helmet;shield;sword,方正重盔和塔盾的王座守卫,boss-explicit,explicit Boss direction
+王座监视者,ds2,boss,common,王座监视者,knight,helmet;sword;moon,细长银盔与魔力长剑的轻灵监视者,boss-explicit,explicit Boss direction
+娜香德拉,ds2,boss,common,娜香德拉,undead,crown;skull;longhair,黑色王冠下显出骸骨王妃面孔,boss-explicit,explicit Boss direction
+王城双猎龙人,ds2,boss,common,王城双猎龙人,knight,helmet;multipleFaces;spear,两顶异色重盔与成对猎龙长戟,boss-explicit,explicit Boss direction
+守护龙,ds2,boss,common,守护龙,dragon,wings;flame;iron,红龙首与囚笼铁环的守护龙,boss-explicit,explicit Boss direction
+古龙,ds2,boss,common,古龙,dragon,horns;wings;beard,宽大古龙角、长须与古老鳞片,boss-explicit,explicit Boss direction
+芬德里克,ds2,boss,common,芬德里克,undead,crown;sword;beard,失心王者的空洞脸庞与褴褛王冠,boss-explicit,explicit Boss direction
+黑暗潜伏者,ds2,boss,common,黑暗潜伏者,spirit,wings;multipleFaces;hood,分裂的有翼暗影与朦胧兜帽,boss-explicit,explicit Boss direction
+沉眠之龙辛,ds2,boss,common,沉眠之龙辛,dragon,horns;wings;spear,毒龙头颅与贯穿躯体的残矛,boss-explicit,explicit Boss direction
+秽污王妃艾雷娜,ds2,boss,common,秽污王妃艾雷娜,mage,crown;staff;longhair,深色尖冠与召魂法杖的幽影王妃,boss-explicit,explicit Boss direction
+冒险者三人组,ds2,boss,common,冒险者三人组,human,multipleFaces;helmet;hood,重甲战士、兜帽盗贼与古董商三张头像,boss-explicit,explicit Boss direction
+烟之骑士雷姆,ds2,boss,common,烟之骑士雷姆,knight,helmet;sword;flame,熏黑面甲与两柄大小不一的暗焰剑,boss-explicit,explicit Boss direction
+骑士亚伦,ds2,boss,common,骑士亚伦,knight,helmet;sword;plume,东方长角头盔与纤长居合刀,boss-explicit,explicit Boss direction
+蓝色熔铁恶魔,ds2,boss,common,蓝色熔铁恶魔,demon,horns;iron;crystal;sword,蓝色魔力从熔铁恶魔的裂甲透出,boss-explicit,explicit Boss direction
+白王的宠物艾娃,ds2,boss,common,白王的宠物艾娃,cat,frost;mane;eye,雪白剑齿虎头与冰晶般的双眼,boss-explicit,explicit Boss direction
+灼烧的白王,ds2,boss,common,灼烧的白王,knight,crown;helmet;flame;sword,白色王盔与燃烧的长刃,boss-explicit,explicit Boss direction
+王之宠物拉德与札连,ds2,boss,common,王之宠物拉德与札连,cat,multipleFaces;frost;mane,两颗剑齿冰虎头并肩守住雪原,boss-explicit,explicit Boss direction
+绿衣巡礼者,ds2,npc,common,绿衣巡礼者,healer,hood;longhair;halo,绿兜帽下的红发引导者,named-exception,name/lore matched
+失心的索丹,ds2,npc,common,失心的索丹,knight,helmet;sword,与兵器、护甲相符的人形战斗者,martial-lore,name/lore matched
+露卡蒂尔,ds2,npc,common,露卡蒂尔,knight,mask;helmet;sword,半脸面具与羽饰圆帽的女骑士,named-exception,name/lore matched
+班哈特,ds2,npc,common,班哈特,knight,beard;sword;iron,壮实有须的蓝剑旅行战士,named-exception,name/lore matched
+铁匠雷尼加兹,ds2,npc,common,铁匠雷尼加兹,human,beard;iron,健壮工匠的面孔与锻造工具,craft-lore,name/lore matched
+卖矿石的克洛亚娜,ds2,npc,common,卖矿石的克洛亚娜,human,hood;eye,与介绍一致的旅行者、商人或平民面孔,civilian-fallback,civilian role reviewed
+铁匠麦道夫,ds2,npc,common,铁匠麦道夫,human,beard;iron,健壮工匠的面孔与锻造工具,craft-lore,name/lore matched
+防具商人玛夫穆兰,ds2,npc,common,防具商人玛夫穆兰,human,hood;eye,与介绍一致的旅行者、商人或平民面孔,civilian-fallback,civilian role reviewed
+行商梅伦提拉,ds2,npc,common,行商梅伦提拉,human,hood;eye,与介绍一致的旅行者、商人或平民面孔,civilian-fallback,civilian role reviewed
+制图师凯尔,ds2,npc,common,制图师凯尔,human,hood;eye,与介绍一致的旅行者、商人或平民面孔,civilian-fallback,civilian role reviewed
+甜蜜夏拉格,ds2,npc,common,甜蜜夏拉格,cat,eye;tail,灰色猫脸与灵动的双眼,named-exception,name/lore matched
+吉里甘,ds2,npc,common,吉里甘,human,hood;eye,与介绍一致的旅行者、商人或平民面孔,civilian-fallback,civilian role reviewed
+培特,ds2,npc,common,培特,human,hood;eye,与介绍一致的旅行者、商人或平民面孔,civilian-fallback,civilian role reviewed
+克雷顿,ds2,npc,common,克雷顿,knight,helmet;sword,与兵器、护甲相符的人形战斗者,martial-lore,name/lore matched
+林德的莉絮,ds2,npc,common,林德的莉絮,healer,hood;halo,头巾下温和的医者或圣职面孔,support-lore,name/lore matched
+卡里昂,ds2,npc,common,卡里昂,mage,hood;beard;staff,深色兜帽与白须的魔法学者,named-exception,name/lore matched
+罗莎贝丝,ds2,npc,common,罗莎贝丝,mage,hood;flame;scar,解开石化的年轻咒术学徒,named-exception,name/lore matched
+斯特雷德,ds2,npc,common,斯特雷德,mage,mask;hood;staff,黑色尖面具与古老魔法兜帽,named-exception,name/lore matched
+奥尼菲克斯,ds2,npc,common,奥尼菲克斯,bird,wings;iron;eye,长喙鸟人铁匠与羽毛披肩,named-exception,name/lore matched
+费尔金,ds2,npc,common,费尔金,mage,hood;beard;moon,布兜帽下的黯术研究者,named-exception,name/lore matched
+巡礼者格兰达尔,ds2,npc,common,巡礼者格兰达尔,mage,hood;staff;beard,坐在古老木椅上的白须暗术师,named-exception,name/lore matched
+温格之首,ds2,npc,common,温格之首,human,helmet;skull;scar,带着旧战盔的失身头颅,named-exception,name/lore matched
+曼斯库匹恩塔克,ds2,npc,common,曼斯库匹恩塔克,scorpion,helmet;spear;tail,沉静人脸、粗螯与单弯蝎尾的战士,named-exception,name/lore matched
+宫廷魔术师纳瓦蓝,ds2,npc,common,宫廷魔术师纳瓦蓝,mage,hood;multipleFaces;staff,双重性格呈现不同表情的宫廷术士,named-exception,name/lore matched
+巫女雅莉珊卓,ds2,npc,common,巫女雅莉珊卓,healer,crown;frost;longhair,冰雪王冠与白王记忆的巫女,named-exception,name/lore matched
+王城宰相韦拉格,ds2,npc,common,王城宰相韦拉格,spirit,helmet;staff;halo,半透明王城宰相面孔与旧戟,named-exception,name/lore matched
+持剑游魂步兵,ds2,mob,common,持剑游魂步兵,undead,skull;rags,消瘦亡者面孔与破布颈领,undead-name,name/lore matched
+持盾王国士兵,ds2,mob,common,持盾王国士兵,knight,helmet;shield,盔甲面罩与相应兵器的人形战士,martial-name,name/lore matched
+森林火蜥蜴,ds2,elite,common,森林火蜥蜴,lizard,tail;eye,尖吻小蜥蜴与背部细鳞,species-name,name/lore matched
+海德骑士,ds2,elite,common,海德骑士,knight,helmet;shield,盔甲面罩与相应兵器的人形战士,martial-name,name/lore matched
+古老骑士,ds2,elite,common,古老骑士,knight,helmet;shield,盔甲面罩与相应兵器的人形战士,martial-name,name/lore matched
+瓦兰吉水手,ds2,mob,common,瓦兰吉水手,rogue,hood;sword,轻装护面与短刃的暗行者,rogue-lore,name/lore matched
+暗影刺客,ds2,elite,common,暗影刺客,rogue,hood;sword,轻装兜帽与遮面短刃的敏捷猎手,rogue-name,name/lore matched
+长臂暗栖者,ds2,elite,common,长臂暗栖者,alien,eye;multipleArms,异样多眼与畸长肢体的怪物,species-name,name/lore matched
+王国剑士,ds2,mob,common,王国剑士,knight,helmet;shield,盔甲面罩与相应兵器的人形战士,martial-name,name/lore matched
+爆炸游魂,ds2,mob,common,爆炸游魂,undead,skull;rags,消瘦亡者面孔与破布颈领,undead-name,name/lore matched
+囚笼狱卒,ds2,elite,common,囚笼狱卒,knight,helmet;spear;flame,戴刑具头盔、握长柄兵器的狱卒,reviewed-exception,name/lore matched
+狩猎森林骷髅,ds2,mob,common,狩猎森林骷髅,undead,skull;iron,清晰颅骨、空眼窝与残存骨甲,undead-name,name/lore matched
+双刀骷髅,ds2,mob,common,双刀骷髅,undead,skull;iron,清晰颅骨、空眼窝与残存骨甲,undead-name,name/lore matched
+车轮骷髅,ds2,mob,common,车轮骷髅,undead,skull;iron,清晰颅骨、空眼窝与残存骨甲,undead-name,name/lore matched
+镰刀胖子,ds2,elite,common,镰刀胖子,human,hood;axe;scar,宽阔胖脸与巨镰的刑场守卫,reviewed-exception,name/lore matched
+狩猎森林施术者,ds2,mob,common,狩猎森林施术者,mage,witchhat;staff,兜帽或尖帽下的施法者面孔,caster-name,name/lore matched
+巨型镰刀守卫,ds2,elite,common,巨型镰刀守卫,knight,helmet;sword,盔甲面罩与相应兵器的人形战士,martial-name,name/lore matched
+沙之魔术师,ds2,elite,common,沙之魔术师,mage,witchhat;staff,兜帽或尖帽下的施法者面孔,caster-name,name/lore matched
+毒角甲虫,ds2,mob,common,毒角甲虫,insect,eye;wings,节肢头部、触角与多足,species-name,name/lore matched
+猎犬鼠,ds2,mob,common,猎犬鼠,rat,jaw;tail,长吻犬型巨鼠，保留鼠耳与鼠尾,reviewed-exception,name/lore matched
+狮子战士,ds2,elite,common,狮子战士,cat,mane;jaw,浓密狮鬃、短鼻与尖牙的狮首,species-name,name/lore matched
+无形盗贼,ds2,mob,common,无形盗贼,rogue,hood;sword,轻装兜帽与遮面短刃的敏捷猎手,rogue-name,name/lore matched
+马斯托顿战士,ds2,elite,common,马斯托顿战士,elephant,helmet;spear,长鼻与外伸獠牙的象首战士,species-name,name/lore matched
+盖尔姆战士,ds2,elite,common,盖尔姆战士,knight,helmet;shield,盔甲面罩与相应兵器的人形战士,martial-name,name/lore matched
+盖尔姆投斧手,ds2,mob,common,盖尔姆投斧手,knight,helmet;axe;beard,短壮盖尔姆战士戴盔并举投斧,reviewed-exception,name/lore matched
+蜘蛛寄生人,ds2,mob,common,蜘蛛寄生人,spider,mask;eye;multipleArms,人脸与背部寄生辉石蜘蛛相叠的受害居民,reviewed-exception,name/lore matched
+辉石蜘蛛,ds2,mob,common,辉石蜘蛛,spider,eye;jaw,多眼蛛头与八条弯曲蛛足,species-name,name/lore matched
+辉石法师,ds2,elite,common,辉石法师,mage,witchhat;staff,兜帽或尖帽下的施法者面孔,caster-name,name/lore matched
+阿玛那祭司,ds2,mob,common,阿玛那祭司,healer,hood;halo,头巾与祈祷光晕的圣职或医者,support-name,name/lore matched
+阿玛那异形,ds2,mob,common,阿玛那异形,alien,eye;multipleArms,异样多眼与畸长肢体的怪物,species-name,name/lore matched
+王城石像士兵,ds2,mob,common,王城石像士兵,knight,helmet;shield,盔甲面罩与相应兵器的人形战士,martial-name,name/lore matched
+王城茫然卫兵,ds2,elite,common,王城茫然卫兵,knight,helmet;shield,盔甲面罩与相应兵器的人形战士,martial-name,name/lore matched
+龙祭坛卫兵,ds2,elite,common,龙祭坛卫兵,knight,helmet;shield,盔甲面罩与相应兵器的人形战士,martial-name,name/lore matched
+龙血骑士,ds2,elite,common,龙血骑士,knight,helmet;sword,盔甲面罩与相应兵器的人形战士,martial-name,name/lore matched
+萨尔瓦圣壁士兵,ds2,mob,common,萨尔瓦圣壁士兵,knight,helmet;shield,盔甲面罩与相应兵器的人形战士,martial-name,name/lore matched
+幽灵圣壁骑士,ds2,elite,common,幽灵圣壁骑士,spirit,halo;hood,半透明面孔与飘散的灵魂下摆,spirit-name,name/lore matched
+黑魔女,ds2,elite,common,黑魔女,mage,witchhat;staff,兜帽或尖帽下的施法者面孔,caster-name,name/lore matched
+无礼者,ds2,elite,common,无礼者,undead,skull;rags,枯瘦的亡者面孔与破旧衣领,undead-lore,name/lore matched
+铁龟战士,ds2,elite,common,铁龟战士,knight,helmet;shield;iron,龟壳状背甲下仍是人类重装战士,reviewed-exception,name/lore matched
+亚伦骑士,ds2,elite,common,亚伦骑士,knight,helmet;sword,盔甲面罩与相应兵器的人形战士,martial-name,name/lore matched
+亚伦骑士长,ds2,elite,common,亚伦骑士长,knight,helmet;sword,盔甲面罩与相应兵器的人形战士,martial-name,name/lore matched
+铁牢火术师,ds2,elite,common,铁牢火术师,mage,witchhat;staff,兜帽或尖帽下的施法者面孔,caster-name,name/lore matched
+灰烬战士,ds2,mob,common,灰烬战士,knight,helmet;sword,盔甲面罩与相应兵器的人形战士,martial-name,name/lore matched
+熔铁士兵,ds2,mob,common,熔铁士兵,knight,helmet;sword,盔甲面罩与相应兵器的人形战士,martial-name,name/lore matched
+持巨锤熔铁战士,ds2,elite,common,持巨锤熔铁战士,knight,helmet;axe,盔甲面罩与相应兵器的人形战士,martial-name,name/lore matched
+冰冻士兵,ds2,mob,common,冰冻士兵,knight,helmet;shield,盔甲面罩与相应兵器的人形战士,martial-name,name/lore matched
+冰冻刺猬,ds2,mob,common,冰冻刺猬,hedgehog,frost;iron;eye,覆冰的刺猬圆背竖起晶刺,reviewed-exception,name/lore matched
+无形战士,ds2,elite,common,无形战士,knight,helmet;sword,盔甲面罩与相应兵器的人形战士,martial-name,name/lore matched
+灰烬审判者古达,ds3,boss,common,灰烬审判者古达,knight,helmet;spear;tentacles,裂开头盔与人之脓黑影的戟骑士,boss-explicit,explicit Boss direction
+冷冽谷的玻尔多,ds3,boss,common,冷冽谷的玻尔多,knight,helmet;frost;mane,覆霜的兽形重盔与低伏獠牙,boss-explicit,explicit Boss direction
+咒蚀大树,ds3,boss,common,咒蚀大树,plant,eye;tentacles;scar,结着腐败囊肿的古树面孔,boss-explicit,explicit Boss direction
+结晶老者,ds3,boss,common,结晶老者,mage,witchhat;crystal;staff,宽大尖帽与辉晶面孔的学者,boss-explicit,explicit Boss direction
+幽邃主教群,ds3,boss,common,幽邃主教群,healer,mitre;multipleFaces;staff,高主教冠与一群持烛教士的面孔,boss-explicit,explicit Boss direction
+深渊守望者,ds3,boss,common,深渊守望者,knight,helmet;sword;plume;multipleFaces,尖顶狼骑士头盔与交叠的守望者身影,boss-explicit,explicit Boss direction
+霸王沃尼尔,ds3,boss,common,霸王沃尼尔,undead,crown;skull;halo,戴冠巨骷髅与三只发光手镯,boss-explicit,explicit Boss direction
+老恶魔王,ds3,boss,common,老恶魔王,demon,horns;beard;flame,灰白长角与熄灭灰烬中的恶魔老王,boss-explicit,explicit Boss direction
+教宗沙力万,ds3,boss,common,教宗沙力万,mage,crown;multipleArms;sword,细长教宗冠与一明一暗双剑,boss-explicit,explicit Boss direction
+吞噬神明的艾尔德利奇,ds3,boss,common,吞噬神明的艾尔德利奇,blob,crown;longhair;tentacles,神躯从黑色淤泥与触手中升起,boss-explicit,explicit Boss direction
+巨人尤姆,ds3,boss,common,巨人尤姆,giant,crown;axe;beard,蒙灰王冠、长须与巨型砍刀,boss-explicit,explicit Boss direction
+冷冽谷的舞娘,ds3,boss,common,冷冽谷的舞娘,knight,helmet;longhair;sword;flame,蒙纱的细长面盔与双弯剑,boss-explicit,explicit Boss direction
+妖王欧斯罗艾斯,ds3,boss,common,妖王欧斯罗艾斯,dragon,crystal;eye;tail,无鳞瘦长龙头与浑浊眼睛,boss-explicit,explicit Boss direction
+英雄古达,ds3,boss,common,英雄古达,knight,helmet;spear;iron,完整封闭的重盔与粗长战戟,boss-explicit,explicit Boss direction
+猎龙铠甲,ds3,boss,common,猎龙铠甲,knight,helmet;shield;axe,空心面甲、猎龙大斧与沉重方盾,boss-explicit,explicit Boss direction
+洛斯里克王子,ds3,boss,common,洛斯里克王子,human,crown;multipleFaces;longhair,病弱王子伏在兄长肩上，双面相依,boss-explicit,explicit Boss direction
+洛里安,ds3,boss,common,洛里安,knight,crown;sword;scar,失明王子戴低垂王冠并握燃烧巨剑,boss-explicit,explicit Boss direction
+古老飞龙,ds3,boss,common,古老飞龙,dragon,horns;wings;jaw,风化龙角与展开的巨大飞翼,boss-explicit,explicit Boss direction
+无名王者,ds3,boss,common,无名王者,human,crown;mane;spear,风吹白发的王冠战士与雷霆长枪,boss-explicit,explicit Boss direction
+薪王们的化身,ds3,boss,common,薪王们的化身,knight,helmet;flame;sword,头盔缝隙流出余火的历代薪王化身,boss-explicit,explicit Boss direction
+王者守墓人,ds3,boss,common,王者守墓人,knight,helmet;shield;mane,狼纹面盔与盾剑的王墓守卫,boss-explicit,explicit Boss direction
+守墓大狼,ds3,boss,common,守墓大狼,wolf,frost;mane;scar,雪白毛鬃与战痕累累的巨狼,boss-explicit,explicit Boss direction
+修女芙莉德,ds3,boss,common,修女芙莉德,human,hood;frost;sword,蒙兜帽的冷静修女与冰霜镰刃,boss-explicit,explicit Boss direction
+教父艾雷德尔,ds3,boss,common,教父艾雷德尔,giant,beard;flame;scar,白须教父俯视燃烧器皿，身躯伤痕累累,boss-explicit,explicit Boss direction
+恶魔王子,ds3,boss,common,恶魔王子,demon,horns;wings;flame,火焰双翼与折角的混沌王子,boss-explicit,explicit Boss direction
+教堂之枪哈尔弗莱特,ds3,boss,common,教堂之枪哈尔弗莱特,knight,helmet;spear;plume,教堂骑士的冠盔与细长守护枪,boss-explicit,explicit Boss direction
+黑龙米狄尔,ds3,boss,common,黑龙米狄尔,dragon,horns;crystal;flame,黑色晶鳞、裂角与深渊火光,boss-explicit,explicit Boss direction
+盖尔,ds3,boss,common,盖尔,human,hood;beard;sword;scar,破红兜帽下的苍老胡须与断刃,boss-explicit,explicit Boss direction
+防火女,ds3,npc,common,防火女,healer,blindfold;hood;halo,金属眼罩与灰色兜帽的防火女,named-exception,name/lore matched
+霍克伍德,ds3,npc,common,霍克伍德,knight,helmet;sword;shield,灰心狼血战士的旧头盔与盾剑,reviewed-exception,name/lore matched
+铁匠安德烈,ds3,npc,common,铁匠安德烈,human,beard;iron,健壮工匠的面孔与锻造工具,craft-lore,name/lore matched
+祭祀场侍女,ds3,npc,common,祭祀场侍女,human,hood;scar;rags,老侍女戴灰布头巾，面容布满皱纹,reviewed-exception,name/lore matched
+库尔兰的鲁道斯,ds3,npc,common,库尔兰的鲁道斯,undead,crown;skull;rags,矮小薪王的焦黑面孔与旧冠,reviewed-exception,name/lore matched
+约尔,ds3,npc,common,约尔,undead,hood;rags;scar,背负龟甲石壳的佝偻巡礼亡者,reviewed-exception,name/lore matched
+尤莉亚,ds3,npc,common,尤莉亚,rogue,mask;hood;sword,黑色鸟喙面具与隆道长刀,reviewed-exception,name/lore matched
+安瑞,ds3,npc,common,安瑞,knight,helmet;sword,与兵器、护甲相符的人形战斗者,martial-lore,name/lore matched
+沉默骑士霍拉斯,ds3,npc,common,沉默骑士霍拉斯,knight,helmet;shield,盔甲面罩与相应兵器的人形战士,martial-name,name/lore matched
+西格瓦德,ds3,npc,common,西格瓦德,knight,helmet;sword,与兵器、护甲相符的人形战斗者,martial-lore,name/lore matched
+不屈不挠的帕奇,ds3,npc,common,不屈不挠的帕奇,rogue,eye;spear;shield,光头骗子露出狡黠笑容，背着盾枪,reviewed-exception,name/lore matched
+希里斯,ds3,npc,common,希里斯,knight,helmet;sword,与兵器、护甲相符的人形战斗者,martial-lore,name/lore matched
+无名指的李奥纳多,ds3,npc,common,无名指的李奥纳多,rogue,hood;sword,轻装护面与短刃的暗行者,rogue-lore,name/lore matched
+重生之母罗莎莉亚,ds3,npc,common,重生之母罗莎莉亚,human,longhair;halo;scar,黑纱之下温柔却苍白的重生之母,reviewed-exception,name/lore matched
+卡利姆的伊莉娜,ds3,npc,common,卡利姆的伊莉娜,healer,hood;halo,头巾下温和的医者或圣职面孔,support-lore,name/lore matched
+卡利姆的伊果,ds3,npc,common,卡利姆的伊果,knight,helmet;sword,与兵器、护甲相符的人形战斗者,martial-lore,name/lore matched
+奥贝克,ds3,npc,common,奥贝克,mage,hood;staff;crystal,黑衣兜帽下的彼海姆魔法师,reviewed-exception,name/lore matched
+大沼的柯弭库斯,ds3,npc,common,大沼的柯弭库斯,mage,hood;staff,施法者的长袍、法杖与专注面孔,caster-lore,name/lore matched
+卡露拉,ds3,npc,common,卡露拉,mage,hood;staff,施法者的长袍、法杖与专注面孔,caster-lore,name/lore matched
+不死聚落的葛雷瑞特,ds3,npc,common,不死聚落的葛雷瑞特,rogue,hood;mask;sword,戴鸟嘴头巾的瘦小盗贼,reviewed-exception,name/lore matched
+药指的海泽尔,ds3,npc,common,药指的海泽尔,mage,hood;staff,施法者的长袍、法杖与专注面孔,caster-lore,name/lore matched
+神圣骑士霍德里克,ds3,npc,common,神圣骑士霍德里克,knight,helmet;sword,盔甲面罩与相应兵器的人形战士,martial-name,name/lore matched
+猎杀骑士克雷顿,ds3,npc,common,猎杀骑士克雷顿,knight,helmet;sword,盔甲面罩与相应兵器的人形战士,martial-name,name/lore matched
+巡礼者隆道尔的苍白影子,ds3,npc,common,巡礼者隆道尔的苍白影子,healer,hood;halo,头巾与祈祷光晕的圣职或医者,support-name,name/lore matched
+黑手哥德希尔特,ds3,npc,common,黑手哥德希尔特,rogue,helmet;sword;plume,黑色猎帽下的王城双剑黑手,reviewed-exception,name/lore matched
+狮子骑士艾伯特,ds3,npc,common,狮子骑士艾伯特,knight,helmet;sword,盔甲面罩与相应兵器的人形战士,martial-name,name/lore matched
+绘画少女,ds3,npc,common,绘画少女,human,hood;longhair;flower,蒙头巾、持画笔的安静少女,reviewed-exception,name/lore matched
+拉普,ds3,npc,common,拉普,knight,helmet;sword,与兵器、护甲相符的人形战斗者,martial-lore,name/lore matched
+费莲诺尔的骑士希拉,ds3,npc,common,费莲诺尔的骑士希拉,knight,helmet;shield,盔甲面罩与相应兵器的人形战士,martial-name,name/lore matched
+高墙游魂士兵,ds3,mob,common,高墙游魂士兵,undead,skull;rags,消瘦亡者面孔与破布颈领,undead-name,name/lore matched
+提灯游魂,ds3,mob,common,提灯游魂,undead,skull;rags,消瘦亡者面孔与破布颈领,undead-name,name/lore matched
+人之脓,ds3,elite,common,人之脓,snake,multipleArms;jaw;scar,从亡者体内迸出的黑色蛇形人之脓,reviewed-exception,name/lore matched
+洛斯里克猎犬,ds3,mob,common,洛斯里克猎犬,dog,jaw;scar,垂耳与宽鼻的凶猛犬首,species-name,name/lore matched
+洛斯里克骑士,ds3,elite,common,洛斯里克骑士,knight,helmet;shield,盔甲面罩与相应兵器的人形战士,martial-name,name/lore matched
+洛斯里克长枪骑士,ds3,elite,common,洛斯里克长枪骑士,knight,helmet;spear,盔甲面罩与相应兵器的人形战士,martial-name,name/lore matched
+洛斯里克大剑骑士,ds3,elite,common,洛斯里克大剑骑士,knight,helmet;sword,盔甲面罩与相应兵器的人形战士,martial-name,name/lore matched
+羽翼骑士,ds3,elite,common,羽翼骑士,knight,helmet;shield,盔甲面罩与相应兵器的人形战士,martial-name,name/lore matched
+金翼骑士,ds3,elite,common,金翼骑士,knight,helmet;shield,盔甲面罩与相应兵器的人形战士,martial-name,name/lore matched
+传教士,ds3,elite,common,传教士,healer,hood;halo,头巾与祈祷光晕的圣职或医者,support-name,name/lore matched
+不死聚落农夫,ds3,mob,common,不死聚落农夫,undead,hood;rags;axe,失心农夫的破帽与园艺重刀,reviewed-exception,name/lore matched
+笼中亡者,ds3,mob,common,笼中亡者,undead,skull;rags,消瘦亡者面孔与破布颈领,undead-name,name/lore matched
+奴隶小恶魔,ds3,mob,common,奴隶小恶魔,demon,horns;wings,石质尖脸与小角的翼魔,species-name,name/lore matched
+红眼锯手,ds3,elite,common,红眼锯手,undead,eye;axe;scar,赤眼刑吏戴旧头巾并握锯刃,reviewed-exception,name/lore matched
+背笼狂人,ds3,elite,common,背笼狂人,undead,iron;rags;scar,背着铁笼的弯腰亡者面孔,reviewed-exception,name/lore matched
+鸦人说书者,ds3,elite,common,鸦人说书者,bird,wings;eye,尖喙、羽冠与侧眼的鸟首,species-name,name/lore matched
+鸦人镰刀手,ds3,mob,common,鸦人镰刀手,bird,wings;eye,尖喙、羽冠与侧眼的鸟首,species-name,name/lore matched
+十字架狼人,ds3,elite,common,十字架狼人,wolf,mane;jaw,尖耳、长吻与颈鬃的狼首,species-name,name/lore matched
+黑骑士大剑兵,ds3,elite,common,黑骑士大剑兵,knight,helmet;shield,盔甲面罩与相应兵器的人形战士,martial-name,name/lore matched
+黑骑士大斧兵,ds3,elite,common,黑骑士大斧兵,knight,helmet;axe,盔甲面罩与相应兵器的人形战士,martial-name,name/lore matched
+结晶蜥蜴幼体,ds3,mob,common,结晶蜥蜴幼体,lizard,tail;eye,尖吻小蜥蜴与背部细鳞,species-name,name/lore matched
+贪食结晶蜥蜴,ds3,elite,common,贪食结晶蜥蜴,lizard,tail;eye,尖吻小蜥蜴与背部细鳞,species-name,name/lore matched
+幽邃教堂执事,ds3,mob,common,幽邃教堂执事,healer,mitre;staff;hood,持烛执事的深色教帽与仪式袍,reviewed-exception,name/lore matched
+幽邃教堂骑士,ds3,elite,common,幽邃教堂骑士,knight,helmet;shield,盔甲面罩与相应兵器的人形战士,martial-name,name/lore matched
+幽邃教堂巨人,ds3,elite,common,幽邃教堂巨人,giant,scar;axe,宽大额骨与厚重肩膀的巨人,giant-name,name/lore matched
+大蛆人,ds3,mob,common,大蛆人,undead,skull;rags,枯瘦的亡者面孔与破旧衣领,undead-lore,name/lore matched
+宝箱怪,ds3,elite,common,宝箱怪,mimic,iron;jaw;multipleArms,打开的宝箱盖长满牙齿并伸出手臂,reviewed-exception,name/lore matched
+卡萨斯骷髅剑士,ds3,mob,common,卡萨斯骷髅剑士,undead,skull;iron,清晰颅骨、空眼窝与残存骨甲,undead-name,name/lore matched
+卡萨斯红眼剑士,ds3,elite,common,卡萨斯红眼剑士,knight,helmet;sword,盔甲面罩与相应兵器的人形战士,martial-name,name/lore matched
+卡萨斯大曲刀手,ds3,elite,common,卡萨斯大曲刀手,undead,skull;sword;hood,残旧头巾下的持大曲刀骷髅,reviewed-exception,name/lore matched
+卡萨斯车轮骷髅,ds3,mob,common,卡萨斯车轮骷髅,undead,skull;iron,清晰颅骨、空眼窝与残存骨甲,undead-name,name/lore matched
+熏烟湖螃蟹,ds3,elite,common,熏烟湖螃蟹,crab,eye;iron,硬壳、突眼与双螯的蟹形头像,species-name,name/lore matched
+恶魔遗迹咕噜,ds3,mob,common,恶魔遗迹咕噜,demon,horns;jaw,角状眉骨、獠牙与异色肌肤的鬼怪,demon-name,name/lore matched
+恶魔祭司,ds3,elite,common,恶魔祭司,healer,hood;halo,头巾与祈祷光晕的圣职或医者,support-name,name/lore matched
+墓地沙虫,ds3,elite,common,墓地沙虫,worm,centipede;jaw;scar,巨大环节口器与长节沙虫躯体,reviewed-exception,name/lore matched
+教宗骑士,ds3,elite,common,教宗骑士,knight,helmet;sword,盔甲面罩与相应兵器的人形战士,martial-name,name/lore matched
+教宗火焰魔女,ds3,elite,common,教宗火焰魔女,mage,witchhat;staff,兜帽或尖帽下的施法者面孔,caster-name,name/lore matched
+冷冽谷银骑士,ds3,elite,common,冷冽谷银骑士,knight,helmet;shield,盔甲面罩与相应兵器的人形战士,martial-name,name/lore matched
+银骑士大弓兵,ds3,elite,common,银骑士大弓兵,knight,helmet;sword,盔甲面罩与相应兵器的人形战士,martial-name,name/lore matched
+伊鲁席尔奴隶,ds3,mob,common,伊鲁席尔奴隶,undead,hood;rags;sword,佝偻瘦削的伏地奴隶戴着破兜帽,reviewed-exception,name/lore matched
+沙力万巨兽,ds3,elite,common,沙力万巨兽,wolf,skull;jaw;scar,骨质长吻与弯曲獠牙的巨大狼兽,reviewed-exception,name/lore matched
+狱卒,ds3,elite,common,狱卒,human,hood;iron;staff,戴铁制面罩、握烙铁的刑狱看守,reviewed-exception,name/lore matched
+婴儿脸爬行者,ds3,mob,common,婴儿脸爬行者,alien,multipleFaces;eye;scar,婴儿般人脸与细长四肢的地下怪物,reviewed-exception,name/lore matched
+罪之都石像鬼,ds3,elite,common,罪之都石像鬼,demon,horns;wings,石质尖脸与小角的翼魔,species-name,name/lore matched
+罪之都手掌怪,ds3,elite,common,罪之都手掌怪,hand,multipleArms;eye;jaw,手指围住中央口器的巨大掌怪,reviewed-exception,name/lore matched
+古龙顶蛇人,ds3,mob,common,古龙顶蛇人,snake,tail;eye,鳞片长吻、分叉信子与盘绕蛇颈,species-name,name/lore matched
+古龙顶蛇人大斧手,ds3,elite,common,古龙顶蛇人大斧手,snake,tail;eye,鳞片长吻、分叉信子与盘绕蛇颈,species-name,name/lore matched
+古龙顶召唤师,ds3,elite,common,古龙顶召唤师,snake,hood;staff;eye,长颈蛇首与摇铃法器的古龙顶召唤师,reviewed-exception,name/lore matched
+岩石蜥蜴,ds3,mob,common,岩石蜥蜴,lizard,tail;eye,尖吻小蜥蜴与背部细鳞,species-name,name/lore matched
+艾雷德尔米尔伍德骑士,ds3,elite,common,艾雷德尔米尔伍德骑士,knight,helmet;shield,盔甲面罩与相应兵器的人形战士,martial-name,name/lore matched
+米尔伍德大弓骑士,ds3,elite,common,米尔伍德大弓骑士,knight,helmet;sword,盔甲面罩与相应兵器的人形战士,martial-name,name/lore matched
+鸦羽骑士,ds3,elite,common,鸦羽骑士,knight,helmet;sword,盔甲面罩与相应兵器的人形战士,martial-name,name/lore matched
+鸦爪骑士,ds3,elite,common,鸦爪骑士,knight,helmet;sword,盔甲面罩与相应兵器的人形战士,martial-name,name/lore matched
+绘画树女,ds3,mob,common,绘画树女,plant,longhair;flame;tentacles,树枝女性面孔与燃烧树冠,reviewed-exception,name/lore matched
+狼群,ds3,mob,common,狼群,wolf,mane;jaw,尖耳狼群的头领与交叠狼影,reviewed-exception,name/lore matched
+环印骑士直剑兵,ds3,elite,common,环印骑士直剑兵,knight,helmet;shield,盔甲面罩与相应兵器的人形战士,martial-name,name/lore matched
+环印骑士双特大剑兵,ds3,elite,common,环印骑士双特大剑兵,knight,helmet;sword,盔甲面罩与相应兵器的人形战士,martial-name,name/lore matched
+哈兰德战士,ds3,elite,common,哈兰德战士,knight,helmet;shield,盔甲面罩与相应兵器的人形战士,martial-name,name/lore matched
+聚集于深渊的蝗虫,ds3,mob,common,聚集于深渊的蝗虫,insect,wings;multipleArms;eye,人形蝗虫的长触须与刀状前肢,reviewed-exception,name/lore matched
+巡礼天使,ds3,elite,common,巡礼天使,healer,hood;halo,头巾与祈祷光晕的圣职或医者,support-name,name/lore matched
+巡礼蝴蝶,ds3,elite,common,巡礼蝴蝶,butterfly,wings;eye,细长触角与对称纹理的蝶翼,species-name,name/lore matched
+咒蛙,ds3,mob,common,咒蛙,frog,eye;jaw,宽嘴蛙脸与鼓起的假眼气囊,species-name,name/lore matched
+环印城墓碑亡者,ds3,mob,common,环印城墓碑亡者,undead,skull;rags,消瘦亡者面孔与破布颈领,undead-name,name/lore matched
+巨人判官,ds3,elite,common,巨人判官,giant,scar;axe,宽大额骨与厚重肩膀的巨人,giant-name,name/lore matched
+卡利姆的罗德里克,ds1,npc,common,卡利姆的罗德里克,knight,helmet;sword;horns,黄铜镂空面甲与双弯曲刀,named-exception,name/lore matched
+守墓人亚格德蓝,ds2,npc,common,守墓人亚格德蓝,undead,skull;rags,枯瘦的亡者面孔与破旧衣领,undead-lore,name/lore matched
+哈维尔战士,ds3,elite,common,哈维尔战士,knight,helmet;shield,盔甲面罩与相应兵器的人形战士,martial-name,name/lore matched
+彼海姆的文海姆,ds3,npc,common,彼海姆的文海姆,knight,helmet;sword,与兵器、护甲相符的人形战斗者,martial-lore,name/lore matched
+方阵,des,boss,common,方阵,blob,shield;spear;multipleFaces,软泥聚成的多面盾阵，长矛从阵中伸出,boss-explicit,explicit Boss direction
+塔楼骑士,des,boss,common,塔楼骑士,knight,helmet;shield;spear;plume,高耸巨盔与塔盾长枪的重装骑士,boss-explicit,explicit Boss direction
+贯穿骑士,des,boss,common,贯穿骑士,knight,helmet;sword;plume,狭长面甲与贯穿长剑的精锐骑士,boss-explicit,explicit Boss direction
+拦路恶魔,des,boss,common,拦路恶魔,demon,horns;axe;jaw,粗大弯角、兽颚与双刃战斧的恶魔,boss-explicit,explicit Boss direction
+旧日勇士,des,boss,common,旧日勇士,giant,blindfold;sword;scar,蒙眼古战士，布带下留下古老伤痕,boss-explicit,explicit Boss direction
+食人鬼,des,boss,common,食人鬼,demon,wings;tail;horns,石翼与蛇尾合成的双翼食人魔,boss-explicit,explicit Boss direction
+伪王欧兰特,des,boss,common,伪王欧兰特,knight,crown;sword;longhair,束发王冠与夺魂长剑的伪王,boss-explicit,explicit Boss direction
+老王欧兰特,des,boss,common,老王欧兰特,blob,crown;tentacles;eye,王冠陷入变形肉躯的衰败君王,boss-explicit,explicit Boss direction
+铠甲蜘蛛,des,boss,common,铠甲蜘蛛,spider,iron;flame;eye,厚甲八足与炽热口器的矿道巨蛛,boss-explicit,explicit Boss direction
+炎魔,des,boss,common,炎魔,demon,flame;horns;scar,裂隙燃烧的赤焰恶魔面孔,boss-explicit,explicit Boss direction
+龙神,des,boss,common,龙神,dragon,horns;flame;jaw,双角巨龙，宽阔下颚吐出炽焰,boss-explicit,explicit Boss direction
+愚者的偶像,des,boss,common,愚者的偶像,mage,crown;multipleArms;staff,戴冠的四臂偶像，法杖环绕面庞,boss-explicit,explicit Boss direction
+黄衣老者,des,boss,common,黄衣老者,mage,crown;hood;staff,盘绕高耸黄布头冠的寄宿法师,boss-explicit,explicit Boss direction
+风暴王,des,boss,common,风暴王,fish,wings;fin;eye,宽大鳐翼与长尾的空中风暴巨兽,boss-explicit,explicit Boss direction
+审判者,des,boss,common,审判者,giant,crown;jaw;wings,巨口审判者，头顶栖着金色小鸟,boss-explicit,explicit Boss direction
+吸血虫聚合体,des,boss,common,吸血虫聚合体,worm,multipleFaces;tentacles;jaw,吸血环虫攀成的多口聚合怪物,boss-explicit,explicit Boss direction
+污秽巨像,des,boss,common,污秽巨像,giant,iron;tentacles;scar,污物包裹的铁甲巨躯，裂缝盘着虫群,boss-explicit,explicit Boss direction
+少女阿斯特蕾亚,des,boss,common,少女阿斯特蕾亚,healer,hood;halo;longhair,白色兜帽与温和面容的祈祷少女,boss-explicit,explicit Boss direction
+黑衣少女,des,npc,common,黑衣少女,healer,hood;blindfold;staff,黑色兜帽与闭眼面容的引魂少女,named-exception,name/lore matched
+要人,des,npc,common,要人,spirit,halo;mask,面目沉静的远古灵魂守望者,named-exception,name/lore matched
+圣者于尔班,des,npc,common,圣者于尔班,healer,hood;halo,头巾下温和的医者或圣职面孔,support-lore,name/lore matched
+于尔班的信徒,des,npc,common,于尔班的信徒,healer,hood;halo,头巾下温和的医者或圣职面孔,support-lore,name/lore matched
+瑟琳·文兰,des,npc,common,瑟琳·文兰,knight,helmet;sword,与兵器、护甲相符的人形战斗者,martial-lore,name/lore matched
+加尔·文兰,des,npc,common,加尔·文兰,knight,helmet;shield;axe,暗银重盔与巨锤方盾的守护骑士,reviewed-exception,name/lore matched
+托马斯,des,npc,common,托马斯,human,hood;eye,与介绍一致的旅行者、商人或平民面孔,civilian-fallback,civilian role reviewed
+铁匠鲍德温,des,npc,common,铁匠鲍德温,human,beard;iron,健壮工匠的面孔与锻造工具,craft-lore,name/lore matched
+铁匠艾德,des,npc,common,铁匠艾德,human,beard;iron,健壮工匠的面孔与锻造工具,craft-lore,name/lore matched
+颓丧战士,des,npc,common,颓丧战士,knight,helmet;sword,盔甲面罩与相应兵器的人形战士,martial-name,name/lore matched
+奥斯特拉瓦,des,npc,common,奥斯特拉瓦,knight,helmet;sword,与兵器、护甲相符的人形战斗者,martial-lore,name/lore matched
+比约尔,des,npc,common,比约尔,knight,helmet;sword,与兵器、护甲相符的人形战斗者,martial-lore,name/lore matched
+老王多兰,des,npc,common,老王多兰,knight,helmet;sword,与兵器、护甲相符的人形战斗者,martial-lore,name/lore matched
+米兰达,des,npc,common,米兰达,human,hood;mask;axe,处刑者的遮面头巾与战斧,reviewed-exception,name/lore matched
+斯克维尔,des,npc,common,斯克维尔,human,hood;eye,与介绍一致的旅行者、商人或平民面孔,civilian-fallback,civilian role reviewed
+五月,des,npc,common,五月,knight,helmet;sword,与兵器、护甲相符的人形战斗者,martial-lore,name/lore matched
+恶魂·帕奇,des,npc,common,恶魂·帕奇,rogue,spear;shield;eye,光头骗子露出算计的笑意,named-exception,name/lore matched
+肮脏男人,des,npc,common,肮脏男人,human,hood;eye,与介绍一致的旅行者、商人或平民面孔,civilian-fallback,civilian role reviewed
+肮脏女人,des,npc,common,肮脏女人,human,hood;eye,与介绍一致的旅行者、商人或平民面孔,civilian-fallback,civilian role reviewed
+王城奴隶商人,des,npc,common,王城奴隶商人,human,hood;eye,与介绍一致的旅行者、商人或平民面孔,civilian-fallback,civilian role reviewed
+墓掘者布莱吉,des,npc,common,墓掘者布莱吉,human,hood;eye,与介绍一致的旅行者、商人或平民面孔,civilian-fallback,civilian role reviewed
+闪闪鸟,des,npc,common,闪闪鸟,bird,wings;eye,收藏亮晶晶物件的小鸟,named-exception,name/lore matched
+尤特,des,npc,common,尤特,rogue,helmet;sword;horns,双角头盔下的沉默刺客,named-exception,name/lore matched
+梅菲斯托费勒,des,npc,common,梅菲斯托费勒,rogue,mask;hood;sword,宽边帽与遮面面具的暗杀策划者,named-exception,name/lore matched
+魔女尤莉亚,des,npc,common,魔女尤莉亚,mage,witchhat;staff;rags,破旧尖帽与咒术法杖的魔女,named-exception,name/lore matched
+贤者弗瑞克,des,npc,common,贤者弗瑞克,mage,beard;hood;staff,兜帽下留长须的灵魂学者,named-exception,name/lore matched
+弗瑞克的徒弟,des,npc,common,弗瑞克的徒弟,mage,hood;staff;crystal,学习灵魂术的年轻兜帽学徒,reviewed-exception,name/lore matched
+雷德尔,des,npc,common,雷德尔,mage,helmet;staff;crystal,奇特头冠与磷光长杖的贵族法师,named-exception,name/lore matched
+前王室贵妇,des,npc,common,前王室贵妇,human,hood;eye,与介绍一致的旅行者、商人或平民面孔,civilian-fallback,civilian role reviewed
+柏雷塔尼亚士兵,des,mob,common,柏雷塔尼亚士兵,knight,helmet;shield,盔甲面罩与相应兵器的人形战士,martial-name,name/lore matched
+王城弩兵,des,mob,common,王城弩兵,knight,helmet;sword,盔甲面罩与相应兵器的人形战士,martial-name,name/lore matched
+柏雷塔尼亚亡者,des,mob,common,柏雷塔尼亚亡者,undead,skull;rags,消瘦亡者面孔与破布颈领,undead-name,name/lore matched
+王城猎犬,des,mob,common,王城猎犬,dog,jaw;scar,垂耳与宽鼻的凶猛犬首,species-name,name/lore matched
+矿工,des,mob,common,矿工,human,hood;eye,与介绍一致的旅行者、商人或平民面孔,civilian-fallback,civilian role reviewed
+拉托利亚囚徒,des,mob,common,拉托利亚囚徒,undead,skull;rags,消瘦亡者面孔与破布颈领,undead-name,name/lore matched
+骷髅弓手,des,mob,common,骷髅弓手,undead,skull;iron,清晰颅骨、空眼窝与残存骨甲,undead-name,name/lore matched
+巨大蜱虫,des,mob,common,巨大蜱虫,insect,eye;wings,节肢头部、触角与多足,species-name,name/lore matched
+软泥怪,des,mob,common,软泥怪,blob,eye;tentacles,半透明软泥中显出的眼与口,species-name,name/lore matched
+火蜥蜴,des,mob,common,火蜥蜴,lizard,tail;eye,尖吻小蜥蜴与背部细鳞,species-name,name/lore matched
+熔岩虫,des,mob,common,熔岩虫,worm,centipede;jaw,环节长躯与放射状口器,species-name,name/lore matched
+影人,des,mob,common,影人,spirit,halo;hood,半透明面孔与飘散的灵魂下摆,spirit-name,name/lore matched
+拉托利亚石像鬼,des,mob,common,拉托利亚石像鬼,demon,horns;wings,石质尖脸与小角的翼魔,species-name,name/lore matched
+风暴兽,des,mob,common,风暴兽,fish,wings;fin;eye,鳐形宽翼与长尾的空中风暴兽,reviewed-exception,name/lore matched
+腐朽谷堕落者,des,mob,common,腐朽谷堕落者,undead,hood;rags;scar,身染污秽、衣衫褴褛的失心居民,reviewed-exception,name/lore matched
+巨型蛞蝓,des,mob,common,巨型蛞蝓,slug,eye;tentacles,柔软长躯与伸出的眼柄,species-name,name/lore matched
+瘟疫鼠,des,mob,common,瘟疫鼠,rat,jaw;tail,圆耳、尖吻与长须的鼠首,species-name,name/lore matched
+蚊群,des,mob,common,蚊群,insect,eye;wings,节肢头部、触角与多足,species-name,name/lore matched
+蓝眼骑士,des,elite,common,蓝眼骑士,knight,helmet;shield,盔甲面罩与相应兵器的人形战士,martial-name,name/lore matched
+红眼骑士,des,elite,common,红眼骑士,knight,helmet;sword,盔甲面罩与相应兵器的人形战士,martial-name,name/lore matched
+王城密探,des,elite,common,王城密探,rogue,hood;sword,轻装兜帽与遮面短刃的敏捷猎手,rogue-name,name/lore matched
+银色骷髅,des,elite,common,银色骷髅,undead,skull;iron,清晰颅骨、空眼窝与残存骨甲,undead-name,name/lore matched
+金色骷髅,des,elite,common,金色骷髅,undead,skull;iron,清晰颅骨、空眼窝与残存骨甲,undead-name,name/lore matched
+黑色骷髅,des,elite,common,黑色骷髅,undead,skull;iron,清晰颅骨、空眼窝与残存骨甲,undead-name,name/lore matched
+巨大堕落者,des,elite,common,巨大堕落者,giant,scar;axe,宽大额骨与厚重肩膀的巨人,giant-name,name/lore matched
+夺心魔,des,elite,common,夺心魔,alien,tentacles;eye,触手覆盖口鼻的吸脑怪物,species-name,name/lore matched
+死神,des,elite,common,死神,mage,hood;staff,施法者的长袍、法杖与专注面孔,caster-lore,name/lore matched
+肥胖官员,des,elite,common,肥胖官员,mage,mask;axe;flame,僵笑胖脸与施放火球的执行官,reviewed-exception,name/lore matched
+红龙,des,elite,common,红龙,dragon,horns;wings,长吻龙首、角与厚鳞,species-name,name/lore matched
+蓝龙,des,elite,common,蓝龙,dragon,horns;wings,长吻龙首、角与厚鳞,species-name,name/lore matched
+教会野兽,bb,boss,common,教会野兽,deer,antler;mane;jaw,鹿角、野兽长颚与不对称毛鬃,boss-explicit,explicit Boss direction
+加斯科因,bb,boss,common,加斯科因,human,blindfold;axe;mane,蒙眼猎人帽与开始兽化的面容,boss-explicit,explicit Boss direction
+梅尔戈乳母,bb,boss,common,梅尔戈乳母,spirit,hood;multipleArms;sword,无脸黑羽兜帽与六只持刃手臂,boss-explicit,explicit Boss direction
+渴血兽,bb,boss,common,渴血兽,demon,longhair;jaw;scar,头皮下垂的血肉兽首与张开的长颚,boss-explicit,explicit Boss direction
+阿梅利亚,bb,boss,common,阿梅利亚,deer,antler;longhair;bandages,白毛鹿角兽与缠绕手腕的祈祷布带,boss-explicit,explicit Boss direction
+汉威克女巫,bb,boss,common,汉威克女巫,human,hood;eye;staff,佝偻女巫头巾上布满眼球饰物,boss-explicit,explicit Boss direction
+雅南暗影,bb,boss,common,雅南暗影,rogue,hood;multipleFaces;tail,三名黑袍刀手与蛇影相叠,boss-explicit,explicit Boss direction
+罗姆,bb,boss,common,罗姆,spider,eye;crystal;multipleFaces,圆钝石质头部与众多眼孔的蛛形古神,boss-explicit,explicit Boss direction
+黑兽帕尔,bb,boss,common,黑兽帕尔,undead,skull;mane;flame,长毛骨兽的空洞头颅闪着雷光,boss-explicit,explicit Boss direction
+重生之古神,bb,boss,common,重生之古神,undead,multipleFaces;multipleArms;tentacles,血肉肢体堆成的多面古神,boss-explicit,explicit Boss direction
+米克拉什,bb,boss,common,米克拉什,human,iron;staff;eye,人脸罩在高耸的铁笼中,boss-explicit,explicit Boss direction
+星之使者,bb,boss,common,星之使者,alien,multipleFaces;eye;tentacles,蓝色大头与细长触须的星界使者群,boss-explicit,explicit Boss direction
+伊布莱塔斯,bb,boss,common,伊布莱塔斯,alien,tentacles;wings;eye,花瓣般裂开的古神头部与双翼,boss-explicit,explicit Boss direction
+格曼,bb,boss,common,格曼,human,hood;beard;sword,戴软猎人帽的白须老人持长镰,boss-explicit,explicit Boss direction
+月之魔物,bb,boss,common,月之魔物,alien,tentacles;skull;moon,颅骨古神的触手与月轮剪影,boss-explicit,explicit Boss direction
+路德维希,bb,boss,common,路德维希,horse,jaw;multipleFaces;sword,扭曲马首、肩侧副眼与月光大剑,boss-explicit,explicit Boss direction
+劳伦斯,bb,boss,common,劳伦斯,deer,antler;flame;scar,燃烧鹿角与焦裂皮肤的教会巨兽,boss-explicit,explicit Boss direction
+活体失败者,bb,boss,common,活体失败者,alien,multipleFaces;eye;scar,高大无脸病躯向星光抬头,boss-explicit,explicit Boss direction
+玛丽亚,bb,boss,common,玛丽亚,human,hood;longhair;sword,束发女猎人戴三角帽，双刃映着血光,boss-explicit,explicit Boss direction
+科斯孤儿,bb,boss,common,科斯孤儿,human,skull;scar;wings,苍白皱缩面孔与胎盘般弯刃,boss-explicit,explicit Boss direction
+苏美鲁女王雅南,bb,boss,common,苏美鲁女王雅南,human,crown;longhair;scar,白裙血迹与古老王冠的地底女王,boss-explicit,explicit Boss direction
+苏美鲁后裔,bb,boss,common,苏美鲁后裔,human,beard;sword;scar,苍老卷须与双弯刃的古代后裔,boss-explicit,explicit Boss direction
+苏美鲁长老,bb,boss,common,苏美鲁长老,mage,beard;staff;flame,长须老者握着燃烧法杖,boss-explicit,explicit Boss direction
+不死巨人,bb,boss,common,不死巨人,giant,scar;iron;multipleArms,缝合皮肤与接上工具武器的囚巨人,boss-explicit,explicit Boss direction
+放血兽,bb,boss,common,放血兽,demon,mane;jaw;scar,血肉撕裂、长颚下垂的高大兽首,boss-explicit,explicit Boss direction
+无头放血兽,bb,boss,common,无头放血兽,worm,jaw;scar;centipede,断颈中伸出寄生长虫的无头兽,boss-explicit,explicit Boss direction
+旧主看门狗,bb,boss,common,旧主看门狗,dog,jaw;flame;iron,岩浆裂纹与巨大犬颚的古老看门狗,boss-explicit,explicit Boss direction
+洛伦黑暗怪兽,bb,boss,common,洛伦黑暗怪兽,undead,skull;mane;eye,带雷光的长毛骸骨怪兽,boss-explicit,explicit Boss direction
+被遗忘的疯子,bb,boss,common,被遗忘的疯子,human,hood;scar;axe,披破布的疯狂猎人与粗重兵器,boss-explicit,explicit Boss direction
+野兽附身的灵魂,bb,boss,common,野兽附身的灵魂,demon,mane;flame;jaw,带火焰与破旧衣物的兽化灵魂,boss-explicit,explicit Boss direction
+脑噬者,bb,elite,common,脑噬者,alien,tentacles;eye,触手覆盖口鼻的吸脑怪物,species-name,name/lore matched
+人偶,bb,npc,common,人偶,healer,hood;longhair;halo,戴蕾丝头巾的温和人形人偶,reviewed-exception,name/lore matched
+吉尔伯特,bb,npc,common,吉尔伯特,human,hood;eye,与介绍一致的旅行者、商人或平民面孔,civilian-fallback,civilian role reviewed
+亚莉安娜,bb,npc,common,亚莉安娜,human,hood;eye,与介绍一致的旅行者、商人或平民面孔,civilian-fallback,civilian role reviewed
+阿黛拉,bb,npc,common,阿黛拉,healer,hood;halo,头巾下温和的医者或圣职面孔,support-lore,name/lore matched
+欧顿小教堂居民,bb,npc,common,欧顿小教堂居民,human,hood;eye,与介绍一致的旅行者、商人或平民面孔,civilian-fallback,civilian role reviewed
+孤独老妇人,bb,npc,common,孤独老妇人,human,hood;eye,与介绍一致的旅行者、商人或平民面孔,civilian-fallback,civilian role reviewed
+加斯科因的小女儿,bb,npc,common,加斯科因的小女儿,human,hood;eye,与介绍一致的旅行者、商人或平民面孔,civilian-fallback,civilian role reviewed
+小女孩的姐姐,bb,npc,common,小女孩的姐姐,human,hood;eye,与介绍一致的旅行者、商人或平民面孔,civilian-fallback,civilian role reviewed
+约瑟夫卡,bb,npc,common,约瑟夫卡,healer,hood;longhair;staff,诊所医师的整洁头巾与温和面容,reviewed-exception,name/lore matched
+冒牌约瑟夫卡,bb,npc,common,冒牌约瑟夫卡,healer,hood;eye;staff,诊所头巾下露出冷静审视目光的医师,reviewed-exception,name/lore matched
+艾琳,bb,npc,common,艾琳,rogue,mask;wings;sword,鸟喙面具与黑羽披肩的乌鸦猎人,reviewed-exception,name/lore matched
+杜拉,bb,npc,common,杜拉,rogue,helmet;eye;scar,软帽、眼罩与老猎人的粗犷面容,reviewed-exception,name/lore matched
+阿尔弗雷德,bb,npc,common,阿尔弗雷德,knight,helmet;axe;halo,行刑队骑士的头盔与沉重轮形兵器,reviewed-exception,name/lore matched
+亨利克,bb,npc,common,亨利克,rogue,hood;mask;sword,黄色猎装与蒙面猎人旧帽,reviewed-exception,name/lore matched
+瓦尔特,bb,npc,common,瓦尔特,human,helmet;scar;axe,铁桶盔与锯齿兵器的联盟猎人,reviewed-exception,name/lore matched
+安娜莉丝,bb,npc,common,安娜莉丝,human,crown;mask;longhair,铁面具罩住的该隐赫斯特女王,reviewed-exception,name/lore matched
+西蒙,bb,npc,common,西蒙,rogue,hood;blindfold;sword,遮眼布与简陋兜帽的弓刃猎人,reviewed-exception,name/lore matched
+布拉多,bb,npc,common,布拉多,rogue,hood;sword,轻装护面与短刃的暗行者,rogue-lore,name/lore matched
+圣女阿德琳,bb,npc,common,圣女阿德琳,alien,bandages;eye;scar,研究大厅绷带包裹的膨大头部,reviewed-exception,name/lore matched
+可疑乞丐,bb,npc,common,可疑乞丐,human,blindfold;bandages;scar,缠眼布与污旧绷带的可疑乞丐,reviewed-exception,name/lore matched
+蜘蛛帕奇,bb,npc,common,蜘蛛帕奇,spider,mask;eye;jaw,光头人脸与八足蜘蛛身躯相连,reviewed-exception,name/lore matched
+老猎人亨利特,bb,npc,common,老猎人亨利特,rogue,hood;sword,轻装兜帽与遮面短刃的敏捷猎手,rogue-name,name/lore matched
+双胞胎弟弟马达拉斯,bb,npc,common,双胞胎弟弟马达拉斯,rogue,hood;tail;sword,戴旧猎帽、使役毒蛇的马达拉斯猎人,reviewed-exception,name/lore matched
+亚楠市民,bb,mob,common,亚楠市民,undead,hood;rags;axe,开始兽化的市民面孔与粗制猎具,reviewed-exception,name/lore matched
+持枪市民,bb,mob,common,持枪市民,knight,helmet;sword,与兵器、护甲相符的人形战斗者,martial-lore,name/lore matched
+持盾市民,bb,mob,common,持盾市民,undead,hood;shield;rags,举木盾、衣着破旧的失心市民,reviewed-exception,name/lore matched
+猎犬,bb,mob,common,猎犬,dog,jaw;scar,垂耳与宽鼻的凶猛犬首,species-name,name/lore matched
+亚楠乌鸦,bb,mob,common,亚楠乌鸦,bird,wings;eye,尖喙、羽冠与侧眼的鸟首,species-name,name/lore matched
+老鼠群,bb,mob,common,老鼠群,rat,jaw;tail,圆耳、尖吻与长须的鼠首,species-name,name/lore matched
+教会仆从,bb,mob,common,教会仆从,human,hood;staff;scar,苍白面容与教会旧袍的高大仆从,reviewed-exception,name/lore matched
+研究大厅患者,bb,mob,common,研究大厅患者,alien,bandages;eye;scar,包着污旧绷带的膨大病患头颅,reviewed-exception,name/lore matched
+持火暴徒,bb,mob,common,持火暴徒,undead,hood;flame;axe,失心市民举着火把与粗刀,reviewed-exception,name/lore matched
+兽化病患,bb,mob,common,兽化病患,wolf,rags;jaw;scar,从人脸中伸出狼吻的兽化患者,reviewed-exception,name/lore matched
+小天界使者,bb,mob,common,小天界使者,alien,eye;tentacles;halo,蓝色圆大头与短触须的小使者,reviewed-exception,name/lore matched
+血虱,bb,mob,common,血虱,insect,eye;wings,节肢头部、触角与多足,species-name,name/lore matched
+小蛇球,bb,mob,common,小蛇球,snake,tail;eye,鳞片长吻、分叉信子与盘绕蛇颈,species-name,name/lore matched
+巨蛇球,bb,elite,common,巨蛇球,snake,tail;eye,鳞片长吻、分叉信子与盘绕蛇颈,species-name,name/lore matched
+砖块巨人,bb,elite,common,砖块巨人,giant,scar;axe,宽大额骨与厚重肩膀的巨人,giant-name,name/lore matched
+斧头巨人,bb,elite,common,斧头巨人,giant,scar;axe,宽大额骨与厚重肩膀的巨人,giant-name,name/lore matched
+教会巨人,bb,elite,common,教会巨人,giant,scar;axe,宽大额骨与厚重肩膀的巨人,giant-name,name/lore matched
+教会十字架仆从,bb,elite,common,教会十字架仆从,human,hood;staff;scar,教会面巾下的高大持十字杖仆从,reviewed-exception,name/lore matched
+狼人,bb,elite,common,狼人,wolf,mane;jaw,尖耳、长吻与颈鬃的狼首,species-name,name/lore matched
+摇铃女,bb,elite,common,摇铃女,mage,hood;staff;skull,长袍蒙面的召魂摇铃女,reviewed-exception,name/lore matched
+冬灯,bb,elite,common,冬灯,alien,eye;tentacles;multipleFaces,满是眼球的脑形头与软垂触须,reviewed-exception,name/lore matched
+曼希斯之脑,bb,elite,common,曼希斯之脑,alien,eye;multipleFaces;tentacles,多眼巨脑与纠缠的软体褶皱,reviewed-exception,name/lore matched
+食人猪,bb,elite,common,食人猪,boar,jaw;eye;scar,厚鼻盘、獠牙与浑浊双眼的食人猪,reviewed-exception,name/lore matched
+该隐赫斯特血鸦,bb,elite,common,该隐赫斯特血鸦,rogue,mask;wings;sword,银色鸟喙面具与血色猎人披肩,reviewed-exception,name/lore matched
+巨型鱼人,bb,elite,common,巨型鱼人,fish,jaw;axe;fin,鲨鱼般宽头与沉重船锚兵器,reviewed-exception,name/lore matched
+渔村鱼人,bb,mob,common,渔村鱼人,fish,jaw;spear;fin,鱼鳃、宽嘴与渔猎长矛的鱼人,reviewed-exception,name/lore matched
+鱼人祭司,bb,mob,common,鱼人祭司,fish,staff;eye;fin,鱼鳃祭司头与海潮法器,reviewed-exception,name/lore matched
+脑液,bb,mob,common,脑液,blob,eye;tentacles;scar,脱离身体的柔软脑液肉团,reviewed-exception,name/lore matched
+石像鬼,bb,elite,common,石像鬼,demon,horns;wings,石质尖脸与小角的翼魔,species-name,name/lore matched
+该隐赫斯特女幽灵,bb,mob,common,该隐赫斯特女幽灵,spirit,halo;hood,半透明面孔与飘散的灵魂下摆,spirit-name,name/lore matched
+苏美鲁守卫,bb,elite,common,苏美鲁守卫,knight,helmet;sword,盔甲面罩与相应兵器的人形战士,martial-name,name/lore matched
+苏美鲁守墓人,bb,elite,common,苏美鲁守墓人,human,hood;staff;skull,古墓长袍下的苍白持杖守墓人,reviewed-exception,name/lore matched
+墓穴蜘蛛,bb,mob,common,墓穴蜘蛛,spider,eye;jaw,多眼蛛头与八条弯曲蛛足,species-name,name/lore matched
+迷宫狂人,bb,elite,common,迷宫狂人,human,longhair;axe;scar,披散长发、双眼狂乱的迷宫人,reviewed-exception,name/lore matched
+狼,sekiro,boss,common,狼,rogue,scar;sword;bandages,束发忍者，脸有伤痕并缠着忍义手布带,boss-explicit,explicit Boss direction
+鬼刑部,sekiro,boss,common,鬼刑部,knight,helmet;spear;plume,长角武士头盔与骑战长枪,boss-explicit,explicit Boss direction
+蝴蝶夫人,sekiro,boss,common,蝴蝶夫人,rogue,longhair;mask;staff,白发老妇束高发髻，以幻术与细刃作战,boss-explicit,explicit Boss direction
+弦一郎,sekiro,boss,common,弦一郎,knight,helmet;sword;plume,苇名武将的角盔与长刀,boss-explicit,explicit Boss direction
+屏风猿猴,sekiro,boss,common,屏风猿猴,monkey,multipleFaces;mask;eye,四种表情与面具颜色的猿猴并列,boss-explicit,explicit Boss direction
+狮子猿,sekiro,boss,common,狮子猿,monkey,mane;scar;jaw,白毛巨猿的宽嘴与颈部伤痕,boss-explicit,explicit Boss direction
+无首狮子猿,sekiro,boss,common,无首狮子猿,monkey,skull;sword;scar,白毛断颈猿，手边托着被斩下的猿首,boss-explicit,explicit Boss direction
+破戒僧,sekiro,boss,common,破戒僧,human,mask;hood;spear,笑面能剧面具与宽僧袍的持刀僧,boss-explicit,explicit Boss direction
+宫内破戒僧,sekiro,boss,common,宫内破戒僧,human,mask;centipede;spear,三面幻影面具与破颈蜈蚣的真身僧,boss-explicit,explicit Boss direction
+枭,sekiro,boss,common,枭,rogue,beard;longhair;sword,灰色长辫与厚重羽衣的年迈忍者,boss-explicit,explicit Boss direction
+义父,sekiro,boss,common,义父,rogue,beard;longhair;flame,年轻时更锐利的长辫忍者与火鸟幻影,boss-explicit,explicit Boss direction
+一心,sekiro,boss,common,一心,human,beard;helmet;sword,白须武将戴草盔，长刀横于肩侧,boss-explicit,explicit Boss direction
+怨恨之鬼,sekiro,boss,common,怨恨之鬼,demon,flame;horns;multipleArms,单臂化作烈火的赤色怨鬼,boss-explicit,explicit Boss direction
+神龙,sekiro,boss,common,神龙,dragon,antler;sword;halo,白木枝角与七支剑的樱龙,boss-explicit,explicit Boss direction
+艾玛,sekiro,boss,common,艾玛,healer,longhair;sword;flower,束发医师佩发簪，衣旁显出柔和刀光,boss-explicit,explicit Boss direction
+侍大将河原田直盛,sekiro,elite,common,侍大将河原田直盛,knight,helmet;sword,盔甲面罩与相应兵器的人形战士,martial-name,name/lore matched
+侍大将山内典膳,sekiro,elite,common,侍大将山内典膳,knight,helmet;sword,盔甲面罩与相应兵器的人形战士,martial-name,name/lore matched
+侍大将松本内藏佑,sekiro,elite,common,侍大将松本内藏佑,knight,helmet;sword,盔甲面罩与相应兵器的人形战士,martial-name,name/lore matched
+苇名七本枪山内式部利胜,sekiro,elite,common,苇名七本枪山内式部利胜,knight,helmet;spear,盔甲面罩与相应兵器的人形战士,martial-name,name/lore matched
+苇名七本枪鬼庭主马雅次,sekiro,elite,common,苇名七本枪鬼庭主马雅次,knight,helmet;spear,盔甲面罩与相应兵器的人形战士,martial-name,name/lore matched
+苇名流佐濑甚助,sekiro,elite,common,苇名流佐濑甚助,knight,helmet;sword;scar,苇名剑士的轻甲与迅疾居合刀,reviewed-exception,name/lore matched
+水生氏成,sekiro,elite,common,水生氏成,knight,helmet;sword;iron,苇名居合剑士戴着护面轻盔,reviewed-exception,name/lore matched
+赤鬼,sekiro,elite,common,赤鬼,demon,horns;jaw,角状眉骨、獠牙与异色肌肤的鬼怪,encounter-demon-name,explicit Boss direction
+蚺蛇重藏,sekiro,elite,common,蚺蛇重藏,human,beard;sword;scar,蓬发醉汉的大肚人形与粗刀,reviewed-exception,name/lore matched
+牛饮德次郎,sekiro,elite,common,牛饮德次郎,human,beard;sword;scar,喝酒醉汉的宽脸胡须与粗刀，非牛头,reviewed-exception,name/lore matched
+赤备重吉,sekiro,elite,common,赤备重吉,knight,helmet;shield,盔甲面罩与相应兵器的人形战士,martial-name,name/lore matched
+火牛,sekiro,elite,common,火牛,bull,horns;flame;jaw,双角绑着燃烧木束的宽鼻牛首,encounter-reviewed-exception,explicit Boss direction
+宫之樱牛,sekiro,elite,common,宫之樱牛,bull,horns;flower;jaw,樱花飘落在长角与宽额上的源之宫巨牛,reviewed-exception,name/lore matched
+铠甲武士,sekiro,elite,common,铠甲武士,knight,helmet;shield,盔甲面罩与相应兵器的人形战士,martial-name,name/lore matched
+长爪蜈蚣仙云,sekiro,elite,common,长爪蜈蚣仙云,human,centipede;multipleArms;scar,四肢弯曲的人类怪手，戴金属长爪,reviewed-exception,name/lore matched
+长爪蜈蚣峰云,sekiro,elite,common,长爪蜈蚣峰云,human,centipede;multipleArms;iron,匍匐的人类长爪武者，非蜈蚣头,reviewed-exception,name/lore matched
+蛇眼白藤,sekiro,elite,common,蛇眼白藤,rogue,bandages;spear;eye,缠满绷带的女火枪手，并非蛇类,reviewed-exception,name/lore matched
+蛇眼白萩,sekiro,elite,common,蛇眼白萩,rogue,bandages;spear;scar,布带遮脸的女火枪手，并非蛇类,reviewed-exception,name/lore matched
+孤影众太刀足,sekiro,elite,common,孤影众太刀足,rogue,hood;sword,轻装兜帽与遮面短刃的敏捷猎手,rogue-name,name/lore matched
+孤影众忌手,sekiro,elite,common,孤影众忌手,rogue,hood;sword,轻装兜帽与遮面短刃的敏捷猎手,rogue-name,name/lore matched
+孤影众枪足之正长,sekiro,elite,common,孤影众枪足之正长,rogue,hood;sword,轻装兜帽与遮面短刃的敏捷猎手,rogue-name,name/lore matched
+雾隐贵人,sekiro,elite,common,雾隐贵人,alien,rags;eye;staff,长颈鱼形面孔与破旧贵人袍,reviewed-exception,name/lore matched
+无首,sekiro,elite,common,无首,spirit,skull;sword;scar,无头怨灵的断颈与幽冷刀光,reviewed-exception,name/lore matched
+七面武士,sekiro,elite,common,七面武士,spirit,multipleFaces;staff;halo,多张亡魂面孔环绕的持杖怨灵,reviewed-exception,name/lore matched
+淤加美长老静,sekiro,elite,common,淤加美长老静,knight,helmet;staff;halo,源之宫长者的细面与雷电鞠球法器,reviewed-exception,name/lore matched
+白蛇,sekiro,elite,common,白蛇,snake,tail;eye,鳞片长吻、分叉信子与盘绕蛇颈,species-name,name/lore matched
+鱼王,sekiro,elite,common,鱼王,fish,jaw;fin;halo,巨型锦鲤的宽嘴与修长鳍须,reviewed-exception,name/lore matched
+九郎,sekiro,npc,common,九郎,human,longhair;halo;flower,发束整齐、面容幼小的龙胤神子,reviewed-exception,name/lore matched
+变若之子,sekiro,npc,common,变若之子,healer,longhair;halo;flower,衣着洁白、眼神宁静的变若神子,reviewed-exception,name/lore matched
+黑笠之貉,sekiro,npc,common,黑笠之貉,rogue,helmet;mask;sword,矮小忍者戴着黑色铁笠,reviewed-exception,name/lore matched
+穴山,sekiro,npc,common,穴山,human,hood;eye,与介绍一致的旅行者、商人或平民面孔,civilian-fallback,civilian role reviewed
+藤冈,sekiro,npc,common,藤冈,human,hood;eye,与介绍一致的旅行者、商人或平民面孔,civilian-fallback,civilian role reviewed
+小太郎,sekiro,npc,common,小太郎,giant,rags;scar;eye,圆润温和面孔与厚实肩膀的太郎兵,reviewed-exception,name/lore matched
+阵左卫门,sekiro,npc,common,阵左卫门,knight,helmet;sword,与兵器、护甲相符的人形战斗者,martial-lore,name/lore matched
+伊之介,sekiro,npc,common,伊之介,knight,helmet;sword,与兵器、护甲相符的人形战斗者,martial-lore,name/lore matched
+野上玄斋,sekiro,npc,common,野上玄斋,knight,helmet;sword,与兵器、护甲相符的人形战斗者,martial-lore,name/lore matched
+雕刻师,sekiro,npc,common,雕刻师,rogue,hood;sword,轻装护面与短刃的暗行者,rogue-lore,name/lore matched
+道顺,sekiro,npc,common,道顺,healer,hood;halo,头巾下温和的医者或圣职面孔,support-lore,name/lore matched
+道玄,sekiro,npc,common,道玄,healer,hood;halo,头巾下温和的医者或圣职面孔,support-lore,name/lore matched
+不死半兵卫,sekiro,npc,common,不死半兵卫,knight,helmet;sword,与兵器、护甲相符的人形战斗者,martial-lore,name/lore matched
+坛子贵人春长,sekiro,npc,common,坛子贵人春长,jar,eye;rags;multipleArms,旧陶坛中露出贵人头脸与瘦手,reviewed-exception,name/lore matched
+坛子贵人维盛,sekiro,npc,common,坛子贵人维盛,jar,eye;rags;multipleArms,湖中陶坛里探出贵人的苍白手臂,reviewed-exception,name/lore matched
+供养众,sekiro,npc,common,供养众,rogue,hood;sword,轻装护面与短刃的暗行者,rogue-lore,name/lore matched
+苇名足轻,sekiro,mob,common,苇名足轻,knight,helmet;sword,与兵器、护甲相符的人形战斗者,martial-lore,name/lore matched
+苇名弓兵,sekiro,mob,common,苇名弓兵,knight,helmet;spear;iron,戴武者轻盔的苇名弓箭手,reviewed-exception,name/lore matched
+苇名火枪兵,sekiro,mob,common,苇名火枪兵,knight,helmet;spear,盔甲面罩与相应兵器的人形战士,martial-name,name/lore matched
+苇名农夫,sekiro,mob,common,苇名农夫,human,hood;rags;axe,戴草布帽、握农具的苇名村民,reviewed-exception,name/lore matched
+山贼,sekiro,mob,common,山贼,rogue,hood;sword,轻装兜帽与遮面短刃的敏捷猎手,rogue-name,name/lore matched
+持盾山贼,sekiro,mob,common,持盾山贼,rogue,hood;sword,轻装兜帽与遮面短刃的敏捷猎手,rogue-name,name/lore matched
+苇名长枪兵,sekiro,mob,common,苇名长枪兵,knight,helmet;spear,盔甲面罩与相应兵器的人形战士,martial-name,name/lore matched
+野犬,sekiro,mob,common,野犬,dog,jaw;scar,垂耳与宽鼻的凶猛犬首,species-name,name/lore matched
+猴群,sekiro,mob,common,猴群,monkey,mane;jaw,猿猴的宽吻、圆耳与裸露面庞,species-name,name/lore matched
+持枪猴,sekiro,mob,common,持枪猴,knight,helmet;sword,与兵器、护甲相符的人形战斗者,martial-lore,name/lore matched
+水生村民,sekiro,mob,common,水生村民,undead,hood;rags;scar,苍白失心面孔与浸水旧衣的村民,reviewed-exception,name/lore matched
+源之宫贵人,sekiro,mob,common,源之宫贵人,alien,rags;eye;staff,长颈鱼面与华服的源之宫贵人,reviewed-exception,name/lore matched
+壁虎,sekiro,mob,common,壁虎,lizard,tail;eye;scar,扁平小蜥蜴头与细长壁虎尾,reviewed-exception,name/lore matched
+火把山贼,sekiro,mob,common,火把山贼,rogue,hood;sword,轻装兜帽与遮面短刃的敏捷猎手,rogue-name,name/lore matched
+持炮山贼,sekiro,mob,common,持炮山贼,rogue,hood;sword,轻装兜帽与遮面短刃的敏捷猎手,rogue-name,name/lore matched
+孤影众,sekiro,elite,common,孤影众,rogue,hood;sword,轻装兜帽与遮面短刃的敏捷猎手,rogue-name,name/lore matched
+仙峰僧,sekiro,mob,common,仙峰僧,human,hood;bandages;halo,剃发僧人的额头与布袍领口,reviewed-exception,name/lore matched
+斗笠双刃僧,sekiro,elite,common,斗笠双刃僧,human,helmet;sword;bandages,斗笠遮脸的持双刃僧兵,reviewed-exception,name/lore matched
+附虫者,sekiro,mob,common,附虫者,human,hood;centipede;scar,僧人颈边钻出寄生蜈蚣的头脸,reviewed-exception,name/lore matched
+白猿剑客,sekiro,elite,common,白猿剑客,monkey,mane;jaw,猿猴的宽吻、圆耳与裸露面庞,species-name,name/lore matched
+赤备兵,sekiro,elite,common,赤备兵,knight,helmet;shield,盔甲面罩与相应兵器的人形战士,martial-name,name/lore matched
+巨型公鸡,sekiro,mob,common,巨型公鸡,bird,wings;eye,尖喙、羽冠与侧眼的鸟首,species-name,name/lore matched
+淤加美武者,sekiro,elite,common,淤加美武者,knight,helmet;sword,盔甲面罩与相应兵器的人形战士,martial-name,name/lore matched
+淤加美弓手,sekiro,mob,common,淤加美弓手,knight,helmet;spear;halo,淤加美女武者的细面与弓甲,reviewed-exception,name/lore matched
+淤加美蹴鞠手,sekiro,mob,common,淤加美蹴鞠手,knight,helmet;halo;staff,源之宫蹴鞠武者的细面与雷光,reviewed-exception,name/lore matched
+太郎兵,sekiro,elite,common,太郎兵,giant,scar;axe,宽大额骨与厚重肩膀的巨人,giant-name,name/lore matched
+地牢囚徒,sekiro,mob,common,地牢囚徒,undead,skull;rags,消瘦亡者面孔与破布颈领,undead-name,name/lore matched
+水生阿凛,sekiro,elite,common,水生阿凛,spirit,mask;longhair;sword,薄面罩、长发与飘忽剑影的女子怨灵,reviewed-exception,name/lore matched
+玛尔基特,er,boss,common,玛尔基特,demon,horns;beard;staff,缠角老者与粗木杖，额前长角下垂,boss-explicit,explicit Boss direction
+葛瑞克,er,boss,common,葛瑞克,human,crown;multipleArms;axe;horns,歪冠下的苍老面孔与接肢手臂,boss-explicit,explicit Boss direction
+蕾娜拉,er,boss,common,蕾娜拉,mage,crown;moon;staff;longhair,高耸月冠、长发与怀中的琥珀卵,boss-explicit,explicit Boss direction
+拉塔恩,er,boss,common,拉塔恩,knight,helmet;redhair;mane;sword,雄狮金盔与狂放红鬃的碎星将军,boss-explicit,explicit Boss direction
+拉卡德,er,boss,common,拉卡德,snake,crown;multipleFaces;flame;sword,巨蛇面上长出君王人脸与亵渎剑,boss-explicit,explicit Boss direction
+莫格,er,boss,common,莫格,demon,horns;crown;spear;eye,角刺入单眼的血焰君王与三叉戟,boss-explicit,explicit Boss direction
+蒙葛特,er,boss,common,蒙葛特,demon,horns;crown;sword;tail,王冠、盘角与长尾的恶兆王,boss-explicit,explicit Boss direction
+火焰巨人,er,boss,common,火焰巨人,giant,eye;redhair;flame;shield,红辫巨人胸前的独眼神面与圆盾,boss-explicit,explicit Boss direction
+玛利喀斯,er,boss,common,玛利喀斯,wolf,helmet;sword;mane;scar,黑金兽盔下的狼首与命定之死黑剑,boss-explicit,explicit Boss direction
+荷莱·露,er,boss,common,荷莱·露,human,beard;scar;mane,披散白发的强壮赤手战士,boss-explicit,explicit Boss direction
+葛孚雷,er,boss,common,葛孚雷,human,crown;beard;axe;mane,白须初王戴冠，肩后浮现狮王之影,boss-explicit,explicit Boss direction
+拉达冈,er,boss,common,拉达冈,human,redhair;scar;axe;halo,红发神躯裂开金纹，手持圣槌,boss-explicit,explicit Boss direction
+艾尔登之兽,er,boss,common,艾尔登之兽,alien,halo;wings;tail;eye,长颈星海兽，透明身躯布满黄金光点,boss-explicit,explicit Boss direction
+玛莲妮亚,er,boss,common,玛莲妮亚,knight,helmet;wings;redhair;flower,翼状头盔、红发与绽开的腐败花,boss-explicit,explicit Boss direction
+米凯拉,er,npc,common,米凯拉,healer,longhair;halo;flower,长金发与温柔光环的幼年神人,named-exception,name/lore matched
+黄金树守卫,er,boss,common,黄金树守卫,knight,helmet;plume;shield;spear,金色重骑士冠盔与树纹大盾,boss-explicit,explicit Boss direction
+龙装大树守卫,er,boss,common,龙装大树守卫,knight,helmet;horns;shield;axe,龙形重盔与红雷大锤的王城守卫,boss-explicit,explicit Boss direction
+恶兆妖鬼蒙格,er,boss,common,恶兆妖鬼蒙格,demon,horns;spear;scar,尖角遮住单眼的下水道血焰恶兆,boss-explicit,explicit Boss direction
+接肢贵族,er,boss,common,接肢贵族,human,crown;multipleArms;sword;shield,贵族小脸与周围多条接肢手臂,boss-explicit,explicit Boss direction
+狮子混种,er,boss,common,狮子混种,cat,mane;sword;jaw,红色狮鬃与粗大獠牙的混种战士,boss-explicit,explicit Boss direction
+熔炉骑士,er,boss,common,熔炉骑士,knight,helmet;horns;shield;sword,古铜角盔与熔炉翼纹的重甲骑士,boss-explicit,explicit Boss direction
+熔炉骑士奥陶琵斯,er,boss,common,熔炉骑士奥陶琵斯,knight,helmet;horns;shield;sword,双角铜盔与旋转大剑的熔炉剑士,boss-explicit,explicit Boss direction
+熔炉骑士志留亚,er,boss,common,熔炉骑士志留亚,knight,helmet;antler;spear;halo,树枝角盔与螺旋树矛的熔炉枪士,boss-explicit,explicit Boss direction
+铁棘艾隆梅尔,er,boss,common,铁棘艾隆梅尔,knight,helmet;iron;sword;scar,布满铁棘的桶盔与悬浮行刑剑,boss-explicit,explicit Boss direction
+铃珠猎人,er,boss,common,铃珠猎人,knight,helmet;iron;sword;eye,幽红眼缝与远隔飞剑的铁棘猎人,boss-explicit,explicit Boss direction
+黑刀刺客,er,boss,common,黑刀刺客,rogue,hood;mask;sword,看不清面容的银灰兜帽与黑色弯刀,boss-explicit,explicit Boss direction
+黑刀之首亚勒托,er,boss,common,黑刀之首亚勒托,rogue,hood;mask;sword;flame,首领兜帽与燃起死亡红焰的黑刀,boss-explicit,explicit Boss direction
+猎犬骑士达瑞威尔,er,boss,common,猎犬骑士达瑞威尔,knight,helmet;jaw;sword;tail,长吻猎犬盔、爪刃与低伏姿态,boss-explicit,explicit Boss direction
+猎犬骑士弗罗,er,boss,common,猎犬骑士弗罗,knight,helmet;jaw;shield;sword,戴长吻猎犬盔的持盾洞窟骑士,boss-explicit,explicit Boss direction
+黑夜骑兵,er,boss,common,黑夜骑兵,knight,helmet;plume;hood;spear,无光重盔与散落黑羽的夜骑兵,boss-explicit,explicit Boss direction
+死亡鸟,er,boss,common,死亡鸟,bird,skull;staff;wings,秃鹫般骨首与钩头仪式杖,boss-explicit,explicit Boss direction
+死之鸟,er,boss,common,死之鸟,bird,skull;wings;flame,枯骨鸟首、黑翼与幽冷灵火,boss-explicit,explicit Boss direction
+腐败树灵,er,boss,common,腐败树灵,plant,tentacles;jaw;flower,腐败树根蜿蜒成狰狞长颚,boss-explicit,explicit Boss direction
+溃烂树灵,er,boss,common,溃烂树灵,plant,tentacles;jaw;flame,金焰从扭曲树根与长颚间喷出,boss-explicit,explicit Boss direction
+黄金树的化身,er,boss,common,黄金树的化身,plant,staff;halo;eye,树瘤巨人握着仪式杖，头部留有空洞,boss-explicit,explicit Boss direction
+腐败化身,er,boss,common,腐败化身,plant,staff;flower;scar,腐败菌斑覆盖的树瘤巨人,boss-explicit,explicit Boss direction
+归树看门犬,er,boss,common,归树看门犬,cat,iron;sword;flame,僵直石猫脸与竖起的火尾，并非犬首,boss-explicit,explicit Boss direction
+守墓斗士,er,boss,common,守墓斗士,human,helmet;axe;tail,蛇纹铜盔与锁链巨锤的斗士,boss-explicit,explicit Boss direction
+发狂斗士,er,boss,common,发狂斗士,human,helmet;axe;flower,红铜蛇盔与腐败斑点的狂斗士,boss-explicit,explicit Boss direction
+石挖山妖,er,boss,common,石挖山妖,giant,scar;iron;axe,石质空洞面孔与巨棍的矿道山妖,boss-explicit,explicit Boss direction
+诺克斯剑士,er,boss,common,诺克斯剑士,human,helmet;longhair;sword,银色覆面与薄纱头饰的夜城剑士,boss-explicit,explicit Boss direction
+诺克斯修士,er,boss,common,诺克斯修士,human,helmet;staff;moon,银罩僧帽与流体战锤的修士,boss-explicit,explicit Boss direction
+仿身泪滴,er,boss,common,仿身泪滴,blob,multipleFaces;eye;iron,银色泪滴中浮现模糊的人脸,boss-explicit,explicit Boss direction
+英雄石像鬼,er,boss,common,英雄石像鬼,demon,wings;iron;axe,尸蜡修补的石面与巨型双兵器,boss-explicit,explicit Boss direction
+黑剑眷属,er,boss,common,黑剑眷属,demon,wings;iron;sword;flame,黑色石像鬼长脸与死亡红焰,boss-explicit,explicit Boss direction
+祖灵,er,boss,common,祖灵,deer,antler;halo;frost,巨大枝状鹿角与幽蓝灵光,boss-explicit,explicit Boss direction
+祖灵之王,er,boss,common,祖灵之王,deer,antler;halo;flower,更宽的灵鹿王冠与生命光点,boss-explicit,explicit Boss direction
+龙人士兵,er,boss,common,龙人士兵,dragon,helmet;scar;sword,伏地龙首士兵的破甲与弯刃,boss-explicit,explicit Boss direction
+诺克史黛拉的龙人士兵,er,boss,common,诺克史黛拉的龙人士兵,dragon,helmet;frost;spear,覆霜龙首与冰雷长枪,boss-explicit,explicit Boss direction
+鲜血贵族,er,boss,common,鲜血贵族,human,hood;horns;sword,血红兜帽、细角与刺剑的王朝贵族,boss-explicit,explicit Boss direction
+战场魔法师,er,boss,common,战场魔法师,mage,helmet;staff;crystal,石面重盔与辉石法杖的战场法师,boss-explicit,explicit Boss direction
+魔法教授米丽安,er,boss,common,魔法教授米丽安,mage,witchhat;staff;moon,宽帽遮面的教授与魔法大弓,boss-explicit,explicit Boss direction
+红狼拉达冈,er,boss,common,红狼拉达冈,wolf,redhair;sword;crystal,赤红狼首与口边悬浮的辉剑,boss-explicit,explicit Boss direction
+英雄红狼,er,boss,common,英雄红狼,wolf,redhair;sword;mane,红色长鬃与锐利长牙的游荡魔狼,boss-explicit,explicit Boss direction
+结晶人,er,boss,common,结晶人,human,crystal;mask;staff,蓝色棱晶构成的人形面孔,boss-explicit,explicit Boss direction
+腐败结晶人,er,boss,common,腐败结晶人,human,crystal;mask;flower,结晶面孔内部蔓延猩红腐败,boss-explicit,explicit Boss direction
+神皮使徒,er,boss,common,神皮使徒,human,hood;longhair;sword,细瘦苍白面孔与缝合皮兜帽,boss-explicit,explicit Boss direction
+神皮贵族,er,boss,common,神皮贵族,human,hood;scar;sword,肥硕苍白脸与皱褶神皮袍,boss-explicit,explicit Boss direction
+神皮双人组,er,boss,common,神皮双人组,human,hood;multipleFaces;sword,一瘦一胖两张神皮面孔并列,boss-explicit,explicit Boss direction
+老将欧尼尔,er,boss,common,老将欧尼尔,human,helmet;beard;spear;flower,长须独目老将举着腐败军旗,boss-explicit,explicit Boss direction
+老将尼奥,er,boss,common,老将尼奥,human,helmet;beard;spear;frost,白须城将与冰霜军旗，铠甲一侧缺损,boss-explicit,explicit Boss direction
+坠星兽物,er,boss,common,坠星兽物,bull,horns;crystal;tail;eye,牛角、晶岩甲壳与蝎尾的陨星兽,boss-explicit,explicit Boss direction
+成年坠星兽物,er,boss,common,成年坠星兽物,bull,horns;crystal;tail;mane,发育完整的牛角晶甲头与重力独眼,boss-explicit,explicit Boss direction
+石肤白王,er,boss,common,石肤白王,human,crown;scar;sword;halo,白色石肤古王与重力弯剑,boss-explicit,explicit Boss direction
+石肤黑王,er,boss,common,石肤黑王,human,crown;scar;sword;eye,暗色石肤古王与星陨纹路,boss-explicit,explicit Boss direction
+艾丝缇,er,boss,common,艾丝缇,insect,skull;tail;crystal;eye,人类颅骨、昆虫巨颚与星云长尾,boss-explicit,explicit Boss direction
+黑暗繁星艾丝缇,er,boss,common,黑暗繁星艾丝缇,insect,skull;tail;crystal;multipleFaces,黑暗星云中的颅骨虫首与陨星珠体,boss-explicit,explicit Boss direction
+恶兆孪生子,er,boss,common,恶兆孪生子,demon,horns;multipleFaces;axe,两张盘角恶兆脸与血焰兵器,boss-explicit,explicit Boss direction
+腐败眷属,er,boss,common,腐败眷属,insect,multipleArms;spear;flower,虾虫般长须与多臂持戟的眷属,boss-explicit,explicit Boss direction
+飞龙亚基尔,er,boss,common,飞龙亚基尔,dragon,horns;wings;flame,湖中火龙的宽翼与红色龙息,boss-explicit,explicit Boss direction
+辉石龙史玛拉格,er,boss,common,辉石龙史玛拉格,dragon,horns;wings;crystal,辉石侵入头角的蓝色魔法龙,boss-explicit,explicit Boss direction
+辉石龙亚杜拉,er,boss,common,辉石龙亚杜拉,dragon,horns;frost;moon;sword,月霜龙首与锋利辉剑的星月之龙,boss-explicit,explicit Boss direction
+熔岩土龙马卡尔,er,boss,common,熔岩土龙马卡尔,dragon,jaw;flame;sword,厚重土龙颚与熔岩鳞剑,boss-explicit,explicit Boss direction
+大土龙席欧朵利克,er,boss,common,大土龙席欧朵利克,dragon,horns;flame;sword;scar,衰老土龙的长颚、巨剑与旧伤,boss-explicit,explicit Boss direction
+冰结湖的玻列琉斯,er,boss,common,冰结湖的玻列琉斯,dragon,horns;wings;frost,冰白龙角与霜雾中张开的巨颚,boss-explicit,explicit Boss direction
+腐败龙艾格基斯,er,boss,common,腐败龙艾格基斯,dragon,horns;wings;flower,腐败菌斑沿龙角和翅膜蔓延,boss-explicit,explicit Boss direction
+飞龙桂雷尔,er,boss,common,飞龙桂雷尔,dragon,horns;wings;scar,深色巨龙头与破损鳞片,boss-explicit,explicit Boss direction
+普拉顿桑克斯,er,boss,common,普拉顿桑克斯,dragon,multipleFaces;halo;flame,双头古龙围绕赤雷与时间环,boss-explicit,explicit Boss direction
+兰沙克,er,boss,common,兰沙克,dragon,horns;wings;spear,古龙角冠与红雷长枪的龙形,boss-explicit,explicit Boss direction
+弗尔桑克斯,er,boss,common,弗尔桑克斯,dragon,horns;wings;skull,黑色死雷缠绕的多叉古龙角,boss-explicit,explicit Boss direction
+大龙桂奥尔,er,boss,common,大龙桂奥尔,dragon,horns;beard;scar,衰老龙母的厚角、垂须与疲惫眼睛,boss-explicit,explicit Boss direction
+葛瑞克士兵,er,mob,common,葛瑞克士兵,knight,helmet;shield,盔甲面罩与相应兵器的人形战士,martial-name,name/lore matched
+雷亚卢卡利亚士兵,er,mob,common,雷亚卢卡利亚士兵,knight,helmet;shield,盔甲面罩与相应兵器的人形战士,martial-name,name/lore matched
+拉塔恩士兵,er,mob,common,拉塔恩士兵,knight,helmet;shield,盔甲面罩与相应兵器的人形战士,martial-name,name/lore matched
+罗德尔士兵,er,mob,common,罗德尔士兵,knight,helmet;shield,盔甲面罩与相应兵器的人形战士,martial-name,name/lore matched
+圣树士兵,er,mob,common,圣树士兵,knight,helmet;shield,盔甲面罩与相应兵器的人形战士,martial-name,name/lore matched
+流刑士兵,er,mob,common,流刑士兵,knight,helmet;shield,盔甲面罩与相应兵器的人形战士,martial-name,name/lore matched
+失乡骑士,er,mob,common,失乡骑士,knight,helmet;shield,盔甲面罩与相应兵器的人形战士,martial-name,name/lore matched
+流浪贵族,er,mob,common,流浪贵族,human,hood;eye,与介绍一致的旅行者、商人或平民面孔,civilian-fallback,civilian role reviewed
+贵族魔法师,er,mob,common,贵族魔法师,mage,witchhat;staff,兜帽或尖帽下的施法者面孔,caster-name,name/lore matched
+白金之子,er,mob,common,白金之子,human,hood;scar;eye,苍白人造生命的忧伤面孔,reviewed-exception,name/lore matched
+第二代白金之子,er,mob,common,第二代白金之子,frog,eye;jaw,圆眼宽嘴的第二代白金之子,species-name,name/lore matched
+白金之子弓手,er,mob,common,白金之子弓手,human,hood;spear;eye,蒙兜帽的苍白白金之子弓手,reviewed-exception,name/lore matched
+亚人,er,mob,common,亚人,demon,jaw;mane,兽化短吻与人形战士肩甲,hybrid-name,name/lore matched
+亚人女王,er,mob,common,亚人女王,demon,jaw;mane,兽化短吻与人形战士肩甲,hybrid-name,name/lore matched
+混种,er,mob,common,混种,demon,jaw;mane,兽化短吻与人形战士肩甲,hybrid-name,name/lore matched
+有翼混种,er,mob,common,有翼混种,demon,jaw;mane,兽化短吻与人形战士肩甲,hybrid-name,name/lore matched
+恶兆之子,er,mob,common,恶兆之子,demon,horns;axe,盘角覆盖额头的强壮恶兆,hybrid-name,name/lore matched
+恶兆猎人,er,mob,common,恶兆猎人,rogue,hood;sword,轻装兜帽与遮面短刃的敏捷猎手,rogue-name,name/lore matched
+灵庙士兵,er,mob,common,灵庙士兵,spirit,halo;hood,半透明面孔与飘散的灵魂下摆,spirit-name,name/lore matched
+骷髅兵,er,mob,common,骷髅兵,undead,skull;iron,清晰颅骨、空眼窝与残存骨甲,undead-name,name/lore matched
+骷髅山贼,er,mob,common,骷髅山贼,undead,skull;iron,清晰颅骨、空眼窝与残存骨甲,undead-name,name/lore matched
+兽人,er,mob,common,兽人,demon,jaw;mane,兽化短吻与人形战士肩甲,hybrid-name,name/lore matched
+法姆亚兹拉兽人,er,mob,common,法姆亚兹拉兽人,demon,jaw;mane,兽化短吻与人形战士肩甲,hybrid-name,name/lore matched
+战鹰,er,mob,common,战鹰,bird,wings;eye,尖喙、羽冠与侧眼的鸟首,species-name,name/lore matched
+风暴鹰,er,mob,common,风暴鹰,bird,wings;eye,尖喙、羽冠与侧眼的鸟首,species-name,name/lore matched
+巨型乌鸦,er,mob,common,巨型乌鸦,bird,wings;eye,尖喙、羽冠与侧眼的鸟首,species-name,name/lore matched
+巨型犬,er,mob,common,巨型犬,dog,jaw;scar,垂耳与宽鼻的凶猛犬首,species-name,name/lore matched
+野狼,er,mob,common,野狼,wolf,mane;jaw,尖耳、长吻与颈鬃的狼首,species-name,name/lore matched
+卢恩熊,er,mob,common,卢恩熊,bear,mane;jaw,圆耳、短吻与厚毛的熊首,species-name,name/lore matched
+巨蟹,er,mob,common,巨蟹,crab,eye;iron,硬壳、突眼与双螯的蟹形头像,species-name,name/lore matched
+巨型龙虾,er,mob,common,巨型龙虾,crab,jaw;tail,长须甲壳与双钳的巨虾头像,species-name,name/lore matched
+陆生海鞘,er,mob,common,陆生海鞘,blob,jaw;flower,管口朝上的膨胀海鞘,species-name,name/lore matched
+陆生章鱼,er,mob,common,陆生章鱼,octopus,tentacles;eye,圆形头囊与八条触腕的章鱼,species-name,name/lore matched
+米兰达花,er,mob,common,米兰达花,plant,flower;tentacles,树皮面孔与枝叶花冠,species-name,name/lore matched
+灵魂水母,er,mob,common,灵魂水母,spirit,tentacles;halo,透明伞体与下垂触须的水母,species-name,name/lore matched
+小恶魔,er,mob,common,小恶魔,demon,horns;wings,石质尖脸与小角的翼魔,species-name,name/lore matched
+小章鱼,er,mob,common,小章鱼,octopus,tentacles;eye,圆形头囊与八条触腕的章鱼,species-name,name/lore matched
+山妖,er,mob,common,山妖,giant,scar;axe,宽大额骨与厚重肩膀的巨人,giant-name,name/lore matched
+挖石工,er,mob,common,挖石工,human,helmet;iron;axe,带矿工头盔、石皮面容与镐头,reviewed-exception,name/lore matched
+手指怪物,er,mob,common,手指怪物,hand,multipleArms;eye,弯曲手指围住中央掌心的怪物,species-name,name/lore matched
+交界地·咒蛙,er,mob,common,交界地·咒蛙,frog,eye;jaw,宽嘴蛙脸与鼓起的假眼气囊,species-name,name/lore matched
+交界地·大老鼠,er,mob,common,交界地·大老鼠,rat,jaw;tail,圆耳、尖吻与长须的鼠首,species-name,name/lore matched
+史莱姆,er,mob,common,史莱姆,blob,eye;tentacles,半透明软泥中显出的眼与口,species-name,name/lore matched
+腐烂野狗,er,mob,common,腐烂野狗,dog,jaw;scar,垂耳与宽鼻的凶猛犬首,species-name,name/lore matched
+癫火村民,er,mob,common,癫火村民,undead,eye;flame;rags,浑浊双眼流出黄火的失心村民,reviewed-exception,name/lore matched
+癫火老鼠,er,mob,common,癫火老鼠,rat,jaw;tail,圆耳、尖吻与长须的鼠首,species-name,name/lore matched
+人偶士兵,er,mob,common,人偶士兵,knight,mask;multipleArms,机械面具与关节肢体的人偶,construct-name,name/lore matched
+鸟型人偶士兵,er,mob,common,鸟型人偶士兵,bird,wings;eye,尖喙、羽冠与侧眼的鸟首,species-name,name/lore matched
+辉石魔法师,er,mob,common,辉石魔法师,mage,witchhat;staff,兜帽或尖帽下的施法者面孔,caster-name,name/lore matched
+雷亚卢卡利亚铁处女,er,mob,common,雷亚卢卡利亚铁处女,knight,mask;multipleArms,机械面具与关节肢体的人偶,construct-name,name/lore matched
+土龙,er,mob,common,土龙,dragon,horns;wings,长吻龙首、角与厚鳞,species-name,name/lore matched
+罗德尔骑士,er,elite,common,罗德尔骑士,knight,helmet;shield,盔甲面罩与相应兵器的人形战士,martial-name,name/lore matched
+葛瑞克骑士,er,elite,common,葛瑞克骑士,knight,helmet;shield,盔甲面罩与相应兵器的人形战士,martial-name,name/lore matched
+杜鹃骑士,er,elite,common,杜鹃骑士,knight,helmet;shield,盔甲面罩与相应兵器的人形战士,martial-name,name/lore matched
+赤狮骑士,er,elite,common,赤狮骑士,knight,helmet;shield,盔甲面罩与相应兵器的人形战士,martial-name,name/lore matched
+圣树骑士,er,elite,common,圣树骑士,knight,helmet;shield,盔甲面罩与相应兵器的人形战士,martial-name,name/lore matched
+腐败骑士,er,elite,common,腐败骑士,knight,helmet;sword,盔甲面罩与相应兵器的人形战士,martial-name,name/lore matched
+尊腐骑士芬雷,er,elite,common,尊腐骑士芬雷,knight,helmet;shield,盔甲面罩与相应兵器的人形战士,martial-name,name/lore matched
+卡利亚骑士穆格拉姆,er,elite,common,卡利亚骑士穆格拉姆,knight,helmet;shield,盔甲面罩与相应兵器的人形战士,martial-name,name/lore matched
+火焰主教,er,elite,common,火焰主教,healer,hood;halo,头巾与祈祷光晕的圣职或医者,support-name,name/lore matched
+黑焰习武修士,er,elite,common,黑焰习武修士,human,hood;flame;sword,蒙黑头巾、习武并使用黑焰的修士,reviewed-exception,name/lore matched
+火焰习武修士,er,elite,common,火焰习武修士,human,hood;flame;sword,红色僧袍头巾与重刃火焰修士,reviewed-exception,name/lore matched
+诺克斯夜巫,er,elite,common,诺克斯夜巫,mage,hood;moon;staff,银色头巾与夜城法术的女性术者,reviewed-exception,name/lore matched
+银色泪滴,er,elite,common,银色泪滴,blob,eye;tentacles,半透明软泥中显出的眼与口,species-name,name/lore matched
+蛇人,er,elite,common,蛇人,snake,tail;eye,鳞片长吻、分叉信子与盘绕蛇颈,species-name,name/lore matched
+失乡骑士英格威尔,er,elite,common,失乡骑士英格威尔,knight,helmet;shield,盔甲面罩与相应兵器的人形战士,martial-name,name/lore matched
+红狮子骑士奥加,er,elite,common,红狮子骑士奥加,knight,helmet;shield,盔甲面罩与相应兵器的人形战士,martial-name,name/lore matched
+克里斯托福,er,elite,common,克里斯托福,knight,helmet;sword,与兵器、护甲相符的人形战斗者,martial-lore,name/lore matched
+露缇尔,er,elite,common,露缇尔,knight,helmet;sword,与兵器、护甲相符的人形战斗者,martial-lore,name/lore matched
+梅琳娜,er,npc,common,梅琳娜,healer,longhair;scar;flame,一眼闭合、眼角有烙印的引路少女,named-exception,name/lore matched
+菈妮,er,npc,common,菈妮,mage,witchhat;multipleArms;frost,雪色宽帽下的双重灵魂少女面孔,named-exception,name/lore matched
+布莱泽,er,npc,common,布莱泽,wolf,sword;mane;iron,灰狼头像穿着重甲的半狼人战士,named-exception,name/lore matched
+罗杰尔,er,npc,common,罗杰尔,mage,witchhat;sword;staff,宽帽法剑士带着温和微笑,named-exception,name/lore matched
+瓦雷,er,npc,common,瓦雷,rogue,mask;hood;sword,平静白面具与洁白手术头巾,named-exception,name/lore matched
+玛莉卡,er,npc,common,玛莉卡,human,crown;longhair;halo,金色长发与枝形神冠的永恒女王,named-exception,name/lore matched
+铁拳亚历山大,er,npc,common,铁拳亚历山大,jar,multipleArms;iron;scar,带手臂与封泥壶盖的战士陶壶,named-exception,name/lore matched
+壶哥,er,npc,common,壶哥,jar,multipleArms;flower;eye,小巧圆陶壶与小手臂,named-exception,name/lore matched
+狄亚罗斯,er,npc,common,狄亚罗斯,knight,helmet;sword;scar,霍斯劳覆面盔与贵族骑士肩甲,reviewed-exception,name/lore matched
+涅斐丽·露,er,npc,common,涅斐丽·露,knight,helmet;sword,与兵器、护甲相符的人形战斗者,martial-lore,name/lore matched
+海妲,er,npc,common,海妲,human,blindfold;longhair;flame,闭目少女捧着微弱黄火,named-exception,name/lore matched
+夏玻利利,er,npc,common,夏玻利利,human,hood;eye;flame,遮眼布下透出癫火的游说者,named-exception,name/lore matched
+柏克,er,npc,common,柏克,monkey,rags;eye;scar,温顺亚人裁缝的短毛面孔,named-exception,name/lore matched
+交界地·帕奇,er,npc,common,交界地·帕奇,rogue,spear;shield;eye,光头商人的旧皮甲与盾枪,named-exception,name/lore matched
+伊蕾娜,er,npc,common,伊蕾娜,human,blindfold;longhair;flower,蒙眼的城主之女与柔和发丝,named-exception,name/lore matched
+艾德格,er,npc,common,艾德格,knight,helmet;sword,与兵器、护甲相符的人形战斗者,martial-lore,name/lore matched
+骑士贝纳尔,er,npc,common,骑士贝纳尔,knight,helmet;shield,盔甲面罩与相应兵器的人形战士,martial-name,name/lore matched
+叛律者亨利克斯,er,npc,common,叛律者亨利克斯,knight,helmet;axe;iron,高大桶形头盔与战锤的叛律者,reviewed-exception,name/lore matched
+“大角”忒拉格斯,er,npc,common,“大角”忒拉格斯,knight,helmet;horns;axe,大山羊角甲与沉重战锤,named-exception,name/lore matched
+“古老骑士”伊修托邦,er,npc,common,“古老骑士”伊修托邦,knight,helmet;shield,盔甲面罩与相应兵器的人形战士,martial-name,name/lore matched
+“黄昏将尽”莱利,er,npc,common,“黄昏将尽”莱利,rogue,hood;sword,轻装护面与短刃的暗行者,rogue-lore,name/lore matched
+“白狼战鬼”巴格莱姆,er,npc,common,“白狼战鬼”巴格莱姆,knight,helmet;mane;sword,白狼鬃毛装饰的战鬼面盔,named-exception,name/lore matched
+“离群魔法师”维赫勒,er,npc,common,“离群魔法师”维赫勒,mage,hood;staff;crystal,离群学院法师的辉石头罩,named-exception,name/lore matched
+塞尔维斯,er,npc,common,塞尔维斯,mage,witchhat;mask;staff,高帽与石面具的傀儡教授,named-exception,name/lore matched
+魔女瑟濂,er,npc,common,魔女瑟濂,mage,mask;crystal;staff,女性石质头像与辉石额饰,named-exception,name/lore matched
+魔法师托普斯,er,npc,common,魔法师托普斯,mage,hood;staff;scar,朴素兜帽下的温和魔法学徒,named-exception,name/lore matched
+阿祖勒,er,npc,common,阿祖勒,mage,crystal;staff;halo,绿晶取代头部的起源魔法师,named-exception,name/lore matched
+卢瑟特,er,npc,common,卢瑟特,mage,crystal;staff;eye,蓝色辉石头冠与巨大晶眼,named-exception,name/lore matched
+米利森,er,npc,common,米利森,human,redhair;scar;sword,红发少女与失去一臂的伤痕,named-exception,name/lore matched
+格威,er,npc,common,格威,human,hood;beard;flower,以白须老人伪装现身的腐败眷属贤者,named-exception,name/lore matched
+食粪者,er,npc,common,食粪者,knight,helmet;horns;scar,扭曲笑脸面盔与结瘤重甲,named-exception,name/lore matched
+菲雅,er,npc,common,菲雅,healer,hood;longhair;moon,黑纱兜帽中的死眠少女,named-exception,name/lore matched
+D，狩猎死亡者,er,npc,common,D，狩猎死亡者,undead,skull;rags,消瘦亡者面孔与破布颈领,undead-name,name/lore matched
+罗德莉卡,er,npc,common,罗德莉卡,healer,hood;flower;longhair,红色头巾与温柔面容的调灵师,named-exception,name/lore matched
+修古,er,npc,common,修古,giant,horns;iron;scar,被束缚混种铁匠的角状眉骨,named-exception,name/lore matched
+伊吉,er,npc,common,伊吉,giant,helmet;iron;staff,镜面头盔与巨人工匠的厚实面孔,named-exception,name/lore matched
+百智爵士基甸·奥夫尼尔,er,npc,common,百智爵士基甸·奥夫尼尔,mage,helmet;eye;staff,遍布眼耳纹样的百智面甲,named-exception,name/lore matched
+恩夏,er,npc,common,恩夏,undead,skull;iron;sword,王骸面甲与沉默的死亡眼孔,named-exception,name/lore matched
+金面具,er,npc,common,金面具,human,mask;halo;eye,放射形金色圆盘遮住整张面孔,named-exception,name/lore matched
+柯林,er,npc,common,柯林,healer,blindfold;staff;halo,闭眼布带与黄金律法圣职装束,named-exception,name/lore matched
+结缘教堂的米利耶,er,npc,common,结缘教堂的米利耶,turtle,mitre;staff;halo,戴着教皇冠的温和大龟,named-exception,name/lore matched
+拉缇娜,er,npc,common,拉缇娜,human,hood;spear;eye,白金少女的头巾与长弓,reviewed-exception,name/lore matched
+尤拉,er,npc,common,尤拉,rogue,helmet;sword;scar,金属斗笠下的血指猎人面容,reviewed-exception,name/lore matched
+艾琉诺拉,er,npc,common,艾琉诺拉,knight,helmet;sword;flame,红色龙飨战甲与双头刃的血指,reviewed-exception,name/lore matched
+娜斯塔西娅,er,npc,common,娜斯塔西娅,human,hood;axe;scar,白头巾下的疯狂面孔与巨大屠刀,reviewed-exception,name/lore matched
+“红灵”阿尔贝利希,er,npc,common,“红灵”阿尔贝利希,mage,witchhat;crystal;staff,尖帽与红晶蒙眼头巾的术者,reviewed-exception,name/lore matched
+游牧商人咖列,er,npc,common,游牧商人咖列,human,hood;eye,与介绍一致的旅行者、商人或平民面孔,civilian-fallback,civilian role reviewed
+流氓,er,npc,common,流氓,human,hood;eye,与介绍一致的旅行者、商人或平民面孔,civilian-fallback,civilian role reviewed
+菈雅,er,npc,common,菈雅,snake,longhair;eye;tail,少女面容旁露出蛇形原身的鳞片,named-exception,name/lore matched
+塔妮丝,er,npc,common,塔妮丝,human,mask;crown;longhair,贵族面具与火山官邸女主头冠,named-exception,name/lore matched
+战士壶大壶,er,npc,common,战士壶大壶,jar,multipleArms;iron;halo,厚重封泥大壶与古老纹饰,named-exception,name/lore matched
+“穿刺者”梅瑟莫,erdlc,boss,common,“穿刺者”梅瑟莫,human,helmet;tail;spear;flame,蛇绕细长头盔与火焰穿刺枪,boss-explicit,explicit Boss direction
+“暴虐”贝勒,erdlc,boss,common,“暴虐”贝勒,dragon,horns;flame;scar;wings,破翼残角的黑龙，伤口流出火雷,boss-explicit,explicit Boss direction
+双月骑士蕾菈娜,erdlc,boss,common,双月骑士蕾菈娜,knight,helmet;moon;sword;flame,月翼银盔与一火一月双剑,boss-explicit,explicit Boss direction
+神兽舞狮,erdlc,boss,common,神兽舞狮,cat,mane;horns;mask,巨型狮舞面具，鬃毛随风雷扬起,boss-explicit,explicit Boss direction
+“老将”盖乌斯,erdlc,boss,common,“老将”盖乌斯,boar,helmet;iron;spear,铁甲野猪头与其上方的老将盔影,boss-explicit,explicit Boss direction
+腐败眷属罗蜜娜,erdlc,boss,common,腐败眷属罗蜜娜,scorpion,wings;flower;longhair,女性面孔、蝎尾与蝶翼的腐败圣女,boss-explicit,explicit Boss direction
+指头之母梅蒂尔,erdlc,boss,common,指头之母梅蒂尔,hand,multipleArms;eye;halo,巨指环绕的苍白母体与星空眼孔,boss-explicit,explicit Boss direction
+融泥骑士,erdlc,boss,common,融泥骑士,knight,helmet;tentacles;sword,石棺面甲上渗出融泥的亡魂骑士,boss-explicit,explicit Boss direction
+癫火之王米德拉,erdlc,boss,common,癫火之王米德拉,human,flame;eye;sword,头颅化为黄焰火球的瘦削狂王,boss-explicit,explicit Boss direction
+“约定之王”拉塔恩,erdlc,boss,common,“约定之王”拉塔恩,knight,helmet;redhair;halo;multipleFaces,红狮王盔后环绕金发神人光晕,boss-explicit,explicit Boss direction
+罗刹,erdlc,boss,common,罗刹,knight,helmet;sword;scar,血红细面甲与巨型斩刀,boss-explicit,explicit Boss direction
+孤牢骑士,erdlc,boss,common,孤牢骑士,knight,helmet;sword;iron,厚重封闭孤牢盔与宽刃巨剑,boss-explicit,explicit Boss direction
+“锯齿山”之龙,erdlc,boss,common,“锯齿山”之龙,dragon,horns;wings;scar,锯齿状龙角与厮杀破损的飞翼,boss-explicit,explicit Boss direction
+古龙瑟涅桑克斯,erdlc,boss,common,古龙瑟涅桑克斯,dragon,horns;wings;spear,水面红雷映亮的古老多叉龙角,boss-explicit,explicit Boss direction
+黄金河马,erdlc,boss,common,黄金河马,hippo,jaw;antler;halo,宽吻巨河马长出黄金针刺,boss-explicit,explicit Boss direction
+死之骑士,erdlc,boss,common,死之骑士,knight,helmet;skull;axe;flame,颅骨面甲与双斧缠绕死亡雷光,boss-explicit,explicit Boss direction
+“大祭司”尤弥尔,erdlc,boss,common,“大祭司”尤弥尔,mage,crown;staff;multipleArms,高冠祭司的慈祥面孔与指头法术,boss-explicit,explicit Boss direction
+“古龙人”,erdlc,boss,common,“古龙人”,dragon,helmet;sword;scar,龙飨剑士的龙首与猎龙大刀,boss-explicit,explicit Boss direction
+亚人剑圣翁吉,erdlc,boss,common,亚人剑圣翁吉,monkey,mane;sword;crystal,亚人老剑圣的长毛兽首与辉剑,boss-explicit,explicit Boss direction
+灵火龙,erdlc,boss,common,灵火龙,dragon,skull;wings;flame,枯骨龙首与从骨缝透出的苍白灵火,boss-explicit,explicit Boss direction
+树影化身,erdlc,boss,common,树影化身,plant,flower;tentacles;eye,巨大的向日葵花盘与纠结根须,boss-explicit,explicit Boss direction
+梅瑟莫士兵,erdlc,mob,common,梅瑟莫士兵,knight,helmet;shield,盔甲面罩与相应兵器的人形战士,martial-name,name/lore matched
+梅瑟莫黑骑士,erdlc,mob,common,梅瑟莫黑骑士,knight,helmet;shield,盔甲面罩与相应兵器的人形战士,martial-name,name/lore matched
+火焰骑士,erdlc,mob,common,火焰骑士,knight,helmet;sword,盔甲面罩与相应兵器的人形战士,martial-name,name/lore matched
+幽影民,erdlc,mob,common,幽影民,spirit,halo;hood,半透明面孔与飘散的灵魂下摆,spirit-name,name/lore matched
+角人战士,erdlc,mob,common,角人战士,knight,helmet;shield,盔甲面罩与相应兵器的人形战士,martial-name,name/lore matched
+咒剑士,erdlc,mob,common,咒剑士,knight,helmet;sword,盔甲面罩与相应兵器的人形战士,martial-name,name/lore matched
+血怪,erdlc,mob,common,血怪,demon,horns;jaw,角状眉骨、獠牙与异色肌肤的鬼怪,demon-name,name/lore matched
+血怪咒术师,erdlc,mob,common,血怪咒术师,mage,witchhat;staff,兜帽或尖帽下的施法者面孔,caster-name,name/lore matched
+大嘴小恶魔,erdlc,mob,common,大嘴小恶魔,demon,horns;wings,石质尖脸与小角的翼魔,species-name,name/lore matched
+柳条人,erdlc,mob,common,柳条人,plant,flower;tentacles,树皮面孔与枝叶花冠,species-name,name/lore matched
+人形苍蝇,erdlc,mob,common,人形苍蝇,insect,eye;wings,节肢头部、触角与多足,species-name,name/lore matched
+蜘蛛蝎,erdlc,mob,common,蜘蛛蝎,scorpion,tail;eye,八足长腿与弯曲蝎尾的蛛蝎,species-name,name/lore matched
+手指蠕虫,erdlc,mob,common,手指蠕虫,worm,centipede;jaw,环节长躯与放射状口器,species-name,name/lore matched
+吸生蠕虫,erdlc,mob,common,吸生蠕虫,worm,centipede;jaw,环节长躯与放射状口器,species-name,name/lore matched
+不可触碰的老翁,erdlc,mob,common,不可触碰的老翁,human,hood;eye;flame,面容几乎被癫火眼球吞没的枯瘦老翁,reviewed-exception,name/lore matched
+罐中人,erdlc,mob,common,罐中人,jar,multipleArms;scar,封泥壶盖与短臂的陶壶生命,species-name,name/lore matched
+神鸟战士,erdlc,mob,common,神鸟战士,knight,wings;helmet;sword,金翼装饰头盔下仍是人类战士,reviewed-exception,name/lore matched
+神兽战士,erdlc,mob,common,神兽战士,knight,mane;helmet;sword,神兽鬃毛装饰头盔下的人类战士,reviewed-exception,name/lore matched
+熔炉骑士德沃尼亚,erdlc,mob,common,熔炉骑士德沃尼亚,knight,helmet;shield,盔甲面罩与相应兵器的人形战士,martial-name,name/lore matched
+蕾妲,erdlc,npc,common,蕾妲,knight,helmet;sword,与兵器、护甲相符的人形战斗者,martial-lore,name/lore matched
+安帕赫,erdlc,npc,common,安帕赫,knight,helmet;sword,与兵器、护甲相符的人形战斗者,martial-lore,name/lore matched
+弗蕾雅,erdlc,npc,common,弗蕾雅,knight,helmet;sword,与兵器、护甲相符的人形战斗者,martial-lore,name/lore matched
+角人,erdlc,npc,common,角人,human,horns;hood;staff,短角与仪式头巾的幽影复仇者,reviewed-exception,name/lore matched
+角人老妪,erdlc,npc,common,角人老妪,human,horns;hood;scar,盘角与皱纹额头的塔之民老妪,reviewed-exception,name/lore matched
+大维壶师,erdlc,npc,common,大维壶师,human,helmet;mask;flower,戴陶壶帽、使用调香物的人类壶师,reviewed-exception,name/lore matched
+穆尔,erdlc,npc,common,穆尔,knight,helmet;sword,与兵器、护甲相符的人形战斗者,martial-lore,name/lore matched
+休里耶,erdlc,npc,common,休里耶,human,mask;longhair;flower,银色面具与纤细长发的调香师,reviewed-exception,name/lore matched
+圣女托莉娜,erdlc,npc,common,圣女托莉娜,plant,flower;longhair;halo,紫色睡莲中浮现安眠圣女的面庞,named-exception,name/lore matched
+埃贡,erdlc,npc,common,埃贡,human,hood;scar;spear,伤痕满面的残躯猎龙者,reviewed-exception,name/lore matched
+龙飨女巫芙柔桑克斯,erdlc,npc,common,龙飨女巫芙柔桑克斯,human,horns;staff;longhair,龙形头饰与长发的龙飨巫女,reviewed-exception,name/lore matched
+“黑夜剑士”约兰,erdlc,npc,common,“黑夜剑士”约兰,knight,helmet;sword,盔甲面罩与相应兵器的人形战士,martial-name,name/lore matched
+“黑夜剑士”安娜,erdlc,npc,common,“黑夜剑士”安娜,knight,helmet;sword,盔甲面罩与相应兵器的人形战士,martial-name,name/lore matched
+红熊鲁格利亚,erdlc,npc,common,红熊鲁格利亚,human,mane;scar;multipleArms,戴熊皮毛鬃、使用爪刃的猎熊战士,named-exception,name/lore matched
+火焰骑士昆兰,erdlc,npc,common,火焰骑士昆兰,knight,helmet;sword,盔甲面罩与相应兵器的人形战士,martial-name,name/lore matched
+火焰骑士希德,erdlc,npc,common,火焰骑士希德,knight,helmet;sword,盔甲面罩与相应兵器的人形战士,martial-name,name/lore matched
+丹恩,erdlc,npc,common,丹恩,human,hood;bandages;scar,落叶武僧的宽笠与缠手布带,named-exception,name/lore matched
+不死人,ds1,mob,common,不死人,undead,skull;rags,消瘦亡者面孔与破布颈领,undead-name,name/lore matched
+巨鸦,ds1,mob,common,巨鸦,bird,wings;eye,尖喙、羽冠与侧眼的鸟首,species-name,name/lore matched
+骷髅,ds1,elite,common,骷髅,undead,skull;iron,清晰颅骨、空眼窝与残存骨甲,undead-name,name/lore matched
+比欧,des,elite,common,比欧,knight,helmet;sword;shield,双牙重甲与盾剑的古老骑士,named-exception,name/lore matched
+弗雷克,des,elite,common,弗雷克,mage,hood;beard;staff,研究灵魂之术的长须贤者,named-exception,name/lore matched
+乌尔班,des,elite,common,乌尔班,healer,mitre;beard;staff,白须奇迹圣者与信仰法器,named-exception,name/lore matched
+老王奥兰特,des,boss,common,老王奥兰特,knight,crown;sword;eye,暗影笼罩面容的王冠剑士,boss-explicit,explicit Boss direction
+七本枪,sekiro,elite,common,七本枪,knight,helmet;spear,盔甲面罩与相应兵器的人形战士,martial-name,name/lore matched
+墓犬,bb,mob,common,墓犬,dog,jaw;scar,垂耳与宽鼻的凶猛犬首,species-name,name/lore matched
+亡者,ds1,mob,common,亡者,undead,skull;rags,消瘦亡者面孔与破布颈领,undead-name,name/lore matched
+追逐者,ds2,boss,common,追逐者,knight,helmet;eye;shield;sword,单眼面甲与背后成束的重型兵器,boss-explicit,explicit Boss direction
+教会猎人,bb,elite,common,教会猎人,rogue,hood;sword,轻装兜帽与遮面短刃的敏捷猎手,rogue-name,name/lore matched
+蛛形怪,bb,mob,common,蛛形怪,spider,eye;jaw,多眼蛛头与八条弯曲蛛足,species-name,name/lore matched
+触手兽,bb,elite,common,触手兽,alien,tentacles;eye;jaw,触手围绕口鼻的软体异兽,reviewed-exception,name/lore matched
+亡灵商人,ds1,npc,common,亡灵商人,undead,hood;skull;rags,破衣兜帽中的亡者商人,named-exception,name/lore matched
+食尸虫,ds1,mob,common,食尸虫,worm,centipede;jaw,环节长躯与放射状口器,species-name,name/lore matched
+游荡亡者,ds1,mob,common,游荡亡者,undead,skull;rags,消瘦亡者面孔与破布颈领,undead-name,name/lore matched
+灵体,des,mob,common,灵体,spirit,halo;hood,半透明面孔与飘散的灵魂下摆,spirit-name,name/lore matched
+盲眼亡者,des,mob,common,盲眼亡者,undead,skull;rags,消瘦亡者面孔与破布颈领,undead-name,name/lore matched
+苇名武士,sekiro,elite,common,苇名武士,knight,helmet;sword,盔甲面罩与相应兵器的人形战士,martial-name,name/lore matched
+忍者,sekiro,mob,common,忍者,rogue,hood;sword,轻装兜帽与遮面短刃的敏捷猎手,rogue-name,name/lore matched
+墓地鼠,er,mob,common,墓地鼠,rat,jaw;tail,圆耳、尖吻与长须的鼠首,species-name,name/lore matched
+卡利亚骑士,er,elite,common,卡利亚骑士,knight,helmet;sword,盔甲面罩与相应兵器的人形战士,martial-name,name/lore matched
+公爵的芙蕾雅·金辉,ds2,boss,rare,公爵的芙蕾雅,spider,multipleFaces;eye;jaw,两颗蛛首与八条长腿的巨型蜘蛛,boss-explicit,gold shares same character portrait
+亚尔特留斯·金辉,ds1,boss,rare,亚尔特留斯,knight,helmet;sword;scar,倾斜狼纹头盔与受伤左臂的深渊骑士,boss-explicit,gold shares same character portrait
+盖尔·金辉,ds3,boss,rare,盖尔,human,hood;beard;sword;scar,破红兜帽下的苍老胡须与断刃,boss-explicit,gold shares same character portrait
+塔楼骑士·金辉,des,boss,rare,塔楼骑士,knight,helmet;shield;spear;plume,高耸巨盔与塔盾长枪的重装骑士,boss-explicit,gold shares same character portrait
+月光蝶·金辉,ds1,boss,rare,月光蝶,butterfly,moon;crystal;wings,修长触角与月纹薄翼的魔法蝶,boss-explicit,gold shares same character portrait
+玛莲妮亚·金辉,er,boss,rare,玛莲妮亚,knight,helmet;wings;redhair;flower,翼状头盔、红发与绽开的腐败花,boss-explicit,gold shares same character portrait
+薪王葛温·金辉,ds1,boss,rare,薪王葛温,human,crown;beard;flame;sword,燃尽王冠、长须与余火大剑,boss-explicit,gold shares same character portrait
+墓王尼特·金辉,ds1,boss,rare,墓王尼特,undead,skull;multipleFaces;sword,骸骨冠冕与无数小骷髅组成的墓王,boss-explicit,gold shares same character portrait
+格曼·金辉,bb,boss,rare,格曼,human,hood;beard;sword,戴软猎人帽的白须老人持长镰,boss-explicit,gold shares same character portrait
+灼烧的白王·金辉,ds2,boss,rare,灼烧的白王,knight,crown;helmet;flame;sword,白色王盔与燃烧的长刃,boss-explicit,gold shares same character portrait
+鬼刑部·金辉,sekiro,boss,rare,鬼刑部,knight,helmet;spear;plume,长角武士头盔与骑战长枪,boss-explicit,gold shares same character portrait
+蝴蝶夫人·金辉,sekiro,boss,rare,蝴蝶夫人,rogue,longhair;mask;staff,白发老妇束高发髻，以幻术与细刃作战,boss-explicit,gold shares same character portrait
+一心·金辉,sekiro,boss,rare,一心,human,beard;helmet;sword,白须武将戴草盔，长刀横于肩侧,boss-explicit,gold shares same character portrait
+贯穿骑士·金辉,des,boss,rare,贯穿骑士,knight,helmet;sword;plume,狭长面甲与贯穿长剑的精锐骑士,boss-explicit,gold shares same character portrait
+风暴王·金辉,des,boss,rare,风暴王,fish,wings;fin;eye,宽大鳐翼与长尾的空中风暴巨兽,boss-explicit,gold shares same character portrait
+少女阿斯特蕾亚·金辉,des,boss,rare,少女阿斯特蕾亚,healer,hood;halo;longhair,白色兜帽与温和面容的祈祷少女,boss-explicit,gold shares same character portrait
+“穿刺者”梅瑟莫·金辉,erdlc,boss,rare,“穿刺者”梅瑟莫,human,helmet;tail;spear;flame,蛇绕细长头盔与火焰穿刺枪,boss-explicit,gold shares same character portrait
+神兽舞狮·金辉,erdlc,boss,rare,神兽舞狮,cat,mane;horns;mask,巨型狮舞面具，鬃毛随风雷扬起,boss-explicit,gold shares same character portrait
+双月骑士蕾菈娜·金辉,erdlc,boss,rare,双月骑士蕾菈娜,knight,helmet;moon;sword;flame,月翼银盔与一火一月双剑,boss-explicit,gold shares same character portrait
+树影化身·金辉,erdlc,boss,rare,树影化身,plant,flower;tentacles;eye,巨大的向日葵花盘与纠结根须,boss-explicit,gold shares same character portrait
+老王奥兰特·金辉,des,boss,rare,老王奥兰特,knight,crown;sword;eye,暗影笼罩面容的王冠剑士,boss-explicit,gold shares same character portrait
+不死院恶魔·金辉,ds1,boss,rare,不死院恶魔,demon,horns;axe;jaw,短角宽脸与沉重巨锤的守门恶魔,boss-explicit,gold shares same character portrait
+追逐者·金辉,ds2,boss,rare,追逐者,knight,helmet;eye;shield;sword,单眼面甲与背后成束的重型兵器,boss-explicit,gold shares same character portrait
+深渊守望者·金辉,ds3,boss,rare,深渊守望者,knight,helmet;sword;plume;multipleFaces,尖顶狼骑士头盔与交叠的守望者身影,boss-explicit,gold shares same character portrait
+加斯科因·金辉,bb,boss,rare,加斯科因,human,blindfold;axe;mane,蒙眼猎人帽与开始兽化的面容,boss-explicit,gold shares same character portrait
+科斯孤儿·金辉,bb,boss,rare,科斯孤儿,human,skull;scar;wings,苍白皱缩面孔与胎盘般弯刃,boss-explicit,gold shares same character portrait
+葛瑞克·金辉,er,boss,rare,葛瑞克,human,crown;multipleArms;axe;horns,歪冠下的苍老面孔与接肢手臂,boss-explicit,gold shares same character portrait
+艾尔登之兽·金辉,er,boss,rare,艾尔登之兽,alien,halo;wings;tail;eye,长颈星海兽，透明身躯布满黄金光点,boss-explicit,gold shares same character portrait
+“约定之王”拉塔恩·金辉,erdlc,boss,rare,“约定之王”拉塔恩,knight,helmet;redhair;halo;multipleFaces,红狮王盔后环绕金发神人光晕,boss-explicit,gold shares same character portrait
+镜之骑士·金辉,ds2,boss,rare,镜之骑士,knight,helmet;shield;crystal,面具般银盔与光滑镜盾,boss-explicit,gold shares same character portrait
+冷冽谷的玻尔多·金辉,ds3,boss,rare,冷冽谷的玻尔多,knight,helmet;frost;mane,覆霜的兽形重盔与低伏獠牙,boss-explicit,gold shares same character portrait
+教宗沙力万·金辉,ds3,boss,rare,教宗沙力万,mage,crown;multipleArms;sword,细长教宗冠与一明一暗双剑,boss-explicit,gold shares same character portrait
+教会野兽·金辉,bb,boss,rare,教会野兽,deer,antler;mane;jaw,鹿角、野兽长颚与不对称毛鬃,boss-explicit,gold shares same character portrait
+弦一郎·金辉,sekiro,boss,rare,弦一郎,knight,helmet;sword;plume,苇名武将的角盔与长刀,boss-explicit,gold shares same character portrait
+蕾娜拉·金辉,er,boss,rare,蕾娜拉,mage,crown;moon;staff;longhair,高耸月冠、长发与怀中的琥珀卵,boss-explicit,gold shares same character portrait
+铠甲蜘蛛·金辉,des,boss,rare,铠甲蜘蛛,spider,iron;flame;eye,厚甲八足与炽热口器的矿道巨蛛,boss-explicit,gold shares same character portrait
+深渊之主马努斯·金辉,ds1,boss,rare,深渊之主马努斯,demon,horns;multipleArms;eye,深渊獠牙兽首与畸长巨手,boss-explicit,gold shares same character portrait
+熔铁恶魔·金辉,ds2,boss,rare,熔铁恶魔,demon,horns;iron;flame;sword,铁甲牛角面孔，胸膛与剑刃燃火,boss-explicit,gold shares same character portrait
+烟之骑士雷姆·金辉,ds2,boss,rare,烟之骑士雷姆,knight,helmet;sword;flame,熏黑面甲与两柄大小不一的暗焰剑,boss-explicit,gold shares same character portrait
+薪王们的化身·金辉,ds3,boss,rare,薪王们的化身,knight,helmet;flame;sword,头盔缝隙流出余火的历代薪王化身,boss-explicit,gold shares same character portrait
+黑龙米狄尔·金辉,ds3,boss,rare,黑龙米狄尔,dragon,horns;crystal;flame,黑色晶鳞、裂角与深渊火光,boss-explicit,gold shares same character portrait
+路德维希·金辉,bb,boss,rare,路德维希,horse,jaw;multipleFaces;sword,扭曲马首、肩侧副眼与月光大剑,boss-explicit,gold shares same character portrait
+玛丽亚·金辉,bb,boss,rare,玛丽亚,human,hood;longhair;sword,束发女猎人戴三角帽，双刃映着血光,boss-explicit,gold shares same character portrait
+狮子猿·金辉,sekiro,boss,rare,狮子猿,monkey,mane;scar;jaw,白毛巨猿的宽嘴与颈部伤痕,boss-explicit,gold shares same character portrait
+怨恨之鬼·金辉,sekiro,boss,rare,怨恨之鬼,demon,flame;horns;multipleArms,单臂化作烈火的赤色怨鬼,boss-explicit,gold shares same character portrait
+玛尔基特·金辉,er,boss,rare,玛尔基特,demon,horns;beard;staff,缠角老者与粗木杖，额前长角下垂,boss-explicit,gold shares same character portrait
+拉达冈·金辉,er,boss,rare,拉达冈,human,redhair;scar;axe;halo,红发神躯裂开金纹，手持圣槌,boss-explicit,gold shares same character portrait
+“暴虐”贝勒·金辉,erdlc,boss,rare,“暴虐”贝勒,dragon,horns;flame;scar;wings,破翼残角的黑龙，伤口流出火雷,boss-explicit,gold shares same character portrait
+奥斯卡·金辉,ds1,boss,rare,奥斯卡,knight,helmet;shield;sword,亚斯特拉封闭骑士盔与剑盾,encounter-named-exception,gold shares same character portrait
+牛头恶魔·金辉,ds1,boss,rare,牛头恶魔,bull,horns;axe;mane,横伸牛角、宽鼻孔与战斧的牛头恶魔,boss-explicit,gold shares same character portrait
+钟楼石像鬼·金辉,ds1,boss,rare,钟楼石像鬼,demon,wings;helmet;flame,石质尖脸与蝠翼，嘴边透出火光,boss-explicit,gold shares same character portrait
+帕奇·金辉,ds1,boss,rare,帕奇,rogue,spear;shield;eye,光头机会主义者带着狡黠眼神,encounter-named-exception,gold shares same character portrait
+索拉尔·金辉,ds1,boss,rare,索拉尔,knight,helmet;halo;shield,顶着羽饰桶盔的太阳骑士,encounter-named-exception,gold shares same character portrait
+魔女克拉格·金辉,ds1,boss,rare,魔女克拉格,spider,longhair;flame;multipleArms,女性面孔与火焰蛛足融合的混沌魔女,boss-explicit,gold shares same character portrait
+铁傀儡·金辉,ds1,boss,rare,铁傀儡,giant,helmet;iron;axe,封闭铁面与铆钉重甲的巨型傀儡,boss-explicit,gold shares same character portrait
+奥恩斯坦·金辉,ds1,boss,rare,奥恩斯坦,knight,helmet;mane;spear;plume,狮面黄金头盔与猎龙长枪,boss-explicit,gold shares same character portrait
+斯莫·金辉,ds1,boss,rare,斯莫,knight,helmet;iron;axe,圆顶厚盔、狭窄视孔与巨锤的刽子手,boss-explicit,gold shares same character portrait
+卡拉米特·金辉,ds1,boss,rare,卡拉米特,dragon,horns;eye;flame,额中央独眼与黑色长角的灾厄古龙,boss-explicit,gold shares same character portrait
+最后的巨人·金辉,ds2,boss,rare,最后的巨人,giant,eye;multipleArms;scar,头部中央空洞与断臂伤口的古巨人,boss-explicit,gold shares same character portrait
+流放罪执行者·金辉,ds2,boss,rare,流放罪执行者,giant,multipleFaces;sword;scar,背靠背的双面刑吏与成对重刃,boss-explicit,gold shares same character portrait
+遗忘的罪人·金辉,ds2,boss,rare,遗忘的罪人,human,mask;sword;flame,束缚面具与燃烧长剑的被囚罪人,boss-explicit,gold shares same character portrait
+骷髅王·金辉,ds2,boss,rare,骷髅王,undead,crown;skull;multipleFaces,三位骷髅领主戴着不同旧冠,boss-explicit,gold shares same character portrait
+毒妃米妲·金辉,ds2,boss,rare,毒妃米妲,snake,crown;longhair;staff,戴冠蛇女与身侧捧起的断首,boss-explicit,gold shares same character portrait
+铁之古王·金辉,ds2,boss,rare,铁之古王,demon,crown;horns;flame;wings,王冠与巨翼笼罩熔岩恶魔的面容,boss-explicit,gold shares same character portrait
+腐败物·金辉,ds2,boss,rare,腐败物,undead,multipleFaces;multipleArms;axe,尸体堆叠的多面巨躯与屠刀,boss-explicit,gold shares same character portrait
+娜香德拉·金辉,ds2,boss,rare,娜香德拉,undead,crown;skull;longhair,黑色王冠下显出骸骨王妃面孔,boss-explicit,gold shares same character portrait
+王兄安第尔·金辉,ds2,boss,rare,王兄安第尔,plant,flame;eye;tentacles,纠缠根须与火焰中露出的学者独眼,boss-explicit,gold shares same character portrait
+骑士亚伦·金辉,ds2,boss,rare,骑士亚伦,knight,helmet;sword;plume,东方长角头盔与纤长居合刀,boss-explicit,gold shares same character portrait
+灰烬审判者古达·金辉,ds3,boss,rare,灰烬审判者古达,knight,helmet;spear;tentacles,裂开头盔与人之脓黑影的戟骑士,boss-explicit,gold shares same character portrait
+结晶老者·金辉,ds3,boss,rare,结晶老者,mage,witchhat;crystal;staff,宽大尖帽与辉晶面孔的学者,boss-explicit,gold shares same character portrait
+幽邃主教群·金辉,ds3,boss,rare,幽邃主教群,healer,mitre;multipleFaces;staff,高主教冠与一群持烛教士的面孔,boss-explicit,gold shares same character portrait
+霸王沃尼尔·金辉,ds3,boss,rare,霸王沃尼尔,undead,crown;skull;halo,戴冠巨骷髅与三只发光手镯,boss-explicit,gold shares same character portrait
+巨人尤姆·金辉,ds3,boss,rare,巨人尤姆,giant,crown;axe;beard,蒙灰王冠、长须与巨型砍刀,boss-explicit,gold shares same character portrait
+冷冽谷的舞娘·金辉,ds3,boss,rare,冷冽谷的舞娘,knight,helmet;longhair;sword;flame,蒙纱的细长面盔与双弯剑,boss-explicit,gold shares same character portrait
+猎龙铠甲·金辉,ds3,boss,rare,猎龙铠甲,knight,helmet;shield;axe,空心面甲、猎龙大斧与沉重方盾,boss-explicit,gold shares same character portrait
+洛斯里克王子·金辉,ds3,boss,rare,洛斯里克王子,human,crown;multipleFaces;longhair,病弱王子伏在兄长肩上，双面相依,boss-explicit,gold shares same character portrait
+无名王者·金辉,ds3,boss,rare,无名王者,human,crown;mane;spear,风吹白发的王冠战士与雷霆长枪,boss-explicit,gold shares same character portrait
+修女芙莉德·金辉,ds3,boss,rare,修女芙莉德,human,hood;frost;sword,蒙兜帽的冷静修女与冰霜镰刃,boss-explicit,gold shares same character portrait
+渴血兽·金辉,bb,boss,rare,渴血兽,demon,longhair;jaw;scar,头皮下垂的血肉兽首与张开的长颚,boss-explicit,gold shares same character portrait
+阿梅利亚·金辉,bb,boss,rare,阿梅利亚,deer,antler;longhair;bandages,白毛鹿角兽与缠绕手腕的祈祷布带,boss-explicit,gold shares same character portrait
+汉威克女巫·金辉,bb,boss,rare,汉威克女巫,human,hood;eye;staff,佝偻女巫头巾上布满眼球饰物,boss-explicit,gold shares same character portrait
+雅南暗影·金辉,bb,boss,rare,雅南暗影,rogue,hood;multipleFaces;tail,三名黑袍刀手与蛇影相叠,boss-explicit,gold shares same character portrait
+罗姆·金辉,bb,boss,rare,罗姆,spider,eye;crystal;multipleFaces,圆钝石质头部与众多眼孔的蛛形古神,boss-explicit,gold shares same character portrait
+重生之古神·金辉,bb,boss,rare,重生之古神,undead,multipleFaces;multipleArms;tentacles,血肉肢体堆成的多面古神,boss-explicit,gold shares same character portrait
+米克拉什·金辉,bb,boss,rare,米克拉什,human,iron;staff;eye,人脸罩在高耸的铁笼中,boss-explicit,gold shares same character portrait
+梅尔戈乳母·金辉,bb,boss,rare,梅尔戈乳母,spirit,hood;multipleArms;sword,无脸黑羽兜帽与六只持刃手臂,boss-explicit,gold shares same character portrait
+月之魔物·金辉,bb,boss,rare,月之魔物,alien,tentacles;skull;moon,颅骨古神的触手与月轮剪影,boss-explicit,gold shares same character portrait
+劳伦斯·金辉,bb,boss,rare,劳伦斯,deer,antler;flame;scar,燃烧鹿角与焦裂皮肤的教会巨兽,boss-explicit,gold shares same character portrait
+赤鬼·金辉,sekiro,boss,rare,赤鬼,demon,horns;jaw,角状眉骨、獠牙与异色肌肤的鬼怪,encounter-demon-name,gold shares same character portrait
+火牛·金辉,sekiro,boss,rare,火牛,bull,horns;flame;jaw,双角绑着燃烧木束的宽鼻牛首,encounter-reviewed-exception,gold shares same character portrait
+屏风猿猴·金辉,sekiro,boss,rare,屏风猿猴,monkey,multipleFaces;mask;eye,四种表情与面具颜色的猿猴并列,boss-explicit,gold shares same character portrait
+无首狮子猿·金辉,sekiro,boss,rare,无首狮子猿,monkey,skull;sword;scar,白毛断颈猿，手边托着被斩下的猿首,boss-explicit,gold shares same character portrait
+破戒僧·金辉,sekiro,boss,rare,破戒僧,human,mask;hood;spear,笑面能剧面具与宽僧袍的持刀僧,boss-explicit,gold shares same character portrait
+枭·金辉,sekiro,boss,rare,枭,rogue,beard;longhair;sword,灰色长辫与厚重羽衣的年迈忍者,boss-explicit,gold shares same character portrait
+宫内破戒僧·金辉,sekiro,boss,rare,宫内破戒僧,human,mask;centipede;spear,三面幻影面具与破颈蜈蚣的真身僧,boss-explicit,gold shares same character portrait
+神龙·金辉,sekiro,boss,rare,神龙,dragon,antler;sword;halo,白木枝角与七支剑的樱龙,boss-explicit,gold shares same character portrait
+艾玛·金辉,sekiro,boss,rare,艾玛,healer,longhair;sword;flower,束发医师佩发簪，衣旁显出柔和刀光,boss-explicit,gold shares same character portrait
+义父·金辉,sekiro,boss,rare,义父,rogue,beard;longhair;flame,年轻时更锐利的长辫忍者与火鸟幻影,boss-explicit,gold shares same character portrait
+黄金树守卫·金辉,er,boss,rare,黄金树守卫,knight,helmet;plume;shield;spear,金色重骑士冠盔与树纹大盾,boss-explicit,gold shares same character portrait
+红狼拉达冈·金辉,er,boss,rare,红狼拉达冈,wolf,redhair;sword;crystal,赤红狼首与口边悬浮的辉剑,boss-explicit,gold shares same character portrait
+拉塔恩·金辉,er,boss,rare,拉塔恩,knight,helmet;redhair;mane;sword,雄狮金盔与狂放红鬃的碎星将军,boss-explicit,gold shares same character portrait
+龙装大树守卫·金辉,er,boss,rare,龙装大树守卫,knight,helmet;horns;shield;axe,龙形重盔与红雷大锤的王城守卫,boss-explicit,gold shares same character portrait
+蒙葛特·金辉,er,boss,rare,蒙葛特,demon,horns;crown;sword;tail,王冠、盘角与长尾的恶兆王,boss-explicit,gold shares same character portrait
+拉卡德·金辉,er,boss,rare,拉卡德,snake,crown;multipleFaces;flame;sword,巨蛇面上长出君王人脸与亵渎剑,boss-explicit,gold shares same character portrait
+莫格·金辉,er,boss,rare,莫格,demon,horns;crown;spear;eye,角刺入单眼的血焰君王与三叉戟,boss-explicit,gold shares same character portrait
+火焰巨人·金辉,er,boss,rare,火焰巨人,giant,eye;redhair;flame;shield,红辫巨人胸前的独眼神面与圆盾,boss-explicit,gold shares same character portrait
+玛利喀斯·金辉,er,boss,rare,玛利喀斯,wolf,helmet;sword;mane;scar,黑金兽盔下的狼首与命定之死黑剑,boss-explicit,gold shares same character portrait
+葛孚雷·金辉,er,boss,rare,葛孚雷,human,crown;beard;axe;mane,白须初王戴冠，肩后浮现狮王之影,boss-explicit,gold shares same character portrait

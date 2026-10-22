@@ -1,0 +1,9348 @@
+{
+  "不死院恶魔": {
+    "family": "demon",
+    "features": [
+      "horns",
+      "axe",
+      "jaw"
+    ],
+    "label": "短角宽脸与沉重巨锤的守门恶魔",
+    "boss": true,
+    "rule": "boss-explicit"
+  },
+  "牛头恶魔": {
+    "family": "bull",
+    "features": [
+      "horns",
+      "axe",
+      "mane"
+    ],
+    "label": "横伸牛角、宽鼻孔与战斧的牛头恶魔",
+    "boss": true,
+    "rule": "boss-explicit"
+  },
+  "羊头恶魔": {
+    "family": "goat",
+    "features": [
+      "horns",
+      "sword",
+      "beard"
+    ],
+    "label": "向上盘绕羊角、山羊面与双曲刀",
+    "boss": true,
+    "rule": "boss-explicit"
+  },
+  "钟楼石像鬼": {
+    "family": "demon",
+    "features": [
+      "wings",
+      "helmet",
+      "flame"
+    ],
+    "label": "石质尖脸与蝠翼，嘴边透出火光",
+    "boss": true,
+    "rule": "boss-explicit"
+  },
+  "月光蝶": {
+    "family": "butterfly",
+    "features": [
+      "moon",
+      "crystal",
+      "wings"
+    ],
+    "label": "修长触角与月纹薄翼的魔法蝶",
+    "boss": true,
+    "rule": "boss-explicit"
+  },
+  "裂口龙": {
+    "family": "dragon",
+    "features": [
+      "jaw",
+      "tentacles",
+      "scar"
+    ],
+    "label": "小龙首下张开层叠獠牙的裂口巨龙",
+    "boss": true,
+    "rule": "boss-explicit"
+  },
+  "魔女克拉格": {
+    "family": "spider",
+    "features": [
+      "longhair",
+      "flame",
+      "multipleArms"
+    ],
+    "label": "女性面孔与火焰蛛足融合的混沌魔女",
+    "boss": true,
+    "rule": "boss-explicit"
+  },
+  "离群恶魔": {
+    "family": "demon",
+    "features": [
+      "horns",
+      "staff",
+      "scar"
+    ],
+    "label": "折旧弯角与魔力纹路的地下恶魔",
+    "boss": true,
+    "rule": "boss-explicit"
+  },
+  "铁傀儡": {
+    "family": "giant",
+    "features": [
+      "helmet",
+      "iron",
+      "axe"
+    ],
+    "label": "封闭铁面与铆钉重甲的巨型傀儡",
+    "boss": true,
+    "rule": "boss-explicit"
+  },
+  "奥恩斯坦": {
+    "family": "knight",
+    "features": [
+      "helmet",
+      "mane",
+      "spear",
+      "plume"
+    ],
+    "label": "狮面黄金头盔与猎龙长枪",
+    "boss": true,
+    "rule": "boss-explicit"
+  },
+  "斯莫": {
+    "family": "knight",
+    "features": [
+      "helmet",
+      "iron",
+      "axe"
+    ],
+    "label": "圆顶厚盔、狭窄视孔与巨锤的刽子手",
+    "boss": true,
+    "rule": "boss-explicit"
+  },
+  "三帖家族": {
+    "family": "mage",
+    "features": [
+      "mask",
+      "multipleFaces",
+      "staff"
+    ],
+    "label": "三张不同面具叠成的死灵术士",
+    "boss": true,
+    "rule": "boss-explicit"
+  },
+  "墓王尼特": {
+    "family": "undead",
+    "features": [
+      "skull",
+      "multipleFaces",
+      "sword"
+    ],
+    "label": "骸骨冠冕与无数小骷髅组成的墓王",
+    "boss": true,
+    "rule": "boss-explicit"
+  },
+  "白龙希斯": {
+    "family": "dragon",
+    "features": [
+      "crystal",
+      "fin",
+      "eye"
+    ],
+    "label": "无鳞白龙，头颈长出结晶与扇鳍",
+    "boss": true,
+    "rule": "boss-explicit"
+  },
+  "小隆德四王": {
+    "family": "spirit",
+    "features": [
+      "crown",
+      "multipleFaces",
+      "sword"
+    ],
+    "label": "四位幽暗王影与裂翼般王袍",
+    "boss": true,
+    "rule": "boss-explicit"
+  },
+  "持续溃烂的生物": {
+    "family": "giant",
+    "features": [
+      "flame",
+      "tentacles",
+      "scar"
+    ],
+    "label": "熔岩烧灼的多臂巨躯与痛苦面孔",
+    "boss": true,
+    "rule": "boss-explicit"
+  },
+  "恶魔火焰司祭": {
+    "family": "demon",
+    "features": [
+      "horns",
+      "staff",
+      "flame"
+    ],
+    "label": "长角恶魔举起燃烧法杖",
+    "boss": true,
+    "rule": "boss-explicit"
+  },
+  "百足恶魔": {
+    "family": "worm",
+    "features": [
+      "centipede",
+      "jaw",
+      "flame"
+    ],
+    "label": "多节蜈蚣头与熔岩獠牙",
+    "boss": true,
+    "rule": "boss-explicit"
+  },
+  "混沌的温床": {
+    "family": "plant",
+    "features": [
+      "multipleArms",
+      "flame",
+      "eye"
+    ],
+    "label": "古树根须张成手臂，树心燃着混沌火",
+    "boss": true,
+    "rule": "boss-explicit"
+  },
+  "巨狼希夫": {
+    "family": "wolf",
+    "features": [
+      "sword",
+      "mane",
+      "scar"
+    ],
+    "label": "灰色巨狼口衔宽刃大剑",
+    "boss": true,
+    "rule": "boss-explicit"
+  },
+  "半龙普莉希拉": {
+    "family": "human",
+    "features": [
+      "horns",
+      "longhair",
+      "frost",
+      "tail"
+    ],
+    "label": "白发少女带龙角与柔软龙尾",
+    "boss": true,
+    "rule": "boss-explicit"
+  },
+  "格温多林": {
+    "family": "mage",
+    "features": [
+      "crown",
+      "moon",
+      "tail"
+    ],
+    "label": "月冠遮面，下方延展蛇尾的幻术神祇",
+    "boss": true,
+    "rule": "boss-explicit"
+  },
+  "薪王葛温": {
+    "family": "human",
+    "features": [
+      "crown",
+      "beard",
+      "flame",
+      "sword"
+    ],
+    "label": "燃尽王冠、长须与余火大剑",
+    "boss": true,
+    "rule": "boss-explicit"
+  },
+  "圣兽": {
+    "family": "cat",
+    "features": [
+      "horns",
+      "wings",
+      "tail"
+    ],
+    "label": "狮首、翼与蝎尾相合的守护圣兽",
+    "boss": true,
+    "rule": "boss-explicit"
+  },
+  "亚尔特留斯": {
+    "family": "knight",
+    "features": [
+      "helmet",
+      "sword",
+      "scar"
+    ],
+    "label": "倾斜狼纹头盔与受伤左臂的深渊骑士",
+    "boss": true,
+    "rule": "boss-explicit"
+  },
+  "卡拉米特": {
+    "family": "dragon",
+    "features": [
+      "horns",
+      "eye",
+      "flame"
+    ],
+    "label": "额中央独眼与黑色长角的灾厄古龙",
+    "boss": true,
+    "rule": "boss-explicit"
+  },
+  "深渊之主马努斯": {
+    "family": "demon",
+    "features": [
+      "horns",
+      "multipleArms",
+      "eye"
+    ],
+    "label": "深渊獠牙兽首与畸长巨手",
+    "boss": true,
+    "rule": "boss-explicit"
+  },
+  "索拉尔": {
+    "family": "knight",
+    "features": [
+      "helmet",
+      "halo",
+      "shield"
+    ],
+    "label": "顶着羽饰桶盔的太阳骑士",
+    "boss": true,
+    "rule": "encounter-named-exception"
+  },
+  "西格迈尔": {
+    "family": "knight",
+    "features": [
+      "helmet",
+      "iron",
+      "shield"
+    ],
+    "label": "圆葱般层叠的圆形重盔",
+    "boss": false,
+    "rule": "named-exception"
+  },
+  "西格琳德": {
+    "family": "knight",
+    "features": [
+      "helmet",
+      "iron",
+      "sword"
+    ],
+    "label": "卡塔利纳圆葱头盔与女骑士长剑",
+    "boss": false,
+    "rule": "named-exception"
+  },
+  "奥斯卡": {
+    "family": "knight",
+    "features": [
+      "helmet",
+      "shield",
+      "sword"
+    ],
+    "label": "亚斯特拉封闭骑士盔与剑盾",
+    "boss": true,
+    "rule": "encounter-named-exception"
+  },
+  "安德烈": {
+    "family": "human",
+    "features": [
+      "beard",
+      "multipleArms",
+      "iron"
+    ],
+    "label": "白须强壮铁匠露出健硕肩膀",
+    "boss": false,
+    "rule": "named-exception"
+  },
+  "巨人铁匠": {
+    "family": "giant",
+    "features": [
+      "helmet",
+      "iron",
+      "axe"
+    ],
+    "label": "巨人工匠戴粗厚工作面罩",
+    "boss": false,
+    "rule": "named-exception"
+  },
+  "梵摩斯": {
+    "family": "undead",
+    "features": [
+      "skull",
+      "iron",
+      "axe"
+    ],
+    "label": "枯骨头颅与铁匠锤的骷髅工匠",
+    "boss": false,
+    "rule": "named-exception"
+  },
+  "格里格斯": {
+    "family": "mage",
+    "features": [
+      "hood",
+      "staff",
+      "crystal"
+    ],
+    "label": "温和的兜帽魔法学徒",
+    "boss": false,
+    "rule": "named-exception"
+  },
+  "罗根": {
+    "family": "mage",
+    "features": [
+      "witchhat",
+      "beard",
+      "staff"
+    ],
+    "label": "巨大宽边尖帽与白须的结晶大师",
+    "boss": false,
+    "rule": "named-exception"
+  },
+  "劳伦提乌斯": {
+    "family": "mage",
+    "features": [
+      "hood",
+      "flame",
+      "staff"
+    ],
+    "label": "布兜帽下的温和咒术师",
+    "boss": false,
+    "rule": "named-exception"
+  },
+  "克拉娜": {
+    "family": "mage",
+    "features": [
+      "hood",
+      "longhair",
+      "flame"
+    ],
+    "label": "黑衣兜帽下的原初咒术魔女",
+    "boss": false,
+    "rule": "named-exception"
+  },
+  "恩吉": {
+    "family": "human",
+    "features": [
+      "hood",
+      "centipede",
+      "rags"
+    ],
+    "label": "卵囊寄生背部的佝偻侍从",
+    "boss": false,
+    "rule": "named-exception"
+  },
+  "白蜘蛛姬": {
+    "family": "spider",
+    "features": [
+      "longhair",
+      "flower",
+      "scar"
+    ],
+    "label": "白色女性面容与虚弱蛛足的混沌之女",
+    "boss": false,
+    "rule": "named-exception"
+  },
+  "雷雅": {
+    "family": "healer",
+    "features": [
+      "hood",
+      "halo",
+      "staff"
+    ],
+    "label": "白头巾与祈祷法器的圣女",
+    "boss": false,
+    "rule": "named-exception"
+  },
+  "佩特鲁斯": {
+    "family": "healer",
+    "features": [
+      "helmet",
+      "shield",
+      "halo"
+    ],
+    "label": "短发教士带着圆盾与圣职法器",
+    "boss": false,
+    "rule": "named-exception"
+  },
+  "帕奇": {
+    "family": "rogue",
+    "features": [
+      "spear",
+      "shield",
+      "eye"
+    ],
+    "label": "光头机会主义者带着狡黠眼神",
+    "boss": true,
+    "rule": "encounter-named-exception"
+  },
+  "阿斯特拉的安娜斯塔西亚": {
+    "family": "healer",
+    "features": [
+      "hood",
+      "bandages",
+      "halo"
+    ],
+    "label": "蒙着灰色头巾的沉默防火女",
+    "boss": false,
+    "rule": "named-exception"
+  },
+  "暗月女骑士": {
+    "family": "knight",
+    "features": [
+      "helmet",
+      "moon",
+      "sword"
+    ],
+    "label": "黄铜面甲与暗月标记的女骑士",
+    "boss": false,
+    "rule": "named-exception"
+  },
+  "大弓手戈夫": {
+    "family": "giant",
+    "features": [
+      "helmet",
+      "blindfold",
+      "iron"
+    ],
+    "label": "失明猎龙骑士的巨大旧盔",
+    "boss": false,
+    "rule": "named-exception"
+  },
+  "王刃基亚兰": {
+    "family": "rogue",
+    "features": [
+      "mask",
+      "sword",
+      "longhair"
+    ],
+    "label": "白色长面具与成对弯刃的王刃",
+    "boss": false,
+    "rule": "named-exception"
+  },
+  "卡利姆的奥斯瓦尔德": {
+    "family": "rogue",
+    "features": [
+      "mask",
+      "hood",
+      "eye"
+    ],
+    "label": "乌黑长袍与尖喙赦罪面具",
+    "boss": false,
+    "rule": "named-exception"
+  },
+  "弗拉姆特": {
+    "family": "snake",
+    "features": [
+      "beard",
+      "jaw",
+      "eye"
+    ],
+    "label": "垂须与宽大牙口的世界大蛇",
+    "boss": false,
+    "rule": "named-exception"
+  },
+  "黑暗大蛇卡斯": {
+    "family": "snake",
+    "features": [
+      "beard",
+      "jaw",
+      "moon"
+    ],
+    "label": "黑暗中显出垂须与诡笑的大蛇",
+    "boss": false,
+    "rule": "named-exception"
+  },
+  "不死镇商人": {
+    "family": "undead",
+    "features": [
+      "hood",
+      "skull",
+      "sword"
+    ],
+    "label": "褴褛衣物中的失心亡者商人",
+    "boss": false,
+    "rule": "named-exception"
+  },
+  "女亡灵商人": {
+    "family": "undead",
+    "features": [
+      "hood",
+      "skull",
+      "rags"
+    ],
+    "label": "铁栏后的骸骨面孔与旧兜帽",
+    "boss": false,
+    "rule": "named-exception"
+  },
+  "多姆纳尔": {
+    "family": "human",
+    "features": [
+      "helmet",
+      "horns",
+      "iron"
+    ],
+    "label": "圆眼护目面罩与弯角商人头盔",
+    "boss": false,
+    "rule": "named-exception"
+  },
+  "伊丽莎白": {
+    "family": "mushroom",
+    "features": [
+      "flower",
+      "halo",
+      "eye"
+    ],
+    "label": "有温和面孔的巨型蘑菇守护者",
+    "boss": false,
+    "rule": "named-exception"
+  },
+  "黄王杰雷迈亚": {
+    "family": "mage",
+    "features": [
+      "crown",
+      "flame",
+      "staff"
+    ],
+    "label": "极高盘绕黄布冠与混沌火焰",
+    "boss": false,
+    "rule": "named-exception"
+  },
+  "寇克": {
+    "family": "knight",
+    "features": [
+      "helmet",
+      "iron",
+      "sword"
+    ],
+    "label": "布满长铁刺的封闭骑士盔",
+    "boss": false,
+    "rule": "named-exception"
+  },
+  "魔女贝拉特": {
+    "family": "mage",
+    "features": [
+      "witchhat",
+      "staff",
+      "longhair"
+    ],
+    "label": "黑森林宽尖帽魔女握着法杖",
+    "boss": false,
+    "rule": "named-exception"
+  },
+  "不死院游魂": {
+    "family": "undead",
+    "features": [
+      "skull",
+      "rags"
+    ],
+    "label": "消瘦亡者面孔与破布颈领",
+    "boss": false,
+    "rule": "undead-name"
+  },
+  "持盾游魂士兵": {
+    "family": "undead",
+    "features": [
+      "skull",
+      "rags"
+    ],
+    "label": "消瘦亡者面孔与破布颈领",
+    "boss": false,
+    "rule": "undead-name"
+  },
+  "游魂弩兵": {
+    "family": "undead",
+    "features": [
+      "skull",
+      "rags"
+    ],
+    "label": "消瘦亡者面孔与破布颈领",
+    "boss": false,
+    "rule": "undead-name"
+  },
+  "火把游魂": {
+    "family": "undead",
+    "features": [
+      "skull",
+      "rags"
+    ],
+    "label": "消瘦亡者面孔与破布颈领",
+    "boss": false,
+    "rule": "undead-name"
+  },
+  "不死镇刺客": {
+    "family": "rogue",
+    "features": [
+      "hood",
+      "sword"
+    ],
+    "label": "轻装兜帽与遮面短刃的敏捷猎手",
+    "boss": false,
+    "rule": "rogue-name"
+  },
+  "不死镇猎犬": {
+    "family": "dog",
+    "features": [
+      "jaw",
+      "scar"
+    ],
+    "label": "垂耳与宽鼻的凶猛犬首",
+    "boss": false,
+    "rule": "species-name"
+  },
+  "下水道老鼠": {
+    "family": "rat",
+    "features": [
+      "jaw",
+      "tail"
+    ],
+    "label": "圆耳、尖吻与长须的鼠首",
+    "boss": false,
+    "rule": "species-name"
+  },
+  "大老鼠": {
+    "family": "rat",
+    "features": [
+      "jaw",
+      "tail"
+    ],
+    "label": "圆耳、尖吻与长须的鼠首",
+    "boss": false,
+    "rule": "species-name"
+  },
+  "结晶蜥蜴": {
+    "family": "lizard",
+    "features": [
+      "tail",
+      "eye"
+    ],
+    "label": "尖吻小蜥蜴与背部细鳞",
+    "boss": false,
+    "rule": "species-name"
+  },
+  "蛙眼咒蛙": {
+    "family": "frog",
+    "features": [
+      "eye",
+      "jaw"
+    ],
+    "label": "宽嘴蛙脸与鼓起的假眼气囊",
+    "boss": false,
+    "rule": "species-name"
+  },
+  "恶臭肉团": {
+    "family": "blob",
+    "features": [
+      "eye",
+      "tentacles"
+    ],
+    "label": "半透明软泥中显出的眼与口",
+    "boss": false,
+    "rule": "species-name"
+  },
+  "黑森林树人": {
+    "family": "plant",
+    "features": [
+      "flower",
+      "tentacles"
+    ],
+    "label": "树皮面孔与枝叶花冠",
+    "boss": false,
+    "rule": "species-name"
+  },
+  "蘑菇小人": {
+    "family": "mushroom",
+    "features": [
+      "eye",
+      "flower"
+    ],
+    "label": "圆伞菌盖与朴实面孔的蘑菇人",
+    "boss": false,
+    "rule": "species-name"
+  },
+  "蘑菇父母": {
+    "family": "mushroom",
+    "features": [
+      "eye",
+      "flower"
+    ],
+    "label": "圆伞菌盖与朴实面孔的蘑菇人",
+    "boss": false,
+    "rule": "species-name"
+  },
+  "森林石骑士": {
+    "family": "knight",
+    "features": [
+      "helmet",
+      "shield"
+    ],
+    "label": "盔甲面罩与相应兵器的人形战士",
+    "boss": false,
+    "rule": "martial-name"
+  },
+  "巴勒德尔骑士": {
+    "family": "knight",
+    "features": [
+      "helmet",
+      "sword"
+    ],
+    "label": "盔甲面罩与相应兵器的人形战士",
+    "boss": false,
+    "rule": "martial-name"
+  },
+  "伯尼斯骑士": {
+    "family": "knight",
+    "features": [
+      "helmet",
+      "shield"
+    ],
+    "label": "盔甲面罩与相应兵器的人形战士",
+    "boss": false,
+    "rule": "martial-name"
+  },
+  "黑骑士": {
+    "family": "knight",
+    "features": [
+      "helmet",
+      "shield"
+    ],
+    "label": "盔甲面罩与相应兵器的人形战士",
+    "boss": false,
+    "rule": "martial-name"
+  },
+  "银骑士": {
+    "family": "knight",
+    "features": [
+      "helmet",
+      "shield"
+    ],
+    "label": "盔甲面罩与相应兵器的人形战士",
+    "boss": false,
+    "rule": "martial-name"
+  },
+  "银骑士大弓手": {
+    "family": "knight",
+    "features": [
+      "helmet",
+      "sword"
+    ],
+    "label": "盔甲面罩与相应兵器的人形战士",
+    "boss": false,
+    "rule": "martial-name"
+  },
+  "骷髅剑士": {
+    "family": "undead",
+    "features": [
+      "skull",
+      "iron"
+    ],
+    "label": "清晰颅骨、空眼窝与残存骨甲",
+    "boss": false,
+    "rule": "undead-name"
+  },
+  "骷髅车轮": {
+    "family": "undead",
+    "features": [
+      "skull",
+      "iron"
+    ],
+    "label": "清晰颅骨、空眼窝与残存骨甲",
+    "boss": false,
+    "rule": "undead-name"
+  },
+  "死灵术士": {
+    "family": "mage",
+    "features": [
+      "witchhat",
+      "staff"
+    ],
+    "label": "兜帽或尖帽下的施法者面孔",
+    "boss": false,
+    "rule": "caster-name"
+  },
+  "巨人骷髅": {
+    "family": "undead",
+    "features": [
+      "skull",
+      "iron"
+    ],
+    "label": "清晰颅骨、空眼窝与残存骨甲",
+    "boss": false,
+    "rule": "undead-name"
+  },
+  "骷髅兽": {
+    "family": "undead",
+    "features": [
+      "skull",
+      "iron"
+    ],
+    "label": "清晰颅骨、空眼窝与残存骨甲",
+    "boss": false,
+    "rule": "undead-name"
+  },
+  "塞恩蛇人士兵": {
+    "family": "snake",
+    "features": [
+      "tail",
+      "eye"
+    ],
+    "label": "鳞片长吻、分叉信子与盘绕蛇颈",
+    "boss": false,
+    "rule": "species-name"
+  },
+  "塞恩蛇人法师": {
+    "family": "snake",
+    "features": [
+      "tail",
+      "eye"
+    ],
+    "label": "鳞片长吻、分叉信子与盘绕蛇颈",
+    "boss": false,
+    "rule": "species-name"
+  },
+  "古城巨人": {
+    "family": "giant",
+    "features": [
+      "scar",
+      "axe"
+    ],
+    "label": "宽大额骨与厚重肩膀的巨人",
+    "boss": false,
+    "rule": "giant-name"
+  },
+  "楔形石恶魔": {
+    "family": "demon",
+    "features": [
+      "horns",
+      "jaw"
+    ],
+    "label": "角状眉骨、獠牙与异色肌肤的鬼怪",
+    "boss": false,
+    "rule": "demon-name"
+  },
+  "小隆德幽灵": {
+    "family": "spirit",
+    "features": [
+      "halo",
+      "hood"
+    ],
+    "label": "半透明面孔与飘散的灵魂下摆",
+    "boss": false,
+    "rule": "spirit-name"
+  },
+  "吸魂鬼": {
+    "family": "knight",
+    "features": [
+      "helmet",
+      "sword"
+    ],
+    "label": "与兵器、护甲相符的人形战斗者",
+    "boss": false,
+    "rule": "martial-lore"
+  },
+  "飞龙谷蓝飞龙": {
+    "family": "dragon",
+    "features": [
+      "horns",
+      "wings"
+    ],
+    "label": "长吻龙首、角与厚鳞",
+    "boss": false,
+    "rule": "species-name"
+  },
+  "赤飞龙": {
+    "family": "dragon",
+    "features": [
+      "horns",
+      "wings"
+    ],
+    "label": "长吻龙首、角与厚鳞",
+    "boss": false,
+    "rule": "species-name"
+  },
+  "画中鸦人": {
+    "family": "bird",
+    "features": [
+      "wings",
+      "eye"
+    ],
+    "label": "尖喙、羽冠与侧眼的鸟首",
+    "boss": false,
+    "rule": "species-name"
+  },
+  "绘画守护者": {
+    "family": "rogue",
+    "features": [
+      "hood",
+      "mask",
+      "sword"
+    ],
+    "label": "白色兜帽与弯刀的绘画守护者",
+    "boss": false,
+    "rule": "reviewed-exception"
+  },
+  "绘画世界方阵": {
+    "family": "blob",
+    "features": [
+      "multipleFaces",
+      "shield",
+      "spear"
+    ],
+    "label": "持盾腐肉软泥聚成的多面方阵",
+    "boss": false,
+    "rule": "reviewed-exception"
+  },
+  "画中毒瘤游魂": {
+    "family": "undead",
+    "features": [
+      "skull",
+      "rags"
+    ],
+    "label": "消瘦亡者面孔与破布颈领",
+    "boss": false,
+    "rule": "undead-name"
+  },
+  "恶魔遗迹岩虫": {
+    "family": "worm",
+    "features": [
+      "centipede",
+      "jaw"
+    ],
+    "label": "环节长躯与放射状口器",
+    "boss": false,
+    "rule": "species-name"
+  },
+  "混沌吞噬者": {
+    "family": "alien",
+    "features": [
+      "eye",
+      "multipleArms"
+    ],
+    "label": "异样多眼与畸长肢体的怪物",
+    "boss": false,
+    "rule": "species-name"
+  },
+  "伊扎里斯无头龙下身": {
+    "family": "demon",
+    "features": [
+      "multipleArms",
+      "flame",
+      "scar"
+    ],
+    "label": "没有头部与前躯的恶魔下身，熔岩照亮断裂身躯",
+    "boss": false,
+    "rule": "reviewed-exception"
+  },
+  "水晶不死士兵": {
+    "family": "knight",
+    "features": [
+      "helmet",
+      "sword"
+    ],
+    "label": "盔甲面罩与相应兵器的人形战士",
+    "boss": false,
+    "rule": "martial-name"
+  },
+  "结晶巨偶": {
+    "family": "giant",
+    "features": [
+      "crystal",
+      "iron",
+      "eye"
+    ],
+    "label": "整张脸由蓝色棱晶组成的巨偶",
+    "boss": false,
+    "rule": "reviewed-exception"
+  },
+  "书库传道者": {
+    "family": "mage",
+    "features": [
+      "witchhat",
+      "staff"
+    ],
+    "label": "兜帽或尖帽下的施法者面孔",
+    "boss": false,
+    "rule": "caster-name"
+  },
+  "蛇女皮萨卡": {
+    "family": "snake",
+    "features": [
+      "tail",
+      "eye"
+    ],
+    "label": "鳞片长吻、分叉信子与盘绕蛇颈",
+    "boss": false,
+    "rule": "species-name"
+  },
+  "蛤蟆鳐": {
+    "family": "fish",
+    "features": [
+      "fin",
+      "wings",
+      "eye"
+    ],
+    "label": "宽阔鳐翼与圆钝额头的漂浮巨兽",
+    "boss": false,
+    "rule": "reviewed-exception"
+  },
+  "深渊人性": {
+    "family": "spirit",
+    "features": [
+      "halo",
+      "hood"
+    ],
+    "label": "半透明面孔与飘散的灵魂下摆",
+    "boss": false,
+    "rule": "spirit-name"
+  },
+  "乌拉席露市民": {
+    "family": "demon",
+    "features": [
+      "multipleArms",
+      "scar",
+      "jaw"
+    ],
+    "label": "深渊拉长手臂与头部的扭曲市民",
+    "boss": false,
+    "rule": "reviewed-exception"
+  },
+  "乌拉席露魔法师": {
+    "family": "mage",
+    "features": [
+      "witchhat",
+      "staff"
+    ],
+    "label": "兜帽或尖帽下的施法者面孔",
+    "boss": false,
+    "rule": "caster-name"
+  },
+  "链锤囚徒": {
+    "family": "undead",
+    "features": [
+      "skull",
+      "rags"
+    ],
+    "label": "消瘦亡者面孔与破布颈领",
+    "boss": false,
+    "rule": "undead-name"
+  },
+  "石制守卫": {
+    "family": "knight",
+    "features": [
+      "helmet",
+      "shield"
+    ],
+    "label": "盔甲面罩与相应兵器的人形战士",
+    "boss": false,
+    "rule": "martial-name"
+  },
+  "皇家御苑剪枝工": {
+    "family": "plant",
+    "features": [
+      "flower",
+      "tentacles"
+    ],
+    "label": "树皮面孔与枝叶花冠",
+    "boss": false,
+    "rule": "species-name"
+  },
+  "最后的巨人": {
+    "family": "giant",
+    "features": [
+      "eye",
+      "multipleArms",
+      "scar"
+    ],
+    "label": "头部中央空洞与断臂伤口的古巨人",
+    "boss": true,
+    "rule": "boss-explicit"
+  },
+  "咒缚者": {
+    "family": "knight",
+    "features": [
+      "helmet",
+      "eye",
+      "sword",
+      "shield"
+    ],
+    "label": "单眼面甲、背负兵器的浮游重骑士",
+    "boss": true,
+    "rule": "boss-explicit"
+  },
+  "猎龙人": {
+    "family": "knight",
+    "features": [
+      "helmet",
+      "spear",
+      "iron"
+    ],
+    "label": "红色重盔与猎龙长戟的守卫",
+    "boss": true,
+    "rule": "boss-explicit"
+  },
+  "古龙猎人": {
+    "family": "knight",
+    "features": [
+      "helmet",
+      "spear",
+      "mane"
+    ],
+    "label": "狮纹旧头盔与黑色猎龙枪",
+    "boss": true,
+    "rule": "boss-explicit"
+  },
+  "流放罪执行者": {
+    "family": "giant",
+    "features": [
+      "multipleFaces",
+      "sword",
+      "scar"
+    ],
+    "label": "背靠背的双面刑吏与成对重刃",
+    "boss": true,
+    "rule": "boss-explicit"
+  },
+  "茫然卫兵": {
+    "family": "knight",
+    "features": [
+      "helmet",
+      "spear",
+      "multipleFaces"
+    ],
+    "label": "细长面甲与三道卫兵轮廓",
+    "boss": true,
+    "rule": "boss-explicit"
+  },
+  "遗忘的罪人": {
+    "family": "human",
+    "features": [
+      "mask",
+      "sword",
+      "flame"
+    ],
+    "label": "束缚面具与燃烧长剑的被囚罪人",
+    "boss": true,
+    "rule": "boss-explicit"
+  },
+  "骷髅王": {
+    "family": "undead",
+    "features": [
+      "crown",
+      "skull",
+      "multipleFaces"
+    ],
+    "label": "三位骷髅领主戴着不同旧冠",
+    "boss": true,
+    "rule": "boss-explicit"
+  },
+  "刑吏的战车": {
+    "family": "horse",
+    "features": [
+      "multipleFaces",
+      "iron",
+      "skull"
+    ],
+    "label": "双头骸骨战马套着刑场铁缰",
+    "boss": true,
+    "rule": "boss-explicit"
+  },
+  "贪婪恶魔": {
+    "family": "slug",
+    "features": [
+      "jaw",
+      "scar",
+      "tail"
+    ],
+    "label": "肥硕蛞蝓般的吞食恶魔与巨大牙口",
+    "boss": true,
+    "rule": "boss-explicit"
+  },
+  "毒妃米妲": {
+    "family": "snake",
+    "features": [
+      "crown",
+      "longhair",
+      "staff"
+    ],
+    "label": "戴冠蛇女与身侧捧起的断首",
+    "boss": true,
+    "rule": "boss-explicit"
+  },
+  "熔铁恶魔": {
+    "family": "demon",
+    "features": [
+      "horns",
+      "iron",
+      "flame",
+      "sword"
+    ],
+    "label": "铁甲牛角面孔，胸膛与剑刃燃火",
+    "boss": true,
+    "rule": "boss-explicit"
+  },
+  "铁之古王": {
+    "family": "demon",
+    "features": [
+      "crown",
+      "horns",
+      "flame",
+      "wings"
+    ],
+    "label": "王冠与巨翼笼罩熔岩恶魔的面容",
+    "boss": true,
+    "rule": "boss-explicit"
+  },
+  "蝎子纳吉卡": {
+    "family": "scorpion",
+    "features": [
+      "longhair",
+      "tail",
+      "staff"
+    ],
+    "label": "女性上身配双螯与双弯蝎尾",
+    "boss": true,
+    "rule": "boss-explicit"
+  },
+  "徘徊的术士与信徒": {
+    "family": "mage",
+    "features": [
+      "hood",
+      "staff",
+      "multipleFaces"
+    ],
+    "label": "兜帽术士围着面目模糊的信徒",
+    "boss": true,
+    "rule": "boss-explicit"
+  },
+  "公爵的芙蕾雅": {
+    "family": "spider",
+    "features": [
+      "multipleFaces",
+      "eye",
+      "jaw"
+    ],
+    "label": "两颗蛛首与八条长腿的巨型蜘蛛",
+    "boss": true,
+    "rule": "boss-explicit"
+  },
+  "鼠王先锋": {
+    "family": "rat",
+    "features": [
+      "crown",
+      "multipleFaces",
+      "jaw"
+    ],
+    "label": "鼠群围绕带王冠头鬃的首领",
+    "boss": true,
+    "rule": "boss-explicit"
+  },
+  "鼠王试炼": {
+    "family": "rat",
+    "features": [
+      "mane",
+      "jaw",
+      "scar"
+    ],
+    "label": "犬型巨鼠，长吻与下垂的毒牙",
+    "boss": true,
+    "rule": "boss-explicit"
+  },
+  "腐败物": {
+    "family": "undead",
+    "features": [
+      "multipleFaces",
+      "multipleArms",
+      "axe"
+    ],
+    "label": "尸体堆叠的多面巨躯与屠刀",
+    "boss": true,
+    "rule": "boss-explicit"
+  },
+  "镜之骑士": {
+    "family": "knight",
+    "features": [
+      "helmet",
+      "shield",
+      "crystal"
+    ],
+    "label": "面具般银盔与光滑镜盾",
+    "boss": true,
+    "rule": "boss-explicit"
+  },
+  "歌唱恶魔": {
+    "family": "frog",
+    "features": [
+      "mask",
+      "jaw",
+      "tentacles"
+    ],
+    "label": "张开蛙颚，面具藏在喉中的歌唱恶魔",
+    "boss": true,
+    "rule": "boss-explicit"
+  },
+  "王盾韦施塔德": {
+    "family": "knight",
+    "features": [
+      "helmet",
+      "axe",
+      "halo"
+    ],
+    "label": "钟形头盔与巨铃战锤的忠诚王盾",
+    "boss": true,
+    "rule": "boss-explicit"
+  },
+  "王兄安第尔": {
+    "family": "plant",
+    "features": [
+      "flame",
+      "eye",
+      "tentacles"
+    ],
+    "label": "纠缠根须与火焰中露出的学者独眼",
+    "boss": true,
+    "rule": "boss-explicit"
+  },
+  "巨人王": {
+    "family": "giant",
+    "features": [
+      "crown",
+      "sword",
+      "eye"
+    ],
+    "label": "巨大空洞面孔、旧冠与巨剑",
+    "boss": true,
+    "rule": "boss-explicit"
+  },
+  "王座守护者": {
+    "family": "knight",
+    "features": [
+      "helmet",
+      "shield",
+      "sword"
+    ],
+    "label": "方正重盔和塔盾的王座守卫",
+    "boss": true,
+    "rule": "boss-explicit"
+  },
+  "王座监视者": {
+    "family": "knight",
+    "features": [
+      "helmet",
+      "sword",
+      "moon"
+    ],
+    "label": "细长银盔与魔力长剑的轻灵监视者",
+    "boss": true,
+    "rule": "boss-explicit"
+  },
+  "娜香德拉": {
+    "family": "undead",
+    "features": [
+      "crown",
+      "skull",
+      "longhair"
+    ],
+    "label": "黑色王冠下显出骸骨王妃面孔",
+    "boss": true,
+    "rule": "boss-explicit"
+  },
+  "王城双猎龙人": {
+    "family": "knight",
+    "features": [
+      "helmet",
+      "multipleFaces",
+      "spear"
+    ],
+    "label": "两顶异色重盔与成对猎龙长戟",
+    "boss": true,
+    "rule": "boss-explicit"
+  },
+  "守护龙": {
+    "family": "dragon",
+    "features": [
+      "wings",
+      "flame",
+      "iron"
+    ],
+    "label": "红龙首与囚笼铁环的守护龙",
+    "boss": true,
+    "rule": "boss-explicit"
+  },
+  "古龙": {
+    "family": "dragon",
+    "features": [
+      "horns",
+      "wings",
+      "beard"
+    ],
+    "label": "宽大古龙角、长须与古老鳞片",
+    "boss": true,
+    "rule": "boss-explicit"
+  },
+  "芬德里克": {
+    "family": "undead",
+    "features": [
+      "crown",
+      "sword",
+      "beard"
+    ],
+    "label": "失心王者的空洞脸庞与褴褛王冠",
+    "boss": true,
+    "rule": "boss-explicit"
+  },
+  "黑暗潜伏者": {
+    "family": "spirit",
+    "features": [
+      "wings",
+      "multipleFaces",
+      "hood"
+    ],
+    "label": "分裂的有翼暗影与朦胧兜帽",
+    "boss": true,
+    "rule": "boss-explicit"
+  },
+  "沉眠之龙辛": {
+    "family": "dragon",
+    "features": [
+      "horns",
+      "wings",
+      "spear"
+    ],
+    "label": "毒龙头颅与贯穿躯体的残矛",
+    "boss": true,
+    "rule": "boss-explicit"
+  },
+  "秽污王妃艾雷娜": {
+    "family": "mage",
+    "features": [
+      "crown",
+      "staff",
+      "longhair"
+    ],
+    "label": "深色尖冠与召魂法杖的幽影王妃",
+    "boss": true,
+    "rule": "boss-explicit"
+  },
+  "冒险者三人组": {
+    "family": "human",
+    "features": [
+      "multipleFaces",
+      "helmet",
+      "hood"
+    ],
+    "label": "重甲战士、兜帽盗贼与古董商三张头像",
+    "boss": true,
+    "rule": "boss-explicit"
+  },
+  "烟之骑士雷姆": {
+    "family": "knight",
+    "features": [
+      "helmet",
+      "sword",
+      "flame"
+    ],
+    "label": "熏黑面甲与两柄大小不一的暗焰剑",
+    "boss": true,
+    "rule": "boss-explicit"
+  },
+  "骑士亚伦": {
+    "family": "knight",
+    "features": [
+      "helmet",
+      "sword",
+      "plume"
+    ],
+    "label": "东方长角头盔与纤长居合刀",
+    "boss": true,
+    "rule": "boss-explicit"
+  },
+  "蓝色熔铁恶魔": {
+    "family": "demon",
+    "features": [
+      "horns",
+      "iron",
+      "crystal",
+      "sword"
+    ],
+    "label": "蓝色魔力从熔铁恶魔的裂甲透出",
+    "boss": true,
+    "rule": "boss-explicit"
+  },
+  "白王的宠物艾娃": {
+    "family": "cat",
+    "features": [
+      "frost",
+      "mane",
+      "eye"
+    ],
+    "label": "雪白剑齿虎头与冰晶般的双眼",
+    "boss": true,
+    "rule": "boss-explicit"
+  },
+  "灼烧的白王": {
+    "family": "knight",
+    "features": [
+      "crown",
+      "helmet",
+      "flame",
+      "sword"
+    ],
+    "label": "白色王盔与燃烧的长刃",
+    "boss": true,
+    "rule": "boss-explicit"
+  },
+  "王之宠物拉德与札连": {
+    "family": "cat",
+    "features": [
+      "multipleFaces",
+      "frost",
+      "mane"
+    ],
+    "label": "两颗剑齿冰虎头并肩守住雪原",
+    "boss": true,
+    "rule": "boss-explicit"
+  },
+  "绿衣巡礼者": {
+    "family": "healer",
+    "features": [
+      "hood",
+      "longhair",
+      "halo"
+    ],
+    "label": "绿兜帽下的红发引导者",
+    "boss": false,
+    "rule": "named-exception"
+  },
+  "失心的索丹": {
+    "family": "knight",
+    "features": [
+      "helmet",
+      "sword"
+    ],
+    "label": "与兵器、护甲相符的人形战斗者",
+    "boss": false,
+    "rule": "martial-lore"
+  },
+  "露卡蒂尔": {
+    "family": "knight",
+    "features": [
+      "mask",
+      "helmet",
+      "sword"
+    ],
+    "label": "半脸面具与羽饰圆帽的女骑士",
+    "boss": false,
+    "rule": "named-exception"
+  },
+  "班哈特": {
+    "family": "knight",
+    "features": [
+      "beard",
+      "sword",
+      "iron"
+    ],
+    "label": "壮实有须的蓝剑旅行战士",
+    "boss": false,
+    "rule": "named-exception"
+  },
+  "铁匠雷尼加兹": {
+    "family": "human",
+    "features": [
+      "beard",
+      "iron"
+    ],
+    "label": "健壮工匠的面孔与锻造工具",
+    "boss": false,
+    "rule": "craft-lore"
+  },
+  "卖矿石的克洛亚娜": {
+    "family": "human",
+    "features": [
+      "hood",
+      "eye"
+    ],
+    "label": "与介绍一致的旅行者、商人或平民面孔",
+    "boss": false,
+    "rule": "civilian-fallback"
+  },
+  "铁匠麦道夫": {
+    "family": "human",
+    "features": [
+      "beard",
+      "iron"
+    ],
+    "label": "健壮工匠的面孔与锻造工具",
+    "boss": false,
+    "rule": "craft-lore"
+  },
+  "防具商人玛夫穆兰": {
+    "family": "human",
+    "features": [
+      "hood",
+      "eye"
+    ],
+    "label": "与介绍一致的旅行者、商人或平民面孔",
+    "boss": false,
+    "rule": "civilian-fallback"
+  },
+  "行商梅伦提拉": {
+    "family": "human",
+    "features": [
+      "hood",
+      "eye"
+    ],
+    "label": "与介绍一致的旅行者、商人或平民面孔",
+    "boss": false,
+    "rule": "civilian-fallback"
+  },
+  "制图师凯尔": {
+    "family": "human",
+    "features": [
+      "hood",
+      "eye"
+    ],
+    "label": "与介绍一致的旅行者、商人或平民面孔",
+    "boss": false,
+    "rule": "civilian-fallback"
+  },
+  "甜蜜夏拉格": {
+    "family": "cat",
+    "features": [
+      "eye",
+      "tail"
+    ],
+    "label": "灰色猫脸与灵动的双眼",
+    "boss": false,
+    "rule": "named-exception"
+  },
+  "吉里甘": {
+    "family": "human",
+    "features": [
+      "hood",
+      "eye"
+    ],
+    "label": "与介绍一致的旅行者、商人或平民面孔",
+    "boss": false,
+    "rule": "civilian-fallback"
+  },
+  "培特": {
+    "family": "human",
+    "features": [
+      "hood",
+      "eye"
+    ],
+    "label": "与介绍一致的旅行者、商人或平民面孔",
+    "boss": false,
+    "rule": "civilian-fallback"
+  },
+  "克雷顿": {
+    "family": "knight",
+    "features": [
+      "helmet",
+      "sword"
+    ],
+    "label": "与兵器、护甲相符的人形战斗者",
+    "boss": false,
+    "rule": "martial-lore"
+  },
+  "林德的莉絮": {
+    "family": "healer",
+    "features": [
+      "hood",
+      "halo"
+    ],
+    "label": "头巾下温和的医者或圣职面孔",
+    "boss": false,
+    "rule": "support-lore"
+  },
+  "卡里昂": {
+    "family": "mage",
+    "features": [
+      "hood",
+      "beard",
+      "staff"
+    ],
+    "label": "深色兜帽与白须的魔法学者",
+    "boss": false,
+    "rule": "named-exception"
+  },
+  "罗莎贝丝": {
+    "family": "mage",
+    "features": [
+      "hood",
+      "flame",
+      "scar"
+    ],
+    "label": "解开石化的年轻咒术学徒",
+    "boss": false,
+    "rule": "named-exception"
+  },
+  "斯特雷德": {
+    "family": "mage",
+    "features": [
+      "mask",
+      "hood",
+      "staff"
+    ],
+    "label": "黑色尖面具与古老魔法兜帽",
+    "boss": false,
+    "rule": "named-exception"
+  },
+  "奥尼菲克斯": {
+    "family": "bird",
+    "features": [
+      "wings",
+      "iron",
+      "eye"
+    ],
+    "label": "长喙鸟人铁匠与羽毛披肩",
+    "boss": false,
+    "rule": "named-exception"
+  },
+  "费尔金": {
+    "family": "mage",
+    "features": [
+      "hood",
+      "beard",
+      "moon"
+    ],
+    "label": "布兜帽下的黯术研究者",
+    "boss": false,
+    "rule": "named-exception"
+  },
+  "巡礼者格兰达尔": {
+    "family": "mage",
+    "features": [
+      "hood",
+      "staff",
+      "beard"
+    ],
+    "label": "坐在古老木椅上的白须暗术师",
+    "boss": false,
+    "rule": "named-exception"
+  },
+  "温格之首": {
+    "family": "human",
+    "features": [
+      "helmet",
+      "skull",
+      "scar"
+    ],
+    "label": "带着旧战盔的失身头颅",
+    "boss": false,
+    "rule": "named-exception"
+  },
+  "曼斯库匹恩塔克": {
+    "family": "scorpion",
+    "features": [
+      "helmet",
+      "spear",
+      "tail"
+    ],
+    "label": "沉静人脸、粗螯与单弯蝎尾的战士",
+    "boss": false,
+    "rule": "named-exception"
+  },
+  "宫廷魔术师纳瓦蓝": {
+    "family": "mage",
+    "features": [
+      "hood",
+      "multipleFaces",
+      "staff"
+    ],
+    "label": "双重性格呈现不同表情的宫廷术士",
+    "boss": false,
+    "rule": "named-exception"
+  },
+  "巫女雅莉珊卓": {
+    "family": "healer",
+    "features": [
+      "crown",
+      "frost",
+      "longhair"
+    ],
+    "label": "冰雪王冠与白王记忆的巫女",
+    "boss": false,
+    "rule": "named-exception"
+  },
+  "王城宰相韦拉格": {
+    "family": "spirit",
+    "features": [
+      "helmet",
+      "staff",
+      "halo"
+    ],
+    "label": "半透明王城宰相面孔与旧戟",
+    "boss": false,
+    "rule": "named-exception"
+  },
+  "持剑游魂步兵": {
+    "family": "undead",
+    "features": [
+      "skull",
+      "rags"
+    ],
+    "label": "消瘦亡者面孔与破布颈领",
+    "boss": false,
+    "rule": "undead-name"
+  },
+  "持盾王国士兵": {
+    "family": "knight",
+    "features": [
+      "helmet",
+      "shield"
+    ],
+    "label": "盔甲面罩与相应兵器的人形战士",
+    "boss": false,
+    "rule": "martial-name"
+  },
+  "森林火蜥蜴": {
+    "family": "lizard",
+    "features": [
+      "tail",
+      "eye"
+    ],
+    "label": "尖吻小蜥蜴与背部细鳞",
+    "boss": false,
+    "rule": "species-name"
+  },
+  "海德骑士": {
+    "family": "knight",
+    "features": [
+      "helmet",
+      "shield"
+    ],
+    "label": "盔甲面罩与相应兵器的人形战士",
+    "boss": false,
+    "rule": "martial-name"
+  },
+  "古老骑士": {
+    "family": "knight",
+    "features": [
+      "helmet",
+      "shield"
+    ],
+    "label": "盔甲面罩与相应兵器的人形战士",
+    "boss": false,
+    "rule": "martial-name"
+  },
+  "瓦兰吉水手": {
+    "family": "rogue",
+    "features": [
+      "hood",
+      "sword"
+    ],
+    "label": "轻装护面与短刃的暗行者",
+    "boss": false,
+    "rule": "rogue-lore"
+  },
+  "暗影刺客": {
+    "family": "rogue",
+    "features": [
+      "hood",
+      "sword"
+    ],
+    "label": "轻装兜帽与遮面短刃的敏捷猎手",
+    "boss": false,
+    "rule": "rogue-name"
+  },
+  "长臂暗栖者": {
+    "family": "alien",
+    "features": [
+      "eye",
+      "multipleArms"
+    ],
+    "label": "异样多眼与畸长肢体的怪物",
+    "boss": false,
+    "rule": "species-name"
+  },
+  "王国剑士": {
+    "family": "knight",
+    "features": [
+      "helmet",
+      "shield"
+    ],
+    "label": "盔甲面罩与相应兵器的人形战士",
+    "boss": false,
+    "rule": "martial-name"
+  },
+  "爆炸游魂": {
+    "family": "undead",
+    "features": [
+      "skull",
+      "rags"
+    ],
+    "label": "消瘦亡者面孔与破布颈领",
+    "boss": false,
+    "rule": "undead-name"
+  },
+  "囚笼狱卒": {
+    "family": "knight",
+    "features": [
+      "helmet",
+      "spear",
+      "flame"
+    ],
+    "label": "戴刑具头盔、握长柄兵器的狱卒",
+    "boss": false,
+    "rule": "reviewed-exception"
+  },
+  "狩猎森林骷髅": {
+    "family": "undead",
+    "features": [
+      "skull",
+      "iron"
+    ],
+    "label": "清晰颅骨、空眼窝与残存骨甲",
+    "boss": false,
+    "rule": "undead-name"
+  },
+  "双刀骷髅": {
+    "family": "undead",
+    "features": [
+      "skull",
+      "iron"
+    ],
+    "label": "清晰颅骨、空眼窝与残存骨甲",
+    "boss": false,
+    "rule": "undead-name"
+  },
+  "车轮骷髅": {
+    "family": "undead",
+    "features": [
+      "skull",
+      "iron"
+    ],
+    "label": "清晰颅骨、空眼窝与残存骨甲",
+    "boss": false,
+    "rule": "undead-name"
+  },
+  "镰刀胖子": {
+    "family": "human",
+    "features": [
+      "hood",
+      "axe",
+      "scar"
+    ],
+    "label": "宽阔胖脸与巨镰的刑场守卫",
+    "boss": false,
+    "rule": "reviewed-exception"
+  },
+  "狩猎森林施术者": {
+    "family": "mage",
+    "features": [
+      "witchhat",
+      "staff"
+    ],
+    "label": "兜帽或尖帽下的施法者面孔",
+    "boss": false,
+    "rule": "caster-name"
+  },
+  "巨型镰刀守卫": {
+    "family": "knight",
+    "features": [
+      "helmet",
+      "sword"
+    ],
+    "label": "盔甲面罩与相应兵器的人形战士",
+    "boss": false,
+    "rule": "martial-name"
+  },
+  "沙之魔术师": {
+    "family": "mage",
+    "features": [
+      "witchhat",
+      "staff"
+    ],
+    "label": "兜帽或尖帽下的施法者面孔",
+    "boss": false,
+    "rule": "caster-name"
+  },
+  "毒角甲虫": {
+    "family": "insect",
+    "features": [
+      "eye",
+      "wings"
+    ],
+    "label": "节肢头部、触角与多足",
+    "boss": false,
+    "rule": "species-name"
+  },
+  "猎犬鼠": {
+    "family": "rat",
+    "features": [
+      "jaw",
+      "tail"
+    ],
+    "label": "长吻犬型巨鼠，保留鼠耳与鼠尾",
+    "boss": false,
+    "rule": "reviewed-exception"
+  },
+  "狮子战士": {
+    "family": "cat",
+    "features": [
+      "mane",
+      "jaw"
+    ],
+    "label": "浓密狮鬃、短鼻与尖牙的狮首",
+    "boss": false,
+    "rule": "species-name"
+  },
+  "无形盗贼": {
+    "family": "rogue",
+    "features": [
+      "hood",
+      "sword"
+    ],
+    "label": "轻装兜帽与遮面短刃的敏捷猎手",
+    "boss": false,
+    "rule": "rogue-name"
+  },
+  "马斯托顿战士": {
+    "family": "elephant",
+    "features": [
+      "helmet",
+      "spear"
+    ],
+    "label": "长鼻与外伸獠牙的象首战士",
+    "boss": false,
+    "rule": "species-name"
+  },
+  "盖尔姆战士": {
+    "family": "knight",
+    "features": [
+      "helmet",
+      "shield"
+    ],
+    "label": "盔甲面罩与相应兵器的人形战士",
+    "boss": false,
+    "rule": "martial-name"
+  },
+  "盖尔姆投斧手": {
+    "family": "knight",
+    "features": [
+      "helmet",
+      "axe",
+      "beard"
+    ],
+    "label": "短壮盖尔姆战士戴盔并举投斧",
+    "boss": false,
+    "rule": "reviewed-exception"
+  },
+  "蜘蛛寄生人": {
+    "family": "spider",
+    "features": [
+      "mask",
+      "eye",
+      "multipleArms"
+    ],
+    "label": "人脸与背部寄生辉石蜘蛛相叠的受害居民",
+    "boss": false,
+    "rule": "reviewed-exception"
+  },
+  "辉石蜘蛛": {
+    "family": "spider",
+    "features": [
+      "eye",
+      "jaw"
+    ],
+    "label": "多眼蛛头与八条弯曲蛛足",
+    "boss": false,
+    "rule": "species-name"
+  },
+  "辉石法师": {
+    "family": "mage",
+    "features": [
+      "witchhat",
+      "staff"
+    ],
+    "label": "兜帽或尖帽下的施法者面孔",
+    "boss": false,
+    "rule": "caster-name"
+  },
+  "阿玛那祭司": {
+    "family": "healer",
+    "features": [
+      "hood",
+      "halo"
+    ],
+    "label": "头巾与祈祷光晕的圣职或医者",
+    "boss": false,
+    "rule": "support-name"
+  },
+  "阿玛那异形": {
+    "family": "alien",
+    "features": [
+      "eye",
+      "multipleArms"
+    ],
+    "label": "异样多眼与畸长肢体的怪物",
+    "boss": false,
+    "rule": "species-name"
+  },
+  "王城石像士兵": {
+    "family": "knight",
+    "features": [
+      "helmet",
+      "shield"
+    ],
+    "label": "盔甲面罩与相应兵器的人形战士",
+    "boss": false,
+    "rule": "martial-name"
+  },
+  "王城茫然卫兵": {
+    "family": "knight",
+    "features": [
+      "helmet",
+      "shield"
+    ],
+    "label": "盔甲面罩与相应兵器的人形战士",
+    "boss": false,
+    "rule": "martial-name"
+  },
+  "龙祭坛卫兵": {
+    "family": "knight",
+    "features": [
+      "helmet",
+      "shield"
+    ],
+    "label": "盔甲面罩与相应兵器的人形战士",
+    "boss": false,
+    "rule": "martial-name"
+  },
+  "龙血骑士": {
+    "family": "knight",
+    "features": [
+      "helmet",
+      "sword"
+    ],
+    "label": "盔甲面罩与相应兵器的人形战士",
+    "boss": false,
+    "rule": "martial-name"
+  },
+  "萨尔瓦圣壁士兵": {
+    "family": "knight",
+    "features": [
+      "helmet",
+      "shield"
+    ],
+    "label": "盔甲面罩与相应兵器的人形战士",
+    "boss": false,
+    "rule": "martial-name"
+  },
+  "幽灵圣壁骑士": {
+    "family": "spirit",
+    "features": [
+      "halo",
+      "hood"
+    ],
+    "label": "半透明面孔与飘散的灵魂下摆",
+    "boss": false,
+    "rule": "spirit-name"
+  },
+  "黑魔女": {
+    "family": "mage",
+    "features": [
+      "witchhat",
+      "staff"
+    ],
+    "label": "兜帽或尖帽下的施法者面孔",
+    "boss": false,
+    "rule": "caster-name"
+  },
+  "无礼者": {
+    "family": "undead",
+    "features": [
+      "skull",
+      "rags"
+    ],
+    "label": "枯瘦的亡者面孔与破旧衣领",
+    "boss": false,
+    "rule": "undead-lore"
+  },
+  "铁龟战士": {
+    "family": "knight",
+    "features": [
+      "helmet",
+      "shield",
+      "iron"
+    ],
+    "label": "龟壳状背甲下仍是人类重装战士",
+    "boss": false,
+    "rule": "reviewed-exception"
+  },
+  "亚伦骑士": {
+    "family": "knight",
+    "features": [
+      "helmet",
+      "sword"
+    ],
+    "label": "盔甲面罩与相应兵器的人形战士",
+    "boss": false,
+    "rule": "martial-name"
+  },
+  "亚伦骑士长": {
+    "family": "knight",
+    "features": [
+      "helmet",
+      "sword"
+    ],
+    "label": "盔甲面罩与相应兵器的人形战士",
+    "boss": false,
+    "rule": "martial-name"
+  },
+  "铁牢火术师": {
+    "family": "mage",
+    "features": [
+      "witchhat",
+      "staff"
+    ],
+    "label": "兜帽或尖帽下的施法者面孔",
+    "boss": false,
+    "rule": "caster-name"
+  },
+  "灰烬战士": {
+    "family": "knight",
+    "features": [
+      "helmet",
+      "sword"
+    ],
+    "label": "盔甲面罩与相应兵器的人形战士",
+    "boss": false,
+    "rule": "martial-name"
+  },
+  "熔铁士兵": {
+    "family": "knight",
+    "features": [
+      "helmet",
+      "sword"
+    ],
+    "label": "盔甲面罩与相应兵器的人形战士",
+    "boss": false,
+    "rule": "martial-name"
+  },
+  "持巨锤熔铁战士": {
+    "family": "knight",
+    "features": [
+      "helmet",
+      "axe"
+    ],
+    "label": "盔甲面罩与相应兵器的人形战士",
+    "boss": false,
+    "rule": "martial-name"
+  },
+  "冰冻士兵": {
+    "family": "knight",
+    "features": [
+      "helmet",
+      "shield"
+    ],
+    "label": "盔甲面罩与相应兵器的人形战士",
+    "boss": false,
+    "rule": "martial-name"
+  },
+  "冰冻刺猬": {
+    "family": "hedgehog",
+    "features": [
+      "frost",
+      "iron",
+      "eye"
+    ],
+    "label": "覆冰的刺猬圆背竖起晶刺",
+    "boss": false,
+    "rule": "reviewed-exception"
+  },
+  "无形战士": {
+    "family": "knight",
+    "features": [
+      "helmet",
+      "sword"
+    ],
+    "label": "盔甲面罩与相应兵器的人形战士",
+    "boss": false,
+    "rule": "martial-name"
+  },
+  "灰烬审判者古达": {
+    "family": "knight",
+    "features": [
+      "helmet",
+      "spear",
+      "tentacles"
+    ],
+    "label": "裂开头盔与人之脓黑影的戟骑士",
+    "boss": true,
+    "rule": "boss-explicit"
+  },
+  "冷冽谷的玻尔多": {
+    "family": "knight",
+    "features": [
+      "helmet",
+      "frost",
+      "mane"
+    ],
+    "label": "覆霜的兽形重盔与低伏獠牙",
+    "boss": true,
+    "rule": "boss-explicit"
+  },
+  "咒蚀大树": {
+    "family": "plant",
+    "features": [
+      "eye",
+      "tentacles",
+      "scar"
+    ],
+    "label": "结着腐败囊肿的古树面孔",
+    "boss": true,
+    "rule": "boss-explicit"
+  },
+  "结晶老者": {
+    "family": "mage",
+    "features": [
+      "witchhat",
+      "crystal",
+      "staff"
+    ],
+    "label": "宽大尖帽与辉晶面孔的学者",
+    "boss": true,
+    "rule": "boss-explicit"
+  },
+  "幽邃主教群": {
+    "family": "healer",
+    "features": [
+      "mitre",
+      "multipleFaces",
+      "staff"
+    ],
+    "label": "高主教冠与一群持烛教士的面孔",
+    "boss": true,
+    "rule": "boss-explicit"
+  },
+  "深渊守望者": {
+    "family": "knight",
+    "features": [
+      "helmet",
+      "sword",
+      "plume",
+      "multipleFaces"
+    ],
+    "label": "尖顶狼骑士头盔与交叠的守望者身影",
+    "boss": true,
+    "rule": "boss-explicit"
+  },
+  "霸王沃尼尔": {
+    "family": "undead",
+    "features": [
+      "crown",
+      "skull",
+      "halo"
+    ],
+    "label": "戴冠巨骷髅与三只发光手镯",
+    "boss": true,
+    "rule": "boss-explicit"
+  },
+  "老恶魔王": {
+    "family": "demon",
+    "features": [
+      "horns",
+      "beard",
+      "flame"
+    ],
+    "label": "灰白长角与熄灭灰烬中的恶魔老王",
+    "boss": true,
+    "rule": "boss-explicit"
+  },
+  "教宗沙力万": {
+    "family": "mage",
+    "features": [
+      "crown",
+      "multipleArms",
+      "sword"
+    ],
+    "label": "细长教宗冠与一明一暗双剑",
+    "boss": true,
+    "rule": "boss-explicit"
+  },
+  "吞噬神明的艾尔德利奇": {
+    "family": "blob",
+    "features": [
+      "crown",
+      "longhair",
+      "tentacles"
+    ],
+    "label": "神躯从黑色淤泥与触手中升起",
+    "boss": true,
+    "rule": "boss-explicit"
+  },
+  "巨人尤姆": {
+    "family": "giant",
+    "features": [
+      "crown",
+      "axe",
+      "beard"
+    ],
+    "label": "蒙灰王冠、长须与巨型砍刀",
+    "boss": true,
+    "rule": "boss-explicit"
+  },
+  "冷冽谷的舞娘": {
+    "family": "knight",
+    "features": [
+      "helmet",
+      "longhair",
+      "sword",
+      "flame"
+    ],
+    "label": "蒙纱的细长面盔与双弯剑",
+    "boss": true,
+    "rule": "boss-explicit"
+  },
+  "妖王欧斯罗艾斯": {
+    "family": "dragon",
+    "features": [
+      "crystal",
+      "eye",
+      "tail"
+    ],
+    "label": "无鳞瘦长龙头与浑浊眼睛",
+    "boss": true,
+    "rule": "boss-explicit"
+  },
+  "英雄古达": {
+    "family": "knight",
+    "features": [
+      "helmet",
+      "spear",
+      "iron"
+    ],
+    "label": "完整封闭的重盔与粗长战戟",
+    "boss": true,
+    "rule": "boss-explicit"
+  },
+  "猎龙铠甲": {
+    "family": "knight",
+    "features": [
+      "helmet",
+      "shield",
+      "axe"
+    ],
+    "label": "空心面甲、猎龙大斧与沉重方盾",
+    "boss": true,
+    "rule": "boss-explicit"
+  },
+  "洛斯里克王子": {
+    "family": "human",
+    "features": [
+      "crown",
+      "multipleFaces",
+      "longhair"
+    ],
+    "label": "病弱王子伏在兄长肩上，双面相依",
+    "boss": true,
+    "rule": "boss-explicit"
+  },
+  "洛里安": {
+    "family": "knight",
+    "features": [
+      "crown",
+      "sword",
+      "scar"
+    ],
+    "label": "失明王子戴低垂王冠并握燃烧巨剑",
+    "boss": true,
+    "rule": "boss-explicit"
+  },
+  "古老飞龙": {
+    "family": "dragon",
+    "features": [
+      "horns",
+      "wings",
+      "jaw"
+    ],
+    "label": "风化龙角与展开的巨大飞翼",
+    "boss": true,
+    "rule": "boss-explicit"
+  },
+  "无名王者": {
+    "family": "human",
+    "features": [
+      "crown",
+      "mane",
+      "spear"
+    ],
+    "label": "风吹白发的王冠战士与雷霆长枪",
+    "boss": true,
+    "rule": "boss-explicit"
+  },
+  "薪王们的化身": {
+    "family": "knight",
+    "features": [
+      "helmet",
+      "flame",
+      "sword"
+    ],
+    "label": "头盔缝隙流出余火的历代薪王化身",
+    "boss": true,
+    "rule": "boss-explicit"
+  },
+  "王者守墓人": {
+    "family": "knight",
+    "features": [
+      "helmet",
+      "shield",
+      "mane"
+    ],
+    "label": "狼纹面盔与盾剑的王墓守卫",
+    "boss": true,
+    "rule": "boss-explicit"
+  },
+  "守墓大狼": {
+    "family": "wolf",
+    "features": [
+      "frost",
+      "mane",
+      "scar"
+    ],
+    "label": "雪白毛鬃与战痕累累的巨狼",
+    "boss": true,
+    "rule": "boss-explicit"
+  },
+  "修女芙莉德": {
+    "family": "human",
+    "features": [
+      "hood",
+      "frost",
+      "sword"
+    ],
+    "label": "蒙兜帽的冷静修女与冰霜镰刃",
+    "boss": true,
+    "rule": "boss-explicit"
+  },
+  "教父艾雷德尔": {
+    "family": "giant",
+    "features": [
+      "beard",
+      "flame",
+      "scar"
+    ],
+    "label": "白须教父俯视燃烧器皿，身躯伤痕累累",
+    "boss": true,
+    "rule": "boss-explicit"
+  },
+  "恶魔王子": {
+    "family": "demon",
+    "features": [
+      "horns",
+      "wings",
+      "flame"
+    ],
+    "label": "火焰双翼与折角的混沌王子",
+    "boss": true,
+    "rule": "boss-explicit"
+  },
+  "教堂之枪哈尔弗莱特": {
+    "family": "knight",
+    "features": [
+      "helmet",
+      "spear",
+      "plume"
+    ],
+    "label": "教堂骑士的冠盔与细长守护枪",
+    "boss": true,
+    "rule": "boss-explicit"
+  },
+  "黑龙米狄尔": {
+    "family": "dragon",
+    "features": [
+      "horns",
+      "crystal",
+      "flame"
+    ],
+    "label": "黑色晶鳞、裂角与深渊火光",
+    "boss": true,
+    "rule": "boss-explicit"
+  },
+  "盖尔": {
+    "family": "human",
+    "features": [
+      "hood",
+      "beard",
+      "sword",
+      "scar"
+    ],
+    "label": "破红兜帽下的苍老胡须与断刃",
+    "boss": true,
+    "rule": "boss-explicit"
+  },
+  "防火女": {
+    "family": "healer",
+    "features": [
+      "blindfold",
+      "hood",
+      "halo"
+    ],
+    "label": "金属眼罩与灰色兜帽的防火女",
+    "boss": false,
+    "rule": "named-exception"
+  },
+  "霍克伍德": {
+    "family": "knight",
+    "features": [
+      "helmet",
+      "sword",
+      "shield"
+    ],
+    "label": "灰心狼血战士的旧头盔与盾剑",
+    "boss": false,
+    "rule": "reviewed-exception"
+  },
+  "铁匠安德烈": {
+    "family": "human",
+    "features": [
+      "beard",
+      "iron"
+    ],
+    "label": "健壮工匠的面孔与锻造工具",
+    "boss": false,
+    "rule": "craft-lore"
+  },
+  "祭祀场侍女": {
+    "family": "human",
+    "features": [
+      "hood",
+      "scar",
+      "rags"
+    ],
+    "label": "老侍女戴灰布头巾，面容布满皱纹",
+    "boss": false,
+    "rule": "reviewed-exception"
+  },
+  "库尔兰的鲁道斯": {
+    "family": "undead",
+    "features": [
+      "crown",
+      "skull",
+      "rags"
+    ],
+    "label": "矮小薪王的焦黑面孔与旧冠",
+    "boss": false,
+    "rule": "reviewed-exception"
+  },
+  "约尔": {
+    "family": "undead",
+    "features": [
+      "hood",
+      "rags",
+      "scar"
+    ],
+    "label": "背负龟甲石壳的佝偻巡礼亡者",
+    "boss": false,
+    "rule": "reviewed-exception"
+  },
+  "尤莉亚": {
+    "family": "rogue",
+    "features": [
+      "mask",
+      "hood",
+      "sword"
+    ],
+    "label": "黑色鸟喙面具与隆道长刀",
+    "boss": false,
+    "rule": "reviewed-exception"
+  },
+  "安瑞": {
+    "family": "knight",
+    "features": [
+      "helmet",
+      "sword"
+    ],
+    "label": "与兵器、护甲相符的人形战斗者",
+    "boss": false,
+    "rule": "martial-lore"
+  },
+  "沉默骑士霍拉斯": {
+    "family": "knight",
+    "features": [
+      "helmet",
+      "shield"
+    ],
+    "label": "盔甲面罩与相应兵器的人形战士",
+    "boss": false,
+    "rule": "martial-name"
+  },
+  "西格瓦德": {
+    "family": "knight",
+    "features": [
+      "helmet",
+      "sword"
+    ],
+    "label": "与兵器、护甲相符的人形战斗者",
+    "boss": false,
+    "rule": "martial-lore"
+  },
+  "不屈不挠的帕奇": {
+    "family": "rogue",
+    "features": [
+      "eye",
+      "spear",
+      "shield"
+    ],
+    "label": "光头骗子露出狡黠笑容，背着盾枪",
+    "boss": false,
+    "rule": "reviewed-exception"
+  },
+  "希里斯": {
+    "family": "knight",
+    "features": [
+      "helmet",
+      "sword"
+    ],
+    "label": "与兵器、护甲相符的人形战斗者",
+    "boss": false,
+    "rule": "martial-lore"
+  },
+  "无名指的李奥纳多": {
+    "family": "rogue",
+    "features": [
+      "hood",
+      "sword"
+    ],
+    "label": "轻装护面与短刃的暗行者",
+    "boss": false,
+    "rule": "rogue-lore"
+  },
+  "重生之母罗莎莉亚": {
+    "family": "human",
+    "features": [
+      "longhair",
+      "halo",
+      "scar"
+    ],
+    "label": "黑纱之下温柔却苍白的重生之母",
+    "boss": false,
+    "rule": "reviewed-exception"
+  },
+  "卡利姆的伊莉娜": {
+    "family": "healer",
+    "features": [
+      "hood",
+      "halo"
+    ],
+    "label": "头巾下温和的医者或圣职面孔",
+    "boss": false,
+    "rule": "support-lore"
+  },
+  "卡利姆的伊果": {
+    "family": "knight",
+    "features": [
+      "helmet",
+      "sword"
+    ],
+    "label": "与兵器、护甲相符的人形战斗者",
+    "boss": false,
+    "rule": "martial-lore"
+  },
+  "奥贝克": {
+    "family": "mage",
+    "features": [
+      "hood",
+      "staff",
+      "crystal"
+    ],
+    "label": "黑衣兜帽下的彼海姆魔法师",
+    "boss": false,
+    "rule": "reviewed-exception"
+  },
+  "大沼的柯弭库斯": {
+    "family": "mage",
+    "features": [
+      "hood",
+      "staff"
+    ],
+    "label": "施法者的长袍、法杖与专注面孔",
+    "boss": false,
+    "rule": "caster-lore"
+  },
+  "卡露拉": {
+    "family": "mage",
+    "features": [
+      "hood",
+      "staff"
+    ],
+    "label": "施法者的长袍、法杖与专注面孔",
+    "boss": false,
+    "rule": "caster-lore"
+  },
+  "不死聚落的葛雷瑞特": {
+    "family": "rogue",
+    "features": [
+      "hood",
+      "mask",
+      "sword"
+    ],
+    "label": "戴鸟嘴头巾的瘦小盗贼",
+    "boss": false,
+    "rule": "reviewed-exception"
+  },
+  "药指的海泽尔": {
+    "family": "mage",
+    "features": [
+      "hood",
+      "staff"
+    ],
+    "label": "施法者的长袍、法杖与专注面孔",
+    "boss": false,
+    "rule": "caster-lore"
+  },
+  "神圣骑士霍德里克": {
+    "family": "knight",
+    "features": [
+      "helmet",
+      "sword"
+    ],
+    "label": "盔甲面罩与相应兵器的人形战士",
+    "boss": false,
+    "rule": "martial-name"
+  },
+  "猎杀骑士克雷顿": {
+    "family": "knight",
+    "features": [
+      "helmet",
+      "sword"
+    ],
+    "label": "盔甲面罩与相应兵器的人形战士",
+    "boss": false,
+    "rule": "martial-name"
+  },
+  "巡礼者隆道尔的苍白影子": {
+    "family": "healer",
+    "features": [
+      "hood",
+      "halo"
+    ],
+    "label": "头巾与祈祷光晕的圣职或医者",
+    "boss": false,
+    "rule": "support-name"
+  },
+  "黑手哥德希尔特": {
+    "family": "rogue",
+    "features": [
+      "helmet",
+      "sword",
+      "plume"
+    ],
+    "label": "黑色猎帽下的王城双剑黑手",
+    "boss": false,
+    "rule": "reviewed-exception"
+  },
+  "狮子骑士艾伯特": {
+    "family": "knight",
+    "features": [
+      "helmet",
+      "sword"
+    ],
+    "label": "盔甲面罩与相应兵器的人形战士",
+    "boss": false,
+    "rule": "martial-name"
+  },
+  "绘画少女": {
+    "family": "human",
+    "features": [
+      "hood",
+      "longhair",
+      "flower"
+    ],
+    "label": "蒙头巾、持画笔的安静少女",
+    "boss": false,
+    "rule": "reviewed-exception"
+  },
+  "拉普": {
+    "family": "knight",
+    "features": [
+      "helmet",
+      "sword"
+    ],
+    "label": "与兵器、护甲相符的人形战斗者",
+    "boss": false,
+    "rule": "martial-lore"
+  },
+  "费莲诺尔的骑士希拉": {
+    "family": "knight",
+    "features": [
+      "helmet",
+      "shield"
+    ],
+    "label": "盔甲面罩与相应兵器的人形战士",
+    "boss": false,
+    "rule": "martial-name"
+  },
+  "高墙游魂士兵": {
+    "family": "undead",
+    "features": [
+      "skull",
+      "rags"
+    ],
+    "label": "消瘦亡者面孔与破布颈领",
+    "boss": false,
+    "rule": "undead-name"
+  },
+  "提灯游魂": {
+    "family": "undead",
+    "features": [
+      "skull",
+      "rags"
+    ],
+    "label": "消瘦亡者面孔与破布颈领",
+    "boss": false,
+    "rule": "undead-name"
+  },
+  "人之脓": {
+    "family": "snake",
+    "features": [
+      "multipleArms",
+      "jaw",
+      "scar"
+    ],
+    "label": "从亡者体内迸出的黑色蛇形人之脓",
+    "boss": false,
+    "rule": "reviewed-exception"
+  },
+  "洛斯里克猎犬": {
+    "family": "dog",
+    "features": [
+      "jaw",
+      "scar"
+    ],
+    "label": "垂耳与宽鼻的凶猛犬首",
+    "boss": false,
+    "rule": "species-name"
+  },
+  "洛斯里克骑士": {
+    "family": "knight",
+    "features": [
+      "helmet",
+      "shield"
+    ],
+    "label": "盔甲面罩与相应兵器的人形战士",
+    "boss": false,
+    "rule": "martial-name"
+  },
+  "洛斯里克长枪骑士": {
+    "family": "knight",
+    "features": [
+      "helmet",
+      "spear"
+    ],
+    "label": "盔甲面罩与相应兵器的人形战士",
+    "boss": false,
+    "rule": "martial-name"
+  },
+  "洛斯里克大剑骑士": {
+    "family": "knight",
+    "features": [
+      "helmet",
+      "sword"
+    ],
+    "label": "盔甲面罩与相应兵器的人形战士",
+    "boss": false,
+    "rule": "martial-name"
+  },
+  "羽翼骑士": {
+    "family": "knight",
+    "features": [
+      "helmet",
+      "shield"
+    ],
+    "label": "盔甲面罩与相应兵器的人形战士",
+    "boss": false,
+    "rule": "martial-name"
+  },
+  "金翼骑士": {
+    "family": "knight",
+    "features": [
+      "helmet",
+      "shield"
+    ],
+    "label": "盔甲面罩与相应兵器的人形战士",
+    "boss": false,
+    "rule": "martial-name"
+  },
+  "传教士": {
+    "family": "healer",
+    "features": [
+      "hood",
+      "halo"
+    ],
+    "label": "头巾与祈祷光晕的圣职或医者",
+    "boss": false,
+    "rule": "support-name"
+  },
+  "不死聚落农夫": {
+    "family": "undead",
+    "features": [
+      "hood",
+      "rags",
+      "axe"
+    ],
+    "label": "失心农夫的破帽与园艺重刀",
+    "boss": false,
+    "rule": "reviewed-exception"
+  },
+  "笼中亡者": {
+    "family": "undead",
+    "features": [
+      "skull",
+      "rags"
+    ],
+    "label": "消瘦亡者面孔与破布颈领",
+    "boss": false,
+    "rule": "undead-name"
+  },
+  "奴隶小恶魔": {
+    "family": "demon",
+    "features": [
+      "horns",
+      "wings"
+    ],
+    "label": "石质尖脸与小角的翼魔",
+    "boss": false,
+    "rule": "species-name"
+  },
+  "红眼锯手": {
+    "family": "undead",
+    "features": [
+      "eye",
+      "axe",
+      "scar"
+    ],
+    "label": "赤眼刑吏戴旧头巾并握锯刃",
+    "boss": false,
+    "rule": "reviewed-exception"
+  },
+  "背笼狂人": {
+    "family": "undead",
+    "features": [
+      "iron",
+      "rags",
+      "scar"
+    ],
+    "label": "背着铁笼的弯腰亡者面孔",
+    "boss": false,
+    "rule": "reviewed-exception"
+  },
+  "鸦人说书者": {
+    "family": "bird",
+    "features": [
+      "wings",
+      "eye"
+    ],
+    "label": "尖喙、羽冠与侧眼的鸟首",
+    "boss": false,
+    "rule": "species-name"
+  },
+  "鸦人镰刀手": {
+    "family": "bird",
+    "features": [
+      "wings",
+      "eye"
+    ],
+    "label": "尖喙、羽冠与侧眼的鸟首",
+    "boss": false,
+    "rule": "species-name"
+  },
+  "十字架狼人": {
+    "family": "wolf",
+    "features": [
+      "mane",
+      "jaw"
+    ],
+    "label": "尖耳、长吻与颈鬃的狼首",
+    "boss": false,
+    "rule": "species-name"
+  },
+  "黑骑士大剑兵": {
+    "family": "knight",
+    "features": [
+      "helmet",
+      "shield"
+    ],
+    "label": "盔甲面罩与相应兵器的人形战士",
+    "boss": false,
+    "rule": "martial-name"
+  },
+  "黑骑士大斧兵": {
+    "family": "knight",
+    "features": [
+      "helmet",
+      "axe"
+    ],
+    "label": "盔甲面罩与相应兵器的人形战士",
+    "boss": false,
+    "rule": "martial-name"
+  },
+  "结晶蜥蜴幼体": {
+    "family": "lizard",
+    "features": [
+      "tail",
+      "eye"
+    ],
+    "label": "尖吻小蜥蜴与背部细鳞",
+    "boss": false,
+    "rule": "species-name"
+  },
+  "贪食结晶蜥蜴": {
+    "family": "lizard",
+    "features": [
+      "tail",
+      "eye"
+    ],
+    "label": "尖吻小蜥蜴与背部细鳞",
+    "boss": false,
+    "rule": "species-name"
+  },
+  "幽邃教堂执事": {
+    "family": "healer",
+    "features": [
+      "mitre",
+      "staff",
+      "hood"
+    ],
+    "label": "持烛执事的深色教帽与仪式袍",
+    "boss": false,
+    "rule": "reviewed-exception"
+  },
+  "幽邃教堂骑士": {
+    "family": "knight",
+    "features": [
+      "helmet",
+      "shield"
+    ],
+    "label": "盔甲面罩与相应兵器的人形战士",
+    "boss": false,
+    "rule": "martial-name"
+  },
+  "幽邃教堂巨人": {
+    "family": "giant",
+    "features": [
+      "scar",
+      "axe"
+    ],
+    "label": "宽大额骨与厚重肩膀的巨人",
+    "boss": false,
+    "rule": "giant-name"
+  },
+  "大蛆人": {
+    "family": "undead",
+    "features": [
+      "skull",
+      "rags"
+    ],
+    "label": "枯瘦的亡者面孔与破旧衣领",
+    "boss": false,
+    "rule": "undead-lore"
+  },
+  "宝箱怪": {
+    "family": "mimic",
+    "features": [
+      "iron",
+      "jaw",
+      "multipleArms"
+    ],
+    "label": "打开的宝箱盖长满牙齿并伸出手臂",
+    "boss": false,
+    "rule": "reviewed-exception"
+  },
+  "卡萨斯骷髅剑士": {
+    "family": "undead",
+    "features": [
+      "skull",
+      "iron"
+    ],
+    "label": "清晰颅骨、空眼窝与残存骨甲",
+    "boss": false,
+    "rule": "undead-name"
+  },
+  "卡萨斯红眼剑士": {
+    "family": "knight",
+    "features": [
+      "helmet",
+      "sword"
+    ],
+    "label": "盔甲面罩与相应兵器的人形战士",
+    "boss": false,
+    "rule": "martial-name"
+  },
+  "卡萨斯大曲刀手": {
+    "family": "undead",
+    "features": [
+      "skull",
+      "sword",
+      "hood"
+    ],
+    "label": "残旧头巾下的持大曲刀骷髅",
+    "boss": false,
+    "rule": "reviewed-exception"
+  },
+  "卡萨斯车轮骷髅": {
+    "family": "undead",
+    "features": [
+      "skull",
+      "iron"
+    ],
+    "label": "清晰颅骨、空眼窝与残存骨甲",
+    "boss": false,
+    "rule": "undead-name"
+  },
+  "熏烟湖螃蟹": {
+    "family": "crab",
+    "features": [
+      "eye",
+      "iron"
+    ],
+    "label": "硬壳、突眼与双螯的蟹形头像",
+    "boss": false,
+    "rule": "species-name"
+  },
+  "恶魔遗迹咕噜": {
+    "family": "demon",
+    "features": [
+      "horns",
+      "jaw"
+    ],
+    "label": "角状眉骨、獠牙与异色肌肤的鬼怪",
+    "boss": false,
+    "rule": "demon-name"
+  },
+  "恶魔祭司": {
+    "family": "healer",
+    "features": [
+      "hood",
+      "halo"
+    ],
+    "label": "头巾与祈祷光晕的圣职或医者",
+    "boss": false,
+    "rule": "support-name"
+  },
+  "墓地沙虫": {
+    "family": "worm",
+    "features": [
+      "centipede",
+      "jaw",
+      "scar"
+    ],
+    "label": "巨大环节口器与长节沙虫躯体",
+    "boss": false,
+    "rule": "reviewed-exception"
+  },
+  "教宗骑士": {
+    "family": "knight",
+    "features": [
+      "helmet",
+      "sword"
+    ],
+    "label": "盔甲面罩与相应兵器的人形战士",
+    "boss": false,
+    "rule": "martial-name"
+  },
+  "教宗火焰魔女": {
+    "family": "mage",
+    "features": [
+      "witchhat",
+      "staff"
+    ],
+    "label": "兜帽或尖帽下的施法者面孔",
+    "boss": false,
+    "rule": "caster-name"
+  },
+  "冷冽谷银骑士": {
+    "family": "knight",
+    "features": [
+      "helmet",
+      "shield"
+    ],
+    "label": "盔甲面罩与相应兵器的人形战士",
+    "boss": false,
+    "rule": "martial-name"
+  },
+  "银骑士大弓兵": {
+    "family": "knight",
+    "features": [
+      "helmet",
+      "sword"
+    ],
+    "label": "盔甲面罩与相应兵器的人形战士",
+    "boss": false,
+    "rule": "martial-name"
+  },
+  "伊鲁席尔奴隶": {
+    "family": "undead",
+    "features": [
+      "hood",
+      "rags",
+      "sword"
+    ],
+    "label": "佝偻瘦削的伏地奴隶戴着破兜帽",
+    "boss": false,
+    "rule": "reviewed-exception"
+  },
+  "沙力万巨兽": {
+    "family": "wolf",
+    "features": [
+      "skull",
+      "jaw",
+      "scar"
+    ],
+    "label": "骨质长吻与弯曲獠牙的巨大狼兽",
+    "boss": false,
+    "rule": "reviewed-exception"
+  },
+  "狱卒": {
+    "family": "human",
+    "features": [
+      "hood",
+      "iron",
+      "staff"
+    ],
+    "label": "戴铁制面罩、握烙铁的刑狱看守",
+    "boss": false,
+    "rule": "reviewed-exception"
+  },
+  "婴儿脸爬行者": {
+    "family": "alien",
+    "features": [
+      "multipleFaces",
+      "eye",
+      "scar"
+    ],
+    "label": "婴儿般人脸与细长四肢的地下怪物",
+    "boss": false,
+    "rule": "reviewed-exception"
+  },
+  "罪之都石像鬼": {
+    "family": "demon",
+    "features": [
+      "horns",
+      "wings"
+    ],
+    "label": "石质尖脸与小角的翼魔",
+    "boss": false,
+    "rule": "species-name"
+  },
+  "罪之都手掌怪": {
+    "family": "hand",
+    "features": [
+      "multipleArms",
+      "eye",
+      "jaw"
+    ],
+    "label": "手指围住中央口器的巨大掌怪",
+    "boss": false,
+    "rule": "reviewed-exception"
+  },
+  "古龙顶蛇人": {
+    "family": "snake",
+    "features": [
+      "tail",
+      "eye"
+    ],
+    "label": "鳞片长吻、分叉信子与盘绕蛇颈",
+    "boss": false,
+    "rule": "species-name"
+  },
+  "古龙顶蛇人大斧手": {
+    "family": "snake",
+    "features": [
+      "tail",
+      "eye"
+    ],
+    "label": "鳞片长吻、分叉信子与盘绕蛇颈",
+    "boss": false,
+    "rule": "species-name"
+  },
+  "古龙顶召唤师": {
+    "family": "snake",
+    "features": [
+      "hood",
+      "staff",
+      "eye"
+    ],
+    "label": "长颈蛇首与摇铃法器的古龙顶召唤师",
+    "boss": false,
+    "rule": "reviewed-exception"
+  },
+  "岩石蜥蜴": {
+    "family": "lizard",
+    "features": [
+      "tail",
+      "eye"
+    ],
+    "label": "尖吻小蜥蜴与背部细鳞",
+    "boss": false,
+    "rule": "species-name"
+  },
+  "艾雷德尔米尔伍德骑士": {
+    "family": "knight",
+    "features": [
+      "helmet",
+      "shield"
+    ],
+    "label": "盔甲面罩与相应兵器的人形战士",
+    "boss": false,
+    "rule": "martial-name"
+  },
+  "米尔伍德大弓骑士": {
+    "family": "knight",
+    "features": [
+      "helmet",
+      "sword"
+    ],
+    "label": "盔甲面罩与相应兵器的人形战士",
+    "boss": false,
+    "rule": "martial-name"
+  },
+  "鸦羽骑士": {
+    "family": "knight",
+    "features": [
+      "helmet",
+      "sword"
+    ],
+    "label": "盔甲面罩与相应兵器的人形战士",
+    "boss": false,
+    "rule": "martial-name"
+  },
+  "鸦爪骑士": {
+    "family": "knight",
+    "features": [
+      "helmet",
+      "sword"
+    ],
+    "label": "盔甲面罩与相应兵器的人形战士",
+    "boss": false,
+    "rule": "martial-name"
+  },
+  "绘画树女": {
+    "family": "plant",
+    "features": [
+      "longhair",
+      "flame",
+      "tentacles"
+    ],
+    "label": "树枝女性面孔与燃烧树冠",
+    "boss": false,
+    "rule": "reviewed-exception"
+  },
+  "狼群": {
+    "family": "wolf",
+    "features": [
+      "mane",
+      "jaw"
+    ],
+    "label": "尖耳狼群的头领与交叠狼影",
+    "boss": false,
+    "rule": "reviewed-exception"
+  },
+  "环印骑士直剑兵": {
+    "family": "knight",
+    "features": [
+      "helmet",
+      "shield"
+    ],
+    "label": "盔甲面罩与相应兵器的人形战士",
+    "boss": false,
+    "rule": "martial-name"
+  },
+  "环印骑士双特大剑兵": {
+    "family": "knight",
+    "features": [
+      "helmet",
+      "sword"
+    ],
+    "label": "盔甲面罩与相应兵器的人形战士",
+    "boss": false,
+    "rule": "martial-name"
+  },
+  "哈兰德战士": {
+    "family": "knight",
+    "features": [
+      "helmet",
+      "shield"
+    ],
+    "label": "盔甲面罩与相应兵器的人形战士",
+    "boss": false,
+    "rule": "martial-name"
+  },
+  "聚集于深渊的蝗虫": {
+    "family": "insect",
+    "features": [
+      "wings",
+      "multipleArms",
+      "eye"
+    ],
+    "label": "人形蝗虫的长触须与刀状前肢",
+    "boss": false,
+    "rule": "reviewed-exception"
+  },
+  "巡礼天使": {
+    "family": "healer",
+    "features": [
+      "hood",
+      "halo"
+    ],
+    "label": "头巾与祈祷光晕的圣职或医者",
+    "boss": false,
+    "rule": "support-name"
+  },
+  "巡礼蝴蝶": {
+    "family": "butterfly",
+    "features": [
+      "wings",
+      "eye"
+    ],
+    "label": "细长触角与对称纹理的蝶翼",
+    "boss": false,
+    "rule": "species-name"
+  },
+  "咒蛙": {
+    "family": "frog",
+    "features": [
+      "eye",
+      "jaw"
+    ],
+    "label": "宽嘴蛙脸与鼓起的假眼气囊",
+    "boss": false,
+    "rule": "species-name"
+  },
+  "环印城墓碑亡者": {
+    "family": "undead",
+    "features": [
+      "skull",
+      "rags"
+    ],
+    "label": "消瘦亡者面孔与破布颈领",
+    "boss": false,
+    "rule": "undead-name"
+  },
+  "巨人判官": {
+    "family": "giant",
+    "features": [
+      "scar",
+      "axe"
+    ],
+    "label": "宽大额骨与厚重肩膀的巨人",
+    "boss": false,
+    "rule": "giant-name"
+  },
+  "卡利姆的罗德里克": {
+    "family": "knight",
+    "features": [
+      "helmet",
+      "sword",
+      "horns"
+    ],
+    "label": "黄铜镂空面甲与双弯曲刀",
+    "boss": false,
+    "rule": "named-exception"
+  },
+  "守墓人亚格德蓝": {
+    "family": "undead",
+    "features": [
+      "skull",
+      "rags"
+    ],
+    "label": "枯瘦的亡者面孔与破旧衣领",
+    "boss": false,
+    "rule": "undead-lore"
+  },
+  "哈维尔战士": {
+    "family": "knight",
+    "features": [
+      "helmet",
+      "shield"
+    ],
+    "label": "盔甲面罩与相应兵器的人形战士",
+    "boss": false,
+    "rule": "martial-name"
+  },
+  "彼海姆的文海姆": {
+    "family": "knight",
+    "features": [
+      "helmet",
+      "sword"
+    ],
+    "label": "与兵器、护甲相符的人形战斗者",
+    "boss": false,
+    "rule": "martial-lore"
+  },
+  "方阵": {
+    "family": "blob",
+    "features": [
+      "shield",
+      "spear",
+      "multipleFaces"
+    ],
+    "label": "软泥聚成的多面盾阵，长矛从阵中伸出",
+    "boss": true,
+    "rule": "boss-explicit"
+  },
+  "塔楼骑士": {
+    "family": "knight",
+    "features": [
+      "helmet",
+      "shield",
+      "spear",
+      "plume"
+    ],
+    "label": "高耸巨盔与塔盾长枪的重装骑士",
+    "boss": true,
+    "rule": "boss-explicit"
+  },
+  "贯穿骑士": {
+    "family": "knight",
+    "features": [
+      "helmet",
+      "sword",
+      "plume"
+    ],
+    "label": "狭长面甲与贯穿长剑的精锐骑士",
+    "boss": true,
+    "rule": "boss-explicit"
+  },
+  "拦路恶魔": {
+    "family": "demon",
+    "features": [
+      "horns",
+      "axe",
+      "jaw"
+    ],
+    "label": "粗大弯角、兽颚与双刃战斧的恶魔",
+    "boss": true,
+    "rule": "boss-explicit"
+  },
+  "旧日勇士": {
+    "family": "giant",
+    "features": [
+      "blindfold",
+      "sword",
+      "scar"
+    ],
+    "label": "蒙眼古战士，布带下留下古老伤痕",
+    "boss": true,
+    "rule": "boss-explicit"
+  },
+  "食人鬼": {
+    "family": "demon",
+    "features": [
+      "wings",
+      "tail",
+      "horns"
+    ],
+    "label": "石翼与蛇尾合成的双翼食人魔",
+    "boss": true,
+    "rule": "boss-explicit"
+  },
+  "伪王欧兰特": {
+    "family": "knight",
+    "features": [
+      "crown",
+      "sword",
+      "longhair"
+    ],
+    "label": "束发王冠与夺魂长剑的伪王",
+    "boss": true,
+    "rule": "boss-explicit"
+  },
+  "老王欧兰特": {
+    "family": "blob",
+    "features": [
+      "crown",
+      "tentacles",
+      "eye"
+    ],
+    "label": "王冠陷入变形肉躯的衰败君王",
+    "boss": true,
+    "rule": "boss-explicit"
+  },
+  "铠甲蜘蛛": {
+    "family": "spider",
+    "features": [
+      "iron",
+      "flame",
+      "eye"
+    ],
+    "label": "厚甲八足与炽热口器的矿道巨蛛",
+    "boss": true,
+    "rule": "boss-explicit"
+  },
+  "炎魔": {
+    "family": "demon",
+    "features": [
+      "flame",
+      "horns",
+      "scar"
+    ],
+    "label": "裂隙燃烧的赤焰恶魔面孔",
+    "boss": true,
+    "rule": "boss-explicit"
+  },
+  "龙神": {
+    "family": "dragon",
+    "features": [
+      "horns",
+      "flame",
+      "jaw"
+    ],
+    "label": "双角巨龙，宽阔下颚吐出炽焰",
+    "boss": true,
+    "rule": "boss-explicit"
+  },
+  "愚者的偶像": {
+    "family": "mage",
+    "features": [
+      "crown",
+      "multipleArms",
+      "staff"
+    ],
+    "label": "戴冠的四臂偶像，法杖环绕面庞",
+    "boss": true,
+    "rule": "boss-explicit"
+  },
+  "黄衣老者": {
+    "family": "mage",
+    "features": [
+      "crown",
+      "hood",
+      "staff"
+    ],
+    "label": "盘绕高耸黄布头冠的寄宿法师",
+    "boss": true,
+    "rule": "boss-explicit"
+  },
+  "风暴王": {
+    "family": "fish",
+    "features": [
+      "wings",
+      "fin",
+      "eye"
+    ],
+    "label": "宽大鳐翼与长尾的空中风暴巨兽",
+    "boss": true,
+    "rule": "boss-explicit"
+  },
+  "审判者": {
+    "family": "giant",
+    "features": [
+      "crown",
+      "jaw",
+      "wings"
+    ],
+    "label": "巨口审判者，头顶栖着金色小鸟",
+    "boss": true,
+    "rule": "boss-explicit"
+  },
+  "吸血虫聚合体": {
+    "family": "worm",
+    "features": [
+      "multipleFaces",
+      "tentacles",
+      "jaw"
+    ],
+    "label": "吸血环虫攀成的多口聚合怪物",
+    "boss": true,
+    "rule": "boss-explicit"
+  },
+  "污秽巨像": {
+    "family": "giant",
+    "features": [
+      "iron",
+      "tentacles",
+      "scar"
+    ],
+    "label": "污物包裹的铁甲巨躯，裂缝盘着虫群",
+    "boss": true,
+    "rule": "boss-explicit"
+  },
+  "少女阿斯特蕾亚": {
+    "family": "healer",
+    "features": [
+      "hood",
+      "halo",
+      "longhair"
+    ],
+    "label": "白色兜帽与温和面容的祈祷少女",
+    "boss": true,
+    "rule": "boss-explicit"
+  },
+  "黑衣少女": {
+    "family": "healer",
+    "features": [
+      "hood",
+      "blindfold",
+      "staff"
+    ],
+    "label": "黑色兜帽与闭眼面容的引魂少女",
+    "boss": false,
+    "rule": "named-exception"
+  },
+  "要人": {
+    "family": "spirit",
+    "features": [
+      "halo",
+      "mask"
+    ],
+    "label": "面目沉静的远古灵魂守望者",
+    "boss": false,
+    "rule": "named-exception"
+  },
+  "圣者于尔班": {
+    "family": "healer",
+    "features": [
+      "hood",
+      "halo"
+    ],
+    "label": "头巾下温和的医者或圣职面孔",
+    "boss": false,
+    "rule": "support-lore"
+  },
+  "于尔班的信徒": {
+    "family": "healer",
+    "features": [
+      "hood",
+      "halo"
+    ],
+    "label": "头巾下温和的医者或圣职面孔",
+    "boss": false,
+    "rule": "support-lore"
+  },
+  "瑟琳·文兰": {
+    "family": "knight",
+    "features": [
+      "helmet",
+      "sword"
+    ],
+    "label": "与兵器、护甲相符的人形战斗者",
+    "boss": false,
+    "rule": "martial-lore"
+  },
+  "加尔·文兰": {
+    "family": "knight",
+    "features": [
+      "helmet",
+      "shield",
+      "axe"
+    ],
+    "label": "暗银重盔与巨锤方盾的守护骑士",
+    "boss": false,
+    "rule": "reviewed-exception"
+  },
+  "托马斯": {
+    "family": "human",
+    "features": [
+      "hood",
+      "eye"
+    ],
+    "label": "与介绍一致的旅行者、商人或平民面孔",
+    "boss": false,
+    "rule": "civilian-fallback"
+  },
+  "铁匠鲍德温": {
+    "family": "human",
+    "features": [
+      "beard",
+      "iron"
+    ],
+    "label": "健壮工匠的面孔与锻造工具",
+    "boss": false,
+    "rule": "craft-lore"
+  },
+  "铁匠艾德": {
+    "family": "human",
+    "features": [
+      "beard",
+      "iron"
+    ],
+    "label": "健壮工匠的面孔与锻造工具",
+    "boss": false,
+    "rule": "craft-lore"
+  },
+  "颓丧战士": {
+    "family": "knight",
+    "features": [
+      "helmet",
+      "sword"
+    ],
+    "label": "盔甲面罩与相应兵器的人形战士",
+    "boss": false,
+    "rule": "martial-name"
+  },
+  "奥斯特拉瓦": {
+    "family": "knight",
+    "features": [
+      "helmet",
+      "sword"
+    ],
+    "label": "与兵器、护甲相符的人形战斗者",
+    "boss": false,
+    "rule": "martial-lore"
+  },
+  "比约尔": {
+    "family": "knight",
+    "features": [
+      "helmet",
+      "sword"
+    ],
+    "label": "与兵器、护甲相符的人形战斗者",
+    "boss": false,
+    "rule": "martial-lore"
+  },
+  "老王多兰": {
+    "family": "knight",
+    "features": [
+      "helmet",
+      "sword"
+    ],
+    "label": "与兵器、护甲相符的人形战斗者",
+    "boss": false,
+    "rule": "martial-lore"
+  },
+  "米兰达": {
+    "family": "human",
+    "features": [
+      "hood",
+      "mask",
+      "axe"
+    ],
+    "label": "处刑者的遮面头巾与战斧",
+    "boss": false,
+    "rule": "reviewed-exception"
+  },
+  "斯克维尔": {
+    "family": "human",
+    "features": [
+      "hood",
+      "eye"
+    ],
+    "label": "与介绍一致的旅行者、商人或平民面孔",
+    "boss": false,
+    "rule": "civilian-fallback"
+  },
+  "五月": {
+    "family": "knight",
+    "features": [
+      "helmet",
+      "sword"
+    ],
+    "label": "与兵器、护甲相符的人形战斗者",
+    "boss": false,
+    "rule": "martial-lore"
+  },
+  "恶魂·帕奇": {
+    "family": "rogue",
+    "features": [
+      "spear",
+      "shield",
+      "eye"
+    ],
+    "label": "光头骗子露出算计的笑意",
+    "boss": false,
+    "rule": "named-exception"
+  },
+  "肮脏男人": {
+    "family": "human",
+    "features": [
+      "hood",
+      "eye"
+    ],
+    "label": "与介绍一致的旅行者、商人或平民面孔",
+    "boss": false,
+    "rule": "civilian-fallback"
+  },
+  "肮脏女人": {
+    "family": "human",
+    "features": [
+      "hood",
+      "eye"
+    ],
+    "label": "与介绍一致的旅行者、商人或平民面孔",
+    "boss": false,
+    "rule": "civilian-fallback"
+  },
+  "王城奴隶商人": {
+    "family": "human",
+    "features": [
+      "hood",
+      "eye"
+    ],
+    "label": "与介绍一致的旅行者、商人或平民面孔",
+    "boss": false,
+    "rule": "civilian-fallback"
+  },
+  "墓掘者布莱吉": {
+    "family": "human",
+    "features": [
+      "hood",
+      "eye"
+    ],
+    "label": "与介绍一致的旅行者、商人或平民面孔",
+    "boss": false,
+    "rule": "civilian-fallback"
+  },
+  "闪闪鸟": {
+    "family": "bird",
+    "features": [
+      "wings",
+      "eye"
+    ],
+    "label": "收藏亮晶晶物件的小鸟",
+    "boss": false,
+    "rule": "named-exception"
+  },
+  "尤特": {
+    "family": "rogue",
+    "features": [
+      "helmet",
+      "sword",
+      "horns"
+    ],
+    "label": "双角头盔下的沉默刺客",
+    "boss": false,
+    "rule": "named-exception"
+  },
+  "梅菲斯托费勒": {
+    "family": "rogue",
+    "features": [
+      "mask",
+      "hood",
+      "sword"
+    ],
+    "label": "宽边帽与遮面面具的暗杀策划者",
+    "boss": false,
+    "rule": "named-exception"
+  },
+  "魔女尤莉亚": {
+    "family": "mage",
+    "features": [
+      "witchhat",
+      "staff",
+      "rags"
+    ],
+    "label": "破旧尖帽与咒术法杖的魔女",
+    "boss": false,
+    "rule": "named-exception"
+  },
+  "贤者弗瑞克": {
+    "family": "mage",
+    "features": [
+      "beard",
+      "hood",
+      "staff"
+    ],
+    "label": "兜帽下留长须的灵魂学者",
+    "boss": false,
+    "rule": "named-exception"
+  },
+  "弗瑞克的徒弟": {
+    "family": "mage",
+    "features": [
+      "hood",
+      "staff",
+      "crystal"
+    ],
+    "label": "学习灵魂术的年轻兜帽学徒",
+    "boss": false,
+    "rule": "reviewed-exception"
+  },
+  "雷德尔": {
+    "family": "mage",
+    "features": [
+      "helmet",
+      "staff",
+      "crystal"
+    ],
+    "label": "奇特头冠与磷光长杖的贵族法师",
+    "boss": false,
+    "rule": "named-exception"
+  },
+  "前王室贵妇": {
+    "family": "human",
+    "features": [
+      "hood",
+      "eye"
+    ],
+    "label": "与介绍一致的旅行者、商人或平民面孔",
+    "boss": false,
+    "rule": "civilian-fallback"
+  },
+  "柏雷塔尼亚士兵": {
+    "family": "knight",
+    "features": [
+      "helmet",
+      "shield"
+    ],
+    "label": "盔甲面罩与相应兵器的人形战士",
+    "boss": false,
+    "rule": "martial-name"
+  },
+  "王城弩兵": {
+    "family": "knight",
+    "features": [
+      "helmet",
+      "sword"
+    ],
+    "label": "盔甲面罩与相应兵器的人形战士",
+    "boss": false,
+    "rule": "martial-name"
+  },
+  "柏雷塔尼亚亡者": {
+    "family": "undead",
+    "features": [
+      "skull",
+      "rags"
+    ],
+    "label": "消瘦亡者面孔与破布颈领",
+    "boss": false,
+    "rule": "undead-name"
+  },
+  "王城猎犬": {
+    "family": "dog",
+    "features": [
+      "jaw",
+      "scar"
+    ],
+    "label": "垂耳与宽鼻的凶猛犬首",
+    "boss": false,
+    "rule": "species-name"
+  },
+  "矿工": {
+    "family": "human",
+    "features": [
+      "hood",
+      "eye"
+    ],
+    "label": "与介绍一致的旅行者、商人或平民面孔",
+    "boss": false,
+    "rule": "civilian-fallback"
+  },
+  "拉托利亚囚徒": {
+    "family": "undead",
+    "features": [
+      "skull",
+      "rags"
+    ],
+    "label": "消瘦亡者面孔与破布颈领",
+    "boss": false,
+    "rule": "undead-name"
+  },
+  "骷髅弓手": {
+    "family": "undead",
+    "features": [
+      "skull",
+      "iron"
+    ],
+    "label": "清晰颅骨、空眼窝与残存骨甲",
+    "boss": false,
+    "rule": "undead-name"
+  },
+  "巨大蜱虫": {
+    "family": "insect",
+    "features": [
+      "eye",
+      "wings"
+    ],
+    "label": "节肢头部、触角与多足",
+    "boss": false,
+    "rule": "species-name"
+  },
+  "软泥怪": {
+    "family": "blob",
+    "features": [
+      "eye",
+      "tentacles"
+    ],
+    "label": "半透明软泥中显出的眼与口",
+    "boss": false,
+    "rule": "species-name"
+  },
+  "火蜥蜴": {
+    "family": "lizard",
+    "features": [
+      "tail",
+      "eye"
+    ],
+    "label": "尖吻小蜥蜴与背部细鳞",
+    "boss": false,
+    "rule": "species-name"
+  },
+  "熔岩虫": {
+    "family": "worm",
+    "features": [
+      "centipede",
+      "jaw"
+    ],
+    "label": "环节长躯与放射状口器",
+    "boss": false,
+    "rule": "species-name"
+  },
+  "影人": {
+    "family": "spirit",
+    "features": [
+      "halo",
+      "hood"
+    ],
+    "label": "半透明面孔与飘散的灵魂下摆",
+    "boss": false,
+    "rule": "spirit-name"
+  },
+  "拉托利亚石像鬼": {
+    "family": "demon",
+    "features": [
+      "horns",
+      "wings"
+    ],
+    "label": "石质尖脸与小角的翼魔",
+    "boss": false,
+    "rule": "species-name"
+  },
+  "风暴兽": {
+    "family": "fish",
+    "features": [
+      "wings",
+      "fin",
+      "eye"
+    ],
+    "label": "鳐形宽翼与长尾的空中风暴兽",
+    "boss": false,
+    "rule": "reviewed-exception"
+  },
+  "腐朽谷堕落者": {
+    "family": "undead",
+    "features": [
+      "hood",
+      "rags",
+      "scar"
+    ],
+    "label": "身染污秽、衣衫褴褛的失心居民",
+    "boss": false,
+    "rule": "reviewed-exception"
+  },
+  "巨型蛞蝓": {
+    "family": "slug",
+    "features": [
+      "eye",
+      "tentacles"
+    ],
+    "label": "柔软长躯与伸出的眼柄",
+    "boss": false,
+    "rule": "species-name"
+  },
+  "瘟疫鼠": {
+    "family": "rat",
+    "features": [
+      "jaw",
+      "tail"
+    ],
+    "label": "圆耳、尖吻与长须的鼠首",
+    "boss": false,
+    "rule": "species-name"
+  },
+  "蚊群": {
+    "family": "insect",
+    "features": [
+      "eye",
+      "wings"
+    ],
+    "label": "节肢头部、触角与多足",
+    "boss": false,
+    "rule": "species-name"
+  },
+  "蓝眼骑士": {
+    "family": "knight",
+    "features": [
+      "helmet",
+      "shield"
+    ],
+    "label": "盔甲面罩与相应兵器的人形战士",
+    "boss": false,
+    "rule": "martial-name"
+  },
+  "红眼骑士": {
+    "family": "knight",
+    "features": [
+      "helmet",
+      "sword"
+    ],
+    "label": "盔甲面罩与相应兵器的人形战士",
+    "boss": false,
+    "rule": "martial-name"
+  },
+  "王城密探": {
+    "family": "rogue",
+    "features": [
+      "hood",
+      "sword"
+    ],
+    "label": "轻装兜帽与遮面短刃的敏捷猎手",
+    "boss": false,
+    "rule": "rogue-name"
+  },
+  "银色骷髅": {
+    "family": "undead",
+    "features": [
+      "skull",
+      "iron"
+    ],
+    "label": "清晰颅骨、空眼窝与残存骨甲",
+    "boss": false,
+    "rule": "undead-name"
+  },
+  "金色骷髅": {
+    "family": "undead",
+    "features": [
+      "skull",
+      "iron"
+    ],
+    "label": "清晰颅骨、空眼窝与残存骨甲",
+    "boss": false,
+    "rule": "undead-name"
+  },
+  "黑色骷髅": {
+    "family": "undead",
+    "features": [
+      "skull",
+      "iron"
+    ],
+    "label": "清晰颅骨、空眼窝与残存骨甲",
+    "boss": false,
+    "rule": "undead-name"
+  },
+  "巨大堕落者": {
+    "family": "giant",
+    "features": [
+      "scar",
+      "axe"
+    ],
+    "label": "宽大额骨与厚重肩膀的巨人",
+    "boss": false,
+    "rule": "giant-name"
+  },
+  "夺心魔": {
+    "family": "alien",
+    "features": [
+      "tentacles",
+      "eye"
+    ],
+    "label": "触手覆盖口鼻的吸脑怪物",
+    "boss": false,
+    "rule": "species-name"
+  },
+  "死神": {
+    "family": "mage",
+    "features": [
+      "hood",
+      "staff"
+    ],
+    "label": "施法者的长袍、法杖与专注面孔",
+    "boss": false,
+    "rule": "caster-lore"
+  },
+  "肥胖官员": {
+    "family": "mage",
+    "features": [
+      "mask",
+      "axe",
+      "flame"
+    ],
+    "label": "僵笑胖脸与施放火球的执行官",
+    "boss": false,
+    "rule": "reviewed-exception"
+  },
+  "红龙": {
+    "family": "dragon",
+    "features": [
+      "horns",
+      "wings"
+    ],
+    "label": "长吻龙首、角与厚鳞",
+    "boss": false,
+    "rule": "species-name"
+  },
+  "蓝龙": {
+    "family": "dragon",
+    "features": [
+      "horns",
+      "wings"
+    ],
+    "label": "长吻龙首、角与厚鳞",
+    "boss": false,
+    "rule": "species-name"
+  },
+  "教会野兽": {
+    "family": "deer",
+    "features": [
+      "antler",
+      "mane",
+      "jaw"
+    ],
+    "label": "鹿角、野兽长颚与不对称毛鬃",
+    "boss": true,
+    "rule": "boss-explicit"
+  },
+  "加斯科因": {
+    "family": "human",
+    "features": [
+      "blindfold",
+      "axe",
+      "mane"
+    ],
+    "label": "蒙眼猎人帽与开始兽化的面容",
+    "boss": true,
+    "rule": "boss-explicit"
+  },
+  "梅尔戈乳母": {
+    "family": "spirit",
+    "features": [
+      "hood",
+      "multipleArms",
+      "sword"
+    ],
+    "label": "无脸黑羽兜帽与六只持刃手臂",
+    "boss": true,
+    "rule": "boss-explicit"
+  },
+  "渴血兽": {
+    "family": "demon",
+    "features": [
+      "longhair",
+      "jaw",
+      "scar"
+    ],
+    "label": "头皮下垂的血肉兽首与张开的长颚",
+    "boss": true,
+    "rule": "boss-explicit"
+  },
+  "阿梅利亚": {
+    "family": "deer",
+    "features": [
+      "antler",
+      "longhair",
+      "bandages"
+    ],
+    "label": "白毛鹿角兽与缠绕手腕的祈祷布带",
+    "boss": true,
+    "rule": "boss-explicit"
+  },
+  "汉威克女巫": {
+    "family": "human",
+    "features": [
+      "hood",
+      "eye",
+      "staff"
+    ],
+    "label": "佝偻女巫头巾上布满眼球饰物",
+    "boss": true,
+    "rule": "boss-explicit"
+  },
+  "雅南暗影": {
+    "family": "rogue",
+    "features": [
+      "hood",
+      "multipleFaces",
+      "tail"
+    ],
+    "label": "三名黑袍刀手与蛇影相叠",
+    "boss": true,
+    "rule": "boss-explicit"
+  },
+  "罗姆": {
+    "family": "spider",
+    "features": [
+      "eye",
+      "crystal",
+      "multipleFaces"
+    ],
+    "label": "圆钝石质头部与众多眼孔的蛛形古神",
+    "boss": true,
+    "rule": "boss-explicit"
+  },
+  "黑兽帕尔": {
+    "family": "undead",
+    "features": [
+      "skull",
+      "mane",
+      "flame"
+    ],
+    "label": "长毛骨兽的空洞头颅闪着雷光",
+    "boss": true,
+    "rule": "boss-explicit"
+  },
+  "重生之古神": {
+    "family": "undead",
+    "features": [
+      "multipleFaces",
+      "multipleArms",
+      "tentacles"
+    ],
+    "label": "血肉肢体堆成的多面古神",
+    "boss": true,
+    "rule": "boss-explicit"
+  },
+  "米克拉什": {
+    "family": "human",
+    "features": [
+      "iron",
+      "staff",
+      "eye"
+    ],
+    "label": "人脸罩在高耸的铁笼中",
+    "boss": true,
+    "rule": "boss-explicit"
+  },
+  "星之使者": {
+    "family": "alien",
+    "features": [
+      "multipleFaces",
+      "eye",
+      "tentacles"
+    ],
+    "label": "蓝色大头与细长触须的星界使者群",
+    "boss": true,
+    "rule": "boss-explicit"
+  },
+  "伊布莱塔斯": {
+    "family": "alien",
+    "features": [
+      "tentacles",
+      "wings",
+      "eye"
+    ],
+    "label": "花瓣般裂开的古神头部与双翼",
+    "boss": true,
+    "rule": "boss-explicit"
+  },
+  "格曼": {
+    "family": "human",
+    "features": [
+      "hood",
+      "beard",
+      "sword"
+    ],
+    "label": "戴软猎人帽的白须老人持长镰",
+    "boss": true,
+    "rule": "boss-explicit"
+  },
+  "月之魔物": {
+    "family": "alien",
+    "features": [
+      "tentacles",
+      "skull",
+      "moon"
+    ],
+    "label": "颅骨古神的触手与月轮剪影",
+    "boss": true,
+    "rule": "boss-explicit"
+  },
+  "路德维希": {
+    "family": "horse",
+    "features": [
+      "jaw",
+      "multipleFaces",
+      "sword"
+    ],
+    "label": "扭曲马首、肩侧副眼与月光大剑",
+    "boss": true,
+    "rule": "boss-explicit"
+  },
+  "劳伦斯": {
+    "family": "deer",
+    "features": [
+      "antler",
+      "flame",
+      "scar"
+    ],
+    "label": "燃烧鹿角与焦裂皮肤的教会巨兽",
+    "boss": true,
+    "rule": "boss-explicit"
+  },
+  "活体失败者": {
+    "family": "alien",
+    "features": [
+      "multipleFaces",
+      "eye",
+      "scar"
+    ],
+    "label": "高大无脸病躯向星光抬头",
+    "boss": true,
+    "rule": "boss-explicit"
+  },
+  "玛丽亚": {
+    "family": "human",
+    "features": [
+      "hood",
+      "longhair",
+      "sword"
+    ],
+    "label": "束发女猎人戴三角帽，双刃映着血光",
+    "boss": true,
+    "rule": "boss-explicit"
+  },
+  "科斯孤儿": {
+    "family": "human",
+    "features": [
+      "skull",
+      "scar",
+      "wings"
+    ],
+    "label": "苍白皱缩面孔与胎盘般弯刃",
+    "boss": true,
+    "rule": "boss-explicit"
+  },
+  "苏美鲁女王雅南": {
+    "family": "human",
+    "features": [
+      "crown",
+      "longhair",
+      "scar"
+    ],
+    "label": "白裙血迹与古老王冠的地底女王",
+    "boss": true,
+    "rule": "boss-explicit"
+  },
+  "苏美鲁后裔": {
+    "family": "human",
+    "features": [
+      "beard",
+      "sword",
+      "scar"
+    ],
+    "label": "苍老卷须与双弯刃的古代后裔",
+    "boss": true,
+    "rule": "boss-explicit"
+  },
+  "苏美鲁长老": {
+    "family": "mage",
+    "features": [
+      "beard",
+      "staff",
+      "flame"
+    ],
+    "label": "长须老者握着燃烧法杖",
+    "boss": true,
+    "rule": "boss-explicit"
+  },
+  "不死巨人": {
+    "family": "giant",
+    "features": [
+      "scar",
+      "iron",
+      "multipleArms"
+    ],
+    "label": "缝合皮肤与接上工具武器的囚巨人",
+    "boss": true,
+    "rule": "boss-explicit"
+  },
+  "放血兽": {
+    "family": "demon",
+    "features": [
+      "mane",
+      "jaw",
+      "scar"
+    ],
+    "label": "血肉撕裂、长颚下垂的高大兽首",
+    "boss": true,
+    "rule": "boss-explicit"
+  },
+  "无头放血兽": {
+    "family": "worm",
+    "features": [
+      "jaw",
+      "scar",
+      "centipede"
+    ],
+    "label": "断颈中伸出寄生长虫的无头兽",
+    "boss": true,
+    "rule": "boss-explicit"
+  },
+  "旧主看门狗": {
+    "family": "dog",
+    "features": [
+      "jaw",
+      "flame",
+      "iron"
+    ],
+    "label": "岩浆裂纹与巨大犬颚的古老看门狗",
+    "boss": true,
+    "rule": "boss-explicit"
+  },
+  "洛伦黑暗怪兽": {
+    "family": "undead",
+    "features": [
+      "skull",
+      "mane",
+      "eye"
+    ],
+    "label": "带雷光的长毛骸骨怪兽",
+    "boss": true,
+    "rule": "boss-explicit"
+  },
+  "被遗忘的疯子": {
+    "family": "human",
+    "features": [
+      "hood",
+      "scar",
+      "axe"
+    ],
+    "label": "披破布的疯狂猎人与粗重兵器",
+    "boss": true,
+    "rule": "boss-explicit"
+  },
+  "野兽附身的灵魂": {
+    "family": "demon",
+    "features": [
+      "mane",
+      "flame",
+      "jaw"
+    ],
+    "label": "带火焰与破旧衣物的兽化灵魂",
+    "boss": true,
+    "rule": "boss-explicit"
+  },
+  "脑噬者": {
+    "family": "alien",
+    "features": [
+      "tentacles",
+      "eye"
+    ],
+    "label": "触手覆盖口鼻的吸脑怪物",
+    "boss": false,
+    "rule": "species-name"
+  },
+  "人偶": {
+    "family": "healer",
+    "features": [
+      "hood",
+      "longhair",
+      "halo"
+    ],
+    "label": "戴蕾丝头巾的温和人形人偶",
+    "boss": false,
+    "rule": "reviewed-exception"
+  },
+  "吉尔伯特": {
+    "family": "human",
+    "features": [
+      "hood",
+      "eye"
+    ],
+    "label": "与介绍一致的旅行者、商人或平民面孔",
+    "boss": false,
+    "rule": "civilian-fallback"
+  },
+  "亚莉安娜": {
+    "family": "human",
+    "features": [
+      "hood",
+      "eye"
+    ],
+    "label": "与介绍一致的旅行者、商人或平民面孔",
+    "boss": false,
+    "rule": "civilian-fallback"
+  },
+  "阿黛拉": {
+    "family": "healer",
+    "features": [
+      "hood",
+      "halo"
+    ],
+    "label": "头巾下温和的医者或圣职面孔",
+    "boss": false,
+    "rule": "support-lore"
+  },
+  "欧顿小教堂居民": {
+    "family": "human",
+    "features": [
+      "hood",
+      "eye"
+    ],
+    "label": "与介绍一致的旅行者、商人或平民面孔",
+    "boss": false,
+    "rule": "civilian-fallback"
+  },
+  "孤独老妇人": {
+    "family": "human",
+    "features": [
+      "hood",
+      "eye"
+    ],
+    "label": "与介绍一致的旅行者、商人或平民面孔",
+    "boss": false,
+    "rule": "civilian-fallback"
+  },
+  "加斯科因的小女儿": {
+    "family": "human",
+    "features": [
+      "hood",
+      "eye"
+    ],
+    "label": "与介绍一致的旅行者、商人或平民面孔",
+    "boss": false,
+    "rule": "civilian-fallback"
+  },
+  "小女孩的姐姐": {
+    "family": "human",
+    "features": [
+      "hood",
+      "eye"
+    ],
+    "label": "与介绍一致的旅行者、商人或平民面孔",
+    "boss": false,
+    "rule": "civilian-fallback"
+  },
+  "约瑟夫卡": {
+    "family": "healer",
+    "features": [
+      "hood",
+      "longhair",
+      "staff"
+    ],
+    "label": "诊所医师的整洁头巾与温和面容",
+    "boss": false,
+    "rule": "reviewed-exception"
+  },
+  "冒牌约瑟夫卡": {
+    "family": "healer",
+    "features": [
+      "hood",
+      "eye",
+      "staff"
+    ],
+    "label": "诊所头巾下露出冷静审视目光的医师",
+    "boss": false,
+    "rule": "reviewed-exception"
+  },
+  "艾琳": {
+    "family": "rogue",
+    "features": [
+      "mask",
+      "wings",
+      "sword"
+    ],
+    "label": "鸟喙面具与黑羽披肩的乌鸦猎人",
+    "boss": false,
+    "rule": "reviewed-exception"
+  },
+  "杜拉": {
+    "family": "rogue",
+    "features": [
+      "helmet",
+      "eye",
+      "scar"
+    ],
+    "label": "软帽、眼罩与老猎人的粗犷面容",
+    "boss": false,
+    "rule": "reviewed-exception"
+  },
+  "阿尔弗雷德": {
+    "family": "knight",
+    "features": [
+      "helmet",
+      "axe",
+      "halo"
+    ],
+    "label": "行刑队骑士的头盔与沉重轮形兵器",
+    "boss": false,
+    "rule": "reviewed-exception"
+  },
+  "亨利克": {
+    "family": "rogue",
+    "features": [
+      "hood",
+      "mask",
+      "sword"
+    ],
+    "label": "黄色猎装与蒙面猎人旧帽",
+    "boss": false,
+    "rule": "reviewed-exception"
+  },
+  "瓦尔特": {
+    "family": "human",
+    "features": [
+      "helmet",
+      "scar",
+      "axe"
+    ],
+    "label": "铁桶盔与锯齿兵器的联盟猎人",
+    "boss": false,
+    "rule": "reviewed-exception"
+  },
+  "安娜莉丝": {
+    "family": "human",
+    "features": [
+      "crown",
+      "mask",
+      "longhair"
+    ],
+    "label": "铁面具罩住的该隐赫斯特女王",
+    "boss": false,
+    "rule": "reviewed-exception"
+  },
+  "西蒙": {
+    "family": "rogue",
+    "features": [
+      "hood",
+      "blindfold",
+      "sword"
+    ],
+    "label": "遮眼布与简陋兜帽的弓刃猎人",
+    "boss": false,
+    "rule": "reviewed-exception"
+  },
+  "布拉多": {
+    "family": "rogue",
+    "features": [
+      "hood",
+      "sword"
+    ],
+    "label": "轻装护面与短刃的暗行者",
+    "boss": false,
+    "rule": "rogue-lore"
+  },
+  "圣女阿德琳": {
+    "family": "alien",
+    "features": [
+      "bandages",
+      "eye",
+      "scar"
+    ],
+    "label": "研究大厅绷带包裹的膨大头部",
+    "boss": false,
+    "rule": "reviewed-exception"
+  },
+  "可疑乞丐": {
+    "family": "human",
+    "features": [
+      "blindfold",
+      "bandages",
+      "scar"
+    ],
+    "label": "缠眼布与污旧绷带的可疑乞丐",
+    "boss": false,
+    "rule": "reviewed-exception"
+  },
+  "蜘蛛帕奇": {
+    "family": "spider",
+    "features": [
+      "mask",
+      "eye",
+      "jaw"
+    ],
+    "label": "光头人脸与八足蜘蛛身躯相连",
+    "boss": false,
+    "rule": "reviewed-exception"
+  },
+  "老猎人亨利特": {
+    "family": "rogue",
+    "features": [
+      "hood",
+      "sword"
+    ],
+    "label": "轻装兜帽与遮面短刃的敏捷猎手",
+    "boss": false,
+    "rule": "rogue-name"
+  },
+  "双胞胎弟弟马达拉斯": {
+    "family": "rogue",
+    "features": [
+      "hood",
+      "tail",
+      "sword"
+    ],
+    "label": "戴旧猎帽、使役毒蛇的马达拉斯猎人",
+    "boss": false,
+    "rule": "reviewed-exception"
+  },
+  "亚楠市民": {
+    "family": "undead",
+    "features": [
+      "hood",
+      "rags",
+      "axe"
+    ],
+    "label": "开始兽化的市民面孔与粗制猎具",
+    "boss": false,
+    "rule": "reviewed-exception"
+  },
+  "持枪市民": {
+    "family": "knight",
+    "features": [
+      "helmet",
+      "sword"
+    ],
+    "label": "与兵器、护甲相符的人形战斗者",
+    "boss": false,
+    "rule": "martial-lore"
+  },
+  "持盾市民": {
+    "family": "undead",
+    "features": [
+      "hood",
+      "shield",
+      "rags"
+    ],
+    "label": "举木盾、衣着破旧的失心市民",
+    "boss": false,
+    "rule": "reviewed-exception"
+  },
+  "猎犬": {
+    "family": "dog",
+    "features": [
+      "jaw",
+      "scar"
+    ],
+    "label": "垂耳与宽鼻的凶猛犬首",
+    "boss": false,
+    "rule": "species-name"
+  },
+  "亚楠乌鸦": {
+    "family": "bird",
+    "features": [
+      "wings",
+      "eye"
+    ],
+    "label": "尖喙、羽冠与侧眼的鸟首",
+    "boss": false,
+    "rule": "species-name"
+  },
+  "老鼠群": {
+    "family": "rat",
+    "features": [
+      "jaw",
+      "tail"
+    ],
+    "label": "圆耳、尖吻与长须的鼠首",
+    "boss": false,
+    "rule": "species-name"
+  },
+  "教会仆从": {
+    "family": "human",
+    "features": [
+      "hood",
+      "staff",
+      "scar"
+    ],
+    "label": "苍白面容与教会旧袍的高大仆从",
+    "boss": false,
+    "rule": "reviewed-exception"
+  },
+  "研究大厅患者": {
+    "family": "alien",
+    "features": [
+      "bandages",
+      "eye",
+      "scar"
+    ],
+    "label": "包着污旧绷带的膨大病患头颅",
+    "boss": false,
+    "rule": "reviewed-exception"
+  },
+  "持火暴徒": {
+    "family": "undead",
+    "features": [
+      "hood",
+      "flame",
+      "axe"
+    ],
+    "label": "失心市民举着火把与粗刀",
+    "boss": false,
+    "rule": "reviewed-exception"
+  },
+  "兽化病患": {
+    "family": "wolf",
+    "features": [
+      "rags",
+      "jaw",
+      "scar"
+    ],
+    "label": "从人脸中伸出狼吻的兽化患者",
+    "boss": false,
+    "rule": "reviewed-exception"
+  },
+  "小天界使者": {
+    "family": "alien",
+    "features": [
+      "eye",
+      "tentacles",
+      "halo"
+    ],
+    "label": "蓝色圆大头与短触须的小使者",
+    "boss": false,
+    "rule": "reviewed-exception"
+  },
+  "血虱": {
+    "family": "insect",
+    "features": [
+      "eye",
+      "wings"
+    ],
+    "label": "节肢头部、触角与多足",
+    "boss": false,
+    "rule": "species-name"
+  },
+  "小蛇球": {
+    "family": "snake",
+    "features": [
+      "tail",
+      "eye"
+    ],
+    "label": "鳞片长吻、分叉信子与盘绕蛇颈",
+    "boss": false,
+    "rule": "species-name"
+  },
+  "巨蛇球": {
+    "family": "snake",
+    "features": [
+      "tail",
+      "eye"
+    ],
+    "label": "鳞片长吻、分叉信子与盘绕蛇颈",
+    "boss": false,
+    "rule": "species-name"
+  },
+  "砖块巨人": {
+    "family": "giant",
+    "features": [
+      "scar",
+      "axe"
+    ],
+    "label": "宽大额骨与厚重肩膀的巨人",
+    "boss": false,
+    "rule": "giant-name"
+  },
+  "斧头巨人": {
+    "family": "giant",
+    "features": [
+      "scar",
+      "axe"
+    ],
+    "label": "宽大额骨与厚重肩膀的巨人",
+    "boss": false,
+    "rule": "giant-name"
+  },
+  "教会巨人": {
+    "family": "giant",
+    "features": [
+      "scar",
+      "axe"
+    ],
+    "label": "宽大额骨与厚重肩膀的巨人",
+    "boss": false,
+    "rule": "giant-name"
+  },
+  "教会十字架仆从": {
+    "family": "human",
+    "features": [
+      "hood",
+      "staff",
+      "scar"
+    ],
+    "label": "教会面巾下的高大持十字杖仆从",
+    "boss": false,
+    "rule": "reviewed-exception"
+  },
+  "狼人": {
+    "family": "wolf",
+    "features": [
+      "mane",
+      "jaw"
+    ],
+    "label": "尖耳、长吻与颈鬃的狼首",
+    "boss": false,
+    "rule": "species-name"
+  },
+  "摇铃女": {
+    "family": "mage",
+    "features": [
+      "hood",
+      "staff",
+      "skull"
+    ],
+    "label": "长袍蒙面的召魂摇铃女",
+    "boss": false,
+    "rule": "reviewed-exception"
+  },
+  "冬灯": {
+    "family": "alien",
+    "features": [
+      "eye",
+      "tentacles",
+      "multipleFaces"
+    ],
+    "label": "满是眼球的脑形头与软垂触须",
+    "boss": false,
+    "rule": "reviewed-exception"
+  },
+  "曼希斯之脑": {
+    "family": "alien",
+    "features": [
+      "eye",
+      "multipleFaces",
+      "tentacles"
+    ],
+    "label": "多眼巨脑与纠缠的软体褶皱",
+    "boss": false,
+    "rule": "reviewed-exception"
+  },
+  "食人猪": {
+    "family": "boar",
+    "features": [
+      "jaw",
+      "eye",
+      "scar"
+    ],
+    "label": "厚鼻盘、獠牙与浑浊双眼的食人猪",
+    "boss": false,
+    "rule": "reviewed-exception"
+  },
+  "该隐赫斯特血鸦": {
+    "family": "rogue",
+    "features": [
+      "mask",
+      "wings",
+      "sword"
+    ],
+    "label": "银色鸟喙面具与血色猎人披肩",
+    "boss": false,
+    "rule": "reviewed-exception"
+  },
+  "巨型鱼人": {
+    "family": "fish",
+    "features": [
+      "jaw",
+      "axe",
+      "fin"
+    ],
+    "label": "鲨鱼般宽头与沉重船锚兵器",
+    "boss": false,
+    "rule": "reviewed-exception"
+  },
+  "渔村鱼人": {
+    "family": "fish",
+    "features": [
+      "jaw",
+      "spear",
+      "fin"
+    ],
+    "label": "鱼鳃、宽嘴与渔猎长矛的鱼人",
+    "boss": false,
+    "rule": "reviewed-exception"
+  },
+  "鱼人祭司": {
+    "family": "fish",
+    "features": [
+      "staff",
+      "eye",
+      "fin"
+    ],
+    "label": "鱼鳃祭司头与海潮法器",
+    "boss": false,
+    "rule": "reviewed-exception"
+  },
+  "脑液": {
+    "family": "blob",
+    "features": [
+      "eye",
+      "tentacles",
+      "scar"
+    ],
+    "label": "脱离身体的柔软脑液肉团",
+    "boss": false,
+    "rule": "reviewed-exception"
+  },
+  "石像鬼": {
+    "family": "demon",
+    "features": [
+      "horns",
+      "wings"
+    ],
+    "label": "石质尖脸与小角的翼魔",
+    "boss": false,
+    "rule": "species-name"
+  },
+  "该隐赫斯特女幽灵": {
+    "family": "spirit",
+    "features": [
+      "halo",
+      "hood"
+    ],
+    "label": "半透明面孔与飘散的灵魂下摆",
+    "boss": false,
+    "rule": "spirit-name"
+  },
+  "苏美鲁守卫": {
+    "family": "knight",
+    "features": [
+      "helmet",
+      "sword"
+    ],
+    "label": "盔甲面罩与相应兵器的人形战士",
+    "boss": false,
+    "rule": "martial-name"
+  },
+  "苏美鲁守墓人": {
+    "family": "human",
+    "features": [
+      "hood",
+      "staff",
+      "skull"
+    ],
+    "label": "古墓长袍下的苍白持杖守墓人",
+    "boss": false,
+    "rule": "reviewed-exception"
+  },
+  "墓穴蜘蛛": {
+    "family": "spider",
+    "features": [
+      "eye",
+      "jaw"
+    ],
+    "label": "多眼蛛头与八条弯曲蛛足",
+    "boss": false,
+    "rule": "species-name"
+  },
+  "迷宫狂人": {
+    "family": "human",
+    "features": [
+      "longhair",
+      "axe",
+      "scar"
+    ],
+    "label": "披散长发、双眼狂乱的迷宫人",
+    "boss": false,
+    "rule": "reviewed-exception"
+  },
+  "狼": {
+    "family": "rogue",
+    "features": [
+      "scar",
+      "sword",
+      "bandages"
+    ],
+    "label": "束发忍者，脸有伤痕并缠着忍义手布带",
+    "boss": true,
+    "rule": "boss-explicit"
+  },
+  "鬼刑部": {
+    "family": "knight",
+    "features": [
+      "helmet",
+      "spear",
+      "plume"
+    ],
+    "label": "长角武士头盔与骑战长枪",
+    "boss": true,
+    "rule": "boss-explicit"
+  },
+  "蝴蝶夫人": {
+    "family": "rogue",
+    "features": [
+      "longhair",
+      "mask",
+      "staff"
+    ],
+    "label": "白发老妇束高发髻，以幻术与细刃作战",
+    "boss": true,
+    "rule": "boss-explicit"
+  },
+  "弦一郎": {
+    "family": "knight",
+    "features": [
+      "helmet",
+      "sword",
+      "plume"
+    ],
+    "label": "苇名武将的角盔与长刀",
+    "boss": true,
+    "rule": "boss-explicit"
+  },
+  "屏风猿猴": {
+    "family": "monkey",
+    "features": [
+      "multipleFaces",
+      "mask",
+      "eye"
+    ],
+    "label": "四种表情与面具颜色的猿猴并列",
+    "boss": true,
+    "rule": "boss-explicit"
+  },
+  "狮子猿": {
+    "family": "monkey",
+    "features": [
+      "mane",
+      "scar",
+      "jaw"
+    ],
+    "label": "白毛巨猿的宽嘴与颈部伤痕",
+    "boss": true,
+    "rule": "boss-explicit"
+  },
+  "无首狮子猿": {
+    "family": "monkey",
+    "features": [
+      "skull",
+      "sword",
+      "scar"
+    ],
+    "label": "白毛断颈猿，手边托着被斩下的猿首",
+    "boss": true,
+    "rule": "boss-explicit"
+  },
+  "破戒僧": {
+    "family": "human",
+    "features": [
+      "mask",
+      "hood",
+      "spear"
+    ],
+    "label": "笑面能剧面具与宽僧袍的持刀僧",
+    "boss": true,
+    "rule": "boss-explicit"
+  },
+  "宫内破戒僧": {
+    "family": "human",
+    "features": [
+      "mask",
+      "centipede",
+      "spear"
+    ],
+    "label": "三面幻影面具与破颈蜈蚣的真身僧",
+    "boss": true,
+    "rule": "boss-explicit"
+  },
+  "枭": {
+    "family": "rogue",
+    "features": [
+      "beard",
+      "longhair",
+      "sword"
+    ],
+    "label": "灰色长辫与厚重羽衣的年迈忍者",
+    "boss": true,
+    "rule": "boss-explicit"
+  },
+  "义父": {
+    "family": "rogue",
+    "features": [
+      "beard",
+      "longhair",
+      "flame"
+    ],
+    "label": "年轻时更锐利的长辫忍者与火鸟幻影",
+    "boss": true,
+    "rule": "boss-explicit"
+  },
+  "一心": {
+    "family": "human",
+    "features": [
+      "beard",
+      "helmet",
+      "sword"
+    ],
+    "label": "白须武将戴草盔，长刀横于肩侧",
+    "boss": true,
+    "rule": "boss-explicit"
+  },
+  "怨恨之鬼": {
+    "family": "demon",
+    "features": [
+      "flame",
+      "horns",
+      "multipleArms"
+    ],
+    "label": "单臂化作烈火的赤色怨鬼",
+    "boss": true,
+    "rule": "boss-explicit"
+  },
+  "神龙": {
+    "family": "dragon",
+    "features": [
+      "antler",
+      "sword",
+      "halo"
+    ],
+    "label": "白木枝角与七支剑的樱龙",
+    "boss": true,
+    "rule": "boss-explicit"
+  },
+  "艾玛": {
+    "family": "healer",
+    "features": [
+      "longhair",
+      "sword",
+      "flower"
+    ],
+    "label": "束发医师佩发簪，衣旁显出柔和刀光",
+    "boss": true,
+    "rule": "boss-explicit"
+  },
+  "侍大将河原田直盛": {
+    "family": "knight",
+    "features": [
+      "helmet",
+      "sword"
+    ],
+    "label": "盔甲面罩与相应兵器的人形战士",
+    "boss": false,
+    "rule": "martial-name"
+  },
+  "侍大将山内典膳": {
+    "family": "knight",
+    "features": [
+      "helmet",
+      "sword"
+    ],
+    "label": "盔甲面罩与相应兵器的人形战士",
+    "boss": false,
+    "rule": "martial-name"
+  },
+  "侍大将松本内藏佑": {
+    "family": "knight",
+    "features": [
+      "helmet",
+      "sword"
+    ],
+    "label": "盔甲面罩与相应兵器的人形战士",
+    "boss": false,
+    "rule": "martial-name"
+  },
+  "苇名七本枪山内式部利胜": {
+    "family": "knight",
+    "features": [
+      "helmet",
+      "spear"
+    ],
+    "label": "盔甲面罩与相应兵器的人形战士",
+    "boss": false,
+    "rule": "martial-name"
+  },
+  "苇名七本枪鬼庭主马雅次": {
+    "family": "knight",
+    "features": [
+      "helmet",
+      "spear"
+    ],
+    "label": "盔甲面罩与相应兵器的人形战士",
+    "boss": false,
+    "rule": "martial-name"
+  },
+  "苇名流佐濑甚助": {
+    "family": "knight",
+    "features": [
+      "helmet",
+      "sword",
+      "scar"
+    ],
+    "label": "苇名剑士的轻甲与迅疾居合刀",
+    "boss": false,
+    "rule": "reviewed-exception"
+  },
+  "水生氏成": {
+    "family": "knight",
+    "features": [
+      "helmet",
+      "sword",
+      "iron"
+    ],
+    "label": "苇名居合剑士戴着护面轻盔",
+    "boss": false,
+    "rule": "reviewed-exception"
+  },
+  "赤鬼": {
+    "family": "demon",
+    "features": [
+      "horns",
+      "jaw"
+    ],
+    "label": "角状眉骨、獠牙与异色肌肤的鬼怪",
+    "boss": true,
+    "rule": "encounter-demon-name"
+  },
+  "蚺蛇重藏": {
+    "family": "human",
+    "features": [
+      "beard",
+      "sword",
+      "scar"
+    ],
+    "label": "蓬发醉汉的大肚人形与粗刀",
+    "boss": false,
+    "rule": "reviewed-exception"
+  },
+  "牛饮德次郎": {
+    "family": "human",
+    "features": [
+      "beard",
+      "sword",
+      "scar"
+    ],
+    "label": "喝酒醉汉的宽脸胡须与粗刀，非牛头",
+    "boss": false,
+    "rule": "reviewed-exception"
+  },
+  "赤备重吉": {
+    "family": "knight",
+    "features": [
+      "helmet",
+      "shield"
+    ],
+    "label": "盔甲面罩与相应兵器的人形战士",
+    "boss": false,
+    "rule": "martial-name"
+  },
+  "火牛": {
+    "family": "bull",
+    "features": [
+      "horns",
+      "flame",
+      "jaw"
+    ],
+    "label": "双角绑着燃烧木束的宽鼻牛首",
+    "boss": true,
+    "rule": "encounter-reviewed-exception"
+  },
+  "宫之樱牛": {
+    "family": "bull",
+    "features": [
+      "horns",
+      "flower",
+      "jaw"
+    ],
+    "label": "樱花飘落在长角与宽额上的源之宫巨牛",
+    "boss": false,
+    "rule": "reviewed-exception"
+  },
+  "铠甲武士": {
+    "family": "knight",
+    "features": [
+      "helmet",
+      "shield"
+    ],
+    "label": "盔甲面罩与相应兵器的人形战士",
+    "boss": false,
+    "rule": "martial-name"
+  },
+  "长爪蜈蚣仙云": {
+    "family": "human",
+    "features": [
+      "centipede",
+      "multipleArms",
+      "scar"
+    ],
+    "label": "四肢弯曲的人类怪手，戴金属长爪",
+    "boss": false,
+    "rule": "reviewed-exception"
+  },
+  "长爪蜈蚣峰云": {
+    "family": "human",
+    "features": [
+      "centipede",
+      "multipleArms",
+      "iron"
+    ],
+    "label": "匍匐的人类长爪武者，非蜈蚣头",
+    "boss": false,
+    "rule": "reviewed-exception"
+  },
+  "蛇眼白藤": {
+    "family": "rogue",
+    "features": [
+      "bandages",
+      "spear",
+      "eye"
+    ],
+    "label": "缠满绷带的女火枪手，并非蛇类",
+    "boss": false,
+    "rule": "reviewed-exception"
+  },
+  "蛇眼白萩": {
+    "family": "rogue",
+    "features": [
+      "bandages",
+      "spear",
+      "scar"
+    ],
+    "label": "布带遮脸的女火枪手，并非蛇类",
+    "boss": false,
+    "rule": "reviewed-exception"
+  },
+  "孤影众太刀足": {
+    "family": "rogue",
+    "features": [
+      "hood",
+      "sword"
+    ],
+    "label": "轻装兜帽与遮面短刃的敏捷猎手",
+    "boss": false,
+    "rule": "rogue-name"
+  },
+  "孤影众忌手": {
+    "family": "rogue",
+    "features": [
+      "hood",
+      "sword"
+    ],
+    "label": "轻装兜帽与遮面短刃的敏捷猎手",
+    "boss": false,
+    "rule": "rogue-name"
+  },
+  "孤影众枪足之正长": {
+    "family": "rogue",
+    "features": [
+      "hood",
+      "sword"
+    ],
+    "label": "轻装兜帽与遮面短刃的敏捷猎手",
+    "boss": false,
+    "rule": "rogue-name"
+  },
+  "雾隐贵人": {
+    "family": "alien",
+    "features": [
+      "rags",
+      "eye",
+      "staff"
+    ],
+    "label": "长颈鱼形面孔与破旧贵人袍",
+    "boss": false,
+    "rule": "reviewed-exception"
+  },
+  "无首": {
+    "family": "spirit",
+    "features": [
+      "skull",
+      "sword",
+      "scar"
+    ],
+    "label": "无头怨灵的断颈与幽冷刀光",
+    "boss": false,
+    "rule": "reviewed-exception"
+  },
+  "七面武士": {
+    "family": "spirit",
+    "features": [
+      "multipleFaces",
+      "staff",
+      "halo"
+    ],
+    "label": "多张亡魂面孔环绕的持杖怨灵",
+    "boss": false,
+    "rule": "reviewed-exception"
+  },
+  "淤加美长老静": {
+    "family": "knight",
+    "features": [
+      "helmet",
+      "staff",
+      "halo"
+    ],
+    "label": "源之宫长者的细面与雷电鞠球法器",
+    "boss": false,
+    "rule": "reviewed-exception"
+  },
+  "白蛇": {
+    "family": "snake",
+    "features": [
+      "tail",
+      "eye"
+    ],
+    "label": "鳞片长吻、分叉信子与盘绕蛇颈",
+    "boss": false,
+    "rule": "species-name"
+  },
+  "鱼王": {
+    "family": "fish",
+    "features": [
+      "jaw",
+      "fin",
+      "halo"
+    ],
+    "label": "巨型锦鲤的宽嘴与修长鳍须",
+    "boss": false,
+    "rule": "reviewed-exception"
+  },
+  "九郎": {
+    "family": "human",
+    "features": [
+      "longhair",
+      "halo",
+      "flower"
+    ],
+    "label": "发束整齐、面容幼小的龙胤神子",
+    "boss": false,
+    "rule": "reviewed-exception"
+  },
+  "变若之子": {
+    "family": "healer",
+    "features": [
+      "longhair",
+      "halo",
+      "flower"
+    ],
+    "label": "衣着洁白、眼神宁静的变若神子",
+    "boss": false,
+    "rule": "reviewed-exception"
+  },
+  "黑笠之貉": {
+    "family": "rogue",
+    "features": [
+      "helmet",
+      "mask",
+      "sword"
+    ],
+    "label": "矮小忍者戴着黑色铁笠",
+    "boss": false,
+    "rule": "reviewed-exception"
+  },
+  "穴山": {
+    "family": "human",
+    "features": [
+      "hood",
+      "eye"
+    ],
+    "label": "与介绍一致的旅行者、商人或平民面孔",
+    "boss": false,
+    "rule": "civilian-fallback"
+  },
+  "藤冈": {
+    "family": "human",
+    "features": [
+      "hood",
+      "eye"
+    ],
+    "label": "与介绍一致的旅行者、商人或平民面孔",
+    "boss": false,
+    "rule": "civilian-fallback"
+  },
+  "小太郎": {
+    "family": "giant",
+    "features": [
+      "rags",
+      "scar",
+      "eye"
+    ],
+    "label": "圆润温和面孔与厚实肩膀的太郎兵",
+    "boss": false,
+    "rule": "reviewed-exception"
+  },
+  "阵左卫门": {
+    "family": "knight",
+    "features": [
+      "helmet",
+      "sword"
+    ],
+    "label": "与兵器、护甲相符的人形战斗者",
+    "boss": false,
+    "rule": "martial-lore"
+  },
+  "伊之介": {
+    "family": "knight",
+    "features": [
+      "helmet",
+      "sword"
+    ],
+    "label": "与兵器、护甲相符的人形战斗者",
+    "boss": false,
+    "rule": "martial-lore"
+  },
+  "野上玄斋": {
+    "family": "knight",
+    "features": [
+      "helmet",
+      "sword"
+    ],
+    "label": "与兵器、护甲相符的人形战斗者",
+    "boss": false,
+    "rule": "martial-lore"
+  },
+  "雕刻师": {
+    "family": "rogue",
+    "features": [
+      "hood",
+      "sword"
+    ],
+    "label": "轻装护面与短刃的暗行者",
+    "boss": false,
+    "rule": "rogue-lore"
+  },
+  "道顺": {
+    "family": "healer",
+    "features": [
+      "hood",
+      "halo"
+    ],
+    "label": "头巾下温和的医者或圣职面孔",
+    "boss": false,
+    "rule": "support-lore"
+  },
+  "道玄": {
+    "family": "healer",
+    "features": [
+      "hood",
+      "halo"
+    ],
+    "label": "头巾下温和的医者或圣职面孔",
+    "boss": false,
+    "rule": "support-lore"
+  },
+  "不死半兵卫": {
+    "family": "knight",
+    "features": [
+      "helmet",
+      "sword"
+    ],
+    "label": "与兵器、护甲相符的人形战斗者",
+    "boss": false,
+    "rule": "martial-lore"
+  },
+  "坛子贵人春长": {
+    "family": "jar",
+    "features": [
+      "eye",
+      "rags",
+      "multipleArms"
+    ],
+    "label": "旧陶坛中露出贵人头脸与瘦手",
+    "boss": false,
+    "rule": "reviewed-exception"
+  },
+  "坛子贵人维盛": {
+    "family": "jar",
+    "features": [
+      "eye",
+      "rags",
+      "multipleArms"
+    ],
+    "label": "湖中陶坛里探出贵人的苍白手臂",
+    "boss": false,
+    "rule": "reviewed-exception"
+  },
+  "供养众": {
+    "family": "rogue",
+    "features": [
+      "hood",
+      "sword"
+    ],
+    "label": "轻装护面与短刃的暗行者",
+    "boss": false,
+    "rule": "rogue-lore"
+  },
+  "苇名足轻": {
+    "family": "knight",
+    "features": [
+      "helmet",
+      "sword"
+    ],
+    "label": "与兵器、护甲相符的人形战斗者",
+    "boss": false,
+    "rule": "martial-lore"
+  },
+  "苇名弓兵": {
+    "family": "knight",
+    "features": [
+      "helmet",
+      "spear",
+      "iron"
+    ],
+    "label": "戴武者轻盔的苇名弓箭手",
+    "boss": false,
+    "rule": "reviewed-exception"
+  },
+  "苇名火枪兵": {
+    "family": "knight",
+    "features": [
+      "helmet",
+      "spear"
+    ],
+    "label": "盔甲面罩与相应兵器的人形战士",
+    "boss": false,
+    "rule": "martial-name"
+  },
+  "苇名农夫": {
+    "family": "human",
+    "features": [
+      "hood",
+      "rags",
+      "axe"
+    ],
+    "label": "戴草布帽、握农具的苇名村民",
+    "boss": false,
+    "rule": "reviewed-exception"
+  },
+  "山贼": {
+    "family": "rogue",
+    "features": [
+      "hood",
+      "sword"
+    ],
+    "label": "轻装兜帽与遮面短刃的敏捷猎手",
+    "boss": false,
+    "rule": "rogue-name"
+  },
+  "持盾山贼": {
+    "family": "rogue",
+    "features": [
+      "hood",
+      "sword"
+    ],
+    "label": "轻装兜帽与遮面短刃的敏捷猎手",
+    "boss": false,
+    "rule": "rogue-name"
+  },
+  "苇名长枪兵": {
+    "family": "knight",
+    "features": [
+      "helmet",
+      "spear"
+    ],
+    "label": "盔甲面罩与相应兵器的人形战士",
+    "boss": false,
+    "rule": "martial-name"
+  },
+  "野犬": {
+    "family": "dog",
+    "features": [
+      "jaw",
+      "scar"
+    ],
+    "label": "垂耳与宽鼻的凶猛犬首",
+    "boss": false,
+    "rule": "species-name"
+  },
+  "猴群": {
+    "family": "monkey",
+    "features": [
+      "mane",
+      "jaw"
+    ],
+    "label": "猿猴的宽吻、圆耳与裸露面庞",
+    "boss": false,
+    "rule": "species-name"
+  },
+  "持枪猴": {
+    "family": "knight",
+    "features": [
+      "helmet",
+      "sword"
+    ],
+    "label": "与兵器、护甲相符的人形战斗者",
+    "boss": false,
+    "rule": "martial-lore"
+  },
+  "水生村民": {
+    "family": "undead",
+    "features": [
+      "hood",
+      "rags",
+      "scar"
+    ],
+    "label": "苍白失心面孔与浸水旧衣的村民",
+    "boss": false,
+    "rule": "reviewed-exception"
+  },
+  "源之宫贵人": {
+    "family": "alien",
+    "features": [
+      "rags",
+      "eye",
+      "staff"
+    ],
+    "label": "长颈鱼面与华服的源之宫贵人",
+    "boss": false,
+    "rule": "reviewed-exception"
+  },
+  "壁虎": {
+    "family": "lizard",
+    "features": [
+      "tail",
+      "eye",
+      "scar"
+    ],
+    "label": "扁平小蜥蜴头与细长壁虎尾",
+    "boss": false,
+    "rule": "reviewed-exception"
+  },
+  "火把山贼": {
+    "family": "rogue",
+    "features": [
+      "hood",
+      "sword"
+    ],
+    "label": "轻装兜帽与遮面短刃的敏捷猎手",
+    "boss": false,
+    "rule": "rogue-name"
+  },
+  "持炮山贼": {
+    "family": "rogue",
+    "features": [
+      "hood",
+      "sword"
+    ],
+    "label": "轻装兜帽与遮面短刃的敏捷猎手",
+    "boss": false,
+    "rule": "rogue-name"
+  },
+  "孤影众": {
+    "family": "rogue",
+    "features": [
+      "hood",
+      "sword"
+    ],
+    "label": "轻装兜帽与遮面短刃的敏捷猎手",
+    "boss": false,
+    "rule": "rogue-name"
+  },
+  "仙峰僧": {
+    "family": "human",
+    "features": [
+      "hood",
+      "bandages",
+      "halo"
+    ],
+    "label": "剃发僧人的额头与布袍领口",
+    "boss": false,
+    "rule": "reviewed-exception"
+  },
+  "斗笠双刃僧": {
+    "family": "human",
+    "features": [
+      "helmet",
+      "sword",
+      "bandages"
+    ],
+    "label": "斗笠遮脸的持双刃僧兵",
+    "boss": false,
+    "rule": "reviewed-exception"
+  },
+  "附虫者": {
+    "family": "human",
+    "features": [
+      "hood",
+      "centipede",
+      "scar"
+    ],
+    "label": "僧人颈边钻出寄生蜈蚣的头脸",
+    "boss": false,
+    "rule": "reviewed-exception"
+  },
+  "白猿剑客": {
+    "family": "monkey",
+    "features": [
+      "mane",
+      "jaw"
+    ],
+    "label": "猿猴的宽吻、圆耳与裸露面庞",
+    "boss": false,
+    "rule": "species-name"
+  },
+  "赤备兵": {
+    "family": "knight",
+    "features": [
+      "helmet",
+      "shield"
+    ],
+    "label": "盔甲面罩与相应兵器的人形战士",
+    "boss": false,
+    "rule": "martial-name"
+  },
+  "巨型公鸡": {
+    "family": "bird",
+    "features": [
+      "wings",
+      "eye"
+    ],
+    "label": "尖喙、羽冠与侧眼的鸟首",
+    "boss": false,
+    "rule": "species-name"
+  },
+  "淤加美武者": {
+    "family": "knight",
+    "features": [
+      "helmet",
+      "sword"
+    ],
+    "label": "盔甲面罩与相应兵器的人形战士",
+    "boss": false,
+    "rule": "martial-name"
+  },
+  "淤加美弓手": {
+    "family": "knight",
+    "features": [
+      "helmet",
+      "spear",
+      "halo"
+    ],
+    "label": "淤加美女武者的细面与弓甲",
+    "boss": false,
+    "rule": "reviewed-exception"
+  },
+  "淤加美蹴鞠手": {
+    "family": "knight",
+    "features": [
+      "helmet",
+      "halo",
+      "staff"
+    ],
+    "label": "源之宫蹴鞠武者的细面与雷光",
+    "boss": false,
+    "rule": "reviewed-exception"
+  },
+  "太郎兵": {
+    "family": "giant",
+    "features": [
+      "scar",
+      "axe"
+    ],
+    "label": "宽大额骨与厚重肩膀的巨人",
+    "boss": false,
+    "rule": "giant-name"
+  },
+  "地牢囚徒": {
+    "family": "undead",
+    "features": [
+      "skull",
+      "rags"
+    ],
+    "label": "消瘦亡者面孔与破布颈领",
+    "boss": false,
+    "rule": "undead-name"
+  },
+  "水生阿凛": {
+    "family": "spirit",
+    "features": [
+      "mask",
+      "longhair",
+      "sword"
+    ],
+    "label": "薄面罩、长发与飘忽剑影的女子怨灵",
+    "boss": false,
+    "rule": "reviewed-exception"
+  },
+  "玛尔基特": {
+    "family": "demon",
+    "features": [
+      "horns",
+      "beard",
+      "staff"
+    ],
+    "label": "缠角老者与粗木杖，额前长角下垂",
+    "boss": true,
+    "rule": "boss-explicit"
+  },
+  "葛瑞克": {
+    "family": "human",
+    "features": [
+      "crown",
+      "multipleArms",
+      "axe",
+      "horns"
+    ],
+    "label": "歪冠下的苍老面孔与接肢手臂",
+    "boss": true,
+    "rule": "boss-explicit"
+  },
+  "蕾娜拉": {
+    "family": "mage",
+    "features": [
+      "crown",
+      "moon",
+      "staff",
+      "longhair"
+    ],
+    "label": "高耸月冠、长发与怀中的琥珀卵",
+    "boss": true,
+    "rule": "boss-explicit"
+  },
+  "拉塔恩": {
+    "family": "knight",
+    "features": [
+      "helmet",
+      "redhair",
+      "mane",
+      "sword"
+    ],
+    "label": "雄狮金盔与狂放红鬃的碎星将军",
+    "boss": true,
+    "rule": "boss-explicit"
+  },
+  "拉卡德": {
+    "family": "snake",
+    "features": [
+      "crown",
+      "multipleFaces",
+      "flame",
+      "sword"
+    ],
+    "label": "巨蛇面上长出君王人脸与亵渎剑",
+    "boss": true,
+    "rule": "boss-explicit"
+  },
+  "莫格": {
+    "family": "demon",
+    "features": [
+      "horns",
+      "crown",
+      "spear",
+      "eye"
+    ],
+    "label": "角刺入单眼的血焰君王与三叉戟",
+    "boss": true,
+    "rule": "boss-explicit"
+  },
+  "蒙葛特": {
+    "family": "demon",
+    "features": [
+      "horns",
+      "crown",
+      "sword",
+      "tail"
+    ],
+    "label": "王冠、盘角与长尾的恶兆王",
+    "boss": true,
+    "rule": "boss-explicit"
+  },
+  "火焰巨人": {
+    "family": "giant",
+    "features": [
+      "eye",
+      "redhair",
+      "flame",
+      "shield"
+    ],
+    "label": "红辫巨人胸前的独眼神面与圆盾",
+    "boss": true,
+    "rule": "boss-explicit"
+  },
+  "玛利喀斯": {
+    "family": "wolf",
+    "features": [
+      "helmet",
+      "sword",
+      "mane",
+      "scar"
+    ],
+    "label": "黑金兽盔下的狼首与命定之死黑剑",
+    "boss": true,
+    "rule": "boss-explicit"
+  },
+  "荷莱·露": {
+    "family": "human",
+    "features": [
+      "beard",
+      "scar",
+      "mane"
+    ],
+    "label": "披散白发的强壮赤手战士",
+    "boss": true,
+    "rule": "boss-explicit"
+  },
+  "葛孚雷": {
+    "family": "human",
+    "features": [
+      "crown",
+      "beard",
+      "axe",
+      "mane"
+    ],
+    "label": "白须初王戴冠，肩后浮现狮王之影",
+    "boss": true,
+    "rule": "boss-explicit"
+  },
+  "拉达冈": {
+    "family": "human",
+    "features": [
+      "redhair",
+      "scar",
+      "axe",
+      "halo"
+    ],
+    "label": "红发神躯裂开金纹，手持圣槌",
+    "boss": true,
+    "rule": "boss-explicit"
+  },
+  "艾尔登之兽": {
+    "family": "alien",
+    "features": [
+      "halo",
+      "wings",
+      "tail",
+      "eye"
+    ],
+    "label": "长颈星海兽，透明身躯布满黄金光点",
+    "boss": true,
+    "rule": "boss-explicit"
+  },
+  "玛莲妮亚": {
+    "family": "knight",
+    "features": [
+      "helmet",
+      "wings",
+      "redhair",
+      "flower"
+    ],
+    "label": "翼状头盔、红发与绽开的腐败花",
+    "boss": true,
+    "rule": "boss-explicit"
+  },
+  "米凯拉": {
+    "family": "healer",
+    "features": [
+      "longhair",
+      "halo",
+      "flower"
+    ],
+    "label": "长金发与温柔光环的幼年神人",
+    "boss": false,
+    "rule": "named-exception"
+  },
+  "黄金树守卫": {
+    "family": "knight",
+    "features": [
+      "helmet",
+      "plume",
+      "shield",
+      "spear"
+    ],
+    "label": "金色重骑士冠盔与树纹大盾",
+    "boss": true,
+    "rule": "boss-explicit"
+  },
+  "龙装大树守卫": {
+    "family": "knight",
+    "features": [
+      "helmet",
+      "horns",
+      "shield",
+      "axe"
+    ],
+    "label": "龙形重盔与红雷大锤的王城守卫",
+    "boss": true,
+    "rule": "boss-explicit"
+  },
+  "恶兆妖鬼蒙格": {
+    "family": "demon",
+    "features": [
+      "horns",
+      "spear",
+      "scar"
+    ],
+    "label": "尖角遮住单眼的下水道血焰恶兆",
+    "boss": true,
+    "rule": "boss-explicit"
+  },
+  "接肢贵族": {
+    "family": "human",
+    "features": [
+      "crown",
+      "multipleArms",
+      "sword",
+      "shield"
+    ],
+    "label": "贵族小脸与周围多条接肢手臂",
+    "boss": true,
+    "rule": "boss-explicit"
+  },
+  "狮子混种": {
+    "family": "cat",
+    "features": [
+      "mane",
+      "sword",
+      "jaw"
+    ],
+    "label": "红色狮鬃与粗大獠牙的混种战士",
+    "boss": true,
+    "rule": "boss-explicit"
+  },
+  "熔炉骑士": {
+    "family": "knight",
+    "features": [
+      "helmet",
+      "horns",
+      "shield",
+      "sword"
+    ],
+    "label": "古铜角盔与熔炉翼纹的重甲骑士",
+    "boss": true,
+    "rule": "boss-explicit"
+  },
+  "熔炉骑士奥陶琵斯": {
+    "family": "knight",
+    "features": [
+      "helmet",
+      "horns",
+      "shield",
+      "sword"
+    ],
+    "label": "双角铜盔与旋转大剑的熔炉剑士",
+    "boss": true,
+    "rule": "boss-explicit"
+  },
+  "熔炉骑士志留亚": {
+    "family": "knight",
+    "features": [
+      "helmet",
+      "antler",
+      "spear",
+      "halo"
+    ],
+    "label": "树枝角盔与螺旋树矛的熔炉枪士",
+    "boss": true,
+    "rule": "boss-explicit"
+  },
+  "铁棘艾隆梅尔": {
+    "family": "knight",
+    "features": [
+      "helmet",
+      "iron",
+      "sword",
+      "scar"
+    ],
+    "label": "布满铁棘的桶盔与悬浮行刑剑",
+    "boss": true,
+    "rule": "boss-explicit"
+  },
+  "铃珠猎人": {
+    "family": "knight",
+    "features": [
+      "helmet",
+      "iron",
+      "sword",
+      "eye"
+    ],
+    "label": "幽红眼缝与远隔飞剑的铁棘猎人",
+    "boss": true,
+    "rule": "boss-explicit"
+  },
+  "黑刀刺客": {
+    "family": "rogue",
+    "features": [
+      "hood",
+      "mask",
+      "sword"
+    ],
+    "label": "看不清面容的银灰兜帽与黑色弯刀",
+    "boss": true,
+    "rule": "boss-explicit"
+  },
+  "黑刀之首亚勒托": {
+    "family": "rogue",
+    "features": [
+      "hood",
+      "mask",
+      "sword",
+      "flame"
+    ],
+    "label": "首领兜帽与燃起死亡红焰的黑刀",
+    "boss": true,
+    "rule": "boss-explicit"
+  },
+  "猎犬骑士达瑞威尔": {
+    "family": "knight",
+    "features": [
+      "helmet",
+      "jaw",
+      "sword",
+      "tail"
+    ],
+    "label": "长吻猎犬盔、爪刃与低伏姿态",
+    "boss": true,
+    "rule": "boss-explicit"
+  },
+  "猎犬骑士弗罗": {
+    "family": "knight",
+    "features": [
+      "helmet",
+      "jaw",
+      "shield",
+      "sword"
+    ],
+    "label": "戴长吻猎犬盔的持盾洞窟骑士",
+    "boss": true,
+    "rule": "boss-explicit"
+  },
+  "黑夜骑兵": {
+    "family": "knight",
+    "features": [
+      "helmet",
+      "plume",
+      "hood",
+      "spear"
+    ],
+    "label": "无光重盔与散落黑羽的夜骑兵",
+    "boss": true,
+    "rule": "boss-explicit"
+  },
+  "死亡鸟": {
+    "family": "bird",
+    "features": [
+      "skull",
+      "staff",
+      "wings"
+    ],
+    "label": "秃鹫般骨首与钩头仪式杖",
+    "boss": true,
+    "rule": "boss-explicit"
+  },
+  "死之鸟": {
+    "family": "bird",
+    "features": [
+      "skull",
+      "wings",
+      "flame"
+    ],
+    "label": "枯骨鸟首、黑翼与幽冷灵火",
+    "boss": true,
+    "rule": "boss-explicit"
+  },
+  "腐败树灵": {
+    "family": "plant",
+    "features": [
+      "tentacles",
+      "jaw",
+      "flower"
+    ],
+    "label": "腐败树根蜿蜒成狰狞长颚",
+    "boss": true,
+    "rule": "boss-explicit"
+  },
+  "溃烂树灵": {
+    "family": "plant",
+    "features": [
+      "tentacles",
+      "jaw",
+      "flame"
+    ],
+    "label": "金焰从扭曲树根与长颚间喷出",
+    "boss": true,
+    "rule": "boss-explicit"
+  },
+  "黄金树的化身": {
+    "family": "plant",
+    "features": [
+      "staff",
+      "halo",
+      "eye"
+    ],
+    "label": "树瘤巨人握着仪式杖，头部留有空洞",
+    "boss": true,
+    "rule": "boss-explicit"
+  },
+  "腐败化身": {
+    "family": "plant",
+    "features": [
+      "staff",
+      "flower",
+      "scar"
+    ],
+    "label": "腐败菌斑覆盖的树瘤巨人",
+    "boss": true,
+    "rule": "boss-explicit"
+  },
+  "归树看门犬": {
+    "family": "cat",
+    "features": [
+      "iron",
+      "sword",
+      "flame"
+    ],
+    "label": "僵直石猫脸与竖起的火尾，并非犬首",
+    "boss": true,
+    "rule": "boss-explicit"
+  },
+  "守墓斗士": {
+    "family": "human",
+    "features": [
+      "helmet",
+      "axe",
+      "tail"
+    ],
+    "label": "蛇纹铜盔与锁链巨锤的斗士",
+    "boss": true,
+    "rule": "boss-explicit"
+  },
+  "发狂斗士": {
+    "family": "human",
+    "features": [
+      "helmet",
+      "axe",
+      "flower"
+    ],
+    "label": "红铜蛇盔与腐败斑点的狂斗士",
+    "boss": true,
+    "rule": "boss-explicit"
+  },
+  "石挖山妖": {
+    "family": "giant",
+    "features": [
+      "scar",
+      "iron",
+      "axe"
+    ],
+    "label": "石质空洞面孔与巨棍的矿道山妖",
+    "boss": true,
+    "rule": "boss-explicit"
+  },
+  "诺克斯剑士": {
+    "family": "human",
+    "features": [
+      "helmet",
+      "longhair",
+      "sword"
+    ],
+    "label": "银色覆面与薄纱头饰的夜城剑士",
+    "boss": true,
+    "rule": "boss-explicit"
+  },
+  "诺克斯修士": {
+    "family": "human",
+    "features": [
+      "helmet",
+      "staff",
+      "moon"
+    ],
+    "label": "银罩僧帽与流体战锤的修士",
+    "boss": true,
+    "rule": "boss-explicit"
+  },
+  "仿身泪滴": {
+    "family": "blob",
+    "features": [
+      "multipleFaces",
+      "eye",
+      "iron"
+    ],
+    "label": "银色泪滴中浮现模糊的人脸",
+    "boss": true,
+    "rule": "boss-explicit"
+  },
+  "英雄石像鬼": {
+    "family": "demon",
+    "features": [
+      "wings",
+      "iron",
+      "axe"
+    ],
+    "label": "尸蜡修补的石面与巨型双兵器",
+    "boss": true,
+    "rule": "boss-explicit"
+  },
+  "黑剑眷属": {
+    "family": "demon",
+    "features": [
+      "wings",
+      "iron",
+      "sword",
+      "flame"
+    ],
+    "label": "黑色石像鬼长脸与死亡红焰",
+    "boss": true,
+    "rule": "boss-explicit"
+  },
+  "祖灵": {
+    "family": "deer",
+    "features": [
+      "antler",
+      "halo",
+      "frost"
+    ],
+    "label": "巨大枝状鹿角与幽蓝灵光",
+    "boss": true,
+    "rule": "boss-explicit"
+  },
+  "祖灵之王": {
+    "family": "deer",
+    "features": [
+      "antler",
+      "halo",
+      "flower"
+    ],
+    "label": "更宽的灵鹿王冠与生命光点",
+    "boss": true,
+    "rule": "boss-explicit"
+  },
+  "龙人士兵": {
+    "family": "dragon",
+    "features": [
+      "helmet",
+      "scar",
+      "sword"
+    ],
+    "label": "伏地龙首士兵的破甲与弯刃",
+    "boss": true,
+    "rule": "boss-explicit"
+  },
+  "诺克史黛拉的龙人士兵": {
+    "family": "dragon",
+    "features": [
+      "helmet",
+      "frost",
+      "spear"
+    ],
+    "label": "覆霜龙首与冰雷长枪",
+    "boss": true,
+    "rule": "boss-explicit"
+  },
+  "鲜血贵族": {
+    "family": "human",
+    "features": [
+      "hood",
+      "horns",
+      "sword"
+    ],
+    "label": "血红兜帽、细角与刺剑的王朝贵族",
+    "boss": true,
+    "rule": "boss-explicit"
+  },
+  "战场魔法师": {
+    "family": "mage",
+    "features": [
+      "helmet",
+      "staff",
+      "crystal"
+    ],
+    "label": "石面重盔与辉石法杖的战场法师",
+    "boss": true,
+    "rule": "boss-explicit"
+  },
+  "魔法教授米丽安": {
+    "family": "mage",
+    "features": [
+      "witchhat",
+      "staff",
+      "moon"
+    ],
+    "label": "宽帽遮面的教授与魔法大弓",
+    "boss": true,
+    "rule": "boss-explicit"
+  },
+  "红狼拉达冈": {
+    "family": "wolf",
+    "features": [
+      "redhair",
+      "sword",
+      "crystal"
+    ],
+    "label": "赤红狼首与口边悬浮的辉剑",
+    "boss": true,
+    "rule": "boss-explicit"
+  },
+  "英雄红狼": {
+    "family": "wolf",
+    "features": [
+      "redhair",
+      "sword",
+      "mane"
+    ],
+    "label": "红色长鬃与锐利长牙的游荡魔狼",
+    "boss": true,
+    "rule": "boss-explicit"
+  },
+  "结晶人": {
+    "family": "human",
+    "features": [
+      "crystal",
+      "mask",
+      "staff"
+    ],
+    "label": "蓝色棱晶构成的人形面孔",
+    "boss": true,
+    "rule": "boss-explicit"
+  },
+  "腐败结晶人": {
+    "family": "human",
+    "features": [
+      "crystal",
+      "mask",
+      "flower"
+    ],
+    "label": "结晶面孔内部蔓延猩红腐败",
+    "boss": true,
+    "rule": "boss-explicit"
+  },
+  "神皮使徒": {
+    "family": "human",
+    "features": [
+      "hood",
+      "longhair",
+      "sword"
+    ],
+    "label": "细瘦苍白面孔与缝合皮兜帽",
+    "boss": true,
+    "rule": "boss-explicit"
+  },
+  "神皮贵族": {
+    "family": "human",
+    "features": [
+      "hood",
+      "scar",
+      "sword"
+    ],
+    "label": "肥硕苍白脸与皱褶神皮袍",
+    "boss": true,
+    "rule": "boss-explicit"
+  },
+  "神皮双人组": {
+    "family": "human",
+    "features": [
+      "hood",
+      "multipleFaces",
+      "sword"
+    ],
+    "label": "一瘦一胖两张神皮面孔并列",
+    "boss": true,
+    "rule": "boss-explicit"
+  },
+  "老将欧尼尔": {
+    "family": "human",
+    "features": [
+      "helmet",
+      "beard",
+      "spear",
+      "flower"
+    ],
+    "label": "长须独目老将举着腐败军旗",
+    "boss": true,
+    "rule": "boss-explicit"
+  },
+  "老将尼奥": {
+    "family": "human",
+    "features": [
+      "helmet",
+      "beard",
+      "spear",
+      "frost"
+    ],
+    "label": "白须城将与冰霜军旗，铠甲一侧缺损",
+    "boss": true,
+    "rule": "boss-explicit"
+  },
+  "坠星兽物": {
+    "family": "bull",
+    "features": [
+      "horns",
+      "crystal",
+      "tail",
+      "eye"
+    ],
+    "label": "牛角、晶岩甲壳与蝎尾的陨星兽",
+    "boss": true,
+    "rule": "boss-explicit"
+  },
+  "成年坠星兽物": {
+    "family": "bull",
+    "features": [
+      "horns",
+      "crystal",
+      "tail",
+      "mane"
+    ],
+    "label": "发育完整的牛角晶甲头与重力独眼",
+    "boss": true,
+    "rule": "boss-explicit"
+  },
+  "石肤白王": {
+    "family": "human",
+    "features": [
+      "crown",
+      "scar",
+      "sword",
+      "halo"
+    ],
+    "label": "白色石肤古王与重力弯剑",
+    "boss": true,
+    "rule": "boss-explicit"
+  },
+  "石肤黑王": {
+    "family": "human",
+    "features": [
+      "crown",
+      "scar",
+      "sword",
+      "eye"
+    ],
+    "label": "暗色石肤古王与星陨纹路",
+    "boss": true,
+    "rule": "boss-explicit"
+  },
+  "艾丝缇": {
+    "family": "insect",
+    "features": [
+      "skull",
+      "tail",
+      "crystal",
+      "eye"
+    ],
+    "label": "人类颅骨、昆虫巨颚与星云长尾",
+    "boss": true,
+    "rule": "boss-explicit"
+  },
+  "黑暗繁星艾丝缇": {
+    "family": "insect",
+    "features": [
+      "skull",
+      "tail",
+      "crystal",
+      "multipleFaces"
+    ],
+    "label": "黑暗星云中的颅骨虫首与陨星珠体",
+    "boss": true,
+    "rule": "boss-explicit"
+  },
+  "恶兆孪生子": {
+    "family": "demon",
+    "features": [
+      "horns",
+      "multipleFaces",
+      "axe"
+    ],
+    "label": "两张盘角恶兆脸与血焰兵器",
+    "boss": true,
+    "rule": "boss-explicit"
+  },
+  "腐败眷属": {
+    "family": "insect",
+    "features": [
+      "multipleArms",
+      "spear",
+      "flower"
+    ],
+    "label": "虾虫般长须与多臂持戟的眷属",
+    "boss": true,
+    "rule": "boss-explicit"
+  },
+  "飞龙亚基尔": {
+    "family": "dragon",
+    "features": [
+      "horns",
+      "wings",
+      "flame"
+    ],
+    "label": "湖中火龙的宽翼与红色龙息",
+    "boss": true,
+    "rule": "boss-explicit"
+  },
+  "辉石龙史玛拉格": {
+    "family": "dragon",
+    "features": [
+      "horns",
+      "wings",
+      "crystal"
+    ],
+    "label": "辉石侵入头角的蓝色魔法龙",
+    "boss": true,
+    "rule": "boss-explicit"
+  },
+  "辉石龙亚杜拉": {
+    "family": "dragon",
+    "features": [
+      "horns",
+      "frost",
+      "moon",
+      "sword"
+    ],
+    "label": "月霜龙首与锋利辉剑的星月之龙",
+    "boss": true,
+    "rule": "boss-explicit"
+  },
+  "熔岩土龙马卡尔": {
+    "family": "dragon",
+    "features": [
+      "jaw",
+      "flame",
+      "sword"
+    ],
+    "label": "厚重土龙颚与熔岩鳞剑",
+    "boss": true,
+    "rule": "boss-explicit"
+  },
+  "大土龙席欧朵利克": {
+    "family": "dragon",
+    "features": [
+      "horns",
+      "flame",
+      "sword",
+      "scar"
+    ],
+    "label": "衰老土龙的长颚、巨剑与旧伤",
+    "boss": true,
+    "rule": "boss-explicit"
+  },
+  "冰结湖的玻列琉斯": {
+    "family": "dragon",
+    "features": [
+      "horns",
+      "wings",
+      "frost"
+    ],
+    "label": "冰白龙角与霜雾中张开的巨颚",
+    "boss": true,
+    "rule": "boss-explicit"
+  },
+  "腐败龙艾格基斯": {
+    "family": "dragon",
+    "features": [
+      "horns",
+      "wings",
+      "flower"
+    ],
+    "label": "腐败菌斑沿龙角和翅膜蔓延",
+    "boss": true,
+    "rule": "boss-explicit"
+  },
+  "飞龙桂雷尔": {
+    "family": "dragon",
+    "features": [
+      "horns",
+      "wings",
+      "scar"
+    ],
+    "label": "深色巨龙头与破损鳞片",
+    "boss": true,
+    "rule": "boss-explicit"
+  },
+  "普拉顿桑克斯": {
+    "family": "dragon",
+    "features": [
+      "multipleFaces",
+      "halo",
+      "flame"
+    ],
+    "label": "双头古龙围绕赤雷与时间环",
+    "boss": true,
+    "rule": "boss-explicit"
+  },
+  "兰沙克": {
+    "family": "dragon",
+    "features": [
+      "horns",
+      "wings",
+      "spear"
+    ],
+    "label": "古龙角冠与红雷长枪的龙形",
+    "boss": true,
+    "rule": "boss-explicit"
+  },
+  "弗尔桑克斯": {
+    "family": "dragon",
+    "features": [
+      "horns",
+      "wings",
+      "skull"
+    ],
+    "label": "黑色死雷缠绕的多叉古龙角",
+    "boss": true,
+    "rule": "boss-explicit"
+  },
+  "大龙桂奥尔": {
+    "family": "dragon",
+    "features": [
+      "horns",
+      "beard",
+      "scar"
+    ],
+    "label": "衰老龙母的厚角、垂须与疲惫眼睛",
+    "boss": true,
+    "rule": "boss-explicit"
+  },
+  "葛瑞克士兵": {
+    "family": "knight",
+    "features": [
+      "helmet",
+      "shield"
+    ],
+    "label": "盔甲面罩与相应兵器的人形战士",
+    "boss": false,
+    "rule": "martial-name"
+  },
+  "雷亚卢卡利亚士兵": {
+    "family": "knight",
+    "features": [
+      "helmet",
+      "shield"
+    ],
+    "label": "盔甲面罩与相应兵器的人形战士",
+    "boss": false,
+    "rule": "martial-name"
+  },
+  "拉塔恩士兵": {
+    "family": "knight",
+    "features": [
+      "helmet",
+      "shield"
+    ],
+    "label": "盔甲面罩与相应兵器的人形战士",
+    "boss": false,
+    "rule": "martial-name"
+  },
+  "罗德尔士兵": {
+    "family": "knight",
+    "features": [
+      "helmet",
+      "shield"
+    ],
+    "label": "盔甲面罩与相应兵器的人形战士",
+    "boss": false,
+    "rule": "martial-name"
+  },
+  "圣树士兵": {
+    "family": "knight",
+    "features": [
+      "helmet",
+      "shield"
+    ],
+    "label": "盔甲面罩与相应兵器的人形战士",
+    "boss": false,
+    "rule": "martial-name"
+  },
+  "流刑士兵": {
+    "family": "knight",
+    "features": [
+      "helmet",
+      "shield"
+    ],
+    "label": "盔甲面罩与相应兵器的人形战士",
+    "boss": false,
+    "rule": "martial-name"
+  },
+  "失乡骑士": {
+    "family": "knight",
+    "features": [
+      "helmet",
+      "shield"
+    ],
+    "label": "盔甲面罩与相应兵器的人形战士",
+    "boss": false,
+    "rule": "martial-name"
+  },
+  "流浪贵族": {
+    "family": "human",
+    "features": [
+      "hood",
+      "eye"
+    ],
+    "label": "与介绍一致的旅行者、商人或平民面孔",
+    "boss": false,
+    "rule": "civilian-fallback"
+  },
+  "贵族魔法师": {
+    "family": "mage",
+    "features": [
+      "witchhat",
+      "staff"
+    ],
+    "label": "兜帽或尖帽下的施法者面孔",
+    "boss": false,
+    "rule": "caster-name"
+  },
+  "白金之子": {
+    "family": "human",
+    "features": [
+      "hood",
+      "scar",
+      "eye"
+    ],
+    "label": "苍白人造生命的忧伤面孔",
+    "boss": false,
+    "rule": "reviewed-exception"
+  },
+  "第二代白金之子": {
+    "family": "frog",
+    "features": [
+      "eye",
+      "jaw"
+    ],
+    "label": "圆眼宽嘴的第二代白金之子",
+    "boss": false,
+    "rule": "species-name"
+  },
+  "白金之子弓手": {
+    "family": "human",
+    "features": [
+      "hood",
+      "spear",
+      "eye"
+    ],
+    "label": "蒙兜帽的苍白白金之子弓手",
+    "boss": false,
+    "rule": "reviewed-exception"
+  },
+  "亚人": {
+    "family": "demon",
+    "features": [
+      "jaw",
+      "mane"
+    ],
+    "label": "兽化短吻与人形战士肩甲",
+    "boss": false,
+    "rule": "hybrid-name"
+  },
+  "亚人女王": {
+    "family": "demon",
+    "features": [
+      "jaw",
+      "mane"
+    ],
+    "label": "兽化短吻与人形战士肩甲",
+    "boss": false,
+    "rule": "hybrid-name"
+  },
+  "混种": {
+    "family": "demon",
+    "features": [
+      "jaw",
+      "mane"
+    ],
+    "label": "兽化短吻与人形战士肩甲",
+    "boss": false,
+    "rule": "hybrid-name"
+  },
+  "有翼混种": {
+    "family": "demon",
+    "features": [
+      "jaw",
+      "mane"
+    ],
+    "label": "兽化短吻与人形战士肩甲",
+    "boss": false,
+    "rule": "hybrid-name"
+  },
+  "恶兆之子": {
+    "family": "demon",
+    "features": [
+      "horns",
+      "axe"
+    ],
+    "label": "盘角覆盖额头的强壮恶兆",
+    "boss": false,
+    "rule": "hybrid-name"
+  },
+  "恶兆猎人": {
+    "family": "rogue",
+    "features": [
+      "hood",
+      "sword"
+    ],
+    "label": "轻装兜帽与遮面短刃的敏捷猎手",
+    "boss": false,
+    "rule": "rogue-name"
+  },
+  "灵庙士兵": {
+    "family": "spirit",
+    "features": [
+      "halo",
+      "hood"
+    ],
+    "label": "半透明面孔与飘散的灵魂下摆",
+    "boss": false,
+    "rule": "spirit-name"
+  },
+  "骷髅兵": {
+    "family": "undead",
+    "features": [
+      "skull",
+      "iron"
+    ],
+    "label": "清晰颅骨、空眼窝与残存骨甲",
+    "boss": false,
+    "rule": "undead-name"
+  },
+  "骷髅山贼": {
+    "family": "undead",
+    "features": [
+      "skull",
+      "iron"
+    ],
+    "label": "清晰颅骨、空眼窝与残存骨甲",
+    "boss": false,
+    "rule": "undead-name"
+  },
+  "兽人": {
+    "family": "demon",
+    "features": [
+      "jaw",
+      "mane"
+    ],
+    "label": "兽化短吻与人形战士肩甲",
+    "boss": false,
+    "rule": "hybrid-name"
+  },
+  "法姆亚兹拉兽人": {
+    "family": "demon",
+    "features": [
+      "jaw",
+      "mane"
+    ],
+    "label": "兽化短吻与人形战士肩甲",
+    "boss": false,
+    "rule": "hybrid-name"
+  },
+  "战鹰": {
+    "family": "bird",
+    "features": [
+      "wings",
+      "eye"
+    ],
+    "label": "尖喙、羽冠与侧眼的鸟首",
+    "boss": false,
+    "rule": "species-name"
+  },
+  "风暴鹰": {
+    "family": "bird",
+    "features": [
+      "wings",
+      "eye"
+    ],
+    "label": "尖喙、羽冠与侧眼的鸟首",
+    "boss": false,
+    "rule": "species-name"
+  },
+  "巨型乌鸦": {
+    "family": "bird",
+    "features": [
+      "wings",
+      "eye"
+    ],
+    "label": "尖喙、羽冠与侧眼的鸟首",
+    "boss": false,
+    "rule": "species-name"
+  },
+  "巨型犬": {
+    "family": "dog",
+    "features": [
+      "jaw",
+      "scar"
+    ],
+    "label": "垂耳与宽鼻的凶猛犬首",
+    "boss": false,
+    "rule": "species-name"
+  },
+  "野狼": {
+    "family": "wolf",
+    "features": [
+      "mane",
+      "jaw"
+    ],
+    "label": "尖耳、长吻与颈鬃的狼首",
+    "boss": false,
+    "rule": "species-name"
+  },
+  "卢恩熊": {
+    "family": "bear",
+    "features": [
+      "mane",
+      "jaw"
+    ],
+    "label": "圆耳、短吻与厚毛的熊首",
+    "boss": false,
+    "rule": "species-name"
+  },
+  "巨蟹": {
+    "family": "crab",
+    "features": [
+      "eye",
+      "iron"
+    ],
+    "label": "硬壳、突眼与双螯的蟹形头像",
+    "boss": false,
+    "rule": "species-name"
+  },
+  "巨型龙虾": {
+    "family": "crab",
+    "features": [
+      "jaw",
+      "tail"
+    ],
+    "label": "长须甲壳与双钳的巨虾头像",
+    "boss": false,
+    "rule": "species-name"
+  },
+  "陆生海鞘": {
+    "family": "blob",
+    "features": [
+      "jaw",
+      "flower"
+    ],
+    "label": "管口朝上的膨胀海鞘",
+    "boss": false,
+    "rule": "species-name"
+  },
+  "陆生章鱼": {
+    "family": "octopus",
+    "features": [
+      "tentacles",
+      "eye"
+    ],
+    "label": "圆形头囊与八条触腕的章鱼",
+    "boss": false,
+    "rule": "species-name"
+  },
+  "米兰达花": {
+    "family": "plant",
+    "features": [
+      "flower",
+      "tentacles"
+    ],
+    "label": "树皮面孔与枝叶花冠",
+    "boss": false,
+    "rule": "species-name"
+  },
+  "灵魂水母": {
+    "family": "spirit",
+    "features": [
+      "tentacles",
+      "halo"
+    ],
+    "label": "透明伞体与下垂触须的水母",
+    "boss": false,
+    "rule": "species-name"
+  },
+  "小恶魔": {
+    "family": "demon",
+    "features": [
+      "horns",
+      "wings"
+    ],
+    "label": "石质尖脸与小角的翼魔",
+    "boss": false,
+    "rule": "species-name"
+  },
+  "小章鱼": {
+    "family": "octopus",
+    "features": [
+      "tentacles",
+      "eye"
+    ],
+    "label": "圆形头囊与八条触腕的章鱼",
+    "boss": false,
+    "rule": "species-name"
+  },
+  "山妖": {
+    "family": "giant",
+    "features": [
+      "scar",
+      "axe"
+    ],
+    "label": "宽大额骨与厚重肩膀的巨人",
+    "boss": false,
+    "rule": "giant-name"
+  },
+  "挖石工": {
+    "family": "human",
+    "features": [
+      "helmet",
+      "iron",
+      "axe"
+    ],
+    "label": "带矿工头盔、石皮面容与镐头",
+    "boss": false,
+    "rule": "reviewed-exception"
+  },
+  "手指怪物": {
+    "family": "hand",
+    "features": [
+      "multipleArms",
+      "eye"
+    ],
+    "label": "弯曲手指围住中央掌心的怪物",
+    "boss": false,
+    "rule": "species-name"
+  },
+  "交界地·咒蛙": {
+    "family": "frog",
+    "features": [
+      "eye",
+      "jaw"
+    ],
+    "label": "宽嘴蛙脸与鼓起的假眼气囊",
+    "boss": false,
+    "rule": "species-name"
+  },
+  "交界地·大老鼠": {
+    "family": "rat",
+    "features": [
+      "jaw",
+      "tail"
+    ],
+    "label": "圆耳、尖吻与长须的鼠首",
+    "boss": false,
+    "rule": "species-name"
+  },
+  "史莱姆": {
+    "family": "blob",
+    "features": [
+      "eye",
+      "tentacles"
+    ],
+    "label": "半透明软泥中显出的眼与口",
+    "boss": false,
+    "rule": "species-name"
+  },
+  "腐烂野狗": {
+    "family": "dog",
+    "features": [
+      "jaw",
+      "scar"
+    ],
+    "label": "垂耳与宽鼻的凶猛犬首",
+    "boss": false,
+    "rule": "species-name"
+  },
+  "癫火村民": {
+    "family": "undead",
+    "features": [
+      "eye",
+      "flame",
+      "rags"
+    ],
+    "label": "浑浊双眼流出黄火的失心村民",
+    "boss": false,
+    "rule": "reviewed-exception"
+  },
+  "癫火老鼠": {
+    "family": "rat",
+    "features": [
+      "jaw",
+      "tail"
+    ],
+    "label": "圆耳、尖吻与长须的鼠首",
+    "boss": false,
+    "rule": "species-name"
+  },
+  "人偶士兵": {
+    "family": "knight",
+    "features": [
+      "mask",
+      "multipleArms"
+    ],
+    "label": "机械面具与关节肢体的人偶",
+    "boss": false,
+    "rule": "construct-name"
+  },
+  "鸟型人偶士兵": {
+    "family": "bird",
+    "features": [
+      "wings",
+      "eye"
+    ],
+    "label": "尖喙、羽冠与侧眼的鸟首",
+    "boss": false,
+    "rule": "species-name"
+  },
+  "辉石魔法师": {
+    "family": "mage",
+    "features": [
+      "witchhat",
+      "staff"
+    ],
+    "label": "兜帽或尖帽下的施法者面孔",
+    "boss": false,
+    "rule": "caster-name"
+  },
+  "雷亚卢卡利亚铁处女": {
+    "family": "knight",
+    "features": [
+      "mask",
+      "multipleArms"
+    ],
+    "label": "机械面具与关节肢体的人偶",
+    "boss": false,
+    "rule": "construct-name"
+  },
+  "土龙": {
+    "family": "dragon",
+    "features": [
+      "horns",
+      "wings"
+    ],
+    "label": "长吻龙首、角与厚鳞",
+    "boss": false,
+    "rule": "species-name"
+  },
+  "罗德尔骑士": {
+    "family": "knight",
+    "features": [
+      "helmet",
+      "shield"
+    ],
+    "label": "盔甲面罩与相应兵器的人形战士",
+    "boss": false,
+    "rule": "martial-name"
+  },
+  "葛瑞克骑士": {
+    "family": "knight",
+    "features": [
+      "helmet",
+      "shield"
+    ],
+    "label": "盔甲面罩与相应兵器的人形战士",
+    "boss": false,
+    "rule": "martial-name"
+  },
+  "杜鹃骑士": {
+    "family": "knight",
+    "features": [
+      "helmet",
+      "shield"
+    ],
+    "label": "盔甲面罩与相应兵器的人形战士",
+    "boss": false,
+    "rule": "martial-name"
+  },
+  "赤狮骑士": {
+    "family": "knight",
+    "features": [
+      "helmet",
+      "shield"
+    ],
+    "label": "盔甲面罩与相应兵器的人形战士",
+    "boss": false,
+    "rule": "martial-name"
+  },
+  "圣树骑士": {
+    "family": "knight",
+    "features": [
+      "helmet",
+      "shield"
+    ],
+    "label": "盔甲面罩与相应兵器的人形战士",
+    "boss": false,
+    "rule": "martial-name"
+  },
+  "腐败骑士": {
+    "family": "knight",
+    "features": [
+      "helmet",
+      "sword"
+    ],
+    "label": "盔甲面罩与相应兵器的人形战士",
+    "boss": false,
+    "rule": "martial-name"
+  },
+  "尊腐骑士芬雷": {
+    "family": "knight",
+    "features": [
+      "helmet",
+      "shield"
+    ],
+    "label": "盔甲面罩与相应兵器的人形战士",
+    "boss": false,
+    "rule": "martial-name"
+  },
+  "卡利亚骑士穆格拉姆": {
+    "family": "knight",
+    "features": [
+      "helmet",
+      "shield"
+    ],
+    "label": "盔甲面罩与相应兵器的人形战士",
+    "boss": false,
+    "rule": "martial-name"
+  },
+  "火焰主教": {
+    "family": "healer",
+    "features": [
+      "hood",
+      "halo"
+    ],
+    "label": "头巾与祈祷光晕的圣职或医者",
+    "boss": false,
+    "rule": "support-name"
+  },
+  "黑焰习武修士": {
+    "family": "human",
+    "features": [
+      "hood",
+      "flame",
+      "sword"
+    ],
+    "label": "蒙黑头巾、习武并使用黑焰的修士",
+    "boss": false,
+    "rule": "reviewed-exception"
+  },
+  "火焰习武修士": {
+    "family": "human",
+    "features": [
+      "hood",
+      "flame",
+      "sword"
+    ],
+    "label": "红色僧袍头巾与重刃火焰修士",
+    "boss": false,
+    "rule": "reviewed-exception"
+  },
+  "诺克斯夜巫": {
+    "family": "mage",
+    "features": [
+      "hood",
+      "moon",
+      "staff"
+    ],
+    "label": "银色头巾与夜城法术的女性术者",
+    "boss": false,
+    "rule": "reviewed-exception"
+  },
+  "银色泪滴": {
+    "family": "blob",
+    "features": [
+      "eye",
+      "tentacles"
+    ],
+    "label": "半透明软泥中显出的眼与口",
+    "boss": false,
+    "rule": "species-name"
+  },
+  "蛇人": {
+    "family": "snake",
+    "features": [
+      "tail",
+      "eye"
+    ],
+    "label": "鳞片长吻、分叉信子与盘绕蛇颈",
+    "boss": false,
+    "rule": "species-name"
+  },
+  "失乡骑士英格威尔": {
+    "family": "knight",
+    "features": [
+      "helmet",
+      "shield"
+    ],
+    "label": "盔甲面罩与相应兵器的人形战士",
+    "boss": false,
+    "rule": "martial-name"
+  },
+  "红狮子骑士奥加": {
+    "family": "knight",
+    "features": [
+      "helmet",
+      "shield"
+    ],
+    "label": "盔甲面罩与相应兵器的人形战士",
+    "boss": false,
+    "rule": "martial-name"
+  },
+  "克里斯托福": {
+    "family": "knight",
+    "features": [
+      "helmet",
+      "sword"
+    ],
+    "label": "与兵器、护甲相符的人形战斗者",
+    "boss": false,
+    "rule": "martial-lore"
+  },
+  "露缇尔": {
+    "family": "knight",
+    "features": [
+      "helmet",
+      "sword"
+    ],
+    "label": "与兵器、护甲相符的人形战斗者",
+    "boss": false,
+    "rule": "martial-lore"
+  },
+  "梅琳娜": {
+    "family": "healer",
+    "features": [
+      "longhair",
+      "scar",
+      "flame"
+    ],
+    "label": "一眼闭合、眼角有烙印的引路少女",
+    "boss": false,
+    "rule": "named-exception"
+  },
+  "菈妮": {
+    "family": "mage",
+    "features": [
+      "witchhat",
+      "multipleArms",
+      "frost"
+    ],
+    "label": "雪色宽帽下的双重灵魂少女面孔",
+    "boss": false,
+    "rule": "named-exception"
+  },
+  "布莱泽": {
+    "family": "wolf",
+    "features": [
+      "sword",
+      "mane",
+      "iron"
+    ],
+    "label": "灰狼头像穿着重甲的半狼人战士",
+    "boss": false,
+    "rule": "named-exception"
+  },
+  "罗杰尔": {
+    "family": "mage",
+    "features": [
+      "witchhat",
+      "sword",
+      "staff"
+    ],
+    "label": "宽帽法剑士带着温和微笑",
+    "boss": false,
+    "rule": "named-exception"
+  },
+  "瓦雷": {
+    "family": "rogue",
+    "features": [
+      "mask",
+      "hood",
+      "sword"
+    ],
+    "label": "平静白面具与洁白手术头巾",
+    "boss": false,
+    "rule": "named-exception"
+  },
+  "玛莉卡": {
+    "family": "human",
+    "features": [
+      "crown",
+      "longhair",
+      "halo"
+    ],
+    "label": "金色长发与枝形神冠的永恒女王",
+    "boss": false,
+    "rule": "named-exception"
+  },
+  "铁拳亚历山大": {
+    "family": "jar",
+    "features": [
+      "multipleArms",
+      "iron",
+      "scar"
+    ],
+    "label": "带手臂与封泥壶盖的战士陶壶",
+    "boss": false,
+    "rule": "named-exception"
+  },
+  "壶哥": {
+    "family": "jar",
+    "features": [
+      "multipleArms",
+      "flower",
+      "eye"
+    ],
+    "label": "小巧圆陶壶与小手臂",
+    "boss": false,
+    "rule": "named-exception"
+  },
+  "狄亚罗斯": {
+    "family": "knight",
+    "features": [
+      "helmet",
+      "sword",
+      "scar"
+    ],
+    "label": "霍斯劳覆面盔与贵族骑士肩甲",
+    "boss": false,
+    "rule": "reviewed-exception"
+  },
+  "涅斐丽·露": {
+    "family": "knight",
+    "features": [
+      "helmet",
+      "sword"
+    ],
+    "label": "与兵器、护甲相符的人形战斗者",
+    "boss": false,
+    "rule": "martial-lore"
+  },
+  "海妲": {
+    "family": "human",
+    "features": [
+      "blindfold",
+      "longhair",
+      "flame"
+    ],
+    "label": "闭目少女捧着微弱黄火",
+    "boss": false,
+    "rule": "named-exception"
+  },
+  "夏玻利利": {
+    "family": "human",
+    "features": [
+      "hood",
+      "eye",
+      "flame"
+    ],
+    "label": "遮眼布下透出癫火的游说者",
+    "boss": false,
+    "rule": "named-exception"
+  },
+  "柏克": {
+    "family": "monkey",
+    "features": [
+      "rags",
+      "eye",
+      "scar"
+    ],
+    "label": "温顺亚人裁缝的短毛面孔",
+    "boss": false,
+    "rule": "named-exception"
+  },
+  "交界地·帕奇": {
+    "family": "rogue",
+    "features": [
+      "spear",
+      "shield",
+      "eye"
+    ],
+    "label": "光头商人的旧皮甲与盾枪",
+    "boss": false,
+    "rule": "named-exception"
+  },
+  "伊蕾娜": {
+    "family": "human",
+    "features": [
+      "blindfold",
+      "longhair",
+      "flower"
+    ],
+    "label": "蒙眼的城主之女与柔和发丝",
+    "boss": false,
+    "rule": "named-exception"
+  },
+  "艾德格": {
+    "family": "knight",
+    "features": [
+      "helmet",
+      "sword"
+    ],
+    "label": "与兵器、护甲相符的人形战斗者",
+    "boss": false,
+    "rule": "martial-lore"
+  },
+  "骑士贝纳尔": {
+    "family": "knight",
+    "features": [
+      "helmet",
+      "shield"
+    ],
+    "label": "盔甲面罩与相应兵器的人形战士",
+    "boss": false,
+    "rule": "martial-name"
+  },
+  "叛律者亨利克斯": {
+    "family": "knight",
+    "features": [
+      "helmet",
+      "axe",
+      "iron"
+    ],
+    "label": "高大桶形头盔与战锤的叛律者",
+    "boss": false,
+    "rule": "reviewed-exception"
+  },
+  "“大角”忒拉格斯": {
+    "family": "knight",
+    "features": [
+      "helmet",
+      "horns",
+      "axe"
+    ],
+    "label": "大山羊角甲与沉重战锤",
+    "boss": false,
+    "rule": "named-exception"
+  },
+  "“古老骑士”伊修托邦": {
+    "family": "knight",
+    "features": [
+      "helmet",
+      "shield"
+    ],
+    "label": "盔甲面罩与相应兵器的人形战士",
+    "boss": false,
+    "rule": "martial-name"
+  },
+  "“黄昏将尽”莱利": {
+    "family": "rogue",
+    "features": [
+      "hood",
+      "sword"
+    ],
+    "label": "轻装护面与短刃的暗行者",
+    "boss": false,
+    "rule": "rogue-lore"
+  },
+  "“白狼战鬼”巴格莱姆": {
+    "family": "knight",
+    "features": [
+      "helmet",
+      "mane",
+      "sword"
+    ],
+    "label": "白狼鬃毛装饰的战鬼面盔",
+    "boss": false,
+    "rule": "named-exception"
+  },
+  "“离群魔法师”维赫勒": {
+    "family": "mage",
+    "features": [
+      "hood",
+      "staff",
+      "crystal"
+    ],
+    "label": "离群学院法师的辉石头罩",
+    "boss": false,
+    "rule": "named-exception"
+  },
+  "塞尔维斯": {
+    "family": "mage",
+    "features": [
+      "witchhat",
+      "mask",
+      "staff"
+    ],
+    "label": "高帽与石面具的傀儡教授",
+    "boss": false,
+    "rule": "named-exception"
+  },
+  "魔女瑟濂": {
+    "family": "mage",
+    "features": [
+      "mask",
+      "crystal",
+      "staff"
+    ],
+    "label": "女性石质头像与辉石额饰",
+    "boss": false,
+    "rule": "named-exception"
+  },
+  "魔法师托普斯": {
+    "family": "mage",
+    "features": [
+      "hood",
+      "staff",
+      "scar"
+    ],
+    "label": "朴素兜帽下的温和魔法学徒",
+    "boss": false,
+    "rule": "named-exception"
+  },
+  "阿祖勒": {
+    "family": "mage",
+    "features": [
+      "crystal",
+      "staff",
+      "halo"
+    ],
+    "label": "绿晶取代头部的起源魔法师",
+    "boss": false,
+    "rule": "named-exception"
+  },
+  "卢瑟特": {
+    "family": "mage",
+    "features": [
+      "crystal",
+      "staff",
+      "eye"
+    ],
+    "label": "蓝色辉石头冠与巨大晶眼",
+    "boss": false,
+    "rule": "named-exception"
+  },
+  "米利森": {
+    "family": "human",
+    "features": [
+      "redhair",
+      "scar",
+      "sword"
+    ],
+    "label": "红发少女与失去一臂的伤痕",
+    "boss": false,
+    "rule": "named-exception"
+  },
+  "格威": {
+    "family": "human",
+    "features": [
+      "hood",
+      "beard",
+      "flower"
+    ],
+    "label": "以白须老人伪装现身的腐败眷属贤者",
+    "boss": false,
+    "rule": "named-exception"
+  },
+  "食粪者": {
+    "family": "knight",
+    "features": [
+      "helmet",
+      "horns",
+      "scar"
+    ],
+    "label": "扭曲笑脸面盔与结瘤重甲",
+    "boss": false,
+    "rule": "named-exception"
+  },
+  "菲雅": {
+    "family": "healer",
+    "features": [
+      "hood",
+      "longhair",
+      "moon"
+    ],
+    "label": "黑纱兜帽中的死眠少女",
+    "boss": false,
+    "rule": "named-exception"
+  },
+  "D，狩猎死亡者": {
+    "family": "undead",
+    "features": [
+      "skull",
+      "rags"
+    ],
+    "label": "消瘦亡者面孔与破布颈领",
+    "boss": false,
+    "rule": "undead-name"
+  },
+  "罗德莉卡": {
+    "family": "healer",
+    "features": [
+      "hood",
+      "flower",
+      "longhair"
+    ],
+    "label": "红色头巾与温柔面容的调灵师",
+    "boss": false,
+    "rule": "named-exception"
+  },
+  "修古": {
+    "family": "giant",
+    "features": [
+      "horns",
+      "iron",
+      "scar"
+    ],
+    "label": "被束缚混种铁匠的角状眉骨",
+    "boss": false,
+    "rule": "named-exception"
+  },
+  "伊吉": {
+    "family": "giant",
+    "features": [
+      "helmet",
+      "iron",
+      "staff"
+    ],
+    "label": "镜面头盔与巨人工匠的厚实面孔",
+    "boss": false,
+    "rule": "named-exception"
+  },
+  "百智爵士基甸·奥夫尼尔": {
+    "family": "mage",
+    "features": [
+      "helmet",
+      "eye",
+      "staff"
+    ],
+    "label": "遍布眼耳纹样的百智面甲",
+    "boss": false,
+    "rule": "named-exception"
+  },
+  "恩夏": {
+    "family": "undead",
+    "features": [
+      "skull",
+      "iron",
+      "sword"
+    ],
+    "label": "王骸面甲与沉默的死亡眼孔",
+    "boss": false,
+    "rule": "named-exception"
+  },
+  "金面具": {
+    "family": "human",
+    "features": [
+      "mask",
+      "halo",
+      "eye"
+    ],
+    "label": "放射形金色圆盘遮住整张面孔",
+    "boss": false,
+    "rule": "named-exception"
+  },
+  "柯林": {
+    "family": "healer",
+    "features": [
+      "blindfold",
+      "staff",
+      "halo"
+    ],
+    "label": "闭眼布带与黄金律法圣职装束",
+    "boss": false,
+    "rule": "named-exception"
+  },
+  "结缘教堂的米利耶": {
+    "family": "turtle",
+    "features": [
+      "mitre",
+      "staff",
+      "halo"
+    ],
+    "label": "戴着教皇冠的温和大龟",
+    "boss": false,
+    "rule": "named-exception"
+  },
+  "拉缇娜": {
+    "family": "human",
+    "features": [
+      "hood",
+      "spear",
+      "eye"
+    ],
+    "label": "白金少女的头巾与长弓",
+    "boss": false,
+    "rule": "reviewed-exception"
+  },
+  "尤拉": {
+    "family": "rogue",
+    "features": [
+      "helmet",
+      "sword",
+      "scar"
+    ],
+    "label": "金属斗笠下的血指猎人面容",
+    "boss": false,
+    "rule": "reviewed-exception"
+  },
+  "艾琉诺拉": {
+    "family": "knight",
+    "features": [
+      "helmet",
+      "sword",
+      "flame"
+    ],
+    "label": "红色龙飨战甲与双头刃的血指",
+    "boss": false,
+    "rule": "reviewed-exception"
+  },
+  "娜斯塔西娅": {
+    "family": "human",
+    "features": [
+      "hood",
+      "axe",
+      "scar"
+    ],
+    "label": "白头巾下的疯狂面孔与巨大屠刀",
+    "boss": false,
+    "rule": "reviewed-exception"
+  },
+  "“红灵”阿尔贝利希": {
+    "family": "mage",
+    "features": [
+      "witchhat",
+      "crystal",
+      "staff"
+    ],
+    "label": "尖帽与红晶蒙眼头巾的术者",
+    "boss": false,
+    "rule": "reviewed-exception"
+  },
+  "游牧商人咖列": {
+    "family": "human",
+    "features": [
+      "hood",
+      "eye"
+    ],
+    "label": "与介绍一致的旅行者、商人或平民面孔",
+    "boss": false,
+    "rule": "civilian-fallback"
+  },
+  "流氓": {
+    "family": "human",
+    "features": [
+      "hood",
+      "eye"
+    ],
+    "label": "与介绍一致的旅行者、商人或平民面孔",
+    "boss": false,
+    "rule": "civilian-fallback"
+  },
+  "菈雅": {
+    "family": "snake",
+    "features": [
+      "longhair",
+      "eye",
+      "tail"
+    ],
+    "label": "少女面容旁露出蛇形原身的鳞片",
+    "boss": false,
+    "rule": "named-exception"
+  },
+  "塔妮丝": {
+    "family": "human",
+    "features": [
+      "mask",
+      "crown",
+      "longhair"
+    ],
+    "label": "贵族面具与火山官邸女主头冠",
+    "boss": false,
+    "rule": "named-exception"
+  },
+  "战士壶大壶": {
+    "family": "jar",
+    "features": [
+      "multipleArms",
+      "iron",
+      "halo"
+    ],
+    "label": "厚重封泥大壶与古老纹饰",
+    "boss": false,
+    "rule": "named-exception"
+  },
+  "“穿刺者”梅瑟莫": {
+    "family": "human",
+    "features": [
+      "helmet",
+      "tail",
+      "spear",
+      "flame"
+    ],
+    "label": "蛇绕细长头盔与火焰穿刺枪",
+    "boss": true,
+    "rule": "boss-explicit"
+  },
+  "“暴虐”贝勒": {
+    "family": "dragon",
+    "features": [
+      "horns",
+      "flame",
+      "scar",
+      "wings"
+    ],
+    "label": "破翼残角的黑龙，伤口流出火雷",
+    "boss": true,
+    "rule": "boss-explicit"
+  },
+  "双月骑士蕾菈娜": {
+    "family": "knight",
+    "features": [
+      "helmet",
+      "moon",
+      "sword",
+      "flame"
+    ],
+    "label": "月翼银盔与一火一月双剑",
+    "boss": true,
+    "rule": "boss-explicit"
+  },
+  "神兽舞狮": {
+    "family": "cat",
+    "features": [
+      "mane",
+      "horns",
+      "mask"
+    ],
+    "label": "巨型狮舞面具，鬃毛随风雷扬起",
+    "boss": true,
+    "rule": "boss-explicit"
+  },
+  "“老将”盖乌斯": {
+    "family": "boar",
+    "features": [
+      "helmet",
+      "iron",
+      "spear"
+    ],
+    "label": "铁甲野猪头与其上方的老将盔影",
+    "boss": true,
+    "rule": "boss-explicit"
+  },
+  "腐败眷属罗蜜娜": {
+    "family": "scorpion",
+    "features": [
+      "wings",
+      "flower",
+      "longhair"
+    ],
+    "label": "女性面孔、蝎尾与蝶翼的腐败圣女",
+    "boss": true,
+    "rule": "boss-explicit"
+  },
+  "指头之母梅蒂尔": {
+    "family": "hand",
+    "features": [
+      "multipleArms",
+      "eye",
+      "halo"
+    ],
+    "label": "巨指环绕的苍白母体与星空眼孔",
+    "boss": true,
+    "rule": "boss-explicit"
+  },
+  "融泥骑士": {
+    "family": "knight",
+    "features": [
+      "helmet",
+      "tentacles",
+      "sword"
+    ],
+    "label": "石棺面甲上渗出融泥的亡魂骑士",
+    "boss": true,
+    "rule": "boss-explicit"
+  },
+  "癫火之王米德拉": {
+    "family": "human",
+    "features": [
+      "flame",
+      "eye",
+      "sword"
+    ],
+    "label": "头颅化为黄焰火球的瘦削狂王",
+    "boss": true,
+    "rule": "boss-explicit"
+  },
+  "“约定之王”拉塔恩": {
+    "family": "knight",
+    "features": [
+      "helmet",
+      "redhair",
+      "halo",
+      "multipleFaces"
+    ],
+    "label": "红狮王盔后环绕金发神人光晕",
+    "boss": true,
+    "rule": "boss-explicit"
+  },
+  "罗刹": {
+    "family": "knight",
+    "features": [
+      "helmet",
+      "sword",
+      "scar"
+    ],
+    "label": "血红细面甲与巨型斩刀",
+    "boss": true,
+    "rule": "boss-explicit"
+  },
+  "孤牢骑士": {
+    "family": "knight",
+    "features": [
+      "helmet",
+      "sword",
+      "iron"
+    ],
+    "label": "厚重封闭孤牢盔与宽刃巨剑",
+    "boss": true,
+    "rule": "boss-explicit"
+  },
+  "“锯齿山”之龙": {
+    "family": "dragon",
+    "features": [
+      "horns",
+      "wings",
+      "scar"
+    ],
+    "label": "锯齿状龙角与厮杀破损的飞翼",
+    "boss": true,
+    "rule": "boss-explicit"
+  },
+  "古龙瑟涅桑克斯": {
+    "family": "dragon",
+    "features": [
+      "horns",
+      "wings",
+      "spear"
+    ],
+    "label": "水面红雷映亮的古老多叉龙角",
+    "boss": true,
+    "rule": "boss-explicit"
+  },
+  "黄金河马": {
+    "family": "hippo",
+    "features": [
+      "jaw",
+      "antler",
+      "halo"
+    ],
+    "label": "宽吻巨河马长出黄金针刺",
+    "boss": true,
+    "rule": "boss-explicit"
+  },
+  "死之骑士": {
+    "family": "knight",
+    "features": [
+      "helmet",
+      "skull",
+      "axe",
+      "flame"
+    ],
+    "label": "颅骨面甲与双斧缠绕死亡雷光",
+    "boss": true,
+    "rule": "boss-explicit"
+  },
+  "“大祭司”尤弥尔": {
+    "family": "mage",
+    "features": [
+      "crown",
+      "staff",
+      "multipleArms"
+    ],
+    "label": "高冠祭司的慈祥面孔与指头法术",
+    "boss": true,
+    "rule": "boss-explicit"
+  },
+  "“古龙人”": {
+    "family": "dragon",
+    "features": [
+      "helmet",
+      "sword",
+      "scar"
+    ],
+    "label": "龙飨剑士的龙首与猎龙大刀",
+    "boss": true,
+    "rule": "boss-explicit"
+  },
+  "亚人剑圣翁吉": {
+    "family": "monkey",
+    "features": [
+      "mane",
+      "sword",
+      "crystal"
+    ],
+    "label": "亚人老剑圣的长毛兽首与辉剑",
+    "boss": true,
+    "rule": "boss-explicit"
+  },
+  "灵火龙": {
+    "family": "dragon",
+    "features": [
+      "skull",
+      "wings",
+      "flame"
+    ],
+    "label": "枯骨龙首与从骨缝透出的苍白灵火",
+    "boss": true,
+    "rule": "boss-explicit"
+  },
+  "树影化身": {
+    "family": "plant",
+    "features": [
+      "flower",
+      "tentacles",
+      "eye"
+    ],
+    "label": "巨大的向日葵花盘与纠结根须",
+    "boss": true,
+    "rule": "boss-explicit"
+  },
+  "梅瑟莫士兵": {
+    "family": "knight",
+    "features": [
+      "helmet",
+      "shield"
+    ],
+    "label": "盔甲面罩与相应兵器的人形战士",
+    "boss": false,
+    "rule": "martial-name"
+  },
+  "梅瑟莫黑骑士": {
+    "family": "knight",
+    "features": [
+      "helmet",
+      "shield"
+    ],
+    "label": "盔甲面罩与相应兵器的人形战士",
+    "boss": false,
+    "rule": "martial-name"
+  },
+  "火焰骑士": {
+    "family": "knight",
+    "features": [
+      "helmet",
+      "sword"
+    ],
+    "label": "盔甲面罩与相应兵器的人形战士",
+    "boss": false,
+    "rule": "martial-name"
+  },
+  "幽影民": {
+    "family": "spirit",
+    "features": [
+      "halo",
+      "hood"
+    ],
+    "label": "半透明面孔与飘散的灵魂下摆",
+    "boss": false,
+    "rule": "spirit-name"
+  },
+  "角人战士": {
+    "family": "knight",
+    "features": [
+      "helmet",
+      "shield"
+    ],
+    "label": "盔甲面罩与相应兵器的人形战士",
+    "boss": false,
+    "rule": "martial-name"
+  },
+  "咒剑士": {
+    "family": "knight",
+    "features": [
+      "helmet",
+      "sword"
+    ],
+    "label": "盔甲面罩与相应兵器的人形战士",
+    "boss": false,
+    "rule": "martial-name"
+  },
+  "血怪": {
+    "family": "demon",
+    "features": [
+      "horns",
+      "jaw"
+    ],
+    "label": "角状眉骨、獠牙与异色肌肤的鬼怪",
+    "boss": false,
+    "rule": "demon-name"
+  },
+  "血怪咒术师": {
+    "family": "mage",
+    "features": [
+      "witchhat",
+      "staff"
+    ],
+    "label": "兜帽或尖帽下的施法者面孔",
+    "boss": false,
+    "rule": "caster-name"
+  },
+  "大嘴小恶魔": {
+    "family": "demon",
+    "features": [
+      "horns",
+      "wings"
+    ],
+    "label": "石质尖脸与小角的翼魔",
+    "boss": false,
+    "rule": "species-name"
+  },
+  "柳条人": {
+    "family": "plant",
+    "features": [
+      "flower",
+      "tentacles"
+    ],
+    "label": "树皮面孔与枝叶花冠",
+    "boss": false,
+    "rule": "species-name"
+  },
+  "人形苍蝇": {
+    "family": "insect",
+    "features": [
+      "eye",
+      "wings"
+    ],
+    "label": "节肢头部、触角与多足",
+    "boss": false,
+    "rule": "species-name"
+  },
+  "蜘蛛蝎": {
+    "family": "scorpion",
+    "features": [
+      "tail",
+      "eye"
+    ],
+    "label": "八足长腿与弯曲蝎尾的蛛蝎",
+    "boss": false,
+    "rule": "species-name"
+  },
+  "手指蠕虫": {
+    "family": "worm",
+    "features": [
+      "centipede",
+      "jaw"
+    ],
+    "label": "环节长躯与放射状口器",
+    "boss": false,
+    "rule": "species-name"
+  },
+  "吸生蠕虫": {
+    "family": "worm",
+    "features": [
+      "centipede",
+      "jaw"
+    ],
+    "label": "环节长躯与放射状口器",
+    "boss": false,
+    "rule": "species-name"
+  },
+  "不可触碰的老翁": {
+    "family": "human",
+    "features": [
+      "hood",
+      "eye",
+      "flame"
+    ],
+    "label": "面容几乎被癫火眼球吞没的枯瘦老翁",
+    "boss": false,
+    "rule": "reviewed-exception"
+  },
+  "罐中人": {
+    "family": "jar",
+    "features": [
+      "multipleArms",
+      "scar"
+    ],
+    "label": "封泥壶盖与短臂的陶壶生命",
+    "boss": false,
+    "rule": "species-name"
+  },
+  "神鸟战士": {
+    "family": "knight",
+    "features": [
+      "wings",
+      "helmet",
+      "sword"
+    ],
+    "label": "金翼装饰头盔下仍是人类战士",
+    "boss": false,
+    "rule": "reviewed-exception"
+  },
+  "神兽战士": {
+    "family": "knight",
+    "features": [
+      "mane",
+      "helmet",
+      "sword"
+    ],
+    "label": "神兽鬃毛装饰头盔下的人类战士",
+    "boss": false,
+    "rule": "reviewed-exception"
+  },
+  "熔炉骑士德沃尼亚": {
+    "family": "knight",
+    "features": [
+      "helmet",
+      "shield"
+    ],
+    "label": "盔甲面罩与相应兵器的人形战士",
+    "boss": false,
+    "rule": "martial-name"
+  },
+  "蕾妲": {
+    "family": "knight",
+    "features": [
+      "helmet",
+      "sword"
+    ],
+    "label": "与兵器、护甲相符的人形战斗者",
+    "boss": false,
+    "rule": "martial-lore"
+  },
+  "安帕赫": {
+    "family": "knight",
+    "features": [
+      "helmet",
+      "sword"
+    ],
+    "label": "与兵器、护甲相符的人形战斗者",
+    "boss": false,
+    "rule": "martial-lore"
+  },
+  "弗蕾雅": {
+    "family": "knight",
+    "features": [
+      "helmet",
+      "sword"
+    ],
+    "label": "与兵器、护甲相符的人形战斗者",
+    "boss": false,
+    "rule": "martial-lore"
+  },
+  "角人": {
+    "family": "human",
+    "features": [
+      "horns",
+      "hood",
+      "staff"
+    ],
+    "label": "短角与仪式头巾的幽影复仇者",
+    "boss": false,
+    "rule": "reviewed-exception"
+  },
+  "角人老妪": {
+    "family": "human",
+    "features": [
+      "horns",
+      "hood",
+      "scar"
+    ],
+    "label": "盘角与皱纹额头的塔之民老妪",
+    "boss": false,
+    "rule": "reviewed-exception"
+  },
+  "大维壶师": {
+    "family": "human",
+    "features": [
+      "helmet",
+      "mask",
+      "flower"
+    ],
+    "label": "戴陶壶帽、使用调香物的人类壶师",
+    "boss": false,
+    "rule": "reviewed-exception"
+  },
+  "穆尔": {
+    "family": "knight",
+    "features": [
+      "helmet",
+      "sword"
+    ],
+    "label": "与兵器、护甲相符的人形战斗者",
+    "boss": false,
+    "rule": "martial-lore"
+  },
+  "休里耶": {
+    "family": "human",
+    "features": [
+      "mask",
+      "longhair",
+      "flower"
+    ],
+    "label": "银色面具与纤细长发的调香师",
+    "boss": false,
+    "rule": "reviewed-exception"
+  },
+  "圣女托莉娜": {
+    "family": "plant",
+    "features": [
+      "flower",
+      "longhair",
+      "halo"
+    ],
+    "label": "紫色睡莲中浮现安眠圣女的面庞",
+    "boss": false,
+    "rule": "named-exception"
+  },
+  "埃贡": {
+    "family": "human",
+    "features": [
+      "hood",
+      "scar",
+      "spear"
+    ],
+    "label": "伤痕满面的残躯猎龙者",
+    "boss": false,
+    "rule": "reviewed-exception"
+  },
+  "龙飨女巫芙柔桑克斯": {
+    "family": "human",
+    "features": [
+      "horns",
+      "staff",
+      "longhair"
+    ],
+    "label": "龙形头饰与长发的龙飨巫女",
+    "boss": false,
+    "rule": "reviewed-exception"
+  },
+  "“黑夜剑士”约兰": {
+    "family": "knight",
+    "features": [
+      "helmet",
+      "sword"
+    ],
+    "label": "盔甲面罩与相应兵器的人形战士",
+    "boss": false,
+    "rule": "martial-name"
+  },
+  "“黑夜剑士”安娜": {
+    "family": "knight",
+    "features": [
+      "helmet",
+      "sword"
+    ],
+    "label": "盔甲面罩与相应兵器的人形战士",
+    "boss": false,
+    "rule": "martial-name"
+  },
+  "红熊鲁格利亚": {
+    "family": "human",
+    "features": [
+      "mane",
+      "scar",
+      "multipleArms"
+    ],
+    "label": "戴熊皮毛鬃、使用爪刃的猎熊战士",
+    "boss": false,
+    "rule": "named-exception"
+  },
+  "火焰骑士昆兰": {
+    "family": "knight",
+    "features": [
+      "helmet",
+      "sword"
+    ],
+    "label": "盔甲面罩与相应兵器的人形战士",
+    "boss": false,
+    "rule": "martial-name"
+  },
+  "火焰骑士希德": {
+    "family": "knight",
+    "features": [
+      "helmet",
+      "sword"
+    ],
+    "label": "盔甲面罩与相应兵器的人形战士",
+    "boss": false,
+    "rule": "martial-name"
+  },
+  "丹恩": {
+    "family": "human",
+    "features": [
+      "hood",
+      "bandages",
+      "scar"
+    ],
+    "label": "落叶武僧的宽笠与缠手布带",
+    "boss": false,
+    "rule": "named-exception"
+  },
+  "不死人": {
+    "family": "undead",
+    "features": [
+      "skull",
+      "rags"
+    ],
+    "label": "消瘦亡者面孔与破布颈领",
+    "boss": false,
+    "rule": "undead-name"
+  },
+  "巨鸦": {
+    "family": "bird",
+    "features": [
+      "wings",
+      "eye"
+    ],
+    "label": "尖喙、羽冠与侧眼的鸟首",
+    "boss": false,
+    "rule": "species-name"
+  },
+  "骷髅": {
+    "family": "undead",
+    "features": [
+      "skull",
+      "iron"
+    ],
+    "label": "清晰颅骨、空眼窝与残存骨甲",
+    "boss": false,
+    "rule": "undead-name"
+  },
+  "比欧": {
+    "family": "knight",
+    "features": [
+      "helmet",
+      "sword",
+      "shield"
+    ],
+    "label": "双牙重甲与盾剑的古老骑士",
+    "boss": false,
+    "rule": "named-exception"
+  },
+  "弗雷克": {
+    "family": "mage",
+    "features": [
+      "hood",
+      "beard",
+      "staff"
+    ],
+    "label": "研究灵魂之术的长须贤者",
+    "boss": false,
+    "rule": "named-exception"
+  },
+  "乌尔班": {
+    "family": "healer",
+    "features": [
+      "mitre",
+      "beard",
+      "staff"
+    ],
+    "label": "白须奇迹圣者与信仰法器",
+    "boss": false,
+    "rule": "named-exception"
+  },
+  "老王奥兰特": {
+    "family": "knight",
+    "features": [
+      "crown",
+      "sword",
+      "eye"
+    ],
+    "label": "暗影笼罩面容的王冠剑士",
+    "boss": true,
+    "rule": "boss-explicit"
+  },
+  "七本枪": {
+    "family": "knight",
+    "features": [
+      "helmet",
+      "spear"
+    ],
+    "label": "盔甲面罩与相应兵器的人形战士",
+    "boss": false,
+    "rule": "martial-name"
+  },
+  "墓犬": {
+    "family": "dog",
+    "features": [
+      "jaw",
+      "scar"
+    ],
+    "label": "垂耳与宽鼻的凶猛犬首",
+    "boss": false,
+    "rule": "species-name"
+  },
+  "亡者": {
+    "family": "undead",
+    "features": [
+      "skull",
+      "rags"
+    ],
+    "label": "消瘦亡者面孔与破布颈领",
+    "boss": false,
+    "rule": "undead-name"
+  },
+  "追逐者": {
+    "family": "knight",
+    "features": [
+      "helmet",
+      "eye",
+      "shield",
+      "sword"
+    ],
+    "label": "单眼面甲与背后成束的重型兵器",
+    "boss": true,
+    "rule": "boss-explicit"
+  },
+  "教会猎人": {
+    "family": "rogue",
+    "features": [
+      "hood",
+      "sword"
+    ],
+    "label": "轻装兜帽与遮面短刃的敏捷猎手",
+    "boss": false,
+    "rule": "rogue-name"
+  },
+  "蛛形怪": {
+    "family": "spider",
+    "features": [
+      "eye",
+      "jaw"
+    ],
+    "label": "多眼蛛头与八条弯曲蛛足",
+    "boss": false,
+    "rule": "species-name"
+  },
+  "触手兽": {
+    "family": "alien",
+    "features": [
+      "tentacles",
+      "eye",
+      "jaw"
+    ],
+    "label": "触手围绕口鼻的软体异兽",
+    "boss": false,
+    "rule": "reviewed-exception"
+  },
+  "亡灵商人": {
+    "family": "undead",
+    "features": [
+      "hood",
+      "skull",
+      "rags"
+    ],
+    "label": "破衣兜帽中的亡者商人",
+    "boss": false,
+    "rule": "named-exception"
+  },
+  "食尸虫": {
+    "family": "worm",
+    "features": [
+      "centipede",
+      "jaw"
+    ],
+    "label": "环节长躯与放射状口器",
+    "boss": false,
+    "rule": "species-name"
+  },
+  "游荡亡者": {
+    "family": "undead",
+    "features": [
+      "skull",
+      "rags"
+    ],
+    "label": "消瘦亡者面孔与破布颈领",
+    "boss": false,
+    "rule": "undead-name"
+  },
+  "灵体": {
+    "family": "spirit",
+    "features": [
+      "halo",
+      "hood"
+    ],
+    "label": "半透明面孔与飘散的灵魂下摆",
+    "boss": false,
+    "rule": "spirit-name"
+  },
+  "盲眼亡者": {
+    "family": "undead",
+    "features": [
+      "skull",
+      "rags"
+    ],
+    "label": "消瘦亡者面孔与破布颈领",
+    "boss": false,
+    "rule": "undead-name"
+  },
+  "苇名武士": {
+    "family": "knight",
+    "features": [
+      "helmet",
+      "sword"
+    ],
+    "label": "盔甲面罩与相应兵器的人形战士",
+    "boss": false,
+    "rule": "martial-name"
+  },
+  "忍者": {
+    "family": "rogue",
+    "features": [
+      "hood",
+      "sword"
+    ],
+    "label": "轻装兜帽与遮面短刃的敏捷猎手",
+    "boss": false,
+    "rule": "rogue-name"
+  },
+  "墓地鼠": {
+    "family": "rat",
+    "features": [
+      "jaw",
+      "tail"
+    ],
+    "label": "圆耳、尖吻与长须的鼠首",
+    "boss": false,
+    "rule": "species-name"
+  },
+  "卡利亚骑士": {
+    "family": "knight",
+    "features": [
+      "helmet",
+      "sword"
+    ],
+    "label": "盔甲面罩与相应兵器的人形战士",
+    "boss": false,
+    "rule": "martial-name"
+  }
+}
