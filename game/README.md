@@ -1,15 +1,22 @@
-# 薪火牌 · 回合与献祭提示 0.18.1
+# 薪火牌 · 轻量首屏与微信兼容 0.18.2
 
-[index.html](index.html) 是完整单文件游戏，图像、GIF、字体、音效与音乐谱面全部内嵌，无需安装依赖或配置后端。打开即显示首页，继续保留撤除阻塞加载页的修复。
+[index.html](index.html) 是网站轻量入口，配合[assets/](assets/)中的核心程序、样式与可延后媒体，无需构建命令或后端。网站发布请整包上传；离线试玩ZIP保留完整内嵌单文件。
 
 ## 试玩与下载
 
 - [打开试玩网页](https://flightwilliams.github.io/FlightWilliams/game/)
+- [下载Cloudflare网站部署ZIP](https://github.com/FlightWilliams/FlightWilliams/raw/refs/heads/main/game/xinhuo-web.zip) · [逐步发布说明](CLOUDFLARE.md)。
 - [下载试玩ZIP](https://github.com/FlightWilliams/FlightWilliams/raw/refs/heads/main/game/xinhuo-demo.zip)，解压后打开 index.html。
 - [试听三十首原创轮回配乐](music/index.html) · [曲目与播放说明](MUSIC.md)。
 - 作者：Will Wang。
 
-## 0.18.1 更新
+## 0.18.2 更新
+
+入口约6KB，首页先显示，核心逻辑与可选音效分开加载、缓存。媒体失败仍可玩，网络失败提供重试/复制链接说明。旧方法与动画受限时保留可用回退。现有卡组和战斗规则保持；新域名存档独立。提供Cloudflare Pages整站部署包。
+
+[本次修改与测速条件](UPDATE-0.18.2.md) · [Cloudflare发布步骤](CLOUDFLARE.md)
+
+## 0.18.1 已包含的更新
 
 修正跨回合部署的呈现：Boss后手放灰、下一回合先手献祭时，先显示新回合提示；双方余灰标注“新入场／可献祭”，献祭记录注明格子及入场回合。幽邃主教群没有当回合献祭的特权，原成熟规则保持。
 
@@ -148,7 +155,7 @@ Boss死亡余音和玩家失败回响分别编写；即使死于该关小怪，�
 
 ## 音效与设计来源
 
-洗牌、抽牌、落牌使用[Kenney Casino Audio](https://kenney.nl/assets/casino-audio)纸牌录音；燃烧采用Ezwa／Dinamic的Flare火焰录音改编（CC-BY-SA 3.0）。刀剑来自audione，怪物与弓箭来自Superpowers，重击来自Kenney；圣光、灵体、法术和金辉宝石提示为原创合成。上述音效全部内嵌，音效与音乐独立，关闭音效即时停止。逐项来源、独立改编WAV及完整许可见[audio/](audio/)。
+洗牌、抽牌、落牌使用[Kenney Casino Audio](https://kenney.nl/assets/casino-audio)纸牌录音；燃烧采用Ezwa／Dinamic的Flare火焰录音改编（CC-BY-SA 3.0）。刀剑来自audione，怪物与弓箭来自Superpowers，重击来自Kenney；圣光、灵体、法术和金辉宝石提示为原创合成。离线版内嵌上述音效，网页版随后加载同源录音；音效与音乐独立，关闭音效即时停止。逐项来源、独立改编WAV及完整许可见[audio/](audio/)。
 
 三十首轮回音乐及首页、胜负提示段采用新谱面和程序合成，使用AI辅助作曲设计与编码，未使用官方游戏录音、外部音乐采样或官方旋律转录。游戏本地播放合成音乐，试听MP3仅在试听页点击后加载。详见[原创配乐说明](MUSIC.md)。
 
@@ -156,6 +163,6 @@ Boss死亡余音和玩家失败回响分别编写；即使死于该关小怪，�
 
 ## 发布与验证范围
 
-将 index.html 上传至静态网站即可试玩；本仓库GitHub Pages发布路径为 /game/。试玩ZIP附有本版验证记录，覆盖六轮数据、技能、金币、先手顺序、奖励、继承与相关回归检查。
+将网站部署ZIP中的index.html、assets及_headers一起上传至静态网站即可试玩；本仓库GitHub Pages发布路径为 /game/。试玩ZIP附有本版验证记录，覆盖六轮数据、技能、金币、先手顺序、奖励、继承与相关回归检查。
 
 手机验证使用Chromium模拟视口，不代表已完成真实iPhone微信或Safari验证。收藏、晋阶、沿用牌组和死亡身份保存在当前浏览器；主线自动保存安全节点与待领奖励，没有账号或云同步。换浏览器、清站点数据或换域名会影响本地进度。GitHub Pages在不同网络环境中的可达性由网络决定。
