@@ -1,0 +1,1716 @@
+{
+  "魔女克拉格": {
+    "quality": "named",
+    "h": 5
+  },
+  "奥恩斯坦": {
+    "quality": "named",
+    "h": 5
+  },
+  "斯莫": {
+    "quality": "named",
+    "h": 5
+  },
+  "墓王尼特": {
+    "quality": "named",
+    "h": 5
+  },
+  "白龙希斯": {
+    "quality": "named",
+    "h": 4
+  },
+  "小隆德四王": {
+    "quality": "named",
+    "h": 4
+  },
+  "巨狼希夫": {
+    "quality": "named",
+    "h": 5
+  },
+  "半龙普莉希拉": {
+    "quality": "named",
+    "h": 5
+  },
+  "格温多林": {
+    "quality": "named",
+    "h": 5
+  },
+  "薪王葛温": {
+    "quality": "named",
+    "h": 4
+  },
+  "亚尔特留斯": {
+    "quality": "named",
+    "h": 5
+  },
+  "卡拉米特": {
+    "quality": "named",
+    "a": 3,
+    "h": 4
+  },
+  "深渊之主马努斯": {
+    "quality": "named",
+    "h": 5
+  },
+  "索拉尔": {
+    "quality": "named",
+    "h": 4
+  },
+  "西格迈尔": {
+    "quality": "named",
+    "h": 5
+  },
+  "西格琳德": {
+    "quality": "named",
+    "h": 4
+  },
+  "奥斯卡": {
+    "quality": "named",
+    "a": 2
+  },
+  "安德烈": {
+    "quality": "named",
+    "h": 4
+  },
+  "巨人铁匠": {
+    "quality": "named",
+    "h": 4
+  },
+  "梵摩斯": {
+    "quality": "named",
+    "h": 4
+  },
+  "格里格斯": {
+    "quality": "named",
+    "h": 4
+  },
+  "罗根": {
+    "quality": "named",
+    "h": 4
+  },
+  "劳伦提乌斯": {
+    "quality": "named",
+    "h": 4
+  },
+  "克拉娜": {
+    "quality": "named",
+    "a": 2
+  },
+  "恩吉": {
+    "quality": "named",
+    "a": 2
+  },
+  "白蜘蛛姬": {
+    "quality": "named",
+    "a": 2,
+    "h": 2
+  },
+  "雷雅": {
+    "quality": "named",
+    "a": 2,
+    "h": 2
+  },
+  "佩特鲁斯": {
+    "quality": "named",
+    "a": 2
+  },
+  "帕奇": {
+    "quality": "named",
+    "a": 2
+  },
+  "阿斯特拉的安娜斯塔西亚": {
+    "quality": "named",
+    "h": 4
+  },
+  "暗月女骑士": {
+    "quality": "named",
+    "h": 4
+  },
+  "大弓手戈夫": {
+    "quality": "named",
+    "a": 2
+  },
+  "王刃基亚兰": {
+    "quality": "named",
+    "a": 2
+  },
+  "卡利姆的奥斯瓦尔德": {
+    "quality": "named",
+    "a": 2
+  },
+  "弗拉姆特": {
+    "quality": "named",
+    "a": 2
+  },
+  "黑暗大蛇卡斯": {
+    "quality": "named",
+    "a": 2
+  },
+  "不死镇商人": {
+    "quality": "named",
+    "h": 4
+  },
+  "女亡灵商人": {
+    "quality": "named",
+    "h": 4
+  },
+  "多姆纳尔": {
+    "quality": "named",
+    "h": 4
+  },
+  "伊丽莎白": {
+    "quality": "named",
+    "a": 2,
+    "h": 2
+  },
+  "黄王杰雷迈亚": {
+    "quality": "named",
+    "a": 2
+  },
+  "寇克": {
+    "quality": "named",
+    "a": 2
+  },
+  "魔女贝拉特": {
+    "quality": "named",
+    "a": 2
+  },
+  "毒妃米妲": {
+    "quality": "named",
+    "h": 5
+  },
+  "蝎子纳吉卡": {
+    "quality": "named",
+    "h": 5
+  },
+  "公爵的芙蕾雅": {
+    "quality": "named",
+    "h": 6
+  },
+  "王盾韦施塔德": {
+    "quality": "named",
+    "h": 6
+  },
+  "王兄安第尔": {
+    "quality": "named",
+    "h": 4
+  },
+  "娜香德拉": {
+    "quality": "named",
+    "h": 4
+  },
+  "芬德里克": {
+    "quality": "named",
+    "h": 6
+  },
+  "沉眠之龙辛": {
+    "quality": "named",
+    "a": 3,
+    "h": 4
+  },
+  "秽污王妃艾雷娜": {
+    "quality": "named",
+    "h": 5
+  },
+  "烟之骑士雷姆": {
+    "quality": "named",
+    "h": 6
+  },
+  "骑士亚伦": {
+    "quality": "named",
+    "h": 4
+  },
+  "白王的宠物艾娃": {
+    "quality": "named",
+    "h": 5
+  },
+  "灼烧的白王": {
+    "quality": "named",
+    "h": 6
+  },
+  "王之宠物拉德与札连": {
+    "quality": "named",
+    "h": 5
+  },
+  "绿衣巡礼者": {
+    "quality": "named",
+    "h": 2
+  },
+  "失心的索丹": {
+    "quality": "named",
+    "h": 4
+  },
+  "露卡蒂尔": {
+    "quality": "named",
+    "h": 4
+  },
+  "班哈特": {
+    "quality": "named",
+    "h": 4
+  },
+  "铁匠雷尼加兹": {
+    "quality": "named",
+    "h": 4
+  },
+  "卖矿石的克洛亚娜": {
+    "quality": "named",
+    "h": 4
+  },
+  "铁匠麦道夫": {
+    "quality": "named",
+    "h": 4
+  },
+  "防具商人玛夫穆兰": {
+    "quality": "named",
+    "h": 4
+  },
+  "行商梅伦提拉": {
+    "quality": "named",
+    "h": 4
+  },
+  "制图师凯尔": {
+    "quality": "named",
+    "a": 2
+  },
+  "甜蜜夏拉格": {
+    "quality": "named",
+    "a": 2
+  },
+  "吉里甘": {
+    "quality": "named",
+    "a": 2
+  },
+  "培特": {
+    "quality": "named",
+    "a": 2
+  },
+  "克雷顿": {
+    "quality": "named",
+    "a": 2
+  },
+  "林德的莉絮": {
+    "quality": "named",
+    "a": 2,
+    "h": 2
+  },
+  "卡里昂": {
+    "quality": "named",
+    "h": 4
+  },
+  "罗莎贝丝": {
+    "quality": "named",
+    "a": 2
+  },
+  "斯特雷德": {
+    "quality": "named",
+    "h": 4
+  },
+  "奥尼菲克斯": {
+    "quality": "named",
+    "a": 2
+  },
+  "费尔金": {
+    "quality": "named",
+    "a": 2
+  },
+  "巡礼者格兰达尔": {
+    "quality": "named",
+    "a": 2
+  },
+  "温格之首": {
+    "quality": "named",
+    "a": 2
+  },
+  "曼斯库匹恩塔克": {
+    "quality": "named",
+    "h": 4
+  },
+  "宫廷魔术师纳瓦蓝": {
+    "quality": "named",
+    "a": 2
+  },
+  "巫女雅莉珊卓": {
+    "quality": "named",
+    "a": 2,
+    "h": 2
+  },
+  "王城宰相韦拉格": {
+    "quality": "named",
+    "a": 2
+  },
+  "灰烬审判者古达": {
+    "quality": "named",
+    "h": 6
+  },
+  "冷冽谷的玻尔多": {
+    "quality": "named",
+    "h": 5
+  },
+  "霸王沃尼尔": {
+    "quality": "named",
+    "h": 5
+  },
+  "教宗沙力万": {
+    "quality": "named",
+    "h": 4
+  },
+  "吞噬神明的艾尔德利奇": {
+    "quality": "named",
+    "h": 4
+  },
+  "巨人尤姆": {
+    "quality": "named",
+    "h": 6
+  },
+  "妖王欧斯罗艾斯": {
+    "quality": "named",
+    "a": 4,
+    "h": 5
+  },
+  "英雄古达": {
+    "quality": "named",
+    "h": 4
+  },
+  "洛斯里克王子": {
+    "quality": "named",
+    "h": 4
+  },
+  "洛里安": {
+    "quality": "named",
+    "h": 5
+  },
+  "修女芙莉德": {
+    "quality": "named",
+    "h": 5
+  },
+  "教父艾雷德尔": {
+    "quality": "named",
+    "h": 5
+  },
+  "教堂之枪哈尔弗莱特": {
+    "quality": "named",
+    "h": 5
+  },
+  "黑龙米狄尔": {
+    "quality": "named",
+    "h": 5
+  },
+  "盖尔": {
+    "quality": "named",
+    "h": 5
+  },
+  "防火女": {
+    "quality": "named",
+    "h": 4
+  },
+  "霍克伍德": {
+    "quality": "named",
+    "h": 4
+  },
+  "铁匠安德烈": {
+    "quality": "named",
+    "h": 4
+  },
+  "祭祀场侍女": {
+    "quality": "named",
+    "h": 4
+  },
+  "库尔兰的鲁道斯": {
+    "quality": "named",
+    "a": 2
+  },
+  "约尔": {
+    "quality": "named",
+    "a": 2
+  },
+  "尤莉亚": {
+    "quality": "named",
+    "a": 2
+  },
+  "安瑞": {
+    "quality": "named",
+    "h": 4
+  },
+  "沉默骑士霍拉斯": {
+    "quality": "named",
+    "h": 4
+  },
+  "西格瓦德": {
+    "quality": "named",
+    "h": 4
+  },
+  "不屈不挠的帕奇": {
+    "quality": "named",
+    "a": 2
+  },
+  "希里斯": {
+    "quality": "named",
+    "a": 2
+  },
+  "无名指的李奥纳多": {
+    "quality": "named",
+    "a": 2
+  },
+  "重生之母罗莎莉亚": {
+    "quality": "named",
+    "a": 2,
+    "h": 2
+  },
+  "卡利姆的伊莉娜": {
+    "quality": "named",
+    "h": 4
+  },
+  "卡利姆的伊果": {
+    "quality": "named",
+    "h": 4
+  },
+  "奥贝克": {
+    "quality": "named",
+    "h": 4
+  },
+  "大沼的柯弭库斯": {
+    "quality": "named",
+    "h": 4
+  },
+  "卡露拉": {
+    "quality": "named",
+    "h": 4
+  },
+  "不死聚落的葛雷瑞特": {
+    "quality": "named",
+    "h": 4
+  },
+  "药指的海泽尔": {
+    "quality": "named",
+    "a": 2
+  },
+  "神圣骑士霍德里克": {
+    "quality": "named",
+    "a": 2,
+    "h": 2
+  },
+  "猎杀骑士克雷顿": {
+    "quality": "named",
+    "a": 2
+  },
+  "巡礼者隆道尔的苍白影子": {
+    "quality": "named",
+    "h": 3
+  },
+  "黑手哥德希尔特": {
+    "quality": "named",
+    "a": 2
+  },
+  "狮子骑士艾伯特": {
+    "quality": "named",
+    "a": 2
+  },
+  "绘画少女": {
+    "quality": "named",
+    "a": 2
+  },
+  "拉普": {
+    "quality": "named",
+    "h": 4
+  },
+  "费莲诺尔的骑士希拉": {
+    "quality": "named",
+    "h": 4
+  },
+  "卡利姆的罗德里克": {
+    "quality": "named",
+    "h": 4,
+    "a": 0,
+    "zeroAttackPunish": 3,
+    "lore": "以双钩曲剑作战、觊觎防火女灵魂的宠爱骑士。平时基础攻击力为0；只有正对面的存活敌卡攻击力为0时，基础攻击力才变为3。对位空着或敌卡攻击不为0时仍为0，额外强化另算，擅长趁弱下手。"
+  },
+  "守墓人亚格德蓝": {
+    "quality": "named",
+    "h": 4
+  },
+  "彼海姆的文海姆": {
+    "quality": "named",
+    "h": 4
+  },
+  "伪王欧兰特": {
+    "quality": "named",
+    "h": 5
+  },
+  "老王欧兰特": {
+    "quality": "named",
+    "h": 5
+  },
+  "少女阿斯特蕾亚": {
+    "quality": "named",
+    "h": 4
+  },
+  "黑衣少女": {
+    "quality": "named",
+    "h": 4
+  },
+  "要人": {
+    "quality": "named",
+    "h": 4
+  },
+  "圣者于尔班": {
+    "quality": "named",
+    "h": 4
+  },
+  "于尔班的信徒": {
+    "quality": "named",
+    "a": 2
+  },
+  "瑟琳·文兰": {
+    "quality": "named",
+    "h": 4
+  },
+  "加尔·文兰": {
+    "quality": "named",
+    "h": 4
+  },
+  "托马斯": {
+    "quality": "named",
+    "h": 4
+  },
+  "铁匠鲍德温": {
+    "quality": "named",
+    "h": 4
+  },
+  "铁匠艾德": {
+    "quality": "named",
+    "h": 4
+  },
+  "颓丧战士": {
+    "quality": "named",
+    "a": 2
+  },
+  "奥斯特拉瓦": {
+    "quality": "named",
+    "h": 4
+  },
+  "比约尔": {
+    "quality": "named",
+    "h": 4
+  },
+  "老王多兰": {
+    "quality": "named",
+    "h": 4
+  },
+  "米兰达": {
+    "quality": "named",
+    "a": 2
+  },
+  "斯克维尔": {
+    "quality": "named",
+    "h": 4
+  },
+  "五月": {
+    "quality": "named",
+    "a": 2,
+    "h": 2
+  },
+  "恶魂·帕奇": {
+    "quality": "named",
+    "h": 4
+  },
+  "肮脏男人": {
+    "quality": "named",
+    "h": 4
+  },
+  "肮脏女人": {
+    "quality": "named",
+    "h": 4
+  },
+  "王城奴隶商人": {
+    "quality": "named",
+    "h": 4
+  },
+  "墓掘者布莱吉": {
+    "quality": "named",
+    "h": 4
+  },
+  "闪闪鸟": {
+    "quality": "named",
+    "h": 4
+  },
+  "尤特": {
+    "quality": "named",
+    "a": 2
+  },
+  "梅菲斯托费勒": {
+    "quality": "named",
+    "a": 2,
+    "h": 2
+  },
+  "魔女尤莉亚": {
+    "quality": "named",
+    "h": 4
+  },
+  "贤者弗瑞克": {
+    "quality": "named",
+    "h": 4
+  },
+  "弗瑞克的徒弟": {
+    "quality": "named",
+    "h": 4
+  },
+  "雷德尔": {
+    "quality": "named",
+    "a": 2
+  },
+  "前王室贵妇": {
+    "quality": "named",
+    "h": 4
+  },
+  "加斯科因": {
+    "quality": "named",
+    "h": 4
+  },
+  "阿梅利亚": {
+    "quality": "named",
+    "h": 4
+  },
+  "罗姆": {
+    "quality": "named",
+    "h": 6
+  },
+  "黑兽帕尔": {
+    "quality": "named",
+    "h": 5
+  },
+  "米克拉什": {
+    "quality": "named",
+    "h": 5
+  },
+  "伊布莱塔斯": {
+    "quality": "named",
+    "h": 6
+  },
+  "格曼": {
+    "quality": "named",
+    "h": 4
+  },
+  "路德维希": {
+    "quality": "named",
+    "h": 6
+  },
+  "劳伦斯": {
+    "quality": "named",
+    "h": 5,
+    "lore": "初代主教的兽化躯体被烈火与熔岩吞没；近身攻击者也会被灼热的躯体反噬。"
+  },
+  "玛丽亚": {
+    "quality": "named",
+    "h": 4
+  },
+  "苏美鲁女王雅南": {
+    "quality": "named",
+    "h": 5
+  },
+  "人偶": {
+    "quality": "named",
+    "a": 2
+  },
+  "吉尔伯特": {
+    "quality": "named",
+    "a": 2
+  },
+  "亚莉安娜": {
+    "quality": "named",
+    "a": 2
+  },
+  "阿黛拉": {
+    "quality": "named",
+    "h": 4
+  },
+  "欧顿小教堂居民": {
+    "quality": "named",
+    "a": 2
+  },
+  "孤独老妇人": {
+    "quality": "named",
+    "a": 2
+  },
+  "加斯科因的小女儿": {
+    "quality": "named",
+    "a": 2
+  },
+  "小女孩的姐姐": {
+    "quality": "named",
+    "a": 2
+  },
+  "约瑟夫卡": {
+    "quality": "named",
+    "h": 4
+  },
+  "冒牌约瑟夫卡": {
+    "quality": "named",
+    "h": 4
+  },
+  "艾琳": {
+    "quality": "named",
+    "h": 3
+  },
+  "杜拉": {
+    "quality": "named",
+    "a": 2
+  },
+  "阿尔弗雷德": {
+    "quality": "named",
+    "a": 2,
+    "h": 2
+  },
+  "亨利克": {
+    "quality": "named",
+    "a": 2,
+    "h": 2
+  },
+  "瓦尔特": {
+    "quality": "named",
+    "a": 2,
+    "h": 2
+  },
+  "安娜莉丝": {
+    "quality": "named",
+    "a": 2,
+    "h": 2
+  },
+  "西蒙": {
+    "quality": "named",
+    "a": 2
+  },
+  "布拉多": {
+    "quality": "named",
+    "a": 2,
+    "h": 2
+  },
+  "圣女阿德琳": {
+    "quality": "named",
+    "a": 2,
+    "h": 2
+  },
+  "可疑乞丐": {
+    "quality": "named",
+    "a": 2
+  },
+  "蜘蛛帕奇": {
+    "quality": "named",
+    "a": 2
+  },
+  "老猎人亨利特": {
+    "quality": "named",
+    "a": 2,
+    "h": 2
+  },
+  "双胞胎弟弟马达拉斯": {
+    "quality": "named",
+    "a": 2
+  },
+  "狼": {
+    "quality": "named",
+    "h": 3
+  },
+  "鬼刑部": {
+    "quality": "named",
+    "a": 3
+  },
+  "蝴蝶夫人": {
+    "quality": "named",
+    "h": 4
+  },
+  "弦一郎": {
+    "quality": "named",
+    "h": 4
+  },
+  "枭": {
+    "quality": "named",
+    "h": 3
+  },
+  "义父": {
+    "quality": "named",
+    "h": 4
+  },
+  "一心": {
+    "quality": "named",
+    "h": 4
+  },
+  "艾玛": {
+    "quality": "named",
+    "h": 4
+  },
+  "侍大将河原田直盛": {
+    "quality": "named",
+    "h": 3
+  },
+  "侍大将山内典膳": {
+    "quality": "named",
+    "h": 3
+  },
+  "侍大将松本内藏佑": {
+    "quality": "named",
+    "h": 3
+  },
+  "苇名七本枪山内式部利胜": {
+    "quality": "named",
+    "h": 3
+  },
+  "苇名七本枪鬼庭主马雅次": {
+    "quality": "named",
+    "h": 3
+  },
+  "苇名流佐濑甚助": {
+    "quality": "named",
+    "h": 3
+  },
+  "水生氏成": {
+    "quality": "named",
+    "h": 3
+  },
+  "蚺蛇重藏": {
+    "quality": "named",
+    "h": 4
+  },
+  "牛饮德次郎": {
+    "quality": "named",
+    "h": 4
+  },
+  "赤备重吉": {
+    "quality": "named",
+    "h": 5
+  },
+  "长爪蜈蚣仙云": {
+    "quality": "named",
+    "h": 3
+  },
+  "长爪蜈蚣峰云": {
+    "quality": "named",
+    "h": 3
+  },
+  "蛇眼白藤": {
+    "quality": "named",
+    "h": 4
+  },
+  "蛇眼白萩": {
+    "quality": "named",
+    "h": 4
+  },
+  "孤影众枪足之正长": {
+    "quality": "named",
+    "h": 4
+  },
+  "淤加美长老静": {
+    "quality": "named",
+    "a": 3,
+    "h": 4
+  },
+  "九郎": {
+    "quality": "named",
+    "h": 4
+  },
+  "变若之子": {
+    "quality": "named",
+    "h": 4
+  },
+  "黑笠之貉": {
+    "quality": "named",
+    "h": 4
+  },
+  "穴山": {
+    "quality": "named",
+    "h": 4
+  },
+  "藤冈": {
+    "quality": "named",
+    "h": 4
+  },
+  "小太郎": {
+    "quality": "named",
+    "h": 4
+  },
+  "阵左卫门": {
+    "quality": "named",
+    "h": 4
+  },
+  "伊之介": {
+    "quality": "named",
+    "h": 4
+  },
+  "野上玄斋": {
+    "quality": "named",
+    "h": 4
+  },
+  "雕刻师": {
+    "quality": "named",
+    "a": 2
+  },
+  "道顺": {
+    "quality": "named",
+    "h": 4
+  },
+  "道玄": {
+    "quality": "named",
+    "h": 4
+  },
+  "不死半兵卫": {
+    "quality": "named",
+    "a": 2,
+    "h": 2
+  },
+  "坛子贵人春长": {
+    "quality": "named",
+    "h": 4
+  },
+  "坛子贵人维盛": {
+    "quality": "named",
+    "h": 4
+  },
+  "供养众": {
+    "quality": "named",
+    "h": 4
+  },
+  "水生阿凛": {
+    "quality": "named",
+    "h": 3
+  },
+  "玛尔基特": {
+    "quality": "named",
+    "h": 6
+  },
+  "葛瑞克": {
+    "quality": "named",
+    "h": 6
+  },
+  "蕾娜拉": {
+    "quality": "named",
+    "h": 5
+  },
+  "拉塔恩": {
+    "quality": "named",
+    "h": 6
+  },
+  "拉卡德": {
+    "quality": "named",
+    "h": 4
+  },
+  "莫格": {
+    "quality": "named",
+    "h": 4
+  },
+  "蒙葛特": {
+    "quality": "named",
+    "h": 4
+  },
+  "玛利喀斯": {
+    "quality": "named",
+    "h": 5
+  },
+  "荷莱·露": {
+    "quality": "named",
+    "h": 6
+  },
+  "葛孚雷": {
+    "quality": "named",
+    "h": 6
+  },
+  "拉达冈": {
+    "quality": "named",
+    "h": 4
+  },
+  "玛莲妮亚": {
+    "quality": "named",
+    "h": 4
+  },
+  "米凯拉": {
+    "quality": "named",
+    "a": 2,
+    "h": 2
+  },
+  "恶兆妖鬼蒙格": {
+    "quality": "named",
+    "h": 4
+  },
+  "熔炉骑士奥陶琵斯": {
+    "quality": "named",
+    "h": 6
+  },
+  "熔炉骑士志留亚": {
+    "quality": "named",
+    "h": 6
+  },
+  "铁棘艾隆梅尔": {
+    "quality": "named",
+    "h": 5
+  },
+  "黑刀之首亚勒托": {
+    "quality": "named",
+    "h": 5
+  },
+  "猎犬骑士达瑞威尔": {
+    "quality": "named",
+    "h": 5
+  },
+  "猎犬骑士弗罗": {
+    "quality": "named",
+    "h": 6
+  },
+  "魔法教授米丽安": {
+    "quality": "named",
+    "a": 4,
+    "h": 5
+  },
+  "红狼拉达冈": {
+    "quality": "named",
+    "h": 5
+  },
+  "老将欧尼尔": {
+    "quality": "named",
+    "h": 6
+  },
+  "老将尼奥": {
+    "quality": "named",
+    "h": 6
+  },
+  "艾丝缇": {
+    "quality": "named",
+    "a": 3,
+    "h": 4
+  },
+  "黑暗繁星艾丝缇": {
+    "quality": "named",
+    "a": 3,
+    "h": 4
+  },
+  "飞龙亚基尔": {
+    "quality": "named",
+    "a": 3,
+    "h": 4
+  },
+  "辉石龙史玛拉格": {
+    "quality": "named",
+    "a": 3,
+    "h": 4
+  },
+  "辉石龙亚杜拉": {
+    "quality": "named",
+    "a": 3,
+    "h": 4
+  },
+  "熔岩土龙马卡尔": {
+    "quality": "named",
+    "h": 6
+  },
+  "大土龙席欧朵利克": {
+    "quality": "named",
+    "h": 6
+  },
+  "冰结湖的玻列琉斯": {
+    "quality": "named",
+    "a": 3,
+    "h": 4
+  },
+  "腐败龙艾格基斯": {
+    "quality": "named",
+    "a": 3,
+    "h": 4
+  },
+  "飞龙桂雷尔": {
+    "quality": "named",
+    "a": 3,
+    "h": 4
+  },
+  "普拉顿桑克斯": {
+    "quality": "named",
+    "a": 3,
+    "h": 4
+  },
+  "兰沙克": {
+    "quality": "named",
+    "a": 3,
+    "h": 4
+  },
+  "弗尔桑克斯": {
+    "quality": "named",
+    "a": 3,
+    "h": 4
+  },
+  "大龙桂奥尔": {
+    "quality": "named",
+    "h": 6
+  },
+  "尊腐骑士芬雷": {
+    "quality": "named",
+    "h": 5
+  },
+  "卡利亚骑士穆格拉姆": {
+    "quality": "named",
+    "h": 3
+  },
+  "失乡骑士英格威尔": {
+    "quality": "named",
+    "h": 5
+  },
+  "红狮子骑士奥加": {
+    "quality": "named",
+    "h": 5
+  },
+  "克里斯托福": {
+    "quality": "named",
+    "h": 5
+  },
+  "露缇尔": {
+    "quality": "named",
+    "h": 4
+  },
+  "梅琳娜": {
+    "quality": "named",
+    "h": 2
+  },
+  "菈妮": {
+    "quality": "named",
+    "a": 2
+  },
+  "布莱泽": {
+    "quality": "named",
+    "h": 4
+  },
+  "罗杰尔": {
+    "quality": "named",
+    "h": 4
+  },
+  "瓦雷": {
+    "quality": "named",
+    "a": 2,
+    "h": 2
+  },
+  "玛莉卡": {
+    "quality": "named",
+    "a": 2,
+    "h": 2
+  },
+  "铁拳亚历山大": {
+    "quality": "named",
+    "h": 4
+  },
+  "壶哥": {
+    "quality": "named",
+    "h": 4
+  },
+  "狄亚罗斯": {
+    "quality": "named",
+    "h": 4
+  },
+  "涅斐丽·露": {
+    "quality": "named",
+    "h": 4
+  },
+  "海妲": {
+    "quality": "named",
+    "a": 2
+  },
+  "夏玻利利": {
+    "quality": "named",
+    "a": 2
+  },
+  "柏克": {
+    "quality": "named",
+    "h": 4
+  },
+  "交界地·帕奇": {
+    "quality": "named",
+    "a": 2
+  },
+  "伊蕾娜": {
+    "quality": "named",
+    "a": 2
+  },
+  "艾德格": {
+    "quality": "named",
+    "h": 4
+  },
+  "骑士贝纳尔": {
+    "quality": "named",
+    "h": 4
+  },
+  "叛律者亨利克斯": {
+    "quality": "named",
+    "h": 4
+  },
+  "“大角”忒拉格斯": {
+    "quality": "named",
+    "h": 4
+  },
+  "“古老骑士”伊修托邦": {
+    "quality": "named",
+    "h": 4
+  },
+  "“黄昏将尽”莱利": {
+    "quality": "named",
+    "a": 2
+  },
+  "“白狼战鬼”巴格莱姆": {
+    "quality": "named",
+    "h": 4
+  },
+  "“离群魔法师”维赫勒": {
+    "quality": "named",
+    "a": 2
+  },
+  "塞尔维斯": {
+    "quality": "named",
+    "h": 4
+  },
+  "魔女瑟濂": {
+    "quality": "named",
+    "a": 2
+  },
+  "魔法师托普斯": {
+    "quality": "named",
+    "h": 4
+  },
+  "阿祖勒": {
+    "quality": "named",
+    "a": 2
+  },
+  "卢瑟特": {
+    "quality": "named",
+    "a": 2
+  },
+  "米利森": {
+    "quality": "named",
+    "h": 2
+  },
+  "格威": {
+    "quality": "named",
+    "a": 2
+  },
+  "食粪者": {
+    "quality": "named",
+    "h": 4
+  },
+  "菲雅": {
+    "quality": "named",
+    "a": 2,
+    "h": 2
+  },
+  "D，狩猎死亡者": {
+    "quality": "named",
+    "h": 4
+  },
+  "罗德莉卡": {
+    "quality": "named",
+    "h": 2
+  },
+  "修古": {
+    "quality": "named",
+    "h": 4
+  },
+  "伊吉": {
+    "quality": "named",
+    "h": 4
+  },
+  "百智爵士基甸·奥夫尼尔": {
+    "quality": "named",
+    "a": 2
+  },
+  "恩夏": {
+    "quality": "named",
+    "a": 2,
+    "h": 2
+  },
+  "金面具": {
+    "quality": "named",
+    "h": 4
+  },
+  "柯林": {
+    "quality": "named",
+    "h": 4
+  },
+  "结缘教堂的米利耶": {
+    "quality": "named",
+    "h": 4
+  },
+  "拉缇娜": {
+    "quality": "named",
+    "a": 2
+  },
+  "尤拉": {
+    "quality": "named",
+    "h": 2
+  },
+  "艾琉诺拉": {
+    "quality": "named",
+    "h": 2
+  },
+  "娜斯塔西娅": {
+    "quality": "named",
+    "a": 2,
+    "h": 2
+  },
+  "“红灵”阿尔贝利希": {
+    "quality": "named",
+    "a": 2
+  },
+  "游牧商人咖列": {
+    "quality": "named",
+    "h": 4
+  },
+  "流氓": {
+    "quality": "named",
+    "h": 4
+  },
+  "菈雅": {
+    "quality": "named",
+    "a": 2
+  },
+  "塔妮丝": {
+    "quality": "named",
+    "h": 4
+  },
+  "战士壶大壶": {
+    "quality": "named",
+    "h": 4
+  },
+  "“穿刺者”梅瑟莫": {
+    "quality": "named",
+    "h": 4
+  },
+  "“暴虐”贝勒": {
+    "quality": "named",
+    "h": 4
+  },
+  "双月骑士蕾菈娜": {
+    "quality": "named",
+    "h": 4
+  },
+  "“老将”盖乌斯": {
+    "quality": "named",
+    "h": 6
+  },
+  "腐败眷属罗蜜娜": {
+    "quality": "named",
+    "h": 5
+  },
+  "指头之母梅蒂尔": {
+    "quality": "named",
+    "h": 6
+  },
+  "癫火之王米德拉": {
+    "quality": "named",
+    "a": 4,
+    "h": 5
+  },
+  "“约定之王”拉塔恩": {
+    "quality": "named",
+    "h": 6
+  },
+  "罗刹": {
+    "quality": "named",
+    "h": 4
+  },
+  "“锯齿山”之龙": {
+    "quality": "named",
+    "a": 3,
+    "h": 4
+  },
+  "古龙瑟涅桑克斯": {
+    "quality": "named",
+    "a": 3,
+    "h": 4
+  },
+  "“大祭司”尤弥尔": {
+    "quality": "named",
+    "a": 4,
+    "h": 5
+  },
+  "“古龙人”": {
+    "quality": "named",
+    "h": 6
+  },
+  "亚人剑圣翁吉": {
+    "quality": "named",
+    "h": 4
+  },
+  "蕾妲": {
+    "quality": "named",
+    "h": 4
+  },
+  "安帕赫": {
+    "quality": "named",
+    "a": 2,
+    "h": 2
+  },
+  "弗蕾雅": {
+    "quality": "named",
+    "h": 4
+  },
+  "角人": {
+    "quality": "named",
+    "a": 2
+  },
+  "角人老妪": {
+    "quality": "named",
+    "h": 4
+  },
+  "大维壶师": {
+    "quality": "named",
+    "a": 2
+  },
+  "穆尔": {
+    "quality": "named",
+    "h": 4
+  },
+  "休里耶": {
+    "quality": "named",
+    "a": 2
+  },
+  "圣女托莉娜": {
+    "quality": "named",
+    "a": 2,
+    "h": 2
+  },
+  "埃贡": {
+    "quality": "named",
+    "h": 4
+  },
+  "龙飨女巫芙柔桑克斯": {
+    "quality": "named",
+    "a": 2
+  },
+  "“黑夜剑士”约兰": {
+    "quality": "named",
+    "a": 2,
+    "lore": "效忠大主教的黑夜剑士挥动夜之刃，在相邻格间潜行，抓住孤立的对位下手。"
+  },
+  "“黑夜剑士”安娜": {
+    "quality": "named",
+    "a": 2,
+    "lore": "约兰的姐妹以夜之爪疾攻来客，借敏捷步伐寻找薄弱的对位。"
+  },
+  "红熊鲁格利亚": {
+    "quality": "named",
+    "h": 4
+  },
+  "火焰骑士昆兰": {
+    "quality": "named",
+    "a": 2
+  },
+  "火焰骑士希德": {
+    "quality": "named",
+    "a": 2
+  },
+  "丹恩": {
+    "quality": "named",
+    "h": 2
+  },
+  "比欧": {
+    "quality": "named",
+    "a": 3,
+    "h": 4
+  },
+  "弗雷克": {
+    "quality": "named",
+    "a": 3,
+    "h": 4
+  },
+  "乌尔班": {
+    "quality": "named",
+    "a": 3,
+    "h": 4
+  },
+  "老王奥兰特": {
+    "quality": "named",
+    "h": 5
+  },
+  "追逐者": {
+    "quality": "named",
+    "h": 4
+  },
+  "亡灵商人": {
+    "quality": "named",
+    "h": 4
+  },
+  "公爵的芙蕾雅·金辉": {
+    "h": 7
+  },
+  "亚尔特留斯·金辉": {
+    "h": 6
+  },
+  "盖尔·金辉": {
+    "h": 6
+  },
+  "玛莲妮亚·金辉": {
+    "h": 5
+  },
+  "薪王葛温·金辉": {
+    "h": 5
+  },
+  "墓王尼特·金辉": {
+    "h": 6
+  },
+  "格曼·金辉": {
+    "h": 5
+  },
+  "灼烧的白王·金辉": {
+    "h": 7
+  },
+  "鬼刑部·金辉": {
+    "a": 4
+  },
+  "蝴蝶夫人·金辉": {
+    "h": 5
+  },
+  "一心·金辉": {
+    "h": 5
+  },
+  "少女阿斯特蕾亚·金辉": {
+    "h": 5
+  },
+  "“穿刺者”梅瑟莫·金辉": {
+    "h": 5
+  },
+  "双月骑士蕾菈娜·金辉": {
+    "h": 5
+  },
+  "老王奥兰特·金辉": {
+    "h": 6
+  },
+  "追逐者·金辉": {
+    "h": 5
+  },
+  "加斯科因·金辉": {
+    "h": 5
+  },
+  "葛瑞克·金辉": {
+    "h": 7
+  },
+  "“约定之王”拉塔恩·金辉": {
+    "h": 7
+  },
+  "冷冽谷的玻尔多·金辉": {
+    "h": 6
+  },
+  "教宗沙力万·金辉": {
+    "h": 5
+  },
+  "弦一郎·金辉": {
+    "h": 5
+  },
+  "蕾娜拉·金辉": {
+    "h": 6
+  },
+  "深渊之主马努斯·金辉": {
+    "h": 6
+  },
+  "烟之骑士雷姆·金辉": {
+    "h": 7
+  },
+  "黑龙米狄尔·金辉": {
+    "h": 6
+  },
+  "路德维希·金辉": {
+    "h": 7
+  },
+  "玛丽亚·金辉": {
+    "h": 5
+  },
+  "玛尔基特·金辉": {
+    "h": 7
+  },
+  "拉达冈·金辉": {
+    "h": 5
+  },
+  "“暴虐”贝勒·金辉": {
+    "h": 5
+  },
+  "奥斯卡·金辉": {
+    "a": 3
+  },
+  "帕奇·金辉": {
+    "a": 3
+  },
+  "索拉尔·金辉": {
+    "h": 5
+  },
+  "魔女克拉格·金辉": {
+    "h": 6
+  },
+  "奥恩斯坦·金辉": {
+    "h": 6
+  },
+  "斯莫·金辉": {
+    "h": 6
+  },
+  "卡拉米特·金辉": {
+    "a": 4,
+    "h": 5
+  },
+  "毒妃米妲·金辉": {
+    "h": 6
+  },
+  "娜香德拉·金辉": {
+    "h": 5
+  },
+  "王兄安第尔·金辉": {
+    "h": 5
+  },
+  "骑士亚伦·金辉": {
+    "h": 5
+  },
+  "灰烬审判者古达·金辉": {
+    "h": 7
+  },
+  "霸王沃尼尔·金辉": {
+    "h": 6
+  },
+  "巨人尤姆·金辉": {
+    "h": 7
+  },
+  "洛斯里克王子·金辉": {
+    "h": 5
+  },
+  "修女芙莉德·金辉": {
+    "h": 6
+  },
+  "阿梅利亚·金辉": {
+    "h": 5
+  },
+  "罗姆·金辉": {
+    "h": 7
+  },
+  "米克拉什·金辉": {
+    "h": 6
+  },
+  "劳伦斯·金辉": {
+    "h": 6
+  },
+  "枭·金辉": {
+    "h": 4
+  },
+  "艾玛·金辉": {
+    "h": 5
+  },
+  "义父·金辉": {
+    "h": 5
+  },
+  "红狼拉达冈·金辉": {
+    "h": 6
+  },
+  "拉塔恩·金辉": {
+    "h": 7
+  },
+  "蒙葛特·金辉": {
+    "h": 5
+  },
+  "拉卡德·金辉": {
+    "h": 5
+  },
+  "莫格·金辉": {
+    "h": 5
+  },
+  "玛利喀斯·金辉": {
+    "h": 6
+  },
+  "葛孚雷·金辉": {
+    "h": 7
+  }
+}
