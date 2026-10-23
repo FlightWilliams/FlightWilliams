@@ -1,0 +1,13 @@
+{
+  "name": "lantern-oath-indiegame",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "build": "python3 build.py",
+    "test:data": "python3 tests/data_check.py",
+    "test:browser": "node tests/browser_check.cjs"
+  },
+  "devDependencies": {
+    "playwright": "1.62.1"
+  }
+}

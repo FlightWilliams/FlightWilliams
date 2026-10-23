@@ -1,0 +1,9 @@
+Lantern Oath / 灯誓牌
+Author: Will Wang
+
+The setting, card names and descriptions, character dialogue, coin faces, lantern images and geometric pact emblems were authored for this project.
+Music uses original note scores and local procedural synthesis. All sound effects are generated from oscillators and noise; this edition contains no recorded sound samples.
+
+The handwritten signature uses a subset of Dancing Script, renamed Will Wang Signature, under the SIL Open Font License 1.1. Copyright 2016 The Dancing Script Project Authors. The complete notice is distributed in assets/font-OFL.txt and embedded with the stylesheet.
+
+The project does not claim that every third-party font is original. Names and artwork should receive the usual clearance review before commercial release.

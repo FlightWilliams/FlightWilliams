@@ -1,0 +1,66 @@
+[
+  {
+    "name": "effectiveCardAttack",
+    "passed": true
+  },
+  {
+    "name": "canSacrificeCard",
+    "passed": true
+  },
+  {
+    "name": "dealt",
+    "passed": true
+  },
+  {
+    "name": "frozenTurns",
+    "passed": true
+  },
+  {
+    "name": "kill",
+    "passed": true
+  },
+  {
+    "name": "atk",
+    "passed": true
+  },
+  {
+    "name": "canMove",
+    "passed": true
+  },
+  {
+    "name": "endTurn",
+    "passed": true
+  },
+  {
+    "name": "aiChooseDeployment",
+    "passed": true
+  },
+  {
+    "name": "aiDeployChoice",
+    "passed": true
+  },
+  {
+    "name": "enemyPlay6",
+    "passed": true
+  },
+  {
+    "name": "bossTakeCardDamage",
+    "passed": true
+  },
+  {
+    "name": "bossResolveAttack",
+    "passed": true
+  },
+  {
+    "name": "bossSkillReady",
+    "passed": true
+  },
+  {
+    "name": "runBossAbility",
+    "passed": true
+  },
+  {
+    "name": "runPlayerBossAbility",
+    "passed": true
+  }
+]

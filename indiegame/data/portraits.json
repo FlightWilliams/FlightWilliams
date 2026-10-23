@@ -1,0 +1,9868 @@
+{
+  "苔庭裂角客领誓·阿珀": {
+    "family": "demon",
+    "features": [
+      "mark",
+      "spikes",
+      "orbit"
+    ],
+    "color": "#88a472",
+    "seed": 3687157962,
+    "note": "苔雾荒庭的裂角客，以几何纹章描绘。"
+  },
+  "苔庭赤角兽领誓·艾珀": {
+    "family": "bull",
+    "features": [
+      "mark",
+      "orbit"
+    ],
+    "color": "#88a472",
+    "seed": 1486850287,
+    "note": "苔雾荒庭的赤角兽，以几何纹章描绘。"
+  },
+  "苔庭攀崖羊灵领誓·伊珀": {
+    "family": "goat",
+    "features": [
+      "mark",
+      "orbit"
+    ],
+    "color": "#88a472",
+    "seed": 3118804441,
+    "note": "苔雾荒庭的攀崖羊灵，以几何纹章描绘。"
+  },
+  "苔庭裂角客领誓·欧珀": {
+    "family": "demon",
+    "features": [
+      "mark",
+      "wings",
+      "orbit"
+    ],
+    "color": "#88a472",
+    "seed": 3064187359,
+    "note": "苔雾荒庭的裂角客，以几何纹章描绘。"
+  },
+  "苔庭绛纹蝶领誓·乌珀": {
+    "family": "butterfly",
+    "features": [
+      "mark",
+      "wings",
+      "orbit"
+    ],
+    "color": "#88a472",
+    "seed": 1993760503,
+    "note": "苔雾荒庭的绛纹蝶，以几何纹章描绘。"
+  },
+  "苔庭晶棘蜥龙领誓·依珀": {
+    "family": "dragon",
+    "features": [
+      "mark",
+      "orbit"
+    ],
+    "color": "#88a472",
+    "seed": 3272397320,
+    "note": "苔雾荒庭的晶棘蜥龙，以几何纹章描绘。"
+  },
+  "苔庭织光蛛领誓·雅珀": {
+    "family": "spider",
+    "features": [
+      "mark",
+      "spikes",
+      "orbit"
+    ],
+    "color": "#88a472",
+    "seed": 832263073,
+    "note": "苔雾荒庭的织光蛛，以几何纹章描绘。"
+  },
+  "苔庭裂角客领誓·诺珀": {
+    "family": "demon",
+    "features": [
+      "mark",
+      "orbit"
+    ],
+    "color": "#88a472",
+    "seed": 2599815493,
+    "note": "苔雾荒庭的裂角客，以几何纹章描绘。"
+  },
+  "苔庭峰脊巨灵领誓·瑟珀": {
+    "family": "giant",
+    "features": [
+      "mark",
+      "shield",
+      "orbit"
+    ],
+    "color": "#88a472",
+    "seed": 3321033885,
+    "note": "苔雾荒庭的峰脊巨灵，以几何纹章描绘。"
+  },
+  "苔庭铠卫领誓·维珀": {
+    "family": "knight",
+    "features": [
+      "mark",
+      "orbit"
+    ],
+    "color": "#88a472",
+    "seed": 1723870756,
+    "note": "苔雾荒庭的铠卫，以几何纹章描绘。"
+  },
+  "苔庭铠卫领誓·希珀": {
+    "family": "knight",
+    "features": [
+      "mark",
+      "orbit"
+    ],
+    "color": "#88a472",
+    "seed": 3667431522,
+    "note": "苔雾荒庭的铠卫，以几何纹章描绘。"
+  },
+  "苔庭灯议长·洛珀": {
+    "family": "mage",
+    "features": [
+      "mark",
+      "orbit"
+    ],
+    "color": "#88a472",
+    "seed": 1079299248,
+    "note": "苔雾荒庭的观灯师，以几何纹章描绘。"
+  },
+  "苔庭缄骨客领誓·米珀": {
+    "family": "undead",
+    "features": [
+      "mark",
+      "orbit"
+    ],
+    "color": "#88a472",
+    "seed": 191796619,
+    "note": "苔雾荒庭的缄骨客，以几何纹章描绘。"
+  },
+  "苔庭晶棘蜥龙领誓·岚珀": {
+    "family": "dragon",
+    "features": [
+      "mark",
+      "spark",
+      "orbit"
+    ],
+    "color": "#88a472",
+    "seed": 2128309248,
+    "note": "苔雾荒庭的晶棘蜥龙，以几何纹章描绘。"
+  },
+  "苔庭浮辉使领誓·索珀": {
+    "family": "spirit",
+    "features": [
+      "mark",
+      "spark",
+      "orbit"
+    ],
+    "color": "#88a472",
+    "seed": 2626074538,
+    "note": "苔雾荒庭的浮辉使，以几何纹章描绘。"
+  },
+  "苔庭峰脊巨灵领誓·莱珀": {
+    "family": "giant",
+    "features": [
+      "mark",
+      "orbit"
+    ],
+    "color": "#88a472",
+    "seed": 2647872670,
+    "note": "苔雾荒庭的峰脊巨灵，以几何纹章描绘。"
+  },
+  "苔庭裂角客领誓·岑珀": {
+    "family": "demon",
+    "features": [
+      "mark",
+      "orbit"
+    ],
+    "color": "#88a472",
+    "seed": 1499942809,
+    "note": "苔雾荒庭的裂角客，以几何纹章描绘。"
+  },
+  "苔庭地缝蠕虫领誓·塔珀": {
+    "family": "worm",
+    "features": [
+      "mark",
+      "orbit"
+    ],
+    "color": "#88a472",
+    "seed": 1722120845,
+    "note": "苔雾荒庭的地缝蠕虫，以几何纹章描绘。"
+  },
+  "苔庭枝灯树灵领誓·莫珀": {
+    "family": "plant",
+    "features": [
+      "mark",
+      "shield",
+      "orbit"
+    ],
+    "color": "#88a472",
+    "seed": 2247406604,
+    "note": "苔雾荒庭的枝灯树灵，以几何纹章描绘。"
+  },
+  "苔庭巡影狼领誓·伦珀": {
+    "family": "wolf",
+    "features": [
+      "mark",
+      "orbit"
+    ],
+    "color": "#88a472",
+    "seed": 886077680,
+    "note": "苔雾荒庭的巡影狼，以几何纹章描绘。"
+  },
+  "苔庭灯议长·佩珀": {
+    "family": "human",
+    "features": [
+      "mark",
+      "orbit"
+    ],
+    "color": "#88a472",
+    "seed": 2492657152,
+    "note": "苔雾荒庭的巡灯使，以几何纹章描绘。"
+  },
+  "苔庭灯议长·泽珀": {
+    "family": "mage",
+    "features": [
+      "mark",
+      "orbit"
+    ],
+    "color": "#88a472",
+    "seed": 4062130621,
+    "note": "苔雾荒庭的观灯师，以几何纹章描绘。"
+  },
+  "苔庭灯议长·图珀": {
+    "family": "human",
+    "features": [
+      "mark",
+      "visor",
+      "orbit"
+    ],
+    "color": "#88a472",
+    "seed": 243137074,
+    "note": "苔雾荒庭的巡灯使，以几何纹章描绘。"
+  },
+  "苔庭镜瞳山猫领誓·芮珀": {
+    "family": "cat",
+    "features": [
+      "mark",
+      "wings",
+      "orbit"
+    ],
+    "color": "#88a472",
+    "seed": 476665696,
+    "note": "苔雾荒庭的镜瞳山猫，以几何纹章描绘。"
+  },
+  "苔庭铠卫领誓·阿恩": {
+    "family": "knight",
+    "features": [
+      "mark",
+      "shield",
+      "orbit"
+    ],
+    "color": "#88a472",
+    "seed": 4286264205,
+    "note": "苔雾荒庭的铠卫，以几何纹章描绘。"
+  },
+  "苔庭晶棘蜥龙领誓·艾恩": {
+    "family": "dragon",
+    "features": [
+      "mark",
+      "wings",
+      "orbit"
+    ],
+    "color": "#88a472",
+    "seed": 2439956358,
+    "note": "苔雾荒庭的晶棘蜥龙，以几何纹章描绘。"
+  },
+  "苔庭裂角客领誓·伊恩": {
+    "family": "demon",
+    "features": [
+      "mark",
+      "orbit"
+    ],
+    "color": "#88a472",
+    "seed": 142703741,
+    "note": "苔雾荒庭的裂角客，以几何纹章描绘。"
+  },
+  "苔庭铠卫·欧恩": {
+    "family": "knight",
+    "features": [
+      "mark",
+      "shield",
+      "spark"
+    ],
+    "color": "#88a472",
+    "seed": 692082412,
+    "note": "苔雾荒庭的铠卫，以几何纹章描绘。"
+  },
+  "苔庭铠卫·乌恩": {
+    "family": "knight",
+    "features": [
+      "mark",
+      "shield"
+    ],
+    "color": "#88a472",
+    "seed": 939433648,
+    "note": "苔雾荒庭的铠卫，以几何纹章描绘。"
+  },
+  "苔庭铠卫·依恩": {
+    "family": "knight",
+    "features": [
+      "mark",
+      "shield"
+    ],
+    "color": "#88a472",
+    "seed": 4178873119,
+    "note": "苔雾荒庭的铠卫，以几何纹章描绘。"
+  },
+  "苔庭铠卫·雅恩": {
+    "family": "knight",
+    "features": [
+      "mark"
+    ],
+    "color": "#88a472",
+    "seed": 554723894,
+    "note": "苔雾荒庭的铠卫，以几何纹章描绘。"
+  },
+  "苔庭巡灯使·诺恩": {
+    "family": "human",
+    "features": [
+      "mark"
+    ],
+    "color": "#88a472",
+    "seed": 419006803,
+    "note": "苔雾荒庭的巡灯使，以几何纹章描绘。"
+  },
+  "苔庭峰脊巨灵·瑟恩": {
+    "family": "giant",
+    "features": [
+      "mark"
+    ],
+    "color": "#88a472",
+    "seed": 2100212714,
+    "note": "苔雾荒庭的峰脊巨灵，以几何纹章描绘。"
+  },
+  "苔庭缄骨客·维恩": {
+    "family": "undead",
+    "features": [
+      "mark"
+    ],
+    "color": "#88a472",
+    "seed": 985933271,
+    "note": "苔雾荒庭的缄骨客，以几何纹章描绘。"
+  },
+  "苔庭观灯师·希恩": {
+    "family": "mage",
+    "features": [
+      "mark"
+    ],
+    "color": "#88a472",
+    "seed": 1461337386,
+    "note": "苔雾荒庭的观灯师，以几何纹章描绘。"
+  },
+  "苔庭观灯师·洛恩": {
+    "family": "mage",
+    "features": [
+      "mark"
+    ],
+    "color": "#88a472",
+    "seed": 1831108612,
+    "note": "苔雾荒庭的观灯师，以几何纹章描绘。"
+  },
+  "苔庭观灯师·米恩": {
+    "family": "mage",
+    "features": [
+      "mark"
+    ],
+    "color": "#88a472",
+    "seed": 49683955,
+    "note": "苔雾荒庭的观灯师，以几何纹章描绘。"
+  },
+  "苔庭观灯师·岚恩": {
+    "family": "mage",
+    "features": [
+      "mark"
+    ],
+    "color": "#88a472",
+    "seed": 4166889949,
+    "note": "苔雾荒庭的观灯师，以几何纹章描绘。"
+  },
+  "苔庭巡灯使·索恩": {
+    "family": "human",
+    "features": [
+      "mark"
+    ],
+    "color": "#88a472",
+    "seed": 3768988709,
+    "note": "苔雾荒庭的巡灯使，以几何纹章描绘。"
+  },
+  "苔庭织光蛛·莱恩": {
+    "family": "spider",
+    "features": [
+      "mark",
+      "spark"
+    ],
+    "color": "#88a472",
+    "seed": 4059988185,
+    "note": "苔雾荒庭的织光蛛，以几何纹章描绘。"
+  },
+  "苔庭修灯师·岑恩": {
+    "family": "healer",
+    "features": [
+      "mark",
+      "spark"
+    ],
+    "color": "#88a472",
+    "seed": 276593436,
+    "note": "苔雾荒庭的修灯师，以几何纹章描绘。"
+  },
+  "苔庭修灯师·塔恩": {
+    "family": "healer",
+    "features": [
+      "mark"
+    ],
+    "color": "#88a472",
+    "seed": 3400520676,
+    "note": "苔雾荒庭的修灯师，以几何纹章描绘。"
+  },
+  "苔庭潜印客·莫恩": {
+    "family": "rogue",
+    "features": [
+      "mark"
+    ],
+    "color": "#88a472",
+    "seed": 2927186832,
+    "note": "苔雾荒庭的潜印客，以几何纹章描绘。"
+  },
+  "苔庭修灯师·伦恩": {
+    "family": "healer",
+    "features": [
+      "mark",
+      "spark"
+    ],
+    "color": "#88a472",
+    "seed": 3297808283,
+    "note": "苔雾荒庭的修灯师，以几何纹章描绘。"
+  },
+  "苔庭铠卫·佩恩": {
+    "family": "knight",
+    "features": [
+      "mark",
+      "shield",
+      "spark"
+    ],
+    "color": "#88a472",
+    "seed": 1924446215,
+    "note": "苔雾荒庭的铠卫，以几何纹章描绘。"
+  },
+  "苔庭峰脊巨灵·泽恩": {
+    "family": "giant",
+    "features": [
+      "mark"
+    ],
+    "color": "#88a472",
+    "seed": 417934404,
+    "note": "苔雾荒庭的峰脊巨灵，以几何纹章描绘。"
+  },
+  "苔庭潜印客·图恩": {
+    "family": "rogue",
+    "features": [
+      "mark"
+    ],
+    "color": "#88a472",
+    "seed": 600083659,
+    "note": "苔雾荒庭的潜印客，以几何纹章描绘。"
+  },
+  "苔庭潜印客·芮恩": {
+    "family": "rogue",
+    "features": [
+      "mark"
+    ],
+    "color": "#88a472",
+    "seed": 99174687,
+    "note": "苔雾荒庭的潜印客，以几何纹章描绘。"
+  },
+  "苔庭环藤蛇·阿拉": {
+    "family": "snake",
+    "features": [
+      "mark"
+    ],
+    "color": "#88a472",
+    "seed": 1261959925,
+    "note": "苔雾荒庭的环藤蛇，以几何纹章描绘。"
+  },
+  "苔庭环藤蛇·艾拉": {
+    "family": "snake",
+    "features": [
+      "mark"
+    ],
+    "color": "#88a472",
+    "seed": 717373497,
+    "note": "苔雾荒庭的环藤蛇，以几何纹章描绘。"
+  },
+  "苔庭缄骨客·伊拉": {
+    "family": "undead",
+    "features": [
+      "mark"
+    ],
+    "color": "#88a472",
+    "seed": 716329012,
+    "note": "苔雾荒庭的缄骨客，以几何纹章描绘。"
+  },
+  "苔庭缄骨客·欧拉": {
+    "family": "undead",
+    "features": [
+      "mark"
+    ],
+    "color": "#88a472",
+    "seed": 3164431582,
+    "note": "苔雾荒庭的缄骨客，以几何纹章描绘。"
+  },
+  "苔庭巡灯使·乌拉": {
+    "family": "human",
+    "features": [
+      "mark"
+    ],
+    "color": "#88a472",
+    "seed": 973235322,
+    "note": "苔雾荒庭的巡灯使，以几何纹章描绘。"
+  },
+  "苔庭绒伞菌灵·依拉": {
+    "family": "mushroom",
+    "features": [
+      "mark",
+      "spark"
+    ],
+    "color": "#88a472",
+    "seed": 3004567197,
+    "note": "苔雾荒庭的绒伞菌灵，以几何纹章描绘。"
+  },
+  "苔庭观灯师·雅拉": {
+    "family": "mage",
+    "features": [
+      "mark"
+    ],
+    "color": "#88a472",
+    "seed": 247175660,
+    "note": "苔雾荒庭的观灯师，以几何纹章描绘。"
+  },
+  "苔庭铠卫·诺拉": {
+    "family": "knight",
+    "features": [
+      "mark",
+      "spikes"
+    ],
+    "color": "#88a472",
+    "seed": 1290943605,
+    "note": "苔雾荒庭的铠卫，以几何纹章描绘。"
+  },
+  "苔庭观灯师·瑟拉": {
+    "family": "mage",
+    "features": [
+      "mark"
+    ],
+    "color": "#88a472",
+    "seed": 3349977090,
+    "note": "苔雾荒庭的观灯师，以几何纹章描绘。"
+  },
+  "苔庭琉纹缄骨客": {
+    "family": "undead",
+    "features": [
+      "mark"
+    ],
+    "color": "#88a472",
+    "seed": 888653803,
+    "note": "苔雾荒庭的缄骨客，以几何纹章描绘。"
+  },
+  "苔庭风蚀缄骨客": {
+    "family": "undead",
+    "features": [
+      "mark",
+      "shield"
+    ],
+    "color": "#88a472",
+    "seed": 1891773078,
+    "note": "苔雾荒庭的缄骨客，以几何纹章描绘。"
+  },
+  "苔庭静棱缄骨客": {
+    "family": "undead",
+    "features": [
+      "mark"
+    ],
+    "color": "#88a472",
+    "seed": 1665825533,
+    "note": "苔雾荒庭的缄骨客，以几何纹章描绘。"
+  },
+  "苔庭绒雾缄骨客": {
+    "family": "undead",
+    "features": [
+      "mark"
+    ],
+    "color": "#88a472",
+    "seed": 1617042997,
+    "note": "苔雾荒庭的缄骨客，以几何纹章描绘。"
+  },
+  "苔庭微烛潜印客": {
+    "family": "rogue",
+    "features": [
+      "mark"
+    ],
+    "color": "#88a472",
+    "seed": 2626464923,
+    "note": "苔雾荒庭的潜印客，以几何纹章描绘。"
+  },
+  "苔庭苔痕棱耳猎犬": {
+    "family": "dog",
+    "features": [
+      "mark"
+    ],
+    "color": "#88a472",
+    "seed": 2022302587,
+    "note": "苔雾荒庭的棱耳猎犬，以几何纹章描绘。"
+  },
+  "苔庭苔痕线尾鼠": {
+    "family": "rat",
+    "features": [
+      "mark"
+    ],
+    "color": "#88a472",
+    "seed": 168804928,
+    "note": "苔雾荒庭的线尾鼠，以几何纹章描绘。"
+  },
+  "苔庭铜缄线尾鼠": {
+    "family": "rat",
+    "features": [
+      "mark"
+    ],
+    "color": "#88a472",
+    "seed": 3368621057,
+    "note": "苔雾荒庭的线尾鼠，以几何纹章描绘。"
+  },
+  "苔庭苔痕砂脊蜥": {
+    "family": "lizard",
+    "features": [
+      "mark"
+    ],
+    "color": "#88a472",
+    "seed": 1477618482,
+    "note": "苔雾荒庭的砂脊蜥，以几何纹章描绘。"
+  },
+  "苔庭苔痕露囊蛙": {
+    "family": "frog",
+    "features": [
+      "mark",
+      "spots"
+    ],
+    "color": "#88a472",
+    "seed": 2984921194,
+    "note": "苔雾荒庭的露囊蛙，以几何纹章描绘。"
+  },
+  "苔庭苔痕凝光泥团": {
+    "family": "blob",
+    "features": [
+      "mark",
+      "shield"
+    ],
+    "color": "#88a472",
+    "seed": 2756084381,
+    "note": "苔雾荒庭的凝光泥团，以几何纹章描绘。"
+  },
+  "苔庭铜缄枝灯树灵": {
+    "family": "plant",
+    "features": [
+      "mark"
+    ],
+    "color": "#88a472",
+    "seed": 339946177,
+    "note": "苔雾荒庭的枝灯树灵，以几何纹章描绘。"
+  },
+  "苔庭铜缄绒伞菌灵": {
+    "family": "mushroom",
+    "features": [
+      "mark"
+    ],
+    "color": "#88a472",
+    "seed": 261295093,
+    "note": "苔雾荒庭的绒伞菌灵，以几何纹章描绘。"
+  },
+  "苔庭回声绒伞菌灵": {
+    "family": "mushroom",
+    "features": [
+      "mark"
+    ],
+    "color": "#88a472",
+    "seed": 2419475929,
+    "note": "苔雾荒庭的绒伞菌灵，以几何纹章描绘。"
+  },
+  "苔庭流砂铠卫": {
+    "family": "knight",
+    "features": [
+      "mark",
+      "shield"
+    ],
+    "color": "#88a472",
+    "seed": 3617042143,
+    "note": "苔雾荒庭的铠卫，以几何纹章描绘。"
+  },
+  "苔庭镜纹铠卫": {
+    "family": "knight",
+    "features": [
+      "mark",
+      "visor"
+    ],
+    "color": "#88a472",
+    "seed": 3175805250,
+    "note": "苔雾荒庭的铠卫，以几何纹章描绘。"
+  },
+  "苔庭远路铠卫": {
+    "family": "knight",
+    "features": [
+      "mark",
+      "shield"
+    ],
+    "color": "#88a472",
+    "seed": 1486624112,
+    "note": "苔雾荒庭的铠卫，以几何纹章描绘。"
+  },
+  "苔庭石封铠卫": {
+    "family": "knight",
+    "features": [
+      "mark",
+      "shield"
+    ],
+    "color": "#88a472",
+    "seed": 3040437798,
+    "note": "苔雾荒庭的铠卫，以几何纹章描绘。"
+  },
+  "苔庭鸣枝铠卫": {
+    "family": "knight",
+    "features": [
+      "mark",
+      "shield"
+    ],
+    "color": "#88a472",
+    "seed": 3389994601,
+    "note": "苔雾荒庭的铠卫，以几何纹章描绘。"
+  },
+  "苔庭暖灰铠卫": {
+    "family": "knight",
+    "features": [
+      "mark"
+    ],
+    "color": "#88a472",
+    "seed": 4124219084,
+    "note": "苔雾荒庭的铠卫，以几何纹章描绘。"
+  },
+  "苔庭夜航缄骨客": {
+    "family": "undead",
+    "features": [
+      "mark"
+    ],
+    "color": "#88a472",
+    "seed": 3497983872,
+    "note": "苔雾荒庭的缄骨客，以几何纹章描绘。"
+  },
+  "苔庭流砂缄骨客": {
+    "family": "undead",
+    "features": [
+      "mark",
+      "spikes"
+    ],
+    "color": "#88a472",
+    "seed": 3704866459,
+    "note": "苔雾荒庭的缄骨客，以几何纹章描绘。"
+  },
+  "苔庭夜航观灯师": {
+    "family": "mage",
+    "features": [
+      "mark"
+    ],
+    "color": "#88a472",
+    "seed": 3279868472,
+    "note": "苔雾荒庭的观灯师，以几何纹章描绘。"
+  },
+  "苔庭镜纹缄骨客": {
+    "family": "undead",
+    "features": [
+      "mark"
+    ],
+    "color": "#88a472",
+    "seed": 3900201174,
+    "note": "苔雾荒庭的缄骨客，以几何纹章描绘。"
+  },
+  "苔庭远路缄骨客": {
+    "family": "undead",
+    "features": [
+      "mark"
+    ],
+    "color": "#88a472",
+    "seed": 801365837,
+    "note": "苔雾荒庭的缄骨客，以几何纹章描绘。"
+  },
+  "苔庭回声环藤蛇": {
+    "family": "snake",
+    "features": [
+      "mark",
+      "shield"
+    ],
+    "color": "#88a472",
+    "seed": 1681359175,
+    "note": "苔雾荒庭的环藤蛇，以几何纹章描绘。"
+  },
+  "苔庭微烛环藤蛇": {
+    "family": "snake",
+    "features": [
+      "mark"
+    ],
+    "color": "#88a472",
+    "seed": 2202567581,
+    "note": "苔雾荒庭的环藤蛇，以几何纹章描绘。"
+  },
+  "苔庭琉纹峰脊巨灵": {
+    "family": "giant",
+    "features": [
+      "mark"
+    ],
+    "color": "#88a472",
+    "seed": 381178718,
+    "note": "苔雾荒庭的峰脊巨灵，以几何纹章描绘。"
+  },
+  "苔庭风蚀裂角客": {
+    "family": "demon",
+    "features": [
+      "mark",
+      "shield"
+    ],
+    "color": "#88a472",
+    "seed": 1566639475,
+    "note": "苔雾荒庭的裂角客，以几何纹章描绘。"
+  },
+  "苔庭铜缄浮辉使": {
+    "family": "spirit",
+    "features": [
+      "mark",
+      "wings"
+    ],
+    "color": "#88a472",
+    "seed": 469283129,
+    "note": "苔雾荒庭的浮辉使，以几何纹章描绘。"
+  },
+  "苔庭悬灯铠卫": {
+    "family": "knight",
+    "features": [
+      "mark",
+      "spark"
+    ],
+    "color": "#88a472",
+    "seed": 1300691947,
+    "note": "苔雾荒庭的铠卫，以几何纹章描绘。"
+  },
+  "苔庭微烛晶棘蜥龙": {
+    "family": "dragon",
+    "features": [
+      "mark",
+      "wings"
+    ],
+    "color": "#88a472",
+    "seed": 2299380359,
+    "note": "苔雾荒庭的晶棘蜥龙，以几何纹章描绘。"
+  },
+  "苔庭琉纹晶棘蜥龙": {
+    "family": "dragon",
+    "features": [
+      "mark",
+      "wings"
+    ],
+    "color": "#88a472",
+    "seed": 2099204697,
+    "note": "苔雾荒庭的晶棘蜥龙，以几何纹章描绘。"
+  },
+  "苔庭苔痕掠风鸟": {
+    "family": "bird",
+    "features": [
+      "mark",
+      "wings"
+    ],
+    "color": "#88a472",
+    "seed": 909975670,
+    "note": "苔雾荒庭的掠风鸟，以几何纹章描绘。"
+  },
+  "苔庭琉纹潜印客": {
+    "family": "rogue",
+    "features": [
+      "mark"
+    ],
+    "color": "#88a472",
+    "seed": 1808716356,
+    "note": "苔雾荒庭的潜印客，以几何纹章描绘。"
+  },
+  "苔庭铜缄凝光泥团": {
+    "family": "blob",
+    "features": [
+      "mark",
+      "shield"
+    ],
+    "color": "#88a472",
+    "seed": 222490036,
+    "note": "苔雾荒庭的凝光泥团，以几何纹章描绘。"
+  },
+  "苔庭石封缄骨客": {
+    "family": "undead",
+    "features": [
+      "mark",
+      "spots"
+    ],
+    "color": "#88a472",
+    "seed": 2923818377,
+    "note": "苔雾荒庭的缄骨客，以几何纹章描绘。"
+  },
+  "苔庭铜缄地缝蠕虫": {
+    "family": "worm",
+    "features": [
+      "mark",
+      "shield"
+    ],
+    "color": "#88a472",
+    "seed": 1291716569,
+    "note": "苔雾荒庭的地缝蠕虫，以几何纹章描绘。"
+  },
+  "苔庭苔痕折面星客": {
+    "family": "alien",
+    "features": [
+      "mark"
+    ],
+    "color": "#88a472",
+    "seed": 221739110,
+    "note": "苔雾荒庭的折面星客，以几何纹章描绘。"
+  },
+  "苔庭静棱裂角客": {
+    "family": "demon",
+    "features": [
+      "mark"
+    ],
+    "color": "#88a472",
+    "seed": 2995493202,
+    "note": "苔雾荒庭的裂角客，以几何纹章描绘。"
+  },
+  "苔庭银露铠卫": {
+    "family": "knight",
+    "features": [
+      "mark"
+    ],
+    "color": "#88a472",
+    "seed": 1260360665,
+    "note": "苔雾荒庭的铠卫，以几何纹章描绘。"
+  },
+  "苔庭风蚀峰脊巨灵": {
+    "family": "giant",
+    "features": [
+      "mark",
+      "shield"
+    ],
+    "color": "#88a472",
+    "seed": 3464063208,
+    "note": "苔雾荒庭的峰脊巨灵，以几何纹章描绘。"
+  },
+  "苔庭流砂观灯师": {
+    "family": "mage",
+    "features": [
+      "mark"
+    ],
+    "color": "#88a472",
+    "seed": 209150355,
+    "note": "苔雾荒庭的观灯师，以几何纹章描绘。"
+  },
+  "苔庭琉纹环藤蛇": {
+    "family": "snake",
+    "features": [
+      "mark"
+    ],
+    "color": "#88a472",
+    "seed": 2681756822,
+    "note": "苔雾荒庭的环藤蛇，以几何纹章描绘。"
+  },
+  "苔庭苔痕潮纹游鱼": {
+    "family": "fish",
+    "features": [
+      "mark",
+      "wings"
+    ],
+    "color": "#88a472",
+    "seed": 1405805508,
+    "note": "苔雾荒庭的潮纹游鱼，以几何纹章描绘。"
+  },
+  "苔庭回声浮辉使": {
+    "family": "spirit",
+    "features": [
+      "mark",
+      "spark"
+    ],
+    "color": "#88a472",
+    "seed": 1307500877,
+    "note": "苔雾荒庭的浮辉使，以几何纹章描绘。"
+  },
+  "苔庭绒雾裂角客": {
+    "family": "demon",
+    "features": [
+      "mark"
+    ],
+    "color": "#88a472",
+    "seed": 1758374675,
+    "note": "苔雾荒庭的裂角客，以几何纹章描绘。"
+  },
+  "苔庭镜纹观灯师": {
+    "family": "mage",
+    "features": [
+      "mark"
+    ],
+    "color": "#88a472",
+    "seed": 2928752641,
+    "note": "苔雾荒庭的观灯师，以几何纹章描绘。"
+  },
+  "苔庭鸣枝缄骨客": {
+    "family": "undead",
+    "features": [
+      "mark"
+    ],
+    "color": "#88a472",
+    "seed": 1770401189,
+    "note": "苔雾荒庭的缄骨客，以几何纹章描绘。"
+  },
+  "苔庭藤印铠卫": {
+    "family": "knight",
+    "features": [
+      "mark",
+      "shield"
+    ],
+    "color": "#88a472",
+    "seed": 316445809,
+    "note": "苔雾荒庭的铠卫，以几何纹章描绘。"
+  },
+  "苔庭回声枝灯树灵": {
+    "family": "plant",
+    "features": [
+      "mark"
+    ],
+    "color": "#88a472",
+    "seed": 1464996448,
+    "note": "苔雾荒庭的枝灯树灵，以几何纹章描绘。"
+  },
+  "铜钟峰脊巨灵领誓·维拉": {
+    "family": "giant",
+    "features": [
+      "mark",
+      "orbit"
+    ],
+    "color": "#b69b66",
+    "seed": 1696395140,
+    "note": "铜钟堡垒的峰脊巨灵，以几何纹章描绘。"
+  },
+  "铜钟铠卫领誓·希拉": {
+    "family": "knight",
+    "features": [
+      "mark",
+      "shield",
+      "orbit"
+    ],
+    "color": "#b69b66",
+    "seed": 3135518769,
+    "note": "铜钟堡垒的铠卫，以几何纹章描绘。"
+  },
+  "铜钟铠卫领誓·洛拉": {
+    "family": "knight",
+    "features": [
+      "mark",
+      "shield",
+      "orbit"
+    ],
+    "color": "#b69b66",
+    "seed": 1456929059,
+    "note": "铜钟堡垒的铠卫，以几何纹章描绘。"
+  },
+  "铜钟铠卫领誓·米拉": {
+    "family": "knight",
+    "features": [
+      "mark",
+      "orbit"
+    ],
+    "color": "#b69b66",
+    "seed": 726340575,
+    "note": "铜钟堡垒的铠卫，以几何纹章描绘。"
+  },
+  "铜钟峰脊巨灵领誓·岚拉": {
+    "family": "giant",
+    "features": [
+      "mark",
+      "orbit"
+    ],
+    "color": "#b69b66",
+    "seed": 1309416599,
+    "note": "铜钟堡垒的峰脊巨灵，以几何纹章描绘。"
+  },
+  "铜钟铠卫领誓·索拉": {
+    "family": "knight",
+    "features": [
+      "mark",
+      "shield",
+      "orbit"
+    ],
+    "color": "#b69b66",
+    "seed": 210400213,
+    "note": "铜钟堡垒的铠卫，以几何纹章描绘。"
+  },
+  "铜钟灯议长·莱拉": {
+    "family": "human",
+    "features": [
+      "mark",
+      "orbit"
+    ],
+    "color": "#b69b66",
+    "seed": 849818476,
+    "note": "铜钟堡垒的巡灯使，以几何纹章描绘。"
+  },
+  "铜钟缄骨客领誓·岑拉": {
+    "family": "undead",
+    "features": [
+      "mark",
+      "orbit"
+    ],
+    "color": "#b69b66",
+    "seed": 1250234665,
+    "note": "铜钟堡垒的缄骨客，以几何纹章描绘。"
+  },
+  "铜钟踏铃驹领誓·塔拉": {
+    "family": "horse",
+    "features": [
+      "mark",
+      "orbit"
+    ],
+    "color": "#b69b66",
+    "seed": 2111123017,
+    "note": "铜钟堡垒的踏铃驹，以几何纹章描绘。"
+  },
+  "铜钟苔脊软虫领誓·莫拉": {
+    "family": "slug",
+    "features": [
+      "mark",
+      "orbit"
+    ],
+    "color": "#b69b66",
+    "seed": 2330667741,
+    "note": "铜钟堡垒的苔脊软虫，以几何纹章描绘。"
+  },
+  "铜钟环藤蛇领誓·伦拉": {
+    "family": "snake",
+    "features": [
+      "mark",
+      "spots",
+      "orbit"
+    ],
+    "color": "#b69b66",
+    "seed": 889102755,
+    "note": "铜钟堡垒的环藤蛇，以几何纹章描绘。"
+  },
+  "铜钟裂角客领誓·佩拉": {
+    "family": "demon",
+    "features": [
+      "mark",
+      "spikes",
+      "orbit"
+    ],
+    "color": "#b69b66",
+    "seed": 3423458481,
+    "note": "铜钟堡垒的裂角客，以几何纹章描绘。"
+  },
+  "铜钟裂角客领誓·泽拉": {
+    "family": "demon",
+    "features": [
+      "mark",
+      "orbit"
+    ],
+    "color": "#b69b66",
+    "seed": 3352462879,
+    "note": "铜钟堡垒的裂角客，以几何纹章描绘。"
+  },
+  "铜钟钩针蝎领誓·图拉": {
+    "family": "scorpion",
+    "features": [
+      "mark",
+      "spots",
+      "orbit"
+    ],
+    "color": "#b69b66",
+    "seed": 2926155053,
+    "note": "铜钟堡垒的钩针蝎，以几何纹章描绘。"
+  },
+  "铜钟灯议长·芮拉": {
+    "family": "mage",
+    "features": [
+      "mark",
+      "orbit"
+    ],
+    "color": "#b69b66",
+    "seed": 1421725917,
+    "note": "铜钟堡垒的观灯师，以几何纹章描绘。"
+  },
+  "铜钟织光蛛领誓·阿温": {
+    "family": "spider",
+    "features": [
+      "mark",
+      "spots",
+      "orbit"
+    ],
+    "color": "#b69b66",
+    "seed": 2255308736,
+    "note": "铜钟堡垒的织光蛛，以几何纹章描绘。"
+  },
+  "铜钟线尾鼠领誓·艾温": {
+    "family": "rat",
+    "features": [
+      "mark",
+      "spots",
+      "orbit"
+    ],
+    "color": "#b69b66",
+    "seed": 2511129189,
+    "note": "铜钟堡垒的线尾鼠，以几何纹章描绘。"
+  },
+  "铜钟线尾鼠领誓·伊温": {
+    "family": "rat",
+    "features": [
+      "mark",
+      "orbit"
+    ],
+    "color": "#b69b66",
+    "seed": 516240381,
+    "note": "铜钟堡垒的线尾鼠，以几何纹章描绘。"
+  },
+  "铜钟缄骨客领誓·欧温": {
+    "family": "undead",
+    "features": [
+      "mark",
+      "spark",
+      "orbit"
+    ],
+    "color": "#b69b66",
+    "seed": 3897306908,
+    "note": "铜钟堡垒的缄骨客，以几何纹章描绘。"
+  },
+  "铜钟铠卫领誓·乌温": {
+    "family": "knight",
+    "features": [
+      "mark",
+      "spikes",
+      "orbit"
+    ],
+    "color": "#b69b66",
+    "seed": 3777360967,
+    "note": "铜钟堡垒的铠卫，以几何纹章描绘。"
+  },
+  "铜钟露囊蛙领誓·依温": {
+    "family": "frog",
+    "features": [
+      "mark",
+      "shield",
+      "orbit"
+    ],
+    "color": "#b69b66",
+    "seed": 64947259,
+    "note": "铜钟堡垒的露囊蛙，以几何纹章描绘。"
+  },
+  "铜钟铠卫领誓·雅温": {
+    "family": "knight",
+    "features": [
+      "mark",
+      "shield",
+      "orbit"
+    ],
+    "color": "#b69b66",
+    "seed": 311398227,
+    "note": "铜钟堡垒的铠卫，以几何纹章描绘。"
+  },
+  "铜钟枝灯树灵领誓·诺温": {
+    "family": "plant",
+    "features": [
+      "mark",
+      "spark",
+      "orbit"
+    ],
+    "color": "#b69b66",
+    "seed": 104821059,
+    "note": "铜钟堡垒的枝灯树灵，以几何纹章描绘。"
+  },
+  "铜钟峰脊巨灵领誓·瑟温": {
+    "family": "giant",
+    "features": [
+      "mark",
+      "orbit"
+    ],
+    "color": "#b69b66",
+    "seed": 3311656143,
+    "note": "铜钟堡垒的峰脊巨灵，以几何纹章描绘。"
+  },
+  "铜钟铠卫领誓·维温": {
+    "family": "knight",
+    "features": [
+      "mark",
+      "shield",
+      "orbit"
+    ],
+    "color": "#b69b66",
+    "seed": 1600918105,
+    "note": "铜钟堡垒的铠卫，以几何纹章描绘。"
+  },
+  "铜钟铠卫领誓·希温": {
+    "family": "knight",
+    "features": [
+      "mark",
+      "orbit"
+    ],
+    "color": "#b69b66",
+    "seed": 3784643391,
+    "note": "铜钟堡垒的铠卫，以几何纹章描绘。"
+  },
+  "铜钟缄骨客领誓·洛温": {
+    "family": "undead",
+    "features": [
+      "mark",
+      "spark",
+      "orbit"
+    ],
+    "color": "#b69b66",
+    "seed": 663833108,
+    "note": "铜钟堡垒的缄骨客，以几何纹章描绘。"
+  },
+  "铜钟铠卫领誓·米温": {
+    "family": "knight",
+    "features": [
+      "mark",
+      "shield",
+      "orbit"
+    ],
+    "color": "#b69b66",
+    "seed": 3822361869,
+    "note": "铜钟堡垒的铠卫，以几何纹章描绘。"
+  },
+  "铜钟晶棘蜥龙领誓·岚温": {
+    "family": "dragon",
+    "features": [
+      "mark",
+      "wings",
+      "orbit"
+    ],
+    "color": "#b69b66",
+    "seed": 4016361636,
+    "note": "铜钟堡垒的晶棘蜥龙，以几何纹章描绘。"
+  },
+  "铜钟晶棘蜥龙领誓·索温": {
+    "family": "dragon",
+    "features": [
+      "mark",
+      "wings",
+      "orbit"
+    ],
+    "color": "#b69b66",
+    "seed": 1889447117,
+    "note": "铜钟堡垒的晶棘蜥龙，以几何纹章描绘。"
+  },
+  "铜钟缄骨客领誓·莱温": {
+    "family": "undead",
+    "features": [
+      "mark",
+      "shield",
+      "orbit"
+    ],
+    "color": "#b69b66",
+    "seed": 3161971005,
+    "note": "铜钟堡垒的缄骨客，以几何纹章描绘。"
+  },
+  "铜钟浮辉使领誓·岑温": {
+    "family": "spirit",
+    "features": [
+      "mark",
+      "wings",
+      "orbit"
+    ],
+    "color": "#b69b66",
+    "seed": 3245556073,
+    "note": "铜钟堡垒的浮辉使，以几何纹章描绘。"
+  },
+  "铜钟晶棘蜥龙领誓·塔温": {
+    "family": "dragon",
+    "features": [
+      "mark",
+      "wings",
+      "orbit"
+    ],
+    "color": "#b69b66",
+    "seed": 267925728,
+    "note": "铜钟堡垒的晶棘蜥龙，以几何纹章描绘。"
+  },
+  "铜钟灯议长·莫温": {
+    "family": "mage",
+    "features": [
+      "mark",
+      "orbit"
+    ],
+    "color": "#b69b66",
+    "seed": 485879028,
+    "note": "铜钟堡垒的观灯师，以几何纹章描绘。"
+  },
+  "铜钟灯议长·伦温": {
+    "family": "human",
+    "features": [
+      "mark",
+      "orbit"
+    ],
+    "color": "#b69b66",
+    "seed": 570127499,
+    "note": "铜钟堡垒的巡灯使，以几何纹章描绘。"
+  },
+  "铜钟铠卫领誓·佩温": {
+    "family": "knight",
+    "features": [
+      "mark",
+      "spark",
+      "orbit"
+    ],
+    "color": "#b69b66",
+    "seed": 2814731084,
+    "note": "铜钟堡垒的铠卫，以几何纹章描绘。"
+  },
+  "铜钟铠卫领誓·泽温": {
+    "family": "knight",
+    "features": [
+      "mark",
+      "visor",
+      "orbit"
+    ],
+    "color": "#b69b66",
+    "seed": 3554852873,
+    "note": "铜钟堡垒的铠卫，以几何纹章描绘。"
+  },
+  "铜钟裂角客领誓·图温": {
+    "family": "demon",
+    "features": [
+      "mark",
+      "shield",
+      "orbit"
+    ],
+    "color": "#b69b66",
+    "seed": 2718076690,
+    "note": "铜钟堡垒的裂角客，以几何纹章描绘。"
+  },
+  "铜钟镜瞳山猫领誓·芮温": {
+    "family": "cat",
+    "features": [
+      "mark",
+      "orbit"
+    ],
+    "color": "#b69b66",
+    "seed": 795930373,
+    "note": "铜钟堡垒的镜瞳山猫，以几何纹章描绘。"
+  },
+  "铜钟铠卫领誓·阿雅": {
+    "family": "knight",
+    "features": [
+      "mark",
+      "shield",
+      "orbit"
+    ],
+    "color": "#b69b66",
+    "seed": 1649578086,
+    "note": "铜钟堡垒的铠卫，以几何纹章描绘。"
+  },
+  "铜钟镜瞳山猫领誓·艾雅": {
+    "family": "cat",
+    "features": [
+      "mark",
+      "orbit"
+    ],
+    "color": "#b69b66",
+    "seed": 1544664977,
+    "note": "铜钟堡垒的镜瞳山猫，以几何纹章描绘。"
+  },
+  "铜钟修灯师·伊雅": {
+    "family": "healer",
+    "features": [
+      "mark",
+      "spark"
+    ],
+    "color": "#b69b66",
+    "seed": 2869968173,
+    "note": "铜钟堡垒的修灯师，以几何纹章描绘。"
+  },
+  "铜钟铠卫·欧雅": {
+    "family": "knight",
+    "features": [
+      "mark",
+      "shield"
+    ],
+    "color": "#b69b66",
+    "seed": 1746573993,
+    "note": "铜钟堡垒的铠卫，以几何纹章描绘。"
+  },
+  "铜钟铠卫·乌雅": {
+    "family": "knight",
+    "features": [
+      "mark",
+      "shield"
+    ],
+    "color": "#b69b66",
+    "seed": 3815585926,
+    "note": "铜钟堡垒的铠卫，以几何纹章描绘。"
+  },
+  "铜钟铠卫·依雅": {
+    "family": "knight",
+    "features": [
+      "mark",
+      "shield"
+    ],
+    "color": "#b69b66",
+    "seed": 2044042954,
+    "note": "铜钟堡垒的铠卫，以几何纹章描绘。"
+  },
+  "铜钟巡灯使·雅雅": {
+    "family": "human",
+    "features": [
+      "mark"
+    ],
+    "color": "#b69b66",
+    "seed": 1767410370,
+    "note": "铜钟堡垒的巡灯使，以几何纹章描绘。"
+  },
+  "铜钟巡灯使·诺雅": {
+    "family": "human",
+    "features": [
+      "mark"
+    ],
+    "color": "#b69b66",
+    "seed": 895410932,
+    "note": "铜钟堡垒的巡灯使，以几何纹章描绘。"
+  },
+  "铜钟巡灯使·瑟雅": {
+    "family": "human",
+    "features": [
+      "mark"
+    ],
+    "color": "#b69b66",
+    "seed": 2203650963,
+    "note": "铜钟堡垒的巡灯使，以几何纹章描绘。"
+  },
+  "铜钟巡灯使·维雅": {
+    "family": "human",
+    "features": [
+      "mark"
+    ],
+    "color": "#b69b66",
+    "seed": 3618819509,
+    "note": "铜钟堡垒的巡灯使，以几何纹章描绘。"
+  },
+  "铜钟巡灯使·希雅": {
+    "family": "human",
+    "features": [
+      "mark"
+    ],
+    "color": "#b69b66",
+    "seed": 390832366,
+    "note": "铜钟堡垒的巡灯使，以几何纹章描绘。"
+  },
+  "铜钟巡灯使·洛雅": {
+    "family": "human",
+    "features": [
+      "mark"
+    ],
+    "color": "#b69b66",
+    "seed": 2079385501,
+    "note": "铜钟堡垒的巡灯使，以几何纹章描绘。"
+  },
+  "铜钟镜瞳山猫·米雅": {
+    "family": "cat",
+    "features": [
+      "mark"
+    ],
+    "color": "#b69b66",
+    "seed": 1449673662,
+    "note": "铜钟堡垒的镜瞳山猫，以几何纹章描绘。"
+  },
+  "铜钟巡灯使·岚雅": {
+    "family": "human",
+    "features": [
+      "mark"
+    ],
+    "color": "#b69b66",
+    "seed": 3290631596,
+    "note": "铜钟堡垒的巡灯使，以几何纹章描绘。"
+  },
+  "铜钟巡灯使·索雅": {
+    "family": "human",
+    "features": [
+      "mark"
+    ],
+    "color": "#b69b66",
+    "seed": 4057397426,
+    "note": "铜钟堡垒的巡灯使，以几何纹章描绘。"
+  },
+  "铜钟铠卫·莱雅": {
+    "family": "knight",
+    "features": [
+      "mark"
+    ],
+    "color": "#b69b66",
+    "seed": 3385222445,
+    "note": "铜钟堡垒的铠卫，以几何纹章描绘。"
+  },
+  "铜钟修灯师·岑雅": {
+    "family": "healer",
+    "features": [
+      "mark",
+      "spark"
+    ],
+    "color": "#b69b66",
+    "seed": 435564354,
+    "note": "铜钟堡垒的修灯师，以几何纹章描绘。"
+  },
+  "铜钟观灯师·塔雅": {
+    "family": "mage",
+    "features": [
+      "mark"
+    ],
+    "color": "#b69b66",
+    "seed": 820954588,
+    "note": "铜钟堡垒的观灯师，以几何纹章描绘。"
+  },
+  "铜钟观灯师·莫雅": {
+    "family": "mage",
+    "features": [
+      "mark"
+    ],
+    "color": "#b69b66",
+    "seed": 3305201996,
+    "note": "铜钟堡垒的观灯师，以几何纹章描绘。"
+  },
+  "铜钟观灯师·伦雅": {
+    "family": "mage",
+    "features": [
+      "mark"
+    ],
+    "color": "#b69b66",
+    "seed": 1431519317,
+    "note": "铜钟堡垒的观灯师，以几何纹章描绘。"
+  },
+  "铜钟掠风鸟·佩雅": {
+    "family": "bird",
+    "features": [
+      "mark"
+    ],
+    "color": "#b69b66",
+    "seed": 2636758118,
+    "note": "铜钟堡垒的掠风鸟，以几何纹章描绘。"
+  },
+  "铜钟观灯师·泽雅": {
+    "family": "mage",
+    "features": [
+      "mark"
+    ],
+    "color": "#b69b66",
+    "seed": 4173273859,
+    "note": "铜钟堡垒的观灯师，以几何纹章描绘。"
+  },
+  "铜钟观灯师·图雅": {
+    "family": "mage",
+    "features": [
+      "mark",
+      "spark"
+    ],
+    "color": "#b69b66",
+    "seed": 743748161,
+    "note": "铜钟堡垒的观灯师，以几何纹章描绘。"
+  },
+  "铜钟巡灯使·芮雅": {
+    "family": "human",
+    "features": [
+      "mark"
+    ],
+    "color": "#b69b66",
+    "seed": 3260923828,
+    "note": "铜钟堡垒的巡灯使，以几何纹章描绘。"
+  },
+  "铜钟钩针蝎·阿弥": {
+    "family": "scorpion",
+    "features": [
+      "mark",
+      "shield"
+    ],
+    "color": "#b69b66",
+    "seed": 3146979527,
+    "note": "铜钟堡垒的钩针蝎，以几何纹章描绘。"
+  },
+  "铜钟观灯师·艾弥": {
+    "family": "mage",
+    "features": [
+      "mark"
+    ],
+    "color": "#b69b66",
+    "seed": 1315163930,
+    "note": "铜钟堡垒的观灯师，以几何纹章描绘。"
+  },
+  "铜钟修灯师·伊弥": {
+    "family": "healer",
+    "features": [
+      "mark",
+      "spark"
+    ],
+    "color": "#b69b66",
+    "seed": 1485968539,
+    "note": "铜钟堡垒的修灯师，以几何纹章描绘。"
+  },
+  "铜钟浮辉使·欧弥": {
+    "family": "spirit",
+    "features": [
+      "mark"
+    ],
+    "color": "#b69b66",
+    "seed": 1741364607,
+    "note": "铜钟堡垒的浮辉使，以几何纹章描绘。"
+  },
+  "铜钟琉纹缄骨客": {
+    "family": "undead",
+    "features": [
+      "mark"
+    ],
+    "color": "#b69b66",
+    "seed": 1071688724,
+    "note": "铜钟堡垒的缄骨客，以几何纹章描绘。"
+  },
+  "铜钟银露铠卫": {
+    "family": "knight",
+    "features": [
+      "mark",
+      "shield"
+    ],
+    "color": "#b69b66",
+    "seed": 832743080,
+    "note": "铜钟堡垒的铠卫，以几何纹章描绘。"
+  },
+  "铜钟苔痕砂脊蜥": {
+    "family": "lizard",
+    "features": [
+      "mark"
+    ],
+    "color": "#b69b66",
+    "seed": 1821552341,
+    "note": "铜钟堡垒的砂脊蜥，以几何纹章描绘。"
+  },
+  "铜钟藤印铠卫": {
+    "family": "knight",
+    "features": [
+      "mark",
+      "shield"
+    ],
+    "color": "#b69b66",
+    "seed": 2203687454,
+    "note": "铜钟堡垒的铠卫，以几何纹章描绘。"
+  },
+  "铜钟雾羽铠卫": {
+    "family": "knight",
+    "features": [
+      "mark",
+      "shield"
+    ],
+    "color": "#b69b66",
+    "seed": 3887166128,
+    "note": "铜钟堡垒的铠卫，以几何纹章描绘。"
+  },
+  "铜钟苔痕潜印客": {
+    "family": "rogue",
+    "features": [
+      "mark"
+    ],
+    "color": "#b69b66",
+    "seed": 265588741,
+    "note": "铜钟堡垒的潜印客，以几何纹章描绘。"
+  },
+  "铜钟铜缄潜印客": {
+    "family": "rogue",
+    "features": [
+      "mark"
+    ],
+    "color": "#b69b66",
+    "seed": 2036587075,
+    "note": "铜钟堡垒的潜印客，以几何纹章描绘。"
+  },
+  "铜钟苔痕折面星客": {
+    "family": "alien",
+    "features": [
+      "mark"
+    ],
+    "color": "#b69b66",
+    "seed": 3436493365,
+    "note": "铜钟堡垒的折面星客，以几何纹章描绘。"
+  },
+  "铜钟弧光铠卫": {
+    "family": "knight",
+    "features": [
+      "mark",
+      "shield"
+    ],
+    "color": "#b69b66",
+    "seed": 862495750,
+    "note": "铜钟堡垒的铠卫，以几何纹章描绘。"
+  },
+  "铜钟风蚀缄骨客": {
+    "family": "undead",
+    "features": [
+      "mark"
+    ],
+    "color": "#b69b66",
+    "seed": 1463068543,
+    "note": "铜钟堡垒的缄骨客，以几何纹章描绘。"
+  },
+  "铜钟铜缄苔痕铠卫": {
+    "family": "knight",
+    "features": [
+      "mark"
+    ],
+    "color": "#b69b66",
+    "seed": 3442015778,
+    "note": "铜钟堡垒的铠卫，以几何纹章描绘。"
+  },
+  "铜钟静棱缄骨客": {
+    "family": "undead",
+    "features": [
+      "mark"
+    ],
+    "color": "#b69b66",
+    "seed": 2371149366,
+    "note": "铜钟堡垒的缄骨客，以几何纹章描绘。"
+  },
+  "铜钟绒雾缄骨客": {
+    "family": "undead",
+    "features": [
+      "mark"
+    ],
+    "color": "#b69b66",
+    "seed": 1415270875,
+    "note": "铜钟堡垒的缄骨客，以几何纹章描绘。"
+  },
+  "铜钟夜航缄骨客": {
+    "family": "undead",
+    "features": [
+      "mark",
+      "spikes"
+    ],
+    "color": "#b69b66",
+    "seed": 1105695029,
+    "note": "铜钟堡垒的缄骨客，以几何纹章描绘。"
+  },
+  "铜钟远路巡灯使": {
+    "family": "human",
+    "features": [
+      "mark"
+    ],
+    "color": "#b69b66",
+    "seed": 1450895973,
+    "note": "铜钟堡垒的巡灯使，以几何纹章描绘。"
+  },
+  "铜钟夜航观灯师": {
+    "family": "mage",
+    "features": [
+      "mark"
+    ],
+    "color": "#b69b66",
+    "seed": 3674418812,
+    "note": "铜钟堡垒的观灯师，以几何纹章描绘。"
+  },
+  "铜钟铜缄铜缄铠卫": {
+    "family": "knight",
+    "features": [
+      "mark"
+    ],
+    "color": "#b69b66",
+    "seed": 446991250,
+    "note": "铜钟堡垒的铠卫，以几何纹章描绘。"
+  },
+  "铜钟流砂观灯师": {
+    "family": "mage",
+    "features": [
+      "mark"
+    ],
+    "color": "#b69b66",
+    "seed": 3313800535,
+    "note": "铜钟堡垒的观灯师，以几何纹章描绘。"
+  },
+  "铜钟苔痕甲灯虫": {
+    "family": "insect",
+    "features": [
+      "mark",
+      "spots"
+    ],
+    "color": "#b69b66",
+    "seed": 847667985,
+    "note": "铜钟堡垒的甲灯虫，以几何纹章描绘。"
+  },
+  "铜钟回声线尾鼠": {
+    "family": "rat",
+    "features": [
+      "mark"
+    ],
+    "color": "#b69b66",
+    "seed": 1708827327,
+    "note": "铜钟堡垒的线尾鼠，以几何纹章描绘。"
+  },
+  "铜钟微烛镜瞳山猫": {
+    "family": "cat",
+    "features": [
+      "mark"
+    ],
+    "color": "#b69b66",
+    "seed": 581158668,
+    "note": "铜钟堡垒的镜瞳山猫，以几何纹章描绘。"
+  },
+  "铜钟回声潜印客": {
+    "family": "rogue",
+    "features": [
+      "mark"
+    ],
+    "color": "#b69b66",
+    "seed": 1372493364,
+    "note": "铜钟堡垒的潜印客，以几何纹章描绘。"
+  },
+  "铜钟苔痕岩铃象": {
+    "family": "elephant",
+    "features": [
+      "mark",
+      "shield"
+    ],
+    "color": "#b69b66",
+    "seed": 2401913613,
+    "note": "铜钟堡垒的岩铃象，以几何纹章描绘。"
+  },
+  "铜钟铜缄回声铠卫": {
+    "family": "knight",
+    "features": [
+      "mark",
+      "shield"
+    ],
+    "color": "#b69b66",
+    "seed": 3776240160,
+    "note": "铜钟堡垒的铠卫，以几何纹章描绘。"
+  },
+  "铜钟铜缄微烛铠卫": {
+    "family": "knight",
+    "features": [
+      "mark"
+    ],
+    "color": "#b69b66",
+    "seed": 1083227983,
+    "note": "铜钟堡垒的铠卫，以几何纹章描绘。"
+  },
+  "铜钟铜缄织光蛛": {
+    "family": "spider",
+    "features": [
+      "mark"
+    ],
+    "color": "#b69b66",
+    "seed": 3501127940,
+    "note": "铜钟堡垒的织光蛛，以几何纹章描绘。"
+  },
+  "铜钟回声织光蛛": {
+    "family": "spider",
+    "features": [
+      "mark"
+    ],
+    "color": "#b69b66",
+    "seed": 1684070169,
+    "note": "铜钟堡垒的织光蛛，以几何纹章描绘。"
+  },
+  "铜钟镜纹观灯师": {
+    "family": "mage",
+    "features": [
+      "mark"
+    ],
+    "color": "#b69b66",
+    "seed": 2932788363,
+    "note": "铜钟堡垒的观灯师，以几何纹章描绘。"
+  },
+  "铜钟微烛修灯师": {
+    "family": "healer",
+    "features": [
+      "mark"
+    ],
+    "color": "#b69b66",
+    "seed": 556626934,
+    "note": "铜钟堡垒的修灯师，以几何纹章描绘。"
+  },
+  "铜钟铜缄折面星客": {
+    "family": "alien",
+    "features": [
+      "mark",
+      "spots"
+    ],
+    "color": "#b69b66",
+    "seed": 2685431368,
+    "note": "铜钟堡垒的折面星客，以几何纹章描绘。"
+  },
+  "铜钟铜缄琉纹铠卫": {
+    "family": "knight",
+    "features": [
+      "mark",
+      "shield"
+    ],
+    "color": "#b69b66",
+    "seed": 3444164182,
+    "note": "铜钟堡垒的铠卫，以几何纹章描绘。"
+  },
+  "铜钟铜缄风蚀铠卫": {
+    "family": "knight",
+    "features": [
+      "mark",
+      "shield"
+    ],
+    "color": "#b69b66",
+    "seed": 1119074387,
+    "note": "铜钟堡垒的铠卫，以几何纹章描绘。"
+  },
+  "铜钟铜缄静棱铠卫": {
+    "family": "knight",
+    "features": [
+      "mark",
+      "shield"
+    ],
+    "color": "#b69b66",
+    "seed": 2555586321,
+    "note": "铜钟堡垒的铠卫，以几何纹章描绘。"
+  },
+  "铜钟铜缄绒雾铠卫": {
+    "family": "knight",
+    "features": [
+      "mark",
+      "visor"
+    ],
+    "color": "#b69b66",
+    "seed": 2799996398,
+    "note": "铜钟堡垒的铠卫，以几何纹章描绘。"
+  },
+  "铜钟铜缄夜航铠卫": {
+    "family": "knight",
+    "features": [
+      "mark",
+      "shield"
+    ],
+    "color": "#b69b66",
+    "seed": 4255332756,
+    "note": "铜钟堡垒的铠卫，以几何纹章描绘。"
+  },
+  "铜钟回声浮辉使": {
+    "family": "spirit",
+    "features": [
+      "mark",
+      "shield"
+    ],
+    "color": "#b69b66",
+    "seed": 4239311972,
+    "note": "铜钟堡垒的浮辉使，以几何纹章描绘。"
+  },
+  "铜钟远路观灯师": {
+    "family": "mage",
+    "features": [
+      "mark"
+    ],
+    "color": "#b69b66",
+    "seed": 4081290067,
+    "note": "铜钟堡垒的观灯师，以几何纹章描绘。"
+  },
+  "铜钟流砂缄骨客": {
+    "family": "undead",
+    "features": [
+      "mark",
+      "shield"
+    ],
+    "color": "#b69b66",
+    "seed": 1705231254,
+    "note": "铜钟堡垒的缄骨客，以几何纹章描绘。"
+  },
+  "铜钟铜缄流砂铠卫": {
+    "family": "knight",
+    "features": [
+      "mark",
+      "shield"
+    ],
+    "color": "#b69b66",
+    "seed": 670311796,
+    "note": "铜钟堡垒的铠卫，以几何纹章描绘。"
+  },
+  "铜钟铜缄镜纹铠卫": {
+    "family": "knight",
+    "features": [
+      "mark",
+      "visor"
+    ],
+    "color": "#b69b66",
+    "seed": 1453829599,
+    "note": "铜钟堡垒的铠卫，以几何纹章描绘。"
+  },
+  "铜钟铜缄远路铠卫": {
+    "family": "knight",
+    "features": [
+      "mark"
+    ],
+    "color": "#b69b66",
+    "seed": 3551825278,
+    "note": "铜钟堡垒的铠卫，以几何纹章描绘。"
+  },
+  "铜钟石封观灯师": {
+    "family": "mage",
+    "features": [
+      "mark"
+    ],
+    "color": "#b69b66",
+    "seed": 227314572,
+    "note": "铜钟堡垒的观灯师，以几何纹章描绘。"
+  },
+  "铜钟铜缄石封铠卫": {
+    "family": "knight",
+    "features": [
+      "mark"
+    ],
+    "color": "#b69b66",
+    "seed": 723544187,
+    "note": "铜钟堡垒的铠卫，以几何纹章描绘。"
+  },
+  "铜钟铜缄鸣枝铠卫": {
+    "family": "knight",
+    "features": [
+      "mark"
+    ],
+    "color": "#b69b66",
+    "seed": 1978540311,
+    "note": "铜钟堡垒的铠卫，以几何纹章描绘。"
+  },
+  "铜钟铜缄暖灰铠卫": {
+    "family": "knight",
+    "features": [
+      "mark"
+    ],
+    "color": "#b69b66",
+    "seed": 3758390902,
+    "note": "铜钟堡垒的铠卫，以几何纹章描绘。"
+  },
+  "铜钟铜缄悬灯铠卫": {
+    "family": "knight",
+    "features": [
+      "mark",
+      "shield"
+    ],
+    "color": "#b69b66",
+    "seed": 373995190,
+    "note": "铜钟堡垒的铠卫，以几何纹章描绘。"
+  },
+  "铜钟苔痕刺灯兽": {
+    "family": "hedgehog",
+    "features": [
+      "mark",
+      "spikes"
+    ],
+    "color": "#b69b66",
+    "seed": 1669846325,
+    "note": "铜钟堡垒的刺灯兽，以几何纹章描绘。"
+  },
+  "铜钟铜缄银露铠卫": {
+    "family": "knight",
+    "features": [
+      "mark"
+    ],
+    "color": "#b69b66",
+    "seed": 1226554196,
+    "note": "铜钟堡垒的铠卫，以几何纹章描绘。"
+  },
+  "炽砂铠卫领誓·乌弥": {
+    "family": "knight",
+    "features": [
+      "mark",
+      "shield",
+      "orbit"
+    ],
+    "color": "#c17b58",
+    "seed": 3170754710,
+    "note": "炽砂熔城的铠卫，以几何纹章描绘。"
+  },
+  "炽砂铠卫领誓·依弥": {
+    "family": "knight",
+    "features": [
+      "mark",
+      "spark",
+      "orbit"
+    ],
+    "color": "#c17b58",
+    "seed": 4123841729,
+    "note": "炽砂熔城的铠卫，以几何纹章描绘。"
+  },
+  "炽砂枝灯树灵领誓·雅弥": {
+    "family": "plant",
+    "features": [
+      "mark",
+      "shield",
+      "orbit"
+    ],
+    "color": "#c17b58",
+    "seed": 1494175209,
+    "note": "炽砂熔城的枝灯树灵，以几何纹章描绘。"
+  },
+  "炽砂灯议长·诺弥": {
+    "family": "mage",
+    "features": [
+      "mark",
+      "orbit"
+    ],
+    "color": "#c17b58",
+    "seed": 390480353,
+    "note": "炽砂熔城的观灯师，以几何纹章描绘。"
+  },
+  "炽砂灯议长·瑟弥": {
+    "family": "healer",
+    "features": [
+      "mark",
+      "spark",
+      "orbit"
+    ],
+    "color": "#c17b58",
+    "seed": 3851704012,
+    "note": "炽砂熔城的修灯师，以几何纹章描绘。"
+  },
+  "炽砂铠卫领誓·维弥": {
+    "family": "knight",
+    "features": [
+      "mark",
+      "visor",
+      "orbit"
+    ],
+    "color": "#c17b58",
+    "seed": 3846990735,
+    "note": "炽砂熔城的铠卫，以几何纹章描绘。"
+  },
+  "炽砂缄骨客领誓·希弥": {
+    "family": "undead",
+    "features": [
+      "mark",
+      "orbit"
+    ],
+    "color": "#c17b58",
+    "seed": 3389060438,
+    "note": "炽砂熔城的缄骨客，以几何纹章描绘。"
+  },
+  "炽砂裂角客领誓·洛弥": {
+    "family": "demon",
+    "features": [
+      "mark",
+      "orbit"
+    ],
+    "color": "#c17b58",
+    "seed": 1448515117,
+    "note": "炽砂熔城的裂角客，以几何纹章描绘。"
+  },
+  "炽砂灯议长·米弥": {
+    "family": "mage",
+    "features": [
+      "mark",
+      "visor",
+      "orbit"
+    ],
+    "color": "#c17b58",
+    "seed": 513134930,
+    "note": "炽砂熔城的观灯师，以几何纹章描绘。"
+  },
+  "炽砂凝光泥团领誓·岚弥": {
+    "family": "blob",
+    "features": [
+      "mark",
+      "spark",
+      "orbit"
+    ],
+    "color": "#c17b58",
+    "seed": 2208959143,
+    "note": "炽砂熔城的凝光泥团，以几何纹章描绘。"
+  },
+  "炽砂峰脊巨灵领誓·索弥": {
+    "family": "giant",
+    "features": [
+      "mark",
+      "shield",
+      "orbit"
+    ],
+    "color": "#c17b58",
+    "seed": 474513448,
+    "note": "炽砂熔城的峰脊巨灵，以几何纹章描绘。"
+  },
+  "炽砂铠卫领誓·莱弥": {
+    "family": "knight",
+    "features": [
+      "mark",
+      "orbit"
+    ],
+    "color": "#c17b58",
+    "seed": 4117160866,
+    "note": "炽砂熔城的铠卫，以几何纹章描绘。"
+  },
+  "炽砂晶棘蜥龙领誓·岑弥": {
+    "family": "dragon",
+    "features": [
+      "mark",
+      "orbit"
+    ],
+    "color": "#c17b58",
+    "seed": 2558262682,
+    "note": "炽砂熔城的晶棘蜥龙，以几何纹章描绘。"
+  },
+  "炽砂铠卫领誓·塔弥": {
+    "family": "knight",
+    "features": [
+      "mark",
+      "visor",
+      "orbit"
+    ],
+    "color": "#c17b58",
+    "seed": 1783850179,
+    "note": "炽砂熔城的铠卫，以几何纹章描绘。"
+  },
+  "炽砂铠卫领誓·莫弥": {
+    "family": "knight",
+    "features": [
+      "mark",
+      "shield",
+      "orbit"
+    ],
+    "color": "#c17b58",
+    "seed": 361085874,
+    "note": "炽砂熔城的铠卫，以几何纹章描绘。"
+  },
+  "炽砂灯议长·伦弥": {
+    "family": "human",
+    "features": [
+      "mark",
+      "spark",
+      "orbit"
+    ],
+    "color": "#c17b58",
+    "seed": 17573562,
+    "note": "炽砂熔城的巡灯使，以几何纹章描绘。"
+  },
+  "炽砂铠卫领誓·佩弥": {
+    "family": "knight",
+    "features": [
+      "mark",
+      "orbit"
+    ],
+    "color": "#c17b58",
+    "seed": 3775661004,
+    "note": "炽砂熔城的铠卫，以几何纹章描绘。"
+  },
+  "炽砂晶棘蜥龙领誓·泽弥": {
+    "family": "dragon",
+    "features": [
+      "mark",
+      "wings",
+      "orbit"
+    ],
+    "color": "#c17b58",
+    "seed": 562178044,
+    "note": "炽砂熔城的晶棘蜥龙，以几何纹章描绘。"
+  },
+  "炽砂灯议长·图弥": {
+    "family": "human",
+    "features": [
+      "mark",
+      "orbit"
+    ],
+    "color": "#c17b58",
+    "seed": 135969354,
+    "note": "炽砂熔城的巡灯使，以几何纹章描绘。"
+  },
+  "炽砂铠卫领誓·芮弥": {
+    "family": "knight",
+    "features": [
+      "mark",
+      "spark",
+      "orbit"
+    ],
+    "color": "#c17b58",
+    "seed": 3673267541,
+    "note": "炽砂熔城的铠卫，以几何纹章描绘。"
+  },
+  "炽砂铠卫领誓·阿罗": {
+    "family": "knight",
+    "features": [
+      "mark",
+      "shield",
+      "orbit"
+    ],
+    "color": "#c17b58",
+    "seed": 2180648592,
+    "note": "炽砂熔城的铠卫，以几何纹章描绘。"
+  },
+  "炽砂巡影狼领誓·艾罗": {
+    "family": "wolf",
+    "features": [
+      "mark",
+      "orbit"
+    ],
+    "color": "#c17b58",
+    "seed": 3762792493,
+    "note": "炽砂熔城的巡影狼，以几何纹章描绘。"
+  },
+  "炽砂灯议长·伊罗": {
+    "family": "human",
+    "features": [
+      "mark",
+      "orbit"
+    ],
+    "color": "#c17b58",
+    "seed": 3873807050,
+    "note": "炽砂熔城的巡灯使，以几何纹章描绘。"
+  },
+  "炽砂峰脊巨灵领誓·欧罗": {
+    "family": "giant",
+    "features": [
+      "mark",
+      "orbit"
+    ],
+    "color": "#c17b58",
+    "seed": 2416541647,
+    "note": "炽砂熔城的峰脊巨灵，以几何纹章描绘。"
+  },
+  "炽砂裂角客领誓·乌罗": {
+    "family": "demon",
+    "features": [
+      "mark",
+      "wings",
+      "orbit"
+    ],
+    "color": "#c17b58",
+    "seed": 3141010229,
+    "note": "炽砂熔城的裂角客，以几何纹章描绘。"
+  },
+  "炽砂铠卫领誓·依罗": {
+    "family": "knight",
+    "features": [
+      "mark",
+      "orbit"
+    ],
+    "color": "#c17b58",
+    "seed": 127671629,
+    "note": "炽砂熔城的铠卫，以几何纹章描绘。"
+  },
+  "炽砂晶棘蜥龙领誓·雅罗": {
+    "family": "dragon",
+    "features": [
+      "mark",
+      "wings",
+      "orbit"
+    ],
+    "color": "#c17b58",
+    "seed": 198431295,
+    "note": "炽砂熔城的晶棘蜥龙，以几何纹章描绘。"
+  },
+  "炽砂灯议长·诺罗": {
+    "family": "human",
+    "features": [
+      "mark",
+      "orbit"
+    ],
+    "color": "#c17b58",
+    "seed": 3888171502,
+    "note": "炽砂熔城的巡灯使，以几何纹章描绘。"
+  },
+  "炽砂修灯师·瑟罗": {
+    "family": "healer",
+    "features": [
+      "mark",
+      "spark"
+    ],
+    "color": "#c17b58",
+    "seed": 2650519942,
+    "note": "炽砂熔城的修灯师，以几何纹章描绘。"
+  },
+  "炽砂铠卫·维罗": {
+    "family": "knight",
+    "features": [
+      "mark",
+      "shield"
+    ],
+    "color": "#c17b58",
+    "seed": 3500095725,
+    "note": "炽砂熔城的铠卫，以几何纹章描绘。"
+  },
+  "炽砂巡灯使·希罗": {
+    "family": "human",
+    "features": [
+      "mark"
+    ],
+    "color": "#c17b58",
+    "seed": 1382011646,
+    "note": "炽砂熔城的巡灯使，以几何纹章描绘。"
+  },
+  "炽砂巡灯使·洛罗": {
+    "family": "human",
+    "features": [
+      "mark"
+    ],
+    "color": "#c17b58",
+    "seed": 155563773,
+    "note": "炽砂熔城的巡灯使，以几何纹章描绘。"
+  },
+  "炽砂缄骨客·米罗": {
+    "family": "undead",
+    "features": [
+      "mark"
+    ],
+    "color": "#c17b58",
+    "seed": 2993346471,
+    "note": "炽砂熔城的缄骨客，以几何纹章描绘。"
+  },
+  "炽砂缄骨客·岚罗": {
+    "family": "undead",
+    "features": [
+      "mark"
+    ],
+    "color": "#c17b58",
+    "seed": 582768950,
+    "note": "炽砂熔城的缄骨客，以几何纹章描绘。"
+  },
+  "炽砂潜印客·索罗": {
+    "family": "rogue",
+    "features": [
+      "mark"
+    ],
+    "color": "#c17b58",
+    "seed": 2936323961,
+    "note": "炽砂熔城的潜印客，以几何纹章描绘。"
+  },
+  "炽砂铠卫·莱罗": {
+    "family": "knight",
+    "features": [
+      "mark",
+      "shield"
+    ],
+    "color": "#c17b58",
+    "seed": 3372437780,
+    "note": "炽砂熔城的铠卫，以几何纹章描绘。"
+  },
+  "炽砂铠卫·岑罗": {
+    "family": "knight",
+    "features": [
+      "mark",
+      "shield"
+    ],
+    "color": "#c17b58",
+    "seed": 339764692,
+    "note": "炽砂熔城的铠卫，以几何纹章描绘。"
+  },
+  "炽砂铠卫·塔罗": {
+    "family": "knight",
+    "features": [
+      "mark",
+      "shield"
+    ],
+    "color": "#c17b58",
+    "seed": 2716322390,
+    "note": "炽砂熔城的铠卫，以几何纹章描绘。"
+  },
+  "炽砂潜印客·莫罗": {
+    "family": "rogue",
+    "features": [
+      "mark"
+    ],
+    "color": "#c17b58",
+    "seed": 1273278958,
+    "note": "炽砂熔城的潜印客，以几何纹章描绘。"
+  },
+  "炽砂铠卫·伦罗": {
+    "family": "knight",
+    "features": [
+      "mark"
+    ],
+    "color": "#c17b58",
+    "seed": 2078054418,
+    "note": "炽砂熔城的铠卫，以几何纹章描绘。"
+  },
+  "炽砂潜印客·佩罗": {
+    "family": "rogue",
+    "features": [
+      "mark"
+    ],
+    "color": "#c17b58",
+    "seed": 3796424494,
+    "note": "炽砂熔城的潜印客，以几何纹章描绘。"
+  },
+  "炽砂巡灯使·泽罗": {
+    "family": "human",
+    "features": [
+      "mark",
+      "spark"
+    ],
+    "color": "#c17b58",
+    "seed": 2955086062,
+    "note": "炽砂熔城的巡灯使，以几何纹章描绘。"
+  },
+  "炽砂修灯师·图罗": {
+    "family": "healer",
+    "features": [
+      "mark",
+      "spark"
+    ],
+    "color": "#c17b58",
+    "seed": 1134792991,
+    "note": "炽砂熔城的修灯师，以几何纹章描绘。"
+  },
+  "炽砂铠卫·芮罗": {
+    "family": "knight",
+    "features": [
+      "mark",
+      "shield"
+    ],
+    "color": "#c17b58",
+    "seed": 4128782834,
+    "note": "炽砂熔城的铠卫，以几何纹章描绘。"
+  },
+  "炽砂观灯师·阿安": {
+    "family": "mage",
+    "features": [
+      "mark"
+    ],
+    "color": "#c17b58",
+    "seed": 2512138011,
+    "note": "炽砂熔城的观灯师，以几何纹章描绘。"
+  },
+  "炽砂观灯师·艾安": {
+    "family": "mage",
+    "features": [
+      "mark"
+    ],
+    "color": "#c17b58",
+    "seed": 2948115945,
+    "note": "炽砂熔城的观灯师，以几何纹章描绘。"
+  },
+  "炽砂观灯师·伊安": {
+    "family": "mage",
+    "features": [
+      "mark"
+    ],
+    "color": "#c17b58",
+    "seed": 115802661,
+    "note": "炽砂熔城的观灯师，以几何纹章描绘。"
+  },
+  "炽砂潜印客·欧安": {
+    "family": "rogue",
+    "features": [
+      "mark"
+    ],
+    "color": "#c17b58",
+    "seed": 3994571568,
+    "note": "炽砂熔城的潜印客，以几何纹章描绘。"
+  },
+  "炽砂观灯师·乌安": {
+    "family": "mage",
+    "features": [
+      "mark"
+    ],
+    "color": "#c17b58",
+    "seed": 317155593,
+    "note": "炽砂熔城的观灯师，以几何纹章描绘。"
+  },
+  "炽砂铠卫·依安": {
+    "family": "knight",
+    "features": [
+      "mark",
+      "visor"
+    ],
+    "color": "#c17b58",
+    "seed": 709371584,
+    "note": "炽砂熔城的铠卫，以几何纹章描绘。"
+  },
+  "炽砂铠卫·雅安": {
+    "family": "knight",
+    "features": [
+      "mark"
+    ],
+    "color": "#c17b58",
+    "seed": 2757846569,
+    "note": "炽砂熔城的铠卫，以几何纹章描绘。"
+  },
+  "炽砂修灯师·诺安": {
+    "family": "healer",
+    "features": [
+      "mark",
+      "spark"
+    ],
+    "color": "#c17b58",
+    "seed": 324900411,
+    "note": "炽砂熔城的修灯师，以几何纹章描绘。"
+  },
+  "炽砂潜印客·瑟安": {
+    "family": "rogue",
+    "features": [
+      "mark"
+    ],
+    "color": "#c17b58",
+    "seed": 3225846545,
+    "note": "炽砂熔城的潜印客，以几何纹章描绘。"
+  },
+  "炽砂铠卫·维安": {
+    "family": "knight",
+    "features": [
+      "mark"
+    ],
+    "color": "#c17b58",
+    "seed": 1891884205,
+    "note": "炽砂熔城的铠卫，以几何纹章描绘。"
+  },
+  "炽砂巡灯使·希安": {
+    "family": "human",
+    "features": [
+      "mark"
+    ],
+    "color": "#c17b58",
+    "seed": 1240366856,
+    "note": "炽砂熔城的巡灯使，以几何纹章描绘。"
+  },
+  "炽砂铠卫·洛安": {
+    "family": "knight",
+    "features": [
+      "mark",
+      "shield"
+    ],
+    "color": "#c17b58",
+    "seed": 61438633,
+    "note": "炽砂熔城的铠卫，以几何纹章描绘。"
+  },
+  "炽砂铠卫·米安": {
+    "family": "knight",
+    "features": [
+      "mark",
+      "shield"
+    ],
+    "color": "#c17b58",
+    "seed": 1984276224,
+    "note": "炽砂熔城的铠卫，以几何纹章描绘。"
+  },
+  "炽砂微烛缄骨客": {
+    "family": "undead",
+    "features": [
+      "mark"
+    ],
+    "color": "#c17b58",
+    "seed": 10957529,
+    "note": "炽砂熔城的缄骨客，以几何纹章描绘。"
+  },
+  "炽砂琉纹缄骨客": {
+    "family": "undead",
+    "features": [
+      "mark"
+    ],
+    "color": "#c17b58",
+    "seed": 1391423135,
+    "note": "炽砂熔城的缄骨客，以几何纹章描绘。"
+  },
+  "炽砂苔痕环藤蛇": {
+    "family": "snake",
+    "features": [
+      "mark"
+    ],
+    "color": "#c17b58",
+    "seed": 251912582,
+    "note": "炽砂熔城的环藤蛇，以几何纹章描绘。"
+  },
+  "炽砂苔痕棱耳猎犬": {
+    "family": "dog",
+    "features": [
+      "mark"
+    ],
+    "color": "#c17b58",
+    "seed": 709798472,
+    "note": "炽砂熔城的棱耳猎犬，以几何纹章描绘。"
+  },
+  "炽砂铜缄铜缄铠卫": {
+    "family": "knight",
+    "features": [
+      "mark",
+      "shield"
+    ],
+    "color": "#c17b58",
+    "seed": 3842660367,
+    "note": "炽砂熔城的铠卫，以几何纹章描绘。"
+  },
+  "炽砂铜缄回声铠卫": {
+    "family": "knight",
+    "features": [
+      "mark",
+      "shield"
+    ],
+    "color": "#c17b58",
+    "seed": 1158336117,
+    "note": "炽砂熔城的铠卫，以几何纹章描绘。"
+  },
+  "炽砂铜缄微烛铠卫": {
+    "family": "knight",
+    "features": [
+      "mark"
+    ],
+    "color": "#c17b58",
+    "seed": 3433068586,
+    "note": "炽砂熔城的铠卫，以几何纹章描绘。"
+  },
+  "炽砂铜缄琉纹铠卫": {
+    "family": "knight",
+    "features": [
+      "mark",
+      "shield"
+    ],
+    "color": "#c17b58",
+    "seed": 1382742419,
+    "note": "炽砂熔城的铠卫，以几何纹章描绘。"
+  },
+  "炽砂铜缄风蚀铠卫": {
+    "family": "knight",
+    "features": [
+      "mark",
+      "shield"
+    ],
+    "color": "#c17b58",
+    "seed": 3638818461,
+    "note": "炽砂熔城的铠卫，以几何纹章描绘。"
+  },
+  "炽砂琉纹修灯师": {
+    "family": "healer",
+    "features": [
+      "mark",
+      "shield"
+    ],
+    "color": "#c17b58",
+    "seed": 3056976148,
+    "note": "炽砂熔城的修灯师，以几何纹章描绘。"
+  },
+  "炽砂风蚀缄骨客": {
+    "family": "undead",
+    "features": [
+      "mark"
+    ],
+    "color": "#c17b58",
+    "seed": 2303416262,
+    "note": "炽砂熔城的缄骨客，以几何纹章描绘。"
+  },
+  "炽砂静棱缄骨客": {
+    "family": "undead",
+    "features": [
+      "mark"
+    ],
+    "color": "#c17b58",
+    "seed": 3939472728,
+    "note": "炽砂熔城的缄骨客，以几何纹章描绘。"
+  },
+  "炽砂回声裂角客": {
+    "family": "demon",
+    "features": [
+      "mark"
+    ],
+    "color": "#c17b58",
+    "seed": 3312164148,
+    "note": "炽砂熔城的裂角客，以几何纹章描绘。"
+  },
+  "炽砂绒雾缄骨客": {
+    "family": "undead",
+    "features": [
+      "mark"
+    ],
+    "color": "#c17b58",
+    "seed": 275280071,
+    "note": "炽砂熔城的缄骨客，以几何纹章描绘。"
+  },
+  "炽砂夜航缄骨客": {
+    "family": "undead",
+    "features": [
+      "mark"
+    ],
+    "color": "#c17b58",
+    "seed": 2927494333,
+    "note": "炽砂熔城的缄骨客，以几何纹章描绘。"
+  },
+  "炽砂苔痕掠风鸟": {
+    "family": "bird",
+    "features": [
+      "mark",
+      "spots"
+    ],
+    "color": "#c17b58",
+    "seed": 345646105,
+    "note": "炽砂熔城的掠风鸟，以几何纹章描绘。"
+  },
+  "炽砂铜缄掠风鸟": {
+    "family": "bird",
+    "features": [
+      "mark"
+    ],
+    "color": "#c17b58",
+    "seed": 2907700385,
+    "note": "炽砂熔城的掠风鸟，以几何纹章描绘。"
+  },
+  "炽砂铜缄巡影狼": {
+    "family": "wolf",
+    "features": [
+      "mark"
+    ],
+    "color": "#c17b58",
+    "seed": 2934756454,
+    "note": "炽砂熔城的巡影狼，以几何纹章描绘。"
+  },
+  "炽砂铜缄静棱铠卫": {
+    "family": "knight",
+    "features": [
+      "mark",
+      "shield"
+    ],
+    "color": "#c17b58",
+    "seed": 2836620308,
+    "note": "炽砂熔城的铠卫，以几何纹章描绘。"
+  },
+  "炽砂铜缄绒雾铠卫": {
+    "family": "knight",
+    "features": [
+      "mark"
+    ],
+    "color": "#c17b58",
+    "seed": 323591489,
+    "note": "炽砂熔城的铠卫，以几何纹章描绘。"
+  },
+  "炽砂苔痕砂脊蜥": {
+    "family": "lizard",
+    "features": [
+      "mark"
+    ],
+    "color": "#c17b58",
+    "seed": 2258513237,
+    "note": "炽砂熔城的砂脊蜥，以几何纹章描绘。"
+  },
+  "炽砂铜缄砂脊蜥": {
+    "family": "lizard",
+    "features": [
+      "mark",
+      "shield"
+    ],
+    "color": "#c17b58",
+    "seed": 1343677284,
+    "note": "炽砂熔城的砂脊蜥，以几何纹章描绘。"
+  },
+  "炽砂风蚀修灯师": {
+    "family": "healer",
+    "features": [
+      "mark"
+    ],
+    "color": "#c17b58",
+    "seed": 2130999676,
+    "note": "炽砂熔城的修灯师，以几何纹章描绘。"
+  },
+  "炽砂铜缄夜航铠卫": {
+    "family": "knight",
+    "features": [
+      "mark",
+      "shield"
+    ],
+    "color": "#c17b58",
+    "seed": 3762562553,
+    "note": "炽砂熔城的铠卫，以几何纹章描绘。"
+  },
+  "炽砂回声峰脊巨灵": {
+    "family": "giant",
+    "features": [
+      "mark"
+    ],
+    "color": "#c17b58",
+    "seed": 1188042302,
+    "note": "炽砂熔城的峰脊巨灵，以几何纹章描绘。"
+  },
+  "炽砂流砂缄骨客": {
+    "family": "undead",
+    "features": [
+      "mark",
+      "spark"
+    ],
+    "color": "#c17b58",
+    "seed": 4198427792,
+    "note": "炽砂熔城的缄骨客，以几何纹章描绘。"
+  },
+  "炽砂苔痕匣中客": {
+    "family": "mimic",
+    "features": [
+      "mark",
+      "spark"
+    ],
+    "color": "#c17b58",
+    "seed": 2443045187,
+    "note": "炽砂熔城的匣中客，以几何纹章描绘。"
+  },
+  "炽砂镜纹缄骨客": {
+    "family": "undead",
+    "features": [
+      "mark"
+    ],
+    "color": "#c17b58",
+    "seed": 350282234,
+    "note": "炽砂熔城的缄骨客，以几何纹章描绘。"
+  },
+  "炽砂铜缄流砂铠卫": {
+    "family": "knight",
+    "features": [
+      "mark"
+    ],
+    "color": "#c17b58",
+    "seed": 3558445239,
+    "note": "炽砂熔城的铠卫，以几何纹章描绘。"
+  },
+  "炽砂远路缄骨客": {
+    "family": "undead",
+    "features": [
+      "mark"
+    ],
+    "color": "#c17b58",
+    "seed": 279173046,
+    "note": "炽砂熔城的缄骨客，以几何纹章描绘。"
+  },
+  "炽砂石封缄骨客": {
+    "family": "undead",
+    "features": [
+      "mark",
+      "spikes"
+    ],
+    "color": "#c17b58",
+    "seed": 182509023,
+    "note": "炽砂熔城的缄骨客，以几何纹章描绘。"
+  },
+  "炽砂苔痕铜壳蟹": {
+    "family": "crab",
+    "features": [
+      "mark",
+      "shield"
+    ],
+    "color": "#c17b58",
+    "seed": 4241035710,
+    "note": "炽砂熔城的铜壳蟹，以几何纹章描绘。"
+  },
+  "炽砂微烛裂角客": {
+    "family": "demon",
+    "features": [
+      "mark",
+      "spots"
+    ],
+    "color": "#c17b58",
+    "seed": 1264331289,
+    "note": "炽砂熔城的裂角客，以几何纹章描绘。"
+  },
+  "炽砂静棱修灯师": {
+    "family": "healer",
+    "features": [
+      "mark"
+    ],
+    "color": "#c17b58",
+    "seed": 451249272,
+    "note": "炽砂熔城的修灯师，以几何纹章描绘。"
+  },
+  "炽砂苔痕地缝蠕虫": {
+    "family": "worm",
+    "features": [
+      "mark",
+      "shield"
+    ],
+    "color": "#c17b58",
+    "seed": 2906586297,
+    "note": "炽砂熔城的地缝蠕虫，以几何纹章描绘。"
+  },
+  "炽砂铜缄镜纹铠卫": {
+    "family": "knight",
+    "features": [
+      "mark"
+    ],
+    "color": "#c17b58",
+    "seed": 3251233266,
+    "note": "炽砂熔城的铠卫，以几何纹章描绘。"
+  },
+  "炽砂静棱观灯师": {
+    "family": "mage",
+    "features": [
+      "mark"
+    ],
+    "color": "#c17b58",
+    "seed": 1467664433,
+    "note": "炽砂熔城的观灯师，以几何纹章描绘。"
+  },
+  "炽砂铜缄远路铠卫": {
+    "family": "knight",
+    "features": [
+      "mark",
+      "shield"
+    ],
+    "color": "#c17b58",
+    "seed": 3314986839,
+    "note": "炽砂熔城的铠卫，以几何纹章描绘。"
+  },
+  "炽砂铜缄石封铠卫": {
+    "family": "knight",
+    "features": [
+      "mark"
+    ],
+    "color": "#c17b58",
+    "seed": 41613947,
+    "note": "炽砂熔城的铠卫，以几何纹章描绘。"
+  },
+  "炽砂鸣枝缄骨客": {
+    "family": "undead",
+    "features": [
+      "mark"
+    ],
+    "color": "#c17b58",
+    "seed": 1287978162,
+    "note": "炽砂熔城的缄骨客，以几何纹章描绘。"
+  },
+  "炽砂回声巡影狼": {
+    "family": "wolf",
+    "features": [
+      "mark"
+    ],
+    "color": "#c17b58",
+    "seed": 4163781231,
+    "note": "炽砂熔城的巡影狼，以几何纹章描绘。"
+  },
+  "炽砂夜航巡灯使": {
+    "family": "human",
+    "features": [
+      "mark",
+      "spark"
+    ],
+    "color": "#c17b58",
+    "seed": 2087760812,
+    "note": "炽砂熔城的巡灯使，以几何纹章描绘。"
+  },
+  "炽砂苔痕折面星客": {
+    "family": "alien",
+    "features": [
+      "mark"
+    ],
+    "color": "#c17b58",
+    "seed": 343756188,
+    "note": "炽砂熔城的折面星客，以几何纹章描绘。"
+  },
+  "炽砂琉纹裂角客": {
+    "family": "demon",
+    "features": [
+      "mark",
+      "wings"
+    ],
+    "color": "#c17b58",
+    "seed": 3496100984,
+    "note": "炽砂熔城的裂角客，以几何纹章描绘。"
+  },
+  "炽砂苔痕石指傀儡": {
+    "family": "hand",
+    "features": [
+      "mark",
+      "spark"
+    ],
+    "color": "#c17b58",
+    "seed": 2369541710,
+    "note": "炽砂熔城的石指傀儡，以几何纹章描绘。"
+  },
+  "炽砂铜缄环藤蛇": {
+    "family": "snake",
+    "features": [
+      "mark",
+      "shield"
+    ],
+    "color": "#c17b58",
+    "seed": 1677076875,
+    "note": "炽砂熔城的环藤蛇，以几何纹章描绘。"
+  },
+  "炽砂回声环藤蛇": {
+    "family": "snake",
+    "features": [
+      "mark"
+    ],
+    "color": "#c17b58",
+    "seed": 2070531015,
+    "note": "炽砂熔城的环藤蛇，以几何纹章描绘。"
+  },
+  "炽砂微烛环藤蛇": {
+    "family": "snake",
+    "features": [
+      "mark"
+    ],
+    "color": "#c17b58",
+    "seed": 121598105,
+    "note": "炽砂熔城的环藤蛇，以几何纹章描绘。"
+  },
+  "炽砂回声砂脊蜥": {
+    "family": "lizard",
+    "features": [
+      "mark",
+      "shield"
+    ],
+    "color": "#c17b58",
+    "seed": 2730020291,
+    "note": "炽砂熔城的砂脊蜥，以几何纹章描绘。"
+  },
+  "炽砂铜缄鸣枝铠卫": {
+    "family": "knight",
+    "features": [
+      "mark",
+      "shield"
+    ],
+    "color": "#c17b58",
+    "seed": 640559586,
+    "note": "炽砂熔城的铠卫，以几何纹章描绘。"
+  },
+  "炽砂铜缄暖灰铠卫": {
+    "family": "knight",
+    "features": [
+      "mark"
+    ],
+    "color": "#c17b58",
+    "seed": 2301953640,
+    "note": "炽砂熔城的铠卫，以几何纹章描绘。"
+  },
+  "炽砂铜缄悬灯铠卫": {
+    "family": "knight",
+    "features": [
+      "mark"
+    ],
+    "color": "#c17b58",
+    "seed": 1573561494,
+    "note": "炽砂熔城的铠卫，以几何纹章描绘。"
+  },
+  "炽砂铜缄银露铠卫": {
+    "family": "knight",
+    "features": [
+      "mark"
+    ],
+    "color": "#c17b58",
+    "seed": 3725200296,
+    "note": "炽砂熔城的铠卫，以几何纹章描绘。"
+  },
+  "炽砂铜缄枝灯树灵": {
+    "family": "plant",
+    "features": [
+      "mark"
+    ],
+    "color": "#c17b58",
+    "seed": 1859835954,
+    "note": "炽砂熔城的枝灯树灵，以几何纹章描绘。"
+  },
+  "炽砂微烛巡影狼": {
+    "family": "wolf",
+    "features": [
+      "mark"
+    ],
+    "color": "#c17b58",
+    "seed": 2918771874,
+    "note": "炽砂熔城的巡影狼，以几何纹章描绘。"
+  },
+  "炽砂铜缄藤印铠卫": {
+    "family": "knight",
+    "features": [
+      "mark",
+      "shield"
+    ],
+    "color": "#c17b58",
+    "seed": 315645121,
+    "note": "炽砂熔城的铠卫，以几何纹章描绘。"
+  },
+  "炽砂铜缄雾羽铠卫": {
+    "family": "knight",
+    "features": [
+      "mark"
+    ],
+    "color": "#c17b58",
+    "seed": 896984777,
+    "note": "炽砂熔城的铠卫，以几何纹章描绘。"
+  },
+  "炽砂铜缄弧光铠卫": {
+    "family": "knight",
+    "features": [
+      "mark",
+      "shield"
+    ],
+    "color": "#c17b58",
+    "seed": 3162099275,
+    "note": "炽砂熔城的铠卫，以几何纹章描绘。"
+  },
+  "炽砂苔痕甲灯虫": {
+    "family": "insect",
+    "features": [
+      "mark"
+    ],
+    "color": "#c17b58",
+    "seed": 3477777399,
+    "note": "炽砂熔城的甲灯虫，以几何纹章描绘。"
+  },
+  "炽砂绒雾修灯师": {
+    "family": "healer",
+    "features": [
+      "mark",
+      "wings"
+    ],
+    "color": "#c17b58",
+    "seed": 754507508,
+    "note": "炽砂熔城的修灯师，以几何纹章描绘。"
+  },
+  "炽砂苔痕绛纹蝶": {
+    "family": "butterfly",
+    "features": [
+      "mark",
+      "wings"
+    ],
+    "color": "#c17b58",
+    "seed": 1059390237,
+    "note": "炽砂熔城的绛纹蝶，以几何纹章描绘。"
+  },
+  "炽砂苔痕露囊蛙": {
+    "family": "frog",
+    "features": [
+      "mark",
+      "spots"
+    ],
+    "color": "#c17b58",
+    "seed": 569311882,
+    "note": "炽砂熔城的露囊蛙，以几何纹章描绘。"
+  },
+  "炽砂暖灰缄骨客": {
+    "family": "undead",
+    "features": [
+      "mark",
+      "shield"
+    ],
+    "color": "#c17b58",
+    "seed": 1679139860,
+    "note": "炽砂熔城的缄骨客，以几何纹章描绘。"
+  },
+  "炽砂微烛峰脊巨灵": {
+    "family": "giant",
+    "features": [
+      "mark",
+      "shield"
+    ],
+    "color": "#c17b58",
+    "seed": 3926262735,
+    "note": "炽砂熔城的峰脊巨灵，以几何纹章描绘。"
+  },
+  "苔庭铠卫·岚安": {
+    "family": "knight",
+    "features": [
+      "mark",
+      "spark"
+    ],
+    "color": "#88a472",
+    "seed": 1097851253,
+    "note": "苔雾荒庭的铠卫，以几何纹章描绘。"
+  },
+  "铜钟缄骨客·索安": {
+    "family": "undead",
+    "features": [
+      "mark"
+    ],
+    "color": "#b69b66",
+    "seed": 3990155993,
+    "note": "铜钟堡垒的缄骨客，以几何纹章描绘。"
+  },
+  "炽砂回声苔痕铠卫": {
+    "family": "knight",
+    "features": [
+      "mark",
+      "shield"
+    ],
+    "color": "#c17b58",
+    "seed": 3748601651,
+    "note": "炽砂熔城的铠卫，以几何纹章描绘。"
+  },
+  "炽砂铠卫·莱安": {
+    "family": "knight",
+    "features": [
+      "mark",
+      "shield"
+    ],
+    "color": "#c17b58",
+    "seed": 2183967461,
+    "note": "炽砂熔城的铠卫，以几何纹章描绘。"
+  },
+  "砂镜凝光泥团领誓·岑安": {
+    "family": "blob",
+    "features": [
+      "mark",
+      "shield",
+      "orbit"
+    ],
+    "color": "#b3a17e",
+    "seed": 530270636,
+    "note": "砂镜地窟的凝光泥团，以几何纹章描绘。"
+  },
+  "砂镜铠卫领誓·塔安": {
+    "family": "knight",
+    "features": [
+      "mark",
+      "shield",
+      "orbit"
+    ],
+    "color": "#b3a17e",
+    "seed": 2875025015,
+    "note": "砂镜地窟的铠卫，以几何纹章描绘。"
+  },
+  "砂镜铠卫领誓·莫安": {
+    "family": "knight",
+    "features": [
+      "mark",
+      "orbit"
+    ],
+    "color": "#b3a17e",
+    "seed": 4036352012,
+    "note": "砂镜地窟的铠卫，以几何纹章描绘。"
+  },
+  "砂镜裂角客领誓·伦安": {
+    "family": "demon",
+    "features": [
+      "mark",
+      "orbit"
+    ],
+    "color": "#b3a17e",
+    "seed": 376733219,
+    "note": "砂镜地窟的裂角客，以几何纹章描绘。"
+  },
+  "砂镜峰脊巨灵领誓·佩安": {
+    "family": "giant",
+    "features": [
+      "mark",
+      "orbit"
+    ],
+    "color": "#b3a17e",
+    "seed": 1286143806,
+    "note": "砂镜地窟的峰脊巨灵，以几何纹章描绘。"
+  },
+  "砂镜裂角客领誓·泽安": {
+    "family": "demon",
+    "features": [
+      "mark",
+      "wings",
+      "orbit"
+    ],
+    "color": "#b3a17e",
+    "seed": 1652034503,
+    "note": "砂镜地窟的裂角客，以几何纹章描绘。"
+  },
+  "砂镜铠卫领誓·图安": {
+    "family": "knight",
+    "features": [
+      "mark",
+      "orbit"
+    ],
+    "color": "#b3a17e",
+    "seed": 4065654764,
+    "note": "砂镜地窟的铠卫，以几何纹章描绘。"
+  },
+  "砂镜凝光泥团领誓·芮安": {
+    "family": "blob",
+    "features": [
+      "mark",
+      "orbit"
+    ],
+    "color": "#b3a17e",
+    "seed": 610633672,
+    "note": "砂镜地窟的凝光泥团，以几何纹章描绘。"
+  },
+  "砂镜织光蛛领誓·阿瑟": {
+    "family": "spider",
+    "features": [
+      "mark",
+      "shield",
+      "orbit"
+    ],
+    "color": "#b3a17e",
+    "seed": 1503457893,
+    "note": "砂镜地窟的织光蛛，以几何纹章描绘。"
+  },
+  "砂镜裂角客领誓·艾瑟": {
+    "family": "demon",
+    "features": [
+      "mark",
+      "orbit"
+    ],
+    "color": "#b3a17e",
+    "seed": 2609170583,
+    "note": "砂镜地窟的裂角客，以几何纹章描绘。"
+  },
+  "砂镜晶棘蜥龙领誓·伊瑟": {
+    "family": "dragon",
+    "features": [
+      "mark",
+      "orbit"
+    ],
+    "color": "#b3a17e",
+    "seed": 3446782842,
+    "note": "砂镜地窟的晶棘蜥龙，以几何纹章描绘。"
+  },
+  "砂镜灯议长·欧瑟": {
+    "family": "mage",
+    "features": [
+      "mark",
+      "orbit"
+    ],
+    "color": "#b3a17e",
+    "seed": 2458882304,
+    "note": "砂镜地窟的观灯师，以几何纹章描绘。"
+  },
+  "砂镜灯议长·乌瑟": {
+    "family": "mage",
+    "features": [
+      "mark",
+      "visor",
+      "orbit"
+    ],
+    "color": "#b3a17e",
+    "seed": 3561158305,
+    "note": "砂镜地窟的观灯师，以几何纹章描绘。"
+  },
+  "砂镜潮纹游鱼领誓·依瑟": {
+    "family": "fish",
+    "features": [
+      "mark",
+      "wings",
+      "orbit"
+    ],
+    "color": "#b3a17e",
+    "seed": 312305102,
+    "note": "砂镜地窟的潮纹游鱼，以几何纹章描绘。"
+  },
+  "砂镜峰脊巨灵领誓·雅瑟": {
+    "family": "giant",
+    "features": [
+      "mark",
+      "spark",
+      "orbit"
+    ],
+    "color": "#b3a17e",
+    "seed": 708842379,
+    "note": "砂镜地窟的峰脊巨灵，以几何纹章描绘。"
+  },
+  "砂镜地缝蠕虫领誓·诺瑟": {
+    "family": "worm",
+    "features": [
+      "mark",
+      "spark",
+      "orbit"
+    ],
+    "color": "#b3a17e",
+    "seed": 4220499534,
+    "note": "砂镜地窟的地缝蠕虫，以几何纹章描绘。"
+  },
+  "砂镜峰脊巨灵领誓·瑟瑟": {
+    "family": "giant",
+    "features": [
+      "mark",
+      "spots",
+      "orbit"
+    ],
+    "color": "#b3a17e",
+    "seed": 4194650355,
+    "note": "砂镜地窟的峰脊巨灵，以几何纹章描绘。"
+  },
+  "砂镜灯议长·维瑟": {
+    "family": "healer",
+    "features": [
+      "mark",
+      "spark",
+      "orbit"
+    ],
+    "color": "#b3a17e",
+    "seed": 3001307431,
+    "note": "砂镜地窟的修灯师，以几何纹章描绘。"
+  },
+  "砂镜修灯师·希瑟": {
+    "family": "healer",
+    "features": [
+      "mark",
+      "spark"
+    ],
+    "color": "#b3a17e",
+    "seed": 1985393772,
+    "note": "砂镜地窟的修灯师，以几何纹章描绘。"
+  },
+  "砂镜浮辉使·洛瑟": {
+    "family": "spirit",
+    "features": [
+      "mark"
+    ],
+    "color": "#b3a17e",
+    "seed": 1578622801,
+    "note": "砂镜地窟的浮辉使，以几何纹章描绘。"
+  },
+  "砂镜修灯师·米瑟": {
+    "family": "healer",
+    "features": [
+      "mark",
+      "spark"
+    ],
+    "color": "#b3a17e",
+    "seed": 617759571,
+    "note": "砂镜地窟的修灯师，以几何纹章描绘。"
+  },
+  "砂镜修灯师·岚瑟": {
+    "family": "healer",
+    "features": [
+      "mark",
+      "spark"
+    ],
+    "color": "#b3a17e",
+    "seed": 4159072291,
+    "note": "砂镜地窟的修灯师，以几何纹章描绘。"
+  },
+  "砂镜铠卫·索瑟": {
+    "family": "knight",
+    "features": [
+      "mark",
+      "shield"
+    ],
+    "color": "#b3a17e",
+    "seed": 988311462,
+    "note": "砂镜地窟的铠卫，以几何纹章描绘。"
+  },
+  "砂镜铠卫·莱瑟": {
+    "family": "knight",
+    "features": [
+      "mark",
+      "shield"
+    ],
+    "color": "#b3a17e",
+    "seed": 1311832514,
+    "note": "砂镜地窟的铠卫，以几何纹章描绘。"
+  },
+  "砂镜巡灯使·岑瑟": {
+    "family": "human",
+    "features": [
+      "mark"
+    ],
+    "color": "#b3a17e",
+    "seed": 3137062671,
+    "note": "砂镜地窟的巡灯使，以几何纹章描绘。"
+  },
+  "砂镜巡灯使·塔瑟": {
+    "family": "human",
+    "features": [
+      "mark",
+      "shield"
+    ],
+    "color": "#b3a17e",
+    "seed": 3356569089,
+    "note": "砂镜地窟的巡灯使，以几何纹章描绘。"
+  },
+  "砂镜巡灯使·莫瑟": {
+    "family": "human",
+    "features": [
+      "mark",
+      "shield"
+    ],
+    "color": "#b3a17e",
+    "seed": 2050960989,
+    "note": "砂镜地窟的巡灯使，以几何纹章描绘。"
+  },
+  "砂镜铠卫·伦瑟": {
+    "family": "knight",
+    "features": [
+      "mark"
+    ],
+    "color": "#b3a17e",
+    "seed": 1537601595,
+    "note": "砂镜地窟的铠卫，以几何纹章描绘。"
+  },
+  "砂镜铠卫·佩瑟": {
+    "family": "knight",
+    "features": [
+      "mark",
+      "shield"
+    ],
+    "color": "#b3a17e",
+    "seed": 4220540288,
+    "note": "砂镜地窟的铠卫，以几何纹章描绘。"
+  },
+  "砂镜铠卫·泽瑟": {
+    "family": "knight",
+    "features": [
+      "mark",
+      "shield"
+    ],
+    "color": "#b3a17e",
+    "seed": 2618201844,
+    "note": "砂镜地窟的铠卫，以几何纹章描绘。"
+  },
+  "砂镜铠卫·图瑟": {
+    "family": "knight",
+    "features": [
+      "mark",
+      "shield"
+    ],
+    "color": "#b3a17e",
+    "seed": 2632255518,
+    "note": "砂镜地窟的铠卫，以几何纹章描绘。"
+  },
+  "砂镜巡灯使·芮瑟": {
+    "family": "human",
+    "features": [
+      "mark"
+    ],
+    "color": "#b3a17e",
+    "seed": 1431767828,
+    "note": "砂镜地窟的巡灯使，以几何纹章描绘。"
+  },
+  "砂镜巡灯使·阿尘": {
+    "family": "human",
+    "features": [
+      "mark"
+    ],
+    "color": "#b3a17e",
+    "seed": 783769113,
+    "note": "砂镜地窟的巡灯使，以几何纹章描绘。"
+  },
+  "砂镜铠卫·艾尘": {
+    "family": "knight",
+    "features": [
+      "mark",
+      "visor"
+    ],
+    "color": "#b3a17e",
+    "seed": 2783708656,
+    "note": "砂镜地窟的铠卫，以几何纹章描绘。"
+  },
+  "砂镜潜印客·伊尘": {
+    "family": "rogue",
+    "features": [
+      "mark"
+    ],
+    "color": "#b3a17e",
+    "seed": 4269376700,
+    "note": "砂镜地窟的潜印客，以几何纹章描绘。"
+  },
+  "砂镜巡灯使·欧尘": {
+    "family": "human",
+    "features": [
+      "mark"
+    ],
+    "color": "#b3a17e",
+    "seed": 550525313,
+    "note": "砂镜地窟的巡灯使，以几何纹章描绘。"
+  },
+  "砂镜巡灯使·乌尘": {
+    "family": "human",
+    "features": [
+      "mark"
+    ],
+    "color": "#b3a17e",
+    "seed": 3750535982,
+    "note": "砂镜地窟的巡灯使，以几何纹章描绘。"
+  },
+  "砂镜巡灯使·依尘": {
+    "family": "human",
+    "features": [
+      "mark"
+    ],
+    "color": "#b3a17e",
+    "seed": 4046797441,
+    "note": "砂镜地窟的巡灯使，以几何纹章描绘。"
+  },
+  "砂镜巡灯使·雅尘": {
+    "family": "human",
+    "features": [
+      "mark"
+    ],
+    "color": "#b3a17e",
+    "seed": 676532950,
+    "note": "砂镜地窟的巡灯使，以几何纹章描绘。"
+  },
+  "砂镜掠风鸟·诺尘": {
+    "family": "bird",
+    "features": [
+      "mark"
+    ],
+    "color": "#b3a17e",
+    "seed": 1965520776,
+    "note": "砂镜地窟的掠风鸟，以几何纹章描绘。"
+  },
+  "砂镜潜印客·瑟尘": {
+    "family": "rogue",
+    "features": [
+      "mark"
+    ],
+    "color": "#b3a17e",
+    "seed": 141452624,
+    "note": "砂镜地窟的潜印客，以几何纹章描绘。"
+  },
+  "砂镜潜印客·维尘": {
+    "family": "rogue",
+    "features": [
+      "mark"
+    ],
+    "color": "#b3a17e",
+    "seed": 4151617226,
+    "note": "砂镜地窟的潜印客，以几何纹章描绘。"
+  },
+  "砂镜观灯师·希尘": {
+    "family": "mage",
+    "features": [
+      "mark"
+    ],
+    "color": "#b3a17e",
+    "seed": 1711152423,
+    "note": "砂镜地窟的观灯师，以几何纹章描绘。"
+  },
+  "砂镜观灯师·洛尘": {
+    "family": "mage",
+    "features": [
+      "mark"
+    ],
+    "color": "#b3a17e",
+    "seed": 3180872791,
+    "note": "砂镜地窟的观灯师，以几何纹章描绘。"
+  },
+  "砂镜观灯师·米尘": {
+    "family": "mage",
+    "features": [
+      "mark"
+    ],
+    "color": "#b3a17e",
+    "seed": 397702876,
+    "note": "砂镜地窟的观灯师，以几何纹章描绘。"
+  },
+  "砂镜观灯师·岚尘": {
+    "family": "mage",
+    "features": [
+      "mark"
+    ],
+    "color": "#b3a17e",
+    "seed": 1208937381,
+    "note": "砂镜地窟的观灯师，以几何纹章描绘。"
+  },
+  "砂镜巡灯使·索尘": {
+    "family": "human",
+    "features": [
+      "mark"
+    ],
+    "color": "#b3a17e",
+    "seed": 2513566344,
+    "note": "砂镜地窟的巡灯使，以几何纹章描绘。"
+  },
+  "砂镜镜纹铠卫": {
+    "family": "knight",
+    "features": [
+      "mark",
+      "shield"
+    ],
+    "color": "#b3a17e",
+    "seed": 1679331629,
+    "note": "砂镜地窟的铠卫，以几何纹章描绘。"
+  },
+  "砂镜远路铠卫": {
+    "family": "knight",
+    "features": [
+      "mark"
+    ],
+    "color": "#b3a17e",
+    "seed": 3502864850,
+    "note": "砂镜地窟的铠卫，以几何纹章描绘。"
+  },
+  "砂镜苔痕缄骨客": {
+    "family": "undead",
+    "features": [
+      "mark"
+    ],
+    "color": "#b3a17e",
+    "seed": 1582350440,
+    "note": "砂镜地窟的缄骨客，以几何纹章描绘。"
+  },
+  "砂镜苔痕棱耳猎犬": {
+    "family": "dog",
+    "features": [
+      "mark"
+    ],
+    "color": "#b3a17e",
+    "seed": 3025665315,
+    "note": "砂镜地窟的棱耳猎犬，以几何纹章描绘。"
+  },
+  "砂镜镜纹巡灯使": {
+    "family": "human",
+    "features": [
+      "mark",
+      "shield"
+    ],
+    "color": "#b3a17e",
+    "seed": 152449094,
+    "note": "砂镜地窟的巡灯使，以几何纹章描绘。"
+  },
+  "砂镜铜缄缄骨客": {
+    "family": "undead",
+    "features": [
+      "mark"
+    ],
+    "color": "#b3a17e",
+    "seed": 3509800883,
+    "note": "砂镜地窟的缄骨客，以几何纹章描绘。"
+  },
+  "砂镜回声缄骨客": {
+    "family": "undead",
+    "features": [
+      "mark"
+    ],
+    "color": "#b3a17e",
+    "seed": 3080840159,
+    "note": "砂镜地窟的缄骨客，以几何纹章描绘。"
+  },
+  "砂镜苔痕甲灯虫": {
+    "family": "insect",
+    "features": [
+      "mark",
+      "spikes"
+    ],
+    "color": "#b3a17e",
+    "seed": 2319553701,
+    "note": "砂镜地窟的甲灯虫，以几何纹章描绘。"
+  },
+  "砂镜回声凝光泥团": {
+    "family": "blob",
+    "features": [
+      "mark",
+      "shield"
+    ],
+    "color": "#b3a17e",
+    "seed": 726281251,
+    "note": "砂镜地窟的凝光泥团，以几何纹章描绘。"
+  },
+  "砂镜苔痕砂脊蜥": {
+    "family": "lizard",
+    "features": [
+      "mark",
+      "spikes"
+    ],
+    "color": "#b3a17e",
+    "seed": 3794128911,
+    "note": "砂镜地窟的砂脊蜥，以几何纹章描绘。"
+  },
+  "砂镜铜缄地缝蠕虫": {
+    "family": "worm",
+    "features": [
+      "mark",
+      "shield"
+    ],
+    "color": "#b3a17e",
+    "seed": 2193353219,
+    "note": "砂镜地窟的地缝蠕虫，以几何纹章描绘。"
+  },
+  "砂镜铜缄浮辉使": {
+    "family": "spirit",
+    "features": [
+      "mark"
+    ],
+    "color": "#b3a17e",
+    "seed": 364186111,
+    "note": "砂镜地窟的浮辉使，以几何纹章描绘。"
+  },
+  "砂镜微烛裂角客": {
+    "family": "demon",
+    "features": [
+      "mark",
+      "wings"
+    ],
+    "color": "#b3a17e",
+    "seed": 1803685364,
+    "note": "砂镜地窟的裂角客，以几何纹章描绘。"
+  },
+  "砂镜铜缄潮纹游鱼": {
+    "family": "fish",
+    "features": [
+      "mark",
+      "wings"
+    ],
+    "color": "#b3a17e",
+    "seed": 4076757494,
+    "note": "砂镜地窟的潮纹游鱼，以几何纹章描绘。"
+  },
+  "砂镜微烛缄骨客": {
+    "family": "undead",
+    "features": [
+      "mark",
+      "spots"
+    ],
+    "color": "#b3a17e",
+    "seed": 2949433958,
+    "note": "砂镜地窟的缄骨客，以几何纹章描绘。"
+  },
+  "砂镜苔痕苔脊软虫": {
+    "family": "slug",
+    "features": [
+      "mark"
+    ],
+    "color": "#b3a17e",
+    "seed": 2182967617,
+    "note": "砂镜地窟的苔脊软虫，以几何纹章描绘。"
+  },
+  "砂镜苔痕线尾鼠": {
+    "family": "rat",
+    "features": [
+      "mark",
+      "spots"
+    ],
+    "color": "#b3a17e",
+    "seed": 2197536139,
+    "note": "砂镜地窟的线尾鼠，以几何纹章描绘。"
+  },
+  "砂镜铜缄甲灯虫": {
+    "family": "insect",
+    "features": [
+      "mark",
+      "wings"
+    ],
+    "color": "#b3a17e",
+    "seed": 99661647,
+    "note": "砂镜地窟的甲灯虫，以几何纹章描绘。"
+  },
+  "砂镜石封铠卫": {
+    "family": "knight",
+    "features": [
+      "mark",
+      "shield"
+    ],
+    "color": "#b3a17e",
+    "seed": 32858456,
+    "note": "砂镜地窟的铠卫，以几何纹章描绘。"
+  },
+  "砂镜鸣枝铠卫": {
+    "family": "knight",
+    "features": [
+      "mark",
+      "visor"
+    ],
+    "color": "#b3a17e",
+    "seed": 3684870114,
+    "note": "砂镜地窟的铠卫，以几何纹章描绘。"
+  },
+  "砂镜微烛潜印客": {
+    "family": "rogue",
+    "features": [
+      "mark"
+    ],
+    "color": "#b3a17e",
+    "seed": 3419359914,
+    "note": "砂镜地窟的潜印客，以几何纹章描绘。"
+  },
+  "砂镜琉纹缄骨客": {
+    "family": "undead",
+    "features": [
+      "mark"
+    ],
+    "color": "#b3a17e",
+    "seed": 3125410090,
+    "note": "砂镜地窟的缄骨客，以几何纹章描绘。"
+  },
+  "砂镜风蚀缄骨客": {
+    "family": "undead",
+    "features": [
+      "mark"
+    ],
+    "color": "#b3a17e",
+    "seed": 3528332076,
+    "note": "砂镜地窟的缄骨客，以几何纹章描绘。"
+  },
+  "砂镜静棱缄骨客": {
+    "family": "undead",
+    "features": [
+      "mark",
+      "visor"
+    ],
+    "color": "#b3a17e",
+    "seed": 496670680,
+    "note": "砂镜地窟的缄骨客，以几何纹章描绘。"
+  },
+  "砂镜微烛峰脊巨灵": {
+    "family": "giant",
+    "features": [
+      "mark"
+    ],
+    "color": "#b3a17e",
+    "seed": 3248167499,
+    "note": "砂镜地窟的峰脊巨灵，以几何纹章描绘。"
+  },
+  "砂镜苔痕折面星客": {
+    "family": "alien",
+    "features": [
+      "mark",
+      "visor"
+    ],
+    "color": "#b3a17e",
+    "seed": 261828083,
+    "note": "砂镜地窟的折面星客，以几何纹章描绘。"
+  },
+  "砂镜静棱观灯师": {
+    "family": "mage",
+    "features": [
+      "mark"
+    ],
+    "color": "#b3a17e",
+    "seed": 4084124726,
+    "note": "砂镜地窟的观灯师，以几何纹章描绘。"
+  },
+  "砂镜绒雾观灯师": {
+    "family": "mage",
+    "features": [
+      "mark"
+    ],
+    "color": "#b3a17e",
+    "seed": 1890458497,
+    "note": "砂镜地窟的观灯师，以几何纹章描绘。"
+  },
+  "砂镜铜缄晶棘蜥龙": {
+    "family": "dragon",
+    "features": [
+      "mark",
+      "wings"
+    ],
+    "color": "#b3a17e",
+    "seed": 434598769,
+    "note": "砂镜地窟的晶棘蜥龙，以几何纹章描绘。"
+  },
+  "砂镜回声晶棘蜥龙": {
+    "family": "dragon",
+    "features": [
+      "mark",
+      "wings"
+    ],
+    "color": "#b3a17e",
+    "seed": 249437996,
+    "note": "砂镜地窟的晶棘蜥龙，以几何纹章描绘。"
+  },
+  "暮潮星枝鹿领誓·莱尘": {
+    "family": "deer",
+    "features": [
+      "mark",
+      "spark",
+      "orbit"
+    ],
+    "color": "#a37c9e",
+    "seed": 2986302345,
+    "note": "暮潮港湾的星枝鹿，以几何纹章描绘。"
+  },
+  "暮潮灯议长·岑尘": {
+    "family": "human",
+    "features": [
+      "mark",
+      "visor",
+      "orbit"
+    ],
+    "color": "#a37c9e",
+    "seed": 446801475,
+    "note": "暮潮港湾的巡灯使，以几何纹章描绘。"
+  },
+  "暮潮浮辉使领誓·塔尘": {
+    "family": "spirit",
+    "features": [
+      "mark",
+      "spark",
+      "orbit"
+    ],
+    "color": "#a37c9e",
+    "seed": 291884703,
+    "note": "暮潮港湾的浮辉使，以几何纹章描绘。"
+  },
+  "暮潮裂角客领誓·莫尘": {
+    "family": "demon",
+    "features": [
+      "mark",
+      "spots",
+      "orbit"
+    ],
+    "color": "#a37c9e",
+    "seed": 3851969826,
+    "note": "暮潮港湾的裂角客，以几何纹章描绘。"
+  },
+  "暮潮星枝鹿领誓·伦尘": {
+    "family": "deer",
+    "features": [
+      "mark",
+      "spark",
+      "orbit"
+    ],
+    "color": "#a37c9e",
+    "seed": 3760628605,
+    "note": "暮潮港湾的星枝鹿，以几何纹章描绘。"
+  },
+  "暮潮灯议长·佩尘": {
+    "family": "human",
+    "features": [
+      "mark",
+      "orbit"
+    ],
+    "color": "#a37c9e",
+    "seed": 1494425152,
+    "note": "暮潮港湾的巡灯使，以几何纹章描绘。"
+  },
+  "暮潮潜印客领誓·泽尘": {
+    "family": "rogue",
+    "features": [
+      "mark",
+      "visor",
+      "orbit"
+    ],
+    "color": "#a37c9e",
+    "seed": 3014397292,
+    "note": "暮潮港湾的潜印客，以几何纹章描绘。"
+  },
+  "暮潮织光蛛领誓·图尘": {
+    "family": "spider",
+    "features": [
+      "mark",
+      "shield",
+      "orbit"
+    ],
+    "color": "#a37c9e",
+    "seed": 1137555340,
+    "note": "暮潮港湾的织光蛛，以几何纹章描绘。"
+  },
+  "暮潮缄骨客领誓·芮尘": {
+    "family": "undead",
+    "features": [
+      "mark",
+      "spikes",
+      "orbit"
+    ],
+    "color": "#a37c9e",
+    "seed": 3348603012,
+    "note": "暮潮港湾的缄骨客，以几何纹章描绘。"
+  },
+  "暮潮缄骨客领誓·阿汀": {
+    "family": "undead",
+    "features": [
+      "mark",
+      "spark",
+      "orbit"
+    ],
+    "color": "#a37c9e",
+    "seed": 2050804713,
+    "note": "暮潮港湾的缄骨客，以几何纹章描绘。"
+  },
+  "暮潮灯议长·艾汀": {
+    "family": "human",
+    "features": [
+      "mark",
+      "orbit"
+    ],
+    "color": "#a37c9e",
+    "seed": 141919703,
+    "note": "暮潮港湾的巡灯使，以几何纹章描绘。"
+  },
+  "暮潮折面星客领誓·伊汀": {
+    "family": "alien",
+    "features": [
+      "mark",
+      "orbit"
+    ],
+    "color": "#a37c9e",
+    "seed": 4146845012,
+    "note": "暮潮港湾的折面星客，以几何纹章描绘。"
+  },
+  "暮潮折面星客领誓·欧汀": {
+    "family": "alien",
+    "features": [
+      "mark",
+      "shield",
+      "orbit"
+    ],
+    "color": "#a37c9e",
+    "seed": 1513349903,
+    "note": "暮潮港湾的折面星客，以几何纹章描绘。"
+  },
+  "暮潮灯议长·乌汀": {
+    "family": "human",
+    "features": [
+      "mark",
+      "visor",
+      "orbit"
+    ],
+    "color": "#a37c9e",
+    "seed": 4031817562,
+    "note": "暮潮港湾的巡灯使，以几何纹章描绘。"
+  },
+  "暮潮折面星客领誓·依汀": {
+    "family": "alien",
+    "features": [
+      "mark",
+      "spark",
+      "orbit"
+    ],
+    "color": "#a37c9e",
+    "seed": 1846367447,
+    "note": "暮潮港湾的折面星客，以几何纹章描绘。"
+  },
+  "暮潮踏铃驹领誓·雅汀": {
+    "family": "horse",
+    "features": [
+      "mark",
+      "spark",
+      "orbit"
+    ],
+    "color": "#a37c9e",
+    "seed": 310560595,
+    "note": "暮潮港湾的踏铃驹，以几何纹章描绘。"
+  },
+  "暮潮星枝鹿领誓·诺汀": {
+    "family": "deer",
+    "features": [
+      "mark",
+      "spikes",
+      "orbit"
+    ],
+    "color": "#a37c9e",
+    "seed": 4186316035,
+    "note": "暮潮港湾的星枝鹿，以几何纹章描绘。"
+  },
+  "暮潮折面星客领誓·瑟汀": {
+    "family": "alien",
+    "features": [
+      "mark",
+      "orbit"
+    ],
+    "color": "#a37c9e",
+    "seed": 4245193473,
+    "note": "暮潮港湾的折面星客，以几何纹章描绘。"
+  },
+  "暮潮灯议长·维汀": {
+    "family": "human",
+    "features": [
+      "mark",
+      "spark",
+      "orbit"
+    ],
+    "color": "#a37c9e",
+    "seed": 606540023,
+    "note": "暮潮港湾的巡灯使，以几何纹章描绘。"
+  },
+  "暮潮灯议长·希汀": {
+    "family": "human",
+    "features": [
+      "mark",
+      "visor",
+      "orbit"
+    ],
+    "color": "#a37c9e",
+    "seed": 2388487808,
+    "note": "暮潮港湾的巡灯使，以几何纹章描绘。"
+  },
+  "暮潮灯议长·洛汀": {
+    "family": "human",
+    "features": [
+      "mark",
+      "orbit"
+    ],
+    "color": "#a37c9e",
+    "seed": 1632413929,
+    "note": "暮潮港湾的巡灯使，以几何纹章描绘。"
+  },
+  "暮潮灯议长·米汀": {
+    "family": "human",
+    "features": [
+      "mark",
+      "visor",
+      "orbit"
+    ],
+    "color": "#a37c9e",
+    "seed": 3235318722,
+    "note": "暮潮港湾的巡灯使，以几何纹章描绘。"
+  },
+  "暮潮灯议长·岚汀": {
+    "family": "mage",
+    "features": [
+      "mark",
+      "orbit"
+    ],
+    "color": "#a37c9e",
+    "seed": 2902322243,
+    "note": "暮潮港湾的观灯师，以几何纹章描绘。"
+  },
+  "暮潮峰脊巨灵领誓·索汀": {
+    "family": "giant",
+    "features": [
+      "mark",
+      "shield",
+      "orbit"
+    ],
+    "color": "#a37c9e",
+    "seed": 2210917363,
+    "note": "暮潮港湾的峰脊巨灵，以几何纹章描绘。"
+  },
+  "暮潮裂角客领誓·莱汀": {
+    "family": "demon",
+    "features": [
+      "mark",
+      "spark",
+      "orbit"
+    ],
+    "color": "#a37c9e",
+    "seed": 2992550995,
+    "note": "暮潮港湾的裂角客，以几何纹章描绘。"
+  },
+  "暮潮地缝蠕虫领誓·岑汀": {
+    "family": "worm",
+    "features": [
+      "mark",
+      "spots",
+      "orbit"
+    ],
+    "color": "#a37c9e",
+    "seed": 390516585,
+    "note": "暮潮港湾的地缝蠕虫，以几何纹章描绘。"
+  },
+  "暮潮棱耳猎犬领誓·塔汀": {
+    "family": "dog",
+    "features": [
+      "mark",
+      "shield",
+      "orbit"
+    ],
+    "color": "#a37c9e",
+    "seed": 3538521883,
+    "note": "暮潮港湾的棱耳猎犬，以几何纹章描绘。"
+  },
+  "暮潮缄骨客领誓·莫汀": {
+    "family": "undead",
+    "features": [
+      "mark",
+      "spikes",
+      "orbit"
+    ],
+    "color": "#a37c9e",
+    "seed": 4049887402,
+    "note": "暮潮港湾的缄骨客，以几何纹章描绘。"
+  },
+  "暮潮灯议长·伦汀": {
+    "family": "human",
+    "features": [
+      "mark",
+      "orbit"
+    ],
+    "color": "#a37c9e",
+    "seed": 2850471303,
+    "note": "暮潮港湾的巡灯使，以几何纹章描绘。"
+  },
+  "暮潮裂角客领誓·佩汀": {
+    "family": "demon",
+    "features": [
+      "mark",
+      "shield",
+      "orbit"
+    ],
+    "color": "#a37c9e",
+    "seed": 1281411591,
+    "note": "暮潮港湾的裂角客，以几何纹章描绘。"
+  },
+  "暮潮琉纹折面星客": {
+    "family": "alien",
+    "features": [
+      "mark"
+    ],
+    "color": "#a37c9e",
+    "seed": 3862715786,
+    "note": "暮潮港湾的折面星客，以几何纹章描绘。"
+  },
+  "暮潮修灯师·泽汀": {
+    "family": "healer",
+    "features": [
+      "mark",
+      "spark"
+    ],
+    "color": "#a37c9e",
+    "seed": 2790778968,
+    "note": "暮潮港湾的修灯师，以几何纹章描绘。"
+  },
+  "暮潮巡灯使·图汀": {
+    "family": "human",
+    "features": [
+      "mark",
+      "spark"
+    ],
+    "color": "#a37c9e",
+    "seed": 713245184,
+    "note": "暮潮港湾的巡灯使，以几何纹章描绘。"
+  },
+  "暮潮巡灯使·芮汀": {
+    "family": "human",
+    "features": [
+      "mark",
+      "spark"
+    ],
+    "color": "#a37c9e",
+    "seed": 94730054,
+    "note": "暮潮港湾的巡灯使，以几何纹章描绘。"
+  },
+  "暮潮修灯师·阿芙": {
+    "family": "healer",
+    "features": [
+      "mark",
+      "spark"
+    ],
+    "color": "#a37c9e",
+    "seed": 1544987335,
+    "note": "暮潮港湾的修灯师，以几何纹章描绘。"
+  },
+  "暮潮巡灯使·艾芙": {
+    "family": "human",
+    "features": [
+      "mark",
+      "spark"
+    ],
+    "color": "#a37c9e",
+    "seed": 3577461937,
+    "note": "暮潮港湾的巡灯使，以几何纹章描绘。"
+  },
+  "暮潮巡灯使·伊芙": {
+    "family": "human",
+    "features": [
+      "mark",
+      "spark"
+    ],
+    "color": "#a37c9e",
+    "seed": 3632607466,
+    "note": "暮潮港湾的巡灯使，以几何纹章描绘。"
+  },
+  "暮潮巡灯使·欧芙": {
+    "family": "human",
+    "features": [
+      "mark",
+      "spark"
+    ],
+    "color": "#a37c9e",
+    "seed": 64290483,
+    "note": "暮潮港湾的巡灯使，以几何纹章描绘。"
+  },
+  "暮潮巡灯使·乌芙": {
+    "family": "human",
+    "features": [
+      "mark",
+      "spark"
+    ],
+    "color": "#a37c9e",
+    "seed": 329508988,
+    "note": "暮潮港湾的巡灯使，以几何纹章描绘。"
+  },
+  "暮潮修灯师·依芙": {
+    "family": "healer",
+    "features": [
+      "mark",
+      "spark"
+    ],
+    "color": "#a37c9e",
+    "seed": 3086169274,
+    "note": "暮潮港湾的修灯师，以几何纹章描绘。"
+  },
+  "暮潮修灯师·雅芙": {
+    "family": "healer",
+    "features": [
+      "mark"
+    ],
+    "color": "#a37c9e",
+    "seed": 2253358911,
+    "note": "暮潮港湾的修灯师，以几何纹章描绘。"
+  },
+  "暮潮潜印客·诺芙": {
+    "family": "rogue",
+    "features": [
+      "mark",
+      "visor"
+    ],
+    "color": "#a37c9e",
+    "seed": 1667068164,
+    "note": "暮潮港湾的潜印客，以几何纹章描绘。"
+  },
+  "暮潮潜印客·瑟芙": {
+    "family": "rogue",
+    "features": [
+      "mark"
+    ],
+    "color": "#a37c9e",
+    "seed": 3808180823,
+    "note": "暮潮港湾的潜印客，以几何纹章描绘。"
+  },
+  "暮潮铠卫·维芙": {
+    "family": "knight",
+    "features": [
+      "mark",
+      "visor"
+    ],
+    "color": "#a37c9e",
+    "seed": 182806327,
+    "note": "暮潮港湾的铠卫，以几何纹章描绘。"
+  },
+  "暮潮潜印客·希芙": {
+    "family": "rogue",
+    "features": [
+      "mark",
+      "visor"
+    ],
+    "color": "#a37c9e",
+    "seed": 1305159493,
+    "note": "暮潮港湾的潜印客，以几何纹章描绘。"
+  },
+  "暮潮巡灯使·洛芙": {
+    "family": "human",
+    "features": [
+      "mark",
+      "spark"
+    ],
+    "color": "#a37c9e",
+    "seed": 1698635407,
+    "note": "暮潮港湾的巡灯使，以几何纹章描绘。"
+  },
+  "暮潮巡灯使·米芙": {
+    "family": "human",
+    "features": [
+      "mark",
+      "spark"
+    ],
+    "color": "#a37c9e",
+    "seed": 3490404505,
+    "note": "暮潮港湾的巡灯使，以几何纹章描绘。"
+  },
+  "暮潮潜印客·岚芙": {
+    "family": "rogue",
+    "features": [
+      "mark"
+    ],
+    "color": "#a37c9e",
+    "seed": 3534186408,
+    "note": "暮潮港湾的潜印客，以几何纹章描绘。"
+  },
+  "暮潮潜印客·索芙": {
+    "family": "rogue",
+    "features": [
+      "mark",
+      "visor"
+    ],
+    "color": "#a37c9e",
+    "seed": 1417524972,
+    "note": "暮潮港湾的潜印客，以几何纹章描绘。"
+  },
+  "暮潮折面星客·莱芙": {
+    "family": "alien",
+    "features": [
+      "mark",
+      "spark"
+    ],
+    "color": "#a37c9e",
+    "seed": 3779093183,
+    "note": "暮潮港湾的折面星客，以几何纹章描绘。"
+  },
+  "暮潮巡灯使·岑芙": {
+    "family": "human",
+    "features": [
+      "mark",
+      "spots"
+    ],
+    "color": "#a37c9e",
+    "seed": 2796094325,
+    "note": "暮潮港湾的巡灯使，以几何纹章描绘。"
+  },
+  "暮潮织光蛛·塔芙": {
+    "family": "spider",
+    "features": [
+      "mark"
+    ],
+    "color": "#a37c9e",
+    "seed": 1220436466,
+    "note": "暮潮港湾的织光蛛，以几何纹章描绘。"
+  },
+  "暮潮潜印客·莫芙": {
+    "family": "rogue",
+    "features": [
+      "mark",
+      "visor"
+    ],
+    "color": "#a37c9e",
+    "seed": 4291217821,
+    "note": "暮潮港湾的潜印客，以几何纹章描绘。"
+  },
+  "暮潮潜印客·伦芙": {
+    "family": "rogue",
+    "features": [
+      "mark"
+    ],
+    "color": "#a37c9e",
+    "seed": 2724415227,
+    "note": "暮潮港湾的潜印客，以几何纹章描绘。"
+  },
+  "暮潮微烛缄骨客": {
+    "family": "undead",
+    "features": [
+      "mark"
+    ],
+    "color": "#a37c9e",
+    "seed": 318334316,
+    "note": "暮潮港湾的缄骨客，以几何纹章描绘。"
+  },
+  "暮潮铜缄铠卫": {
+    "family": "knight",
+    "features": [
+      "mark"
+    ],
+    "color": "#a37c9e",
+    "seed": 2034893389,
+    "note": "暮潮港湾的铠卫，以几何纹章描绘。"
+  },
+  "暮潮琉纹缄骨客": {
+    "family": "undead",
+    "features": [
+      "mark"
+    ],
+    "color": "#a37c9e",
+    "seed": 1028466030,
+    "note": "暮潮港湾的缄骨客，以几何纹章描绘。"
+  },
+  "暮潮铜缄棱耳猎犬": {
+    "family": "dog",
+    "features": [
+      "mark"
+    ],
+    "color": "#a37c9e",
+    "seed": 2315853288,
+    "note": "暮潮港湾的棱耳猎犬，以几何纹章描绘。"
+  },
+  "暮潮苔痕掠风鸟": {
+    "family": "bird",
+    "features": [
+      "mark"
+    ],
+    "color": "#a37c9e",
+    "seed": 2373187265,
+    "note": "暮潮港湾的掠风鸟，以几何纹章描绘。"
+  },
+  "暮潮苔痕线尾鼠": {
+    "family": "rat",
+    "features": [
+      "mark"
+    ],
+    "color": "#a37c9e",
+    "seed": 4191035154,
+    "note": "暮潮港湾的线尾鼠，以几何纹章描绘。"
+  },
+  "暮潮雾羽巡灯使": {
+    "family": "human",
+    "features": [
+      "mark"
+    ],
+    "color": "#a37c9e",
+    "seed": 3750526214,
+    "note": "暮潮港湾的巡灯使，以几何纹章描绘。"
+  },
+  "暮潮静棱折面星客": {
+    "family": "alien",
+    "features": [
+      "mark"
+    ],
+    "color": "#a37c9e",
+    "seed": 3780036910,
+    "note": "暮潮港湾的折面星客，以几何纹章描绘。"
+  },
+  "暮潮风蚀缄骨客": {
+    "family": "undead",
+    "features": [
+      "mark"
+    ],
+    "color": "#a37c9e",
+    "seed": 122791120,
+    "note": "暮潮港湾的缄骨客，以几何纹章描绘。"
+  },
+  "暮潮苔痕巡影狼": {
+    "family": "wolf",
+    "features": [
+      "mark",
+      "spark"
+    ],
+    "color": "#a37c9e",
+    "seed": 3517543018,
+    "note": "暮潮港湾的巡影狼，以几何纹章描绘。"
+  },
+  "暮潮绒雾折面星客": {
+    "family": "alien",
+    "features": [
+      "mark"
+    ],
+    "color": "#a37c9e",
+    "seed": 412146169,
+    "note": "暮潮港湾的折面星客，以几何纹章描绘。"
+  },
+  "暮潮苔痕甲灯虫": {
+    "family": "insect",
+    "features": [
+      "mark",
+      "spikes"
+    ],
+    "color": "#a37c9e",
+    "seed": 4240404136,
+    "note": "暮潮港湾的甲灯虫，以几何纹章描绘。"
+  },
+  "暮潮苔痕环藤蛇": {
+    "family": "snake",
+    "features": [
+      "mark",
+      "spots"
+    ],
+    "color": "#a37c9e",
+    "seed": 1373581995,
+    "note": "暮潮港湾的环藤蛇，以几何纹章描绘。"
+  },
+  "暮潮铜缄环藤蛇": {
+    "family": "snake",
+    "features": [
+      "mark",
+      "spots"
+    ],
+    "color": "#a37c9e",
+    "seed": 1380779216,
+    "note": "暮潮港湾的环藤蛇，以几何纹章描绘。"
+  },
+  "暮潮铜缄峰脊巨灵": {
+    "family": "giant",
+    "features": [
+      "mark",
+      "shield"
+    ],
+    "color": "#a37c9e",
+    "seed": 4232944986,
+    "note": "暮潮港湾的峰脊巨灵，以几何纹章描绘。"
+  },
+  "暮潮回声峰脊巨灵": {
+    "family": "giant",
+    "features": [
+      "mark",
+      "shield"
+    ],
+    "color": "#a37c9e",
+    "seed": 52812476,
+    "note": "暮潮港湾的峰脊巨灵，以几何纹章描绘。"
+  },
+  "暮潮微烛峰脊巨灵": {
+    "family": "giant",
+    "features": [
+      "mark",
+      "shield"
+    ],
+    "color": "#a37c9e",
+    "seed": 3181867326,
+    "note": "暮潮港湾的峰脊巨灵，以几何纹章描绘。"
+  },
+  "暮潮弧光巡灯使": {
+    "family": "human",
+    "features": [
+      "mark",
+      "shield"
+    ],
+    "color": "#a37c9e",
+    "seed": 2748953697,
+    "note": "暮潮港湾的巡灯使，以几何纹章描绘。"
+  },
+  "暮潮铜缄巡影狼": {
+    "family": "wolf",
+    "features": [
+      "mark",
+      "spark"
+    ],
+    "color": "#a37c9e",
+    "seed": 3294736836,
+    "note": "暮潮港湾的巡影狼，以几何纹章描绘。"
+  },
+  "暮潮铜缄观灯师": {
+    "family": "mage",
+    "features": [
+      "mark"
+    ],
+    "color": "#a37c9e",
+    "seed": 3549771142,
+    "note": "暮潮港湾的观灯师，以几何纹章描绘。"
+  },
+  "暮潮夜航折面星客": {
+    "family": "alien",
+    "features": [
+      "mark",
+      "spots"
+    ],
+    "color": "#a37c9e",
+    "seed": 2852637863,
+    "note": "暮潮港湾的折面星客，以几何纹章描绘。"
+  },
+  "暮潮流砂折面星客": {
+    "family": "alien",
+    "features": [
+      "mark",
+      "shield"
+    ],
+    "color": "#a37c9e",
+    "seed": 57143920,
+    "note": "暮潮港湾的折面星客，以几何纹章描绘。"
+  },
+  "暮潮苔痕锈鬃豕": {
+    "family": "boar",
+    "features": [
+      "mark",
+      "shield"
+    ],
+    "color": "#a37c9e",
+    "seed": 4215768467,
+    "note": "暮潮港湾的锈鬃豕，以几何纹章描绘。"
+  },
+  "暮潮夜航潜印客": {
+    "family": "rogue",
+    "features": [
+      "mark",
+      "visor"
+    ],
+    "color": "#a37c9e",
+    "seed": 2277453906,
+    "note": "暮潮港湾的潜印客，以几何纹章描绘。"
+  },
+  "暮潮苔痕潮纹游鱼": {
+    "family": "fish",
+    "features": [
+      "mark",
+      "shield"
+    ],
+    "color": "#a37c9e",
+    "seed": 2456491147,
+    "note": "暮潮港湾的潮纹游鱼，以几何纹章描绘。"
+  },
+  "暮潮铜缄潮纹游鱼": {
+    "family": "fish",
+    "features": [
+      "mark"
+    ],
+    "color": "#a37c9e",
+    "seed": 1594955864,
+    "note": "暮潮港湾的潮纹游鱼，以几何纹章描绘。"
+  },
+  "暮潮回声潮纹游鱼": {
+    "family": "fish",
+    "features": [
+      "mark"
+    ],
+    "color": "#a37c9e",
+    "seed": 3515377896,
+    "note": "暮潮港湾的潮纹游鱼，以几何纹章描绘。"
+  },
+  "暮潮苔痕凝光泥团": {
+    "family": "blob",
+    "features": [
+      "mark",
+      "spark"
+    ],
+    "color": "#a37c9e",
+    "seed": 2859512100,
+    "note": "暮潮港湾的凝光泥团，以几何纹章描绘。"
+  },
+  "暮潮微烛裂角客": {
+    "family": "demon",
+    "features": [
+      "mark",
+      "wings"
+    ],
+    "color": "#a37c9e",
+    "seed": 1883013578,
+    "note": "暮潮港湾的裂角客，以几何纹章描绘。"
+  },
+  "暮潮铜缄浮辉使": {
+    "family": "spirit",
+    "features": [
+      "mark"
+    ],
+    "color": "#a37c9e",
+    "seed": 1224554746,
+    "note": "暮潮港湾的浮辉使，以几何纹章描绘。"
+  },
+  "暮潮回声铠卫": {
+    "family": "knight",
+    "features": [
+      "mark",
+      "spark"
+    ],
+    "color": "#a37c9e",
+    "seed": 1782352076,
+    "note": "暮潮港湾的铠卫，以几何纹章描绘。"
+  },
+  "暮潮铜缄苔痕巡灯使": {
+    "family": "human",
+    "features": [
+      "mark"
+    ],
+    "color": "#a37c9e",
+    "seed": 2059245922,
+    "note": "暮潮港湾的巡灯使，以几何纹章描绘。"
+  },
+  "暮潮回声织光蛛": {
+    "family": "spider",
+    "features": [
+      "mark"
+    ],
+    "color": "#a37c9e",
+    "seed": 3303006526,
+    "note": "暮潮港湾的织光蛛，以几何纹章描绘。"
+  },
+  "暮潮铜缄铜缄巡灯使": {
+    "family": "human",
+    "features": [
+      "mark"
+    ],
+    "color": "#a37c9e",
+    "seed": 2034970329,
+    "note": "暮潮港湾的巡灯使，以几何纹章描绘。"
+  },
+  "霜枝潜印客领誓·佩芙": {
+    "family": "rogue",
+    "features": [
+      "mark",
+      "visor",
+      "orbit"
+    ],
+    "color": "#8cbbbc",
+    "seed": 3041692795,
+    "note": "霜枝高地的潜印客，以几何纹章描绘。"
+  },
+  "霜枝铠卫领誓·泽芙": {
+    "family": "knight",
+    "features": [
+      "mark",
+      "orbit"
+    ],
+    "color": "#8cbbbc",
+    "seed": 255716312,
+    "note": "霜枝高地的铠卫，以几何纹章描绘。"
+  },
+  "霜枝潜印客领誓·图芙": {
+    "family": "rogue",
+    "features": [
+      "mark",
+      "wings",
+      "orbit"
+    ],
+    "color": "#8cbbbc",
+    "seed": 35984799,
+    "note": "霜枝高地的潜印客，以几何纹章描绘。"
+  },
+  "霜枝铠卫领誓·芮芙": {
+    "family": "knight",
+    "features": [
+      "mark",
+      "visor",
+      "orbit"
+    ],
+    "color": "#8cbbbc",
+    "seed": 2249994281,
+    "note": "霜枝高地的铠卫，以几何纹章描绘。"
+  },
+  "霜枝攀钟猿领誓·阿诺": {
+    "family": "monkey",
+    "features": [
+      "mark",
+      "orbit"
+    ],
+    "color": "#8cbbbc",
+    "seed": 1383637754,
+    "note": "霜枝高地的攀钟猿，以几何纹章描绘。"
+  },
+  "霜枝攀钟猿领誓·艾诺": {
+    "family": "monkey",
+    "features": [
+      "mark",
+      "orbit"
+    ],
+    "color": "#8cbbbc",
+    "seed": 3799127801,
+    "note": "霜枝高地的攀钟猿，以几何纹章描绘。"
+  },
+  "霜枝攀钟猿领誓·伊诺": {
+    "family": "monkey",
+    "features": [
+      "mark",
+      "spark",
+      "orbit"
+    ],
+    "color": "#8cbbbc",
+    "seed": 2282427868,
+    "note": "霜枝高地的攀钟猿，以几何纹章描绘。"
+  },
+  "霜枝灯议长·欧诺": {
+    "family": "human",
+    "features": [
+      "mark",
+      "shield",
+      "orbit"
+    ],
+    "color": "#8cbbbc",
+    "seed": 1366254022,
+    "note": "霜枝高地的巡灯使，以几何纹章描绘。"
+  },
+  "霜枝灯议长·乌诺": {
+    "family": "human",
+    "features": [
+      "mark",
+      "shield",
+      "orbit"
+    ],
+    "color": "#8cbbbc",
+    "seed": 1318957082,
+    "note": "霜枝高地的巡灯使，以几何纹章描绘。"
+  },
+  "霜枝潜印客领誓·依诺": {
+    "family": "rogue",
+    "features": [
+      "mark",
+      "visor",
+      "orbit"
+    ],
+    "color": "#8cbbbc",
+    "seed": 781704119,
+    "note": "霜枝高地的潜印客，以几何纹章描绘。"
+  },
+  "霜枝潜印客领誓·雅诺": {
+    "family": "rogue",
+    "features": [
+      "mark",
+      "visor",
+      "orbit"
+    ],
+    "color": "#8cbbbc",
+    "seed": 2880329960,
+    "note": "霜枝高地的潜印客，以几何纹章描绘。"
+  },
+  "霜枝灯议长·诺诺": {
+    "family": "human",
+    "features": [
+      "mark",
+      "visor",
+      "orbit"
+    ],
+    "color": "#8cbbbc",
+    "seed": 1150472086,
+    "note": "霜枝高地的巡灯使，以几何纹章描绘。"
+  },
+  "霜枝裂角客领誓·瑟诺": {
+    "family": "demon",
+    "features": [
+      "mark",
+      "spikes",
+      "orbit"
+    ],
+    "color": "#8cbbbc",
+    "seed": 4282957914,
+    "note": "霜枝高地的裂角客，以几何纹章描绘。"
+  },
+  "霜枝晶棘蜥龙领誓·维诺": {
+    "family": "dragon",
+    "features": [
+      "mark",
+      "shield",
+      "orbit"
+    ],
+    "color": "#8cbbbc",
+    "seed": 1318252974,
+    "note": "霜枝高地的晶棘蜥龙，以几何纹章描绘。"
+  },
+  "霜枝灯议长·希诺": {
+    "family": "healer",
+    "features": [
+      "mark",
+      "spark",
+      "visor",
+      "orbit"
+    ],
+    "color": "#8cbbbc",
+    "seed": 3877526107,
+    "note": "霜枝高地的修灯师，以几何纹章描绘。"
+  },
+  "霜枝铠卫·洛诺": {
+    "family": "knight",
+    "features": [
+      "mark",
+      "visor"
+    ],
+    "color": "#8cbbbc",
+    "seed": 3593654779,
+    "note": "霜枝高地的铠卫，以几何纹章描绘。"
+  },
+  "霜枝铠卫·米诺": {
+    "family": "knight",
+    "features": [
+      "mark",
+      "visor"
+    ],
+    "color": "#8cbbbc",
+    "seed": 2438959883,
+    "note": "霜枝高地的铠卫，以几何纹章描绘。"
+  },
+  "霜枝铠卫·岚诺": {
+    "family": "knight",
+    "features": [
+      "mark",
+      "visor"
+    ],
+    "color": "#8cbbbc",
+    "seed": 1362553767,
+    "note": "霜枝高地的铠卫，以几何纹章描绘。"
+  },
+  "霜枝铠卫·索诺": {
+    "family": "knight",
+    "features": [
+      "mark",
+      "visor"
+    ],
+    "color": "#8cbbbc",
+    "seed": 1855805576,
+    "note": "霜枝高地的铠卫，以几何纹章描绘。"
+  },
+  "霜枝铠卫·莱诺": {
+    "family": "knight",
+    "features": [
+      "mark",
+      "visor"
+    ],
+    "color": "#8cbbbc",
+    "seed": 3721347427,
+    "note": "霜枝高地的铠卫，以几何纹章描绘。"
+  },
+  "霜枝铠卫·岑诺": {
+    "family": "knight",
+    "features": [
+      "mark",
+      "visor"
+    ],
+    "color": "#8cbbbc",
+    "seed": 1584058910,
+    "note": "霜枝高地的铠卫，以几何纹章描绘。"
+  },
+  "霜枝铠卫·塔诺": {
+    "family": "knight",
+    "features": [
+      "mark",
+      "visor"
+    ],
+    "color": "#8cbbbc",
+    "seed": 867143979,
+    "note": "霜枝高地的铠卫，以几何纹章描绘。"
+  },
+  "霜枝铜缄裂角客": {
+    "family": "demon",
+    "features": [
+      "mark",
+      "shield"
+    ],
+    "color": "#8cbbbc",
+    "seed": 2592029773,
+    "note": "霜枝高地的裂角客，以几何纹章描绘。"
+  },
+  "霜枝巡灯使·莫诺": {
+    "family": "human",
+    "features": [
+      "mark",
+      "spots"
+    ],
+    "color": "#8cbbbc",
+    "seed": 2978629045,
+    "note": "霜枝高地的巡灯使，以几何纹章描绘。"
+  },
+  "霜枝巡灯使·伦诺": {
+    "family": "human",
+    "features": [
+      "mark",
+      "spots"
+    ],
+    "color": "#8cbbbc",
+    "seed": 2201662474,
+    "note": "霜枝高地的巡灯使，以几何纹章描绘。"
+  },
+  "霜枝铠卫·佩诺": {
+    "family": "knight",
+    "features": [
+      "mark",
+      "shield"
+    ],
+    "color": "#8cbbbc",
+    "seed": 2807168767,
+    "note": "霜枝高地的铠卫，以几何纹章描绘。"
+  },
+  "霜枝苔痕赤角兽": {
+    "family": "bull",
+    "features": [
+      "mark",
+      "spikes"
+    ],
+    "color": "#8cbbbc",
+    "seed": 3087297311,
+    "note": "霜枝高地的赤角兽，以几何纹章描绘。"
+  },
+  "霜枝铜缄赤角兽": {
+    "family": "bull",
+    "features": [
+      "mark",
+      "shield"
+    ],
+    "color": "#8cbbbc",
+    "seed": 3130522823,
+    "note": "霜枝高地的赤角兽，以几何纹章描绘。"
+  },
+  "霜枝镜纹铠卫": {
+    "family": "knight",
+    "features": [
+      "mark",
+      "shield"
+    ],
+    "color": "#8cbbbc",
+    "seed": 1103867231,
+    "note": "霜枝高地的铠卫，以几何纹章描绘。"
+  },
+  "霜枝巡灯使·泽诺": {
+    "family": "human",
+    "features": [
+      "mark",
+      "visor"
+    ],
+    "color": "#8cbbbc",
+    "seed": 482144049,
+    "note": "霜枝高地的巡灯使，以几何纹章描绘。"
+  },
+  "霜枝巡灯使·图诺": {
+    "family": "human",
+    "features": [
+      "mark",
+      "visor"
+    ],
+    "color": "#8cbbbc",
+    "seed": 3529306246,
+    "note": "霜枝高地的巡灯使，以几何纹章描绘。"
+  },
+  "霜枝潜印客·芮诺": {
+    "family": "rogue",
+    "features": [
+      "mark"
+    ],
+    "color": "#8cbbbc",
+    "seed": 4112710957,
+    "note": "霜枝高地的潜印客，以几何纹章描绘。"
+  },
+  "霜枝潜印客·阿烙": {
+    "family": "rogue",
+    "features": [
+      "mark"
+    ],
+    "color": "#8cbbbc",
+    "seed": 2786783992,
+    "note": "霜枝高地的潜印客，以几何纹章描绘。"
+  },
+  "霜枝静棱潜印客": {
+    "family": "rogue",
+    "features": [
+      "mark",
+      "visor"
+    ],
+    "color": "#8cbbbc",
+    "seed": 500416232,
+    "note": "霜枝高地的潜印客，以几何纹章描绘。"
+  },
+  "霜枝绒雾潜印客": {
+    "family": "rogue",
+    "features": [
+      "mark",
+      "spots"
+    ],
+    "color": "#8cbbbc",
+    "seed": 3738588795,
+    "note": "霜枝高地的潜印客，以几何纹章描绘。"
+  },
+  "霜枝潜印客·艾烙": {
+    "family": "rogue",
+    "features": [
+      "mark"
+    ],
+    "color": "#8cbbbc",
+    "seed": 3807960633,
+    "note": "霜枝高地的潜印客，以几何纹章描绘。"
+  },
+  "霜枝苔痕折面星客": {
+    "family": "alien",
+    "features": [
+      "mark"
+    ],
+    "color": "#8cbbbc",
+    "seed": 1009540220,
+    "note": "霜枝高地的折面星客，以几何纹章描绘。"
+  },
+  "霜枝苔痕浮辉使": {
+    "family": "spirit",
+    "features": [
+      "mark",
+      "shield"
+    ],
+    "color": "#8cbbbc",
+    "seed": 712757980,
+    "note": "霜枝高地的浮辉使，以几何纹章描绘。"
+  },
+  "霜枝铜缄浮辉使": {
+    "family": "spirit",
+    "features": [
+      "mark",
+      "spots"
+    ],
+    "color": "#8cbbbc",
+    "seed": 225320511,
+    "note": "霜枝高地的浮辉使，以几何纹章描绘。"
+  },
+  "霜枝铠卫·伊烙": {
+    "family": "knight",
+    "features": [
+      "mark"
+    ],
+    "color": "#8cbbbc",
+    "seed": 2846635812,
+    "note": "霜枝高地的铠卫，以几何纹章描绘。"
+  },
+  "霜枝苔痕环藤蛇": {
+    "family": "snake",
+    "features": [
+      "mark",
+      "shield"
+    ],
+    "color": "#8cbbbc",
+    "seed": 1900070717,
+    "note": "霜枝高地的环藤蛇，以几何纹章描绘。"
+  },
+  "霜枝苔痕潮纹游鱼": {
+    "family": "fish",
+    "features": [
+      "mark",
+      "shield"
+    ],
+    "color": "#8cbbbc",
+    "seed": 3443896940,
+    "note": "霜枝高地的潮纹游鱼，以几何纹章描绘。"
+  },
+  "霜枝巡灯使·欧烙": {
+    "family": "human",
+    "features": [
+      "mark"
+    ],
+    "color": "#8cbbbc",
+    "seed": 2421971093,
+    "note": "霜枝高地的巡灯使，以几何纹章描绘。"
+  },
+  "霜枝修灯师·乌烙": {
+    "family": "healer",
+    "features": [
+      "mark"
+    ],
+    "color": "#8cbbbc",
+    "seed": 3624640866,
+    "note": "霜枝高地的修灯师，以几何纹章描绘。"
+  },
+  "霜枝潜印客·依烙": {
+    "family": "rogue",
+    "features": [
+      "mark"
+    ],
+    "color": "#8cbbbc",
+    "seed": 1560610029,
+    "note": "霜枝高地的潜印客，以几何纹章描绘。"
+  },
+  "霜枝巡灯使·雅烙": {
+    "family": "human",
+    "features": [
+      "mark"
+    ],
+    "color": "#8cbbbc",
+    "seed": 1210068423,
+    "note": "霜枝高地的巡灯使，以几何纹章描绘。"
+  },
+  "霜枝巡灯使·诺烙": {
+    "family": "human",
+    "features": [
+      "mark"
+    ],
+    "color": "#8cbbbc",
+    "seed": 1404094124,
+    "note": "霜枝高地的巡灯使，以几何纹章描绘。"
+  },
+  "霜枝峰脊巨灵·瑟烙": {
+    "family": "giant",
+    "features": [
+      "mark"
+    ],
+    "color": "#8cbbbc",
+    "seed": 1624746661,
+    "note": "霜枝高地的峰脊巨灵，以几何纹章描绘。"
+  },
+  "霜枝铠卫·维烙": {
+    "family": "knight",
+    "features": [
+      "mark"
+    ],
+    "color": "#8cbbbc",
+    "seed": 1994446796,
+    "note": "霜枝高地的铠卫，以几何纹章描绘。"
+  },
+  "霜枝铠卫·希烙": {
+    "family": "knight",
+    "features": [
+      "mark"
+    ],
+    "color": "#8cbbbc",
+    "seed": 2430834101,
+    "note": "霜枝高地的铠卫，以几何纹章描绘。"
+  },
+  "霜枝铠卫·洛烙": {
+    "family": "knight",
+    "features": [
+      "mark"
+    ],
+    "color": "#8cbbbc",
+    "seed": 3405677215,
+    "note": "霜枝高地的铠卫，以几何纹章描绘。"
+  },
+  "霜枝潜印客·米烙": {
+    "family": "rogue",
+    "features": [
+      "mark",
+      "spark"
+    ],
+    "color": "#8cbbbc",
+    "seed": 2806482054,
+    "note": "霜枝高地的潜印客，以几何纹章描绘。"
+  },
+  "霜枝修灯师·岚烙": {
+    "family": "healer",
+    "features": [
+      "mark",
+      "spark",
+      "spots"
+    ],
+    "color": "#8cbbbc",
+    "seed": 2185127712,
+    "note": "霜枝高地的修灯师，以几何纹章描绘。"
+  },
+  "霜枝修灯师·索烙": {
+    "family": "healer",
+    "features": [
+      "mark",
+      "spark"
+    ],
+    "color": "#8cbbbc",
+    "seed": 1233833537,
+    "note": "霜枝高地的修灯师，以几何纹章描绘。"
+  },
+  "霜枝铠卫·莱烙": {
+    "family": "knight",
+    "features": [
+      "mark",
+      "spark"
+    ],
+    "color": "#8cbbbc",
+    "seed": 864248337,
+    "note": "霜枝高地的铠卫，以几何纹章描绘。"
+  },
+  "霜枝窑心偶·岑烙": {
+    "family": "jar",
+    "features": [
+      "mark"
+    ],
+    "color": "#8cbbbc",
+    "seed": 2540493694,
+    "note": "霜枝高地的窑心偶，以几何纹章描绘。"
+  },
+  "霜枝窑心偶·塔烙": {
+    "family": "jar",
+    "features": [
+      "mark"
+    ],
+    "color": "#8cbbbc",
+    "seed": 1796160915,
+    "note": "霜枝高地的窑心偶，以几何纹章描绘。"
+  },
+  "霜枝潜印客·莫烙": {
+    "family": "rogue",
+    "features": [
+      "mark"
+    ],
+    "color": "#8cbbbc",
+    "seed": 1130505070,
+    "note": "霜枝高地的潜印客，以几何纹章描绘。"
+  },
+  "霜枝银露铠卫": {
+    "family": "knight",
+    "features": [
+      "mark"
+    ],
+    "color": "#8cbbbc",
+    "seed": 3886670623,
+    "note": "霜枝高地的铠卫，以几何纹章描绘。"
+  },
+  "霜枝藤印铠卫": {
+    "family": "knight",
+    "features": [
+      "mark"
+    ],
+    "color": "#8cbbbc",
+    "seed": 1135782924,
+    "note": "霜枝高地的铠卫，以几何纹章描绘。"
+  },
+  "霜枝雾羽铠卫": {
+    "family": "knight",
+    "features": [
+      "mark"
+    ],
+    "color": "#8cbbbc",
+    "seed": 3217854655,
+    "note": "霜枝高地的铠卫，以几何纹章描绘。"
+  },
+  "霜枝镜纹巡灯使": {
+    "family": "human",
+    "features": [
+      "mark"
+    ],
+    "color": "#8cbbbc",
+    "seed": 3502770539,
+    "note": "霜枝高地的巡灯使，以几何纹章描绘。"
+  },
+  "霜枝石封潜印客": {
+    "family": "rogue",
+    "features": [
+      "mark"
+    ],
+    "color": "#8cbbbc",
+    "seed": 382054684,
+    "note": "霜枝高地的潜印客，以几何纹章描绘。"
+  },
+  "霜枝鸣枝潜印客": {
+    "family": "rogue",
+    "features": [
+      "mark"
+    ],
+    "color": "#8cbbbc",
+    "seed": 3190686731,
+    "note": "霜枝高地的潜印客，以几何纹章描绘。"
+  },
+  "霜枝弧光铠卫": {
+    "family": "knight",
+    "features": [
+      "mark"
+    ],
+    "color": "#8cbbbc",
+    "seed": 384046145,
+    "note": "霜枝高地的铠卫，以几何纹章描绘。"
+  },
+  "霜枝苔痕棱耳猎犬": {
+    "family": "dog",
+    "features": [
+      "mark"
+    ],
+    "color": "#8cbbbc",
+    "seed": 3934378175,
+    "note": "霜枝高地的棱耳猎犬，以几何纹章描绘。"
+  },
+  "霜枝微烛攀钟猿": {
+    "family": "monkey",
+    "features": [
+      "mark"
+    ],
+    "color": "#8cbbbc",
+    "seed": 2286300649,
+    "note": "霜枝高地的攀钟猿，以几何纹章描绘。"
+  },
+  "霜枝铜缄苔痕铠卫": {
+    "family": "knight",
+    "features": [
+      "mark"
+    ],
+    "color": "#8cbbbc",
+    "seed": 494610566,
+    "note": "霜枝高地的铠卫，以几何纹章描绘。"
+  },
+  "霜枝苔痕缄骨客": {
+    "family": "undead",
+    "features": [
+      "mark"
+    ],
+    "color": "#8cbbbc",
+    "seed": 1922645344,
+    "note": "霜枝高地的缄骨客，以几何纹章描绘。"
+  },
+  "霜枝铜缄折面星客": {
+    "family": "alien",
+    "features": [
+      "mark"
+    ],
+    "color": "#8cbbbc",
+    "seed": 619414812,
+    "note": "霜枝高地的折面星客，以几何纹章描绘。"
+  },
+  "霜枝苔痕砂脊蜥": {
+    "family": "lizard",
+    "features": [
+      "mark",
+      "spots"
+    ],
+    "color": "#8cbbbc",
+    "seed": 775178454,
+    "note": "霜枝高地的砂脊蜥，以几何纹章描绘。"
+  },
+  "霜枝暖灰潜印客": {
+    "family": "rogue",
+    "features": [
+      "mark"
+    ],
+    "color": "#8cbbbc",
+    "seed": 309883105,
+    "note": "霜枝高地的潜印客，以几何纹章描绘。"
+  },
+  "霜枝悬灯潜印客": {
+    "family": "rogue",
+    "features": [
+      "mark"
+    ],
+    "color": "#8cbbbc",
+    "seed": 47690350,
+    "note": "霜枝高地的潜印客，以几何纹章描绘。"
+  },
+  "霜枝银露潜印客": {
+    "family": "rogue",
+    "features": [
+      "mark",
+      "visor"
+    ],
+    "color": "#8cbbbc",
+    "seed": 1980157591,
+    "note": "霜枝高地的潜印客，以几何纹章描绘。"
+  },
+  "霜枝远路巡灯使": {
+    "family": "human",
+    "features": [
+      "mark",
+      "visor"
+    ],
+    "color": "#8cbbbc",
+    "seed": 1214821036,
+    "note": "霜枝高地的巡灯使，以几何纹章描绘。"
+  },
+  "霜枝石封巡灯使": {
+    "family": "human",
+    "features": [
+      "mark",
+      "visor"
+    ],
+    "color": "#8cbbbc",
+    "seed": 2345534620,
+    "note": "霜枝高地的巡灯使，以几何纹章描绘。"
+  },
+  "霜枝鸣枝巡灯使": {
+    "family": "human",
+    "features": [
+      "mark"
+    ],
+    "color": "#8cbbbc",
+    "seed": 1901856078,
+    "note": "霜枝高地的巡灯使，以几何纹章描绘。"
+  },
+  "霜枝琉纹攀钟猿": {
+    "family": "monkey",
+    "features": [
+      "mark",
+      "visor"
+    ],
+    "color": "#8cbbbc",
+    "seed": 3990404464,
+    "note": "霜枝高地的攀钟猿，以几何纹章描绘。"
+  },
+  "霜枝铜缄铜缄铠卫": {
+    "family": "knight",
+    "features": [
+      "mark",
+      "shield"
+    ],
+    "color": "#8cbbbc",
+    "seed": 1257982113,
+    "note": "霜枝高地的铠卫，以几何纹章描绘。"
+  },
+  "霜枝苔痕掠风鸟": {
+    "family": "bird",
+    "features": [
+      "mark"
+    ],
+    "color": "#8cbbbc",
+    "seed": 1076910961,
+    "note": "霜枝高地的掠风鸟，以几何纹章描绘。"
+  },
+  "霜枝铜缄回声铠卫": {
+    "family": "knight",
+    "features": [
+      "mark",
+      "visor"
+    ],
+    "color": "#8cbbbc",
+    "seed": 1542156459,
+    "note": "霜枝高地的铠卫，以几何纹章描绘。"
+  },
+  "霜枝铜缄微烛铠卫": {
+    "family": "knight",
+    "features": [
+      "mark"
+    ],
+    "color": "#8cbbbc",
+    "seed": 1961420968,
+    "note": "霜枝高地的铠卫，以几何纹章描绘。"
+  },
+  "霜枝铜缄琉纹铠卫": {
+    "family": "knight",
+    "features": [
+      "mark"
+    ],
+    "color": "#8cbbbc",
+    "seed": 3647122132,
+    "note": "霜枝高地的铠卫，以几何纹章描绘。"
+  },
+  "霜枝铜缄峰脊巨灵": {
+    "family": "giant",
+    "features": [
+      "mark",
+      "shield"
+    ],
+    "color": "#8cbbbc",
+    "seed": 2813516882,
+    "note": "霜枝高地的峰脊巨灵，以几何纹章描绘。"
+  },
+  "霜枝铜缄缄骨客": {
+    "family": "undead",
+    "features": [
+      "mark"
+    ],
+    "color": "#8cbbbc",
+    "seed": 2695509935,
+    "note": "霜枝高地的缄骨客，以几何纹章描绘。"
+  },
+  "霜枝浮辉使·伦烙": {
+    "family": "spirit",
+    "features": [
+      "mark",
+      "visor"
+    ],
+    "color": "#8cbbbc",
+    "seed": 2303541268,
+    "note": "霜枝高地的浮辉使，以几何纹章描绘。"
+  },
+  "星铸裂角客领誓·佩烙": {
+    "family": "demon",
+    "features": [
+      "mark",
+      "visor",
+      "orbit"
+    ],
+    "color": "#c2b36c",
+    "seed": 993314131,
+    "note": "星铸天穹的裂角客，以几何纹章描绘。"
+  },
+  "星铸灯议长·泽烙": {
+    "family": "human",
+    "features": [
+      "mark",
+      "spark",
+      "orbit"
+    ],
+    "color": "#c2b36c",
+    "seed": 2438122111,
+    "note": "星铸天穹的巡灯使，以几何纹章描绘。"
+  },
+  "星铸灯议长·图烙": {
+    "family": "mage",
+    "features": [
+      "mark",
+      "wings",
+      "spark",
+      "orbit"
+    ],
+    "color": "#c2b36c",
+    "seed": 2624016529,
+    "note": "星铸天穹的观灯师，以几何纹章描绘。"
+  },
+  "星铸铠卫领誓·芮烙": {
+    "family": "knight",
+    "features": [
+      "mark",
+      "shield",
+      "orbit"
+    ],
+    "color": "#c2b36c",
+    "seed": 1180579322,
+    "note": "星铸天穹的铠卫，以几何纹章描绘。"
+  },
+  "星铸环藤蛇领誓·阿玟": {
+    "family": "snake",
+    "features": [
+      "mark",
+      "spark",
+      "orbit"
+    ],
+    "color": "#c2b36c",
+    "seed": 3199255611,
+    "note": "星铸天穹的环藤蛇，以几何纹章描绘。"
+  },
+  "星铸裂角客领誓·艾玟": {
+    "family": "demon",
+    "features": [
+      "mark",
+      "spark",
+      "orbit"
+    ],
+    "color": "#c2b36c",
+    "seed": 2871225227,
+    "note": "星铸天穹的裂角客，以几何纹章描绘。"
+  },
+  "星铸裂角客领誓·伊玟": {
+    "family": "demon",
+    "features": [
+      "mark",
+      "visor",
+      "orbit"
+    ],
+    "color": "#c2b36c",
+    "seed": 3813891499,
+    "note": "星铸天穹的裂角客，以几何纹章描绘。"
+  },
+  "星铸峰脊巨灵领誓·欧玟": {
+    "family": "giant",
+    "features": [
+      "mark",
+      "shield",
+      "orbit"
+    ],
+    "color": "#c2b36c",
+    "seed": 3113226418,
+    "note": "星铸天穹的峰脊巨灵，以几何纹章描绘。"
+  },
+  "星铸巡影狼领誓·乌玟": {
+    "family": "wolf",
+    "features": [
+      "mark",
+      "orbit"
+    ],
+    "color": "#c2b36c",
+    "seed": 2575606491,
+    "note": "星铸天穹的巡影狼，以几何纹章描绘。"
+  },
+  "星铸灯议长·依玟": {
+    "family": "human",
+    "features": [
+      "mark",
+      "shield",
+      "orbit"
+    ],
+    "color": "#c2b36c",
+    "seed": 1638719268,
+    "note": "星铸天穹的巡灯使，以几何纹章描绘。"
+  },
+  "星铸灯议长·雅玟": {
+    "family": "human",
+    "features": [
+      "mark",
+      "shield",
+      "orbit"
+    ],
+    "color": "#c2b36c",
+    "seed": 3361273039,
+    "note": "星铸天穹的巡灯使，以几何纹章描绘。"
+  },
+  "星铸灯议长·诺玟": {
+    "family": "human",
+    "features": [
+      "mark",
+      "visor",
+      "orbit"
+    ],
+    "color": "#c2b36c",
+    "seed": 2185630393,
+    "note": "星铸天穹的巡灯使，以几何纹章描绘。"
+  },
+  "星铸折面星客领誓·瑟玟": {
+    "family": "alien",
+    "features": [
+      "mark",
+      "wings",
+      "spark",
+      "orbit"
+    ],
+    "color": "#c2b36c",
+    "seed": 37938492,
+    "note": "星铸天穹的折面星客，以几何纹章描绘。"
+  },
+  "星铸铠卫领誓·维玟": {
+    "family": "knight",
+    "features": [
+      "mark",
+      "spark",
+      "orbit"
+    ],
+    "color": "#c2b36c",
+    "seed": 3285020807,
+    "note": "星铸天穹的铠卫，以几何纹章描绘。"
+  },
+  "星铸修灯师·希玟": {
+    "family": "healer",
+    "features": [
+      "mark",
+      "spark"
+    ],
+    "color": "#c2b36c",
+    "seed": 246942198,
+    "note": "星铸天穹的修灯师，以几何纹章描绘。"
+  },
+  "星铸铠卫领誓·洛玟": {
+    "family": "knight",
+    "features": [
+      "mark",
+      "shield",
+      "orbit"
+    ],
+    "color": "#c2b36c",
+    "seed": 2117815727,
+    "note": "星铸天穹的铠卫，以几何纹章描绘。"
+  },
+  "星铸铠卫领誓·米玟": {
+    "family": "knight",
+    "features": [
+      "mark",
+      "shield",
+      "orbit"
+    ],
+    "color": "#c2b36c",
+    "seed": 4277493974,
+    "note": "星铸天穹的铠卫，以几何纹章描绘。"
+  },
+  "星铸裂角客领誓·岚玟": {
+    "family": "demon",
+    "features": [
+      "mark",
+      "spark",
+      "orbit"
+    ],
+    "color": "#c2b36c",
+    "seed": 3495003949,
+    "note": "星铸天穹的裂角客，以几何纹章描绘。"
+  },
+  "星铸灯议长·索玟": {
+    "family": "human",
+    "features": [
+      "mark",
+      "orbit"
+    ],
+    "color": "#c2b36c",
+    "seed": 3023089742,
+    "note": "星铸天穹的巡灯使，以几何纹章描绘。"
+  },
+  "星铸镜瞳山猫领誓·莱玟": {
+    "family": "cat",
+    "features": [
+      "mark",
+      "orbit"
+    ],
+    "color": "#c2b36c",
+    "seed": 3040647111,
+    "note": "星铸天穹的镜瞳山猫，以几何纹章描绘。"
+  },
+  "星铸铠卫领誓·岑玟": {
+    "family": "knight",
+    "features": [
+      "mark",
+      "shield",
+      "orbit"
+    ],
+    "color": "#c2b36c",
+    "seed": 2881537976,
+    "note": "星铸天穹的铠卫，以几何纹章描绘。"
+  },
+  "星铸铠卫领誓·塔玟": {
+    "family": "knight",
+    "features": [
+      "mark",
+      "shield",
+      "orbit"
+    ],
+    "color": "#c2b36c",
+    "seed": 2710851857,
+    "note": "星铸天穹的铠卫，以几何纹章描绘。"
+  },
+  "星铸铠卫领誓·莫玟": {
+    "family": "knight",
+    "features": [
+      "mark",
+      "shield",
+      "orbit"
+    ],
+    "color": "#c2b36c",
+    "seed": 3270655474,
+    "note": "星铸天穹的铠卫，以几何纹章描绘。"
+  },
+  "星铸铠卫领誓·伦玟": {
+    "family": "knight",
+    "features": [
+      "mark",
+      "spikes",
+      "orbit"
+    ],
+    "color": "#c2b36c",
+    "seed": 275550891,
+    "note": "星铸天穹的铠卫，以几何纹章描绘。"
+  },
+  "星铸铠卫领誓·佩玟": {
+    "family": "knight",
+    "features": [
+      "mark",
+      "shield",
+      "orbit"
+    ],
+    "color": "#c2b36c",
+    "seed": 3350449068,
+    "note": "星铸天穹的铠卫，以几何纹章描绘。"
+  },
+  "星铸潜印客领誓·泽玟": {
+    "family": "rogue",
+    "features": [
+      "mark",
+      "orbit"
+    ],
+    "color": "#c2b36c",
+    "seed": 753569791,
+    "note": "星铸天穹的潜印客，以几何纹章描绘。"
+  },
+  "星铸潜印客领誓·图玟": {
+    "family": "rogue",
+    "features": [
+      "mark",
+      "orbit"
+    ],
+    "color": "#c2b36c",
+    "seed": 2477525678,
+    "note": "星铸天穹的潜印客，以几何纹章描绘。"
+  },
+  "星铸铠卫领誓·芮玟": {
+    "family": "knight",
+    "features": [
+      "mark",
+      "orbit"
+    ],
+    "color": "#c2b36c",
+    "seed": 125064290,
+    "note": "星铸天穹的铠卫，以几何纹章描绘。"
+  },
+  "星铸铠卫领誓·阿斐": {
+    "family": "knight",
+    "features": [
+      "mark",
+      "shield",
+      "orbit"
+    ],
+    "color": "#c2b36c",
+    "seed": 623335867,
+    "note": "星铸天穹的铠卫，以几何纹章描绘。"
+  },
+  "星铸铠卫领誓·艾斐": {
+    "family": "knight",
+    "features": [
+      "mark",
+      "shield",
+      "orbit"
+    ],
+    "color": "#c2b36c",
+    "seed": 1997787095,
+    "note": "星铸天穹的铠卫，以几何纹章描绘。"
+  },
+  "星铸掠风鸟领誓·伊斐": {
+    "family": "bird",
+    "features": [
+      "mark",
+      "orbit"
+    ],
+    "color": "#c2b36c",
+    "seed": 655919327,
+    "note": "星铸天穹的掠风鸟，以几何纹章描绘。"
+  },
+  "星铸掠风鸟领誓·欧斐": {
+    "family": "bird",
+    "features": [
+      "mark",
+      "wings",
+      "orbit"
+    ],
+    "color": "#c2b36c",
+    "seed": 1137239489,
+    "note": "星铸天穹的掠风鸟，以几何纹章描绘。"
+  },
+  "星铸枝灯树灵领誓·乌斐": {
+    "family": "plant",
+    "features": [
+      "mark",
+      "spark",
+      "orbit"
+    ],
+    "color": "#c2b36c",
+    "seed": 1739962920,
+    "note": "星铸天穹的枝灯树灵，以几何纹章描绘。"
+  },
+  "星铸枝灯树灵领誓·依斐": {
+    "family": "plant",
+    "features": [
+      "mark",
+      "spark",
+      "orbit"
+    ],
+    "color": "#c2b36c",
+    "seed": 3472637813,
+    "note": "星铸天穹的枝灯树灵，以几何纹章描绘。"
+  },
+  "星铸枝灯树灵领誓·雅斐": {
+    "family": "plant",
+    "features": [
+      "mark",
+      "shield",
+      "orbit"
+    ],
+    "color": "#c2b36c",
+    "seed": 901230138,
+    "note": "星铸天穹的枝灯树灵，以几何纹章描绘。"
+  },
+  "星铸枝灯树灵领誓·诺斐": {
+    "family": "plant",
+    "features": [
+      "mark",
+      "shield",
+      "orbit"
+    ],
+    "color": "#c2b36c",
+    "seed": 397219973,
+    "note": "星铸天穹的枝灯树灵，以几何纹章描绘。"
+  },
+  "星铸镜瞳山猫领誓·瑟斐": {
+    "family": "cat",
+    "features": [
+      "mark",
+      "shield",
+      "orbit"
+    ],
+    "color": "#c2b36c",
+    "seed": 1127155546,
+    "note": "星铸天穹的镜瞳山猫，以几何纹章描绘。"
+  },
+  "星铸灯议长·维斐": {
+    "family": "human",
+    "features": [
+      "mark",
+      "shield",
+      "orbit"
+    ],
+    "color": "#c2b36c",
+    "seed": 2743142555,
+    "note": "星铸天穹的巡灯使，以几何纹章描绘。"
+  },
+  "星铸灯议长·希斐": {
+    "family": "human",
+    "features": [
+      "mark",
+      "shield",
+      "orbit"
+    ],
+    "color": "#c2b36c",
+    "seed": 663110367,
+    "note": "星铸天穹的巡灯使，以几何纹章描绘。"
+  },
+  "星铸峰脊巨灵领誓·洛斐": {
+    "family": "giant",
+    "features": [
+      "mark",
+      "shield",
+      "orbit"
+    ],
+    "color": "#c2b36c",
+    "seed": 59100785,
+    "note": "星铸天穹的峰脊巨灵，以几何纹章描绘。"
+  },
+  "星铸灯议长·米斐": {
+    "family": "human",
+    "features": [
+      "mark",
+      "orbit"
+    ],
+    "color": "#c2b36c",
+    "seed": 1408133141,
+    "note": "星铸天穹的巡灯使，以几何纹章描绘。"
+  },
+  "星铸灯议长·岚斐": {
+    "family": "human",
+    "features": [
+      "mark",
+      "shield",
+      "orbit"
+    ],
+    "color": "#c2b36c",
+    "seed": 155029291,
+    "note": "星铸天穹的巡灯使，以几何纹章描绘。"
+  },
+  "星铸凝光泥团领誓·索斐": {
+    "family": "blob",
+    "features": [
+      "mark",
+      "spark",
+      "orbit"
+    ],
+    "color": "#c2b36c",
+    "seed": 4011418208,
+    "note": "星铸天穹的凝光泥团，以几何纹章描绘。"
+  },
+  "星铸裂角客领誓·莱斐": {
+    "family": "demon",
+    "features": [
+      "mark",
+      "shield",
+      "orbit"
+    ],
+    "color": "#c2b36c",
+    "seed": 70868658,
+    "note": "星铸天穹的裂角客，以几何纹章描绘。"
+  },
+  "星铸裂角客领誓·岑斐": {
+    "family": "demon",
+    "features": [
+      "mark",
+      "shield",
+      "orbit"
+    ],
+    "color": "#c2b36c",
+    "seed": 2645619724,
+    "note": "星铸天穹的裂角客，以几何纹章描绘。"
+  },
+  "星铸星枝鹿领誓·塔斐": {
+    "family": "deer",
+    "features": [
+      "mark",
+      "wings",
+      "orbit"
+    ],
+    "color": "#c2b36c",
+    "seed": 695337694,
+    "note": "星铸天穹的星枝鹿，以几何纹章描绘。"
+  },
+  "星铸星枝鹿领誓·莫斐": {
+    "family": "deer",
+    "features": [
+      "mark",
+      "spark",
+      "orbit"
+    ],
+    "color": "#c2b36c",
+    "seed": 2643831961,
+    "note": "星铸天穹的星枝鹿，以几何纹章描绘。"
+  },
+  "星铸晶棘蜥龙领誓·伦斐": {
+    "family": "dragon",
+    "features": [
+      "mark",
+      "shield",
+      "orbit"
+    ],
+    "color": "#c2b36c",
+    "seed": 4098508307,
+    "note": "星铸天穹的晶棘蜥龙，以几何纹章描绘。"
+  },
+  "星铸晶棘蜥龙领誓·佩斐": {
+    "family": "dragon",
+    "features": [
+      "mark",
+      "shield",
+      "orbit"
+    ],
+    "color": "#c2b36c",
+    "seed": 1547472259,
+    "note": "星铸天穹的晶棘蜥龙，以几何纹章描绘。"
+  },
+  "星铸灯议长·泽斐": {
+    "family": "human",
+    "features": [
+      "mark",
+      "spark",
+      "orbit"
+    ],
+    "color": "#c2b36c",
+    "seed": 556787748,
+    "note": "星铸天穹的巡灯使，以几何纹章描绘。"
+  },
+  "星铸灯议长·图斐": {
+    "family": "mage",
+    "features": [
+      "mark",
+      "shield",
+      "orbit"
+    ],
+    "color": "#c2b36c",
+    "seed": 349638740,
+    "note": "星铸天穹的观灯师，以几何纹章描绘。"
+  },
+  "星铸灯议长·芮斐": {
+    "family": "mage",
+    "features": [
+      "mark",
+      "orbit"
+    ],
+    "color": "#c2b36c",
+    "seed": 2971754016,
+    "note": "星铸天穹的观灯师，以几何纹章描绘。"
+  },
+  "星铸巡影狼领誓·阿霖": {
+    "family": "wolf",
+    "features": [
+      "mark",
+      "orbit"
+    ],
+    "color": "#c2b36c",
+    "seed": 2767239818,
+    "note": "星铸天穹的巡影狼，以几何纹章描绘。"
+  },
+  "星铸巡影狼领誓·艾霖": {
+    "family": "wolf",
+    "features": [
+      "mark",
+      "orbit"
+    ],
+    "color": "#c2b36c",
+    "seed": 2663337420,
+    "note": "星铸天穹的巡影狼，以几何纹章描绘。"
+  },
+  "星铸灯议长·伊霖": {
+    "family": "human",
+    "features": [
+      "mark",
+      "shield",
+      "orbit"
+    ],
+    "color": "#c2b36c",
+    "seed": 1026278709,
+    "note": "星铸天穹的巡灯使，以几何纹章描绘。"
+  },
+  "星铸灯议长·欧霖": {
+    "family": "human",
+    "features": [
+      "mark",
+      "shield",
+      "orbit"
+    ],
+    "color": "#c2b36c",
+    "seed": 2034972426,
+    "note": "星铸天穹的巡灯使，以几何纹章描绘。"
+  },
+  "星铸灯议长·乌霖": {
+    "family": "human",
+    "features": [
+      "mark",
+      "orbit"
+    ],
+    "color": "#c2b36c",
+    "seed": 972893046,
+    "note": "星铸天穹的巡灯使，以几何纹章描绘。"
+  },
+  "星铸灯议长·依霖": {
+    "family": "human",
+    "features": [
+      "mark",
+      "shield",
+      "orbit"
+    ],
+    "color": "#c2b36c",
+    "seed": 2579720028,
+    "note": "星铸天穹的巡灯使，以几何纹章描绘。"
+  },
+  "星铸灯议长·雅霖": {
+    "family": "human",
+    "features": [
+      "mark",
+      "spark",
+      "orbit"
+    ],
+    "color": "#c2b36c",
+    "seed": 3435013483,
+    "note": "星铸天穹的巡灯使，以几何纹章描绘。"
+  },
+  "星铸灯议长·诺霖": {
+    "family": "human",
+    "features": [
+      "mark",
+      "shield",
+      "orbit"
+    ],
+    "color": "#c2b36c",
+    "seed": 4246158127,
+    "note": "星铸天穹的巡灯使，以几何纹章描绘。"
+  },
+  "星铸灯议长·瑟霖": {
+    "family": "human",
+    "features": [
+      "mark",
+      "shield",
+      "orbit"
+    ],
+    "color": "#c2b36c",
+    "seed": 50470793,
+    "note": "星铸天穹的巡灯使，以几何纹章描绘。"
+  },
+  "星铸赤角兽领誓·维霖": {
+    "family": "bull",
+    "features": [
+      "mark",
+      "shield",
+      "orbit"
+    ],
+    "color": "#c2b36c",
+    "seed": 3355426863,
+    "note": "星铸天穹的赤角兽，以几何纹章描绘。"
+  },
+  "星铸赤角兽领誓·希霖": {
+    "family": "bull",
+    "features": [
+      "mark",
+      "shield",
+      "orbit"
+    ],
+    "color": "#c2b36c",
+    "seed": 392809002,
+    "note": "星铸天穹的赤角兽，以几何纹章描绘。"
+  },
+  "星铸灯议长·洛霖": {
+    "family": "human",
+    "features": [
+      "mark",
+      "shield",
+      "orbit"
+    ],
+    "color": "#c2b36c",
+    "seed": 3520529256,
+    "note": "星铸天穹的巡灯使，以几何纹章描绘。"
+  },
+  "星铸灯议长·米霖": {
+    "family": "human",
+    "features": [
+      "mark",
+      "shield",
+      "orbit"
+    ],
+    "color": "#c2b36c",
+    "seed": 603553482,
+    "note": "星铸天穹的巡灯使，以几何纹章描绘。"
+  },
+  "星铸甲灯虫领誓·岚霖": {
+    "family": "insect",
+    "features": [
+      "mark",
+      "wings",
+      "orbit"
+    ],
+    "color": "#c2b36c",
+    "seed": 4244832266,
+    "note": "星铸天穹的甲灯虫，以几何纹章描绘。"
+  },
+  "星铸甲灯虫领誓·索霖": {
+    "family": "insect",
+    "features": [
+      "mark",
+      "wings",
+      "orbit"
+    ],
+    "color": "#c2b36c",
+    "seed": 2940213201,
+    "note": "星铸天穹的甲灯虫，以几何纹章描绘。"
+  },
+  "星铸裂角客领誓·莱霖": {
+    "family": "demon",
+    "features": [
+      "mark",
+      "shield",
+      "orbit"
+    ],
+    "color": "#c2b36c",
+    "seed": 571937136,
+    "note": "星铸天穹的裂角客，以几何纹章描绘。"
+  },
+  "星铸甲灯虫领誓·岑霖": {
+    "family": "insect",
+    "features": [
+      "mark",
+      "spots",
+      "orbit"
+    ],
+    "color": "#c2b36c",
+    "seed": 1049374571,
+    "note": "星铸天穹的甲灯虫，以几何纹章描绘。"
+  },
+  "星铸晶棘蜥龙领誓·塔霖": {
+    "family": "dragon",
+    "features": [
+      "mark",
+      "wings",
+      "orbit"
+    ],
+    "color": "#c2b36c",
+    "seed": 3994126015,
+    "note": "星铸天穹的晶棘蜥龙，以几何纹章描绘。"
+  },
+  "星铸晶棘蜥龙领誓·莫霖": {
+    "family": "dragon",
+    "features": [
+      "mark",
+      "wings",
+      "orbit"
+    ],
+    "color": "#c2b36c",
+    "seed": 1068775957,
+    "note": "星铸天穹的晶棘蜥龙，以几何纹章描绘。"
+  },
+  "星铸晶棘蜥龙领誓·伦霖": {
+    "family": "dragon",
+    "features": [
+      "mark",
+      "wings",
+      "orbit"
+    ],
+    "color": "#c2b36c",
+    "seed": 2389583432,
+    "note": "星铸天穹的晶棘蜥龙，以几何纹章描绘。"
+  },
+  "星铸晶棘蜥龙领誓·佩霖": {
+    "family": "dragon",
+    "features": [
+      "mark",
+      "shield",
+      "orbit"
+    ],
+    "color": "#c2b36c",
+    "seed": 88540025,
+    "note": "星铸天穹的晶棘蜥龙，以几何纹章描绘。"
+  },
+  "星铸晶棘蜥龙领誓·泽霖": {
+    "family": "dragon",
+    "features": [
+      "mark",
+      "shield",
+      "orbit"
+    ],
+    "color": "#c2b36c",
+    "seed": 1724400586,
+    "note": "星铸天穹的晶棘蜥龙，以几何纹章描绘。"
+  },
+  "星铸晶棘蜥龙领誓·图霖": {
+    "family": "dragon",
+    "features": [
+      "mark",
+      "wings",
+      "orbit"
+    ],
+    "color": "#c2b36c",
+    "seed": 2485935869,
+    "note": "星铸天穹的晶棘蜥龙，以几何纹章描绘。"
+  },
+  "星铸晶棘蜥龙领誓·芮霖": {
+    "family": "dragon",
+    "features": [
+      "mark",
+      "wings",
+      "orbit"
+    ],
+    "color": "#c2b36c",
+    "seed": 2905151436,
+    "note": "星铸天穹的晶棘蜥龙，以几何纹章描绘。"
+  },
+  "星铸晶棘蜥龙领誓·阿沐": {
+    "family": "dragon",
+    "features": [
+      "mark",
+      "wings",
+      "orbit"
+    ],
+    "color": "#c2b36c",
+    "seed": 115083796,
+    "note": "星铸天穹的晶棘蜥龙，以几何纹章描绘。"
+  },
+  "星铸晶棘蜥龙领誓·艾沐": {
+    "family": "dragon",
+    "features": [
+      "mark",
+      "wings",
+      "orbit"
+    ],
+    "color": "#c2b36c",
+    "seed": 141967917,
+    "note": "星铸天穹的晶棘蜥龙，以几何纹章描绘。"
+  },
+  "星铸晶棘蜥龙领誓·伊沐": {
+    "family": "dragon",
+    "features": [
+      "mark",
+      "wings",
+      "orbit"
+    ],
+    "color": "#c2b36c",
+    "seed": 1165262571,
+    "note": "星铸天穹的晶棘蜥龙，以几何纹章描绘。"
+  },
+  "星铸晶棘蜥龙领誓·欧沐": {
+    "family": "dragon",
+    "features": [
+      "mark",
+      "wings",
+      "orbit"
+    ],
+    "color": "#c2b36c",
+    "seed": 1346691955,
+    "note": "星铸天穹的晶棘蜥龙，以几何纹章描绘。"
+  },
+  "星铸晶棘蜥龙领誓·乌沐": {
+    "family": "dragon",
+    "features": [
+      "mark",
+      "shield",
+      "orbit"
+    ],
+    "color": "#c2b36c",
+    "seed": 3614107565,
+    "note": "星铸天穹的晶棘蜥龙，以几何纹章描绘。"
+  },
+  "星铸石封铠卫": {
+    "family": "knight",
+    "features": [
+      "mark",
+      "shield"
+    ],
+    "color": "#c2b36c",
+    "seed": 988099393,
+    "note": "星铸天穹的铠卫，以几何纹章描绘。"
+  },
+  "星铸鸣枝铠卫": {
+    "family": "knight",
+    "features": [
+      "mark",
+      "shield"
+    ],
+    "color": "#c2b36c",
+    "seed": 327452899,
+    "note": "星铸天穹的铠卫，以几何纹章描绘。"
+  },
+  "星铸暖灰铠卫": {
+    "family": "knight",
+    "features": [
+      "mark",
+      "shield"
+    ],
+    "color": "#c2b36c",
+    "seed": 1999038902,
+    "note": "星铸天穹的铠卫，以几何纹章描绘。"
+  },
+  "星铸悬灯铠卫": {
+    "family": "knight",
+    "features": [
+      "mark",
+      "shield"
+    ],
+    "color": "#c2b36c",
+    "seed": 3213873403,
+    "note": "星铸天穹的铠卫，以几何纹章描绘。"
+  },
+  "星铸银露铠卫": {
+    "family": "knight",
+    "features": [
+      "mark",
+      "shield"
+    ],
+    "color": "#c2b36c",
+    "seed": 1339797775,
+    "note": "星铸天穹的铠卫，以几何纹章描绘。"
+  },
+  "星铸藤印铠卫": {
+    "family": "knight",
+    "features": [
+      "mark",
+      "shield"
+    ],
+    "color": "#c2b36c",
+    "seed": 3744809843,
+    "note": "星铸天穹的铠卫，以几何纹章描绘。"
+  },
+  "星铸雾羽铠卫": {
+    "family": "knight",
+    "features": [
+      "mark",
+      "shield"
+    ],
+    "color": "#c2b36c",
+    "seed": 1421569651,
+    "note": "星铸天穹的铠卫，以几何纹章描绘。"
+  },
+  "星铸弧光巡灯使": {
+    "family": "human",
+    "features": [
+      "mark"
+    ],
+    "color": "#c2b36c",
+    "seed": 4227322818,
+    "note": "星铸天穹的巡灯使，以几何纹章描绘。"
+  },
+  "星铸微烛观灯师": {
+    "family": "mage",
+    "features": [
+      "mark"
+    ],
+    "color": "#c2b36c",
+    "seed": 3376546426,
+    "note": "星铸天穹的观灯师，以几何纹章描绘。"
+  },
+  "星铸铜缄苔痕巡灯使": {
+    "family": "human",
+    "features": [
+      "mark"
+    ],
+    "color": "#c2b36c",
+    "seed": 1595334574,
+    "note": "星铸天穹的巡灯使，以几何纹章描绘。"
+  },
+  "星铸苔痕露囊蛙": {
+    "family": "frog",
+    "features": [
+      "mark"
+    ],
+    "color": "#c2b36c",
+    "seed": 192952041,
+    "note": "星铸天穹的露囊蛙，以几何纹章描绘。"
+  },
+  "星铸铜缄铜缄巡灯使": {
+    "family": "human",
+    "features": [
+      "mark"
+    ],
+    "color": "#c2b36c",
+    "seed": 285987707,
+    "note": "星铸天穹的巡灯使，以几何纹章描绘。"
+  },
+  "星铸绒雾裂角客": {
+    "family": "demon",
+    "features": [
+      "mark"
+    ],
+    "color": "#c2b36c",
+    "seed": 1091741765,
+    "note": "星铸天穹的裂角客，以几何纹章描绘。"
+  },
+  "星铸夜航裂角客": {
+    "family": "demon",
+    "features": [
+      "mark",
+      "shield"
+    ],
+    "color": "#c2b36c",
+    "seed": 3869957955,
+    "note": "星铸天穹的裂角客，以几何纹章描绘。"
+  },
+  "星铸流砂裂角客": {
+    "family": "demon",
+    "features": [
+      "mark"
+    ],
+    "color": "#c2b36c",
+    "seed": 2192390641,
+    "note": "星铸天穹的裂角客，以几何纹章描绘。"
+  },
+  "星铸镜纹裂角客": {
+    "family": "demon",
+    "features": [
+      "mark",
+      "wings"
+    ],
+    "color": "#c2b36c",
+    "seed": 2242974763,
+    "note": "星铸天穹的裂角客，以几何纹章描绘。"
+  },
+  "星铸远路裂角客": {
+    "family": "demon",
+    "features": [
+      "mark",
+      "shield"
+    ],
+    "color": "#c2b36c",
+    "seed": 992457768,
+    "note": "星铸天穹的裂角客，以几何纹章描绘。"
+  },
+  "星铸回声潜印客": {
+    "family": "rogue",
+    "features": [
+      "mark",
+      "shield"
+    ],
+    "color": "#c2b36c",
+    "seed": 339026860,
+    "note": "星铸天穹的潜印客，以几何纹章描绘。"
+  },
+  "星铸苔痕浮辉使": {
+    "family": "spirit",
+    "features": [
+      "mark"
+    ],
+    "color": "#c2b36c",
+    "seed": 4172285600,
+    "note": "星铸天穹的浮辉使，以几何纹章描绘。"
+  },
+  "星铸苔痕缄骨客": {
+    "family": "undead",
+    "features": [
+      "mark"
+    ],
+    "color": "#c2b36c",
+    "seed": 2252273887,
+    "note": "星铸天穹的缄骨客，以几何纹章描绘。"
+  },
+  "星铸铜缄缄骨客": {
+    "family": "undead",
+    "features": [
+      "mark"
+    ],
+    "color": "#c2b36c",
+    "seed": 203796251,
+    "note": "星铸天穹的缄骨客，以几何纹章描绘。"
+  },
+  "星铸石封裂角客": {
+    "family": "demon",
+    "features": [
+      "mark"
+    ],
+    "color": "#c2b36c",
+    "seed": 719806310,
+    "note": "星铸天穹的裂角客，以几何纹章描绘。"
+  },
+  "星铸鸣枝裂角客": {
+    "family": "demon",
+    "features": [
+      "mark",
+      "shield"
+    ],
+    "color": "#c2b36c",
+    "seed": 1925085780,
+    "note": "星铸天穹的裂角客，以几何纹章描绘。"
+  },
+  "星铸回声掠风鸟": {
+    "family": "bird",
+    "features": [
+      "mark",
+      "wings"
+    ],
+    "color": "#c2b36c",
+    "seed": 3233957537,
+    "note": "星铸天穹的掠风鸟，以几何纹章描绘。"
+  },
+  "星铸微烛掠风鸟": {
+    "family": "bird",
+    "features": [
+      "mark",
+      "wings"
+    ],
+    "color": "#c2b36c",
+    "seed": 1814388382,
+    "note": "星铸天穹的掠风鸟，以几何纹章描绘。"
+  },
+  "星铸琉纹掠风鸟": {
+    "family": "bird",
+    "features": [
+      "mark",
+      "wings"
+    ],
+    "color": "#c2b36c",
+    "seed": 3565991081,
+    "note": "星铸天穹的掠风鸟，以几何纹章描绘。"
+  },
+  "星铸苔痕棱耳猎犬": {
+    "family": "dog",
+    "features": [
+      "mark"
+    ],
+    "color": "#c2b36c",
+    "seed": 2254266334,
+    "note": "星铸天穹的棱耳猎犬，以几何纹章描绘。"
+  },
+  "星铸微烛巡影狼": {
+    "family": "wolf",
+    "features": [
+      "mark"
+    ],
+    "color": "#c2b36c",
+    "seed": 2299869590,
+    "note": "星铸天穹的巡影狼，以几何纹章描绘。"
+  },
+  "星铸苔痕石背熊": {
+    "family": "bear",
+    "features": [
+      "mark",
+      "shield"
+    ],
+    "color": "#c2b36c",
+    "seed": 2734609609,
+    "note": "星铸天穹的石背熊，以几何纹章描绘。"
+  },
+  "星铸苔痕铜壳蟹": {
+    "family": "crab",
+    "features": [
+      "mark",
+      "shield"
+    ],
+    "color": "#c2b36c",
+    "seed": 784142721,
+    "note": "星铸天穹的铜壳蟹，以几何纹章描绘。"
+  },
+  "星铸铜缄铜壳蟹": {
+    "family": "crab",
+    "features": [
+      "mark",
+      "shield"
+    ],
+    "color": "#c2b36c",
+    "seed": 4135755825,
+    "note": "星铸天穹的铜壳蟹，以几何纹章描绘。"
+  },
+  "星铸铜缄凝光泥团": {
+    "family": "blob",
+    "features": [
+      "mark",
+      "spots"
+    ],
+    "color": "#c2b36c",
+    "seed": 3272564021,
+    "note": "星铸天穹的凝光泥团，以几何纹章描绘。"
+  },
+  "星铸苔痕流墨触灵": {
+    "family": "octopus",
+    "features": [
+      "mark",
+      "spark"
+    ],
+    "color": "#c2b36c",
+    "seed": 3628143671,
+    "note": "星铸天穹的流墨触灵，以几何纹章描绘。"
+  },
+  "星铸琉纹枝灯树灵": {
+    "family": "plant",
+    "features": [
+      "mark",
+      "spots"
+    ],
+    "color": "#c2b36c",
+    "seed": 293910820,
+    "note": "星铸天穹的枝灯树灵，以几何纹章描绘。"
+  },
+  "星铸铜缄浮辉使": {
+    "family": "spirit",
+    "features": [
+      "mark",
+      "wings"
+    ],
+    "color": "#c2b36c",
+    "seed": 3768686749,
+    "note": "星铸天穹的浮辉使，以几何纹章描绘。"
+  },
+  "星铸暖灰裂角客": {
+    "family": "demon",
+    "features": [
+      "mark"
+    ],
+    "color": "#c2b36c",
+    "seed": 3568371613,
+    "note": "星铸天穹的裂角客，以几何纹章描绘。"
+  },
+  "星铸铜缄流墨触灵": {
+    "family": "octopus",
+    "features": [
+      "mark"
+    ],
+    "color": "#c2b36c",
+    "seed": 22818476,
+    "note": "星铸天穹的流墨触灵，以几何纹章描绘。"
+  },
+  "星铸回声峰脊巨灵": {
+    "family": "giant",
+    "features": [
+      "mark",
+      "shield"
+    ],
+    "color": "#c2b36c",
+    "seed": 1397071600,
+    "note": "星铸天穹的峰脊巨灵，以几何纹章描绘。"
+  },
+  "星铸铜缄回声巡灯使": {
+    "family": "human",
+    "features": [
+      "mark",
+      "shield"
+    ],
+    "color": "#c2b36c",
+    "seed": 626214343,
+    "note": "星铸天穹的巡灯使，以几何纹章描绘。"
+  },
+  "星铸苔痕石指傀儡": {
+    "family": "hand",
+    "features": [
+      "mark",
+      "spikes"
+    ],
+    "color": "#c2b36c",
+    "seed": 2148147845,
+    "note": "星铸天穹的石指傀儡，以几何纹章描绘。"
+  },
+  "星铸铜缄露囊蛙": {
+    "family": "frog",
+    "features": [
+      "mark",
+      "spots"
+    ],
+    "color": "#c2b36c",
+    "seed": 3966897747,
+    "note": "星铸天穹的露囊蛙，以几何纹章描绘。"
+  },
+  "星铸苔痕线尾鼠": {
+    "family": "rat",
+    "features": [
+      "mark",
+      "spots"
+    ],
+    "color": "#c2b36c",
+    "seed": 2636570749,
+    "note": "星铸天穹的线尾鼠，以几何纹章描绘。"
+  },
+  "星铸回声凝光泥团": {
+    "family": "blob",
+    "features": [
+      "mark",
+      "shield"
+    ],
+    "color": "#c2b36c",
+    "seed": 915235530,
+    "note": "星铸天穹的凝光泥团，以几何纹章描绘。"
+  },
+  "星铸铜缄棱耳猎犬": {
+    "family": "dog",
+    "features": [
+      "mark",
+      "spots"
+    ],
+    "color": "#c2b36c",
+    "seed": 3102402389,
+    "note": "星铸天穹的棱耳猎犬，以几何纹章描绘。"
+  },
+  "星铸回声缄骨客": {
+    "family": "undead",
+    "features": [
+      "mark"
+    ],
+    "color": "#c2b36c",
+    "seed": 2202585100,
+    "note": "星铸天穹的缄骨客，以几何纹章描绘。"
+  },
+  "星铸铜缄线尾鼠": {
+    "family": "rat",
+    "features": [
+      "mark",
+      "spots"
+    ],
+    "color": "#c2b36c",
+    "seed": 2448432687,
+    "note": "星铸天穹的线尾鼠，以几何纹章描绘。"
+  },
+  "星铸弧光铠卫": {
+    "family": "knight",
+    "features": [
+      "mark",
+      "shield"
+    ],
+    "color": "#c2b36c",
+    "seed": 871597953,
+    "note": "星铸天穹的铠卫，以几何纹章描绘。"
+  },
+  "星铸风蚀掠风鸟": {
+    "family": "bird",
+    "features": [
+      "mark",
+      "wings"
+    ],
+    "color": "#c2b36c",
+    "seed": 1760047594,
+    "note": "星铸天穹的掠风鸟，以几何纹章描绘。"
+  },
+  "星铸琉纹观灯师": {
+    "family": "mage",
+    "features": [
+      "mark"
+    ],
+    "color": "#c2b36c",
+    "seed": 349502260,
+    "note": "星铸天穹的观灯师，以几何纹章描绘。"
+  },
+  "星铸铜缄苔痕铠卫": {
+    "family": "knight",
+    "features": [
+      "mark",
+      "shield"
+    ],
+    "color": "#c2b36c",
+    "seed": 3953398078,
+    "note": "星铸天穹的铠卫，以几何纹章描绘。"
+  },
+  "星铸暖灰晶棘蜥龙": {
+    "family": "dragon",
+    "features": [
+      "mark",
+      "shield"
+    ],
+    "color": "#c2b36c",
+    "seed": 3256041714,
+    "note": "星铸天穹的晶棘蜥龙，以几何纹章描绘。"
+  },
+  "星铸铜缄铜缄铠卫": {
+    "family": "knight",
+    "features": [
+      "mark",
+      "shield"
+    ],
+    "color": "#c2b36c",
+    "seed": 1613429201,
+    "note": "星铸天穹的铠卫，以几何纹章描绘。"
+  },
+  "星铸铜缄回声铠卫": {
+    "family": "knight",
+    "features": [
+      "mark",
+      "shield"
+    ],
+    "color": "#c2b36c",
+    "seed": 507755512,
+    "note": "星铸天穹的铠卫，以几何纹章描绘。"
+  },
+  "星铸铜缄微烛铠卫": {
+    "family": "knight",
+    "features": [
+      "mark",
+      "shield"
+    ],
+    "color": "#c2b36c",
+    "seed": 4082043785,
+    "note": "星铸天穹的铠卫，以几何纹章描绘。"
+  },
+  "星铸铜缄琉纹铠卫": {
+    "family": "knight",
+    "features": [
+      "mark",
+      "shield"
+    ],
+    "color": "#c2b36c",
+    "seed": 936066081,
+    "note": "星铸天穹的铠卫，以几何纹章描绘。"
+  },
+  "星铸铜缄风蚀铠卫": {
+    "family": "knight",
+    "features": [
+      "mark",
+      "shield"
+    ],
+    "color": "#c2b36c",
+    "seed": 3822833562,
+    "note": "星铸天穹的铠卫，以几何纹章描绘。"
+  },
+  "星铸铜缄静棱铠卫": {
+    "family": "knight",
+    "features": [
+      "mark",
+      "spots"
+    ],
+    "color": "#c2b36c",
+    "seed": 3687404494,
+    "note": "星铸天穹的铠卫，以几何纹章描绘。"
+  },
+  "星铸铠卫·依沐": {
+    "family": "knight",
+    "features": [
+      "mark",
+      "shield"
+    ],
+    "color": "#c2b36c",
+    "seed": 3162773620,
+    "note": "星铸天穹的铠卫，以几何纹章描绘。"
+  },
+  "星铸铠卫·雅沐": {
+    "family": "knight",
+    "features": [
+      "mark",
+      "visor"
+    ],
+    "color": "#c2b36c",
+    "seed": 3829130494,
+    "note": "星铸天穹的铠卫，以几何纹章描绘。"
+  },
+  "星铸铜缄修灯师": {
+    "family": "healer",
+    "features": [
+      "mark",
+      "shield"
+    ],
+    "color": "#c2b36c",
+    "seed": 4044246940,
+    "note": "星铸天穹的修灯师，以几何纹章描绘。"
+  },
+  "星铸铜缄微烛巡灯使": {
+    "family": "human",
+    "features": [
+      "mark",
+      "shield"
+    ],
+    "color": "#c2b36c",
+    "seed": 296129491,
+    "note": "星铸天穹的巡灯使，以几何纹章描绘。"
+  },
+  "星铸铜缄琉纹巡灯使": {
+    "family": "human",
+    "features": [
+      "mark",
+      "shield"
+    ],
+    "color": "#c2b36c",
+    "seed": 3446361632,
+    "note": "星铸天穹的巡灯使，以几何纹章描绘。"
+  },
+  "星铸风蚀观灯师": {
+    "family": "mage",
+    "features": [
+      "mark"
+    ],
+    "color": "#c2b36c",
+    "seed": 2500102280,
+    "note": "星铸天穹的观灯师，以几何纹章描绘。"
+  },
+  "星铸微烛凝光泥团": {
+    "family": "blob",
+    "features": [
+      "mark",
+      "spark"
+    ],
+    "color": "#c2b36c",
+    "seed": 3116887917,
+    "note": "星铸天穹的凝光泥团，以几何纹章描绘。"
+  },
+  "星铸铜缄环藤蛇": {
+    "family": "snake",
+    "features": [
+      "mark",
+      "spark"
+    ],
+    "color": "#c2b36c",
+    "seed": 269284859,
+    "note": "星铸天穹的环藤蛇，以几何纹章描绘。"
+  },
+  "星铸铠卫·诺沐": {
+    "family": "knight",
+    "features": [
+      "mark",
+      "shield"
+    ],
+    "color": "#c2b36c",
+    "seed": 3589232080,
+    "note": "星铸天穹的铠卫，以几何纹章描绘。"
+  },
+  "星铸铠卫·瑟沐": {
+    "family": "knight",
+    "features": [
+      "mark",
+      "shield"
+    ],
+    "color": "#c2b36c",
+    "seed": 1535633521,
+    "note": "星铸天穹的铠卫，以几何纹章描绘。"
+  },
+  "星铸铠卫·维沐": {
+    "family": "knight",
+    "features": [
+      "mark",
+      "shield"
+    ],
+    "color": "#c2b36c",
+    "seed": 680497619,
+    "note": "星铸天穹的铠卫，以几何纹章描绘。"
+  },
+  "星铸铠卫·希沐": {
+    "family": "knight",
+    "features": [
+      "mark",
+      "shield"
+    ],
+    "color": "#c2b36c",
+    "seed": 920604095,
+    "note": "星铸天穹的铠卫，以几何纹章描绘。"
+  },
+  "星铸修灯师·洛沐": {
+    "family": "healer",
+    "features": [
+      "mark",
+      "spark"
+    ],
+    "color": "#c2b36c",
+    "seed": 3205038786,
+    "note": "星铸天穹的修灯师，以几何纹章描绘。"
+  },
+  "星铸观灯师·米沐": {
+    "family": "mage",
+    "features": [
+      "mark"
+    ],
+    "color": "#c2b36c",
+    "seed": 349950281,
+    "note": "星铸天穹的观灯师，以几何纹章描绘。"
+  },
+  "星铸巡影狼·岚沐": {
+    "family": "wolf",
+    "features": [
+      "mark",
+      "shield"
+    ],
+    "color": "#c2b36c",
+    "seed": 4137594898,
+    "note": "星铸天穹的巡影狼，以几何纹章描绘。"
+  },
+  "星铸观灯师·索沐": {
+    "family": "mage",
+    "features": [
+      "mark"
+    ],
+    "color": "#c2b36c",
+    "seed": 1490842591,
+    "note": "星铸天穹的观灯师，以几何纹章描绘。"
+  },
+  "星铸潜印客·莱沐": {
+    "family": "rogue",
+    "features": [
+      "mark",
+      "spark"
+    ],
+    "color": "#c2b36c",
+    "seed": 1740477213,
+    "note": "星铸天穹的潜印客，以几何纹章描绘。"
+  },
+  "星铸巡灯使·岑沐": {
+    "family": "human",
+    "features": [
+      "mark",
+      "spark"
+    ],
+    "color": "#c2b36c",
+    "seed": 2633186955,
+    "note": "星铸天穹的巡灯使，以几何纹章描绘。"
+  },
+  "星铸窑心偶·塔沐": {
+    "family": "jar",
+    "features": [
+      "mark",
+      "shield"
+    ],
+    "color": "#c2b36c",
+    "seed": 568508416,
+    "note": "星铸天穹的窑心偶，以几何纹章描绘。"
+  },
+  "星铸窑心偶·莫沐": {
+    "family": "jar",
+    "features": [
+      "mark",
+      "shield"
+    ],
+    "color": "#c2b36c",
+    "seed": 2738089935,
+    "note": "星铸天穹的窑心偶，以几何纹章描绘。"
+  },
+  "星铸铠卫·伦沐": {
+    "family": "knight",
+    "features": [
+      "mark",
+      "shield"
+    ],
+    "color": "#c2b36c",
+    "seed": 3332398975,
+    "note": "星铸天穹的铠卫，以几何纹章描绘。"
+  },
+  "星铸铠卫·佩沐": {
+    "family": "knight",
+    "features": [
+      "mark",
+      "shield"
+    ],
+    "color": "#c2b36c",
+    "seed": 3827009664,
+    "note": "星铸天穹的铠卫，以几何纹章描绘。"
+  },
+  "星铸巡灯使·泽沐": {
+    "family": "human",
+    "features": [
+      "mark"
+    ],
+    "color": "#c2b36c",
+    "seed": 1310225477,
+    "note": "星铸天穹的巡灯使，以几何纹章描绘。"
+  },
+  "星铸巡灯使·图沐": {
+    "family": "human",
+    "features": [
+      "mark"
+    ],
+    "color": "#c2b36c",
+    "seed": 872761247,
+    "note": "星铸天穹的巡灯使，以几何纹章描绘。"
+  },
+  "星铸攀钟猿·芮沐": {
+    "family": "monkey",
+    "features": [
+      "mark"
+    ],
+    "color": "#c2b36c",
+    "seed": 1924066744,
+    "note": "星铸天穹的攀钟猿，以几何纹章描绘。"
+  },
+  "星铸潜印客·阿洛": {
+    "family": "rogue",
+    "features": [
+      "mark"
+    ],
+    "color": "#c2b36c",
+    "seed": 2991026914,
+    "note": "星铸天穹的潜印客，以几何纹章描绘。"
+  },
+  "星铸巡灯使·艾洛": {
+    "family": "human",
+    "features": [
+      "mark"
+    ],
+    "color": "#c2b36c",
+    "seed": 2805766628,
+    "note": "星铸天穹的巡灯使，以几何纹章描绘。"
+  },
+  "星铸铠卫·伊洛": {
+    "family": "knight",
+    "features": [
+      "mark",
+      "shield"
+    ],
+    "color": "#c2b36c",
+    "seed": 2799857355,
+    "note": "星铸天穹的铠卫，以几何纹章描绘。"
+  },
+  "星铸铠卫·欧洛": {
+    "family": "knight",
+    "features": [
+      "mark",
+      "shield"
+    ],
+    "color": "#c2b36c",
+    "seed": 398131477,
+    "note": "星铸天穹的铠卫，以几何纹章描绘。"
+  },
+  "星铸铠卫·乌洛": {
+    "family": "knight",
+    "features": [
+      "mark",
+      "shield"
+    ],
+    "color": "#c2b36c",
+    "seed": 1171307330,
+    "note": "星铸天穹的铠卫，以几何纹章描绘。"
+  },
+  "星铸铠卫·依洛": {
+    "family": "knight",
+    "features": [
+      "mark",
+      "shield"
+    ],
+    "color": "#c2b36c",
+    "seed": 3995076346,
+    "note": "星铸天穹的铠卫，以几何纹章描绘。"
+  },
+  "星铸铠卫·雅洛": {
+    "family": "knight",
+    "features": [
+      "mark",
+      "shield"
+    ],
+    "color": "#c2b36c",
+    "seed": 357713793,
+    "note": "星铸天穹的铠卫，以几何纹章描绘。"
+  },
+  "星铸潜印客·诺洛": {
+    "family": "rogue",
+    "features": [
+      "mark"
+    ],
+    "color": "#c2b36c",
+    "seed": 2697986032,
+    "note": "星铸天穹的潜印客，以几何纹章描绘。"
+  },
+  "星铸铠卫·瑟洛": {
+    "family": "knight",
+    "features": [
+      "mark",
+      "shield"
+    ],
+    "color": "#c2b36c",
+    "seed": 1923330097,
+    "note": "星铸天穹的铠卫，以几何纹章描绘。"
+  },
+  "星铸观灯师·维洛": {
+    "family": "mage",
+    "features": [
+      "mark"
+    ],
+    "color": "#c2b36c",
+    "seed": 3901149291,
+    "note": "星铸天穹的观灯师，以几何纹章描绘。"
+  },
+  "星铸观灯师·希洛": {
+    "family": "mage",
+    "features": [
+      "mark"
+    ],
+    "color": "#c2b36c",
+    "seed": 1686101333,
+    "note": "星铸天穹的观灯师，以几何纹章描绘。"
+  },
+  "星铸观灯师·洛洛": {
+    "family": "mage",
+    "features": [
+      "mark"
+    ],
+    "color": "#c2b36c",
+    "seed": 3471491093,
+    "note": "星铸天穹的观灯师，以几何纹章描绘。"
+  },
+  "星铸观灯师·米洛": {
+    "family": "mage",
+    "features": [
+      "mark",
+      "shield"
+    ],
+    "color": "#c2b36c",
+    "seed": 1882199555,
+    "note": "星铸天穹的观灯师，以几何纹章描绘。"
+  },
+  "星铸观灯师·岚洛": {
+    "family": "mage",
+    "features": [
+      "mark"
+    ],
+    "color": "#c2b36c",
+    "seed": 571600006,
+    "note": "星铸天穹的观灯师，以几何纹章描绘。"
+  },
+  "星铸观灯师·索洛": {
+    "family": "mage",
+    "features": [
+      "mark"
+    ],
+    "color": "#c2b36c",
+    "seed": 2482636012,
+    "note": "星铸天穹的观灯师，以几何纹章描绘。"
+  },
+  "星铸巡灯使·莱洛": {
+    "family": "human",
+    "features": [
+      "mark",
+      "spark"
+    ],
+    "color": "#c2b36c",
+    "seed": 1234951215,
+    "note": "星铸天穹的巡灯使，以几何纹章描绘。"
+  },
+  "星铸巡灯使·岑洛": {
+    "family": "human",
+    "features": [
+      "mark"
+    ],
+    "color": "#c2b36c",
+    "seed": 4039687170,
+    "note": "星铸天穹的巡灯使，以几何纹章描绘。"
+  },
+  "星铸铠卫·塔洛": {
+    "family": "knight",
+    "features": [
+      "mark",
+      "shield"
+    ],
+    "color": "#c2b36c",
+    "seed": 1624393098,
+    "note": "星铸天穹的铠卫，以几何纹章描绘。"
+  },
+  "星铸修灯师·莫洛": {
+    "family": "healer",
+    "features": [
+      "mark",
+      "spark"
+    ],
+    "color": "#c2b36c",
+    "seed": 1734495500,
+    "note": "星铸天穹的修灯师，以几何纹章描绘。"
+  },
+  "星铸缄骨客·伦洛": {
+    "family": "undead",
+    "features": [
+      "mark",
+      "shield"
+    ],
+    "color": "#c2b36c",
+    "seed": 1029965511,
+    "note": "星铸天穹的缄骨客，以几何纹章描绘。"
+  },
+  "星铸修灯师·佩洛": {
+    "family": "healer",
+    "features": [
+      "mark",
+      "spark"
+    ],
+    "color": "#c2b36c",
+    "seed": 3995265328,
+    "note": "星铸天穹的修灯师，以几何纹章描绘。"
+  },
+  "星铸峰脊巨灵·泽洛": {
+    "family": "giant",
+    "features": [
+      "mark",
+      "shield"
+    ],
+    "color": "#c2b36c",
+    "seed": 2698582840,
+    "note": "星铸天穹的峰脊巨灵，以几何纹章描绘。"
+  },
+  "星铸峰脊巨灵·图洛": {
+    "family": "giant",
+    "features": [
+      "mark",
+      "shield"
+    ],
+    "color": "#c2b36c",
+    "seed": 1377774761,
+    "note": "星铸天穹的峰脊巨灵，以几何纹章描绘。"
+  },
+  "星铸观灯师·芮洛": {
+    "family": "mage",
+    "features": [
+      "mark"
+    ],
+    "color": "#c2b36c",
+    "seed": 2143664120,
+    "note": "星铸天穹的观灯师，以几何纹章描绘。"
+  },
+  "星铸缄骨客·阿岚": {
+    "family": "undead",
+    "features": [
+      "mark",
+      "spark"
+    ],
+    "color": "#c2b36c",
+    "seed": 3073234099,
+    "note": "星铸天穹的缄骨客，以几何纹章描绘。"
+  },
+  "星铸巡灯使·艾岚": {
+    "family": "human",
+    "features": [
+      "mark",
+      "shield"
+    ],
+    "color": "#c2b36c",
+    "seed": 2242079700,
+    "note": "星铸天穹的巡灯使，以几何纹章描绘。"
+  },
+  "星铸修灯师·伊岚": {
+    "family": "healer",
+    "features": [
+      "mark",
+      "spark"
+    ],
+    "color": "#c2b36c",
+    "seed": 3948728927,
+    "note": "星铸天穹的修灯师，以几何纹章描绘。"
+  },
+  "星铸浮岛龟·欧岚": {
+    "family": "turtle",
+    "features": [
+      "mark",
+      "shield",
+      "spark"
+    ],
+    "color": "#c2b36c",
+    "seed": 3289624628,
+    "note": "星铸天穹的浮岛龟，以几何纹章描绘。"
+  },
+  "星铸巡灯使·乌岚": {
+    "family": "human",
+    "features": [
+      "mark"
+    ],
+    "color": "#c2b36c",
+    "seed": 567573170,
+    "note": "星铸天穹的巡灯使，以几何纹章描绘。"
+  },
+  "星铸潜印客·依岚": {
+    "family": "rogue",
+    "features": [
+      "mark",
+      "visor"
+    ],
+    "color": "#c2b36c",
+    "seed": 71500322,
+    "note": "星铸天穹的潜印客，以几何纹章描绘。"
+  },
+  "星铸铠卫·雅岚": {
+    "family": "knight",
+    "features": [
+      "mark",
+      "spark"
+    ],
+    "color": "#c2b36c",
+    "seed": 50086188,
+    "note": "星铸天穹的铠卫，以几何纹章描绘。"
+  },
+  "星铸巡灯使·诺岚": {
+    "family": "human",
+    "features": [
+      "mark",
+      "spark"
+    ],
+    "color": "#c2b36c",
+    "seed": 243977676,
+    "note": "星铸天穹的巡灯使，以几何纹章描绘。"
+  },
+  "星铸观灯师·瑟岚": {
+    "family": "mage",
+    "features": [
+      "mark"
+    ],
+    "color": "#c2b36c",
+    "seed": 313748995,
+    "note": "星铸天穹的观灯师，以几何纹章描绘。"
+  },
+  "星铸巡灯使·维岚": {
+    "family": "human",
+    "features": [
+      "mark"
+    ],
+    "color": "#c2b36c",
+    "seed": 1308694300,
+    "note": "星铸天穹的巡灯使，以几何纹章描绘。"
+  },
+  "星铸巡灯使·希岚": {
+    "family": "human",
+    "features": [
+      "mark",
+      "shield"
+    ],
+    "color": "#c2b36c",
+    "seed": 3319929449,
+    "note": "星铸天穹的巡灯使，以几何纹章描绘。"
+  },
+  "星铸环藤蛇·洛岚": {
+    "family": "snake",
+    "features": [
+      "mark"
+    ],
+    "color": "#c2b36c",
+    "seed": 1605860194,
+    "note": "星铸天穹的环藤蛇，以几何纹章描绘。"
+  },
+  "星铸巡灯使·米岚": {
+    "family": "human",
+    "features": [
+      "mark",
+      "shield"
+    ],
+    "color": "#c2b36c",
+    "seed": 3332923948,
+    "note": "星铸天穹的巡灯使，以几何纹章描绘。"
+  },
+  "星铸窑心偶·岚岚": {
+    "family": "jar",
+    "features": [
+      "mark",
+      "shield"
+    ],
+    "color": "#c2b36c",
+    "seed": 1774076175,
+    "note": "星铸天穹的窑心偶，以几何纹章描绘。"
+  },
+  "折光灯议长·索岚": {
+    "family": "human",
+    "features": [
+      "mark",
+      "spark",
+      "orbit"
+    ],
+    "color": "#a690bd",
+    "seed": 3972190459,
+    "note": "折光边境的巡灯使，以几何纹章描绘。"
+  },
+  "折光晶棘蜥龙领誓·莱岚": {
+    "family": "dragon",
+    "features": [
+      "mark",
+      "wings",
+      "orbit"
+    ],
+    "color": "#a690bd",
+    "seed": 4081884025,
+    "note": "折光边境的晶棘蜥龙，以几何纹章描绘。"
+  },
+  "折光铠卫领誓·岑岚": {
+    "family": "knight",
+    "features": [
+      "mark",
+      "visor",
+      "orbit"
+    ],
+    "color": "#a690bd",
+    "seed": 805272800,
+    "note": "折光边境的铠卫，以几何纹章描绘。"
+  },
+  "折光镜瞳山猫领誓·塔岚": {
+    "family": "cat",
+    "features": [
+      "mark",
+      "shield",
+      "orbit"
+    ],
+    "color": "#a690bd",
+    "seed": 3835749128,
+    "note": "折光边境的镜瞳山猫，以几何纹章描绘。"
+  },
+  "折光锈鬃豕领誓·莫岚": {
+    "family": "boar",
+    "features": [
+      "mark",
+      "shield",
+      "orbit"
+    ],
+    "color": "#a690bd",
+    "seed": 4014035921,
+    "note": "折光边境的锈鬃豕，以几何纹章描绘。"
+  },
+  "折光钩针蝎领誓·伦岚": {
+    "family": "scorpion",
+    "features": [
+      "mark",
+      "spots",
+      "orbit"
+    ],
+    "color": "#a690bd",
+    "seed": 1436336048,
+    "note": "折光边境的钩针蝎，以几何纹章描绘。"
+  },
+  "折光石指傀儡领誓·佩岚": {
+    "family": "hand",
+    "features": [
+      "mark",
+      "shield",
+      "orbit"
+    ],
+    "color": "#a690bd",
+    "seed": 3377057862,
+    "note": "折光边境的石指傀儡，以几何纹章描绘。"
+  },
+  "折光铠卫领誓·泽岚": {
+    "family": "knight",
+    "features": [
+      "mark",
+      "shield",
+      "orbit"
+    ],
+    "color": "#a690bd",
+    "seed": 2817931378,
+    "note": "折光边境的铠卫，以几何纹章描绘。"
+  },
+  "折光灯议长·图岚": {
+    "family": "human",
+    "features": [
+      "mark",
+      "orbit"
+    ],
+    "color": "#a690bd",
+    "seed": 1665166448,
+    "note": "折光边境的巡灯使，以几何纹章描绘。"
+  },
+  "折光铠卫领誓·芮岚": {
+    "family": "knight",
+    "features": [
+      "mark",
+      "shield",
+      "spark",
+      "orbit"
+    ],
+    "color": "#a690bd",
+    "seed": 1389417172,
+    "note": "折光边境的铠卫，以几何纹章描绘。"
+  },
+  "折光铠卫领誓·阿泽": {
+    "family": "knight",
+    "features": [
+      "mark",
+      "spark",
+      "orbit"
+    ],
+    "color": "#a690bd",
+    "seed": 4179904309,
+    "note": "折光边境的铠卫，以几何纹章描绘。"
+  },
+  "折光铠卫领誓·艾泽": {
+    "family": "knight",
+    "features": [
+      "mark",
+      "shield",
+      "orbit"
+    ],
+    "color": "#a690bd",
+    "seed": 1721232407,
+    "note": "折光边境的铠卫，以几何纹章描绘。"
+  },
+  "折光晶棘蜥龙领誓·伊泽": {
+    "family": "dragon",
+    "features": [
+      "mark",
+      "wings",
+      "orbit"
+    ],
+    "color": "#a690bd",
+    "seed": 2307252776,
+    "note": "折光边境的晶棘蜥龙，以几何纹章描绘。"
+  },
+  "折光晶棘蜥龙领誓·欧泽": {
+    "family": "dragon",
+    "features": [
+      "mark",
+      "wings",
+      "orbit"
+    ],
+    "color": "#a690bd",
+    "seed": 384693937,
+    "note": "折光边境的晶棘蜥龙，以几何纹章描绘。"
+  },
+  "折光磐颚河兽领誓·乌泽": {
+    "family": "hippo",
+    "features": [
+      "mark",
+      "shield",
+      "orbit"
+    ],
+    "color": "#a690bd",
+    "seed": 1732032585,
+    "note": "折光边境的磐颚河兽，以几何纹章描绘。"
+  },
+  "折光铠卫领誓·依泽": {
+    "family": "knight",
+    "features": [
+      "mark",
+      "shield",
+      "orbit"
+    ],
+    "color": "#a690bd",
+    "seed": 1984376990,
+    "note": "折光边境的铠卫，以几何纹章描绘。"
+  },
+  "折光灯议长·雅泽": {
+    "family": "mage",
+    "features": [
+      "mark",
+      "orbit"
+    ],
+    "color": "#a690bd",
+    "seed": 3226510475,
+    "note": "折光边境的观灯师，以几何纹章描绘。"
+  },
+  "折光晶棘蜥龙领誓·诺泽": {
+    "family": "dragon",
+    "features": [
+      "mark",
+      "shield",
+      "orbit"
+    ],
+    "color": "#a690bd",
+    "seed": 2956381868,
+    "note": "折光边境的晶棘蜥龙，以几何纹章描绘。"
+  },
+  "折光攀钟猿领誓·瑟泽": {
+    "family": "monkey",
+    "features": [
+      "mark",
+      "visor",
+      "orbit"
+    ],
+    "color": "#a690bd",
+    "seed": 3141163191,
+    "note": "折光边境的攀钟猿，以几何纹章描绘。"
+  },
+  "折光晶棘蜥龙领誓·维泽": {
+    "family": "dragon",
+    "features": [
+      "mark",
+      "wings",
+      "orbit"
+    ],
+    "color": "#a690bd",
+    "seed": 1274297129,
+    "note": "折光边境的晶棘蜥龙，以几何纹章描绘。"
+  },
+  "折光枝灯树灵领誓·希泽": {
+    "family": "plant",
+    "features": [
+      "mark",
+      "spark",
+      "orbit"
+    ],
+    "color": "#a690bd",
+    "seed": 353906247,
+    "note": "折光边境的枝灯树灵，以几何纹章描绘。"
+  },
+  "折光静棱铠卫": {
+    "family": "knight",
+    "features": [
+      "mark",
+      "shield"
+    ],
+    "color": "#a690bd",
+    "seed": 7390576,
+    "note": "折光边境的铠卫，以几何纹章描绘。"
+  },
+  "折光绒雾铠卫": {
+    "family": "knight",
+    "features": [
+      "mark",
+      "shield"
+    ],
+    "color": "#a690bd",
+    "seed": 1720561067,
+    "note": "折光边境的铠卫，以几何纹章描绘。"
+  },
+  "折光夜航铠卫": {
+    "family": "knight",
+    "features": [
+      "mark"
+    ],
+    "color": "#a690bd",
+    "seed": 2509681384,
+    "note": "折光边境的铠卫，以几何纹章描绘。"
+  },
+  "折光苔痕浮辉使": {
+    "family": "spirit",
+    "features": [
+      "mark"
+    ],
+    "color": "#a690bd",
+    "seed": 1602364700,
+    "note": "折光边境的浮辉使，以几何纹章描绘。"
+  },
+  "折光流砂铠卫": {
+    "family": "knight",
+    "features": [
+      "mark",
+      "shield"
+    ],
+    "color": "#a690bd",
+    "seed": 3044936643,
+    "note": "折光边境的铠卫，以几何纹章描绘。"
+  },
+  "折光镜纹铠卫": {
+    "family": "knight",
+    "features": [
+      "mark"
+    ],
+    "color": "#a690bd",
+    "seed": 330815034,
+    "note": "折光边境的铠卫，以几何纹章描绘。"
+  },
+  "折光苔痕裂角客": {
+    "family": "demon",
+    "features": [
+      "mark",
+      "spark"
+    ],
+    "color": "#a690bd",
+    "seed": 2916620964,
+    "note": "折光边境的裂角客，以几何纹章描绘。"
+  },
+  "折光铜缄观灯师": {
+    "family": "mage",
+    "features": [
+      "mark"
+    ],
+    "color": "#a690bd",
+    "seed": 2264604915,
+    "note": "折光边境的观灯师，以几何纹章描绘。"
+  },
+  "折光铜缄裂角客": {
+    "family": "demon",
+    "features": [
+      "mark",
+      "shield"
+    ],
+    "color": "#a690bd",
+    "seed": 3204930481,
+    "note": "折光边境的裂角客，以几何纹章描绘。"
+  },
+  "折光铜缄枝灯树灵": {
+    "family": "plant",
+    "features": [
+      "mark",
+      "shield"
+    ],
+    "color": "#a690bd",
+    "seed": 1220146254,
+    "note": "折光边境的枝灯树灵，以几何纹章描绘。"
+  },
+  "折光苔痕甲灯虫": {
+    "family": "insect",
+    "features": [
+      "mark",
+      "spots"
+    ],
+    "color": "#a690bd",
+    "seed": 2823101718,
+    "note": "折光边境的甲灯虫，以几何纹章描绘。"
+  },
+  "折光铜缄钩针蝎": {
+    "family": "scorpion",
+    "features": [
+      "mark",
+      "spots"
+    ],
+    "color": "#a690bd",
+    "seed": 3049989962,
+    "note": "折光边境的钩针蝎，以几何纹章描绘。"
+  },
+  "折光苔痕地缝蠕虫": {
+    "family": "worm",
+    "features": [
+      "mark"
+    ],
+    "color": "#a690bd",
+    "seed": 3539181966,
+    "note": "折光边境的地缝蠕虫，以几何纹章描绘。"
+  },
+  "折光铜缄地缝蠕虫": {
+    "family": "worm",
+    "features": [
+      "mark",
+      "spark"
+    ],
+    "color": "#a690bd",
+    "seed": 4144854139,
+    "note": "折光边境的地缝蠕虫，以几何纹章描绘。"
+  },
+  "折光回声巡灯使": {
+    "family": "human",
+    "features": [
+      "mark",
+      "spots"
+    ],
+    "color": "#a690bd",
+    "seed": 3698103185,
+    "note": "折光边境的巡灯使，以几何纹章描绘。"
+  },
+  "折光苔痕窑心偶": {
+    "family": "jar",
+    "features": [
+      "mark",
+      "spark"
+    ],
+    "color": "#a690bd",
+    "seed": 1036162059,
+    "note": "折光边境的窑心偶，以几何纹章描绘。"
+  },
+  "折光远路铠卫": {
+    "family": "knight",
+    "features": [
+      "mark",
+      "shield"
+    ],
+    "color": "#a690bd",
+    "seed": 2964076601,
+    "note": "折光边境的铠卫，以几何纹章描绘。"
+  },
+  "折光石封铠卫": {
+    "family": "knight",
+    "features": [
+      "mark",
+      "shield"
+    ],
+    "color": "#a690bd",
+    "seed": 3902516252,
+    "note": "折光边境的铠卫，以几何纹章描绘。"
+  },
+  "折光鸣枝铠卫": {
+    "family": "knight",
+    "features": [
+      "mark",
+      "shield"
+    ],
+    "color": "#a690bd",
+    "seed": 1467534439,
+    "note": "折光边境的铠卫，以几何纹章描绘。"
+  },
+  "折光铠卫·洛泽": {
+    "family": "knight",
+    "features": [
+      "mark",
+      "shield"
+    ],
+    "color": "#a690bd",
+    "seed": 2834521301,
+    "note": "折光边境的铠卫，以几何纹章描绘。"
+  },
+  "折光铠卫·米泽": {
+    "family": "knight",
+    "features": [
+      "mark",
+      "spark"
+    ],
+    "color": "#a690bd",
+    "seed": 2899317577,
+    "note": "折光边境的铠卫，以几何纹章描绘。"
+  },
+  "折光铠卫·岚泽": {
+    "family": "knight",
+    "features": [
+      "mark",
+      "shield"
+    ],
+    "color": "#a690bd",
+    "seed": 595318679,
+    "note": "折光边境的铠卫，以几何纹章描绘。"
+  },
+  "折光巡灯使·索泽": {
+    "family": "human",
+    "features": [
+      "mark",
+      "spikes"
+    ],
+    "color": "#a690bd",
+    "seed": 1192820785,
+    "note": "折光边境的巡灯使，以几何纹章描绘。"
+  },
+  "折光巡灯使·莱泽": {
+    "family": "human",
+    "features": [
+      "mark",
+      "spark"
+    ],
+    "color": "#a690bd",
+    "seed": 4112376169,
+    "note": "折光边境的巡灯使，以几何纹章描绘。"
+  },
+  "折光巡灯使·岑泽": {
+    "family": "human",
+    "features": [
+      "mark",
+      "spots"
+    ],
+    "color": "#a690bd",
+    "seed": 269243100,
+    "note": "折光边境的巡灯使，以几何纹章描绘。"
+  },
+  "折光铠卫·塔泽": {
+    "family": "knight",
+    "features": [
+      "mark",
+      "shield"
+    ],
+    "color": "#a690bd",
+    "seed": 3274958381,
+    "note": "折光边境的铠卫，以几何纹章描绘。"
+  },
+  "折光巡灯使·莫泽": {
+    "family": "human",
+    "features": [
+      "mark",
+      "spots"
+    ],
+    "color": "#a690bd",
+    "seed": 309064439,
+    "note": "折光边境的巡灯使，以几何纹章描绘。"
+  },
+  "折光枝灯树灵·伦泽": {
+    "family": "plant",
+    "features": [
+      "mark",
+      "spark"
+    ],
+    "color": "#a690bd",
+    "seed": 1525706004,
+    "note": "折光边境的枝灯树灵，以几何纹章描绘。"
+  },
+  "折光巡灯使·佩泽": {
+    "family": "human",
+    "features": [
+      "mark",
+      "shield"
+    ],
+    "color": "#a690bd",
+    "seed": 2965623722,
+    "note": "折光边境的巡灯使，以几何纹章描绘。"
+  },
+  "折光巡灯使·泽泽": {
+    "family": "human",
+    "features": [
+      "mark"
+    ],
+    "color": "#a690bd",
+    "seed": 2305906596,
+    "note": "折光边境的巡灯使，以几何纹章描绘。"
+  },
+  "折光铠卫·图泽": {
+    "family": "knight",
+    "features": [
+      "mark"
+    ],
+    "color": "#a690bd",
+    "seed": 360393879,
+    "note": "折光边境的铠卫，以几何纹章描绘。"
+  },
+  "折光铠卫·芮泽": {
+    "family": "knight",
+    "features": [
+      "mark"
+    ],
+    "color": "#a690bd",
+    "seed": 2328849135,
+    "note": "折光边境的铠卫，以几何纹章描绘。"
+  },
+  "折光巡灯使·阿翎": {
+    "family": "human",
+    "features": [
+      "mark",
+      "shield"
+    ],
+    "color": "#a690bd",
+    "seed": 106572712,
+    "note": "折光边境的巡灯使，以几何纹章描绘。"
+  },
+  "折光铠卫·艾翎": {
+    "family": "knight",
+    "features": [
+      "mark"
+    ],
+    "color": "#a690bd",
+    "seed": 1909664839,
+    "note": "折光边境的铠卫，以几何纹章描绘。"
+  },
+  "折光铠卫·伊翎": {
+    "family": "knight",
+    "features": [
+      "mark"
+    ],
+    "color": "#a690bd",
+    "seed": 642468146,
+    "note": "折光边境的铠卫，以几何纹章描绘。"
+  },
+  "折光巡灯使·欧翎": {
+    "family": "human",
+    "features": [
+      "mark",
+      "visor"
+    ],
+    "color": "#a690bd",
+    "seed": 1482220989,
+    "note": "折光边境的巡灯使，以几何纹章描绘。"
+  },
+  "苔庭暖灰缄骨客": {
+    "family": "undead",
+    "features": [
+      "mark"
+    ],
+    "color": "#88a472",
+    "seed": 2725078974,
+    "note": "苔雾荒庭的缄骨客，以几何纹章描绘。"
+  },
+  "苔庭铜缄掠风鸟": {
+    "family": "bird",
+    "features": [
+      "mark",
+      "wings"
+    ],
+    "color": "#88a472",
+    "seed": 213011960,
+    "note": "苔雾荒庭的掠风鸟，以几何纹章描绘。"
+  },
+  "苔庭悬灯缄骨客": {
+    "family": "undead",
+    "features": [
+      "mark"
+    ],
+    "color": "#88a472",
+    "seed": 4270855787,
+    "note": "苔雾荒庭的缄骨客，以几何纹章描绘。"
+  },
+  "砂镜铠卫·乌翎": {
+    "family": "knight",
+    "features": [
+      "mark"
+    ],
+    "color": "#b3a17e",
+    "seed": 2228406767,
+    "note": "砂镜地窟的铠卫，以几何纹章描绘。"
+  },
+  "砂镜观灯师·依翎": {
+    "family": "mage",
+    "features": [
+      "mark"
+    ],
+    "color": "#b3a17e",
+    "seed": 582844550,
+    "note": "砂镜地窟的观灯师，以几何纹章描绘。"
+  },
+  "砂镜修灯师·雅翎": {
+    "family": "healer",
+    "features": [
+      "mark"
+    ],
+    "color": "#b3a17e",
+    "seed": 3384427649,
+    "note": "砂镜地窟的修灯师，以几何纹章描绘。"
+  },
+  "砂镜铠卫领誓·诺翎": {
+    "family": "knight",
+    "features": [
+      "mark",
+      "spark",
+      "orbit"
+    ],
+    "color": "#b3a17e",
+    "seed": 4278283129,
+    "note": "砂镜地窟的铠卫，以几何纹章描绘。"
+  },
+  "霜枝铜缄风蚀铠卫": {
+    "family": "knight",
+    "features": [
+      "mark",
+      "visor"
+    ],
+    "color": "#8cbbbc",
+    "seed": 1597118732,
+    "note": "霜枝高地的铠卫，以几何纹章描绘。"
+  },
+  "暮潮回声棱耳猎犬": {
+    "family": "dog",
+    "features": [
+      "mark"
+    ],
+    "color": "#a37c9e",
+    "seed": 3877574550,
+    "note": "暮潮港湾的棱耳猎犬，以几何纹章描绘。"
+  },
+  "苔庭银露缄骨客": {
+    "family": "undead",
+    "features": [
+      "mark"
+    ],
+    "color": "#88a472",
+    "seed": 4198154505,
+    "note": "苔雾荒庭的缄骨客，以几何纹章描绘。"
+  },
+  "铜钟铠卫领誓·瑟翎": {
+    "family": "knight",
+    "features": [
+      "mark",
+      "shield",
+      "orbit"
+    ],
+    "color": "#b69b66",
+    "seed": 4070770312,
+    "note": "铜钟堡垒的铠卫，以几何纹章描绘。"
+  },
+  "暮潮流砂潜印客": {
+    "family": "rogue",
+    "features": [
+      "mark",
+      "spark"
+    ],
+    "color": "#a37c9e",
+    "seed": 2338425962,
+    "note": "暮潮港湾的潜印客，以几何纹章描绘。"
+  },
+  "暮潮微烛织光蛛": {
+    "family": "spider",
+    "features": [
+      "mark",
+      "spikes"
+    ],
+    "color": "#a37c9e",
+    "seed": 3128730861,
+    "note": "暮潮港湾的织光蛛，以几何纹章描绘。"
+  },
+  "暮潮镜纹折面星客": {
+    "family": "alien",
+    "features": [
+      "mark",
+      "spark"
+    ],
+    "color": "#a37c9e",
+    "seed": 3748170193,
+    "note": "暮潮港湾的折面星客，以几何纹章描绘。"
+  },
+  "苔庭缄骨客·维翎": {
+    "family": "undead",
+    "features": [
+      "mark"
+    ],
+    "color": "#88a472",
+    "seed": 2780656722,
+    "note": "苔雾荒庭的缄骨客，以几何纹章描绘。"
+  },
+  "苔庭回声地缝蠕虫": {
+    "family": "worm",
+    "features": [
+      "mark"
+    ],
+    "color": "#88a472",
+    "seed": 1783797702,
+    "note": "苔雾荒庭的地缝蠕虫，以几何纹章描绘。"
+  },
+  "苔庭雾羽缄骨客": {
+    "family": "undead",
+    "features": [
+      "mark"
+    ],
+    "color": "#88a472",
+    "seed": 1690725222,
+    "note": "苔雾荒庭的缄骨客，以几何纹章描绘。"
+  },
+  "砂镜回声浮辉使": {
+    "family": "spirit",
+    "features": [
+      "mark"
+    ],
+    "color": "#b3a17e",
+    "seed": 1785096724,
+    "note": "砂镜地窟的浮辉使，以几何纹章描绘。"
+  },
+  "砂镜绒雾缄骨客": {
+    "family": "undead",
+    "features": [
+      "mark"
+    ],
+    "color": "#b3a17e",
+    "seed": 874378954,
+    "note": "砂镜地窟的缄骨客，以几何纹章描绘。"
+  },
+  "霜枝铜缄静棱铠卫": {
+    "family": "knight",
+    "features": [
+      "mark",
+      "visor"
+    ],
+    "color": "#8cbbbc",
+    "seed": 3965581360,
+    "note": "霜枝高地的铠卫，以几何纹章描绘。"
+  },
+  "霜枝藤印潜印客": {
+    "family": "rogue",
+    "features": [
+      "mark"
+    ],
+    "color": "#8cbbbc",
+    "seed": 3509933050,
+    "note": "霜枝高地的潜印客，以几何纹章描绘。"
+  },
+  "星铸回声线尾鼠": {
+    "family": "rat",
+    "features": [
+      "mark"
+    ],
+    "color": "#c2b36c",
+    "seed": 2410659185,
+    "note": "星铸天穹的线尾鼠，以几何纹章描绘。"
+  },
+  "星铸回声微烛铠卫": {
+    "family": "knight",
+    "features": [
+      "mark",
+      "spark"
+    ],
+    "color": "#c2b36c",
+    "seed": 169744510,
+    "note": "星铸天穹的铠卫，以几何纹章描绘。"
+  },
+  "鎏金·铜钟织光蛛领誓·阿温": {
+    "family": "spider",
+    "features": [
+      "mark",
+      "spots",
+      "orbit"
+    ],
+    "color": "#b69b66",
+    "seed": 57924725,
+    "note": "铜钟堡垒的织光蛛，以几何纹章描绘。"
+  },
+  "鎏金·苔庭铠卫领誓·阿恩": {
+    "family": "knight",
+    "features": [
+      "mark",
+      "shield",
+      "orbit"
+    ],
+    "color": "#88a472",
+    "seed": 2386089026,
+    "note": "苔雾荒庭的铠卫，以几何纹章描绘。"
+  },
+  "鎏金·炽砂灯议长·诺罗": {
+    "family": "human",
+    "features": [
+      "mark",
+      "orbit"
+    ],
+    "color": "#c17b58",
+    "seed": 1459698129,
+    "note": "炽砂熔城的巡灯使，以几何纹章描绘。"
+  },
+  "鎏金·砂镜铠卫领誓·塔安": {
+    "family": "knight",
+    "features": [
+      "mark",
+      "shield",
+      "orbit"
+    ],
+    "color": "#b3a17e",
+    "seed": 1019632553,
+    "note": "砂镜地窟的铠卫，以几何纹章描绘。"
+  },
+  "鎏金·苔庭绛纹蝶领誓·乌珀": {
+    "family": "butterfly",
+    "features": [
+      "mark",
+      "wings",
+      "orbit"
+    ],
+    "color": "#88a472",
+    "seed": 1627829218,
+    "note": "苔雾荒庭的绛纹蝶，以几何纹章描绘。"
+  },
+  "鎏金·星铸铠卫领誓·维玟": {
+    "family": "knight",
+    "features": [
+      "mark",
+      "spark",
+      "orbit"
+    ],
+    "color": "#c2b36c",
+    "seed": 3245351899,
+    "note": "星铸天穹的铠卫，以几何纹章描绘。"
+  },
+  "鎏金·苔庭灯议长·图珀": {
+    "family": "human",
+    "features": [
+      "mark",
+      "visor",
+      "orbit"
+    ],
+    "color": "#88a472",
+    "seed": 3609249319,
+    "note": "苔雾荒庭的巡灯使，以几何纹章描绘。"
+  },
+  "鎏金·苔庭缄骨客领誓·米珀": {
+    "family": "undead",
+    "features": [
+      "mark",
+      "orbit"
+    ],
+    "color": "#88a472",
+    "seed": 3322870459,
+    "note": "苔雾荒庭的缄骨客，以几何纹章描绘。"
+  },
+  "鎏金·暮潮灯议长·乌汀": {
+    "family": "human",
+    "features": [
+      "mark",
+      "visor",
+      "orbit"
+    ],
+    "color": "#a37c9e",
+    "seed": 191459027,
+    "note": "暮潮港湾的巡灯使，以几何纹章描绘。"
+  },
+  "鎏金·铜钟铠卫领誓·阿雅": {
+    "family": "knight",
+    "features": [
+      "mark",
+      "shield",
+      "orbit"
+    ],
+    "color": "#b69b66",
+    "seed": 4063368309,
+    "note": "铜钟堡垒的铠卫，以几何纹章描绘。"
+  },
+  "鎏金·霜枝铠卫领誓·泽芙": {
+    "family": "knight",
+    "features": [
+      "mark",
+      "shield",
+      "orbit"
+    ],
+    "color": "#8cbbbc",
+    "seed": 3376709565,
+    "note": "霜枝高地的铠卫，以几何纹章描绘。"
+  },
+  "鎏金·霜枝潜印客领誓·图芙": {
+    "family": "rogue",
+    "features": [
+      "mark",
+      "wings",
+      "orbit"
+    ],
+    "color": "#8cbbbc",
+    "seed": 1197194205,
+    "note": "霜枝高地的潜印客，以几何纹章描绘。"
+  },
+  "鎏金·霜枝灯议长·诺诺": {
+    "family": "human",
+    "features": [
+      "mark",
+      "visor",
+      "orbit"
+    ],
+    "color": "#8cbbbc",
+    "seed": 3235634360,
+    "note": "霜枝高地的巡灯使，以几何纹章描绘。"
+  },
+  "鎏金·砂镜铠卫领誓·莫安": {
+    "family": "knight",
+    "features": [
+      "mark",
+      "orbit"
+    ],
+    "color": "#b3a17e",
+    "seed": 209973967,
+    "note": "砂镜地窟的铠卫，以几何纹章描绘。"
+  },
+  "鎏金·砂镜潮纹游鱼领誓·依瑟": {
+    "family": "fish",
+    "features": [
+      "mark",
+      "wings",
+      "orbit"
+    ],
+    "color": "#b3a17e",
+    "seed": 2459739509,
+    "note": "砂镜地窟的潮纹游鱼，以几何纹章描绘。"
+  },
+  "鎏金·砂镜灯议长·维瑟": {
+    "family": "healer",
+    "features": [
+      "mark",
+      "spark",
+      "orbit"
+    ],
+    "color": "#b3a17e",
+    "seed": 1749466288,
+    "note": "砂镜地窟的修灯师，以几何纹章描绘。"
+  },
+  "鎏金·折光灯议长·索岚": {
+    "family": "human",
+    "features": [
+      "mark",
+      "spark",
+      "orbit"
+    ],
+    "color": "#a690bd",
+    "seed": 3032482993,
+    "note": "折光边境的巡灯使，以几何纹章描绘。"
+  },
+  "鎏金·折光镜瞳山猫领誓·塔岚": {
+    "family": "cat",
+    "features": [
+      "mark",
+      "shield",
+      "orbit"
+    ],
+    "color": "#a690bd",
+    "seed": 2387573563,
+    "note": "折光边境的镜瞳山猫，以几何纹章描绘。"
+  },
+  "鎏金·折光铠卫领誓·岑岚": {
+    "family": "knight",
+    "features": [
+      "mark",
+      "visor",
+      "orbit"
+    ],
+    "color": "#a690bd",
+    "seed": 169870969,
+    "note": "折光边境的铠卫，以几何纹章描绘。"
+  },
+  "鎏金·折光枝灯树灵领誓·希泽": {
+    "family": "plant",
+    "features": [
+      "mark",
+      "spark",
+      "orbit"
+    ],
+    "color": "#a690bd",
+    "seed": 3692853556,
+    "note": "折光边境的枝灯树灵，以几何纹章描绘。"
+  },
+  "鎏金·砂镜铠卫领誓·诺翎": {
+    "family": "knight",
+    "features": [
+      "mark",
+      "spark",
+      "orbit"
+    ],
+    "color": "#b3a17e",
+    "seed": 1270571174,
+    "note": "砂镜地窟的铠卫，以几何纹章描绘。"
+  },
+  "鎏金·苔庭裂角客领誓·阿珀": {
+    "family": "demon",
+    "features": [
+      "mark",
+      "spikes",
+      "orbit"
+    ],
+    "color": "#88a472",
+    "seed": 2718568243,
+    "note": "苔雾荒庭的裂角客，以几何纹章描绘。"
+  },
+  "鎏金·铜钟铠卫领誓·瑟翎": {
+    "family": "knight",
+    "features": [
+      "mark",
+      "shield",
+      "orbit"
+    ],
+    "color": "#b69b66",
+    "seed": 3635304747,
+    "note": "铜钟堡垒的铠卫，以几何纹章描绘。"
+  },
+  "鎏金·炽砂铠卫领誓·维弥": {
+    "family": "knight",
+    "features": [
+      "mark",
+      "visor",
+      "orbit"
+    ],
+    "color": "#c17b58",
+    "seed": 3425621406,
+    "note": "炽砂熔城的铠卫，以几何纹章描绘。"
+  },
+  "鎏金·暮潮灯议长·岑尘": {
+    "family": "human",
+    "features": [
+      "mark",
+      "visor",
+      "orbit"
+    ],
+    "color": "#a37c9e",
+    "seed": 849102119,
+    "note": "暮潮港湾的巡灯使，以几何纹章描绘。"
+  },
+  "鎏金·暮潮灯议长·希汀": {
+    "family": "human",
+    "features": [
+      "mark",
+      "visor",
+      "orbit"
+    ],
+    "color": "#a37c9e",
+    "seed": 708749226,
+    "note": "暮潮港湾的巡灯使，以几何纹章描绘。"
+  },
+  "鎏金·星铸灯议长·泽烙": {
+    "family": "human",
+    "features": [
+      "mark",
+      "shield",
+      "spark",
+      "orbit"
+    ],
+    "color": "#c2b36c",
+    "seed": 1650530444,
+    "note": "星铸天穹的巡灯使，以几何纹章描绘。"
+  },
+  "鎏金·星铸折面星客领誓·瑟玟": {
+    "family": "alien",
+    "features": [
+      "mark",
+      "wings",
+      "spark",
+      "orbit"
+    ],
+    "color": "#c2b36c",
+    "seed": 2530237009,
+    "note": "星铸天穹的折面星客，以几何纹章描绘。"
+  },
+  "鎏金·折光铠卫领誓·芮岚": {
+    "family": "knight",
+    "features": [
+      "mark",
+      "shield",
+      "spark",
+      "orbit"
+    ],
+    "color": "#a690bd",
+    "seed": 2750884608,
+    "note": "折光边境的铠卫，以几何纹章描绘。"
+  },
+  "鎏金·铜钟铠卫领誓·乌温": {
+    "family": "knight",
+    "features": [
+      "mark",
+      "spikes",
+      "orbit"
+    ],
+    "color": "#b69b66",
+    "seed": 2916005604,
+    "note": "铜钟堡垒的铠卫，以几何纹章描绘。"
+  },
+  "鎏金·炽砂铠卫领誓·依弥": {
+    "family": "knight",
+    "features": [
+      "mark",
+      "spark",
+      "orbit"
+    ],
+    "color": "#c17b58",
+    "seed": 1184680246,
+    "note": "炽砂熔城的铠卫，以几何纹章描绘。"
+  },
+  "鎏金·炽砂灯议长·米弥": {
+    "family": "mage",
+    "features": [
+      "mark",
+      "visor",
+      "orbit"
+    ],
+    "color": "#c17b58",
+    "seed": 3876438926,
+    "note": "炽砂熔城的观灯师，以几何纹章描绘。"
+  },
+  "鎏金·暮潮星枝鹿领誓·莱尘": {
+    "family": "deer",
+    "features": [
+      "mark",
+      "spark",
+      "orbit"
+    ],
+    "color": "#a37c9e",
+    "seed": 2323761004,
+    "note": "暮潮港湾的星枝鹿，以几何纹章描绘。"
+  },
+  "鎏金·霜枝铠卫领誓·芮芙": {
+    "family": "knight",
+    "features": [
+      "mark",
+      "visor",
+      "orbit"
+    ],
+    "color": "#8cbbbc",
+    "seed": 1782132158,
+    "note": "霜枝高地的铠卫，以几何纹章描绘。"
+  },
+  "鎏金·星铸灯议长·图烙": {
+    "family": "mage",
+    "features": [
+      "mark",
+      "wings",
+      "spark",
+      "orbit"
+    ],
+    "color": "#c2b36c",
+    "seed": 2969549061,
+    "note": "星铸天穹的观灯师，以几何纹章描绘。"
+  },
+  "鎏金·砂镜织光蛛领誓·阿瑟": {
+    "family": "spider",
+    "features": [
+      "mark",
+      "shield",
+      "orbit"
+    ],
+    "color": "#b3a17e",
+    "seed": 2817028456,
+    "note": "砂镜地窟的织光蛛，以几何纹章描绘。"
+  },
+  "鎏金·苔庭裂角客领誓·伊恩": {
+    "family": "demon",
+    "features": [
+      "mark",
+      "orbit"
+    ],
+    "color": "#88a472",
+    "seed": 2853558638,
+    "note": "苔雾荒庭的裂角客，以几何纹章描绘。"
+  },
+  "鎏金·铜钟裂角客领誓·佩拉": {
+    "family": "demon",
+    "features": [
+      "mark",
+      "spikes",
+      "orbit"
+    ],
+    "color": "#b69b66",
+    "seed": 589176810,
+    "note": "铜钟堡垒的裂角客，以几何纹章描绘。"
+  },
+  "鎏金·铜钟铠卫领誓·佩温": {
+    "family": "knight",
+    "features": [
+      "mark",
+      "spark",
+      "orbit"
+    ],
+    "color": "#b69b66",
+    "seed": 1605697900,
+    "note": "铜钟堡垒的铠卫，以几何纹章描绘。"
+  },
+  "鎏金·炽砂铠卫领誓·芮弥": {
+    "family": "knight",
+    "features": [
+      "mark",
+      "spark",
+      "orbit"
+    ],
+    "color": "#c17b58",
+    "seed": 157935592,
+    "note": "炽砂熔城的铠卫，以几何纹章描绘。"
+  },
+  "鎏金·炽砂晶棘蜥龙领誓·雅罗": {
+    "family": "dragon",
+    "features": [
+      "mark",
+      "wings",
+      "orbit"
+    ],
+    "color": "#c17b58",
+    "seed": 3637643205,
+    "note": "炽砂熔城的晶棘蜥龙，以几何纹章描绘。"
+  },
+  "鎏金·暮潮踏铃驹领誓·雅汀": {
+    "family": "horse",
+    "features": [
+      "mark",
+      "spark",
+      "orbit"
+    ],
+    "color": "#a37c9e",
+    "seed": 1863315630,
+    "note": "暮潮港湾的踏铃驹，以几何纹章描绘。"
+  },
+  "鎏金·暮潮灯议长·维汀": {
+    "family": "human",
+    "features": [
+      "mark",
+      "spark",
+      "orbit"
+    ],
+    "color": "#a37c9e",
+    "seed": 2154529979,
+    "note": "暮潮港湾的巡灯使，以几何纹章描绘。"
+  },
+  "鎏金·霜枝攀钟猿领誓·艾诺": {
+    "family": "monkey",
+    "features": [
+      "mark",
+      "spark",
+      "orbit"
+    ],
+    "color": "#8cbbbc",
+    "seed": 36260549,
+    "note": "霜枝高地的攀钟猿，以几何纹章描绘。"
+  },
+  "鎏金·霜枝裂角客领誓·瑟诺": {
+    "family": "demon",
+    "features": [
+      "mark",
+      "spikes",
+      "orbit"
+    ],
+    "color": "#8cbbbc",
+    "seed": 2423537711,
+    "note": "霜枝高地的裂角客，以几何纹章描绘。"
+  },
+  "鎏金·星铸裂角客领誓·佩烙": {
+    "family": "demon",
+    "features": [
+      "mark",
+      "visor",
+      "orbit"
+    ],
+    "color": "#c2b36c",
+    "seed": 3772875089,
+    "note": "星铸天穹的裂角客，以几何纹章描绘。"
+  },
+  "鎏金·星铸灯议长·诺玟": {
+    "family": "human",
+    "features": [
+      "mark",
+      "visor",
+      "orbit"
+    ],
+    "color": "#c2b36c",
+    "seed": 3425038816,
+    "note": "星铸天穹的巡灯使，以几何纹章描绘。"
+  },
+  "鎏金·折光晶棘蜥龙领誓·莱岚": {
+    "family": "dragon",
+    "features": [
+      "mark",
+      "wings",
+      "orbit"
+    ],
+    "color": "#a690bd",
+    "seed": 758363941,
+    "note": "折光边境的晶棘蜥龙，以几何纹章描绘。"
+  },
+  "鎏金·苔庭铠卫·雅恩": {
+    "family": "knight",
+    "features": [
+      "mark",
+      "orbit"
+    ],
+    "color": "#88a472",
+    "seed": 3293629434,
+    "note": "苔雾荒庭的铠卫，以几何纹章描绘。"
+  },
+  "鎏金·苔庭赤角兽领誓·艾珀": {
+    "family": "bull",
+    "features": [
+      "mark",
+      "orbit"
+    ],
+    "color": "#88a472",
+    "seed": 1466424550,
+    "note": "苔雾荒庭的赤角兽，以几何纹章描绘。"
+  },
+  "鎏金·苔庭裂角客领誓·欧珀": {
+    "family": "demon",
+    "features": [
+      "mark",
+      "wings",
+      "orbit"
+    ],
+    "color": "#88a472",
+    "seed": 1908363437,
+    "note": "苔雾荒庭的裂角客，以几何纹章描绘。"
+  },
+  "鎏金·苔庭潜印客·莫恩": {
+    "family": "rogue",
+    "features": [
+      "mark",
+      "orbit"
+    ],
+    "color": "#88a472",
+    "seed": 3909711096,
+    "note": "苔雾荒庭的潜印客，以几何纹章描绘。"
+  },
+  "鎏金·苔庭铠卫·欧恩": {
+    "family": "knight",
+    "features": [
+      "mark",
+      "shield",
+      "spark",
+      "orbit"
+    ],
+    "color": "#88a472",
+    "seed": 3673381497,
+    "note": "苔雾荒庭的铠卫，以几何纹章描绘。"
+  },
+  "鎏金·苔庭织光蛛领誓·雅珀": {
+    "family": "spider",
+    "features": [
+      "mark",
+      "spikes",
+      "orbit"
+    ],
+    "color": "#88a472",
+    "seed": 3344770561,
+    "note": "苔雾荒庭的织光蛛，以几何纹章描绘。"
+  },
+  "鎏金·苔庭峰脊巨灵领誓·瑟珀": {
+    "family": "giant",
+    "features": [
+      "mark",
+      "shield",
+      "orbit"
+    ],
+    "color": "#88a472",
+    "seed": 3302407422,
+    "note": "苔雾荒庭的峰脊巨灵，以几何纹章描绘。"
+  },
+  "鎏金·苔庭铠卫领誓·维珀": {
+    "family": "knight",
+    "features": [
+      "mark",
+      "orbit"
+    ],
+    "color": "#88a472",
+    "seed": 3778739106,
+    "note": "苔雾荒庭的铠卫，以几何纹章描绘。"
+  },
+  "鎏金·苔庭铠卫领誓·希珀": {
+    "family": "knight",
+    "features": [
+      "mark",
+      "orbit"
+    ],
+    "color": "#88a472",
+    "seed": 2504257764,
+    "note": "苔雾荒庭的铠卫，以几何纹章描绘。"
+  },
+  "鎏金·苔庭晶棘蜥龙领誓·艾恩": {
+    "family": "dragon",
+    "features": [
+      "mark",
+      "wings",
+      "orbit"
+    ],
+    "color": "#88a472",
+    "seed": 548855316,
+    "note": "苔雾荒庭的晶棘蜥龙，以几何纹章描绘。"
+  },
+  "鎏金·铜钟峰脊巨灵领誓·维拉": {
+    "family": "giant",
+    "features": [
+      "mark",
+      "orbit"
+    ],
+    "color": "#b69b66",
+    "seed": 3899625628,
+    "note": "铜钟堡垒的峰脊巨灵，以几何纹章描绘。"
+  },
+  "鎏金·铜钟峰脊巨灵领誓·岚拉": {
+    "family": "giant",
+    "features": [
+      "mark",
+      "orbit"
+    ],
+    "color": "#b69b66",
+    "seed": 1329541626,
+    "note": "铜钟堡垒的峰脊巨灵，以几何纹章描绘。"
+  },
+  "鎏金·铜钟灯议长·莱拉": {
+    "family": "human",
+    "features": [
+      "mark",
+      "orbit"
+    ],
+    "color": "#b69b66",
+    "seed": 2713386970,
+    "note": "铜钟堡垒的巡灯使，以几何纹章描绘。"
+  },
+  "鎏金·铜钟缄骨客领誓·岑拉": {
+    "family": "undead",
+    "features": [
+      "mark",
+      "orbit"
+    ],
+    "color": "#b69b66",
+    "seed": 914373133,
+    "note": "铜钟堡垒的缄骨客，以几何纹章描绘。"
+  },
+  "鎏金·铜钟环藤蛇领誓·伦拉": {
+    "family": "snake",
+    "features": [
+      "mark",
+      "spots",
+      "orbit"
+    ],
+    "color": "#b69b66",
+    "seed": 2861129580,
+    "note": "铜钟堡垒的环藤蛇，以几何纹章描绘。"
+  },
+  "鎏金·铜钟裂角客领誓·泽拉": {
+    "family": "demon",
+    "features": [
+      "mark",
+      "orbit"
+    ],
+    "color": "#b69b66",
+    "seed": 3811054874,
+    "note": "铜钟堡垒的裂角客，以几何纹章描绘。"
+  },
+  "鎏金·铜钟缄骨客领誓·欧温": {
+    "family": "undead",
+    "features": [
+      "mark",
+      "spark",
+      "orbit"
+    ],
+    "color": "#b69b66",
+    "seed": 458379283,
+    "note": "铜钟堡垒的缄骨客，以几何纹章描绘。"
+  },
+  "鎏金·铜钟缄骨客领誓·洛温": {
+    "family": "undead",
+    "features": [
+      "mark",
+      "spark",
+      "orbit"
+    ],
+    "color": "#b69b66",
+    "seed": 3320571425,
+    "note": "铜钟堡垒的缄骨客，以几何纹章描绘。"
+  },
+  "鎏金·铜钟枝灯树灵领誓·诺温": {
+    "family": "plant",
+    "features": [
+      "mark",
+      "spark",
+      "orbit"
+    ],
+    "color": "#b69b66",
+    "seed": 2202644989,
+    "note": "铜钟堡垒的枝灯树灵，以几何纹章描绘。"
+  },
+  "鎏金·铜钟铠卫领誓·泽温": {
+    "family": "knight",
+    "features": [
+      "mark",
+      "visor",
+      "orbit"
+    ],
+    "color": "#b69b66",
+    "seed": 4151369215,
+    "note": "铜钟堡垒的铠卫，以几何纹章描绘。"
+  },
+  "鎏金·炽砂铠卫领誓·乌弥": {
+    "family": "knight",
+    "features": [
+      "mark",
+      "shield",
+      "orbit"
+    ],
+    "color": "#c17b58",
+    "seed": 1444907211,
+    "note": "炽砂熔城的铠卫，以几何纹章描绘。"
+  },
+  "鎏金·炽砂灯议长·诺弥": {
+    "family": "mage",
+    "features": [
+      "mark",
+      "orbit"
+    ],
+    "color": "#c17b58",
+    "seed": 4184245920,
+    "note": "炽砂熔城的观灯师，以几何纹章描绘。"
+  },
+  "鎏金·炽砂灯议长·瑟弥": {
+    "family": "healer",
+    "features": [
+      "mark",
+      "spark",
+      "orbit"
+    ],
+    "color": "#c17b58",
+    "seed": 821872715,
+    "note": "炽砂熔城的修灯师，以几何纹章描绘。"
+  },
+  "鎏金·炽砂缄骨客领誓·希弥": {
+    "family": "undead",
+    "features": [
+      "mark",
+      "orbit"
+    ],
+    "color": "#c17b58",
+    "seed": 254925480,
+    "note": "炽砂熔城的缄骨客，以几何纹章描绘。"
+  },
+  "鎏金·炽砂峰脊巨灵领誓·索弥": {
+    "family": "giant",
+    "features": [
+      "mark",
+      "shield",
+      "orbit"
+    ],
+    "color": "#c17b58",
+    "seed": 2589060557,
+    "note": "炽砂熔城的峰脊巨灵，以几何纹章描绘。"
+  },
+  "鎏金·炽砂铠卫领誓·莱弥": {
+    "family": "knight",
+    "features": [
+      "mark",
+      "orbit"
+    ],
+    "color": "#c17b58",
+    "seed": 3896893515,
+    "note": "炽砂熔城的铠卫，以几何纹章描绘。"
+  },
+  "鎏金·炽砂铠卫领誓·莫弥": {
+    "family": "knight",
+    "features": [
+      "mark",
+      "shield",
+      "orbit"
+    ],
+    "color": "#c17b58",
+    "seed": 842755463,
+    "note": "炽砂熔城的铠卫，以几何纹章描绘。"
+  },
+  "鎏金·炽砂灯议长·伦弥": {
+    "family": "human",
+    "features": [
+      "mark",
+      "spark",
+      "orbit"
+    ],
+    "color": "#c17b58",
+    "seed": 430485086,
+    "note": "炽砂熔城的巡灯使，以几何纹章描绘。"
+  },
+  "鎏金·炽砂灯议长·图弥": {
+    "family": "human",
+    "features": [
+      "mark",
+      "orbit"
+    ],
+    "color": "#c17b58",
+    "seed": 3118467213,
+    "note": "炽砂熔城的巡灯使，以几何纹章描绘。"
+  },
+  "鎏金·炽砂灯议长·伊罗": {
+    "family": "human",
+    "features": [
+      "mark",
+      "orbit"
+    ],
+    "color": "#c17b58",
+    "seed": 221665782,
+    "note": "炽砂熔城的巡灯使，以几何纹章描绘。"
+  },
+  "鎏金·暮潮裂角客领誓·莫尘": {
+    "family": "demon",
+    "features": [
+      "mark",
+      "spots",
+      "orbit"
+    ],
+    "color": "#a37c9e",
+    "seed": 1170366276,
+    "note": "暮潮港湾的裂角客，以几何纹章描绘。"
+  },
+  "鎏金·暮潮星枝鹿领誓·伦尘": {
+    "family": "deer",
+    "features": [
+      "mark",
+      "spark",
+      "orbit"
+    ],
+    "color": "#a37c9e",
+    "seed": 3324413946,
+    "note": "暮潮港湾的星枝鹿，以几何纹章描绘。"
+  },
+  "鎏金·暮潮灯议长·佩尘": {
+    "family": "human",
+    "features": [
+      "mark",
+      "orbit"
+    ],
+    "color": "#a37c9e",
+    "seed": 878378819,
+    "note": "暮潮港湾的巡灯使，以几何纹章描绘。"
+  },
+  "鎏金·暮潮潜印客领誓·泽尘": {
+    "family": "rogue",
+    "features": [
+      "mark",
+      "visor",
+      "orbit"
+    ],
+    "color": "#a37c9e",
+    "seed": 574932320,
+    "note": "暮潮港湾的潜印客，以几何纹章描绘。"
+  },
+  "鎏金·暮潮织光蛛领誓·图尘": {
+    "family": "spider",
+    "features": [
+      "mark",
+      "shield",
+      "orbit"
+    ],
+    "color": "#a37c9e",
+    "seed": 1225018422,
+    "note": "暮潮港湾的织光蛛，以几何纹章描绘。"
+  },
+  "鎏金·暮潮缄骨客领誓·阿汀": {
+    "family": "undead",
+    "features": [
+      "mark",
+      "spark",
+      "orbit"
+    ],
+    "color": "#a37c9e",
+    "seed": 418356690,
+    "note": "暮潮港湾的缄骨客，以几何纹章描绘。"
+  },
+  "鎏金·暮潮灯议长·艾汀": {
+    "family": "human",
+    "features": [
+      "mark",
+      "orbit"
+    ],
+    "color": "#a37c9e",
+    "seed": 2646271463,
+    "note": "暮潮港湾的巡灯使，以几何纹章描绘。"
+  },
+  "鎏金·暮潮浮辉使领誓·塔尘": {
+    "family": "spirit",
+    "features": [
+      "mark",
+      "spark",
+      "orbit"
+    ],
+    "color": "#a37c9e",
+    "seed": 4236447324,
+    "note": "暮潮港湾的浮辉使，以几何纹章描绘。"
+  },
+  "鎏金·暮潮折面星客领誓·依汀": {
+    "family": "alien",
+    "features": [
+      "mark",
+      "spark",
+      "orbit"
+    ],
+    "color": "#a37c9e",
+    "seed": 219335764,
+    "note": "暮潮港湾的折面星客，以几何纹章描绘。"
+  },
+  "鎏金·暮潮星枝鹿领誓·诺汀": {
+    "family": "deer",
+    "features": [
+      "mark",
+      "spikes",
+      "orbit"
+    ],
+    "color": "#a37c9e",
+    "seed": 3097681980,
+    "note": "暮潮港湾的星枝鹿，以几何纹章描绘。"
+  },
+  "鎏金·霜枝铜缄裂角客": {
+    "family": "demon",
+    "features": [
+      "mark",
+      "shield",
+      "orbit"
+    ],
+    "color": "#8cbbbc",
+    "seed": 1111808340,
+    "note": "霜枝高地的裂角客，以几何纹章描绘。"
+  },
+  "鎏金·霜枝苔痕赤角兽": {
+    "family": "bull",
+    "features": [
+      "mark",
+      "spikes",
+      "orbit"
+    ],
+    "color": "#8cbbbc",
+    "seed": 3002725906,
+    "note": "霜枝高地的赤角兽，以几何纹章描绘。"
+  },
+  "鎏金·霜枝攀钟猿领誓·阿诺": {
+    "family": "monkey",
+    "features": [
+      "mark",
+      "orbit"
+    ],
+    "color": "#8cbbbc",
+    "seed": 2702932435,
+    "note": "霜枝高地的攀钟猿，以几何纹章描绘。"
+  },
+  "鎏金·霜枝攀钟猿领誓·伊诺": {
+    "family": "monkey",
+    "features": [
+      "mark",
+      "spark",
+      "orbit"
+    ],
+    "color": "#8cbbbc",
+    "seed": 4050698854,
+    "note": "霜枝高地的攀钟猿，以几何纹章描绘。"
+  },
+  "鎏金·霜枝灯议长·欧诺": {
+    "family": "human",
+    "features": [
+      "mark",
+      "shield",
+      "orbit"
+    ],
+    "color": "#8cbbbc",
+    "seed": 1090781920,
+    "note": "霜枝高地的巡灯使，以几何纹章描绘。"
+  },
+  "鎏金·霜枝潜印客领誓·依诺": {
+    "family": "rogue",
+    "features": [
+      "mark",
+      "visor",
+      "orbit"
+    ],
+    "color": "#8cbbbc",
+    "seed": 2878734910,
+    "note": "霜枝高地的潜印客，以几何纹章描绘。"
+  },
+  "鎏金·霜枝灯议长·乌诺": {
+    "family": "human",
+    "features": [
+      "mark",
+      "shield",
+      "orbit"
+    ],
+    "color": "#8cbbbc",
+    "seed": 3573140472,
+    "note": "霜枝高地的巡灯使，以几何纹章描绘。"
+  },
+  "鎏金·霜枝晶棘蜥龙领誓·维诺": {
+    "family": "dragon",
+    "features": [
+      "mark",
+      "shield",
+      "orbit"
+    ],
+    "color": "#8cbbbc",
+    "seed": 2778024470,
+    "note": "霜枝高地的晶棘蜥龙，以几何纹章描绘。"
+  },
+  "鎏金·霜枝灯议长·希诺": {
+    "family": "healer",
+    "features": [
+      "mark",
+      "spark",
+      "visor",
+      "orbit"
+    ],
+    "color": "#8cbbbc",
+    "seed": 873505827,
+    "note": "霜枝高地的修灯师，以几何纹章描绘。"
+  },
+  "鎏金·霜枝潜印客领誓·雅诺": {
+    "family": "rogue",
+    "features": [
+      "mark",
+      "visor",
+      "orbit"
+    ],
+    "color": "#8cbbbc",
+    "seed": 407798372,
+    "note": "霜枝高地的潜印客，以几何纹章描绘。"
+  },
+  "鎏金·星铸铠卫领誓·洛玟": {
+    "family": "knight",
+    "features": [
+      "mark",
+      "shield",
+      "orbit"
+    ],
+    "color": "#c2b36c",
+    "seed": 2544301826,
+    "note": "星铸天穹的铠卫，以几何纹章描绘。"
+  },
+  "鎏金·星铸巡影狼领誓·阿霖": {
+    "family": "wolf",
+    "features": [
+      "mark",
+      "orbit"
+    ],
+    "color": "#c2b36c",
+    "seed": 2425606578,
+    "note": "星铸天穹的巡影狼，以几何纹章描绘。"
+  },
+  "鎏金·星铸铠卫领誓·芮烙": {
+    "family": "knight",
+    "features": [
+      "mark",
+      "shield",
+      "orbit"
+    ],
+    "color": "#c2b36c",
+    "seed": 439964938,
+    "note": "星铸天穹的铠卫，以几何纹章描绘。"
+  },
+  "鎏金·星铸铠卫领誓·米玟": {
+    "family": "knight",
+    "features": [
+      "mark",
+      "shield",
+      "orbit"
+    ],
+    "color": "#c2b36c",
+    "seed": 2365324222,
+    "note": "星铸天穹的铠卫，以几何纹章描绘。"
+  },
+  "鎏金·星铸裂角客领誓·伊玟": {
+    "family": "demon",
+    "features": [
+      "mark",
+      "visor",
+      "orbit"
+    ],
+    "color": "#c2b36c",
+    "seed": 3093903126,
+    "note": "星铸天穹的裂角客，以几何纹章描绘。"
+  },
+  "鎏金·星铸环藤蛇领誓·阿玟": {
+    "family": "snake",
+    "features": [
+      "mark",
+      "spark",
+      "orbit"
+    ],
+    "color": "#c2b36c",
+    "seed": 2300581857,
+    "note": "星铸天穹的环藤蛇，以几何纹章描绘。"
+  },
+  "鎏金·星铸裂角客领誓·艾玟": {
+    "family": "demon",
+    "features": [
+      "mark",
+      "spark",
+      "orbit"
+    ],
+    "color": "#c2b36c",
+    "seed": 1338456070,
+    "note": "星铸天穹的裂角客，以几何纹章描绘。"
+  },
+  "鎏金·星铸峰脊巨灵领誓·欧玟": {
+    "family": "giant",
+    "features": [
+      "mark",
+      "shield",
+      "orbit"
+    ],
+    "color": "#c2b36c",
+    "seed": 91688288,
+    "note": "星铸天穹的峰脊巨灵，以几何纹章描绘。"
+  },
+  "鎏金·星铸巡影狼领誓·乌玟": {
+    "family": "wolf",
+    "features": [
+      "mark",
+      "orbit"
+    ],
+    "color": "#c2b36c",
+    "seed": 2826075611,
+    "note": "星铸天穹的巡影狼，以几何纹章描绘。"
+  },
+  "鎏金·星铸灯议长·雅玟": {
+    "family": "human",
+    "features": [
+      "mark",
+      "shield",
+      "orbit"
+    ],
+    "color": "#c2b36c",
+    "seed": 3139227334,
+    "note": "星铸天穹的巡灯使，以几何纹章描绘。"
+  }
+}

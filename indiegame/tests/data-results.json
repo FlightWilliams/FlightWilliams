@@ -1,0 +1,58 @@
+[
+  {
+    "name": "988 distinct original card names",
+    "passed": true
+  },
+  {
+    "name": "Every mechanical card field matches its baseline",
+    "passed": true
+  },
+  {
+    "name": "All 988 English names and descriptions exist",
+    "passed": true
+  },
+  {
+    "name": "Gilded base relationships preserved",
+    "passed": true
+  },
+  {
+    "name": "Six cycles of sixteen unique encounters",
+    "passed": true
+  },
+  {
+    "name": "Every stage has a matching skill and retinue",
+    "passed": true
+  },
+  {
+    "name": "108 active skill configurations retained",
+    "passed": true
+  },
+  {
+    "name": "All retinue cards exist and normal-only",
+    "passed": true
+  },
+  {
+    "name": "Every stage has newly written bilingual defeat and death dialogue",
+    "passed": true
+  },
+  {
+    "name": "Thirty original scores retained",
+    "passed": true
+  },
+  {
+    "name": "Every portrait profile belongs to an original card",
+    "passed": true
+  },
+  {
+    "name": "No retired work, creator, character or coin-sigil references in project content",
+    "passed": true
+  },
+  {
+    "name": "Legacy recording tables are empty",
+    "passed": true
+  },
+  {
+    "name": "Independent save namespace",
+    "passed": true
+  }
+]

@@ -1,0 +1,82 @@
+[
+  {
+    "id": "mire",
+    "name": "苔雾荒庭",
+    "en": "Mireglass Reach",
+    "prefix": "苔庭",
+    "prefixEn": "Mireglass",
+    "place": "雾灯渡口",
+    "placeEn": "mist-lit causeways",
+    "color": "#88a472"
+  },
+  {
+    "id": "brass",
+    "name": "铜钟堡垒",
+    "en": "Brassbell Citadel",
+    "prefix": "铜钟",
+    "prefixEn": "Brassbell",
+    "place": "悬钟阶城",
+    "placeEn": "hanging bell streets",
+    "color": "#b69b66"
+  },
+  {
+    "id": "cinder",
+    "name": "炽砂熔城",
+    "en": "Cinderglass Foundry",
+    "prefix": "炽砂",
+    "prefixEn": "Cinderglass",
+    "place": "赤砂工坊",
+    "placeEn": "red-sand workshops",
+    "color": "#c17b58"
+  },
+  {
+    "id": "tide",
+    "name": "暮潮港湾",
+    "en": "Dusk-Tide Harbor",
+    "prefix": "暮潮",
+    "prefixEn": "Dusktide",
+    "place": "夜汐码头",
+    "placeEn": "night-tide quays",
+    "color": "#a37c9e"
+  },
+  {
+    "id": "frost",
+    "name": "霜枝高地",
+    "en": "Frostbough March",
+    "prefix": "霜枝",
+    "prefixEn": "Frostbough",
+    "place": "覆霜栈桥",
+    "placeEn": "frost-laced bridges",
+    "color": "#8cbbbc"
+  },
+  {
+    "id": "astral",
+    "name": "星铸天穹",
+    "en": "Starforged Expanse",
+    "prefix": "星铸",
+    "prefixEn": "Starforged",
+    "place": "浮光观测台",
+    "placeEn": "floating observatories",
+    "color": "#c2b36c"
+  },
+  {
+    "id": "vault",
+    "name": "砂镜地窟",
+    "en": "Sandmirror Vault",
+    "prefix": "砂镜",
+    "prefixEn": "Sandmirror",
+    "place": "回声矿井",
+    "placeEn": "echoing crystal shafts",
+    "color": "#b3a17e"
+  },
+  {
+    "id": "rift",
+    "name": "折光边境",
+    "en": "Prism-Rift Frontier",
+    "prefix": "折光",
+    "prefixEn": "Prismrift",
+    "place": "裂辉驿站",
+    "placeEn": "refracted waystations",
+    "color": "#a690bd"
+  }
+]

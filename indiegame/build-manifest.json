@@ -1,0 +1,10 @@
+{
+  "version": "1.0.0",
+  "cards": 988,
+  "stages": 96,
+  "bossSkills": 108,
+  "musicTracks": 30,
+  "script": "assets/pact.7958e542df64.js",
+  "style": "assets/table.259e69a3f196.css",
+  "scriptSha256": "7958e542df64651f042124888235ffcdd9fa1327cdcfdcc4cedf6febffe8c91f"
+}

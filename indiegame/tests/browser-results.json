@@ -1,0 +1,69 @@
+[
+  {
+    "name": "Original title, bilingual switch and separate namespace",
+    "passed": true
+  },
+  {
+    "name": "The real coin uses Beacon and Compass faces and preserves opening/late-player bonuses",
+    "passed": true,
+    "evidence": {
+      "first": "e",
+      "bonus": "p",
+      "hand": 6,
+      "enemyHand": 4,
+      "player": [],
+      "enemy": [
+        0
+      ]
+    }
+  },
+  {
+    "name": "Fresh Wick cannot be sacrificed during its entry round",
+    "passed": true
+  },
+  {
+    "name": "AI still spends only earlier-round sacrifices and both sides advance fairly",
+    "passed": true,
+    "evidence": {
+      "turn": 2,
+      "busy": 0,
+      "actions": []
+    }
+  },
+  {
+    "name": "Reload retains the unfinished original encounter without a new deal",
+    "passed": true
+  },
+  {
+    "name": "All 108 renamed skill handlers remain registered",
+    "passed": true
+  },
+  {
+    "name": "The conditional zero-attack card and Gilded uniqueness retain their mechanics",
+    "passed": true
+  },
+  {
+    "name": "Switching language keeps live battle cards and selections",
+    "passed": true
+  },
+  {
+    "name": "All new Boss dialogue renders in English",
+    "passed": true
+  },
+  {
+    "name": "English card search and catalogue inspection use stable internal names",
+    "passed": true
+  },
+  {
+    "name": "Four screen sizes show reachable language controls without page overflow",
+    "passed": true
+  },
+  {
+    "name": "Standalone edition opens with original assets and language controls",
+    "passed": true
+  },
+  {
+    "name": "No browser errors",
+    "passed": true
+  }
+]
