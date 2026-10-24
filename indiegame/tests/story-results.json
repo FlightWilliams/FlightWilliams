@@ -1,0 +1,65 @@
+[
+  {
+    "name": "All 988 short names are unique, bounded and retain matching Gilded identities",
+    "passed": true,
+    "evidence": {
+      "cards": 988,
+      "maxChineseLength": 7,
+      "maxEnglishLength": 23
+    }
+  },
+  {
+    "name": "Every card has new bilingual narrative and every chapter foreshadows the loop",
+    "passed": true
+  },
+  {
+    "name": "A genuine v1.0.1 save resumes with its board, hand, deck and health intact",
+    "passed": true,
+    "evidence": {
+      "savedTurn": 4,
+      "savedHealth": 5,
+      "deckSize": 16
+    }
+  },
+  {
+    "name": "Card labels, search and details use the short names while identifiers remain stable",
+    "passed": true
+  },
+  {
+    "name": "Generated identity labels stay compact while their saved IDs and personal names remain intact",
+    "passed": true
+  },
+  {
+    "name": "Offering a Boss does not recruit it; choosing its reward recruits only that Boss",
+    "passed": true
+  },
+  {
+    "name": "The loop cannot restart before the final chapter and claimed reward",
+    "passed": true
+  },
+  {
+    "name": "The final return preserves companions, deck, reserve, collection and all replay unlocks",
+    "passed": true,
+    "evidence": {
+      "loop": 1,
+      "deckSize": 18,
+      "replayUnlocks": 96
+    }
+  },
+  {
+    "name": "Loop progress survives reload and the next run begins in the first world with the saved party",
+    "passed": true
+  },
+  {
+    "name": "The English journal and loop ending contain fully translated story text",
+    "passed": true
+  },
+  {
+    "name": "Portrait and landscape phones keep story controls inside the viewport",
+    "passed": true
+  },
+  {
+    "name": "No browser errors during story and legacy-save scenarios",
+    "passed": true
+  }
+]

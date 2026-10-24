@@ -1,0 +1,3954 @@
+{
+  "苔庭裂角客领誓·阿珀": {
+    "zh": "断角",
+    "en": "Broken Horn"
+  },
+  "苔庭赤角兽领誓·艾珀": {
+    "zh": "赤牛",
+    "en": "Red Ox"
+  },
+  "苔庭攀崖羊灵领誓·伊珀": {
+    "zh": "苔山羊",
+    "en": "Moss Goat"
+  },
+  "苔庭裂角客领誓·欧珀": {
+    "zh": "夜翼",
+    "en": "Night Wing"
+  },
+  "苔庭绛纹蝶领誓·乌珀": {
+    "zh": "迷蝶",
+    "en": "Lost Moth"
+  },
+  "苔庭晶棘蜥龙领誓·依珀": {
+    "zh": "苔龙",
+    "en": "Moss Dragon"
+  },
+  "苔庭织光蛛领誓·雅珀": {
+    "zh": "蛛母",
+    "en": "Web Mother"
+  },
+  "苔庭裂角客领誓·诺珀": {
+    "zh": "苔角魔",
+    "en": "Moss Hornfiend"
+  },
+  "苔庭峰脊巨灵领誓·瑟珀": {
+    "zh": "石肩",
+    "en": "Stone Shoulders"
+  },
+  "苔庭铠卫领誓·维珀": {
+    "zh": "无名剑",
+    "en": "Nameless Blade"
+  },
+  "苔庭铠卫领誓·希珀": {
+    "zh": "断桥卫",
+    "en": "Bridge Warden"
+  },
+  "苔庭灯议长·洛珀": {
+    "zh": "苔法师",
+    "en": "Moss Mage"
+  },
+  "苔庭缄骨客领誓·米珀": {
+    "zh": "守墓人",
+    "en": "Gravekeeper"
+  },
+  "苔庭晶棘蜥龙领誓·岚珀": {
+    "zh": "苔幼龙",
+    "en": "Moss Drake"
+  },
+  "苔庭浮辉使领誓·索珀": {
+    "zh": "苔幽灵",
+    "en": "Moss Spirit"
+  },
+  "苔庭峰脊巨灵领誓·莱珀": {
+    "zh": "苔巨人",
+    "en": "Moss Giant"
+  },
+  "苔庭裂角客领誓·岑珀": {
+    "zh": "苔焰魔",
+    "en": "Moss Flamefiend"
+  },
+  "苔庭地缝蠕虫领誓·塔珀": {
+    "zh": "苔蠕虫",
+    "en": "Moss Worm"
+  },
+  "苔庭枝灯树灵领誓·莫珀": {
+    "zh": "苔树灵",
+    "en": "Moss Treekin"
+  },
+  "苔庭巡影狼领誓·伦珀": {
+    "zh": "苔狼",
+    "en": "Moss Wolf"
+  },
+  "苔庭灯议长·佩珀": {
+    "zh": "苔旅人",
+    "en": "Moss Traveler"
+  },
+  "苔庭灯议长·泽珀": {
+    "zh": "苔术士",
+    "en": "Moss Caster"
+  },
+  "苔庭灯议长·图珀": {
+    "zh": "点灯人",
+    "en": "Lamplighter"
+  },
+  "苔庭镜瞳山猫领誓·芮珀": {
+    "zh": "苔猫",
+    "en": "Moss Cat"
+  },
+  "苔庭铠卫领誓·阿恩": {
+    "zh": "旧誓",
+    "en": "Old Oath"
+  },
+  "苔庭晶棘蜥龙领誓·艾恩": {
+    "zh": "青龙",
+    "en": "Jade Dragon"
+  },
+  "苔庭裂角客领誓·伊恩": {
+    "zh": "余烬",
+    "en": "Ember"
+  },
+  "苔庭铠卫·欧恩": {
+    "zh": "铁叔",
+    "en": "Uncle Iron"
+  },
+  "苔庭铠卫·乌恩": {
+    "zh": "小铁",
+    "en": "Little Iron"
+  },
+  "苔庭铠卫·依恩": {
+    "zh": "旧盾",
+    "en": "Old Shield"
+  },
+  "苔庭铠卫·雅恩": {
+    "zh": "守门人",
+    "en": "Gatekeeper"
+  },
+  "苔庭巡灯使·诺恩": {
+    "zh": "阿苇",
+    "en": "Awei"
+  },
+  "苔庭峰脊巨灵·瑟恩": {
+    "zh": "苔石人",
+    "en": "Moss Stonekin"
+  },
+  "苔庭缄骨客·维恩": {
+    "zh": "瘦骨",
+    "en": "Thin Bones"
+  },
+  "苔庭观灯师·希恩": {
+    "zh": "半盏",
+    "en": "Half-Lamp"
+  },
+  "苔庭观灯师·洛恩": {
+    "zh": "灯花",
+    "en": "Lampbloom"
+  },
+  "苔庭观灯师·米恩": {
+    "zh": "苔咒师",
+    "en": "Moss Hexer"
+  },
+  "苔庭观灯师·岚恩": {
+    "zh": "苔巫师",
+    "en": "Moss Wizard"
+  },
+  "苔庭巡灯使·索恩": {
+    "zh": "苔行商",
+    "en": "Moss Trader"
+  },
+  "苔庭织光蛛·莱恩": {
+    "zh": "苔蛛",
+    "en": "Moss Spider"
+  },
+  "苔庭修灯师·岑恩": {
+    "zh": "小灯匠",
+    "en": "Little Lampwright"
+  },
+  "苔庭修灯师·塔恩": {
+    "zh": "补灯人",
+    "en": "Lamp Mender"
+  },
+  "苔庭潜印客·莫恩": {
+    "zh": "藏刀客",
+    "en": "Hidden Blade"
+  },
+  "苔庭修灯师·伦恩": {
+    "zh": "苔药师",
+    "en": "Moss Herbalist"
+  },
+  "苔庭铠卫·佩恩": {
+    "zh": "苔卫兵",
+    "en": "Moss Guard"
+  },
+  "苔庭峰脊巨灵·泽恩": {
+    "zh": "苔山翁",
+    "en": "Moss Mountainkin"
+  },
+  "苔庭潜印客·图恩": {
+    "zh": "苔盗客",
+    "en": "Moss Rogue"
+  },
+  "苔庭潜印客·芮恩": {
+    "zh": "苔刀客",
+    "en": "Moss Knifer"
+  },
+  "苔庭环藤蛇·阿拉": {
+    "zh": "苔蛇",
+    "en": "Moss Snake"
+  },
+  "苔庭环藤蛇·艾拉": {
+    "zh": "苔长蛇",
+    "en": "Moss Serpent"
+  },
+  "苔庭缄骨客·伊拉": {
+    "zh": "苔枯骨",
+    "en": "Moss Skeleton"
+  },
+  "苔庭缄骨客·欧拉": {
+    "zh": "苔骨兵",
+    "en": "Moss Boneguard"
+  },
+  "苔庭巡灯使·乌拉": {
+    "zh": "苔看客",
+    "en": "Moss Onlooker"
+  },
+  "苔庭绒伞菌灵·依拉": {
+    "zh": "苔蘑菇",
+    "en": "Moss Mushroom"
+  },
+  "苔庭观灯师·雅拉": {
+    "zh": "苔书生",
+    "en": "Moss Scholar"
+  },
+  "苔庭铠卫·诺拉": {
+    "zh": "苔剑士",
+    "en": "Moss Swordsman"
+  },
+  "苔庭观灯师·瑟拉": {
+    "zh": "雾法师",
+    "en": "Mist Mage"
+  },
+  "苔庭琉纹缄骨客": {
+    "zh": "苔骸客",
+    "en": "Moss Revenant"
+  },
+  "苔庭风蚀缄骨客": {
+    "zh": "苔亡者",
+    "en": "Moss Deadwalker"
+  },
+  "苔庭静棱缄骨客": {
+    "zh": "苔骨匠",
+    "en": "Moss Bonewright"
+  },
+  "苔庭绒雾缄骨客": {
+    "zh": "雾枯骨",
+    "en": "Mist Skeleton"
+  },
+  "苔庭微烛潜印客": {
+    "zh": "苔刺客",
+    "en": "Moss Assassin"
+  },
+  "苔庭苔痕棱耳猎犬": {
+    "zh": "苔犬",
+    "en": "Moss Hound"
+  },
+  "苔庭苔痕线尾鼠": {
+    "zh": "苔鼠",
+    "en": "Moss Rat"
+  },
+  "苔庭铜缄线尾鼠": {
+    "zh": "苔田鼠",
+    "en": "Moss Field Mouse"
+  },
+  "苔庭苔痕砂脊蜥": {
+    "zh": "苔蜥",
+    "en": "Moss Lizard"
+  },
+  "苔庭苔痕露囊蛙": {
+    "zh": "苔蛙",
+    "en": "Moss Frog"
+  },
+  "苔庭苔痕凝光泥团": {
+    "zh": "苔泥怪",
+    "en": "Moss Mudling"
+  },
+  "苔庭铜缄枝灯树灵": {
+    "zh": "苔树怪",
+    "en": "Moss Treant"
+  },
+  "苔庭铜缄绒伞菌灵": {
+    "zh": "苔菇灵",
+    "en": "Moss Shroomling"
+  },
+  "苔庭回声绒伞菌灵": {
+    "zh": "雾蘑菇",
+    "en": "Mist Mushroom"
+  },
+  "苔庭流砂铠卫": {
+    "zh": "苔枪兵",
+    "en": "Moss Pikeman"
+  },
+  "苔庭镜纹铠卫": {
+    "zh": "苔甲士",
+    "en": "Moss Armiger"
+  },
+  "苔庭远路铠卫": {
+    "zh": "苔盾兵",
+    "en": "Moss Shieldbearer"
+  },
+  "苔庭石封铠卫": {
+    "zh": "苔骑士",
+    "en": "Moss Knight"
+  },
+  "苔庭鸣枝铠卫": {
+    "zh": "苔戟兵",
+    "en": "Moss Halberdier"
+  },
+  "苔庭暖灰铠卫": {
+    "zh": "苔哨卫",
+    "en": "Moss Sentinel"
+  },
+  "苔庭夜航缄骨客": {
+    "zh": "雾骨兵",
+    "en": "Mist Boneguard"
+  },
+  "苔庭流砂缄骨客": {
+    "zh": "雾骸客",
+    "en": "Mist Revenant"
+  },
+  "苔庭夜航观灯师": {
+    "zh": "雾术士",
+    "en": "Mist Caster"
+  },
+  "苔庭镜纹缄骨客": {
+    "zh": "雾亡者",
+    "en": "Mist Deadwalker"
+  },
+  "苔庭远路缄骨客": {
+    "zh": "雾骨匠",
+    "en": "Mist Bonewright"
+  },
+  "苔庭回声环藤蛇": {
+    "zh": "雾蛇",
+    "en": "Mist Snake"
+  },
+  "苔庭微烛环藤蛇": {
+    "zh": "雾长蛇",
+    "en": "Mist Serpent"
+  },
+  "苔庭琉纹峰脊巨灵": {
+    "zh": "雾巨人",
+    "en": "Mist Giant"
+  },
+  "苔庭风蚀裂角客": {
+    "zh": "苔裂魔",
+    "en": "Moss Riftfiend"
+  },
+  "苔庭铜缄浮辉使": {
+    "zh": "苔灯魂",
+    "en": "Moss Lamp Soul"
+  },
+  "苔庭悬灯铠卫": {
+    "zh": "雾卫兵",
+    "en": "Mist Guard"
+  },
+  "苔庭微烛晶棘蜥龙": {
+    "zh": "苔翼龙",
+    "en": "Moss Wyvern"
+  },
+  "苔庭琉纹晶棘蜥龙": {
+    "zh": "苔岩龙",
+    "en": "Moss Rock Dragon"
+  },
+  "苔庭苔痕掠风鸟": {
+    "zh": "苔鸟",
+    "en": "Moss Bird"
+  },
+  "苔庭琉纹潜印客": {
+    "zh": "苔窃贼",
+    "en": "Moss Thief"
+  },
+  "苔庭铜缄凝光泥团": {
+    "zh": "苔胶怪",
+    "en": "Moss Slime"
+  },
+  "苔庭石封缄骨客": {
+    "zh": "露枯骨",
+    "en": "Dew Skeleton"
+  },
+  "苔庭铜缄地缝蠕虫": {
+    "zh": "雾蠕虫",
+    "en": "Mist Worm"
+  },
+  "苔庭苔痕折面星客": {
+    "zh": "苔异客",
+    "en": "Moss Stranger"
+  },
+  "苔庭静棱裂角客": {
+    "zh": "苔石魔",
+    "en": "Moss Stonefiend"
+  },
+  "苔庭银露铠卫": {
+    "zh": "雾剑士",
+    "en": "Mist Swordsman"
+  },
+  "苔庭风蚀峰脊巨灵": {
+    "zh": "雾石人",
+    "en": "Mist Stonekin"
+  },
+  "苔庭流砂观灯师": {
+    "zh": "雾咒师",
+    "en": "Mist Hexer"
+  },
+  "苔庭琉纹环藤蛇": {
+    "zh": "露蛇",
+    "en": "Dew Snake"
+  },
+  "苔庭苔痕潮纹游鱼": {
+    "zh": "苔鱼",
+    "en": "Moss Fish"
+  },
+  "苔庭回声浮辉使": {
+    "zh": "苔游魂",
+    "en": "Moss Wisp"
+  },
+  "苔庭绒雾裂角客": {
+    "zh": "雾角魔",
+    "en": "Mist Hornfiend"
+  },
+  "苔庭镜纹观灯师": {
+    "zh": "雾巫师",
+    "en": "Mist Wizard"
+  },
+  "苔庭鸣枝缄骨客": {
+    "zh": "露骨兵",
+    "en": "Dew Boneguard"
+  },
+  "苔庭藤印铠卫": {
+    "zh": "雾枪兵",
+    "en": "Mist Pikeman"
+  },
+  "苔庭回声枝灯树灵": {
+    "zh": "苔枝灵",
+    "en": "Moss Branchling"
+  },
+  "铜钟峰脊巨灵领誓·维拉": {
+    "zh": "敲钟巨人",
+    "en": "Bell Giant"
+  },
+  "铜钟铠卫领誓·希拉": {
+    "zh": "锈卫兵",
+    "en": "Rust Guard"
+  },
+  "铜钟铠卫领誓·洛拉": {
+    "zh": "锈剑士",
+    "en": "Rust Swordsman"
+  },
+  "铜钟铠卫领誓·米拉": {
+    "zh": "锈枪兵",
+    "en": "Rust Pikeman"
+  },
+  "铜钟峰脊巨灵领誓·岚拉": {
+    "zh": "空壳巨人",
+    "en": "Hollow Giant"
+  },
+  "铜钟铠卫领誓·索拉": {
+    "zh": "锈甲士",
+    "en": "Rust Armiger"
+  },
+  "铜钟灯议长·莱拉": {
+    "zh": "账房先生",
+    "en": "The Accountant"
+  },
+  "铜钟缄骨客领誓·岑拉": {
+    "zh": "守夜骨",
+    "en": "Night Bones"
+  },
+  "铜钟踏铃驹领誓·塔拉": {
+    "zh": "锈马",
+    "en": "Rust Horse"
+  },
+  "铜钟苔脊软虫领誓·莫拉": {
+    "zh": "锈软虫",
+    "en": "Rust Slug"
+  },
+  "铜钟环藤蛇领誓·伦拉": {
+    "zh": "盘钟蛇",
+    "en": "Bell Serpent"
+  },
+  "铜钟裂角客领誓·佩拉": {
+    "zh": "炉童",
+    "en": "Furnace Child"
+  },
+  "铜钟裂角客领誓·泽拉": {
+    "zh": "裂锤",
+    "en": "Split Hammer"
+  },
+  "铜钟钩针蝎领誓·图拉": {
+    "zh": "锈蝎",
+    "en": "Rust Scorpion"
+  },
+  "铜钟灯议长·芮拉": {
+    "zh": "锈法师",
+    "en": "Rust Mage"
+  },
+  "铜钟织光蛛领誓·阿温": {
+    "zh": "织网客",
+    "en": "Web Weaver"
+  },
+  "铜钟线尾鼠领誓·艾温": {
+    "zh": "锈鼠",
+    "en": "Rust Rat"
+  },
+  "铜钟线尾鼠领誓·伊温": {
+    "zh": "锈田鼠",
+    "en": "Rust Field Mouse"
+  },
+  "铜钟缄骨客领誓·欧温": {
+    "zh": "不眠骨",
+    "en": "Sleepless Bones"
+  },
+  "铜钟铠卫领誓·乌温": {
+    "zh": "刺甲",
+    "en": "Barbed Armor"
+  },
+  "铜钟露囊蛙领誓·依温": {
+    "zh": "锈蛙",
+    "en": "Rust Frog"
+  },
+  "铜钟铠卫领誓·雅温": {
+    "zh": "锈盾兵",
+    "en": "Rust Shieldbearer"
+  },
+  "铜钟枝灯树灵领誓·诺温": {
+    "zh": "老根",
+    "en": "Old Root"
+  },
+  "铜钟峰脊巨灵领誓·瑟温": {
+    "zh": "锈巨人",
+    "en": "Rust Giant"
+  },
+  "铜钟铠卫领誓·维温": {
+    "zh": "锈骑士",
+    "en": "Rust Knight"
+  },
+  "铜钟铠卫领誓·希温": {
+    "zh": "锈戟兵",
+    "en": "Rust Halberdier"
+  },
+  "铜钟缄骨客领誓·洛温": {
+    "zh": "饮露骨",
+    "en": "Dew Drinker"
+  },
+  "铜钟铠卫领誓·米温": {
+    "zh": "锈哨卫",
+    "en": "Rust Sentinel"
+  },
+  "铜钟晶棘蜥龙领誓·岚温": {
+    "zh": "锈龙",
+    "en": "Rust Dragon"
+  },
+  "铜钟晶棘蜥龙领誓·索温": {
+    "zh": "锈幼龙",
+    "en": "Rust Drake"
+  },
+  "铜钟缄骨客领誓·莱温": {
+    "zh": "锈枯骨",
+    "en": "Rust Skeleton"
+  },
+  "铜钟浮辉使领誓·岑温": {
+    "zh": "锈幽灵",
+    "en": "Rust Spirit"
+  },
+  "铜钟晶棘蜥龙领誓·塔温": {
+    "zh": "锈翼龙",
+    "en": "Rust Wyvern"
+  },
+  "铜钟灯议长·莫温": {
+    "zh": "锈术士",
+    "en": "Rust Caster"
+  },
+  "铜钟灯议长·伦温": {
+    "zh": "锈旅人",
+    "en": "Rust Traveler"
+  },
+  "铜钟铠卫领誓·佩温": {
+    "zh": "讨债骑士",
+    "en": "Debt Knight"
+  },
+  "铜钟铠卫领誓·泽温": {
+    "zh": "独眼剑客",
+    "en": "One-Eyed Fencer"
+  },
+  "铜钟裂角客领誓·图温": {
+    "zh": "锈角魔",
+    "en": "Rust Hornfiend"
+  },
+  "铜钟镜瞳山猫领誓·芮温": {
+    "zh": "锈猫",
+    "en": "Rust Cat"
+  },
+  "铜钟铠卫领誓·阿雅": {
+    "zh": "钟王",
+    "en": "Bell King"
+  },
+  "铜钟镜瞳山猫领誓·艾雅": {
+    "zh": "锈山猫",
+    "en": "Rust Lynx"
+  },
+  "铜钟修灯师·伊雅": {
+    "zh": "锈药师",
+    "en": "Rust Herbalist"
+  },
+  "铜钟铠卫·欧雅": {
+    "zh": "铜卫兵",
+    "en": "Copper Guard"
+  },
+  "铜钟铠卫·乌雅": {
+    "zh": "铜剑士",
+    "en": "Copper Swordsman"
+  },
+  "铜钟铠卫·依雅": {
+    "zh": "铜枪兵",
+    "en": "Copper Pikeman"
+  },
+  "铜钟巡灯使·雅雅": {
+    "zh": "锈行商",
+    "en": "Rust Trader"
+  },
+  "铜钟巡灯使·诺雅": {
+    "zh": "锈看客",
+    "en": "Rust Onlooker"
+  },
+  "铜钟巡灯使·瑟雅": {
+    "zh": "锈邮差",
+    "en": "Rust Courier"
+  },
+  "铜钟巡灯使·维雅": {
+    "zh": "锈哨兵",
+    "en": "Rust Sentry"
+  },
+  "铜钟巡灯使·希雅": {
+    "zh": "锈船夫",
+    "en": "Rust Boatman"
+  },
+  "铜钟巡灯使·洛雅": {
+    "zh": "锈侍者",
+    "en": "Rust Attendant"
+  },
+  "铜钟镜瞳山猫·米雅": {
+    "zh": "铜猫",
+    "en": "Copper Cat"
+  },
+  "铜钟巡灯使·岚雅": {
+    "zh": "锈向导",
+    "en": "Rust Guide"
+  },
+  "铜钟巡灯使·索雅": {
+    "zh": "锈拾荒客",
+    "en": "Rust Scavenger"
+  },
+  "铜钟铠卫·莱雅": {
+    "zh": "铜甲士",
+    "en": "Copper Armiger"
+  },
+  "铜钟修灯师·岑雅": {
+    "zh": "锈医师",
+    "en": "Rust Medic"
+  },
+  "铜钟观灯师·塔雅": {
+    "zh": "锈咒师",
+    "en": "Rust Hexer"
+  },
+  "铜钟观灯师·莫雅": {
+    "zh": "锈巫师",
+    "en": "Rust Wizard"
+  },
+  "铜钟观灯师·伦雅": {
+    "zh": "锈书生",
+    "en": "Rust Scholar"
+  },
+  "铜钟掠风鸟·佩雅": {
+    "zh": "锈鸟",
+    "en": "Rust Bird"
+  },
+  "铜钟观灯师·泽雅": {
+    "zh": "铜法师",
+    "en": "Copper Mage"
+  },
+  "铜钟观灯师·图雅": {
+    "zh": "铜术士",
+    "en": "Copper Caster"
+  },
+  "铜钟巡灯使·芮雅": {
+    "zh": "锈守望者",
+    "en": "Rust Lookout"
+  },
+  "铜钟钩针蝎·阿弥": {
+    "zh": "铜蝎",
+    "en": "Copper Scorpion"
+  },
+  "铜钟观灯师·艾弥": {
+    "zh": "铜咒师",
+    "en": "Copper Hexer"
+  },
+  "铜钟修灯师·伊弥": {
+    "zh": "锈灯匠",
+    "en": "Rust Lampwright"
+  },
+  "铜钟浮辉使·欧弥": {
+    "zh": "锈灯魂",
+    "en": "Rust Lamp Soul"
+  },
+  "铜钟琉纹缄骨客": {
+    "zh": "锈骨兵",
+    "en": "Rust Boneguard"
+  },
+  "铜钟银露铠卫": {
+    "zh": "铜盾兵",
+    "en": "Copper Shieldbearer"
+  },
+  "铜钟苔痕砂脊蜥": {
+    "zh": "锈蜥",
+    "en": "Rust Lizard"
+  },
+  "铜钟藤印铠卫": {
+    "zh": "铜骑士",
+    "en": "Copper Knight"
+  },
+  "铜钟雾羽铠卫": {
+    "zh": "铜戟兵",
+    "en": "Copper Halberdier"
+  },
+  "铜钟苔痕潜印客": {
+    "zh": "锈盗客",
+    "en": "Rust Rogue"
+  },
+  "铜钟铜缄潜印客": {
+    "zh": "锈刀客",
+    "en": "Rust Knifer"
+  },
+  "铜钟苔痕折面星客": {
+    "zh": "锈异客",
+    "en": "Rust Stranger"
+  },
+  "铜钟弧光铠卫": {
+    "zh": "铜哨卫",
+    "en": "Copper Sentinel"
+  },
+  "铜钟风蚀缄骨客": {
+    "zh": "锈骸客",
+    "en": "Rust Revenant"
+  },
+  "铜钟铜缄苔痕铠卫": {
+    "zh": "钟卫兵",
+    "en": "Bell Guard"
+  },
+  "铜钟静棱缄骨客": {
+    "zh": "锈亡者",
+    "en": "Rust Deadwalker"
+  },
+  "铜钟绒雾缄骨客": {
+    "zh": "锈骨匠",
+    "en": "Rust Bonewright"
+  },
+  "铜钟夜航缄骨客": {
+    "zh": "铜枯骨",
+    "en": "Copper Skeleton"
+  },
+  "铜钟远路巡灯使": {
+    "zh": "铜旅人",
+    "en": "Copper Traveler"
+  },
+  "铜钟夜航观灯师": {
+    "zh": "铜巫师",
+    "en": "Copper Wizard"
+  },
+  "铜钟铜缄铜缄铠卫": {
+    "zh": "钟剑士",
+    "en": "Bell Swordsman"
+  },
+  "铜钟流砂观灯师": {
+    "zh": "铜书生",
+    "en": "Copper Scholar"
+  },
+  "铜钟苔痕甲灯虫": {
+    "zh": "锈灯虫",
+    "en": "Rust Lamp Beetle"
+  },
+  "铜钟回声线尾鼠": {
+    "zh": "铜鼠",
+    "en": "Copper Rat"
+  },
+  "铜钟微烛镜瞳山猫": {
+    "zh": "铜山猫",
+    "en": "Copper Lynx"
+  },
+  "铜钟回声潜印客": {
+    "zh": "锈刺客",
+    "en": "Rust Assassin"
+  },
+  "铜钟苔痕岩铃象": {
+    "zh": "锈象",
+    "en": "Rust Elephant"
+  },
+  "铜钟铜缄回声铠卫": {
+    "zh": "钟枪兵",
+    "en": "Bell Pikeman"
+  },
+  "铜钟铜缄微烛铠卫": {
+    "zh": "钟甲士",
+    "en": "Bell Armiger"
+  },
+  "铜钟铜缄织光蛛": {
+    "zh": "锈蛛",
+    "en": "Rust Spider"
+  },
+  "铜钟回声织光蛛": {
+    "zh": "锈网蛛",
+    "en": "Rust Web Spider"
+  },
+  "铜钟镜纹观灯师": {
+    "zh": "钟法师",
+    "en": "Bell Mage"
+  },
+  "铜钟微烛修灯师": {
+    "zh": "锈修补匠",
+    "en": "Rust Mender"
+  },
+  "铜钟铜缄折面星客": {
+    "zh": "锈梦客",
+    "en": "Rust Dreamer"
+  },
+  "铜钟铜缄琉纹铠卫": {
+    "zh": "钟盾兵",
+    "en": "Bell Shieldbearer"
+  },
+  "铜钟铜缄风蚀铠卫": {
+    "zh": "钟骑士",
+    "en": "Bell Knight"
+  },
+  "铜钟铜缄静棱铠卫": {
+    "zh": "钟戟兵",
+    "en": "Bell Halberdier"
+  },
+  "铜钟铜缄绒雾铠卫": {
+    "zh": "钟哨卫",
+    "en": "Bell Sentinel"
+  },
+  "铜钟铜缄夜航铠卫": {
+    "zh": "铆卫兵",
+    "en": "Rivet Guard"
+  },
+  "铜钟回声浮辉使": {
+    "zh": "锈游魂",
+    "en": "Rust Wisp"
+  },
+  "铜钟远路观灯师": {
+    "zh": "钟术士",
+    "en": "Bell Caster"
+  },
+  "铜钟流砂缄骨客": {
+    "zh": "铜骨兵",
+    "en": "Copper Boneguard"
+  },
+  "铜钟铜缄流砂铠卫": {
+    "zh": "铆剑士",
+    "en": "Rivet Swordsman"
+  },
+  "铜钟铜缄镜纹铠卫": {
+    "zh": "铆枪兵",
+    "en": "Rivet Pikeman"
+  },
+  "铜钟铜缄远路铠卫": {
+    "zh": "铆甲士",
+    "en": "Rivet Armiger"
+  },
+  "铜钟石封观灯师": {
+    "zh": "钟咒师",
+    "en": "Bell Hexer"
+  },
+  "铜钟铜缄石封铠卫": {
+    "zh": "铆盾兵",
+    "en": "Rivet Shieldbearer"
+  },
+  "铜钟铜缄鸣枝铠卫": {
+    "zh": "铆骑士",
+    "en": "Rivet Knight"
+  },
+  "铜钟铜缄暖灰铠卫": {
+    "zh": "铆戟兵",
+    "en": "Rivet Halberdier"
+  },
+  "铜钟铜缄悬灯铠卫": {
+    "zh": "铆哨卫",
+    "en": "Rivet Sentinel"
+  },
+  "铜钟苔痕刺灯兽": {
+    "zh": "锈刺猬",
+    "en": "Rust Hedgehog"
+  },
+  "铜钟铜缄银露铠卫": {
+    "zh": "锁卫兵",
+    "en": "Lock Guard"
+  },
+  "炽砂铠卫领誓·乌弥": {
+    "zh": "炉门卫",
+    "en": "Furnace Warden"
+  },
+  "炽砂铠卫领誓·依弥": {
+    "zh": "铁酒徒",
+    "en": "Iron Drunk"
+  },
+  "炽砂枝灯树灵领誓·雅弥": {
+    "zh": "灰树灵",
+    "en": "Ash Treekin"
+  },
+  "炽砂灯议长·诺弥": {
+    "zh": "烟先生",
+    "en": "Mister Smoke"
+  },
+  "炽砂灯议长·瑟弥": {
+    "zh": "灰医",
+    "en": "Ash Doctor"
+  },
+  "炽砂铠卫领誓·维弥": {
+    "zh": "回炉剑",
+    "en": "Reforged Blade"
+  },
+  "炽砂缄骨客领誓·希弥": {
+    "zh": "拾骨王",
+    "en": "Bone Collector"
+  },
+  "炽砂裂角客领誓·洛弥": {
+    "zh": "灰角魔",
+    "en": "Ash Hornfiend"
+  },
+  "炽砂灯议长·米弥": {
+    "zh": "倒影师",
+    "en": "Mirror Mage"
+  },
+  "炽砂凝光泥团领誓·岚弥": {
+    "zh": "灰泥怪",
+    "en": "Ash Mudling"
+  },
+  "炽砂峰脊巨灵领誓·索弥": {
+    "zh": "扛炉人",
+    "en": "Furnace Bearer"
+  },
+  "炽砂铠卫领誓·莱弥": {
+    "zh": "烟中剑",
+    "en": "Smoke Blade"
+  },
+  "炽砂晶棘蜥龙领誓·岑弥": {
+    "zh": "灰龙",
+    "en": "Ash Dragon"
+  },
+  "炽砂铠卫领誓·塔弥": {
+    "zh": "灰卫兵",
+    "en": "Ash Guard"
+  },
+  "炽砂铠卫领誓·莫弥": {
+    "zh": "锻门将",
+    "en": "Forge Captain"
+  },
+  "炽砂灯议长·伦弥": {
+    "zh": "拾火者",
+    "en": "Fire Gatherer"
+  },
+  "炽砂铠卫领誓·佩弥": {
+    "zh": "灰剑士",
+    "en": "Ash Swordsman"
+  },
+  "炽砂晶棘蜥龙领誓·泽弥": {
+    "zh": "灰幼龙",
+    "en": "Ash Drake"
+  },
+  "炽砂灯议长·图弥": {
+    "zh": "烧书人",
+    "en": "Book Burner"
+  },
+  "炽砂铠卫领誓·芮弥": {
+    "zh": "归炉骑士",
+    "en": "Returning Knight"
+  },
+  "炽砂铠卫领誓·阿罗": {
+    "zh": "灰枪兵",
+    "en": "Ash Pikeman"
+  },
+  "炽砂巡影狼领誓·艾罗": {
+    "zh": "灰狼",
+    "en": "Ash Wolf"
+  },
+  "炽砂灯议长·伊罗": {
+    "zh": "火账房",
+    "en": "Fire Clerk"
+  },
+  "炽砂峰脊巨灵领誓·欧罗": {
+    "zh": "灰巨人",
+    "en": "Ash Giant"
+  },
+  "炽砂裂角客领誓·乌罗": {
+    "zh": "灰焰魔",
+    "en": "Ash Flamefiend"
+  },
+  "炽砂铠卫领誓·依罗": {
+    "zh": "灰甲士",
+    "en": "Ash Armiger"
+  },
+  "炽砂晶棘蜥龙领誓·雅罗": {
+    "zh": "熔龙",
+    "en": "Molten Dragon"
+  },
+  "炽砂灯议长·诺罗": {
+    "zh": "灰城主",
+    "en": "Ash Regent"
+  },
+  "炽砂修灯师·瑟罗": {
+    "zh": "老炭",
+    "en": "Old Coal"
+  },
+  "炽砂铠卫·维罗": {
+    "zh": "灰盾兵",
+    "en": "Ash Shieldbearer"
+  },
+  "炽砂巡灯使·希罗": {
+    "zh": "灰旅人",
+    "en": "Ash Traveler"
+  },
+  "炽砂巡灯使·洛罗": {
+    "zh": "灰行商",
+    "en": "Ash Trader"
+  },
+  "炽砂缄骨客·米罗": {
+    "zh": "灰枯骨",
+    "en": "Ash Skeleton"
+  },
+  "炽砂缄骨客·岚罗": {
+    "zh": "灰骨兵",
+    "en": "Ash Boneguard"
+  },
+  "炽砂潜印客·索罗": {
+    "zh": "灰盗客",
+    "en": "Ash Rogue"
+  },
+  "炽砂铠卫·莱罗": {
+    "zh": "灰骑士",
+    "en": "Ash Knight"
+  },
+  "炽砂铠卫·岑罗": {
+    "zh": "灰戟兵",
+    "en": "Ash Halberdier"
+  },
+  "炽砂铠卫·塔罗": {
+    "zh": "灰哨卫",
+    "en": "Ash Sentinel"
+  },
+  "炽砂潜印客·莫罗": {
+    "zh": "灰刀客",
+    "en": "Ash Knifer"
+  },
+  "炽砂铠卫·伦罗": {
+    "zh": "炭卫兵",
+    "en": "Coal Guard"
+  },
+  "炽砂潜印客·佩罗": {
+    "zh": "灰刺客",
+    "en": "Ash Assassin"
+  },
+  "炽砂巡灯使·泽罗": {
+    "zh": "灰看客",
+    "en": "Ash Onlooker"
+  },
+  "炽砂修灯师·图罗": {
+    "zh": "灰药师",
+    "en": "Ash Herbalist"
+  },
+  "炽砂铠卫·芮罗": {
+    "zh": "炭剑士",
+    "en": "Coal Swordsman"
+  },
+  "炽砂观灯师·阿安": {
+    "zh": "灰法师",
+    "en": "Ash Mage"
+  },
+  "炽砂观灯师·艾安": {
+    "zh": "灰术士",
+    "en": "Ash Caster"
+  },
+  "炽砂观灯师·伊安": {
+    "zh": "灰咒师",
+    "en": "Ash Hexer"
+  },
+  "炽砂潜印客·欧安": {
+    "zh": "灰窃贼",
+    "en": "Ash Thief"
+  },
+  "炽砂观灯师·乌安": {
+    "zh": "灰巫师",
+    "en": "Ash Wizard"
+  },
+  "炽砂铠卫·依安": {
+    "zh": "炭枪兵",
+    "en": "Coal Pikeman"
+  },
+  "炽砂铠卫·雅安": {
+    "zh": "炭甲士",
+    "en": "Coal Armiger"
+  },
+  "炽砂修灯师·诺安": {
+    "zh": "灰医师",
+    "en": "Ash Medic"
+  },
+  "炽砂潜印客·瑟安": {
+    "zh": "灰游侠",
+    "en": "Ash Ranger"
+  },
+  "炽砂铠卫·维安": {
+    "zh": "炭盾兵",
+    "en": "Coal Shieldbearer"
+  },
+  "炽砂巡灯使·希安": {
+    "zh": "灰邮差",
+    "en": "Ash Courier"
+  },
+  "炽砂铠卫·洛安": {
+    "zh": "炭骑士",
+    "en": "Coal Knight"
+  },
+  "炽砂铠卫·米安": {
+    "zh": "炭戟兵",
+    "en": "Coal Halberdier"
+  },
+  "炽砂微烛缄骨客": {
+    "zh": "灰骸客",
+    "en": "Ash Revenant"
+  },
+  "炽砂琉纹缄骨客": {
+    "zh": "灰亡者",
+    "en": "Ash Deadwalker"
+  },
+  "炽砂苔痕环藤蛇": {
+    "zh": "灰蛇",
+    "en": "Ash Snake"
+  },
+  "炽砂苔痕棱耳猎犬": {
+    "zh": "灰犬",
+    "en": "Ash Hound"
+  },
+  "炽砂铜缄铜缄铠卫": {
+    "zh": "炭哨卫",
+    "en": "Coal Sentinel"
+  },
+  "炽砂铜缄回声铠卫": {
+    "zh": "烟卫兵",
+    "en": "Smoke Guard"
+  },
+  "炽砂铜缄微烛铠卫": {
+    "zh": "烟剑士",
+    "en": "Smoke Swordsman"
+  },
+  "炽砂铜缄琉纹铠卫": {
+    "zh": "烟枪兵",
+    "en": "Smoke Pikeman"
+  },
+  "炽砂铜缄风蚀铠卫": {
+    "zh": "烟甲士",
+    "en": "Smoke Armiger"
+  },
+  "炽砂琉纹修灯师": {
+    "zh": "灰灯匠",
+    "en": "Ash Lampwright"
+  },
+  "炽砂风蚀缄骨客": {
+    "zh": "灰骨匠",
+    "en": "Ash Bonewright"
+  },
+  "炽砂静棱缄骨客": {
+    "zh": "炭枯骨",
+    "en": "Coal Skeleton"
+  },
+  "炽砂回声裂角客": {
+    "zh": "灰裂魔",
+    "en": "Ash Riftfiend"
+  },
+  "炽砂绒雾缄骨客": {
+    "zh": "炭骨兵",
+    "en": "Coal Boneguard"
+  },
+  "炽砂夜航缄骨客": {
+    "zh": "炭骸客",
+    "en": "Coal Revenant"
+  },
+  "炽砂苔痕掠风鸟": {
+    "zh": "灰鸟",
+    "en": "Ash Bird"
+  },
+  "炽砂铜缄掠风鸟": {
+    "zh": "灰鸦",
+    "en": "Ash Crow"
+  },
+  "炽砂铜缄巡影狼": {
+    "zh": "炭狼",
+    "en": "Coal Wolf"
+  },
+  "炽砂铜缄静棱铠卫": {
+    "zh": "烟盾兵",
+    "en": "Smoke Shieldbearer"
+  },
+  "炽砂铜缄绒雾铠卫": {
+    "zh": "烟骑士",
+    "en": "Smoke Knight"
+  },
+  "炽砂苔痕砂脊蜥": {
+    "zh": "灰蜥",
+    "en": "Ash Lizard"
+  },
+  "炽砂铜缄砂脊蜥": {
+    "zh": "灰沙蜥",
+    "en": "Ash Sand Lizard"
+  },
+  "炽砂风蚀修灯师": {
+    "zh": "灰修补匠",
+    "en": "Ash Mender"
+  },
+  "炽砂铜缄夜航铠卫": {
+    "zh": "烟戟兵",
+    "en": "Smoke Halberdier"
+  },
+  "炽砂回声峰脊巨灵": {
+    "zh": "灰石人",
+    "en": "Ash Stonekin"
+  },
+  "炽砂流砂缄骨客": {
+    "zh": "炭亡者",
+    "en": "Coal Deadwalker"
+  },
+  "炽砂苔痕匣中客": {
+    "zh": "灰宝箱怪",
+    "en": "Ash Mimic"
+  },
+  "炽砂镜纹缄骨客": {
+    "zh": "炭骨匠",
+    "en": "Coal Bonewright"
+  },
+  "炽砂铜缄流砂铠卫": {
+    "zh": "烟哨卫",
+    "en": "Smoke Sentinel"
+  },
+  "炽砂远路缄骨客": {
+    "zh": "烟枯骨",
+    "en": "Smoke Skeleton"
+  },
+  "炽砂石封缄骨客": {
+    "zh": "烟骨兵",
+    "en": "Smoke Boneguard"
+  },
+  "炽砂苔痕铜壳蟹": {
+    "zh": "灰蟹",
+    "en": "Ash Crab"
+  },
+  "炽砂微烛裂角客": {
+    "zh": "灰石魔",
+    "en": "Ash Stonefiend"
+  },
+  "炽砂静棱修灯师": {
+    "zh": "灰草医",
+    "en": "Ash Healer"
+  },
+  "炽砂苔痕地缝蠕虫": {
+    "zh": "灰蠕虫",
+    "en": "Ash Worm"
+  },
+  "炽砂铜缄镜纹铠卫": {
+    "zh": "焦卫兵",
+    "en": "Charred Guard"
+  },
+  "炽砂静棱观灯师": {
+    "zh": "灰书生",
+    "en": "Ash Scholar"
+  },
+  "炽砂铜缄远路铠卫": {
+    "zh": "焦剑士",
+    "en": "Charred Swordsman"
+  },
+  "炽砂铜缄石封铠卫": {
+    "zh": "焦枪兵",
+    "en": "Charred Pikeman"
+  },
+  "炽砂鸣枝缄骨客": {
+    "zh": "烟骸客",
+    "en": "Smoke Revenant"
+  },
+  "炽砂回声巡影狼": {
+    "zh": "烟狼",
+    "en": "Smoke Wolf"
+  },
+  "炽砂夜航巡灯使": {
+    "zh": "灰哨兵",
+    "en": "Ash Sentry"
+  },
+  "炽砂苔痕折面星客": {
+    "zh": "灰异客",
+    "en": "Ash Stranger"
+  },
+  "炽砂琉纹裂角客": {
+    "zh": "炭角魔",
+    "en": "Coal Hornfiend"
+  },
+  "炽砂苔痕石指傀儡": {
+    "zh": "灰石手",
+    "en": "Ash Stone Hand"
+  },
+  "炽砂铜缄环藤蛇": {
+    "zh": "灰长蛇",
+    "en": "Ash Serpent"
+  },
+  "炽砂回声环藤蛇": {
+    "zh": "炭蛇",
+    "en": "Coal Snake"
+  },
+  "炽砂微烛环藤蛇": {
+    "zh": "炭长蛇",
+    "en": "Coal Serpent"
+  },
+  "炽砂回声砂脊蜥": {
+    "zh": "炭蜥",
+    "en": "Coal Lizard"
+  },
+  "炽砂铜缄鸣枝铠卫": {
+    "zh": "焦甲士",
+    "en": "Charred Armiger"
+  },
+  "炽砂铜缄暖灰铠卫": {
+    "zh": "焦盾兵",
+    "en": "Charred Shieldbearer"
+  },
+  "炽砂铜缄悬灯铠卫": {
+    "zh": "焦骑士",
+    "en": "Charred Knight"
+  },
+  "炽砂铜缄银露铠卫": {
+    "zh": "焦戟兵",
+    "en": "Charred Halberdier"
+  },
+  "炽砂铜缄枝灯树灵": {
+    "zh": "灰树怪",
+    "en": "Ash Treant"
+  },
+  "炽砂微烛巡影狼": {
+    "zh": "焦狼",
+    "en": "Charred Wolf"
+  },
+  "炽砂铜缄藤印铠卫": {
+    "zh": "焦哨卫",
+    "en": "Charred Sentinel"
+  },
+  "炽砂铜缄雾羽铠卫": {
+    "zh": "炉卫兵",
+    "en": "Furnace Guard"
+  },
+  "炽砂铜缄弧光铠卫": {
+    "zh": "炉剑士",
+    "en": "Furnace Swordsman"
+  },
+  "炽砂苔痕甲灯虫": {
+    "zh": "灰灯虫",
+    "en": "Ash Lamp Beetle"
+  },
+  "炽砂绒雾修灯师": {
+    "zh": "炭药师",
+    "en": "Coal Herbalist"
+  },
+  "炽砂苔痕绛纹蝶": {
+    "zh": "灰蝶",
+    "en": "Ash Moth"
+  },
+  "炽砂苔痕露囊蛙": {
+    "zh": "灰蛙",
+    "en": "Ash Frog"
+  },
+  "炽砂暖灰缄骨客": {
+    "zh": "烟亡者",
+    "en": "Smoke Deadwalker"
+  },
+  "炽砂微烛峰脊巨灵": {
+    "zh": "灰山翁",
+    "en": "Ash Mountainkin"
+  },
+  "苔庭铠卫·岚安": {
+    "zh": "雾甲士",
+    "en": "Mist Armiger"
+  },
+  "铜钟缄骨客·索安": {
+    "zh": "铜骸客",
+    "en": "Copper Revenant"
+  },
+  "炽砂回声苔痕铠卫": {
+    "zh": "炉枪兵",
+    "en": "Furnace Pikeman"
+  },
+  "炽砂铠卫·莱安": {
+    "zh": "炉甲士",
+    "en": "Furnace Armiger"
+  },
+  "砂镜凝光泥团领誓·岑安": {
+    "zh": "砂泥怪",
+    "en": "Sand Mudling"
+  },
+  "砂镜铠卫领誓·塔安": {
+    "zh": "石盾",
+    "en": "Stone Shield"
+  },
+  "砂镜铠卫领誓·莫安": {
+    "zh": "穿石剑",
+    "en": "Stonepiercer"
+  },
+  "砂镜裂角客领誓·伦安": {
+    "zh": "埋角",
+    "en": "Buried Horn"
+  },
+  "砂镜峰脊巨灵领誓·佩安": {
+    "zh": "掘山翁",
+    "en": "Mountain Digger"
+  },
+  "砂镜裂角客领誓·泽安": {
+    "zh": "沙魇",
+    "en": "Sand Terror"
+  },
+  "砂镜铠卫领誓·图安": {
+    "zh": "裂盾",
+    "en": "Split Shield"
+  },
+  "砂镜凝光泥团领誓·芮安": {
+    "zh": "小泥王",
+    "en": "Little Mud King"
+  },
+  "砂镜织光蛛领誓·阿瑟": {
+    "zh": "洞织者",
+    "en": "Cave Weaver"
+  },
+  "砂镜裂角客领誓·艾瑟": {
+    "zh": "墓火",
+    "en": "Gravefire"
+  },
+  "砂镜晶棘蜥龙领誓·伊瑟": {
+    "zh": "砂龙",
+    "en": "Sand Dragon"
+  },
+  "砂镜灯议长·欧瑟": {
+    "zh": "砂法师",
+    "en": "Sand Mage"
+  },
+  "砂镜灯议长·乌瑟": {
+    "zh": "砂术士",
+    "en": "Sand Caster"
+  },
+  "砂镜潮纹游鱼领誓·依瑟": {
+    "zh": "砂鱼",
+    "en": "Sand Fish"
+  },
+  "砂镜峰脊巨灵领誓·雅瑟": {
+    "zh": "砂巨人",
+    "en": "Sand Giant"
+  },
+  "砂镜地缝蠕虫领誓·诺瑟": {
+    "zh": "砂蠕虫",
+    "en": "Sand Worm"
+  },
+  "砂镜峰脊巨灵领誓·瑟瑟": {
+    "zh": "砂石人",
+    "en": "Sand Stonekin"
+  },
+  "砂镜灯议长·维瑟": {
+    "zh": "砂药师",
+    "en": "Sand Herbalist"
+  },
+  "砂镜修灯师·希瑟": {
+    "zh": "砂医师",
+    "en": "Sand Medic"
+  },
+  "砂镜浮辉使·洛瑟": {
+    "zh": "砂幽灵",
+    "en": "Sand Spirit"
+  },
+  "砂镜修灯师·米瑟": {
+    "zh": "砂灯匠",
+    "en": "Sand Lampwright"
+  },
+  "砂镜修灯师·岚瑟": {
+    "zh": "砂修补匠",
+    "en": "Sand Mender"
+  },
+  "砂镜铠卫·索瑟": {
+    "zh": "砂卫兵",
+    "en": "Sand Guard"
+  },
+  "砂镜铠卫·莱瑟": {
+    "zh": "砂剑士",
+    "en": "Sand Swordsman"
+  },
+  "砂镜巡灯使·岑瑟": {
+    "zh": "砂旅人",
+    "en": "Sand Traveler"
+  },
+  "砂镜巡灯使·塔瑟": {
+    "zh": "砂行商",
+    "en": "Sand Trader"
+  },
+  "砂镜巡灯使·莫瑟": {
+    "zh": "砂看客",
+    "en": "Sand Onlooker"
+  },
+  "砂镜铠卫·伦瑟": {
+    "zh": "砂枪兵",
+    "en": "Sand Pikeman"
+  },
+  "砂镜铠卫·佩瑟": {
+    "zh": "砂甲士",
+    "en": "Sand Armiger"
+  },
+  "砂镜铠卫·泽瑟": {
+    "zh": "砂盾兵",
+    "en": "Sand Shieldbearer"
+  },
+  "砂镜铠卫·图瑟": {
+    "zh": "砂骑士",
+    "en": "Sand Knight"
+  },
+  "砂镜巡灯使·芮瑟": {
+    "zh": "砂邮差",
+    "en": "Sand Courier"
+  },
+  "砂镜巡灯使·阿尘": {
+    "zh": "砂哨兵",
+    "en": "Sand Sentry"
+  },
+  "砂镜铠卫·艾尘": {
+    "zh": "砂戟兵",
+    "en": "Sand Halberdier"
+  },
+  "砂镜潜印客·伊尘": {
+    "zh": "砂盗客",
+    "en": "Sand Rogue"
+  },
+  "砂镜巡灯使·欧尘": {
+    "zh": "砂船夫",
+    "en": "Sand Boatman"
+  },
+  "砂镜巡灯使·乌尘": {
+    "zh": "砂侍者",
+    "en": "Sand Attendant"
+  },
+  "砂镜巡灯使·依尘": {
+    "zh": "砂向导",
+    "en": "Sand Guide"
+  },
+  "砂镜巡灯使·雅尘": {
+    "zh": "砂拾荒客",
+    "en": "Sand Scavenger"
+  },
+  "砂镜掠风鸟·诺尘": {
+    "zh": "砂鸟",
+    "en": "Sand Bird"
+  },
+  "砂镜潜印客·瑟尘": {
+    "zh": "砂刀客",
+    "en": "Sand Knifer"
+  },
+  "砂镜潜印客·维尘": {
+    "zh": "砂刺客",
+    "en": "Sand Assassin"
+  },
+  "砂镜观灯师·希尘": {
+    "zh": "砂咒师",
+    "en": "Sand Hexer"
+  },
+  "砂镜观灯师·洛尘": {
+    "zh": "砂巫师",
+    "en": "Sand Wizard"
+  },
+  "砂镜观灯师·米尘": {
+    "zh": "砂书生",
+    "en": "Sand Scholar"
+  },
+  "砂镜观灯师·岚尘": {
+    "zh": "矿法师",
+    "en": "Mine Mage"
+  },
+  "砂镜巡灯使·索尘": {
+    "zh": "砂守望者",
+    "en": "Sand Lookout"
+  },
+  "砂镜镜纹铠卫": {
+    "zh": "砂哨卫",
+    "en": "Sand Sentinel"
+  },
+  "砂镜远路铠卫": {
+    "zh": "矿卫兵",
+    "en": "Mine Guard"
+  },
+  "砂镜苔痕缄骨客": {
+    "zh": "砂枯骨",
+    "en": "Sand Skeleton"
+  },
+  "砂镜苔痕棱耳猎犬": {
+    "zh": "砂犬",
+    "en": "Sand Hound"
+  },
+  "砂镜镜纹巡灯使": {
+    "zh": "矿旅人",
+    "en": "Mine Traveler"
+  },
+  "砂镜铜缄缄骨客": {
+    "zh": "砂骨兵",
+    "en": "Sand Boneguard"
+  },
+  "砂镜回声缄骨客": {
+    "zh": "砂骸客",
+    "en": "Sand Revenant"
+  },
+  "砂镜苔痕甲灯虫": {
+    "zh": "砂灯虫",
+    "en": "Sand Lamp Beetle"
+  },
+  "砂镜回声凝光泥团": {
+    "zh": "砂胶怪",
+    "en": "Sand Slime"
+  },
+  "砂镜苔痕砂脊蜥": {
+    "zh": "砂蜥",
+    "en": "Sand Lizard"
+  },
+  "砂镜铜缄地缝蠕虫": {
+    "zh": "矿蠕虫",
+    "en": "Mine Worm"
+  },
+  "砂镜铜缄浮辉使": {
+    "zh": "砂灯魂",
+    "en": "Sand Lamp Soul"
+  },
+  "砂镜微烛裂角客": {
+    "zh": "砂角魔",
+    "en": "Sand Hornfiend"
+  },
+  "砂镜铜缄潮纹游鱼": {
+    "zh": "矿鱼",
+    "en": "Mine Fish"
+  },
+  "砂镜微烛缄骨客": {
+    "zh": "砂亡者",
+    "en": "Sand Deadwalker"
+  },
+  "砂镜苔痕苔脊软虫": {
+    "zh": "砂软虫",
+    "en": "Sand Slug"
+  },
+  "砂镜苔痕线尾鼠": {
+    "zh": "砂鼠",
+    "en": "Sand Rat"
+  },
+  "砂镜铜缄甲灯虫": {
+    "zh": "砂甲虫",
+    "en": "Sand Beetle"
+  },
+  "砂镜石封铠卫": {
+    "zh": "矿剑士",
+    "en": "Mine Swordsman"
+  },
+  "砂镜鸣枝铠卫": {
+    "zh": "矿枪兵",
+    "en": "Mine Pikeman"
+  },
+  "砂镜微烛潜印客": {
+    "zh": "砂窃贼",
+    "en": "Sand Thief"
+  },
+  "砂镜琉纹缄骨客": {
+    "zh": "砂骨匠",
+    "en": "Sand Bonewright"
+  },
+  "砂镜风蚀缄骨客": {
+    "zh": "矿枯骨",
+    "en": "Mine Skeleton"
+  },
+  "砂镜静棱缄骨客": {
+    "zh": "矿骨兵",
+    "en": "Mine Boneguard"
+  },
+  "砂镜微烛峰脊巨灵": {
+    "zh": "砂山翁",
+    "en": "Sand Mountainkin"
+  },
+  "砂镜苔痕折面星客": {
+    "zh": "砂异客",
+    "en": "Sand Stranger"
+  },
+  "砂镜静棱观灯师": {
+    "zh": "矿术士",
+    "en": "Mine Caster"
+  },
+  "砂镜绒雾观灯师": {
+    "zh": "矿咒师",
+    "en": "Mine Hexer"
+  },
+  "砂镜铜缄晶棘蜥龙": {
+    "zh": "砂幼龙",
+    "en": "Sand Drake"
+  },
+  "砂镜回声晶棘蜥龙": {
+    "zh": "砂翼龙",
+    "en": "Sand Wyvern"
+  },
+  "暮潮星枝鹿领誓·莱尘": {
+    "zh": "潮鹿",
+    "en": "Tide Stag"
+  },
+  "暮潮灯议长·岑尘": {
+    "zh": "赌徒",
+    "en": "The Gambler"
+  },
+  "暮潮浮辉使领誓·塔尘": {
+    "zh": "雾魂",
+    "en": "Mist Soul"
+  },
+  "暮潮裂角客领誓·莫尘": {
+    "zh": "潮牙",
+    "en": "Tidefang"
+  },
+  "暮潮星枝鹿领誓·伦尘": {
+    "zh": "遗岸鹿",
+    "en": "Lost-Shore Stag"
+  },
+  "暮潮灯议长·佩尘": {
+    "zh": "旧船长",
+    "en": "Old Captain"
+  },
+  "暮潮潜印客领誓·泽尘": {
+    "zh": "切牌客",
+    "en": "The Dealer"
+  },
+  "暮潮织光蛛领誓·图尘": {
+    "zh": "静网",
+    "en": "Still Web"
+  },
+  "暮潮缄骨客领誓·芮尘": {
+    "zh": "潮枯骨",
+    "en": "Tide Skeleton"
+  },
+  "暮潮缄骨客领誓·阿汀": {
+    "zh": "舟底骨",
+    "en": "Keel Bones"
+  },
+  "暮潮灯议长·艾汀": {
+    "zh": "引航人",
+    "en": "Harbor Pilot"
+  },
+  "暮潮折面星客领誓·伊汀": {
+    "zh": "潮异客",
+    "en": "Tide Stranger"
+  },
+  "暮潮折面星客领誓·欧汀": {
+    "zh": "潮梦客",
+    "en": "Tide Dreamer"
+  },
+  "暮潮灯议长·乌汀": {
+    "zh": "换舷客",
+    "en": "Deck Shifter"
+  },
+  "暮潮折面星客领誓·依汀": {
+    "zh": "梦眼",
+    "en": "Dream Eye"
+  },
+  "暮潮踏铃驹领誓·雅汀": {
+    "zh": "浪蹄",
+    "en": "Wavehoof"
+  },
+  "暮潮星枝鹿领誓·诺汀": {
+    "zh": "刺枝鹿",
+    "en": "Briar Stag"
+  },
+  "暮潮折面星客领誓·瑟汀": {
+    "zh": "潮镜客",
+    "en": "Tide Mirror Guest"
+  },
+  "暮潮灯议长·维汀": {
+    "zh": "酒红",
+    "en": "Wine Red"
+  },
+  "暮潮灯议长·希汀": {
+    "zh": "不归客",
+    "en": "The Unreturned"
+  },
+  "暮潮灯议长·洛汀": {
+    "zh": "潮旅人",
+    "en": "Tide Traveler"
+  },
+  "暮潮灯议长·米汀": {
+    "zh": "潮行商",
+    "en": "Tide Trader"
+  },
+  "暮潮灯议长·岚汀": {
+    "zh": "潮法师",
+    "en": "Tide Mage"
+  },
+  "暮潮峰脊巨灵领誓·索汀": {
+    "zh": "潮巨人",
+    "en": "Tide Giant"
+  },
+  "暮潮裂角客领誓·莱汀": {
+    "zh": "潮角魔",
+    "en": "Tide Hornfiend"
+  },
+  "暮潮地缝蠕虫领誓·岑汀": {
+    "zh": "潮蠕虫",
+    "en": "Tide Worm"
+  },
+  "暮潮棱耳猎犬领誓·塔汀": {
+    "zh": "潮犬",
+    "en": "Tide Hound"
+  },
+  "暮潮缄骨客领誓·莫汀": {
+    "zh": "潮骨兵",
+    "en": "Tide Boneguard"
+  },
+  "暮潮灯议长·伦汀": {
+    "zh": "潮看客",
+    "en": "Tide Onlooker"
+  },
+  "暮潮裂角客领誓·佩汀": {
+    "zh": "潮焰魔",
+    "en": "Tide Flamefiend"
+  },
+  "暮潮琉纹折面星客": {
+    "zh": "盐异客",
+    "en": "Salt Stranger"
+  },
+  "暮潮修灯师·泽汀": {
+    "zh": "潮药师",
+    "en": "Tide Herbalist"
+  },
+  "暮潮巡灯使·图汀": {
+    "zh": "潮邮差",
+    "en": "Tide Courier"
+  },
+  "暮潮巡灯使·芮汀": {
+    "zh": "潮哨兵",
+    "en": "Tide Sentry"
+  },
+  "暮潮修灯师·阿芙": {
+    "zh": "潮医师",
+    "en": "Tide Medic"
+  },
+  "暮潮巡灯使·艾芙": {
+    "zh": "潮船夫",
+    "en": "Tide Boatman"
+  },
+  "暮潮巡灯使·伊芙": {
+    "zh": "潮侍者",
+    "en": "Tide Attendant"
+  },
+  "暮潮巡灯使·欧芙": {
+    "zh": "潮向导",
+    "en": "Tide Guide"
+  },
+  "暮潮巡灯使·乌芙": {
+    "zh": "潮拾荒客",
+    "en": "Tide Scavenger"
+  },
+  "暮潮修灯师·依芙": {
+    "zh": "潮灯匠",
+    "en": "Tide Lampwright"
+  },
+  "暮潮修灯师·雅芙": {
+    "zh": "潮修补匠",
+    "en": "Tide Mender"
+  },
+  "暮潮潜印客·诺芙": {
+    "zh": "潮盗客",
+    "en": "Tide Rogue"
+  },
+  "暮潮潜印客·瑟芙": {
+    "zh": "潮刀客",
+    "en": "Tide Knifer"
+  },
+  "暮潮铠卫·维芙": {
+    "zh": "潮卫兵",
+    "en": "Tide Guard"
+  },
+  "暮潮潜印客·希芙": {
+    "zh": "潮刺客",
+    "en": "Tide Assassin"
+  },
+  "暮潮巡灯使·洛芙": {
+    "zh": "潮守望者",
+    "en": "Tide Lookout"
+  },
+  "暮潮巡灯使·米芙": {
+    "zh": "盐旅人",
+    "en": "Salt Traveler"
+  },
+  "暮潮潜印客·岚芙": {
+    "zh": "潮窃贼",
+    "en": "Tide Thief"
+  },
+  "暮潮潜印客·索芙": {
+    "zh": "潮游侠",
+    "en": "Tide Ranger"
+  },
+  "暮潮折面星客·莱芙": {
+    "zh": "盐梦客",
+    "en": "Salt Dreamer"
+  },
+  "暮潮巡灯使·岑芙": {
+    "zh": "盐行商",
+    "en": "Salt Trader"
+  },
+  "暮潮织光蛛·塔芙": {
+    "zh": "潮蛛",
+    "en": "Tide Spider"
+  },
+  "暮潮潜印客·莫芙": {
+    "zh": "潮斥候",
+    "en": "Tide Scout"
+  },
+  "暮潮潜印客·伦芙": {
+    "zh": "盐盗客",
+    "en": "Salt Rogue"
+  },
+  "暮潮微烛缄骨客": {
+    "zh": "潮骸客",
+    "en": "Tide Revenant"
+  },
+  "暮潮铜缄铠卫": {
+    "zh": "潮剑士",
+    "en": "Tide Swordsman"
+  },
+  "暮潮琉纹缄骨客": {
+    "zh": "潮亡者",
+    "en": "Tide Deadwalker"
+  },
+  "暮潮铜缄棱耳猎犬": {
+    "zh": "盐犬",
+    "en": "Salt Hound"
+  },
+  "暮潮苔痕掠风鸟": {
+    "zh": "潮鸟",
+    "en": "Tide Bird"
+  },
+  "暮潮苔痕线尾鼠": {
+    "zh": "潮鼠",
+    "en": "Tide Rat"
+  },
+  "暮潮雾羽巡灯使": {
+    "zh": "盐看客",
+    "en": "Salt Onlooker"
+  },
+  "暮潮静棱折面星客": {
+    "zh": "盐镜客",
+    "en": "Salt Mirror Guest"
+  },
+  "暮潮风蚀缄骨客": {
+    "zh": "潮骨匠",
+    "en": "Tide Bonewright"
+  },
+  "暮潮苔痕巡影狼": {
+    "zh": "潮狼",
+    "en": "Tide Wolf"
+  },
+  "暮潮绒雾折面星客": {
+    "zh": "汐异客",
+    "en": "Ebb Stranger"
+  },
+  "暮潮苔痕甲灯虫": {
+    "zh": "潮灯虫",
+    "en": "Tide Lamp Beetle"
+  },
+  "暮潮苔痕环藤蛇": {
+    "zh": "潮蛇",
+    "en": "Tide Snake"
+  },
+  "暮潮铜缄环藤蛇": {
+    "zh": "潮长蛇",
+    "en": "Tide Serpent"
+  },
+  "暮潮铜缄峰脊巨灵": {
+    "zh": "潮石人",
+    "en": "Tide Stonekin"
+  },
+  "暮潮回声峰脊巨灵": {
+    "zh": "潮山翁",
+    "en": "Tide Mountainkin"
+  },
+  "暮潮微烛峰脊巨灵": {
+    "zh": "盐巨人",
+    "en": "Salt Giant"
+  },
+  "暮潮弧光巡灯使": {
+    "zh": "盐邮差",
+    "en": "Salt Courier"
+  },
+  "暮潮铜缄巡影狼": {
+    "zh": "盐狼",
+    "en": "Salt Wolf"
+  },
+  "暮潮铜缄观灯师": {
+    "zh": "潮术士",
+    "en": "Tide Caster"
+  },
+  "暮潮夜航折面星客": {
+    "zh": "汐梦客",
+    "en": "Ebb Dreamer"
+  },
+  "暮潮流砂折面星客": {
+    "zh": "汐镜客",
+    "en": "Ebb Mirror Guest"
+  },
+  "暮潮苔痕锈鬃豕": {
+    "zh": "潮野猪",
+    "en": "Tide Boar"
+  },
+  "暮潮夜航潜印客": {
+    "zh": "盐刀客",
+    "en": "Salt Knifer"
+  },
+  "暮潮苔痕潮纹游鱼": {
+    "zh": "潮鱼",
+    "en": "Tide Fish"
+  },
+  "暮潮铜缄潮纹游鱼": {
+    "zh": "盐鱼",
+    "en": "Salt Fish"
+  },
+  "暮潮回声潮纹游鱼": {
+    "zh": "汐鱼",
+    "en": "Ebb Fish"
+  },
+  "暮潮苔痕凝光泥团": {
+    "zh": "潮泥怪",
+    "en": "Tide Mudling"
+  },
+  "暮潮微烛裂角客": {
+    "zh": "潮裂魔",
+    "en": "Tide Riftfiend"
+  },
+  "暮潮铜缄浮辉使": {
+    "zh": "潮幽灵",
+    "en": "Tide Spirit"
+  },
+  "暮潮回声铠卫": {
+    "zh": "潮枪兵",
+    "en": "Tide Pikeman"
+  },
+  "暮潮铜缄苔痕巡灯使": {
+    "zh": "盐哨兵",
+    "en": "Salt Sentry"
+  },
+  "暮潮回声织光蛛": {
+    "zh": "潮网蛛",
+    "en": "Tide Web Spider"
+  },
+  "暮潮铜缄铜缄巡灯使": {
+    "zh": "盐船夫",
+    "en": "Salt Boatman"
+  },
+  "霜枝潜印客领誓·佩芙": {
+    "zh": "雪盗客",
+    "en": "Snow Rogue"
+  },
+  "霜枝铠卫领誓·泽芙": {
+    "zh": "破冰卫",
+    "en": "Icebreaker"
+  },
+  "霜枝潜印客领誓·图芙": {
+    "zh": "飞刀客",
+    "en": "Knife Thrower"
+  },
+  "霜枝铠卫领誓·芮芙": {
+    "zh": "冷剑",
+    "en": "Cold Blade"
+  },
+  "霜枝攀钟猿领誓·阿诺": {
+    "zh": "白猿",
+    "en": "White Ape"
+  },
+  "霜枝攀钟猿领誓·艾诺": {
+    "zh": "断臂猿",
+    "en": "One-Armed Ape"
+  },
+  "霜枝攀钟猿领誓·伊诺": {
+    "zh": "老雪猿",
+    "en": "Old Snow Ape"
+  },
+  "霜枝灯议长·欧诺": {
+    "zh": "冻哨",
+    "en": "Frozen Sentry"
+  },
+  "霜枝灯议长·乌诺": {
+    "zh": "雪关主",
+    "en": "Snow Warden"
+  },
+  "霜枝潜印客领誓·依诺": {
+    "zh": "藏影",
+    "en": "Hidden Shadow"
+  },
+  "霜枝潜印客领誓·雅诺": {
+    "zh": "归鸦",
+    "en": "Homeward Crow"
+  },
+  "霜枝灯议长·诺诺": {
+    "zh": "望乡人",
+    "en": "Homesick One"
+  },
+  "霜枝裂角客领誓·瑟诺": {
+    "zh": "火怒",
+    "en": "Fire Wrath"
+  },
+  "霜枝晶棘蜥龙领誓·维诺": {
+    "zh": "眠龙",
+    "en": "Sleeping Dragon"
+  },
+  "霜枝灯议长·希诺": {
+    "zh": "山医",
+    "en": "Mountain Doctor"
+  },
+  "霜枝铠卫·洛诺": {
+    "zh": "雪卫兵",
+    "en": "Snow Guard"
+  },
+  "霜枝铠卫·米诺": {
+    "zh": "雪剑士",
+    "en": "Snow Swordsman"
+  },
+  "霜枝铠卫·岚诺": {
+    "zh": "雪枪兵",
+    "en": "Snow Pikeman"
+  },
+  "霜枝铠卫·索诺": {
+    "zh": "雪甲士",
+    "en": "Snow Armiger"
+  },
+  "霜枝铠卫·莱诺": {
+    "zh": "雪盾兵",
+    "en": "Snow Shieldbearer"
+  },
+  "霜枝铠卫·岑诺": {
+    "zh": "雪骑士",
+    "en": "Snow Knight"
+  },
+  "霜枝铠卫·塔诺": {
+    "zh": "雪戟兵",
+    "en": "Snow Halberdier"
+  },
+  "霜枝铜缄裂角客": {
+    "zh": "雪角",
+    "en": "Snowhorn"
+  },
+  "霜枝巡灯使·莫诺": {
+    "zh": "雪旅人",
+    "en": "Snow Traveler"
+  },
+  "霜枝巡灯使·伦诺": {
+    "zh": "雪行商",
+    "en": "Snow Trader"
+  },
+  "霜枝铠卫·佩诺": {
+    "zh": "雪哨卫",
+    "en": "Snow Sentinel"
+  },
+  "霜枝苔痕赤角兽": {
+    "zh": "疯牛",
+    "en": "Mad Ox"
+  },
+  "霜枝铜缄赤角兽": {
+    "zh": "雪牛",
+    "en": "Snow Bull"
+  },
+  "霜枝镜纹铠卫": {
+    "zh": "霜卫兵",
+    "en": "Frost Guard"
+  },
+  "霜枝巡灯使·泽诺": {
+    "zh": "雪看客",
+    "en": "Snow Onlooker"
+  },
+  "霜枝巡灯使·图诺": {
+    "zh": "雪邮差",
+    "en": "Snow Courier"
+  },
+  "霜枝潜印客·芮诺": {
+    "zh": "雪刀客",
+    "en": "Snow Knifer"
+  },
+  "霜枝潜印客·阿烙": {
+    "zh": "雪刺客",
+    "en": "Snow Assassin"
+  },
+  "霜枝静棱潜印客": {
+    "zh": "雪窃贼",
+    "en": "Snow Thief"
+  },
+  "霜枝绒雾潜印客": {
+    "zh": "雪游侠",
+    "en": "Snow Ranger"
+  },
+  "霜枝潜印客·艾烙": {
+    "zh": "雪斥候",
+    "en": "Snow Scout"
+  },
+  "霜枝苔痕折面星客": {
+    "zh": "雪异客",
+    "en": "Snow Stranger"
+  },
+  "霜枝苔痕浮辉使": {
+    "zh": "雪幽灵",
+    "en": "Snow Spirit"
+  },
+  "霜枝铜缄浮辉使": {
+    "zh": "雪灯魂",
+    "en": "Snow Lamp Soul"
+  },
+  "霜枝铠卫·伊烙": {
+    "zh": "霜剑士",
+    "en": "Frost Swordsman"
+  },
+  "霜枝苔痕环藤蛇": {
+    "zh": "雪蛇",
+    "en": "Snow Snake"
+  },
+  "霜枝苔痕潮纹游鱼": {
+    "zh": "雪鱼",
+    "en": "Snow Fish"
+  },
+  "霜枝巡灯使·欧烙": {
+    "zh": "雪哨兵",
+    "en": "Snow Sentry"
+  },
+  "霜枝修灯师·乌烙": {
+    "zh": "雪药师",
+    "en": "Snow Herbalist"
+  },
+  "霜枝潜印客·依烙": {
+    "zh": "霜盗客",
+    "en": "Frost Rogue"
+  },
+  "霜枝巡灯使·雅烙": {
+    "zh": "雪船夫",
+    "en": "Snow Boatman"
+  },
+  "霜枝巡灯使·诺烙": {
+    "zh": "雪侍者",
+    "en": "Snow Attendant"
+  },
+  "霜枝峰脊巨灵·瑟烙": {
+    "zh": "雪巨人",
+    "en": "Snow Giant"
+  },
+  "霜枝铠卫·维烙": {
+    "zh": "霜枪兵",
+    "en": "Frost Pikeman"
+  },
+  "霜枝铠卫·希烙": {
+    "zh": "霜甲士",
+    "en": "Frost Armiger"
+  },
+  "霜枝铠卫·洛烙": {
+    "zh": "霜盾兵",
+    "en": "Frost Shieldbearer"
+  },
+  "霜枝潜印客·米烙": {
+    "zh": "霜刀客",
+    "en": "Frost Knifer"
+  },
+  "霜枝修灯师·岚烙": {
+    "zh": "雪医师",
+    "en": "Snow Medic"
+  },
+  "霜枝修灯师·索烙": {
+    "zh": "雪灯匠",
+    "en": "Snow Lampwright"
+  },
+  "霜枝铠卫·莱烙": {
+    "zh": "霜骑士",
+    "en": "Frost Knight"
+  },
+  "霜枝窑心偶·岑烙": {
+    "zh": "雪陶偶",
+    "en": "Snow Clay Doll"
+  },
+  "霜枝窑心偶·塔烙": {
+    "zh": "雪罐偶",
+    "en": "Snow Jar Doll"
+  },
+  "霜枝潜印客·莫烙": {
+    "zh": "霜刺客",
+    "en": "Frost Assassin"
+  },
+  "霜枝银露铠卫": {
+    "zh": "霜戟兵",
+    "en": "Frost Halberdier"
+  },
+  "霜枝藤印铠卫": {
+    "zh": "霜哨卫",
+    "en": "Frost Sentinel"
+  },
+  "霜枝雾羽铠卫": {
+    "zh": "冰卫兵",
+    "en": "Ice Guard"
+  },
+  "霜枝镜纹巡灯使": {
+    "zh": "雪向导",
+    "en": "Snow Guide"
+  },
+  "霜枝石封潜印客": {
+    "zh": "霜窃贼",
+    "en": "Frost Thief"
+  },
+  "霜枝鸣枝潜印客": {
+    "zh": "霜游侠",
+    "en": "Frost Ranger"
+  },
+  "霜枝弧光铠卫": {
+    "zh": "冰剑士",
+    "en": "Ice Swordsman"
+  },
+  "霜枝苔痕棱耳猎犬": {
+    "zh": "雪犬",
+    "en": "Snow Hound"
+  },
+  "霜枝微烛攀钟猿": {
+    "zh": "雪猿",
+    "en": "Snow Ape"
+  },
+  "霜枝铜缄苔痕铠卫": {
+    "zh": "冰枪兵",
+    "en": "Ice Pikeman"
+  },
+  "霜枝苔痕缄骨客": {
+    "zh": "雪枯骨",
+    "en": "Snow Skeleton"
+  },
+  "霜枝铜缄折面星客": {
+    "zh": "雪梦客",
+    "en": "Snow Dreamer"
+  },
+  "霜枝苔痕砂脊蜥": {
+    "zh": "雪蜥",
+    "en": "Snow Lizard"
+  },
+  "霜枝暖灰潜印客": {
+    "zh": "霜斥候",
+    "en": "Frost Scout"
+  },
+  "霜枝悬灯潜印客": {
+    "zh": "冰盗客",
+    "en": "Ice Rogue"
+  },
+  "霜枝银露潜印客": {
+    "zh": "冰刀客",
+    "en": "Ice Knifer"
+  },
+  "霜枝远路巡灯使": {
+    "zh": "雪拾荒客",
+    "en": "Snow Scavenger"
+  },
+  "霜枝石封巡灯使": {
+    "zh": "雪守望者",
+    "en": "Snow Lookout"
+  },
+  "霜枝鸣枝巡灯使": {
+    "zh": "霜旅人",
+    "en": "Frost Traveler"
+  },
+  "霜枝琉纹攀钟猿": {
+    "zh": "霜猿",
+    "en": "Frost Ape"
+  },
+  "霜枝铜缄铜缄铠卫": {
+    "zh": "冰甲士",
+    "en": "Ice Armiger"
+  },
+  "霜枝苔痕掠风鸟": {
+    "zh": "雪鸟",
+    "en": "Snow Bird"
+  },
+  "霜枝铜缄回声铠卫": {
+    "zh": "冰盾兵",
+    "en": "Ice Shieldbearer"
+  },
+  "霜枝铜缄微烛铠卫": {
+    "zh": "冰骑士",
+    "en": "Ice Knight"
+  },
+  "霜枝铜缄琉纹铠卫": {
+    "zh": "冰戟兵",
+    "en": "Ice Halberdier"
+  },
+  "霜枝铜缄峰脊巨灵": {
+    "zh": "雪石人",
+    "en": "Snow Stonekin"
+  },
+  "霜枝铜缄缄骨客": {
+    "zh": "雪骨兵",
+    "en": "Snow Boneguard"
+  },
+  "霜枝浮辉使·伦烙": {
+    "zh": "雪游魂",
+    "en": "Snow Wisp"
+  },
+  "星铸裂角客领誓·佩烙": {
+    "zh": "星痕",
+    "en": "Star Scar"
+  },
+  "星铸灯议长·泽烙": {
+    "zh": "摘星人",
+    "en": "Star Gatherer"
+  },
+  "星铸灯议长·图烙": {
+    "zh": "星术师",
+    "en": "Star Mage"
+  },
+  "星铸铠卫领誓·芮烙": {
+    "zh": "石碑卫",
+    "en": "Stele Guard"
+  },
+  "星铸环藤蛇领誓·阿玟": {
+    "zh": "环星蛇",
+    "en": "Starcoil"
+  },
+  "星铸裂角客领誓·艾玟": {
+    "zh": "夜食",
+    "en": "Night Eater"
+  },
+  "星铸裂角客领誓·伊玟": {
+    "zh": "裂夜",
+    "en": "Night Rift"
+  },
+  "星铸峰脊巨灵领誓·欧玟": {
+    "zh": "托天巨人",
+    "en": "Sky Bearer"
+  },
+  "星铸巡影狼领誓·乌玟": {
+    "zh": "失群狼",
+    "en": "Lone Wolf"
+  },
+  "星铸灯议长·依玟": {
+    "zh": "星旅人",
+    "en": "Star Traveler"
+  },
+  "星铸灯议长·雅玟": {
+    "zh": "王座客",
+    "en": "Throne Guest"
+  },
+  "星铸灯议长·诺玟": {
+    "zh": "最后灯匠",
+    "en": "Last Lampwright"
+  },
+  "星铸折面星客领誓·瑟玟": {
+    "zh": "门外客",
+    "en": "The Outsider"
+  },
+  "星铸铠卫领誓·维玟": {
+    "zh": "血誓",
+    "en": "Blood Oath"
+  },
+  "星铸修灯师·希玟": {
+    "zh": "星药师",
+    "en": "Star Herbalist"
+  },
+  "星铸铠卫领誓·洛玟": {
+    "zh": "守星卫",
+    "en": "Star Warden"
+  },
+  "星铸铠卫领誓·米玟": {
+    "zh": "空甲",
+    "en": "Empty Armor"
+  },
+  "星铸裂角客领誓·岚玟": {
+    "zh": "星角魔",
+    "en": "Star Hornfiend"
+  },
+  "星铸灯议长·索玟": {
+    "zh": "星行商",
+    "en": "Star Trader"
+  },
+  "星铸镜瞳山猫领誓·莱玟": {
+    "zh": "星猫",
+    "en": "Star Cat"
+  },
+  "星铸铠卫领誓·岑玟": {
+    "zh": "星卫兵",
+    "en": "Star Guard"
+  },
+  "星铸铠卫领誓·塔玟": {
+    "zh": "星剑士",
+    "en": "Star Swordsman"
+  },
+  "星铸铠卫领誓·莫玟": {
+    "zh": "星枪兵",
+    "en": "Star Pikeman"
+  },
+  "星铸铠卫领誓·伦玟": {
+    "zh": "星甲士",
+    "en": "Star Armiger"
+  },
+  "星铸铠卫领誓·佩玟": {
+    "zh": "星盾兵",
+    "en": "Star Shieldbearer"
+  },
+  "星铸潜印客领誓·泽玟": {
+    "zh": "星盗客",
+    "en": "Star Rogue"
+  },
+  "星铸潜印客领誓·图玟": {
+    "zh": "星刀客",
+    "en": "Star Knifer"
+  },
+  "星铸铠卫领誓·芮玟": {
+    "zh": "星骑士",
+    "en": "Star Knight"
+  },
+  "星铸铠卫领誓·阿斐": {
+    "zh": "星戟兵",
+    "en": "Star Halberdier"
+  },
+  "星铸铠卫领誓·艾斐": {
+    "zh": "星哨卫",
+    "en": "Star Sentinel"
+  },
+  "星铸掠风鸟领誓·伊斐": {
+    "zh": "星鸟",
+    "en": "Star Bird"
+  },
+  "星铸掠风鸟领誓·欧斐": {
+    "zh": "星鸦",
+    "en": "Star Crow"
+  },
+  "星铸枝灯树灵领誓·乌斐": {
+    "zh": "星树灵",
+    "en": "Star Treekin"
+  },
+  "星铸枝灯树灵领誓·依斐": {
+    "zh": "星树怪",
+    "en": "Star Treant"
+  },
+  "星铸枝灯树灵领誓·雅斐": {
+    "zh": "星枝灵",
+    "en": "Star Branchling"
+  },
+  "星铸枝灯树灵领誓·诺斐": {
+    "zh": "月树灵",
+    "en": "Moon Treekin"
+  },
+  "星铸镜瞳山猫领誓·瑟斐": {
+    "zh": "星山猫",
+    "en": "Star Lynx"
+  },
+  "星铸灯议长·维斐": {
+    "zh": "星看客",
+    "en": "Star Onlooker"
+  },
+  "星铸灯议长·希斐": {
+    "zh": "星邮差",
+    "en": "Star Courier"
+  },
+  "星铸峰脊巨灵领誓·洛斐": {
+    "zh": "星巨人",
+    "en": "Star Giant"
+  },
+  "星铸灯议长·米斐": {
+    "zh": "星哨兵",
+    "en": "Star Sentry"
+  },
+  "星铸灯议长·岚斐": {
+    "zh": "星船夫",
+    "en": "Star Boatman"
+  },
+  "星铸凝光泥团领誓·索斐": {
+    "zh": "星泥怪",
+    "en": "Star Mudling"
+  },
+  "星铸裂角客领誓·莱斐": {
+    "zh": "星焰魔",
+    "en": "Star Flamefiend"
+  },
+  "星铸裂角客领誓·岑斐": {
+    "zh": "星裂魔",
+    "en": "Star Riftfiend"
+  },
+  "星铸星枝鹿领誓·塔斐": {
+    "zh": "星鹿",
+    "en": "Star Deer"
+  },
+  "星铸星枝鹿领誓·莫斐": {
+    "zh": "月鹿",
+    "en": "Moon Deer"
+  },
+  "星铸晶棘蜥龙领誓·伦斐": {
+    "zh": "星龙",
+    "en": "Star Dragon"
+  },
+  "星铸晶棘蜥龙领誓·佩斐": {
+    "zh": "星幼龙",
+    "en": "Star Drake"
+  },
+  "星铸灯议长·泽斐": {
+    "zh": "星侍者",
+    "en": "Star Attendant"
+  },
+  "星铸灯议长·图斐": {
+    "zh": "星术士",
+    "en": "Star Caster"
+  },
+  "星铸灯议长·芮斐": {
+    "zh": "星咒师",
+    "en": "Star Hexer"
+  },
+  "星铸巡影狼领誓·阿霖": {
+    "zh": "逐月狼",
+    "en": "Moonchaser"
+  },
+  "星铸巡影狼领誓·艾霖": {
+    "zh": "星狼",
+    "en": "Star Wolf"
+  },
+  "星铸灯议长·伊霖": {
+    "zh": "星向导",
+    "en": "Star Guide"
+  },
+  "星铸灯议长·欧霖": {
+    "zh": "星拾荒客",
+    "en": "Star Scavenger"
+  },
+  "星铸灯议长·乌霖": {
+    "zh": "星守望者",
+    "en": "Star Lookout"
+  },
+  "星铸灯议长·依霖": {
+    "zh": "月旅人",
+    "en": "Moon Traveler"
+  },
+  "星铸灯议长·雅霖": {
+    "zh": "月行商",
+    "en": "Moon Trader"
+  },
+  "星铸灯议长·诺霖": {
+    "zh": "月看客",
+    "en": "Moon Onlooker"
+  },
+  "星铸灯议长·瑟霖": {
+    "zh": "月邮差",
+    "en": "Moon Courier"
+  },
+  "星铸赤角兽领誓·维霖": {
+    "zh": "星牛",
+    "en": "Star Bull"
+  },
+  "星铸赤角兽领誓·希霖": {
+    "zh": "月牛",
+    "en": "Moon Bull"
+  },
+  "星铸灯议长·洛霖": {
+    "zh": "月哨兵",
+    "en": "Moon Sentry"
+  },
+  "星铸灯议长·米霖": {
+    "zh": "月船夫",
+    "en": "Moon Boatman"
+  },
+  "星铸甲灯虫领誓·岚霖": {
+    "zh": "星灯虫",
+    "en": "Star Lamp Beetle"
+  },
+  "星铸甲灯虫领誓·索霖": {
+    "zh": "星甲虫",
+    "en": "Star Beetle"
+  },
+  "星铸裂角客领誓·莱霖": {
+    "zh": "星石魔",
+    "en": "Star Stonefiend"
+  },
+  "星铸甲灯虫领誓·岑霖": {
+    "zh": "月灯虫",
+    "en": "Moon Lamp Beetle"
+  },
+  "星铸晶棘蜥龙领誓·塔霖": {
+    "zh": "星翼龙",
+    "en": "Star Wyvern"
+  },
+  "星铸晶棘蜥龙领誓·莫霖": {
+    "zh": "星岩龙",
+    "en": "Star Rock Dragon"
+  },
+  "星铸晶棘蜥龙领誓·伦霖": {
+    "zh": "月龙",
+    "en": "Moon Dragon"
+  },
+  "星铸晶棘蜥龙领誓·佩霖": {
+    "zh": "月幼龙",
+    "en": "Moon Drake"
+  },
+  "星铸晶棘蜥龙领誓·泽霖": {
+    "zh": "月翼龙",
+    "en": "Moon Wyvern"
+  },
+  "星铸晶棘蜥龙领誓·图霖": {
+    "zh": "月岩龙",
+    "en": "Moon Rock Dragon"
+  },
+  "星铸晶棘蜥龙领誓·芮霖": {
+    "zh": "夜龙",
+    "en": "Night Dragon"
+  },
+  "星铸晶棘蜥龙领誓·阿沐": {
+    "zh": "夜幼龙",
+    "en": "Night Drake"
+  },
+  "星铸晶棘蜥龙领誓·艾沐": {
+    "zh": "夜翼龙",
+    "en": "Night Wyvern"
+  },
+  "星铸晶棘蜥龙领誓·伊沐": {
+    "zh": "夜岩龙",
+    "en": "Night Rock Dragon"
+  },
+  "星铸晶棘蜥龙领誓·欧沐": {
+    "zh": "陨龙",
+    "en": "Meteor Dragon"
+  },
+  "星铸晶棘蜥龙领誓·乌沐": {
+    "zh": "陨幼龙",
+    "en": "Meteor Drake"
+  },
+  "星铸石封铠卫": {
+    "zh": "月卫兵",
+    "en": "Moon Guard"
+  },
+  "星铸鸣枝铠卫": {
+    "zh": "月剑士",
+    "en": "Moon Swordsman"
+  },
+  "星铸暖灰铠卫": {
+    "zh": "月枪兵",
+    "en": "Moon Pikeman"
+  },
+  "星铸悬灯铠卫": {
+    "zh": "月甲士",
+    "en": "Moon Armiger"
+  },
+  "星铸银露铠卫": {
+    "zh": "月盾兵",
+    "en": "Moon Shieldbearer"
+  },
+  "星铸藤印铠卫": {
+    "zh": "月骑士",
+    "en": "Moon Knight"
+  },
+  "星铸雾羽铠卫": {
+    "zh": "月戟兵",
+    "en": "Moon Halberdier"
+  },
+  "星铸弧光巡灯使": {
+    "zh": "月侍者",
+    "en": "Moon Attendant"
+  },
+  "星铸微烛观灯师": {
+    "zh": "星巫师",
+    "en": "Star Wizard"
+  },
+  "星铸铜缄苔痕巡灯使": {
+    "zh": "月向导",
+    "en": "Moon Guide"
+  },
+  "星铸苔痕露囊蛙": {
+    "zh": "星蛙",
+    "en": "Star Frog"
+  },
+  "星铸铜缄铜缄巡灯使": {
+    "zh": "月拾荒客",
+    "en": "Moon Scavenger"
+  },
+  "星铸绒雾裂角客": {
+    "zh": "月角魔",
+    "en": "Moon Hornfiend"
+  },
+  "星铸夜航裂角客": {
+    "zh": "月焰魔",
+    "en": "Moon Flamefiend"
+  },
+  "星铸流砂裂角客": {
+    "zh": "月裂魔",
+    "en": "Moon Riftfiend"
+  },
+  "星铸镜纹裂角客": {
+    "zh": "月石魔",
+    "en": "Moon Stonefiend"
+  },
+  "星铸远路裂角客": {
+    "zh": "夜角魔",
+    "en": "Night Hornfiend"
+  },
+  "星铸回声潜印客": {
+    "zh": "星刺客",
+    "en": "Star Assassin"
+  },
+  "星铸苔痕浮辉使": {
+    "zh": "星幽灵",
+    "en": "Star Spirit"
+  },
+  "星铸苔痕缄骨客": {
+    "zh": "星枯骨",
+    "en": "Star Skeleton"
+  },
+  "星铸铜缄缄骨客": {
+    "zh": "星骨兵",
+    "en": "Star Boneguard"
+  },
+  "星铸石封裂角客": {
+    "zh": "夜焰魔",
+    "en": "Night Flamefiend"
+  },
+  "星铸鸣枝裂角客": {
+    "zh": "夜裂魔",
+    "en": "Night Riftfiend"
+  },
+  "星铸回声掠风鸟": {
+    "zh": "星隼",
+    "en": "Star Falcon"
+  },
+  "星铸微烛掠风鸟": {
+    "zh": "月鸟",
+    "en": "Moon Bird"
+  },
+  "星铸琉纹掠风鸟": {
+    "zh": "月鸦",
+    "en": "Moon Crow"
+  },
+  "星铸苔痕棱耳猎犬": {
+    "zh": "星犬",
+    "en": "Star Hound"
+  },
+  "星铸微烛巡影狼": {
+    "zh": "月狼",
+    "en": "Moon Wolf"
+  },
+  "星铸苔痕石背熊": {
+    "zh": "星熊",
+    "en": "Star Bear"
+  },
+  "星铸苔痕铜壳蟹": {
+    "zh": "星蟹",
+    "en": "Star Crab"
+  },
+  "星铸铜缄铜壳蟹": {
+    "zh": "月蟹",
+    "en": "Moon Crab"
+  },
+  "星铸铜缄凝光泥团": {
+    "zh": "星胶怪",
+    "en": "Star Slime"
+  },
+  "星铸苔痕流墨触灵": {
+    "zh": "星墨怪",
+    "en": "Star Ink Beast"
+  },
+  "星铸琉纹枝灯树灵": {
+    "zh": "月树怪",
+    "en": "Moon Treant"
+  },
+  "星铸铜缄浮辉使": {
+    "zh": "星灯魂",
+    "en": "Star Lamp Soul"
+  },
+  "星铸暖灰裂角客": {
+    "zh": "夜石魔",
+    "en": "Night Stonefiend"
+  },
+  "星铸铜缄流墨触灵": {
+    "zh": "月墨怪",
+    "en": "Moon Ink Beast"
+  },
+  "星铸回声峰脊巨灵": {
+    "zh": "星石人",
+    "en": "Star Stonekin"
+  },
+  "星铸铜缄回声巡灯使": {
+    "zh": "月守望者",
+    "en": "Moon Lookout"
+  },
+  "星铸苔痕石指傀儡": {
+    "zh": "星石手",
+    "en": "Star Stone Hand"
+  },
+  "星铸铜缄露囊蛙": {
+    "zh": "月蛙",
+    "en": "Moon Frog"
+  },
+  "星铸苔痕线尾鼠": {
+    "zh": "星鼠",
+    "en": "Star Rat"
+  },
+  "星铸回声凝光泥团": {
+    "zh": "月泥怪",
+    "en": "Moon Mudling"
+  },
+  "星铸铜缄棱耳猎犬": {
+    "zh": "月犬",
+    "en": "Moon Hound"
+  },
+  "星铸回声缄骨客": {
+    "zh": "星骸客",
+    "en": "Star Revenant"
+  },
+  "星铸铜缄线尾鼠": {
+    "zh": "星田鼠",
+    "en": "Star Field Mouse"
+  },
+  "星铸弧光铠卫": {
+    "zh": "月哨卫",
+    "en": "Moon Sentinel"
+  },
+  "星铸风蚀掠风鸟": {
+    "zh": "月隼",
+    "en": "Moon Falcon"
+  },
+  "星铸琉纹观灯师": {
+    "zh": "星书生",
+    "en": "Star Scholar"
+  },
+  "星铸铜缄苔痕铠卫": {
+    "zh": "夜卫兵",
+    "en": "Night Guard"
+  },
+  "星铸暖灰晶棘蜥龙": {
+    "zh": "陨翼龙",
+    "en": "Meteor Wyvern"
+  },
+  "星铸铜缄铜缄铠卫": {
+    "zh": "夜剑士",
+    "en": "Night Swordsman"
+  },
+  "星铸铜缄回声铠卫": {
+    "zh": "夜枪兵",
+    "en": "Night Pikeman"
+  },
+  "星铸铜缄微烛铠卫": {
+    "zh": "夜甲士",
+    "en": "Night Armiger"
+  },
+  "星铸铜缄琉纹铠卫": {
+    "zh": "夜盾兵",
+    "en": "Night Shieldbearer"
+  },
+  "星铸铜缄风蚀铠卫": {
+    "zh": "夜骑士",
+    "en": "Night Knight"
+  },
+  "星铸铜缄静棱铠卫": {
+    "zh": "夜戟兵",
+    "en": "Night Halberdier"
+  },
+  "星铸铠卫·依沐": {
+    "zh": "夜哨卫",
+    "en": "Night Sentinel"
+  },
+  "星铸铠卫·雅沐": {
+    "zh": "陨卫兵",
+    "en": "Meteor Guard"
+  },
+  "星铸铜缄修灯师": {
+    "zh": "星医师",
+    "en": "Star Medic"
+  },
+  "星铸铜缄微烛巡灯使": {
+    "zh": "夜旅人",
+    "en": "Night Traveler"
+  },
+  "星铸铜缄琉纹巡灯使": {
+    "zh": "夜行商",
+    "en": "Night Trader"
+  },
+  "星铸风蚀观灯师": {
+    "zh": "月法师",
+    "en": "Moon Mage"
+  },
+  "星铸微烛凝光泥团": {
+    "zh": "月胶怪",
+    "en": "Moon Slime"
+  },
+  "星铸铜缄环藤蛇": {
+    "zh": "星蛇",
+    "en": "Star Snake"
+  },
+  "星铸铠卫·诺沐": {
+    "zh": "陨剑士",
+    "en": "Meteor Swordsman"
+  },
+  "星铸铠卫·瑟沐": {
+    "zh": "陨枪兵",
+    "en": "Meteor Pikeman"
+  },
+  "星铸铠卫·维沐": {
+    "zh": "陨甲士",
+    "en": "Meteor Armiger"
+  },
+  "星铸铠卫·希沐": {
+    "zh": "陨盾兵",
+    "en": "Meteor Shieldbearer"
+  },
+  "星铸修灯师·洛沐": {
+    "zh": "星灯匠",
+    "en": "Star Lampwright"
+  },
+  "星铸观灯师·米沐": {
+    "zh": "月术士",
+    "en": "Moon Caster"
+  },
+  "星铸巡影狼·岚沐": {
+    "zh": "夜狼",
+    "en": "Night Wolf"
+  },
+  "星铸观灯师·索沐": {
+    "zh": "月咒师",
+    "en": "Moon Hexer"
+  },
+  "星铸潜印客·莱沐": {
+    "zh": "星窃贼",
+    "en": "Star Thief"
+  },
+  "星铸巡灯使·岑沐": {
+    "zh": "夜看客",
+    "en": "Night Onlooker"
+  },
+  "星铸窑心偶·塔沐": {
+    "zh": "星陶偶",
+    "en": "Star Clay Doll"
+  },
+  "星铸窑心偶·莫沐": {
+    "zh": "星罐偶",
+    "en": "Star Jar Doll"
+  },
+  "星铸铠卫·伦沐": {
+    "zh": "陨骑士",
+    "en": "Meteor Knight"
+  },
+  "星铸铠卫·佩沐": {
+    "zh": "陨戟兵",
+    "en": "Meteor Halberdier"
+  },
+  "星铸巡灯使·泽沐": {
+    "zh": "夜邮差",
+    "en": "Night Courier"
+  },
+  "星铸巡灯使·图沐": {
+    "zh": "夜哨兵",
+    "en": "Night Sentry"
+  },
+  "星铸攀钟猿·芮沐": {
+    "zh": "星猿",
+    "en": "Star Ape"
+  },
+  "星铸潜印客·阿洛": {
+    "zh": "星游侠",
+    "en": "Star Ranger"
+  },
+  "星铸巡灯使·艾洛": {
+    "zh": "夜船夫",
+    "en": "Night Boatman"
+  },
+  "星铸铠卫·伊洛": {
+    "zh": "陨哨卫",
+    "en": "Meteor Sentinel"
+  },
+  "星铸铠卫·欧洛": {
+    "zh": "辰卫兵",
+    "en": "Sky Guard"
+  },
+  "星铸铠卫·乌洛": {
+    "zh": "辰剑士",
+    "en": "Sky Swordsman"
+  },
+  "星铸铠卫·依洛": {
+    "zh": "辰枪兵",
+    "en": "Sky Pikeman"
+  },
+  "星铸铠卫·雅洛": {
+    "zh": "辰甲士",
+    "en": "Sky Armiger"
+  },
+  "星铸潜印客·诺洛": {
+    "zh": "星斥候",
+    "en": "Star Scout"
+  },
+  "星铸铠卫·瑟洛": {
+    "zh": "辰盾兵",
+    "en": "Sky Shieldbearer"
+  },
+  "星铸观灯师·维洛": {
+    "zh": "月巫师",
+    "en": "Moon Wizard"
+  },
+  "星铸观灯师·希洛": {
+    "zh": "月书生",
+    "en": "Moon Scholar"
+  },
+  "星铸观灯师·洛洛": {
+    "zh": "夜法师",
+    "en": "Night Mage"
+  },
+  "星铸观灯师·米洛": {
+    "zh": "夜术士",
+    "en": "Night Caster"
+  },
+  "星铸观灯师·岚洛": {
+    "zh": "夜咒师",
+    "en": "Night Hexer"
+  },
+  "星铸观灯师·索洛": {
+    "zh": "夜巫师",
+    "en": "Night Wizard"
+  },
+  "星铸巡灯使·莱洛": {
+    "zh": "夜侍者",
+    "en": "Night Attendant"
+  },
+  "星铸巡灯使·岑洛": {
+    "zh": "夜向导",
+    "en": "Night Guide"
+  },
+  "星铸铠卫·塔洛": {
+    "zh": "辰骑士",
+    "en": "Sky Knight"
+  },
+  "星铸修灯师·莫洛": {
+    "zh": "星修补匠",
+    "en": "Star Mender"
+  },
+  "星铸缄骨客·伦洛": {
+    "zh": "星亡者",
+    "en": "Star Deadwalker"
+  },
+  "星铸修灯师·佩洛": {
+    "zh": "星草医",
+    "en": "Star Healer"
+  },
+  "星铸峰脊巨灵·泽洛": {
+    "zh": "星山翁",
+    "en": "Star Mountainkin"
+  },
+  "星铸峰脊巨灵·图洛": {
+    "zh": "月巨人",
+    "en": "Moon Giant"
+  },
+  "星铸观灯师·芮洛": {
+    "zh": "夜书生",
+    "en": "Night Scholar"
+  },
+  "星铸缄骨客·阿岚": {
+    "zh": "星骨匠",
+    "en": "Star Bonewright"
+  },
+  "星铸巡灯使·艾岚": {
+    "zh": "夜拾荒客",
+    "en": "Night Scavenger"
+  },
+  "星铸修灯师·伊岚": {
+    "zh": "月药师",
+    "en": "Moon Herbalist"
+  },
+  "星铸浮岛龟·欧岚": {
+    "zh": "星龟",
+    "en": "Star Turtle"
+  },
+  "星铸巡灯使·乌岚": {
+    "zh": "夜守望者",
+    "en": "Night Lookout"
+  },
+  "星铸潜印客·依岚": {
+    "zh": "月盗客",
+    "en": "Moon Rogue"
+  },
+  "星铸铠卫·雅岚": {
+    "zh": "辰戟兵",
+    "en": "Sky Halberdier"
+  },
+  "星铸巡灯使·诺岚": {
+    "zh": "陨旅人",
+    "en": "Meteor Traveler"
+  },
+  "星铸观灯师·瑟岚": {
+    "zh": "陨法师",
+    "en": "Meteor Mage"
+  },
+  "星铸巡灯使·维岚": {
+    "zh": "陨行商",
+    "en": "Meteor Trader"
+  },
+  "星铸巡灯使·希岚": {
+    "zh": "陨看客",
+    "en": "Meteor Onlooker"
+  },
+  "星铸环藤蛇·洛岚": {
+    "zh": "星长蛇",
+    "en": "Star Serpent"
+  },
+  "星铸巡灯使·米岚": {
+    "zh": "陨邮差",
+    "en": "Meteor Courier"
+  },
+  "星铸窑心偶·岚岚": {
+    "zh": "月陶偶",
+    "en": "Moon Clay Doll"
+  },
+  "折光灯议长·索岚": {
+    "zh": "镜旅人",
+    "en": "Mirror Traveler"
+  },
+  "折光晶棘蜥龙领誓·莱岚": {
+    "zh": "碎镜龙",
+    "en": "Mirror Dragon"
+  },
+  "折光铠卫领誓·岑岚": {
+    "zh": "镜卫兵",
+    "en": "Mirror Guard"
+  },
+  "折光镜瞳山猫领誓·塔岚": {
+    "zh": "镜猫",
+    "en": "Mirror Cat"
+  },
+  "折光锈鬃豕领誓·莫岚": {
+    "zh": "镜野猪",
+    "en": "Mirror Boar"
+  },
+  "折光钩针蝎领誓·伦岚": {
+    "zh": "镜蝎",
+    "en": "Mirror Scorpion"
+  },
+  "折光石指傀儡领誓·佩岚": {
+    "zh": "镜石手",
+    "en": "Mirror Stone Hand"
+  },
+  "折光铠卫领誓·泽岚": {
+    "zh": "镜剑士",
+    "en": "Mirror Swordsman"
+  },
+  "折光灯议长·图岚": {
+    "zh": "镜行商",
+    "en": "Mirror Trader"
+  },
+  "折光铠卫领誓·芮岚": {
+    "zh": "镜枪兵",
+    "en": "Mirror Pikeman"
+  },
+  "折光铠卫领誓·阿泽": {
+    "zh": "镜甲士",
+    "en": "Mirror Armiger"
+  },
+  "折光铠卫领誓·艾泽": {
+    "zh": "镜盾兵",
+    "en": "Mirror Shieldbearer"
+  },
+  "折光晶棘蜥龙领誓·伊泽": {
+    "zh": "镜幼龙",
+    "en": "Mirror Drake"
+  },
+  "折光晶棘蜥龙领誓·欧泽": {
+    "zh": "镜翼龙",
+    "en": "Mirror Wyvern"
+  },
+  "折光磐颚河兽领誓·乌泽": {
+    "zh": "镜河兽",
+    "en": "Mirror River Beast"
+  },
+  "折光铠卫领誓·依泽": {
+    "zh": "镜骑士",
+    "en": "Mirror Knight"
+  },
+  "折光灯议长·雅泽": {
+    "zh": "镜术士",
+    "en": "Mirror Caster"
+  },
+  "折光晶棘蜥龙领誓·诺泽": {
+    "zh": "镜岩龙",
+    "en": "Mirror Rock Dragon"
+  },
+  "折光攀钟猿领誓·瑟泽": {
+    "zh": "镜猿",
+    "en": "Mirror Ape"
+  },
+  "折光晶棘蜥龙领誓·维泽": {
+    "zh": "隙龙",
+    "en": "Rift Dragon"
+  },
+  "折光枝灯树灵领誓·希泽": {
+    "zh": "嫩枝",
+    "en": "New Branch"
+  },
+  "折光静棱铠卫": {
+    "zh": "镜戟兵",
+    "en": "Mirror Halberdier"
+  },
+  "折光绒雾铠卫": {
+    "zh": "镜哨卫",
+    "en": "Mirror Sentinel"
+  },
+  "折光夜航铠卫": {
+    "zh": "隙卫兵",
+    "en": "Rift Guard"
+  },
+  "折光苔痕浮辉使": {
+    "zh": "镜幽灵",
+    "en": "Mirror Spirit"
+  },
+  "折光流砂铠卫": {
+    "zh": "隙剑士",
+    "en": "Rift Swordsman"
+  },
+  "折光镜纹铠卫": {
+    "zh": "隙枪兵",
+    "en": "Rift Pikeman"
+  },
+  "折光苔痕裂角客": {
+    "zh": "镜角魔",
+    "en": "Mirror Hornfiend"
+  },
+  "折光铜缄观灯师": {
+    "zh": "镜咒师",
+    "en": "Mirror Hexer"
+  },
+  "折光铜缄裂角客": {
+    "zh": "镜焰魔",
+    "en": "Mirror Flamefiend"
+  },
+  "折光铜缄枝灯树灵": {
+    "zh": "镜树灵",
+    "en": "Mirror Treekin"
+  },
+  "折光苔痕甲灯虫": {
+    "zh": "镜灯虫",
+    "en": "Mirror Lamp Beetle"
+  },
+  "折光铜缄钩针蝎": {
+    "zh": "隙蝎",
+    "en": "Rift Scorpion"
+  },
+  "折光苔痕地缝蠕虫": {
+    "zh": "镜蠕虫",
+    "en": "Mirror Worm"
+  },
+  "折光铜缄地缝蠕虫": {
+    "zh": "隙蠕虫",
+    "en": "Rift Worm"
+  },
+  "折光回声巡灯使": {
+    "zh": "镜看客",
+    "en": "Mirror Onlooker"
+  },
+  "折光苔痕窑心偶": {
+    "zh": "镜陶偶",
+    "en": "Mirror Clay Doll"
+  },
+  "折光远路铠卫": {
+    "zh": "隙甲士",
+    "en": "Rift Armiger"
+  },
+  "折光石封铠卫": {
+    "zh": "隙盾兵",
+    "en": "Rift Shieldbearer"
+  },
+  "折光鸣枝铠卫": {
+    "zh": "隙骑士",
+    "en": "Rift Knight"
+  },
+  "折光铠卫·洛泽": {
+    "zh": "隙戟兵",
+    "en": "Rift Halberdier"
+  },
+  "折光铠卫·米泽": {
+    "zh": "隙哨卫",
+    "en": "Rift Sentinel"
+  },
+  "折光铠卫·岚泽": {
+    "zh": "影卫兵",
+    "en": "Shade Guard"
+  },
+  "折光巡灯使·索泽": {
+    "zh": "镜邮差",
+    "en": "Mirror Courier"
+  },
+  "折光巡灯使·莱泽": {
+    "zh": "镜哨兵",
+    "en": "Mirror Sentry"
+  },
+  "折光巡灯使·岑泽": {
+    "zh": "镜船夫",
+    "en": "Mirror Boatman"
+  },
+  "折光铠卫·塔泽": {
+    "zh": "影剑士",
+    "en": "Shade Swordsman"
+  },
+  "折光巡灯使·莫泽": {
+    "zh": "镜侍者",
+    "en": "Mirror Attendant"
+  },
+  "折光枝灯树灵·伦泽": {
+    "zh": "镜树怪",
+    "en": "Mirror Treant"
+  },
+  "折光巡灯使·佩泽": {
+    "zh": "镜向导",
+    "en": "Mirror Guide"
+  },
+  "折光巡灯使·泽泽": {
+    "zh": "镜拾荒客",
+    "en": "Mirror Scavenger"
+  },
+  "折光铠卫·图泽": {
+    "zh": "影枪兵",
+    "en": "Shade Pikeman"
+  },
+  "折光铠卫·芮泽": {
+    "zh": "影甲士",
+    "en": "Shade Armiger"
+  },
+  "折光巡灯使·阿翎": {
+    "zh": "镜守望者",
+    "en": "Mirror Lookout"
+  },
+  "折光铠卫·艾翎": {
+    "zh": "影盾兵",
+    "en": "Shade Shieldbearer"
+  },
+  "折光铠卫·伊翎": {
+    "zh": "影骑士",
+    "en": "Shade Knight"
+  },
+  "折光巡灯使·欧翎": {
+    "zh": "隙旅人",
+    "en": "Rift Traveler"
+  },
+  "苔庭暖灰缄骨客": {
+    "zh": "露骸客",
+    "en": "Dew Revenant"
+  },
+  "苔庭铜缄掠风鸟": {
+    "zh": "苔鸦",
+    "en": "Moss Crow"
+  },
+  "苔庭悬灯缄骨客": {
+    "zh": "露亡者",
+    "en": "Dew Deadwalker"
+  },
+  "砂镜铠卫·乌翎": {
+    "zh": "矿甲士",
+    "en": "Mine Armiger"
+  },
+  "砂镜观灯师·依翎": {
+    "zh": "矿巫师",
+    "en": "Mine Wizard"
+  },
+  "砂镜修灯师·雅翎": {
+    "zh": "砂草医",
+    "en": "Sand Healer"
+  },
+  "砂镜铠卫领誓·诺翎": {
+    "zh": "旧回声",
+    "en": "Old Echo"
+  },
+  "霜枝铜缄风蚀铠卫": {
+    "zh": "冰哨卫",
+    "en": "Ice Sentinel"
+  },
+  "暮潮回声棱耳猎犬": {
+    "zh": "汐犬",
+    "en": "Ebb Hound"
+  },
+  "苔庭银露缄骨客": {
+    "zh": "露骨匠",
+    "en": "Dew Bonewright"
+  },
+  "铜钟铠卫领誓·瑟翎": {
+    "zh": "铁面",
+    "en": "Iron Mask"
+  },
+  "暮潮流砂潜印客": {
+    "zh": "盐刺客",
+    "en": "Salt Assassin"
+  },
+  "暮潮微烛织光蛛": {
+    "zh": "盐蛛",
+    "en": "Salt Spider"
+  },
+  "暮潮镜纹折面星客": {
+    "zh": "帆异客",
+    "en": "Sail Stranger"
+  },
+  "苔庭缄骨客·维翎": {
+    "zh": "借火骨",
+    "en": "Borrowed Flame"
+  },
+  "苔庭回声地缝蠕虫": {
+    "zh": "露蠕虫",
+    "en": "Dew Worm"
+  },
+  "苔庭雾羽缄骨客": {
+    "zh": "藤枯骨",
+    "en": "Vine Skeleton"
+  },
+  "砂镜回声浮辉使": {
+    "zh": "砂游魂",
+    "en": "Sand Wisp"
+  },
+  "砂镜绒雾缄骨客": {
+    "zh": "矿骸客",
+    "en": "Mine Revenant"
+  },
+  "霜枝铜缄静棱铠卫": {
+    "zh": "寒卫兵",
+    "en": "Cold Guard"
+  },
+  "霜枝藤印潜印客": {
+    "zh": "冰刺客",
+    "en": "Ice Assassin"
+  },
+  "星铸回声线尾鼠": {
+    "zh": "月鼠",
+    "en": "Moon Rat"
+  },
+  "星铸回声微烛铠卫": {
+    "zh": "辰哨卫",
+    "en": "Sky Sentinel"
+  },
+  "鎏金·铜钟织光蛛领誓·阿温": {
+    "zh": "鎏金·织网客",
+    "en": "Gilded Web Weaver"
+  },
+  "鎏金·苔庭铠卫领誓·阿恩": {
+    "zh": "鎏金·旧誓",
+    "en": "Gilded Old Oath"
+  },
+  "鎏金·炽砂灯议长·诺罗": {
+    "zh": "鎏金·灰城主",
+    "en": "Gilded Ash Regent"
+  },
+  "鎏金·砂镜铠卫领誓·塔安": {
+    "zh": "鎏金·石盾",
+    "en": "Gilded Stone Shield"
+  },
+  "鎏金·苔庭绛纹蝶领誓·乌珀": {
+    "zh": "鎏金·迷蝶",
+    "en": "Gilded Lost Moth"
+  },
+  "鎏金·星铸铠卫领誓·维玟": {
+    "zh": "鎏金·血誓",
+    "en": "Gilded Blood Oath"
+  },
+  "鎏金·苔庭灯议长·图珀": {
+    "zh": "鎏金·点灯人",
+    "en": "Gilded Lamplighter"
+  },
+  "鎏金·苔庭缄骨客领誓·米珀": {
+    "zh": "鎏金·守墓人",
+    "en": "Gilded Gravekeeper"
+  },
+  "鎏金·暮潮灯议长·乌汀": {
+    "zh": "鎏金·换舷客",
+    "en": "Gilded Deck Shifter"
+  },
+  "鎏金·铜钟铠卫领誓·阿雅": {
+    "zh": "鎏金·钟王",
+    "en": "Gilded Bell King"
+  },
+  "鎏金·霜枝铠卫领誓·泽芙": {
+    "zh": "鎏金·破冰卫",
+    "en": "Gilded Icebreaker"
+  },
+  "鎏金·霜枝潜印客领誓·图芙": {
+    "zh": "鎏金·飞刀客",
+    "en": "Gilded Knife Thrower"
+  },
+  "鎏金·霜枝灯议长·诺诺": {
+    "zh": "鎏金·望乡人",
+    "en": "Gilded Homesick One"
+  },
+  "鎏金·砂镜铠卫领誓·莫安": {
+    "zh": "鎏金·穿石剑",
+    "en": "Gilded Stonepiercer"
+  },
+  "鎏金·砂镜潮纹游鱼领誓·依瑟": {
+    "zh": "鎏金·砂鱼",
+    "en": "Gilded Sand Fish"
+  },
+  "鎏金·砂镜灯议长·维瑟": {
+    "zh": "鎏金·砂药师",
+    "en": "Gilded Sand Herbalist"
+  },
+  "鎏金·折光灯议长·索岚": {
+    "zh": "鎏金·镜旅人",
+    "en": "Gilded Mirror Traveler"
+  },
+  "鎏金·折光镜瞳山猫领誓·塔岚": {
+    "zh": "鎏金·镜猫",
+    "en": "Gilded Mirror Cat"
+  },
+  "鎏金·折光铠卫领誓·岑岚": {
+    "zh": "鎏金·镜卫兵",
+    "en": "Gilded Mirror Guard"
+  },
+  "鎏金·折光枝灯树灵领誓·希泽": {
+    "zh": "鎏金·嫩枝",
+    "en": "Gilded New Branch"
+  },
+  "鎏金·砂镜铠卫领誓·诺翎": {
+    "zh": "鎏金·旧回声",
+    "en": "Gilded Old Echo"
+  },
+  "鎏金·苔庭裂角客领誓·阿珀": {
+    "zh": "鎏金·断角",
+    "en": "Gilded Broken Horn"
+  },
+  "鎏金·铜钟铠卫领誓·瑟翎": {
+    "zh": "鎏金·铁面",
+    "en": "Gilded Iron Mask"
+  },
+  "鎏金·炽砂铠卫领誓·维弥": {
+    "zh": "鎏金·回炉剑",
+    "en": "Gilded Reforged Blade"
+  },
+  "鎏金·暮潮灯议长·岑尘": {
+    "zh": "鎏金·赌徒",
+    "en": "Gilded The Gambler"
+  },
+  "鎏金·暮潮灯议长·希汀": {
+    "zh": "鎏金·不归客",
+    "en": "Gilded The Unreturned"
+  },
+  "鎏金·星铸灯议长·泽烙": {
+    "zh": "鎏金·摘星人",
+    "en": "Gilded Star Gatherer"
+  },
+  "鎏金·星铸折面星客领誓·瑟玟": {
+    "zh": "鎏金·门外客",
+    "en": "Gilded The Outsider"
+  },
+  "鎏金·折光铠卫领誓·芮岚": {
+    "zh": "鎏金·镜枪兵",
+    "en": "Gilded Mirror Pikeman"
+  },
+  "鎏金·铜钟铠卫领誓·乌温": {
+    "zh": "鎏金·刺甲",
+    "en": "Gilded Barbed Armor"
+  },
+  "鎏金·炽砂铠卫领誓·依弥": {
+    "zh": "鎏金·铁酒徒",
+    "en": "Gilded Iron Drunk"
+  },
+  "鎏金·炽砂灯议长·米弥": {
+    "zh": "鎏金·倒影师",
+    "en": "Gilded Mirror Mage"
+  },
+  "鎏金·暮潮星枝鹿领誓·莱尘": {
+    "zh": "鎏金·潮鹿",
+    "en": "Gilded Tide Stag"
+  },
+  "鎏金·霜枝铠卫领誓·芮芙": {
+    "zh": "鎏金·冷剑",
+    "en": "Gilded Cold Blade"
+  },
+  "鎏金·星铸灯议长·图烙": {
+    "zh": "鎏金·星术师",
+    "en": "Gilded Star Mage"
+  },
+  "鎏金·砂镜织光蛛领誓·阿瑟": {
+    "zh": "鎏金·洞织者",
+    "en": "Gilded Cave Weaver"
+  },
+  "鎏金·苔庭裂角客领誓·伊恩": {
+    "zh": "鎏金·余烬",
+    "en": "Gilded Ember"
+  },
+  "鎏金·铜钟裂角客领誓·佩拉": {
+    "zh": "鎏金·炉童",
+    "en": "Gilded Furnace Child"
+  },
+  "鎏金·铜钟铠卫领誓·佩温": {
+    "zh": "鎏金·讨债骑士",
+    "en": "Gilded Debt Knight"
+  },
+  "鎏金·炽砂铠卫领誓·芮弥": {
+    "zh": "鎏金·归炉骑士",
+    "en": "Gilded Returning Knight"
+  },
+  "鎏金·炽砂晶棘蜥龙领誓·雅罗": {
+    "zh": "鎏金·熔龙",
+    "en": "Gilded Molten Dragon"
+  },
+  "鎏金·暮潮踏铃驹领誓·雅汀": {
+    "zh": "鎏金·浪蹄",
+    "en": "Gilded Wavehoof"
+  },
+  "鎏金·暮潮灯议长·维汀": {
+    "zh": "鎏金·酒红",
+    "en": "Gilded Wine Red"
+  },
+  "鎏金·霜枝攀钟猿领誓·艾诺": {
+    "zh": "鎏金·断臂猿",
+    "en": "Gilded One-Armed Ape"
+  },
+  "鎏金·霜枝裂角客领誓·瑟诺": {
+    "zh": "鎏金·火怒",
+    "en": "Gilded Fire Wrath"
+  },
+  "鎏金·星铸裂角客领誓·佩烙": {
+    "zh": "鎏金·星痕",
+    "en": "Gilded Star Scar"
+  },
+  "鎏金·星铸灯议长·诺玟": {
+    "zh": "鎏金·最后灯匠",
+    "en": "Gilded Last Lampwright"
+  },
+  "鎏金·折光晶棘蜥龙领誓·莱岚": {
+    "zh": "鎏金·碎镜龙",
+    "en": "Gilded Mirror Dragon"
+  },
+  "鎏金·苔庭铠卫·雅恩": {
+    "zh": "鎏金·守门人",
+    "en": "Gilded Gatekeeper"
+  },
+  "鎏金·苔庭赤角兽领誓·艾珀": {
+    "zh": "鎏金·赤牛",
+    "en": "Gilded Red Ox"
+  },
+  "鎏金·苔庭裂角客领誓·欧珀": {
+    "zh": "鎏金·夜翼",
+    "en": "Gilded Night Wing"
+  },
+  "鎏金·苔庭潜印客·莫恩": {
+    "zh": "鎏金·藏刀客",
+    "en": "Gilded Hidden Blade"
+  },
+  "鎏金·苔庭铠卫·欧恩": {
+    "zh": "鎏金·铁叔",
+    "en": "Gilded Uncle Iron"
+  },
+  "鎏金·苔庭织光蛛领誓·雅珀": {
+    "zh": "鎏金·蛛母",
+    "en": "Gilded Web Mother"
+  },
+  "鎏金·苔庭峰脊巨灵领誓·瑟珀": {
+    "zh": "鎏金·石肩",
+    "en": "Gilded Stone Shoulders"
+  },
+  "鎏金·苔庭铠卫领誓·维珀": {
+    "zh": "鎏金·无名剑",
+    "en": "Gilded Nameless Blade"
+  },
+  "鎏金·苔庭铠卫领誓·希珀": {
+    "zh": "鎏金·断桥卫",
+    "en": "Gilded Bridge Warden"
+  },
+  "鎏金·苔庭晶棘蜥龙领誓·艾恩": {
+    "zh": "鎏金·青龙",
+    "en": "Gilded Jade Dragon"
+  },
+  "鎏金·铜钟峰脊巨灵领誓·维拉": {
+    "zh": "鎏金·敲钟巨人",
+    "en": "Gilded Bell Giant"
+  },
+  "鎏金·铜钟峰脊巨灵领誓·岚拉": {
+    "zh": "鎏金·空壳巨人",
+    "en": "Gilded Hollow Giant"
+  },
+  "鎏金·铜钟灯议长·莱拉": {
+    "zh": "鎏金·账房先生",
+    "en": "Gilded The Accountant"
+  },
+  "鎏金·铜钟缄骨客领誓·岑拉": {
+    "zh": "鎏金·守夜骨",
+    "en": "Gilded Night Bones"
+  },
+  "鎏金·铜钟环藤蛇领誓·伦拉": {
+    "zh": "鎏金·盘钟蛇",
+    "en": "Gilded Bell Serpent"
+  },
+  "鎏金·铜钟裂角客领誓·泽拉": {
+    "zh": "鎏金·裂锤",
+    "en": "Gilded Split Hammer"
+  },
+  "鎏金·铜钟缄骨客领誓·欧温": {
+    "zh": "鎏金·不眠骨",
+    "en": "Gilded Sleepless Bones"
+  },
+  "鎏金·铜钟缄骨客领誓·洛温": {
+    "zh": "鎏金·饮露骨",
+    "en": "Gilded Dew Drinker"
+  },
+  "鎏金·铜钟枝灯树灵领誓·诺温": {
+    "zh": "鎏金·老根",
+    "en": "Gilded Old Root"
+  },
+  "鎏金·铜钟铠卫领誓·泽温": {
+    "zh": "鎏金·独眼剑客",
+    "en": "Gilded One-Eyed Fencer"
+  },
+  "鎏金·炽砂铠卫领誓·乌弥": {
+    "zh": "鎏金·炉门卫",
+    "en": "Gilded Furnace Warden"
+  },
+  "鎏金·炽砂灯议长·诺弥": {
+    "zh": "鎏金·烟先生",
+    "en": "Gilded Mister Smoke"
+  },
+  "鎏金·炽砂灯议长·瑟弥": {
+    "zh": "鎏金·灰医",
+    "en": "Gilded Ash Doctor"
+  },
+  "鎏金·炽砂缄骨客领誓·希弥": {
+    "zh": "鎏金·拾骨王",
+    "en": "Gilded Bone Collector"
+  },
+  "鎏金·炽砂峰脊巨灵领誓·索弥": {
+    "zh": "鎏金·扛炉人",
+    "en": "Gilded Furnace Bearer"
+  },
+  "鎏金·炽砂铠卫领誓·莱弥": {
+    "zh": "鎏金·烟中剑",
+    "en": "Gilded Smoke Blade"
+  },
+  "鎏金·炽砂铠卫领誓·莫弥": {
+    "zh": "鎏金·锻门将",
+    "en": "Gilded Forge Captain"
+  },
+  "鎏金·炽砂灯议长·伦弥": {
+    "zh": "鎏金·拾火者",
+    "en": "Gilded Fire Gatherer"
+  },
+  "鎏金·炽砂灯议长·图弥": {
+    "zh": "鎏金·烧书人",
+    "en": "Gilded Book Burner"
+  },
+  "鎏金·炽砂灯议长·伊罗": {
+    "zh": "鎏金·火账房",
+    "en": "Gilded Fire Clerk"
+  },
+  "鎏金·暮潮裂角客领誓·莫尘": {
+    "zh": "鎏金·潮牙",
+    "en": "Gilded Tidefang"
+  },
+  "鎏金·暮潮星枝鹿领誓·伦尘": {
+    "zh": "鎏金·遗岸鹿",
+    "en": "Gilded Lost-Shore Stag"
+  },
+  "鎏金·暮潮灯议长·佩尘": {
+    "zh": "鎏金·旧船长",
+    "en": "Gilded Old Captain"
+  },
+  "鎏金·暮潮潜印客领誓·泽尘": {
+    "zh": "鎏金·切牌客",
+    "en": "Gilded The Dealer"
+  },
+  "鎏金·暮潮织光蛛领誓·图尘": {
+    "zh": "鎏金·静网",
+    "en": "Gilded Still Web"
+  },
+  "鎏金·暮潮缄骨客领誓·阿汀": {
+    "zh": "鎏金·舟底骨",
+    "en": "Gilded Keel Bones"
+  },
+  "鎏金·暮潮灯议长·艾汀": {
+    "zh": "鎏金·引航人",
+    "en": "Gilded Harbor Pilot"
+  },
+  "鎏金·暮潮浮辉使领誓·塔尘": {
+    "zh": "鎏金·雾魂",
+    "en": "Gilded Mist Soul"
+  },
+  "鎏金·暮潮折面星客领誓·依汀": {
+    "zh": "鎏金·梦眼",
+    "en": "Gilded Dream Eye"
+  },
+  "鎏金·暮潮星枝鹿领誓·诺汀": {
+    "zh": "鎏金·刺枝鹿",
+    "en": "Gilded Briar Stag"
+  },
+  "鎏金·霜枝铜缄裂角客": {
+    "zh": "鎏金·雪角",
+    "en": "Gilded Snowhorn"
+  },
+  "鎏金·霜枝苔痕赤角兽": {
+    "zh": "鎏金·疯牛",
+    "en": "Gilded Mad Ox"
+  },
+  "鎏金·霜枝攀钟猿领誓·阿诺": {
+    "zh": "鎏金·白猿",
+    "en": "Gilded White Ape"
+  },
+  "鎏金·霜枝攀钟猿领誓·伊诺": {
+    "zh": "鎏金·老雪猿",
+    "en": "Gilded Old Snow Ape"
+  },
+  "鎏金·霜枝灯议长·欧诺": {
+    "zh": "鎏金·冻哨",
+    "en": "Gilded Frozen Sentry"
+  },
+  "鎏金·霜枝潜印客领誓·依诺": {
+    "zh": "鎏金·藏影",
+    "en": "Gilded Hidden Shadow"
+  },
+  "鎏金·霜枝灯议长·乌诺": {
+    "zh": "鎏金·雪关主",
+    "en": "Gilded Snow Warden"
+  },
+  "鎏金·霜枝晶棘蜥龙领誓·维诺": {
+    "zh": "鎏金·眠龙",
+    "en": "Gilded Sleeping Dragon"
+  },
+  "鎏金·霜枝灯议长·希诺": {
+    "zh": "鎏金·山医",
+    "en": "Gilded Mountain Doctor"
+  },
+  "鎏金·霜枝潜印客领誓·雅诺": {
+    "zh": "鎏金·归鸦",
+    "en": "Gilded Homeward Crow"
+  },
+  "鎏金·星铸铠卫领誓·洛玟": {
+    "zh": "鎏金·守星卫",
+    "en": "Gilded Star Warden"
+  },
+  "鎏金·星铸巡影狼领誓·阿霖": {
+    "zh": "鎏金·逐月狼",
+    "en": "Gilded Moonchaser"
+  },
+  "鎏金·星铸铠卫领誓·芮烙": {
+    "zh": "鎏金·石碑卫",
+    "en": "Gilded Stele Guard"
+  },
+  "鎏金·星铸铠卫领誓·米玟": {
+    "zh": "鎏金·空甲",
+    "en": "Gilded Empty Armor"
+  },
+  "鎏金·星铸裂角客领誓·伊玟": {
+    "zh": "鎏金·裂夜",
+    "en": "Gilded Night Rift"
+  },
+  "鎏金·星铸环藤蛇领誓·阿玟": {
+    "zh": "鎏金·环星蛇",
+    "en": "Gilded Starcoil"
+  },
+  "鎏金·星铸裂角客领誓·艾玟": {
+    "zh": "鎏金·夜食",
+    "en": "Gilded Night Eater"
+  },
+  "鎏金·星铸峰脊巨灵领誓·欧玟": {
+    "zh": "鎏金·托天巨人",
+    "en": "Gilded Sky Bearer"
+  },
+  "鎏金·星铸巡影狼领誓·乌玟": {
+    "zh": "鎏金·失群狼",
+    "en": "Gilded Lone Wolf"
+  },
+  "鎏金·星铸灯议长·雅玟": {
+    "zh": "鎏金·王座客",
+    "en": "Gilded Throne Guest"
+  }
+}

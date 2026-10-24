@@ -128,8 +128,8 @@
     "name": "A full late-game board stays within a bounded interactive decision budget",
     "passed": true,
     "evidence": {
-      "medianMs": 13,
-      "worstMs": 15.5
+      "medianMs": 16.8,
+      "worstMs": 28
     }
   },
   {

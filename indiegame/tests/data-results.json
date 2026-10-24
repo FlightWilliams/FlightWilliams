@@ -12,6 +12,18 @@
     "passed": true
   },
   {
+    "name": "All 988 cards have unique short bilingual display names",
+    "passed": true
+  },
+  {
+    "name": "Every card has newly written bilingual story flavour",
+    "passed": true
+  },
+  {
+    "name": "Six chapters lead back to the first world and all main Bosses can join",
+    "passed": true
+  },
+  {
     "name": "Gilded base relationships preserved",
     "passed": true
   },

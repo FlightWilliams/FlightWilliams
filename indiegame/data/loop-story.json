@@ -1,0 +1,147 @@
+{
+  "version": 1,
+  "title": {
+    "zh": "回去的路",
+    "en": "The Way Home"
+  },
+  "opening": {
+    "zh": {
+      "title": "门外不是你的家",
+      "text": "你记得自己只是推开了一扇门。再抬头时，街道不见了，眼前只有浓雾、一盏灯，和一个等你出牌的陌生人。\n“想回去？先赢我。”他把牌推到你面前，仿佛这句话已经说过很多次。",
+      "button": "坐到牌桌前"
+    },
+    "en": {
+      "title": "This Is Not Your Doorstep",
+      "text": "You remember opening a door. When you looked up, your street was gone. There was only fog, a lantern, and a stranger waiting for you to play.\n“Want to go home? Beat me first.” He slides the cards across as though he has said this many times before.",
+      "button": "Take a Seat"
+    }
+  },
+  "home": {
+    "zh": {
+      "eyebrow": "一扇陌生的门，一条回家的路",
+      "subtitle": "赢过陌生人，带朋友回家",
+      "caption": "你不记得来路。有人却记得你。",
+      "text": "你误入一个陌生的世界，只能靠手中的牌寻找出口。六个世界里，守路人向你发起对局；被你选中的对手，会成为陪你前行的伙伴。可越接近最后一扇门，沿途的一切就越像曾经见过。",
+      "start": "寻找出口",
+      "return": "再走一次",
+      "loop": "第{loop}次上路 · 伙伴仍在身边"
+    },
+    "en": {
+      "eyebrow": "A STRANGE DOOR. A WAY HOME.",
+      "subtitle": "Face strangers. Find companions.",
+      "caption": "You forgot the way here. Someone remembers you.",
+      "text": "Lost in an unfamiliar world, you play your cards to find a way home. Across six realms, the keepers of the road challenge you. The foes you choose become your companions. Yet the closer you get to the final door, the more familiar everything feels.",
+      "start": "Find the Way Home",
+      "return": "Walk the Road Again",
+      "loop": "Journey {loop} · Your companions are still with you"
+    }
+  },
+  "chapters": {
+    "mire": {
+      "name": {"zh": "雾林", "en": "Mistwood"},
+      "intro": {
+        "zh": {"title": "雾里的第一盏灯", "text": "你在湿冷的林间醒来，口袋里多了一副不认识的牌。守路人说，穿过六道门就能回家。你问他为什么拦路，他只答：“先看看你打算怎么走。”"},
+        "en": {"title": "The First Lantern", "text": "You wake in a cold, damp wood with an unfamiliar deck in your pocket. A keeper says six doors stand between you and home. When you ask why he blocks the road, he replies, “First, show me how you mean to travel.”"}
+      },
+      "clear": {
+        "zh": {"title": "对手坐到了你身旁", "text": "林尽头的门终于打开。败下阵来的守路人没有走开，他指着你选中的牌：“带上它吧。下一段路，我认得。”你第一次觉得，这里并非只有敌人。"},
+        "en": {"title": "A Seat Beside You", "text": "The door beyond the wood finally opens. The defeated keeper stays. He points to the card you chose. “Bring it. I know the next stretch.” For the first time, this place feels less full of enemies."}
+      }
+    },
+    "brass": {
+      "name": {"zh": "钟城", "en": "Bell City"},
+      "intro": {
+        "zh": {"title": "慢了一拍的钟声", "text": "城里的钟都指向不同的时刻。这里的守路人拿旧事作赌注，说赢了就给你一条去灰原的路。同行者却拉住你：不要拿自己的名字下注。"},
+        "en": {"title": "A Bell One Beat Late", "text": "Every clock in the city shows a different hour. Its keepers wager old memories and promise a road to the Ashlands if you win. A companion catches your sleeve: never wager your own name."}
+      },
+      "clear": {
+        "zh": {"title": "他记得你的名字", "text": "最后一口钟响起时，有人喊出了你的名字。你明明没有告诉过他。新伙伴说自己只是猜的，却把一张写满旧笔记的纸藏进了衣袋。"},
+        "en": {"title": "He Knows Your Name", "text": "As the last bell rings, someone calls your name. You never told him. Your new companion says it was a guess, then slips a page covered in old notes into his pocket."}
+      }
+    },
+    "cinder": {
+      "name": {"zh": "灰原", "en": "Ashlands"},
+      "intro": {
+        "zh": {"title": "没有锁的钥匙", "text": "灰原上到处都是造钥匙的炉子，却没人找得到相配的锁。守路人把出口画在地上，赢一局才肯补上一段。你照着图走，渐渐发现有些转弯不必看图也认得。"},
+        "en": {"title": "Keys Without Locks", "text": "The Ashlands are full of furnaces making keys, though nobody can find the locks. Keepers draw you a map, adding a stretch for every match you win. Soon you find yourself taking turns before you check the page."}
+      },
+      "clear": {
+        "zh": {"title": "旧地图上的新墨", "text": "地图完成了，墨迹下面却压着一条更旧的路线。它与你走过的路一模一样。你想问清楚，伙伴已经替你收好牌：“先到港口，那里也许有人知道。”"},
+        "en": {"title": "Fresh Ink, Old Map", "text": "The map is complete. Beneath the fresh ink lies an older route, exactly the one you have taken. Before you can ask, a companion gathers your cards. “The harbor first. Someone there may know.”"}
+      }
+    },
+    "tide": {
+      "name": {"zh": "暮港", "en": "Dusk Harbor"},
+      "intro": {
+        "zh": {"title": "船票只写去处", "text": "港口的船票都没有返程日期。摆渡人说，穿过雪岭就能看见最后的门，但每位乘客必须先打完自己的牌局。一个旧对手替你占好了船边的位置，像是等了你很久。"},
+        "en": {"title": "A Ticket With No Return", "text": "None of the harbor tickets has a return date. The ferryman says the last door lies beyond the Snowridge, but every passenger must finish a match before boarding. A former foe has saved you a place by the rail, as though he has waited a long time."}
+      },
+      "clear": {
+        "zh": {"title": "他们也想离开", "text": "离岸后，伙伴们终于说起各自想回去的地方。原来他们拦路，不全是为了把你留下。有些人只是想找一个能赢过自己、也愿意一起走的人。"},
+        "en": {"title": "They Want Out, Too", "text": "Away from shore, your companions finally speak of the places they miss. Not all of them guarded the road to keep you here. Some were waiting for someone who could beat them and still offer a place beside them."}
+      }
+    },
+    "frost": {
+      "name": {"zh": "雪岭", "en": "Snowridge"},
+      "intro": {
+        "zh": {"title": "雪里的第二行脚印", "text": "雪岭上有一行与你鞋底相同的脚印，走在你前面。守路人不再问你是谁，只问这次带了多少朋友。山顶的星门已经可见，你却开始害怕那种熟悉感。"},
+        "en": {"title": "Your Footprints Ahead", "text": "A trail of prints crosses the Snowridge ahead of you. They match your boots. The keepers no longer ask your name, only how many friends you brought this time. The Star Gate is visible above, but its familiarity frightens you."}
+      },
+      "clear": {
+        "zh": {"title": "“上一次，你也是这么说的。”", "text": "你说，过了最后一扇门，大家就都能回家。新伙伴看了你很久，轻声回答：“上一次，你也是这么说的。”没有人肯解释上一次是什么时候。"},
+        "en": {"title": "“You Said That Last Time.”", "text": "You promise that beyond the final door, everyone can go home. Your new companion watches you for a while. “You said that last time, too.” Nobody will explain when last time was."}
+      }
+    },
+    "astral": {
+      "name": {"zh": "星门", "en": "Star Gate"},
+      "intro": {
+        "zh": {"title": "出口就在眼前", "text": "最后的牌桌摆在一扇普通木门前，门把手与你家的一模一样。守门人说，这里没有谁能替你推门。你把伙伴的牌摊在桌上，决定这次一定走出去。"},
+        "en": {"title": "The Door Before You", "text": "The final table stands before an ordinary wooden door. Its handle is exactly like the one at home. The keeper says nobody can open it for you. You spread your companions across the table, certain you will get out this time."}
+      },
+      "clear": {
+        "zh": {"title": "门外还是那片雾", "text": "你赢了最后一局，推开木门。门外没有你的街道，只有雾林和最初那盏灯。\n守路人抬起头：“想回去？先赢我。”\n你终于想起，自己已经听过这句话。可这一次，身后的朋友没有消失，手里的牌也还在。路又回到了起点，你却不再独自上路。"},
+        "en": {"title": "Fog on the Other Side", "text": "You win the last match and open the door. Your street is not there. Only Mistwood, and that first lantern.\nThe keeper looks up. “Want to go home? Beat me first.”\nNow you remember hearing it before. But this time your friends are still behind you, and the cards are still in your hand. The road has returned to its beginning. You will not walk it alone."}
+      }
+    }
+  },
+  "companions": {
+    "zh": {
+      "rewardTitle": "留一个位置给同行的人",
+      "rewardText": "选中守关者的牌，就是接受对方同行。曾经挡路的人，也可能陪你找到出口。",
+      "recruit": "{boss}收起对面的牌，坐到了你身旁。“下一段路，我陪你。”",
+      "recruitGold": "{boss}把最信任的那张牌交给你。它发着金光，像一句不会收回的承诺。",
+      "recruitAgain": "{boss}认出了你。“这回别走散了。”",
+      "cardNote": "曾经的对手，如今愿意与你一起寻找出口。",
+      "ordinaryReward": "沿路相识的身影化作新的牌。选一张，带上下一段旅程。",
+      "selectionHint": "选择Boss牌，可让这位旧对手成为同行伙伴；卡牌技能与组卡规则不变。"
+    },
+    "en": {
+      "rewardTitle": "Make Room for a Companion",
+      "rewardText": "Choose a keeper's card to accept their company. Someone who blocked your path may help you find the way out.",
+      "recruit": "{boss} gathers the cards from the other side and sits beside you. “I'll come for the next stretch.”",
+      "recruitGold": "{boss} gives you a trusted card. Its gold light feels like a promise that will be kept.",
+      "recruitAgain": "{boss} recognizes you. “Let's not lose each other this time.”",
+      "cardNote": "Once an opponent, now a companion searching for the way home.",
+      "ordinaryReward": "Faces met along the road become new cards. Choose one for the journey ahead.",
+      "selectionHint": "Choose a Boss card to welcome a former foe as a companion. Card abilities and deck rules stay the same."
+    }
+  },
+  "loop": {
+    "zh": {
+      "button": "带着伙伴回到雾林",
+      "continue": "继续寻找出口",
+      "notice": "道路回到雾林，已获得的伙伴、卡牌、收藏和保存的卡组仍然保留。",
+      "returnTitle": "你记得这盏灯",
+      "returnText": "雾林还是原来的雾林。守路人刚要说话，你已经替他摆好了牌。你没有忘记上一段路，也没有丢下那些愿意同行的人。",
+      "countLabel": "第{loop}次上路"
+    },
+    "en": {
+      "button": "Return to Mistwood Together",
+      "continue": "Keep Looking for the Exit",
+      "notice": "The road returns to Mistwood. Your companions, cards, collection and saved deck stay with you.",
+      "returnTitle": "You Remember This Lantern",
+      "returnText": "The same mist hangs between the trees. Before the keeper can speak, you set out the cards. You remember the road you walked, and you have not left your companions behind.",
+      "countLabel": "Journey {loop}"
+    }
+  }
+}

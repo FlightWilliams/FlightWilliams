@@ -1,0 +1,386 @@
+{
+  "苔庭铠卫·雅恩": {
+    "join": "别怕，我认得第一段路。剩下的，我们一起找。",
+    "joinEn": "I know the first stretch. We can find the rest together."
+  },
+  "苔庭裂角客领誓·阿珀": {
+    "join": "这一次，我不站在路边等了。",
+    "joinEn": "This time, I will not wait beside the road."
+  },
+  "苔庭赤角兽领誓·艾珀": {
+    "join": "它低下断角，让你把行囊系在背上。",
+    "joinEn": "It lowers its broken horn and lets you tie your pack to its back."
+  },
+  "苔庭裂角客领誓·欧珀": {
+    "join": "地上的路也行。只要这次不是独自回头。",
+    "joinEn": "A road on the ground will do, if I need not turn back alone."
+  },
+  "苔庭潜印客·莫恩": {
+    "join": "好吧，这回我走前面。你可得跟紧。",
+    "joinEn": "Fine. I will go first this time. Keep up."
+  },
+  "苔庭铠卫·欧恩": {
+    "join": "药用完之前，我会陪你走。之后也一样。",
+    "joinEn": "I will stay until the medicine runs out. And after that, too."
+  },
+  "苔庭绛纹蝶领誓·乌珀": {
+    "join": "它落在你的空手上，翅尖指向雾的另一端。",
+    "joinEn": "It settles on your open hand, its wings pointing beyond the mist."
+  },
+  "苔庭织光蛛领誓·雅珀": {
+    "join": "它将一根不会熄灭的细丝系在你的行囊上。",
+    "joinEn": "It ties one unextinguished thread to your pack."
+  },
+  "苔庭峰脊巨灵领誓·瑟珀": {
+    "join": "小个子，你看远处。我来替你挡风。",
+    "joinEn": "Look ahead, little one. I will keep the wind off you."
+  },
+  "苔庭铠卫领誓·维珀": {
+    "join": "雷声响的时候，记得站在我身后。",
+    "joinEn": "When the thunder comes, stand behind me."
+  },
+  "苔庭铠卫领誓·希珀": {
+    "join": "屋门我已经锁好了。走吧。",
+    "joinEn": "The house is locked. Let us go."
+  },
+  "苔庭缄骨客领誓·米珀": {
+    "join": "若我忘了为什么出发，替我读一遍这些名字。",
+    "joinEn": "If I forget why we left, read these names back to me."
+  },
+  "苔庭铠卫领誓·阿恩": {
+    "join": "你开口之前，我不会再擅自退后了。",
+    "joinEn": "I will not fall back again unless you ask me to."
+  },
+  "苔庭晶棘蜥龙领誓·艾恩": {
+    "join": "它折起伤翼，第一次沿着你的脚印前行。",
+    "joinEn": "It folds its injured wings and follows your footprints for the first time."
+  },
+  "苔庭裂角客领誓·伊恩": {
+    "join": "别急着报名字。某些门，只认得陌生人。",
+    "joinEn": "Do not give your name too soon. Some gates admit only strangers."
+  },
+  "苔庭灯议长·图珀": {
+    "join": "带上我。下一页，我不想再替别人翻。",
+    "joinEn": "Take me with you. I want to turn the next page for myself."
+  },
+  "铜钟峰脊巨灵领誓·维拉": {
+    "join": "我放开钟摆，你带我去听一次真正的清晨。",
+    "joinEn": "I will let the pendulum go. Take me to a real morning."
+  },
+  "铜钟铠卫领誓·瑟翎": {
+    "join": "这条街太窄。我们得换一条路。",
+    "joinEn": "This street is too narrow. We need another way."
+  },
+  "铜钟峰脊巨灵领誓·岚拉": {
+    "join": "你把路指出来，我把最后一块石头放下。",
+    "joinEn": "Show me the road. I will put this last stone down."
+  },
+  "铜钟灯议长·莱拉": {
+    "join": "空着的那盏灯，算我的位置吧。",
+    "joinEn": "Let the empty lamp mark my place beside you."
+  },
+  "铜钟缄骨客领誓·岑拉": {
+    "join": "这次的行李很轻。只带我们自己。",
+    "joinEn": "A lighter load this time. Just ourselves."
+  },
+  "铜钟环藤蛇领誓·伦拉": {
+    "join": "它绕开地上的毒渍，在你身旁盘成一圈。",
+    "joinEn": "It avoids the spilled poison and coils beside you."
+  },
+  "铜钟裂角客领誓·佩拉": {
+    "join": "等我们出去，你替我把那些地方重新画出来。",
+    "joinEn": "When we get out, help me draw those places again."
+  },
+  "铜钟裂角客领誓·泽拉": {
+    "join": "若我再听不见，你就拉住我。",
+    "joinEn": "If I stop hearing them again, hold me back."
+  },
+  "铜钟织光蛛领誓·阿温": {
+    "join": "幼蛛爬进你的行囊，它也慢慢跟了上来。",
+    "joinEn": "The little spiders climb into your pack. Their mother follows."
+  },
+  "铜钟缄骨客领誓·欧温": {
+    "join": "这里还有一卷绷带。路上总会用得着。",
+    "joinEn": "One roll of bandages left. We will need it on the road."
+  },
+  "铜钟铠卫领誓·乌温": {
+    "join": "盾里的人留下。我跟你走。",
+    "joinEn": "The one in the shield can stay. I am coming with you."
+  },
+  "铜钟缄骨客领誓·洛温": {
+    "join": "最后一页先别看。我们去写新的。",
+    "joinEn": "Leave the last page alone. We can write a new one."
+  },
+  "铜钟枝灯树灵领誓·诺温": {
+    "join": "它折下一根有新芽的枝条，轻轻推向你。",
+    "joinEn": "It bends a budding branch gently toward you."
+  },
+  "铜钟铠卫领誓·佩温": {
+    "join": "不必再敲集合钟了。我已经在这里。",
+    "joinEn": "No more summons. I am already here."
+  },
+  "铜钟铠卫领誓·泽温": {
+    "join": "这一次，跟着我们的脚步走。",
+    "joinEn": "This time, let the bells follow our footsteps."
+  },
+  "铜钟铠卫领誓·阿雅": {
+    "join": "门把手交给你。别再让我替你按住时间。",
+    "joinEn": "The handle is yours. Do not ask me to hold time still again."
+  },
+  "炽砂铠卫领誓·乌弥": {
+    "join": "炉门关好了。现在，轮到我们找门。",
+    "joinEn": "The furnace is shut. Now we find a door for ourselves."
+  },
+  "炽砂铠卫领誓·依弥": {
+    "join": "若我停下来，你记得叫我一声。",
+    "joinEn": "If I stop, call my name."
+  },
+  "炽砂灯议长·诺弥": {
+    "join": "真身走哪条路，分身就不用再猜了。",
+    "joinEn": "If I take the road myself, my doubles need not keep guessing."
+  },
+  "炽砂灯议长·瑟弥": {
+    "join": "床铺收好了。今晚我守前半夜。",
+    "joinEn": "The beds are packed away. I will take the first watch."
+  },
+  "炽砂铠卫领誓·维弥": {
+    "join": "灯还冷着。不过你在，这就够了。",
+    "joinEn": "The lamp is still cold. Your company will do."
+  },
+  "炽砂缄骨客领誓·希弥": {
+    "join": "这只盒子我来背。你只管看前面的路。",
+    "joinEn": "I will carry the tin. Keep your eyes on the road."
+  },
+  "炽砂灯议长·米弥": {
+    "join": "这回让影子看家。",
+    "joinEn": "Let the shadow mind the house this time."
+  },
+  "炽砂峰脊巨灵领誓·索弥": {
+    "join": "别走火最亮的地方。踩着我的影子来。",
+    "joinEn": "Avoid the brightest fire. Follow my shadow."
+  },
+  "炽砂铠卫领誓·莱弥": {
+    "join": "认路这件事，这次交给你。",
+    "joinEn": "You can lead this time."
+  },
+  "炽砂铠卫领誓·莫弥": {
+    "join": "听见了吗？这一次，我们一起过去。",
+    "joinEn": "Did you hear that? This time, we go together."
+  },
+  "炽砂灯议长·伦弥": {
+    "join": "不用叫我回来。我会一直跟上。",
+    "joinEn": "You will not need to call me back. I will keep up."
+  },
+  "炽砂灯议长·图弥": {
+    "join": "这一次，前面若是黑的，我们就一起点灯。",
+    "joinEn": "If it is dark ahead, we can light the way together."
+  },
+  "炽砂铠卫领誓·芮弥": {
+    "join": "兵器随便挑。同行的人，我已经选好了。",
+    "joinEn": "Choose any weapon. I have already chosen my company."
+  },
+  "炽砂灯议长·伊罗": {
+    "join": "若我又说错了，你就拉着我走。",
+    "joinEn": "If I say the wrong one again, take my hand and keep walking."
+  },
+  "炽砂晶棘蜥龙领誓·雅罗": {
+    "join": "它让出星图，把一枚温热的鳞片留在你掌心。",
+    "joinEn": "It releases the chart and leaves one warm scale in your hand."
+  },
+  "炽砂灯议长·诺罗": {
+    "join": "这次别弄丢了。我还想知道它最后照见什么。",
+    "joinEn": "Do not lose it this time. I want to see what it lights at the end."
+  },
+  "暮潮星枝鹿领誓·莱尘": {
+    "join": "它从浅滩走上堤岸，湿漉漉地停在你身边。",
+    "joinEn": "It leaves the shallows and stands, dripping, beside you."
+  },
+  "暮潮灯议长·岑尘": {
+    "join": "帆留给港口吧。我们试试陆上的风。",
+    "joinEn": "Leave the sail to the harbor. We can try the wind ashore."
+  },
+  "暮潮裂角客领誓·莫尘": {
+    "join": "别把手伸进雾里。我认得那里藏着什么。",
+    "joinEn": "Keep your hand out of the fog. I know what waits there."
+  },
+  "暮潮星枝鹿领誓·伦尘": {
+    "join": "它轻轻撞了撞你的灯，转身走向堤上的路。",
+    "joinEn": "It touches your lamp with its antlers and turns toward the seawall."
+  },
+  "暮潮灯议长·佩尘": {
+    "join": "明天我不在这里等了。",
+    "joinEn": "Tomorrow, I will not be waiting here."
+  },
+  "暮潮潜印客领誓·泽尘": {
+    "join": "债主若追来，就说我跟你借了一条新路。",
+    "joinEn": "If the creditors come, say I borrowed a new road from you."
+  },
+  "暮潮织光蛛领誓·图尘": {
+    "join": "它收起旧帆，给你的灯织了一层挡雨的网。",
+    "joinEn": "It folds the sail and weaves a rain cover around your lamp."
+  },
+  "暮潮缄骨客领誓·阿汀": {
+    "join": "若你听见那只铃，别回头。我会叫醒你。",
+    "joinEn": "If you hear that bell, do not turn back. I will wake you."
+  },
+  "暮潮灯议长·艾汀": {
+    "join": "船票先收好。说不定真正的港口还在后面。",
+    "joinEn": "Keep the ticket. The real harbor may still lie ahead."
+  },
+  "暮潮浮辉使领誓·塔尘": {
+    "join": "它把窗里的光分给你，照亮了两个人的位置。",
+    "joinEn": "It shares the light from its window, making room for two."
+  },
+  "暮潮灯议长·乌汀": {
+    "join": "钥匙我带着。若遇见门，我们就试一试。",
+    "joinEn": "I will bring the key. If we find a door, we try it."
+  },
+  "暮潮折面星客领誓·依汀": {
+    "join": "它摘下面具，又把空白的一面朝向自己。",
+    "joinEn": "It removes the mask and turns its blank side inward."
+  },
+  "暮潮踏铃驹领誓·雅汀": {
+    "join": "它把系在颈上的铃递给你，终于迈过最后一级。",
+    "joinEn": "It offers you the bell at its neck and steps past the last stair."
+  },
+  "暮潮灯议长·维汀": {
+    "join": "信已经读完了。我们走吧。",
+    "joinEn": "I have finished the letter. Let us go."
+  },
+  "暮潮星枝鹿领誓·诺汀": {
+    "join": "它不再退后，只让角上的微火替你照路。",
+    "joinEn": "It stops backing away and lights your path with its small flames."
+  },
+  "暮潮灯议长·希汀": {
+    "join": "我想亲眼看看，这句话到底是谁刻的。",
+    "joinEn": "I want to see who carved those words."
+  },
+  "霜枝铜缄裂角客": {
+    "join": "你若真的认得方向，我就跟着你的脚印。",
+    "joinEn": "If you truly know the direction, I will follow your tracks."
+  },
+  "霜枝铠卫领誓·泽芙": {
+    "join": "这座桥，我们一起走完。",
+    "joinEn": "Let us cross the whole bridge together."
+  },
+  "霜枝苔痕赤角兽": {
+    "join": "它在雪里刨出你的脚印，陪你踏上同一条路。",
+    "joinEn": "It uncovers your tracks in the snow and takes the path beside you."
+  },
+  "霜枝潜印客领誓·图芙": {
+    "join": "幻影留下。要道别的人，得自己去见。",
+    "joinEn": "The phantom stays. I must say my own farewell."
+  },
+  "霜枝铠卫领誓·芮芙": {
+    "join": "听我的脚步，别追那道回音。",
+    "joinEn": "Listen to my steps. Do not follow the echo."
+  },
+  "霜枝攀钟猿领誓·阿诺": {
+    "join": "它砸碎脚边的薄冰，把一只旧手套放进你手中。",
+    "joinEn": "It breaks the thin ice and places an old glove in your hand."
+  },
+  "霜枝攀钟猿领誓·艾诺": {
+    "join": "它把背留给你，缓缓踏出那个熟悉的雪坑。",
+    "joinEn": "It turns its back to you and slowly leaves the familiar hollow."
+  },
+  "霜枝攀钟猿领誓·伊诺": {
+    "join": "它掰开那颗干果，把更大的一半递了过来。",
+    "joinEn": "It breaks the dried fruit and offers you the larger half."
+  },
+  "霜枝灯议长·欧诺": {
+    "join": "日记你拿着。若我开始撒谎，就念给我听。",
+    "joinEn": "Keep the diary. Read it aloud if I start lying."
+  },
+  "霜枝潜印客领誓·依诺": {
+    "join": "这一次，我们追声音的来处。",
+    "joinEn": "This time, we follow the sound to its source."
+  },
+  "霜枝灯议长·乌诺": {
+    "join": "线剪断了。现在我记住你的声音。",
+    "joinEn": "The thread is cut. Now I will remember your voice."
+  },
+  "霜枝晶棘蜥龙领誓·维诺": {
+    "join": "它把碎针推到你面前，等待你选定方向。",
+    "joinEn": "It sets the broken needle before you and waits for your choice."
+  },
+  "霜枝灯议长·希诺": {
+    "join": "邀请上没写几个人。再多你一个，也不碍事。",
+    "joinEn": "The invitation gives no number. There is room for one more."
+  },
+  "霜枝潜印客领誓·雅诺": {
+    "join": "这回不用谁推谁。我们一起跑。",
+    "joinEn": "No more pushing each other away. We run together."
+  },
+  "霜枝裂角客领誓·瑟诺": {
+    "join": "灰里的人没有白等。替他们把最后一段路走完。",
+    "joinEn": "Those in the ash did not wait for nothing. Let us finish the road."
+  },
+  "霜枝灯议长·诺诺": {
+    "join": "门就在前面。这一次，别把我们留在门外。",
+    "joinEn": "The gate is ahead. Do not leave us outside this time."
+  },
+  "星铸铠卫领誓·洛玟": {
+    "join": "这块空白留给回来的人。走吧，我陪你。",
+    "joinEn": "That blank is for whoever returns. I am coming with you."
+  },
+  "星铸裂角客领誓·佩烙": {
+    "join": "这一脚落下去，我跟你一起走。",
+    "joinEn": "When this step lands, I walk with you."
+  },
+  "星铸灯议长·泽烙": {
+    "join": "地图随时能重画。同行的人，别再弄丢。",
+    "joinEn": "Maps can be redrawn. Do not lose the people beside you."
+  },
+  "星铸巡影狼领誓·阿霖": {
+    "join": "它擦过你的手，转而守住行囊旁的位置。",
+    "joinEn": "It brushes your hand and takes its place beside your pack."
+  },
+  "星铸灯议长·图烙": {
+    "join": "命令到此为止。后面的路，听我们自己的。",
+    "joinEn": "The orders end here. From now on, we choose."
+  },
+  "星铸铠卫领誓·芮烙": {
+    "join": "若路又弯回去，至少这回我们是清醒的。",
+    "joinEn": "If the road bends back, at least we will be awake this time."
+  },
+  "星铸铠卫领誓·米玟": {
+    "join": "别盯着天上。接下来这一手，我们一起出。",
+    "joinEn": "Do not stare at the sky. We play the next hand together."
+  },
+  "星铸裂角客领誓·伊玟": {
+    "join": "钥匙扔掉了。没有锁，我们也能找一条路。",
+    "joinEn": "The key is gone. We can find a way without a lock."
+  },
+  "星铸环藤蛇领誓·阿玟": {
+    "join": "它把旧皮留在台阶上，带着那道伤跟你下山。",
+    "joinEn": "It leaves the old skin on the steps and follows you, scar and all."
+  },
+  "星铸裂角客领誓·艾玟": {
+    "join": "心火你收好。我也想见见你说的那个家。",
+    "joinEn": "Keep the heartfire. I want to see the home you speak of."
+  },
+  "星铸峰脊巨灵领誓·欧玟": {
+    "join": "星我来拿。你别再一个人去敲门。",
+    "joinEn": "I will carry the star. Do not knock alone again."
+  },
+  "星铸巡影狼领誓·乌玟": {
+    "join": "它没有再嗅那条旧路，只把头靠向你的膝边。",
+    "joinEn": "It stops scenting the old road and rests its head against your knee."
+  },
+  "星铸灯议长·雅玟": {
+    "join": "鞋带系好了。若又回来，我们就再系一次。",
+    "joinEn": "Your laces are tied. If we return, we can tie them again."
+  },
+  "星铸铠卫领誓·维玟": {
+    "join": "门后若还是雾，我也认得你的脚步。",
+    "joinEn": "If there is mist beyond the gate, I will still know your footsteps."
+  },
+  "星铸灯议长·诺玟": {
+    "join": "记忆比伤口重要。这次我陪你一起记。",
+    "joinEn": "Memory matters more than wounds. I will remember with you."
+  },
+  "星铸折面星客领誓·瑟玟": {
+    "join": "若门后还是起点，至少这次，你不是一个人。",
+    "joinEn": "If the gate leads back to the beginning, at least you will not be alone."
+  }
+}
