@@ -1,0 +1,139 @@
+[
+  {
+    "name": "Keep an advantageous fighter rather than sacrifice it for a weaker body",
+    "passed": true
+  },
+  {
+    "name": "Block the exact lethal lane with an affordable surviving defender",
+    "passed": true,
+    "evidence": {
+      "name": "Defender",
+      "lane": 3,
+      "sacs": [
+        0
+      ],
+      "score": 200007.311
+    }
+  },
+  {
+    "name": "Use guard against a lethal flyer instead of a larger ordinary blocker",
+    "passed": true,
+    "evidence": {
+      "name": "Air guard",
+      "lane": 4,
+      "sacs": [
+        0
+      ],
+      "score": 200009.476
+    }
+  },
+  {
+    "name": "Search past the cheapest sacrifice and retain the guard protecting hero life",
+    "passed": true,
+    "evidence": {
+      "name": "Emergency blocker",
+      "lane": 3,
+      "sacs": [
+        1
+      ],
+      "score": 200001.374
+    }
+  },
+  {
+    "name": "The first guardian considers a safe sacrifice beyond the first equal-cost Wick",
+    "passed": true,
+    "evidence": {
+      "name": "Small fighter",
+      "lane": 1,
+      "sacs": [
+        1
+      ],
+      "score": 4.631999999999998
+    }
+  },
+  {
+    "name": "Two- and three-cost forecasts remove every sacrifice while triggering a stage passive only once",
+    "passed": true
+  },
+  {
+    "name": "Fresh sacrifices stay illegal at every intelligence level",
+    "passed": true
+  },
+  {
+    "name": "A shield is spent by the first hit and does not absorb the follow-up hit",
+    "passed": true
+  },
+  {
+    "name": "Skip attack and delayed attack forecasts match their actual turn order",
+    "passed": true
+  },
+  {
+    "name": "Tactical forecast matches real combat for core card effects in both initiative orders",
+    "passed": true,
+    "evidence": {
+      "combatCases": 20
+    }
+  },
+  {
+    "name": "Forecasting clones nested effects and never mutates battle state or rolls RNG",
+    "passed": true
+  },
+  {
+    "name": "All 96 encounters monotonically increase search rank, depth and beam",
+    "passed": true,
+    "evidence": {
+      "first": {
+        "rank": 0,
+        "cycle": 0,
+        "level": 1,
+        "depth": 1,
+        "rounds": 1,
+        "beam": 4,
+        "future": 0.12,
+        "risk": 0.2
+      },
+      "last": {
+        "rank": 95,
+        "cycle": 5,
+        "level": 16,
+        "depth": 3,
+        "rounds": 2,
+        "beam": 27,
+        "future": 0.67,
+        "risk": 0.8
+      }
+    }
+  },
+  {
+    "name": "Changing hidden player hand and deck contents never changes deployment decisions",
+    "passed": true
+  },
+  {
+    "name": "Later forecasts account for the next round after temporary suppression expires",
+    "passed": true
+  },
+  {
+    "name": "A temporary attack buff expires exactly once over a two-round forecast",
+    "passed": true
+  },
+  {
+    "name": "Two-deployment planning respects the remaining paid budget and never reuses its fresh summon",
+    "passed": true
+  },
+  {
+    "name": "Movement never uncovers a lethal flying lane merely to chase another target",
+    "passed": true
+  },
+  {
+    "name": "A full late-game board stays within a bounded interactive decision budget",
+    "passed": true,
+    "evidence": {
+      "medianMs": 13,
+      "worstMs": 15.5
+    }
+  },
+  {
+    "name": "No browser errors during AI scenarios",
+    "passed": true
+  }
+]

@@ -7,14 +7,12 @@
     "name": "The real coin uses Beacon and Compass faces and preserves opening/late-player bonuses",
     "passed": true,
     "evidence": {
-      "first": "e",
-      "bonus": "p",
-      "hand": 6,
-      "enemyHand": 4,
+      "first": "p",
+      "bonus": "e",
+      "hand": 5,
+      "enemyHand": 6,
       "player": [],
-      "enemy": [
-        0
-      ]
+      "enemy": []
     }
   },
   {
@@ -27,7 +25,25 @@
     "evidence": {
       "turn": 2,
       "busy": 0,
-      "actions": []
+      "actions": [
+        {
+          "turn": 1,
+          "sacs": []
+        },
+        {
+          "turn": 2,
+          "sacs": [
+            {
+              "t": 1,
+              "allowed": true
+            }
+          ]
+        },
+        {
+          "turn": 2,
+          "sacs": []
+        }
+      ]
     }
   },
   {

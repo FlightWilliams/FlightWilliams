@@ -1,0 +1,156 @@
+[
+  {
+    "name": "No wasted shield in an unthreatened lane",
+    "passed": true,
+    "result": {
+      "use": false,
+      "gain": -0.41999999999999993,
+      "safe": true,
+      "applied": true,
+      "samples": 5,
+      "lowest": -0.41999999999999993
+    }
+  },
+  {
+    "name": "Shield saves a defender and wins the exchange",
+    "passed": true,
+    "result": {
+      "use": true,
+      "gain": 4.38,
+      "safe": true,
+      "applied": true,
+      "samples": 5,
+      "lowest": 4.38
+    }
+  },
+  {
+    "name": "Pierce is held when no guard is opposed",
+    "passed": true,
+    "result": {
+      "use": false,
+      "gain": -0.41999999999999993,
+      "safe": true,
+      "applied": true,
+      "samples": 5,
+      "lowest": -0.41999999999999993
+    }
+  },
+  {
+    "name": "Pierce is used to remove a guard",
+    "passed": true,
+    "result": {
+      "use": true,
+      "gain": 2.98,
+      "safe": true,
+      "applied": true,
+      "samples": 5,
+      "lowest": 2.98
+    }
+  },
+  {
+    "name": "On-hit healing is held in an open lane",
+    "passed": true,
+    "result": {
+      "use": false,
+      "gain": -0.41999999999999993,
+      "safe": true,
+      "applied": true,
+      "samples": 5,
+      "lowest": -0.41999999999999993
+    }
+  },
+  {
+    "name": "Hero life payment cannot expose lethal",
+    "passed": true,
+    "result": {
+      "use": false,
+      "gain": -199997.72000000003,
+      "safe": false,
+      "applied": true,
+      "samples": 5,
+      "lowest": -199997.72000000003
+    }
+  },
+  {
+    "name": "Offering will not remove the only life-saving blocker",
+    "passed": true,
+    "result": {
+      "use": false,
+      "gain": 0,
+      "safe": true,
+      "applied": false
+    }
+  },
+  {
+    "name": "Damage power removes a threatening attacker",
+    "passed": true,
+    "result": {
+      "use": true,
+      "gain": 200004.08,
+      "safe": true,
+      "applied": true,
+      "samples": 5,
+      "lowest": 200004.08
+    }
+  },
+  {
+    "name": "A charge cannot give away an existing lethal attack",
+    "passed": true,
+    "result": {
+      "use": false,
+      "gain": -199998.42,
+      "safe": false,
+      "applied": true,
+      "samples": 5,
+      "lowest": -199998.42
+    }
+  },
+  {
+    "name": "An extra discard is refused when its card outweighs chip damage",
+    "passed": true,
+    "result": {
+      "use": false,
+      "gain": -1.8399999999999999,
+      "safe": true,
+      "applied": true,
+      "samples": 5,
+      "lowest": -1.8399999999999999
+    }
+  },
+  {
+    "name": "After-attack sealing prevents next visible lethal",
+    "passed": true,
+    "result": {
+      "use": true,
+      "gain": 200004.08,
+      "safe": true,
+      "applied": true,
+      "samples": 5,
+      "lowest": 200004.08
+    }
+  },
+  {
+    "name": "Freeze planning reads opponent hand count only",
+    "passed": true
+  },
+  {
+    "name": "Conditional attack previews follow current clone positions without marking live cards",
+    "passed": true
+  },
+  {
+    "name": "An emergency power uses the real paid once-per-cooldown lifecycle",
+    "passed": true
+  },
+  {
+    "name": "The last Wick blocks lethal instead of funding a modest skill elsewhere",
+    "passed": true
+  },
+  {
+    "name": "A useful defensive skill keeps its Wick when deployment has no better use",
+    "passed": true
+  },
+  {
+    "name": "All 108 skill previews preserve battle state, logs and RNG",
+    "passed": true
+  }
+]

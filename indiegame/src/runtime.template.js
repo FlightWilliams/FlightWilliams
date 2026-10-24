@@ -569,7 +569,7 @@ function bossExecutePaidAbility(owner,state,cfg,source=null){
 function bossAbilityStateLabel(){const cfg=bossAbilityForStage(),state=bossSkillState();if(!cfg)return '无主动技能';if(G.turn<2)return '第2回合启用';if(bossAbilityUsed())return '本回合已使用';if(!bossSkillReady(state))return '冷却中 · 本回合休息';if(bossSkillWickIndex('e')<0)return '缺少1张可用手牌余芯';if(G.busy)return cfg.timing==='after_attack'?'攻击结束时判定':'部署阶段判定';return cfg.timing==='after_attack'?'等待攻击结束':G.enemyDeployedTurn!==G.turn?'等待Boss部署':'条件不足，本回合未使用'}
 function bossUnits(side){return (side==='p'?G.p:G.e).map((card,index)=>({card,index})).filter(x=>x.card)}
 function bossCardSide(card){return G.p.includes(card)?'p':G.e.includes(card)?'e':null}
-function bossCardAttack(card){if(!card)return 0;const side=bossCardSide(card),board=side==='p'?G.p:side==='e'?G.e:null,index=board?.indexOf(card)??-1,target=index>=0?(side==='p'?G.e:G.p)[index]:null;return typeof effectiveCardAttack==='function'?effectiveCardAttack(card,target):card.a}
+function bossCardAttack(card){if(!card)return 0;if(typeof aiBossPreviewAttack==='function'){const attack=aiBossPreviewAttack(card);if(attack!==null)return attack}const side=bossCardSide(card),board=side==='p'?G.p:side==='e'?G.e:null,index=board?.indexOf(card)??-1,target=index>=0?(side==='p'?G.e:G.p)[index]:null;return typeof effectiveCardAttack==='function'?effectiveCardAttack(card,target):card.a}
 function bossChoose(list){return list?.length?list[Math.floor(Math.random()*list.length)]:null}
 function bossCardEffects(card){return card?.bossEffects||{}}
 function bossHasSkill(card,key){return !!card&&(card.s===key||(card.bossEffects?.skills||[]).includes(key)||(key==='push'&&card.mv==='push'))}
@@ -600,7 +600,7 @@ function bossContext(owner='e',providedState=null,source=null){
  const view=owner==='e'?G:new Proxy(G,{get:(target,key)=>key==='discard'?discard:key==='bossSkill'?state:target[fields[key]||key],set:(target,key,value)=>{target[fields[key]||key]=value;return true}});
  return {G:view,state,owner,units:side=>bossUnits(map(side)),choose:bossChoose,shield:bossShield,temp:bossTemp,buff:bossBuff,effect:bossEffect,deferred:bossDeferred,healCard:bossHealCard,healHero:(side,n)=>bossHealHero(map(side),n),discardOne:(side='e')=>bossDiscardOne(map(side)),draw:(side,n)=>bossDraw(map(side),n),consumeDiscard:(side,predicate)=>bossConsumeDiscard(map(side),predicate),summon:(side,template,opts)=>bossSummon(map(side),source?.game?{...template,game:source.game,f:source.f}:template,opts),move:(side,...args)=>bossMove(map(side),...args),returnToHand:(side,card)=>bossReturnToHand(map(side),card),ash:card=>bossWick(card,owner),redirect:(card,n)=>bossRedirect(card,n,state),cleanse:bossCleanse,hasSkill:bossHasSkill,hurt:(side,...args)=>bossTakeCardDamage(map(side),...args),kill:(side,...args)=>kill(map(side),...args),lockUntil:()=>bossPlayerLockUntil(owner),forecast:owner==='e'&&typeof openingForecast==='function'?()=>openingForecast():null};
 }
-function runBossAbility(phase){const cfg=bossAbilityForStage(),state=bossSkillState();if(!cfg||G.tutorial||!bossSkillReady(state)||cfg.timing!==phase||G.hp<=0||G.ehp<=0)return false;const applied=bossExecutePaidAbility('e',state,cfg);if(applied){state.turnUsed=G.turn;state.usedCount++;state.history.push({turn:G.turn,boss:cfg.boss,name:cfg.name,phase});logBattle(`${cfg.boss}发动「${cfg.name}」`)}return applied}
+function runBossAbility(phase){const cfg=bossAbilityForStage(),state=bossSkillState();if(!cfg||G.tutorial||!bossSkillReady(state)||cfg.timing!==phase||G.hp<=0||G.ehp<=0)return false;if(typeof aiShouldUseBossAbility==='function'&&!aiShouldUseBossAbility(cfg,phase))return false;const applied=bossExecutePaidAbility('e',state,cfg);if(applied){state.turnUsed=G.turn;state.usedCount++;state.history.push({turn:G.turn,boss:cfg.boss,name:cfg.name,phase});logBattle(`${cfg.boss}发动「${cfg.name}」`)}return applied}
 function bossRecordDirect(attackingSide,amount){const state=bossSkillState();if(!state||amount<=0)return;if(attackingSide==='e')state.playerDirectDamage+=amount;else state.enemyDirectDamage+=amount;const own=G.playerBossSkill;if(own){if(attackingSide==='p')own.playerDirectDamage+=amount;else own.enemyDirectDamage+=amount}}
 function bossRecordDeath(side,card,reason,by){const state=bossSkillState();if(!state||!card)return;if(side==='e')state.enemyDeaths++;if(side==='p'&&G.playerBossSkill)G.playerBossSkill.enemyDeaths++;if(reason==='combat'&&by?.h>0&&by?.bossEffects?.healOnKill){bossHealCard(by,by.bossEffects.healOnKill);delete by.bossEffects.healOnKill}bossStripRoundEffects(card);if(bossIsToken(card)||card.x==='rekindle'&&!card.rk)return;if(!G.discard[side].includes(card))G.discard[side].push(card)}
 function bossDamageHero(side,amount,by=null,meta={}){const state=side==='p'?G.playerBossSkill:bossSkillState(),board=side==='p'?G.p:G.e;let n=Math.max(0,amount);if(state?.heroRedirect?.untilTurn===G.turn&&board.includes(state.heroRedirect.card)&&n>0){const redirect=state.heroRedirect;state.heroRedirect=null;const take=Math.min(n,redirect.amount);n-=take;bossTakeCardDamage(side,redirect.card,take,by,{kind:'redirect'})}const key=side==='p'?'hp':'ehp',actual=Math.min(G[key],n);G[key]=Math.max(0,G[key]-n);if(meta.direct)bossRecordDirect(side==='p'?'e':'p',actual);if(side==='p'&&by)G.lastHit=by;return actual}
@@ -1116,67 +1116,7 @@ function sacrificeCandidates(c){return LANE_LIST.filter(i=>canSacrificeCard('e',
 function laneScore(c,lane){const target=G.p[lane];if(!target)return c.s==='fly'?2:1;const threat=effectiveCardAttack(target,c),attack=effectiveCardAttack(c,target);return threat*2+(threat>=G.hp?10:0)+(c.s==='guard'&&target.s==='fly'?5:0)+(c.h>dealt(target,c)?2:0)+(attack>=target.h?3:0)}
 // The opening opponent compares legal deployments with keeping its current board.
 // This forecast is local: it never mutates combat cards, draws cards or rolls RNG.
-function openingUnitValue(c){return c?c.a*1.8+c.h*.55+(c.s==='guard'?.8:0)+(c.s==='fly'?.7:0)+(c.growth?.7:0)+(c.s==='parry'?.5:0)+(c.s==='regen'?.4:0)+(c.zeroAttackPunish?.7:0):0}
-function openingSacrificeSets(c){
- const mature=LANE_LIST.filter(i=>canSacrificeCard('e',i)),sets=[];
- function take(at,chosen){if(chosen.length===c.c){sets.push(chosen);return}for(let k=at;k<mature.length;k++)take(k+1,[...chosen,mature[k]])}
- take(0,[]);return sets;
-}
-function openingForecast(plan=null){
- const b={p:G.p.map(c=>c?{...c,origin:c}:null),e:G.e.map(c=>c?{...c,origin:c}:null)},hp={p:G.hp,e:G.ehp},remaining={p:G.draw?.length||0,e:G.ed?.length||0};let hand=0;
- function draw(side,n){const count=Math.min(n,remaining[side]);remaining[side]-=count;hand+=(side==='e'?1:-1)*count*.65}
- function death(side,i,c){
-  if(c.death==='spiders'||c.death==='emberling')for(let k=0;k<(c.death==='spiders'?2:1);k++){
-   const token={a:c.death==='spiders'?0:1,h:1,c:0,at:'物理',token:true},lane=LANE_LIST.filter(j=>!b[side][j]).sort((a,z)=>Math.abs(a-i)-Math.abs(z-i)||a-z)[0];
-   if(lane==null)hand+=(side==='e'?1:-1)*.3;else b[side][lane]=token;
-  }
-  else if(c.death==='draw')draw(side,2);else if(c.death==='heal')hp[side]=Math.min(7,hp[side]+2);
- }
- function remove(side,i,combat=true,deferred=null){
-  const c=b[side][i];if(!c)return;b[side][i]=null;
-  if(c.s==='bones')b[side][i]={...BONE,t:G.turn};
-  if(c.x==='rekindle'&&!c.rk)hand+=side==='e'?.8:-.8;
-  draw(side,c.dd||0);if(c.death){if(deferred)deferred.push({side,i,c});else death(side,i,c)}
- }
- if(plan){const deferred=[];for(const i of plan.sacs)remove('e',i,false,deferred);b.e[plan.lane]={...plan.c,origin:plan.c};for(const d of deferred)death(d.side,d.i,d.c);draw('e',plan.c.dr||0);hp.e=Math.min(7,hp.e+(plan.c.heal||0)+(plan.c.x==='ember'?1:0))}
- const actors={p:b.p.filter(Boolean),e:b.e.filter(Boolean)};
- function strike(side,a){
-  const i=b[side].indexOf(a);if(i<0)return;const other=side==='p'?'e':'p',t=b[other][i],attack=effectiveCardAttack(a,t);if(attack<=0)return;
-  if(!t||(a.s==='fly'&&t.s!=='guard')){hp[other]=Math.max(0,hp[other]-attack);return}
-  const damage=dealt(a,t),parried=t.s==='parry'&&damage<=1;
-  if(parried)a.h--;else{t.h-=damage;if(t.s==='thorn')a.h--;if(damage>0&&a.s==='vamp')a.h=Math.min(a.h0||a.h,a.h+1);if(damage>0&&a.s==='poison')t.poison=Math.max(t.poison||0,2)}
-  if(t.h<=0){remove(other,i);if(a.growth&&a.h>0)a.a++;else if(a.x==='soul'&&a.h>0)a.a=Math.max(a.a,Math.min(3,a.a+1))}
-  if(a.h<=0&&b[side][i]===a)remove(side,i);
-  if(!parried&&damage>0&&t.h>0&&b[other][i]===t&&a.h>0&&a.mv==='push')for(const d of i<2?[1,-1]:[-1,1]){const j=i+d;if(j>=0&&j<5&&!b[other][j]){b[other][j]=t;b[other][i]=null;break}}
- }
- let ended=false;for(const side of battleAttackOrder()){for(const c of actors[side]){strike(side,c);if(hp.p<=0||hp.e<=0){ended=true;break}}if(ended)break}
- if(!ended)for(const side of ['p','e'])for(const c of [...b[side]]){const i=b[side].indexOf(c);if(!c||i<0)continue;if(c.poison){c.h--;c.poison--;if(c.h<=0){remove(side,i);continue}}if(c.s==='regen'&&c.h<c.h0)c.h++}
- const material=side=>b[side].reduce((v,c)=>v+openingUnitValue(c),0);
- return {p:b.p,e:b.e,hp:hp.p,ehp:hp.e,score:(hp.p<=0?10000:0)-(hp.e<=0?10000:0)+(hp.e-hp.p)*3.5+material('e')-material('p')+hand};
-}
-function openingChoiceAllowed(plan,before,after){
- if(after.ehp<=0&&before.ehp>0)return false;
- if(after.hp<=0&&after.ehp>0||before.ehp<=0&&after.ehp>0)return true;
- for(const i of plan.sacs){
-  const old=G.e[i];if(!old||old.fod||effectiveCardAttack(old,G.p[i])<=0)continue;
-  const survivor=before.e.find(c=>c?.origin===old),target=G.p[i],targetSurvives=target&&before.p.some(c=>c?.origin===target);
-  const winning=survivor&&(!target||!targetSurvives||dealt(old,target)>=dealt(target,old));
-  if(winning){
-   const replacement=after.e.find(c=>c?.origin===plan.c);
-   if(plan.lane!==i||!replacement||openingUnitValue(replacement)<=openingUnitValue(survivor)+.1)return false;
-  }
- }
- return true;
-}
-function openingEnemyChoice(){
- const before=openingForecast();let choice=null;
- G.eh.forEach((c,i)=>{if(frozenTurns(c))return;for(const sacs of openingSacrificeSets(c))for(const lane of LANE_LIST.filter(j=>!G.e[j]||sacs.includes(j))){
-  const plan={c,i,sacs,lane},after=openingForecast(plan);if(!openingChoiceAllowed(plan,before,after))continue;
-  const gain=after.score-before.score;if(gain<=.15)continue;
-  const cost=sacs.reduce((v,j)=>v+(G.e[j].fod?0:openingUnitValue(G.e[j])),0),score=gain-cost*.08;
-  if(!choice||score>choice.score)choice={...plan,score};
- }});return choice;
-}
+// Pure tactical forecasts are supplied by the AI source module below.
 async function enterEffects(side,c){
  for(let k=0;k<(c.dr||0);k++){if(takeCard(side)){render();await drawIdle}}
  const heal=(c.heal||0)+(c.x==='ember'?1:0);if(heal){const key=side==='p'?'hp':'ehp';G[key]=Math.min(7,G[key]+heal);snd('heal');logBattle(`${c.n}回复${heal}点生命`)}
@@ -1445,83 +1385,8 @@ document.addEventListener('keydown',event=>{if((event.key==='Enter'||event.key==
 
 document.addEventListener('keydown',event=>{if(event.key!=='Escape')return;if(DM){event.preventDefault();closeDeckManager();return}if(infoPanel){infoPanel=null;detailCardOverride=null;render();return}if(cancelSelection())event.preventDefault()});
 document.addEventListener('focusin',updateViewport);document.addEventListener('focusout',()=>requestAnimationFrame(updateViewport));
-// Six campaigns share the same fair, visible-board safety rules. Later worlds
-// consider more exchanges, future survivors and the hand's next deployment.
-function aiCampaignLevel(){
- const index=DIFFICULTY_ORDER.indexOf(difficulty);
- if(index>=0)return Math.min(5,index);
- return difficulty==='challenge'?5:difficulty==='standard'?2:0;
-}
-function aiWick(c){return !!c&&c.c===0&&c.a===0&&(c.fod||c.n==='余芯')}
-function aiNormaliseWick(c){if(aiWick(c)){c.fod=true;c.e=1;c.a0=0;c.h0=c.h0??1}return c}
-function aiPaidPlayBudget(){
- const level=aiCampaignLevel();if(G.turn===1||level<2)return 1;
- if(level===2)return G.lv>=9&&G.turn%3===0?2:1;
- if(level===3)return G.turn%2===0?2:1;
- return 2;
-}
-function aiFutureValue(c){
- if(!c)return 0;
- const effects=c.bossEffects||{};
- return openingUnitValue(c)+(c.s==='poison'?.6:0)+(c.s==='vamp'?.55:0)+(c.s==='regen'?.45:0)+(c.growth?.7:0)+(c.mv?.3:0)+(c.x==='rekindle'&&!c.rk?.5:0)+(c.dd||0)*.3+(c.death==='spiders'?.7:c.death==='draw'?.6:c.death==='heal'?.35:0)+(effects.shield||0)*.3;
-}
-function aiSurvivingResources(after,plan){
- const remaining=G.eh.filter((_,i)=>i!==plan.i),bodies=after.e.filter(Boolean);
- const food=bodies.filter(c=>aiWick(c)||c.fod||c.a===0).length;
- let follow=0;
- for(const c of remaining){if(frozenTurns(c)||c.c===0)continue;const cost=c.c||0;if(cost>food||cost>bodies.length)continue;follow=Math.max(follow,aiFutureValue(c)-cost*.4)}
- return Math.min(follow,8)*.08+Math.min(food,2)*.13;
-}
-function aiDeploymentPosition(plan,after){
- const c=after.e.find(x=>x?.origin===plan.c);if(!c)return 0;
- const target=G.p[plan.lane],level=aiCampaignLevel();let value=0;
- if(aiWick(plan.c)){
-  // Wick is a next-turn resource: put it where it survives, keep open lanes for
-  // combat cards, and do not fill the table with useless fresh sacrifices.
-  value+=target?(effectiveCardAttack(target,plan.c)<=0?.12:-.35):.2;
-  if(level>=2&&target&&target.c===0)value-=.08;
-  value+=Math.max(0,2-Math.abs(plan.lane-2))*.018;
- }else if(level>=1){
-  if(c.growth&&target&&!after.p.some(x=>x?.origin===target))value+=.28;
-  if(c.s==='guard'&&target?.s==='fly')value+=.35;
-  if(c.s==='fly'&&target&&target.s!=='guard')value+=.16;
- }
- return value;
-}
-function aiChooseDeployment(options={}){
- const level=aiCampaignLevel(),before=openingForecast(),reservedWick=!options.ignoreSkillReserve&&typeof bossAbilityCanReserveWick==='function'&&bossAbilityCanReserveWick()&&typeof bossSkillWickCard==='function'?bossSkillWickCard('e'):null;let choice=null;
- G.eh.forEach((c,i)=>{
-  if(c===reservedWick||frozenTurns(c)||options.ashOnly&&!aiWick(c)||options.noWick&&aiWick(c)||options.noPaid&&c.c>0||options.noZero&&c.c===0&&!aiWick(c))return;
-  let sets=openingSacrificeSets(c);
-  if(level===0&&sets.length>1){
-   // The first world reads the next exchange but only considers the cheapest
-   // sacrifice group. Later worlds search all legal groups, without relaxing
-   // protection of a winning lane at any difficulty.
-   sets=sets.sort((a,b)=>a.reduce((n,j)=>n+aiFutureValue(G.e[j]),0)-b.reduce((n,j)=>n+aiFutureValue(G.e[j]),0)).slice(0,1);
-  }
-  for(const sacs of sets)for(const lane of LANE_LIST.filter(j=>!G.e[j]||sacs.includes(j))){
-   const plan={c,i,sacs,lane},after=openingForecast(plan);
-   if(!openingChoiceAllowed(plan,before,after))continue;
-   const gain=after.score-before.score;if(gain<=.15)continue;
-   const cost=sacs.reduce((n,j)=>n+(G.e[j].fod?0:aiFutureValue(G.e[j])),0);
-   let score=gain-cost*.08+aiDeploymentPosition(plan,after);
-   if(level>=2){
-    const future=side=>after[side].reduce((n,x)=>n+aiFutureValue(x)-openingUnitValue(x),0);
-    score+=(future('e')-future('p'))*(.16+(level-2)*.08);
-    score+=aiSurvivingResources(after,plan)*(level-1);
-   }
-   if(level>=3){
-    const survived=after.e.find(x=>x?.origin===c);
-    // Evaluate whether the new fighter will still live through the next
-    // visible exchange, instead of trading a useful body for a short flash.
-    if(survived){const other=after.p[lane];if(other&&effectiveCardAttack(other,survived)>0){const incoming=dealt(other,survived);score+=survived.h>incoming?.16:-.16}else score+=Math.min(survived.a,3)*.08}
-   }
-   if(level>=4&&c.dr&&G.ed.length)score+=Math.min(c.dr,G.ed.length)*.12;
-   if(!choice||score>choice.score+.00001)choice={...plan,score};
-  }
- });
- return choice;
-}
+__AI_SOURCE__
+__BOSS_AI_POLICY_SOURCE__
 async function aiDeployChoice(choice,animate){
  if(!choice||!G)return false;
  const {c,i,sacs,lane}=choice,game=G;
@@ -1549,7 +1414,7 @@ async function enemyPlay6(animate=true,initial=false){
  let ashPlayed=false,zeroPlayed=0;
  const paidBudget=aiPaidPlayBudget();let paid=0;
  for(let step=0;step<paidBudget+3;step++){
-  const choice=aiChooseDeployment({noWick:ashPlayed,noPaid:paid>=paidBudget,noZero:zeroPlayed>=1});if(!choice)break;
+  const choice=aiChooseDeployment({noWick:ashPlayed,noPaid:paid>=paidBudget,noZero:zeroPlayed>=1,paidRemaining:paidBudget-paid});if(!choice)break;
   if(aiWick(choice.c)){if(ashPlayed)break;ashPlayed=true}
   else if(choice.c.c===0){if(zeroPlayed>=1)break;zeroPlayed++}
   else{if(paid>=paidBudget)break;paid++}
@@ -1568,37 +1433,6 @@ async function enemyPlay6(animate=true,initial=false){
 }
 enemyPlay=enemyPlay6;
 
-// Movement compares both affected columns, including the threat uncovered by
-// leaving a lane. It never peeks at the player's hand or spends a winning guard
-// merely to chase a larger target.
-function aiColumnValue(enemy,player){
- let e=enemy?{...enemy}:null,p=player?{...player}:null,hp=G.hp,ehp=G.ehp;
- const order=typeof battleAttackOrder==='function'?battleAttackOrder():G.turn%2?['p','e']:['e','p'];
- for(const side of order){
-  const a=side==='e'?e:p,t=side==='e'?p:e,attack=effectiveCardAttack(a,t);if(!a||attack<=0||a.bossEffects?.skipAttack)continue;
-  if(!t||(a.s==='fly'&&t.s!=='guard')){if(side==='e')hp-=attack;else ehp-=attack;continue}
-  const damage=dealt(a,t);
-  if(t.s==='parry'&&damage<=1)a.h--;else{t.h-=damage;if(t.s==='thorn')a.h--;if(damage>0&&a.s==='vamp')a.h=Math.min(a.h0??a.h,a.h+1)}
-  if(e?.h<=0)e=null;if(p?.h<=0)p=null;
- }
- return {score:(G.hp-hp)*3.5-(G.ehp-ehp)*3.5+aiFutureValue(e)-aiFutureValue(p),damage:Math.max(0,G.ehp-ehp),hit:Math.max(0,G.hp-hp),enemy:e,player:p};
-}
-function aiChooseMove(index){
- const c=G.e[index];if(!c)return null;
- let best=null;const level=aiCampaignLevel();
- for(const d of [-1,1]){
-  if(!canMove('e',index,d))continue;const target=index+d,other=G.e[target];
-  const beforeA=aiColumnValue(c,G.p[index]),beforeB=aiColumnValue(other,G.p[target]);
-  const afterA=aiColumnValue(other,G.p[index]),afterB=aiColumnValue(c,G.p[target]);
-  const beforeDamage=beforeA.damage+beforeB.damage,afterDamage=afterA.damage+afterB.damage;
-  const remainingDamage=LANE_LIST.filter(j=>j!==index&&j!==target).reduce((n,j)=>n+aiColumnValue(G.e[j],G.p[j]).damage,0);
-  if(remainingDamage+afterDamage>=G.ehp&&remainingDamage+beforeDamage<G.ehp)continue;
-  if(c.s==='guard'&&G.p[index]?.s==='fly'&&!other&&afterDamage>beforeDamage)continue;
-  const score=afterA.score+afterB.score-beforeA.score-beforeB.score;
-  if(score>(level<2?1.5:.4)&&(!best||score>best.score))best={d,score};
- }
- return best;
-}
 async function enemyMoves6(){
  const game=G;
  for(const c of [...G.e]){

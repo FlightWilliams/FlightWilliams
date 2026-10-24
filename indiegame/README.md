@@ -24,6 +24,8 @@ python3 -m http.server 8000
 
 数据检查：`python3 tests/data_check.py`。浏览器检查需Node.js、Playwright及Chromium，可用`INDIE_TEST_URL`指定本地服务地址。
 
+战术检查：`npm run test:ai`。Boss在所有关卡都会比较合法祭品和落点、优先防止致命伤害，避免为弱牌献祭优势单位；随96关进度增加候选搜索、下一回合预测与连续出牌规划。技能发动前评估收益与余芯代价，移动时同时检查被让出的战线。预测只读取公开牌桌和Boss自己的手牌，不查看玩家隐藏卡牌；卡牌数值、费用、技能效果和冷却规则保持不变。
+
 ## 发布与存档
 
 在Cloudflare控制台选择Workers & Pages → Pages → 直接上传，创建一个新项目，上传`lantern-oath-web.zip`，部署后以控制台显示的实际网址为准。默认测试域名的连通性需要用朋友所在网络及微信实际检查。

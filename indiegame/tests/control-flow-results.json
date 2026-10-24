@@ -32,15 +32,7 @@
     "passed": true
   },
   {
-    "name": "aiChooseDeployment",
-    "passed": true
-  },
-  {
     "name": "aiDeployChoice",
-    "passed": true
-  },
-  {
-    "name": "enemyPlay6",
     "passed": true
   },
   {
@@ -53,10 +45,6 @@
   },
   {
     "name": "bossSkillReady",
-    "passed": true
-  },
-  {
-    "name": "runBossAbility",
     "passed": true
   },
   {
