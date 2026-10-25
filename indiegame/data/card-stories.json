@@ -816,8 +816,8 @@
     "en": "The patrol boots stay clean. Mud caught in the soles comes from a river that was filled in. The time clock at the Ash Works prints tomorrow’s date."
   },
   "炽砂修灯师·瑟罗": {
-    "zh": "她每天检查冷炉的封条，隔热手套始终发烫。伤口在她身旁慢慢合拢。你看过那副手套，里面没有手。",
-    "en": "She checks the cold furnace seals every day. Her insulated gloves stay hot. Wounds close beside her. You have looked inside the gloves; there are no hands."
+    "zh": "防火女把汤盛进铁碗，用围裙擦掉碗沿的灰。她守着冷炉，雨衣袖口却一直发烫。“趁热喝，凉了就只剩盐味。”你接碗时发现，炉门封条上的手印，比她的手多一根指头。",
+    "en": "The Fire Warden serves soup in a tin bowl and wipes ash from the rim with her apron. She keeps a cold furnace; her raincoat cuffs stay hot. “Drink before it cools. Then it is only salt.” On the furnace seal, a handprint has one finger more than hers."
   },
   "炽砂铠卫·维罗": {
     "zh": "他的证件照闭着眼，见到你之后，照片里的眼睛才睁开。灰厂的打卡钟打印着明天的日期。",
@@ -3184,12 +3184,12 @@
     "en": "Sheets of scale remain beneath the bridge. The largest is wider than the missing car’s door. A new gold mark stops outside the door. Every companion denies drawing it."
   },
   "苔庭铠卫·雅恩": {
-    "zh": "他守着只在03:17响起的门。值夜簿提前写好了你的来访时间，墨水已干，门外却还没有脚步。",
-    "en": "He watches the door that sounds only at 03:17. The duty book has recorded your arrival before any footsteps reach it. The ink is already dry."
+    "zh": "守夜人把搪瓷杯推到你面前，杯沿缺口朝着自己。“当心烫。”他又看了一眼那块停在03:17的表。茶早凉了，杯柄却烫得握不住。你想问，他已经翻开下一页值班簿。",
+    "en": "The Night Watch slides an enamel cup toward you, keeping the chipped rim on his side. “Careful. Hot.” He glances at the watch stopped at 03:17. The tea is cold; the handle burns your fingers. Before you can ask, he turns the page of the duty book."
   },
   "鎏金·苔庭铠卫·雅恩": {
-    "zh": "他守着只在03:17响起的门。复印件上多出一行字，写的是你尚未问出口的问题。",
-    "en": "He watches the door that sounds only at 03:17. The copy has gained a line: a question you have not asked yet."
+    "zh": "金边值班簿比普通那本薄。守夜人不让你翻最后一页，只把搪瓷杯往旁边挪了挪。“多放一把椅子吧。”他低头签字。钟仍停在03:17，门外这次响起了两个人的脚步。",
+    "en": "The gold-edged duty book is thinner. The Night Watch keeps its last page closed and moves the enamel cup aside. “Another chair, perhaps.” He signs. The clock still reads 03:17. This time, two sets of footsteps wait outside."
   },
   "苔庭裂角客领誓·阿珀": {
     "zh": "他额头上的硬角刮伤了测量尺。档案写着先天畸形，附上的出生照里却没有这个人。",
@@ -3224,12 +3224,12 @@
     "en": "He slips the middle page of the statement into his sleeve. An extra breath on the tape exactly fills your silence."
   },
   "苔庭铠卫·欧恩": {
-    "zh": "他外套上的补丁比布料新，缝线下面却有旧弹孔。替你挡住风时，他问的仍是同一个日期。",
-    "en": "His coat patches are newer than the cloth, though old bullet holes lie beneath the stitches. He shields you from the draft and asks for the same date again."
+    "zh": "旧警卫用鞋跟磕掉门槛上的泥，再把烟掐灭，夹回湿透的烟盒。他说戒烟最难的是打发夜班。你注意到每根烟都剩同样长，滤嘴上，是几个月后才会印出的日期。",
+    "en": "The Old Guard knocks mud from the sill with his heel, stubs out his cigarette, and returns it to a wet packet. Quitting, he says, leaves too much of the night to fill. Every cigarette is the same length. Their filters bear a date months away."
   },
   "鎏金·苔庭铠卫·欧恩": {
-    "zh": "他外套上的补丁比布料新，缝线下面却有旧弹孔。你发现修补过的地方，正好绕开了照片里的自己。",
-    "en": "His coat patches are newer than the cloth, though old bullet holes lie beneath the stitches. The repaired area passes carefully around your own figure in the photograph."
+    "zh": "旧警卫用鞋跟磕掉门槛上的泥，再把烟掐灭，夹回湿透的烟盒。他说戒烟最难的是打发夜班。你注意到每根烟都剩同样长，滤嘴上，是几个月后才会印出的日期。",
+    "en": "The Old Guard knocks mud from the sill with his heel, stubs out his cigarette, and returns it to a wet packet. Quitting, he says, leaves too much of the night to fill. Every cigarette is the same length. Their filters bear a date months away."
   },
   "苔庭绛纹蝶领誓·乌珀": {
     "zh": "蝶翅上的纹路像两个相向的人脸。照片两端各少了一名证人，底片却没有裁剪的痕迹。",
@@ -3312,12 +3312,12 @@
     "en": "One spent match lies on the desk. You find another closing sheet. Its staple holds no paper."
   },
   "铜钟峰脊巨灵领誓·维拉": {
-    "zh": "他用肩膀推开钟楼的大门，里面传来的却是骨头裂开的声音。门轴完好，维修单写着已换过三次。",
-    "en": "He shoulders the tower door open. The sound is of a bone breaking. The hinges are intact; the maintenance slip says they have been replaced three times."
+    "zh": "敲钟人给手心抹松香，细细揉进旧茧。他替你扶了一下楼梯，力气轻得出奇。“这份工伤耳朵。”他笑着说。楼顶没有钟，楼下卖耳塞的柜台却从没关过门。",
+    "en": "The Bell Ringer works rosin into the calluses on his palms, then steadies the stair for you with surprising gentleness. “Hard on the ears, this job.” There is no bell above. Below, the counter selling earplugs has never closed."
   },
   "鎏金·铜钟峰脊巨灵领誓·维拉": {
-    "zh": "他用肩膀推开钟楼的大门，里面传来的却是骨头裂开的声音。复印件上多出一行字，写的是你尚未问出口的问题。",
-    "en": "He shoulders the tower door open. The copy has gained a line: a question you have not asked yet."
+    "zh": "敲钟人给手心抹松香，细细揉进旧茧。他替你扶了一下楼梯，力气轻得出奇。“这份工伤耳朵。”他笑着说。楼顶没有钟，楼下卖耳塞的柜台却从没关过门。",
+    "en": "The Bell Ringer works rosin into the calluses on his palms, then steadies the stair for you with surprising gentleness. “Hard on the ears, this job.” There is no bell above. Below, the counter selling earplugs has never closed."
   },
   "铜钟铠卫领誓·瑟翎": {
     "zh": "他只在钟摆越过中线时换岗。你拍下的连续照片里，走廊始终空着，钥匙却逐张向前移动。",
@@ -3336,12 +3336,12 @@
     "en": "A second human-shaped hollow remains wherever he stands. The pencil marks on the back predate the statement by a full day."
   },
   "铜钟灯议长·莱拉": {
-    "zh": "他随身带着一块遮光布，每次摘下，房里的声音就少一种。你翻到领用单，签名处是一片黑。",
-    "en": "He carries a blackout cloth. Whenever he removes it, one sound disappears from the room. The signature on its issue form is a solid patch of black."
+    "zh": "账房把算盘珠子擦得发亮，给你倒茶时也没停手。“欠着吧，出去再算。”你在账本上找到一笔早饭钱，字写得很熟。那顿早饭你还没吃，欠账的人已经付过三次。",
+    "en": "The Bookkeeper polishes the abacus beads while pouring your tea. “On credit. Settle outside.” In the ledger, a charge for breakfast is written in a familiar hand. You have not eaten it yet. Whoever owes it has already paid three times."
   },
   "鎏金·铜钟灯议长·莱拉": {
-    "zh": "他随身带着一块遮光布，每次摘下，房里的声音就少一种。封存后留下的指纹，不属于任何到过这里的人。",
-    "en": "He carries a blackout cloth. The prints left after sealing belong to nobody who has been here."
+    "zh": "账房把算盘珠子擦得发亮，给你倒茶时也没停手。“欠着吧，出去再算。”你在账本上找到一笔早饭钱，字写得很熟。那顿早饭你还没吃，欠账的人已经付过三次。",
+    "en": "The Bookkeeper polishes the abacus beads while pouring your tea. “On credit. Settle outside.” In the ledger, a charge for breakfast is written in a familiar hand. You have not eaten it yet. Whoever owes it has already paid three times."
   },
   "铜钟缄骨客领誓·岑拉": {
     "zh": "钟楼地下收着一辆没有座位的小车，轮轴内缠着细骨。它行过的轨道，总比图纸多转一圈。",
@@ -3464,12 +3464,12 @@
     "en": "He takes a second pair of glasses from the broken glass. The pencil marks on the back predate the statement by a full day."
   },
   "炽砂灯议长·瑟弥": {
-    "zh": "医务室至少要坐满三个人，他才肯打开药柜。柜门内侧贴着四张照片，其中一张始终朝墙。",
-    "en": "He will not open the infirmary cabinet until three seats are occupied. Four photographs are fixed inside its door. One always faces the wall."
+    "zh": "灰医先暖手，再碰你的伤口。药瓶上贴着手写标签，字挤得很小；他说药贵，纸也贵。绷带拆开时，伤口已经合拢。洗手盆里，却慢慢浮出一张浸着血的出院单。",
+    "en": "The Ash Doctor warms his hands before touching the wound. The labels on his bottles are crowded with tiny writing. Medicine costs money, he says; so does paper. Under the bandage, your skin has closed. A blood-soaked discharge slip rises in the washbasin."
   },
   "鎏金·炽砂灯议长·瑟弥": {
-    "zh": "医务室至少要坐满三个人，他才肯打开药柜。封存后留下的指纹，不属于任何到过这里的人。",
-    "en": "He will not open the infirmary cabinet until three seats are occupied. The prints left after sealing belong to nobody who has been here."
+    "zh": "灰医先暖手，再碰你的伤口。药瓶上贴着手写标签，字挤得很小；他说药贵，纸也贵。绷带拆开时，伤口已经合拢。洗手盆里，却慢慢浮出一张浸着血的出院单。",
+    "en": "The Ash Doctor warms his hands before touching the wound. The labels on his bottles are crowded with tiny writing. Medicine costs money, he says; so does paper. Under the bandage, your skin has closed. A blood-soaked discharge slip rises in the washbasin."
   },
   "炽砂铠卫领誓·维弥": {
     "zh": "他把用完的工牌投入炉口，再从另一端取回一张新的。新照片里，站在他身边的人少了一个。",
@@ -3488,12 +3488,12 @@
     "en": "There are three rows of empty seats in the workshop. The repaired area passes carefully around your own figure in the photograph."
   },
   "炽砂灯议长·米弥": {
-    "zh": "他在灯下投出两道影子，一道负责抄写，另一道负责擦除。下班后，纸上只剩没人说过的话。",
-    "en": "He casts two shadows under the lamp. One copies; the other erases. After the shift, only words nobody said remain on the paper."
+    "zh": "洗片师把夹子挪远，给你腾出一块干净台面。醋味钻进鼻子，红灯下，水滴落得很慢。“先别认人。”他把照片翻过去。纸背已经写好合影名单，最下面一行，墨还没干。",
+    "en": "The Darkroom Hand clears a dry patch of counter for you. Vinegar stings your nose. Drops fall slowly under the red lamp. “Do not identify anyone yet.” He turns the photograph over. Its group list is already written on the back. The last line is still wet."
   },
   "鎏金·炽砂灯议长·米弥": {
-    "zh": "他在灯下投出两道影子，一道负责抄写，另一道负责擦除。被删去的那一行，在你合上纸张后重新出现。",
-    "en": "He casts two shadows under the lamp. The deleted line returns after you fold the sheet."
+    "zh": "洗片师把夹子挪远，给你腾出一块干净台面。醋味钻进鼻子，红灯下，水滴落得很慢。“先别认人。”他把照片翻过去。纸背已经写好合影名单，最下面一行，墨还没干。",
+    "en": "The Darkroom Hand clears a dry patch of counter for you. Vinegar stings your nose. Drops fall slowly under the red lamp. “Do not identify anyone yet.” He turns the photograph over. Its group list is already written on the back. The last line is still wet."
   },
   "炽砂峰脊巨灵领誓·索弥": {
     "zh": "他的体检表一直显示健康，纸边却有不断渗出的血迹。每次炉门响起，检验员就把表翻过去。",
@@ -3600,12 +3600,12 @@
     "en": "Seawater will not stay in the deer's hoofprints. The prints left after sealing belong to nobody who has been here."
   },
   "暮潮灯议长·佩尘": {
-    "zh": "他替无主的行李盖章，柜台后面却没有人领取。每个箱子打开时，都会投出一个站立的影子。",
-    "en": "He stamps the unclaimed luggage. Nobody comes to collect it. Each open case casts the shadow of a person standing upright."
+    "zh": "旧船长晾干帽子，先拍出盐，再端端正正戴回去。他在桌上给你画航线，铅笔短得只够两根指头捏。“别嫌船小。”他说。纸上那条船的影子，正慢慢沉过你放杯子的地方。",
+    "en": "The Old Captain dries his cap, beats out the salt, and puts it squarely back on. His pencil is scarcely long enough for two fingers as he draws your course. “Small boat. Do not complain.” On the paper, its shadow sinks slowly past the place where your cup stands."
   },
   "鎏金·暮潮灯议长·佩尘": {
-    "zh": "他替无主的行李盖章，柜台后面却没有人领取。录音中多了一次呼吸，恰好填满你沉默的地方。",
-    "en": "He stamps the unclaimed luggage. An extra breath on the tape exactly fills your silence."
+    "zh": "旧船长晾干帽子，先拍出盐，再端端正正戴回去。他在桌上给你画航线，铅笔短得只够两根指头捏。“别嫌船小。”他说。纸上那条船的影子，正慢慢沉过你放杯子的地方。",
+    "en": "The Old Captain dries his cap, beats out the salt, and puts it squarely back on. His pencil is scarcely long enough for two fingers as he draws your course. “Small boat. Do not complain.” On the paper, its shadow sinks slowly past the place where your cup stands."
   },
   "暮潮潜印客领誓·泽尘": {
     "zh": "他用一段海蛇蜕皮替换了录音带，机器仍能播放。里面没有海声，只有谁在练习你的停顿。",
@@ -3632,12 +3632,12 @@
     "en": "He examines every recovered body but never writes a cause of death. A warning on the back is signed with your former address."
   },
   "暮潮灯议长·艾汀": {
-    "zh": "他守着一盏照向水底的航灯。回信总比发出的灯号早一分钟，信里写着尚未发生的沉船；他仍坚持整夜值守。",
-    "en": "He keeps a lamp aimed below the water. Replies arrive a minute before its signal, naming wrecks that have not happened. He still keeps watch through the night."
+    "zh": "灯塔守护者擦镜片时，总给你留一块干布。煤油味压不住袖口的咸腥。“回信来了再吃。”他拧亮航灯，水底却早亮了一次。桌上那封回信，连你刚说错的一个字都照抄了。",
+    "en": "The Lighthouse Warden leaves you a dry cloth whenever he cleans the lens. Kerosene cannot hide the brine in his cuffs. “We eat when the reply comes.” He lights the lamp; the water has already answered. The letter on the table repeats even the word you just misspoke."
   },
   "鎏金·暮潮灯议长·艾汀": {
-    "zh": "他守着一盏照向水底的航灯。交接栏只有一个签名，墨迹分成了不同的年份。",
-    "en": "He keeps a lamp aimed below the water. The handover field has one signature, written in inks from different years."
+    "zh": "灯塔守护者换了新灯芯，旧的叠好收进烟盒。他让你扶住镜框，自己往水底打出一束光。“今晚不等回信，饭会凉。”远处的光熄了；桌上那封回信，第一次没有拆封。",
+    "en": "The Lighthouse Warden fits a new wick and folds the old one into a tobacco tin. You steady the lens while he signals below. “No waiting tonight. Supper will go cold.” The distant light goes out. For the first time, the reply on the table stays sealed."
   },
   "暮潮浮辉使领誓·塔尘": {
     "zh": "他的声音只在海水碰到鞋边时出现，嘴唇从来不动。干燥的录音带上，却留着持续的吞咽声。",
@@ -3792,12 +3792,12 @@
     "en": "Frosted scales cover the platform glass. The timestamp has faded, but the pause lasts exactly as long as before."
   },
   "霜枝灯议长·希诺": {
-    "zh": "他把最后一份热饮递给你，杯底却压着死亡证明。签字栏空着，医生一项填的是他的旧住址。",
-    "en": "He hands you the last hot drink. A death certificate lies beneath it. The signature is blank; the doctor's entry gives his former address."
+    "zh": "山医把水壶贴在胸前暖着，倒给你时，小心避开裂口。“手还会抖，就是好事。”他翻着病历说。窗外的雪一直落，纸上几个没到站的病人，却已经逐个留下了湿手印。",
+    "en": "The Mountain Doctor warms the kettle against his chest and pours carefully around its crack. “Shaking hands are a good sign,” he says over the records. Snow keeps falling outside. Patients who have not reached the station are leaving wet handprints on their files."
   },
   "鎏金·霜枝灯议长·希诺": {
-    "zh": "他把最后一份热饮递给你，杯底却压着死亡证明。他保留了空白那页，说那里曾经写过你的去向。",
-    "en": "He hands you the last hot drink. He keeps the blank page. He says it once gave your destination."
+    "zh": "山医把水壶贴在胸前暖着，倒给你时，小心避开裂口。“手还会抖，就是好事。”他翻着病历说。窗外的雪一直落，纸上几个没到站的病人，却已经逐个留下了湿手印。",
+    "en": "The Mountain Doctor warms the kettle against his chest and pours carefully around its crack. “Shaking hands are a good sign,” he says over the records. Snow keeps falling outside. Patients who have not reached the station are leaving wet handprints on their files."
   },
   "霜枝潜印客领誓·雅诺": {
     "zh": "他的录音总在别人开口之前发出咳嗽，像是预先提醒。你换了空白带，咳嗽仍出现在同一秒。",
@@ -3816,12 +3816,12 @@
     "en": "After he wipes the last shadow from the snow wall, a burn appears on his palm. The same exhibit appears twice. The second is warm with your body heat."
   },
   "霜枝灯议长·诺诺": {
-    "zh": "你说过了前面的门就能回去，他却先替你拆下了行李牌。牌背写着同一句话，墨水已经褪色。",
-    "en": "You say the next door will take you home. He removes your luggage tag first. The same sentence is written on its back, in faded ink."
+    "zh": "望乡人把行李绳解了又系，给每个结都留出手指的宽度。他怕到了家，手冻僵了拆不开。你说起镇外的路，他笑着挪了挪箱子。箱底压着的返程票，出发站写着同一个家。",
+    "en": "The Homesick Traveler reties his luggage, leaving a finger’s width in every knot. He worries his hands will be too cold to undo them at home. At the mention of a road out, he smiles and shifts the case. Its return ticket gives that same home as the departure station."
   },
   "鎏金·霜枝灯议长·诺诺": {
-    "zh": "你说过了前面的门就能回去，他却先替你拆下了行李牌。你找到另一份结案页，订书钉下没有任何纸张。",
-    "en": "You say the next door will take you home. You find another closing sheet. Its staple holds no paper."
+    "zh": "望乡人把行李绳解了又系，给每个结都留出手指的宽度。他怕到了家，手冻僵了拆不开。你说起镇外的路，他笑着挪了挪箱子。箱底压着的返程票，出发站写着同一个家。",
+    "en": "The Homesick Traveler reties his luggage, leaving a finger’s width in every knot. He worries his hands will be too cold to undo them at home. At the mention of a road out, he smiles and shifts the case. Its return ticket gives that same home as the departure station."
   },
   "星铸铠卫领誓·洛玟": {
     "zh": "他守着一道画在白墙上的门，门缝里夹着制服的一角。你伸手拨开布料，墙后传来扣纽扣的声音。",
@@ -3936,19 +3936,19 @@
     "en": "He wipes the blood from the page. The gap left during filing is just wide enough to see you from within."
   },
   "星铸灯议长·诺玟": {
-    "zh": "他洗掉案卷上的污迹，署名栏才慢慢显出来。那是你的笔迹，日期却写着本次失踪仍未发生。",
-    "en": "He washes the stains from the case file. A signature slowly appears in your handwriting. The date says this disappearance has not happened yet."
+    "zh": "署名者用袖口垫着纸，免得汗洇开墨迹。他问你名字怎么写，听得十分认真。“总得有一回写对。”你还没答，他已在空栏里停下笔。那一笔的转弯，和你小时候的一模一样。",
+    "en": "The Signatory rests his cuff under the page so sweat will not blur the ink. He listens carefully to your name. “We ought to get it right once.” Before your answer, his pen stops in the blank field. Its small turn matches the handwriting you had as a child."
   },
   "鎏金·星铸灯议长·诺玟": {
-    "zh": "他洗掉案卷上的污迹，署名栏才慢慢显出来。相同的证物出现了两次，第二次带着你的体温。",
-    "en": "He washes the stains from the case file. The same exhibit appears twice. The second is warm with your body heat."
+    "zh": "署名者用袖口垫着纸，免得汗洇开墨迹。他问你名字怎么写，听得十分认真。“总得有一回写对。”你还没答，他已在空栏里停下笔。那一笔的转弯，和你小时候的一模一样。",
+    "en": "The Signatory rests his cuff under the page so sweat will not blur the ink. He listens carefully to your name. “We ought to get it right once.” Before your answer, his pen stops in the blank field. Its small turn matches the handwriting you had as a child."
   },
   "星铸折面星客领誓·瑟玟": {
-    "zh": "白门后站着的人没有清晰的脸，袖口却有你刚留下的水迹。录音已经替他问过，谁把你带回了这里。",
-    "en": "The person beyond the white door has no clear face. Your fresh water stain marks his cuff. The tape has already asked for him: who brought you back here?"
+    "zh": "门后人扶住门沿，让你先走。他的袖子磨得发白，指节有一道搬家具留下的旧伤。“出去别急着关门。”门里飘来煮水声，你认得那只壶；壶把上缠的布，是你刚撕下的。",
+    "en": "The One Behind the Door holds the frame for you. His cuffs are worn pale, one knuckle scarred from moving furniture. “Do not shut it straight away.” A kettle boils beyond him. You know that kettle. Around its handle is the cloth you have only just torn off."
   },
   "鎏金·星铸折面星客领誓·瑟玟": {
-    "zh": "白门后站着的人没有清晰的脸，袖口却有你刚留下的水迹。你找到另一份结案页，订书钉下没有任何纸张。",
-    "en": "The person beyond the white door has no clear face. You find another closing sheet. Its staple holds no paper."
+    "zh": "门后人扶住门沿，让你先走。他的袖子磨得发白，指节有一道搬家具留下的旧伤。“出去别急着关门。”门里飘来煮水声，你认得那只壶；壶把上缠的布，是你刚撕下的。",
+    "en": "The One Behind the Door holds the frame for you. His cuffs are worn pale, one knuckle scarred from moving furniture. “Do not shut it straight away.” A kettle boils beyond him. You know that kettle. Around its handle is the cloth you have only just torn off."
   }
 }

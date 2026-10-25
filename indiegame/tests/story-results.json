@@ -59,6 +59,13 @@
     "passed": true
   },
   {
+    "name": "Every chapter remains readable to its final paragraph on portrait and landscape phones in both languages",
+    "passed": true,
+    "evidence": {
+      "readableChapterLayouts": 24
+    }
+  },
+  {
     "name": "No browser errors during story and legacy-save scenarios",
     "passed": true
   }

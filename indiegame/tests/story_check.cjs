@@ -101,6 +101,17 @@ const LEGACY_SAVE=JSON.parse(zlib.inflateSync(Buffer.from('eJztXVlT20ge/ypTqn30T
     await page.evaluate(()=>{difficulty='astral';STG.splice(0,STG.length,...CAMPAIGNS.astral.map(st=>({...st,dk:[]})));journey.cleared=6;G=window.storyTestGame;Object.assign(G,{lv:16,wins:16,st:STG[15],busy:0,identityRecorded:false});OV='clear';render()});
    }
   });
+  await check('Every chapter remains readable to its final paragraph on portrait and landscape phones in both languages',async()=>{
+   for(const[width,height]of[[320,568],[844,390]])for(const language of ['zh-CN','en'])for(const world of ['mire','brass','cinder','tide','frost','astral']){
+    await page.setViewportSize({width,height});
+    const expected=await page.evaluate(({language,world})=>{G=null;OV='title';journey.loops=0;difficulty=world;infoPanel='story';setGameLanguage(language);render();return storyChapter(world).text.split('\n').filter(Boolean).at(-1)},{language,world});
+    const last=page.locator('.story-drawer .drawer-scroll p').filter({hasText:expected}).last();await last.scrollIntoViewIfNeeded();
+    const box=await last.boundingBox();assert.ok(box&&box.x>=0&&box.x+box.width<=width+1&&box.y<height&&box.y+box.height>0,`${language}/${world} cannot reach its final paragraph`);
+    const storyText=await page.locator('.story-drawer').innerText();assert.ok(storyText.includes(expected));if(language==='en')assert.ok(!/[\u3400-\u9fff]/.test(storyText),storyText);
+    const close=page.locator('.story-drawer .drawer-head [data-a="closepanel"]');await close.click();assert.equal(await page.evaluate(()=>infoPanel),null);assert.ok(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth+1));
+   }
+   return {readableChapterLayouts:24};
+  });
   results.push({name:'No browser errors during story and legacy-save scenarios',passed:errors.length===0,...(errors.length?{errors}:{})});await context.close();
  }finally{fs.writeFileSync(path.join(__dirname,'story-results.json'),JSON.stringify(results,null,2)+'\n');await browser.close()}
  const failed=results.filter(r=>!r.passed);console.log(JSON.stringify({passed:results.length-failed.length,failed:failed.length}));assert.deepEqual(failed,[]);
