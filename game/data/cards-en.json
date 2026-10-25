@@ -1,0 +1,3954 @@
+{
+  "不死院恶魔": {
+    "name": "Asylum Demon",
+    "lore": "Guards the asylum exit, crushing anything before it with an enormous hammer."
+  },
+  "牛头恶魔": {
+    "name": "Taurus Demon",
+    "lore": "A bull-headed guardian atop the walls, swinging its axe with shattering force."
+  },
+  "羊头恶魔": {
+    "name": "Capra Demon",
+    "lore": "Rushes foes with twin blades while its hounds close off their escape."
+  },
+  "钟楼石像鬼": {
+    "name": "Bell Gargoyles",
+    "lore": "Twin guardians of the belfry, breathing fire and flying over the defense."
+  },
+  "月光蝶": {
+    "name": "Moonlight Butterfly",
+    "lore": "A magical creature floating above Darkroot Garden."
+  },
+  "裂口龙": {
+    "name": "Gaping Dragon",
+    "lore": "Its insatiable appetite has turned its chest and belly into a cavernous maw."
+  },
+  "魔女克拉格": {
+    "name": "Chaos Witch Quelaag",
+    "lore": "A gatekeeper formed from a chaos witch and a flaming spider."
+  },
+  "离群恶魔": {
+    "name": "Stray Demon",
+    "lore": "A demon beneath the asylum that strikes with explosive bursts of magic."
+  },
+  "铁傀儡": {
+    "name": "Iron Golem",
+    "lore": "A towering armored guardian at the summit of Sen's Fortress."
+  },
+  "奥恩斯坦": {
+    "name": "Dragonslayer Ornstein",
+    "lore": "The golden lion knight who hunted ancient dragons, striking with lightning-fast spear charges."
+  },
+  "斯莫": {
+    "name": "Executioner Smough",
+    "lore": "Anor Londo's executioner, who crushes his enemies beneath a massive hammer."
+  },
+  "三帖家族": {
+    "name": "Pinwheel",
+    "lore": "The three-faced necromancer of the Catacombs confounds intruders with copies of itself."
+  },
+  "墓王尼特": {
+    "name": "Gravelord Nito",
+    "lore": "The first of the dead, an immense gathering of bones and death itself."
+  },
+  "白龙希斯": {
+    "name": "Seath the Scaleless",
+    "lore": "A scaleless white dragon seeking immortality through the study of crystals."
+  },
+  "小隆德四王": {
+    "name": "Four Kings",
+    "lore": "Four ancient kings of New Londo, fallen into the Abyss and hungry for life."
+  },
+  "持续溃烂的生物": {
+    "name": "Ceaseless Discharge",
+    "lore": "Keeps vigil beside a grave in the lava, unable to bear the loss of his sister."
+  },
+  "恶魔火焰司祭": {
+    "name": "Demon Firesage",
+    "lore": "A chaos demon whose fiery spells engulf everything before it."
+  },
+  "百足恶魔": {
+    "name": "Centipede Demon",
+    "lore": "A gigantic demon that moves swiftly through molten lava."
+  },
+  "混沌的温床": {
+    "name": "Bed of Chaos",
+    "lore": "The uncontrolled Flame of Chaos has become a vast, tangled tree."
+  },
+  "巨狼希夫": {
+    "name": "Great Grey Wolf Sif",
+    "lore": "Wields her master's greatsword to guard the grave of Artorias."
+  },
+  "半龙普莉希拉": {
+    "name": "Crossbreed Priscilla",
+    "lore": "The half-dragon of the Painted World vanishes before striking with her scythe."
+  },
+  "格温多林": {
+    "name": "Dark Sun Gwyndolin",
+    "lore": "Guards the Darkmoon with illusions, volleys of arrows and sorcery."
+  },
+  "薪王葛温": {
+    "name": "Gwyn, Lord of Cinder",
+    "lore": "The burned-out Lord of Cinder still guards the First Flame with his blazing greatsword."
+  },
+  "圣兽": {
+    "name": "Sanctuary Guardian",
+    "lore": "Oolacile's winged guardian combines a venomous tail with bolts of lightning."
+  },
+  "亚尔特留斯": {
+    "name": "Knight Artorias",
+    "lore": "The wolf knight, consumed by the Abyss, still charges with his greatsword."
+  },
+  "卡拉米特": {
+    "name": "Black Dragon Kalameet",
+    "lore": "A one-eyed ancient dragon looks down upon the world with black flame and calamity."
+  },
+  "深渊之主马努斯": {
+    "name": "Manus, Father of the Abyss",
+    "lore": "Unrestrained humanity takes the form of an enormous beast within the Abyss."
+  },
+  "索拉尔": {
+    "name": "Solaire of Astora",
+    "lore": "A Warrior of Sunlight searching for a sun of his very own."
+  },
+  "西格迈尔": {
+    "name": "Siegmeyer of Catarina",
+    "lore": "An adventurer from Catarina in his unmistakable onion-shaped armor."
+  },
+  "西格琳德": {
+    "name": "Sieglinde of Catarina",
+    "lore": "A knight of Catarina searching for her father."
+  },
+  "奥斯卡": {
+    "name": "Oscar of Astora",
+    "lore": "An Astoran knight who entrusts his mission to another Undead."
+  },
+  "安德烈": {
+    "name": "Andre of Astora",
+    "lore": "A burly blacksmith forging weapons beside his anvil."
+  },
+  "巨人铁匠": {
+    "name": "Giant Blacksmith",
+    "lore": "Anor Londo's gentle giant is skilled at forging lightning weapons."
+  },
+  "梵摩斯": {
+    "name": "Vamos",
+    "lore": "A skeletal blacksmith in the Catacombs who forges weapons of flame."
+  },
+  "格里格斯": {
+    "name": "Griggs of Vinheim",
+    "lore": "A sorcerer trapped in the Lower Burg who teaches the foundations of sorcery."
+  },
+  "罗根": {
+    "name": "Big Hat Logan",
+    "lore": "A master sorcerer pursuing the secrets of crystal knowledge."
+  },
+  "劳伦提乌斯": {
+    "name": "Laurentius of the Great Swamp",
+    "lore": "A kind pyromancer from the Great Swamp who shares his knowledge of flame."
+  },
+  "克拉娜": {
+    "name": "Quelana of Izalith",
+    "lore": "A daughter of the Witch of Chaos who passes on the first pyromancies."
+  },
+  "恩吉": {
+    "name": "Eingyi",
+    "lore": "An egg-bearing servant who tends the white spider."
+  },
+  "白蜘蛛姬": {
+    "name": "The Fair Lady",
+    "lore": "A frail Daughter of Chaos who takes the suffering of others upon herself."
+  },
+  "雷雅": {
+    "name": "Reah of Thorolund",
+    "lore": "A maiden of Thorolund on a pilgrimage to the Tomb of the Giants."
+  },
+  "佩特鲁斯": {
+    "name": "Petrus of Thorolund",
+    "lore": "A Thorolund cleric armed with miracles and a shield."
+  },
+  "帕奇": {
+    "name": "Trusty Patches",
+    "lore": "This bald trickster always waits for the moment you least expect to push you into the abyss."
+  },
+  "阿斯特拉的安娜斯塔西亚": {
+    "name": "Anastacia of Astora",
+    "lore": "The silent Fire Keeper of Firelink Shrine."
+  },
+  "暗月女骑士": {
+    "name": "Darkmoon Knightess",
+    "lore": "A brass-armored Fire Keeper in the service of the Darkmoon."
+  },
+  "大弓手戈夫": {
+    "name": "Hawkeye Gough",
+    "lore": "Though blind, the greatbow knight can still bring down an ancient dragon by sound alone."
+  },
+  "王刃基亚兰": {
+    "name": "Lord's Blade Ciaran",
+    "lore": "One of Gwyn's Four Knights, striking with a pair of curved blades."
+  },
+  "卡利姆的奥斯瓦尔德": {
+    "name": "Oswald of Carim",
+    "lore": "The pardoner in the belfry bears witness to sins and covenants."
+  },
+  "弗拉姆特": {
+    "name": "Kingseeker Frampt",
+    "lore": "A primordial serpent guiding the Undead toward inheriting the flame."
+  },
+  "黑暗大蛇卡斯": {
+    "name": "Darkstalker Kaathe",
+    "lore": "A primordial serpent urging humanity to embrace the Age of Dark."
+  },
+  "不死镇商人": {
+    "name": "Male Undead Merchant",
+    "lore": "A Hollow merchant in a corner of the Undead Burg, keeping watch over his beloved blade."
+  },
+  "女亡灵商人": {
+    "name": "Female Undead Merchant",
+    "lore": "Sells moss and poisons from behind the bars of an aqueduct."
+  },
+  "多姆纳尔": {
+    "name": "Domhnall of Zena",
+    "lore": "A traveling merchant from Zena who collects unusual equipment."
+  },
+  "伊丽莎白": {
+    "name": "Elizabeth",
+    "lore": "A great mushroom who watches over Oolacile Sanctuary."
+  },
+  "黄王杰雷迈亚": {
+    "name": "Xanthous King Jeremiah",
+    "lore": "An invader in strange yellow robes, versed in chaos pyromancy."
+  },
+  "寇克": {
+    "name": "Kirk, Knight of Thorns",
+    "lore": "A thorn-armored knight who wounds enemies simply by rolling into them."
+  },
+  "魔女贝拉特": {
+    "name": "Witch Beatrice",
+    "lore": "A solitary witch who aids the Undead against the Moonlight Butterfly."
+  },
+  "不死院游魂": {
+    "name": "Asylum Hollow",
+    "lore": "A slow-moving Hollow whose strength lies in its numbers."
+  },
+  "持盾游魂士兵": {
+    "name": "Hollow Shield Soldier",
+    "lore": "An Undead Burg soldier who still remembers the habit of defending behind a shield."
+  },
+  "游魂弩兵": {
+    "name": "Hollow Crossbowman",
+    "lore": "Holds the high ground and fires at enemies passing through narrow paths."
+  },
+  "火把游魂": {
+    "name": "Torch Hollow",
+    "lore": "A lightly armored Hollow frantically swinging a torch."
+  },
+  "不死镇刺客": {
+    "name": "Undead Burg Assassin",
+    "lore": "A thief waiting around a corner to ambush travelers with a dagger."
+  },
+  "不死镇猎犬": {
+    "name": "Undead Attack Dog",
+    "lore": "Pursues fleeing prey with rapid, tearing bites."
+  },
+  "下水道老鼠": {
+    "name": "Sewer Rat",
+    "lore": "A venomous rat living among the foul waters below."
+  },
+  "大老鼠": {
+    "name": "Giant Rat",
+    "lore": "The swollen leader of the rats, grown fat on filth."
+  },
+  "结晶蜥蜴": {
+    "name": "Crystal Lizard",
+    "lore": "A tiny gemstone creature that glitters before trying to flee."
+  },
+  "蛙眼咒蛙": {
+    "name": "Basilisk",
+    "lore": "Beneath its false, enormous eyes, air sacs release a cloud of curse."
+  },
+  "恶臭肉团": {
+    "name": "Fetid Slime",
+    "lore": "Corrosive sludge dripping from the sewer ceiling."
+  },
+  "黑森林树人": {
+    "name": "Demonic Foliage",
+    "lore": "Disguises itself as brush before entangling travelers in its branches."
+  },
+  "蘑菇小人": {
+    "name": "Mushroom Child",
+    "lore": "A young mushroom wandering through the forest."
+  },
+  "蘑菇父母": {
+    "name": "Mushroom Parent",
+    "lore": "A single heavy punch can send a forest intruder reeling."
+  },
+  "森林石骑士": {
+    "name": "Stone Knight",
+    "lore": "Heavy stone armor and slowing magic leave little room for an opponent to move."
+  },
+  "巴勒德尔骑士": {
+    "name": "Balder Knight",
+    "lore": "A rapier-wielding knight of the Undead Parish, skilled in counterattacks."
+  },
+  "伯尼斯骑士": {
+    "name": "Berenike Knight",
+    "lore": "An enormous knight who presses the attack with thick armor and a heavy mace."
+  },
+  "黑骑士": {
+    "name": "Black Knight",
+    "lore": "A knight blackened by the flames of war at the Lord of Cinder's side."
+  },
+  "银骑士": {
+    "name": "Silver Knight",
+    "lore": "A silver-armored defender of the royal city, armed with sword, shield or dragonslayer spear."
+  },
+  "银骑士大弓手": {
+    "name": "Silver Knight Greatbowman",
+    "lore": "Guards the narrow ledges with great arrows meant for hunting dragons."
+  },
+  "骷髅剑士": {
+    "name": "Skeleton Swordsman",
+    "lore": "Its fallen bones can gather themselves and rise again."
+  },
+  "骷髅车轮": {
+    "name": "Bonewheel Skeleton",
+    "lore": "A skeleton tangled in a spiked wheel, charging at terrifying speed."
+  },
+  "死灵术士": {
+    "name": "Necromancer",
+    "lore": "Uses necromancy to restore the skeletons nearby."
+  },
+  "巨人骷髅": {
+    "name": "Giant Skeleton",
+    "lore": "A towering skeleton swinging a heavy weapon in the Tomb of the Giants."
+  },
+  "骷髅兽": {
+    "name": "Skeleton Beast",
+    "lore": "A four-legged skeleton that threatens travelers with sudden leaps."
+  },
+  "塞恩蛇人士兵": {
+    "name": "Man-Serpent Soldier",
+    "lore": "A serpent warrior guarding Sen's Fortress with a great blade and shield."
+  },
+  "塞恩蛇人法师": {
+    "name": "Man-Serpent Mage",
+    "lore": "Fires chains of lightning from narrow platforms."
+  },
+  "古城巨人": {
+    "name": "Sen's Fortress Giant",
+    "lore": "Hauls boulders and hurls firebombs from the fortress walls."
+  },
+  "楔形石恶魔": {
+    "name": "Titanite Demon",
+    "lore": "A headless, one-legged demon guarding treasure with a long catch pole and lightning."
+  },
+  "小隆德幽灵": {
+    "name": "New Londo Ghost",
+    "lore": "Passes through walls to surround visitors to the ruined city."
+  },
+  "吸魂鬼": {
+    "name": "Darkwraith",
+    "lore": "An abyssal knight who drains humanity with the Dark Hand."
+  },
+  "飞龙谷蓝飞龙": {
+    "name": "Valley Drake",
+    "lore": "A blue drake occupying the valley and breathing lightning."
+  },
+  "赤飞龙": {
+    "name": "Hellkite Drake",
+    "lore": "A red drake bathing the great bridge of the Undead Burg in fire."
+  },
+  "画中鸦人": {
+    "name": "Crow Demon",
+    "lore": "A crow-like inhabitant of the Painted World that dives from above."
+  },
+  "绘画守护者": {
+    "name": "Painting Guardian",
+    "lore": "A white-robed guardian defending the painting with a curved sword and throwing knives."
+  },
+  "绘画世界方阵": {
+    "name": "Painted World Phalanx",
+    "lore": "A gathering of shield-bearing masses of rotting flesh."
+  },
+  "画中毒瘤游魂": {
+    "name": "Engorged Hollow",
+    "lore": "A Hollow with a swollen head that releases toxic gas when it falls."
+  },
+  "恶魔遗迹岩虫": {
+    "name": "Rockworm",
+    "lore": "A stony fire worm erupting from the ground to block the lava paths."
+  },
+  "混沌吞噬者": {
+    "name": "Chaos Eater",
+    "lore": "A many-eyed creature in the pits of Izalith, waiting to swallow intruders."
+  },
+  "伊扎里斯无头龙下身": {
+    "name": "Bounding Demon of Izalith",
+    "lore": "The enormous lower body of a demon, trampling through lava without its upper half."
+  },
+  "水晶不死士兵": {
+    "name": "Undead Crystal Soldier",
+    "lore": "A soldier consumed by crystal who attacks with sharp crystalline blades."
+  },
+  "结晶巨偶": {
+    "name": "Crystal Golem",
+    "lore": "A giant formed of crystal, guarding the Duke's Archives."
+  },
+  "书库传道者": {
+    "name": "Channeler",
+    "lore": "Dances with a trident to strengthen the enemies around him."
+  },
+  "蛇女皮萨卡": {
+    "name": "Pisaca",
+    "lore": "An experiment in the Archives prison, weeping in the darkness."
+  },
+  "蛤蟆鳐": {
+    "name": "Crystal Cave Butterfly",
+    "lore": "An immense magical creature drifting above the Crystal Cave."
+  },
+  "深渊人性": {
+    "name": "Humanity Phantom",
+    "lore": "Humanity given a dark silhouette, drifting through the Abyss."
+  },
+  "乌拉席露市民": {
+    "name": "Oolacile Resident",
+    "lore": "A resident twisted by the Abyss, tearing at victims with elongated arms."
+  },
+  "乌拉席露魔法师": {
+    "name": "Oolacile Sorceress",
+    "lore": "A twisted sorcerer who fires dark orbs of condensed humanity."
+  },
+  "链锤囚徒": {
+    "name": "Chained Prisoner",
+    "lore": "An enormous prisoner bound in chains and burdened with a heavy flail."
+  },
+  "石制守卫": {
+    "name": "Stone Guardian",
+    "lore": "An ancient guardian bearing a stone hammer in the Royal Wood."
+  },
+  "皇家御苑剪枝工": {
+    "name": "Royal Wood Scarecrow",
+    "lore": "A wooden gardener wielding the tools of its trade."
+  },
+  "最后的巨人": {
+    "name": "The Last Giant",
+    "lore": "A giant imprisoned beneath the forest who tears off its own arm to use as a weapon."
+  },
+  "咒缚者": {
+    "name": "The Pursuer",
+    "lore": "A floating, heavily armored knight that hunts the Undead."
+  },
+  "猎龙人": {
+    "name": "Dragonrider",
+    "lore": "A heavily armored halberd guardian of Heide's Tower of Flame."
+  },
+  "古龙猎人": {
+    "name": "Old Dragonslayer",
+    "lore": "The lingering image of an ancient knight wielding a dragonslayer spear."
+  },
+  "流放罪执行者": {
+    "name": "Flexile Sentry",
+    "lore": "A two-sided creature fighting back to back in the darkness of a ship's hold."
+  },
+  "茫然卫兵": {
+    "name": "Ruin Sentinels",
+    "lore": "Guards without a purpose who continue their watch with long halberds."
+  },
+  "遗忘的罪人": {
+    "name": "The Lost Sinner",
+    "lore": "A self-imprisoned sinner wielding a burning blade in the dark."
+  },
+  "骷髅王": {
+    "name": "Skeleton Lords",
+    "lore": "Three lords who command their skeleton legions to rise again and again."
+  },
+  "刑吏的战车": {
+    "name": "Executioner's Chariot",
+    "lore": "A two-headed steed racing down the narrow corridors of a prison."
+  },
+  "贪婪恶魔": {
+    "name": "Covetous Demon",
+    "lore": "A vast glutton that crushes enemies beneath its own weight."
+  },
+  "毒妃米妲": {
+    "name": "Mytha, the Baneful Queen",
+    "lore": "A serpent queen clutching her severed head atop Earthen Peak."
+  },
+  "熔铁恶魔": {
+    "name": "Smelter Demon",
+    "lore": "An iron demon feeding the fire in its chest into an enormous sword."
+  },
+  "铁之古王": {
+    "name": "Old Iron King",
+    "lore": "An ancient king fused with lava, striking from a sea of flame."
+  },
+  "蝎子纳吉卡": {
+    "name": "Scorpioness Najka",
+    "lore": "A half-human, half-scorpion sorceress who lashes with twin tails and burrows into the sand."
+  },
+  "徘徊的术士与信徒": {
+    "name": "Prowling Magus and Congregation",
+    "lore": "A band of spellcasters trapped in a mad ritual in Brightstone Cove."
+  },
+  "公爵的芙蕾雅": {
+    "name": "The Duke's Dear Freja",
+    "lore": "A colossal two-headed spider guarding an ancient soul."
+  },
+  "鼠王先锋": {
+    "name": "Royal Rat Vanguard",
+    "lore": "A swarm of crypt rats defending the Rat King's domain with sheer numbers."
+  },
+  "鼠王试炼": {
+    "name": "Royal Rat Authority",
+    "lore": "A gigantic guardian beast of the Rat King that bars the way to intruders."
+  },
+  "腐败物": {
+    "name": "The Rotten",
+    "lore": "Countless corpses fused into a body that raises a butcher's cleaver."
+  },
+  "镜之骑士": {
+    "name": "Looking Glass Knight",
+    "lore": "A royal knight bearing a mirror shield, meeting challengers beneath a storm."
+  },
+  "歌唱恶魔": {
+    "name": "Demon of Song",
+    "lore": "A frog-like demon deep within the shrine, luring travelers with a borrowed voice."
+  },
+  "王盾韦施塔德": {
+    "name": "Velstadt, the Royal Aegis",
+    "lore": "A loyal retainer guarding his Hollow king with a great bell hammer."
+  },
+  "王兄安第尔": {
+    "name": "Aldia, Scholar of the First Sin",
+    "lore": "A scholar who has escaped the laws of life and death, appearing amid roots and flame."
+  },
+  "巨人王": {
+    "name": "Giant Lord",
+    "lore": "A king wielding a greatsword on the battlefield of the Giant War."
+  },
+  "王座守护者": {
+    "name": "Throne Defender",
+    "lore": "One of two throne guardians, meeting the enemy head-on behind a shield."
+  },
+  "王座监视者": {
+    "name": "Throne Watcher",
+    "lore": "One of two throne guardians, wielding a magical sword with nimble grace."
+  },
+  "娜香德拉": {
+    "name": "Nashandra",
+    "lore": "A queen born from a fragment of the Abyss, consumed by her desire for the throne."
+  },
+  "王城双猎龙人": {
+    "name": "Twin Dragonriders",
+    "lore": "A pair of halberd-bearing guardians defending Drangleic Castle."
+  },
+  "守护龙": {
+    "name": "Guardian Dragon",
+    "lore": "A red dragon circling within a giant cage and breathing fire."
+  },
+  "古龙": {
+    "name": "Ancient Dragon",
+    "lore": "An immense draconic being dwelling above the Dragon Shrine."
+  },
+  "芬德里克": {
+    "name": "Vendrick",
+    "lore": "The Hollow king of Drangleic, wandering his crypt without reason."
+  },
+  "黑暗潜伏者": {
+    "name": "Darklurker",
+    "lore": "A winged figure formed from abyssal darkness that splits itself to attack."
+  },
+  "沉眠之龙辛": {
+    "name": "Sinh, the Slumbering Dragon",
+    "lore": "An ancient dragon beneath Shulva, waking with a poisonous breath."
+  },
+  "秽污王妃艾雷娜": {
+    "name": "Elana, the Squalid Queen",
+    "lore": "A fragment of the Abyss whose song summons the dead and their guardians."
+  },
+  "冒险者三人组": {
+    "name": "Afflicted Graverobber and Companions",
+    "lore": "An ancient soldier, a graverobber and an antiquarian fighting as a complementary trio."
+  },
+  "烟之骑士雷姆": {
+    "name": "Fume Knight Raime",
+    "lore": "A knight bound to the ashes, fighting with a greatsword of black flame."
+  },
+  "骑士亚伦": {
+    "name": "Sir Alonne",
+    "lore": "An eastern knight who defends his old honor with a long blade and a swift draw."
+  },
+  "蓝色熔铁恶魔": {
+    "name": "Blue Smelter Demon",
+    "lore": "A Smelter Demon driven by magic rather than flame."
+  },
+  "白王的宠物艾娃": {
+    "name": "Aava, the King's Pet",
+    "lore": "An invisible frost tiger guarding the entrance to the royal city."
+  },
+  "灼烧的白王": {
+    "name": "Burnt Ivory King",
+    "lore": "A king who entered Chaos, raising a flaming sword for the final battle."
+  },
+  "王之宠物拉德与札连": {
+    "name": "Lud and Zallen, the King's Pets",
+    "lore": "Twin frost tigers guarding the Frigid Outskirts."
+  },
+  "绿衣巡礼者": {
+    "name": "Emerald Herald",
+    "lore": "A guide accompanying the Undead on the search for a throne."
+  },
+  "失心的索丹": {
+    "name": "Crestfallen Saulden",
+    "lore": "An armored warrior in Majula who has lost his purpose."
+  },
+  "露卡蒂尔": {
+    "name": "Lucatiel of Mirrah",
+    "lore": "A knight searching for her brother before her memories disappear."
+  },
+  "班哈特": {
+    "name": "Benhart of Jugo",
+    "lore": "A traveling warrior devoted to his ancestral blue greatsword."
+  },
+  "铁匠雷尼加兹": {
+    "name": "Blacksmith Lenigrast",
+    "lore": "A father who has set up his anvil in Majula."
+  },
+  "卖矿石的克洛亚娜": {
+    "name": "Stone Trader Chloanne",
+    "lore": "An ore merchant who has traveled to Majula in search of her father."
+  },
+  "铁匠麦道夫": {
+    "name": "Steady Hand McDuff",
+    "lore": "A prison blacksmith with an intense obsession with flame."
+  },
+  "防具商人玛夫穆兰": {
+    "name": "Maughlin the Armorer",
+    "lore": "An equipment merchant in Majula, gradually forgetting where he came from."
+  },
+  "行商梅伦提拉": {
+    "name": "Merchant Hag Melentia",
+    "lore": "An old woman with a heavy pack, selling the necessities of the road."
+  },
+  "制图师凯尔": {
+    "name": "Cale the Cartographer",
+    "lore": "Maps Drangleic from the basement of a house."
+  },
+  "甜蜜夏拉格": {
+    "name": "Sweet Shalquoir",
+    "lore": "A mysterious cat in Majula who watches the cycle turn."
+  },
+  "吉里甘": {
+    "name": "Laddersmith Gilligan",
+    "lore": "A craftsman whose ladders help travelers cross difficult heights."
+  },
+  "培特": {
+    "name": "Mild-Mannered Pate",
+    "lore": "Always smiling, he has a habit of guiding travelers straight into traps."
+  },
+  "克雷顿": {
+    "name": "Creighton the Wanderer",
+    "lore": "An escaped knight who pursues his enemies with an axe."
+  },
+  "林德的莉絮": {
+    "name": "Licia of Lindeldt",
+    "lore": "A cleric who hides her ambition behind the trade in miracles."
+  },
+  "卡里昂": {
+    "name": "Carhillion of the Fold",
+    "lore": "A scholar pursuing the power of sorcery at No-man's Wharf."
+  },
+  "罗莎贝丝": {
+    "name": "Rosabeth of Melfia",
+    "lore": "A petrified pyromancy student longing for new clothes and freedom."
+  },
+  "斯特雷德": {
+    "name": "Straid of Olaphis",
+    "lore": "A learned sorcerer from an ancient kingdom, trapped in stone."
+  },
+  "奥尼菲克斯": {
+    "name": "Weaponsmith Ornifex",
+    "lore": "An avian craftswoman who forges weapons from unique souls."
+  },
+  "费尔金": {
+    "name": "Felkin the Outcast",
+    "lore": "An exile devoted to the dark, studying both sorcery and miracles."
+  },
+  "巡礼者格兰达尔": {
+    "name": "Darkdiver Grandahl",
+    "lore": "Waits at the entrance to the ancient Abyss for those who seek the dark."
+  },
+  "温格之首": {
+    "name": "Head of Vengarl",
+    "lore": "A severed head that still tells travelers of the past."
+  },
+  "曼斯库匹恩塔克": {
+    "name": "Manscorpion Tark",
+    "lore": "A giant scorpion warrior who rejects blind hatred."
+  },
+  "宫廷魔术师纳瓦蓝": {
+    "name": "Royal Sorcerer Navlaan",
+    "lore": "A two-faced mage imprisoned in Aldia's Keep, testing travelers with sorcery and assassination requests."
+  },
+  "巫女雅莉珊卓": {
+    "name": "Alsanna, Silent Oracle",
+    "lore": "Changed by a fragment of the Abyss, this oracle still watches over the Ivory King."
+  },
+  "王城宰相韦拉格": {
+    "name": "Chancellor Wellager",
+    "lore": "A spectral chancellor who keeps his post at Drangleic Castle."
+  },
+  "持剑游魂步兵": {
+    "name": "Hollow Infantry Swordsman",
+    "lore": "One of the remaining foot soldiers in the Forest of Fallen Giants."
+  },
+  "持盾王国士兵": {
+    "name": "Royal Shield Soldier",
+    "lore": "A shield-bearing soldier who still holds position under old orders."
+  },
+  "森林火蜥蜴": {
+    "name": "Forest Flame Salamander",
+    "lore": "Lies in a cavern and spits an endless stream of fireballs."
+  },
+  "海德骑士": {
+    "name": "Heide Knight",
+    "lore": "A silent knight in white armor, armed with a lightning-infused weapon."
+  },
+  "古老骑士": {
+    "name": "Old Knight",
+    "lore": "A heavily armored guardian of the Tower of Flame, slow but unyielding."
+  },
+  "瓦兰吉水手": {
+    "name": "Varangian Sailor",
+    "lore": "A pirate of No-man's Wharf who greets enemies with continuous twin-blade slashes."
+  },
+  "暗影刺客": {
+    "name": "Suspicious Shadow",
+    "lore": "A lightly armored assassin who ambushes travelers at the docks."
+  },
+  "长臂暗栖者": {
+    "name": "Dark Stalker",
+    "lore": "A creature afraid of fire whose long arms command the paths of No-man's Wharf."
+  },
+  "王国剑士": {
+    "name": "Royal Swordsman",
+    "lore": "A soldier of the old kingdom, stationed in the Lost Bastille."
+  },
+  "爆炸游魂": {
+    "name": "Exploding Hollow",
+    "lore": "A deranged prisoner who hurls itself at an enemy before igniting its own body."
+  },
+  "囚笼狱卒": {
+    "name": "Bastille Jailer",
+    "lore": "Controls the corridors with a polearm and barrels of explosives."
+  },
+  "狩猎森林骷髅": {
+    "name": "Huntsman's Copse Skeleton",
+    "lore": "Gathers among the trees under the command of necromancers."
+  },
+  "双刀骷髅": {
+    "name": "Dual-Blade Skeleton",
+    "lore": "Closes the distance quickly before swinging a pair of curved swords."
+  },
+  "车轮骷髅": {
+    "name": "Skeleton Wheel",
+    "lore": "A skeleton turned into a fast rolling wheel, scraping through corridors."
+  },
+  "镰刀胖子": {
+    "name": "Scythe Wielder",
+    "lore": "A towering execution-ground guard sweeping enemies with a heavy scythe."
+  },
+  "狩猎森林施术者": {
+    "name": "Huntsman's Copse Necromancer",
+    "lore": "A spellcaster who revives skeletons from the shadows of the execution ground."
+  },
+  "巨型镰刀守卫": {
+    "name": "Giant Sickle Guard",
+    "lore": "A ponderous guard holding the narrow approach to Earthen Peak."
+  },
+  "沙之魔术师": {
+    "name": "Desert Sorceress",
+    "lore": "Casts pyromancies with a fiery fan and an alluring pose."
+  },
+  "毒角甲虫": {
+    "name": "Poison Horn Beetle",
+    "lore": "Crawls through the poisoned marshes, releasing toxic gas."
+  },
+  "猎犬鼠": {
+    "name": "Rat Hound",
+    "lore": "A vicious rat-like beast as large as a hound."
+  },
+  "狮子战士": {
+    "name": "Lion Warrior",
+    "lore": "A beastman in the Shaded Woods, advancing with an axe raised."
+  },
+  "无形盗贼": {
+    "name": "Invisible Rogue",
+    "lore": "A translucent blade-wielder hiding within the misty woods."
+  },
+  "马斯托顿战士": {
+    "name": "Mastodon Warrior",
+    "lore": "An elephant-headed warrior in heavy armor, guarding Drangleic Castle and the Doors of Pharros with a halberd."
+  },
+  "盖尔姆战士": {
+    "name": "Gyrm Warrior",
+    "lore": "A stocky warrior in thick armor, defending the Doors of Pharros with a heavy axe."
+  },
+  "盖尔姆投斧手": {
+    "name": "Gyrm Axe Thrower",
+    "lore": "Hurls enormous axes from above to seal off the passage."
+  },
+  "蜘蛛寄生人": {
+    "name": "Spider Host",
+    "lore": "A resident infested by Brightstone spiders."
+  },
+  "辉石蜘蛛": {
+    "name": "Brightstone Spider",
+    "lore": "A spider gathering with its brood on mine walls and rooftops."
+  },
+  "辉石法师": {
+    "name": "Brightstone Mage",
+    "lore": "A sorcerer of the mining town who commands soul magic."
+  },
+  "阿玛那祭司": {
+    "name": "Amana Priestess",
+    "lore": "Guards the flooded shrine with long-range, homing soul arrows."
+  },
+  "阿玛那异形": {
+    "name": "Amana Aberration",
+    "lore": "Lurks beneath the water, waiting for a chance to ambush its prey."
+  },
+  "王城石像士兵": {
+    "name": "Drangleic Stone Soldier",
+    "lore": "Awakens from the form of a statue when an intruder draws near."
+  },
+  "王城茫然卫兵": {
+    "name": "Drangleic Ruin Sentinel",
+    "lore": "A halberd-bearing construct hidden in a secret chamber."
+  },
+  "龙祭坛卫兵": {
+    "name": "Dragon Shrine Guardian",
+    "lore": "Defends the pilgrim's road with an enormous golden weapon."
+  },
+  "龙血骑士": {
+    "name": "Drakeblood Knight",
+    "lore": "Seeks dragon blood with a greatsword imbued with lightning and magic."
+  },
+  "萨尔瓦圣壁士兵": {
+    "name": "Sanctum Soldier",
+    "lore": "A soldier of Shulva, guarding the slumber of the ancient dragon."
+  },
+  "幽灵圣壁骑士": {
+    "name": "Sanctum Knight Phantom",
+    "lore": "Keeps a spectral body while its true remains lie elsewhere."
+  },
+  "黑魔女": {
+    "name": "Leydia Witch",
+    "lore": "Uses dark magic against those who enter the Undead Crypt."
+  },
+  "无礼者": {
+    "name": "Imperious Knight",
+    "lore": "A shield-bearing undead guard watching over the graves."
+  },
+  "铁龟战士": {
+    "name": "Ironclad Soldier",
+    "lore": "A thick backplate protects this armored soldier from attacks from behind."
+  },
+  "亚伦骑士": {
+    "name": "Alonne Knight",
+    "lore": "An eastern swordsman serving in the Iron Keep."
+  },
+  "亚伦骑士长": {
+    "name": "Alonne Knight Captain",
+    "lore": "A red-armored captain who can fire a greatbow from afar."
+  },
+  "铁牢火术师": {
+    "name": "Iron Keep Pyromancer",
+    "lore": "A spellcaster in the Iron Keep, projecting flames from a long staff."
+  },
+  "灰烬战士": {
+    "name": "Ashen Warrior",
+    "lore": "A gray warrior who repeatedly gathers for battle in Brume Tower."
+  },
+  "熔铁士兵": {
+    "name": "Fume Soldier",
+    "lore": "A cast-iron swordsman serving within the tower."
+  },
+  "持巨锤熔铁战士": {
+    "name": "Iron Warrior",
+    "lore": "Shatters intruders with a blazing great hammer."
+  },
+  "冰冻士兵": {
+    "name": "Frozen Soldier",
+    "lore": "A loyal soldier of the old, frozen royal city."
+  },
+  "冰冻刺猬": {
+    "name": "Frozen Hedgehog",
+    "lore": "An ice-covered spiny beast that rolls into enemies."
+  },
+  "无形战士": {
+    "name": "Invisible Warrior",
+    "lore": "An outlying guardian whose form is hidden by snow and wind."
+  },
+  "卡利姆的罗德里克": {
+    "name": "Knight Lautrec of Carim",
+    "lore": "A favored knight who wields paired shotels and covets the Fire Keeper's soul. His base Attack is normally 0. It becomes 3 only while the living enemy directly opposite has 0 Attack. Against an empty lane or a foe with nonzero Attack, his base Attack remains 0. Additional Attack bonuses are counted separately: he excels at striking the defenseless."
+  },
+  "守墓人亚格德蓝": {
+    "name": "Grave Warden Agdayne",
+    "lore": "Guards the entrance to the Undead Crypt and teaches hexes, warning travelers not to disturb the dead."
+  },
+  "方阵": {
+    "name": "Phalanx",
+    "lore": "Shield-bearing slimes gather into a formation with a formidable front line."
+  },
+  "塔楼骑士": {
+    "name": "Tower Knight",
+    "lore": "An immense shield and spear seal off the front, while heavy footsteps press the battle line."
+  },
+  "贯穿骑士": {
+    "name": "Penetrator",
+    "lore": "A long sword pierces the defense, driving targets back with powerful thrusts."
+  },
+  "拦路恶魔": {
+    "name": "Vanguard Demon",
+    "lore": "A demon wielding a giant axe, using heavy blows to dominate a narrow path."
+  },
+  "旧日勇士": {
+    "name": "Old Hero",
+    "lore": "A blind warrior of antiquity who swings his great blade at the sound of his enemy."
+  },
+  "食人鬼": {
+    "name": "Maneaters",
+    "lore": "Winged stone demons circling the narrow bridges of the high tower."
+  },
+  "伪王欧兰特": {
+    "name": "False King Allant",
+    "lore": "A false king who steals souls, overwhelming foes with swift swordplay and dark power."
+  },
+  "老王欧兰特": {
+    "name": "King Allant",
+    "lore": "A king devoured by demonic power, stripped of his former majesty."
+  },
+  "铠甲蜘蛛": {
+    "name": "Armor Spider",
+    "lore": "Weaves fire and webs together, turning the mine tunnel into a burning trap."
+  },
+  "炎魔": {
+    "name": "Flamelurker",
+    "lore": "A fiery demon in the depths of the mine, charging furiously when enraged."
+  },
+  "龙神": {
+    "name": "Dragon God",
+    "lore": "An immense dragon whose searing breath destroys everything in its path."
+  },
+  "愚者的偶像": {
+    "name": "Fool's Idol",
+    "lore": "Creates illusory copies to confuse intruders as spells strike from many directions."
+  },
+  "黄衣老者": {
+    "name": "Old Monk",
+    "lore": "A host to the yellow robes who tests challengers with sorcery and close combat."
+  },
+  "风暴王": {
+    "name": "Storm King",
+    "lore": "An enormous flying demon commanding the airborne storm beasts."
+  },
+  "审判者": {
+    "name": "Adjudicator",
+    "lore": "Its enormous body endures attacks while its long tongue and blade pursue prey."
+  },
+  "吸血虫聚合体": {
+    "name": "Leechmonger",
+    "lore": "A creature made from leeches, using its swarms to mend its wounds."
+  },
+  "污秽巨像": {
+    "name": "Dirty Colossus",
+    "lore": "A hulking mass of filth that unleashes swarms of insects to befoul the battlefield."
+  },
+  "少女阿斯特蕾亚": {
+    "name": "Maiden Astraea",
+    "lore": "Saves the abandoned through miracles, her prayers carrying the power to heal."
+  },
+  "黑衣少女": {
+    "name": "Maiden in Black",
+    "lore": "Guides the power of souls and offers aid to those who have lost their way."
+  },
+  "要人": {
+    "name": "The Monumental",
+    "lore": "A watcher over the Nexus who speaks of an ancient duty."
+  },
+  "圣者于尔班": {
+    "name": "Saint Urbain",
+    "lore": "A saint who teaches miracles and gives support through faith."
+  },
+  "于尔班的信徒": {
+    "name": "Disciple of God",
+    "lore": "A follower of the saint who guards their faith in miracles."
+  },
+  "瑟琳·文兰": {
+    "name": "Selen Vinland",
+    "lore": "A knight searching for her brother, sustained by devout faith."
+  },
+  "加尔·文兰": {
+    "name": "Garl Vinland",
+    "lore": "Guards the maiden to the very end with a giant hammer and a dark silver shield."
+  },
+  "托马斯": {
+    "name": "Stockpile Thomas",
+    "lore": "A storekeeper who watches over the belongings of travelers."
+  },
+  "铁匠鲍德温": {
+    "name": "Blacksmith Boldwin",
+    "lore": "An elderly blacksmith who repairs and forges weapons in the Nexus."
+  },
+  "铁匠艾德": {
+    "name": "Blacksmith Ed",
+    "lore": "A blacksmith of Stonefang Tunnel, skilled in forging unusual weapons."
+  },
+  "颓丧战士": {
+    "name": "Crestfallen Warrior",
+    "lore": "A dejected warrior sitting in the Nexus, gradually losing the will to fight."
+  },
+  "奥斯特拉瓦": {
+    "name": "Ostrava of Boletaria",
+    "lore": "A prince wandering the royal city, protecting himself with sword and shield."
+  },
+  "比约尔": {
+    "name": "Biorr of the Twin Fangs",
+    "lore": "A heavily armored Twin Fang knight who supports challengers with greatsword, shield and crossbow."
+  },
+  "老王多兰": {
+    "name": "Old King Doran",
+    "lore": "An ancient warrior in heavy armor, guarding the royal mausoleum."
+  },
+  "米兰达": {
+    "name": "Executioner Miralda",
+    "lore": "An axe-wielding executioner who hunts intruders deep within the royal city."
+  },
+  "斯克维尔": {
+    "name": "Scirvir, the Wanderer",
+    "lore": "A wanderer seeking rare ores, familiar with the secrets of the tunnels."
+  },
+  "五月": {
+    "name": "Satsuki",
+    "lore": "A swordsman seeking a cursed blade, willing to stake his life on his obsession."
+  },
+  "恶魂·帕奇": {
+    "name": "Patches, the Hyena",
+    "lore": "A merchant living by traps and lies, skilled at trading places when it suits him."
+  },
+  "肮脏男人": {
+    "name": "Filthy Man",
+    "lore": "An ore merchant in Stonefang Tunnel."
+  },
+  "肮脏女人": {
+    "name": "Filthy Woman",
+    "lore": "A merchant in the Valley of Defilement who knows its foul ground well."
+  },
+  "王城奴隶商人": {
+    "name": "Dregling Merchant",
+    "lore": "A merchant hiding in the royal city, selling supplies for survival."
+  },
+  "墓掘者布莱吉": {
+    "name": "Graverobber Blige",
+    "lore": "A merchant imprisoned at the Shrine of Storms, familiar with the underground paths."
+  },
+  "闪闪鸟": {
+    "name": "Sparkly the Crow",
+    "lore": "A mysterious bird who trades gifts for bright and shiny things."
+  },
+  "尤特": {
+    "name": "Yurt, the Silent Chief",
+    "lore": "A silent assassin who finds openings and strikes without a sound."
+  },
+  "梅菲斯托费勒": {
+    "name": "Mephistopheles",
+    "lore": "A mysterious visitor who plans assassinations and purchases willing blades."
+  },
+  "魔女尤莉亚": {
+    "name": "Yuria the Witch",
+    "lore": "An imprisoned witch who turns demon souls into powerful magic."
+  },
+  "贤者弗瑞克": {
+    "name": "Sage Freke",
+    "lore": "A sage studying soul sorcery, adept at directing magical power."
+  },
+  "弗瑞克的徒弟": {
+    "name": "Freke's Apprentice",
+    "lore": "Teaches basic spells in the Nexus while following the sage's research."
+  },
+  "雷德尔": {
+    "name": "Lord Rydell",
+    "lore": "An imprisoned soul noble, wielding a phosphorescent pole."
+  },
+  "前王室贵妇": {
+    "name": "Once Royal Mistress",
+    "lore": "Sings within the Tower of Latria and sells supplies for survival."
+  },
+  "柏雷塔尼亚士兵": {
+    "name": "Boletarian Soldier",
+    "lore": "A royal soldier armed with sword and shield, forming the basic defensive line."
+  },
+  "王城弩兵": {
+    "name": "Boletarian Crossbowman",
+    "lore": "Fires bolts from afar, searching for openings behind the front line."
+  },
+  "柏雷塔尼亚亡者": {
+    "name": "Boletarian Dregling",
+    "lore": "A maddened resident of the royal city, swinging a broken weapon."
+  },
+  "王城猎犬": {
+    "name": "Boletarian Hound",
+    "lore": "A swift hound that leaps upon intruders with its pack."
+  },
+  "矿工": {
+    "name": "Scale Miner",
+    "lore": "A laborer of Stonefang Tunnel who resists intruders with a pickaxe."
+  },
+  "拉托利亚囚徒": {
+    "name": "Latria Prisoner",
+    "lore": "A prisoner trapped in the tower cells, slowly approaching outsiders."
+  },
+  "骷髅弓手": {
+    "name": "Skeleton Archer",
+    "lore": "A skeletal archer firing from afar, whose bones may remain even after death."
+  },
+  "巨大蜱虫": {
+    "name": "Giant Tick",
+    "lore": "Its swollen body blocks the paths through the Valley of Defilement."
+  },
+  "软泥怪": {
+    "name": "Sludge",
+    "lore": "A viscous body that withstands slashes and slowly consumes intruders."
+  },
+  "火蜥蜴": {
+    "name": "Fire Lizard",
+    "lore": "Crawls along the scorching mine walls and drives enemies away with flame."
+  },
+  "熔岩虫": {
+    "name": "Lava Worm",
+    "lore": "A heat-resistant insect guarding the lava paths within the mine."
+  },
+  "影人": {
+    "name": "Shadowlurker",
+    "lore": "A dark figure summoned by a Reaper at the shrine, sustained by its caster."
+  },
+  "拉托利亚石像鬼": {
+    "name": "Latria Gargoyle",
+    "lore": "A winged stone creature of Latria, swooping through the narrow passages."
+  },
+  "风暴兽": {
+    "name": "Storm Beast",
+    "lore": "Circles above the Shrine of Storms, hurling spikes toward the ground."
+  },
+  "腐朽谷堕落者": {
+    "name": "Depraved One",
+    "lore": "A defiled resident of the valley, attacking in groups with crude weapons."
+  },
+  "巨型蛞蝓": {
+    "name": "Giant Slug",
+    "lore": "An enormous mollusk gathering in the wetlands of the Valley of Defilement."
+  },
+  "瘟疫鼠": {
+    "name": "Plague Rat",
+    "lore": "A rat gathering in filthy corners and spreading disease."
+  },
+  "蚊群": {
+    "name": "Mosquito Swarm",
+    "lore": "Bloodsucking insects of the Valley of Defilement that cling to their prey."
+  },
+  "蓝眼骑士": {
+    "name": "Blue Eye Knight",
+    "lore": "A shield-bearing knight of Boletaria, using a firm stance to hold off attacks."
+  },
+  "红眼骑士": {
+    "name": "Red Eye Knight",
+    "lore": "An elite Boletarian knight, dangerous in both skill and armor."
+  },
+  "王城密探": {
+    "name": "Imperial Spy",
+    "lore": "A swift assassin hidden in the shadows, striking with short blades."
+  },
+  "银色骷髅": {
+    "name": "Silver Skeleton",
+    "lore": "A nimble sword-and-shield skeleton that rolls toward its enemies and shifts position."
+  },
+  "金色骷髅": {
+    "name": "Gold Skeleton",
+    "lore": "An enormous skeleton with two heavy blades, overwhelming foes with force."
+  },
+  "黑色骷髅": {
+    "name": "Black Skeleton",
+    "lore": "An elite skeleton with twin swords, relentlessly pursuing its enemies."
+  },
+  "巨大堕落者": {
+    "name": "Giant Depraved One",
+    "lore": "An enormous valley resident blocking the passage with a heavy club."
+  },
+  "夺心魔": {
+    "name": "Mind Flayer",
+    "lore": "Hunts prisoners with bells and binding spells, its tentacles a deadly threat."
+  },
+  "死神": {
+    "name": "Reaper",
+    "lore": "A scythe-bearing mage who commands specters; its fall ends their summoning."
+  },
+  "肥胖官员": {
+    "name": "Fat Official",
+    "lore": "A cruel royal enforcer, casting fireballs and swinging a battle axe."
+  },
+  "红龙": {
+    "name": "Red Dragon",
+    "lore": "Circles the bridges of Boletaria, bathing the road in dragonfire."
+  },
+  "蓝龙": {
+    "name": "Blue Dragon",
+    "lore": "Dwells deep within Boletaria, halting any advance with searing dragonfire."
+  },
+  "不死人": {
+    "name": "Undead",
+    "lore": "The Undead's fighting style combines Fire with the sacrifice system."
+  },
+  "巨鸦": {
+    "name": "Giant Crow",
+    "lore": "The giant crow's fighting style combines Dark with the sacrifice system."
+  },
+  "骷髅": {
+    "name": "Skeleton",
+    "lore": "The skeleton's fighting style combines Dark with the sacrifice system."
+  },
+  "比欧": {
+    "name": "Biorr",
+    "lore": "Biorr's fighting style combines Physical damage with the sacrifice system."
+  },
+  "弗雷克": {
+    "name": "Freke",
+    "lore": "Freke's fighting style combines Light with the sacrifice system."
+  },
+  "乌尔班": {
+    "name": "Urbain",
+    "lore": "Urbain's fighting style combines Dark with the sacrifice system."
+  },
+  "老王奥兰特": {
+    "name": "Old King Allant",
+    "lore": "Old King Allant's fighting style combines Dark with the sacrifice system."
+  },
+  "亡者": {
+    "name": "Hollow",
+    "lore": "The Hollow's fighting style combines Physical damage with the sacrifice system."
+  },
+  "追逐者": {
+    "name": "Pursuer",
+    "lore": "The Pursuer's fighting style combines Dark with the sacrifice system."
+  },
+  "亡灵商人": {
+    "name": "Undead Merchant",
+    "lore": "The Undead Merchant's fighting style combines Dark with the sacrifice system."
+  },
+  "食尸虫": {
+    "name": "Carrion Worm",
+    "lore": "The carrion worm's fighting style combines Dark with the sacrifice system."
+  },
+  "游荡亡者": {
+    "name": "Wandering Hollow",
+    "lore": "The wandering Hollow's fighting style combines Physical damage with the sacrifice system."
+  },
+  "灵体": {
+    "name": "Soul Remnant",
+    "lore": "The soul remnant's fighting style combines Dark with the sacrifice system."
+  },
+  "盲眼亡者": {
+    "name": "Blind Hollow",
+    "lore": "The blind Hollow's fighting style combines Physical damage with the sacrifice system."
+  },
+  "公爵的芙蕾雅·金辉": {
+    "name": "Gilded The Duke's Dear Freja",
+    "lore": "The spider matriarch, the Duke's Dear Freja, shelters her unhatched brood in gilded silk. Even when their mother falls, her spiderlings keep watch over the nest."
+  },
+  "亚尔特留斯·金辉": {
+    "name": "Gilded Knight Artorias",
+    "lore": "With every kill, the wolf knight reclaims a fragment of his lost resolve. His battered greatsword grows fiercer with each battle."
+  },
+  "塔楼骑士·金辉": {
+    "name": "Gilded Tower Knight",
+    "lore": "His raised shield reflects the golden light of the ancient royal city. Even wings that soar over its walls find nowhere to hide."
+  },
+  "月光蝶·金辉": {
+    "name": "Gilded Moonlight Butterfly",
+    "lore": "Moonlight gathers into gold upon the butterfly's wings, and arcane power drifts above the blades below."
+  },
+  "薪王葛温·金辉": {
+    "name": "Gilded Gwyn, Lord of Cinder",
+    "lore": "The last thread of the First Flame slips from the king's palm, giving those who follow a little more warmth and life."
+  },
+  "墓王尼特·金辉": {
+    "name": "Gilded Gravelord Nito",
+    "lore": "Countless bones sink into the long night, yet one golden ember refuses to go out and keeps watch where they fell."
+  },
+  "灼烧的白王·金辉": {
+    "name": "Gilded Burnt Ivory King",
+    "lore": "The Ivory King enters Chaos once more. His armor becomes kindling, so that the lives behind him need not fade with his own."
+  },
+  "贯穿骑士·金辉": {
+    "name": "Gilded Penetrator",
+    "lore": "His long sword parts the golden dust of battle. Every fallen defender makes the next charge more resolute."
+  },
+  "风暴王·金辉": {
+    "name": "Gilded Storm King",
+    "lore": "Golden lightning sweeps along vast wings. When the storm passes, a new fate falls into your hand."
+  },
+  "少女阿斯特蕾亚·金辉": {
+    "name": "Gilded Maiden Astraea",
+    "lore": "Even in the depths of corruption, someone remains gentle. The golden light she leaves behind abandons none of the wounded."
+  },
+  "老王奥兰特·金辉": {
+    "name": "Gilded Old King Allant",
+    "lore": "Golden light coils around a broken crown. Though his form is lost, the king still reaches for the last thread of a visitor's soul."
+  },
+  "不死院恶魔·金辉": {
+    "name": "Gilded Asylum Demon",
+    "lore": "The gatekeeper's hammer gleams with old gold. Each crashing blow beats every thought of escape back into the dust."
+  },
+  "追逐者·金辉": {
+    "name": "Gilded Pursuer",
+    "lore": "Floating armor casts a golden shadow. Shield and greatsword catch those who thought they had escaped the curse."
+  },
+  "镜之骑士·金辉": {
+    "name": "Gilded Looking Glass Knight",
+    "lore": "The mirror shield returns broken gold to the one who swings the blade. In the downpour, its reflection still studies every hesitation for the throne."
+  },
+  "铠甲蜘蛛·金辉": {
+    "name": "Gilded Armor Spider",
+    "lore": "Molten gold coats the spider's shell in the mine tunnel. When the mother falls, tiny golden footsteps still fill the way back."
+  },
+  "深渊之主马努斯·金辉": {
+    "name": "Gilded Manus, Father of the Abyss",
+    "lore": "Surging humanity swallows the faintest gold. A huge arm drives darkness forward and drags the fallen warrior's obsession back into the depths."
+  },
+  "熔铁恶魔·金辉": {
+    "name": "Gilded Smelter Demon",
+    "lore": "Molten gold runs through the cracks of its armor. Every blade that touches it remembers the furnace has not yet cooled."
+  },
+  "烟之骑士雷姆·金辉": {
+    "name": "Gilded Fume Knight Raime",
+    "lore": "Ashes brighten the heavy black sword. The oath to guard the old king is spent; every remaining blow claims blood for the smoldering fire."
+  },
+  "奥斯卡·金辉": {
+    "name": "Gilded Oscar of Astora",
+    "lore": "The last Estus Flask has already been given away. The knight's unextinguished soul still leaves hope for those who come after."
+  },
+  "牛头恶魔·金辉": {
+    "name": "Gilded Taurus Demon",
+    "lore": "Golden light crosses the battlements as a heavy axe sweeps through the wind toward anyone bold enough to climb the tower."
+  },
+  "钟楼石像鬼·金辉": {
+    "name": "Gilded Bell Gargoyles",
+    "lore": "Before the bell falls silent, twin wings kindle anew in golden light. The belfry's guardians refuse to let the road grow still."
+  },
+  "帕奇·金辉": {
+    "name": "Gilded Trusty Patches",
+    "lore": "This bald trickster always waits for the moment you least expect to push you into the abyss. Now even his kicking boots are plated in gold."
+  },
+  "索拉尔·金辉": {
+    "name": "Gilded Solaire of Astora",
+    "lore": "The sun's golden light shines on a knight with arms raised high. Praise the sun, and praise those who still stand beside you."
+  },
+  "魔女克拉格·金辉": {
+    "name": "Gilded Chaos Witch Quelaag",
+    "lore": "The fire of Chaos spreads along her enchanted blade. She still guards the road that leads to her sister."
+  },
+  "铁傀儡·金辉": {
+    "name": "Gilded Iron Golem",
+    "lore": "The iron wall of Sen's Fortress wears a golden sheen. Even the heaviest weapons struggle to move it."
+  },
+  "奥恩斯坦·金辉": {
+    "name": "Gilded Dragonslayer Ornstein",
+    "lore": "A golden lion helm reflects dragonslaying lightning. Between the swift step and the spear, there is no moment to breathe."
+  },
+  "斯莫·金辉": {
+    "name": "Gilded Executioner Smough",
+    "lore": "The great hammer falls, lifting golden light and dust together. The executioner's laughter still echoes through the hall."
+  },
+  "卡拉米特·金辉": {
+    "name": "Gilded Black Dragon Kalameet",
+    "lore": "The eye of calamity opens in golden light. A curse feared even by ancient dragons descends once more."
+  },
+  "最后的巨人·金辉": {
+    "name": "Gilded The Last Giant",
+    "lore": "Rage nailed to the past turns to gold. The severed arm remains his final weapon."
+  },
+  "流放罪执行者·金辉": {
+    "name": "Gilded Flexile Sentry",
+    "lore": "Golden light passes over the executioner's blades. In the hold below, there is no other side left to hide behind."
+  },
+  "遗忘的罪人·金辉": {
+    "name": "Gilded The Lost Sinner",
+    "lore": "She raises the shackles she chose for herself. The golden light illuminates only the sin she wishes forgotten."
+  },
+  "骷髅王·金辉": {
+    "name": "Gilded Skeleton Lords",
+    "lore": "Bones rattle softly beneath the thrones. The gilded dead are still waiting for the next command."
+  },
+  "毒妃米妲·金辉": {
+    "name": "Gilded Mytha, the Baneful Queen",
+    "lore": "The poison pool reflects a golden crown. She still believes her severed beauty will earn a glance from the king."
+  },
+  "铁之古王·金辉": {
+    "name": "Gilded Old Iron King",
+    "lore": "Lava bears up a fallen crown. Even gold cannot fill the fractures left by the iron kingdom's collapse."
+  },
+  "腐败物·金辉": {
+    "name": "Gilded The Rotten",
+    "lore": "Abandoned bodies join together in golden light. Every outstretched hand refuses to sink alone again."
+  },
+  "娜香德拉·金辉": {
+    "name": "Gilded Nashandra",
+    "lore": "Desire approaches the throne dressed in gold. The fragment of darkness still craves a flame that was never hers."
+  },
+  "王兄安第尔·金辉": {
+    "name": "Gilded Aldia, Scholar of the First Sin",
+    "lore": "A flame beyond life, death and thrones asks from within its golden light: if there is no path, where will you go?"
+  },
+  "骑士亚伦·金辉": {
+    "name": "Gilded Sir Alonne",
+    "lore": "An eastern blade reflects a solitary golden gleam. The knight still waits for a duel that leaves no room for excuses."
+  },
+  "灰烬审判者古达": {
+    "name": "Iudex Gundyr",
+    "lore": "The judge guarding the path to Firelink erupts with the Pus of Man hidden within him."
+  },
+  "冷冽谷的玻尔多": {
+    "name": "Vordt of the Boreal Valley",
+    "lore": "A four-legged outrider knight corrupted by the Pontiff's ring."
+  },
+  "咒蚀大树": {
+    "name": "Curse-rotted Greatwood",
+    "lore": "The great tree bears the settlement's curses, with swollen growths marking its weak points."
+  },
+  "结晶老者": {
+    "name": "Crystal Sage",
+    "lore": "Crystal sorcery and illusory doubles give this sage control of the battlefield."
+  },
+  "幽邃主教群": {
+    "name": "Deacons of the Deep",
+    "lore": "The congregation prays together, passing the power of the Deep to its archdeacon."
+  },
+  "深渊守望者": {
+    "name": "Abyss Watchers",
+    "lore": "Warriors bound by wolf blood slaughter one another, then rise together in flame."
+  },
+  "霸王沃尼尔": {
+    "name": "High Lord Wolnir",
+    "lore": "The skeletal ruler swallowed by the Abyss clings to sacred bracelets to hold his body together."
+  },
+  "老恶魔王": {
+    "name": "Old Demon King",
+    "lore": "An ancient demon king survives into the fading age of Chaos."
+  },
+  "教宗沙力万": {
+    "name": "Pontiff Sulyvahn",
+    "lore": "The Pontiff wields two blades of judgment and summons a dark double to attack beside him."
+  },
+  "吞噬神明的艾尔德利奇": {
+    "name": "Aldrich, Devourer of Gods",
+    "lore": "The god-devouring sludge casts spells through the body of a god of the Darkmoon."
+  },
+  "巨人尤姆": {
+    "name": "Yhorm the Giant",
+    "lore": "The guilt-laden giant Lord of Cinder keeps watch over the throne of a ruined capital."
+  },
+  "冷冽谷的舞娘": {
+    "name": "Dancer of the Boreal Valley",
+    "lore": "Slow, measured steps turn suddenly into long, relentless combinations of twin blades."
+  },
+  "妖王欧斯罗艾斯": {
+    "name": "Oceiros, the Consumed King",
+    "lore": "His obsession with draconic power transformed him into a blind, dragonlike creature."
+  },
+  "英雄古达": {
+    "name": "Champion Gundyr",
+    "lore": "Untouched by the Abyss, Gundyr overwhelms opponents with halberd strikes and brutal close combat."
+  },
+  "猎龙铠甲": {
+    "name": "Dragonslayer Armour",
+    "lore": "A suit of heavy dragonslaying armor animated by the Pilgrim Butterflies."
+  },
+  "洛斯里克王子": {
+    "name": "Lothric, Younger Prince",
+    "lore": "The younger prince rejects the linking of the fire and aids his brother with miracles."
+  },
+  "洛里安": {
+    "name": "Lorian, Elder Prince",
+    "lore": "Though his legs have failed him, the elder prince teleports to swing a flaming greatsword."
+  },
+  "古老飞龙": {
+    "name": "Ancient Wyvern",
+    "lore": "A fire-breathing wyvern blocks the road through Archdragon Peak."
+  },
+  "无名王者": {
+    "name": "Nameless King",
+    "lore": "An ancient god of war and dragonslayer who allied himself with a storm drake."
+  },
+  "薪王们的化身": {
+    "name": "Soul of Cinder",
+    "lore": "The lingering arts of all who linked the fire unite in its final guardian."
+  },
+  "王者守墓人": {
+    "name": "Champion's Gravetender",
+    "lore": "With valor and a greatwolf at his side, he guards a grave within the painting."
+  },
+  "守墓大狼": {
+    "name": "Gravetender Greatwolf",
+    "lore": "A greatwolf that charges across the snowfields at terrifying speed."
+  },
+  "修女芙莉德": {
+    "name": "Sister Friede",
+    "lore": "Her unseen frost scythe and black flame keep the painting from burning."
+  },
+  "教父艾雷德尔": {
+    "name": "Father Ariandel",
+    "lore": "Clutching his great basin, the father calls the sister back amid the flames."
+  },
+  "恶魔王子": {
+    "name": "Demon Prince",
+    "lore": "The last embers of demonkind gather in a final prince who spreads his wings."
+  },
+  "教堂之枪哈尔弗莱特": {
+    "name": "Halflight, Spear of the Church",
+    "lore": "He protects the sleeping princess with a spear and a painted curved sword."
+  },
+  "黑龙米狄尔": {
+    "name": "Darkeater Midir",
+    "lore": "The ancient dragon that endured the dark breathes destruction deep within the Ringed City."
+  },
+  "盖尔": {
+    "name": "Slave Knight Gael",
+    "lore": "The old knight who reached the world's end carries the blood of the Dark Soul."
+  },
+  "防火女": {
+    "name": "Fire Keeper",
+    "lore": "The Fire Keeper of Firelink Shrine transforms souls into strength."
+  },
+  "霍克伍德": {
+    "name": "Hawkwood the Deserter",
+    "lore": "A crestfallen deserter who abandoned the covenant of the wolf's blood."
+  },
+  "铁匠安德烈": {
+    "name": "Andre the Blacksmith",
+    "lore": "After countless years, he still forges weapons for the Unkindled."
+  },
+  "祭祀场侍女": {
+    "name": "Shrine Handmaid",
+    "lore": "An old woman beside the ashes who buys and sells the relics of others."
+  },
+  "库尔兰的鲁道斯": {
+    "name": "Ludleth of Courland",
+    "lore": "Though he has no legs, this Lord of Cinder willingly bears the duty of linking the fire."
+  },
+  "约尔": {
+    "name": "Yoel of Londor",
+    "lore": "The stone-shelled pilgrim draws out the dark power within the Unkindled."
+  },
+  "尤莉亚": {
+    "name": "Yuria of Londor",
+    "lore": "A leader of the Sable Church who prepares the way for a Lord of Hollows."
+  },
+  "安瑞": {
+    "name": "Anri of Astora",
+    "lore": "An exiled knight pursuing Aldrich, Devourer of Gods."
+  },
+  "沉默骑士霍拉斯": {
+    "name": "Horace the Hushed",
+    "lore": "A silent, heavily armored knight who protects his traveling companion Anri."
+  },
+  "西格瓦德": {
+    "name": "Siegward of Catarina",
+    "lore": "The onion knight accompanies the Unkindled with a promise and a raised cup."
+  },
+  "不屈不挠的帕奇": {
+    "name": "Unbreakable Patches",
+    "lore": "Age after age, he still delights in pushing travelers from great heights."
+  },
+  "希里斯": {
+    "name": "Sirris of the Sunless Realms",
+    "lore": "A Darkmoon knight following an oath and the trail of her grandfather."
+  },
+  "无名指的李奥纳多": {
+    "name": "Ringfinger Leonhard",
+    "lore": "An invader who gathers tongues for the Mother of Rebirth."
+  },
+  "重生之母罗莎莉亚": {
+    "name": "Rosaria, Mother of Rebirth",
+    "lore": "Within the Cathedral of the Deep, she reshapes those who have lost their voices."
+  },
+  "卡利姆的伊莉娜": {
+    "name": "Irina of Carim",
+    "lore": "A blind maiden who learns and teaches miracles."
+  },
+  "卡利姆的伊果": {
+    "name": "Eygon of Carim",
+    "lore": "The knight who protects Irina with Morne's great hammer."
+  },
+  "奥贝克": {
+    "name": "Orbeck of Vinheim",
+    "lore": "A solitary scholar willing to exchange knowledge of sorcery for scrolls."
+  },
+  "大沼的柯弭库斯": {
+    "name": "Cornyx of the Great Swamp",
+    "lore": "The caged pyromancer teaches the Unkindled to command flame."
+  },
+  "卡露拉": {
+    "name": "Karla",
+    "lore": "A child of darkness imprisoned in the dungeon who teaches forbidden pyromancies."
+  },
+  "不死聚落的葛雷瑞特": {
+    "name": "Greirat of the Undead Settlement",
+    "lore": "A thief who repays his rescue by risking his life to steal supplies."
+  },
+  "药指的海泽尔": {
+    "name": "Yellowfinger Heysel",
+    "lore": "The yellow-robed sorcerer among Rosaria's Fingers."
+  },
+  "神圣骑士霍德里克": {
+    "name": "Holy Knight Hodrick",
+    "lore": "A Mound-maker wandering near the Pit of Hollows."
+  },
+  "猎杀骑士克雷顿": {
+    "name": "Creighton, Slayer of Knights",
+    "lore": "A killer from an old kingdom who has never abandoned the hunt."
+  },
+  "巡礼者隆道尔的苍白影子": {
+    "name": "Londor Pale Shade",
+    "lore": "A secretive assassin from Londor armed with paired claws."
+  },
+  "黑手哥德希尔特": {
+    "name": "Black Hand Gotthard",
+    "lore": "Lothric's Black Hand meets his foes with paired straight swords."
+  },
+  "狮子骑士艾伯特": {
+    "name": "Lion Knight Albert",
+    "lore": "A warrior in lion armor who fights with a heavy axe."
+  },
+  "绘画少女": {
+    "name": "Painter Girl",
+    "lore": "She waits for pigment and flame to paint a new world."
+  },
+  "拉普": {
+    "name": "Amnesiac Lapp",
+    "lore": "A traveling knight of the Ringed City who has forgotten his past."
+  },
+  "费莲诺尔的骑士希拉": {
+    "name": "Shira, Knight of Filianore",
+    "lore": "A knight of the Ringed City who serves the princess and watches over the dark dragon."
+  },
+  "高墙游魂士兵": {
+    "name": "High Wall Hollow Soldier",
+    "lore": "Lothric's masterless soldiers still guard the castle walls."
+  },
+  "提灯游魂": {
+    "name": "Lantern Hollow",
+    "lore": "Its lantern calls fellow hollows to surround passing travelers."
+  },
+  "人之脓": {
+    "name": "Pus of Man",
+    "lore": "A black, serpentine horror that bursts from a human body."
+  },
+  "洛斯里克猎犬": {
+    "name": "Lothric Hound",
+    "lore": "A vicious hound that lunges and bites along the walls and through the settlement."
+  },
+  "洛斯里克骑士": {
+    "name": "Lothric Knight",
+    "lore": "A well-trained knight of the kingdom advances behind a shield."
+  },
+  "洛斯里克长枪骑士": {
+    "name": "Lothric Spear Knight",
+    "lore": "This knight uses a long spear to deny passage from the front."
+  },
+  "洛斯里克大剑骑士": {
+    "name": "Lothric Greatsword Knight",
+    "lore": "A heavily armored knight breaks defenses with a lightning-infused ultra greatsword."
+  },
+  "羽翼骑士": {
+    "name": "Winged Knight",
+    "lore": "A corpulent knight of the angelic faith swings a massive weapon."
+  },
+  "金翼骑士": {
+    "name": "Ascended Winged Knight",
+    "lore": "A golden-armored guard protects the angelic faith high above the royal city."
+  },
+  "传教士": {
+    "name": "Evangelist",
+    "lore": "The settlement's hulking preacher catches travelers in a fiery embrace."
+  },
+  "不死聚落农夫": {
+    "name": "Undead Settlement Worker",
+    "lore": "A cursed resident carrying a pitchfork or a heavy cleaver."
+  },
+  "笼中亡者": {
+    "name": "Caged Hollow",
+    "lore": "Tangled corpses in an iron cage suddenly reach out to seize the unwary."
+  },
+  "奴隶小恶魔": {
+    "name": "Thrall",
+    "lore": "A small slave that waits in ambush on rooftops and around corners."
+  },
+  "红眼锯手": {
+    "name": "Red-eyed Saw Worker",
+    "lore": "A red-eyed laborer drags a heavy saw through the settlement's streets."
+  },
+  "背笼狂人": {
+    "name": "Cage-bearing Madman",
+    "lore": "A giant carrying a cage of corpses swings a heavy wooden plank."
+  },
+  "鸦人说书者": {
+    "name": "Corvian Storyteller",
+    "lore": "Poison mist and sorcery drive the Corvians along the road."
+  },
+  "鸦人镰刀手": {
+    "name": "Corvian Scythebearer",
+    "lore": "A birdlike figure suddenly leaps at travelers on the Road of Sacrifices."
+  },
+  "十字架狼人": {
+    "name": "Lycanthrope",
+    "lore": "Once freed from its restraints, this maddened creature charges on all fours."
+  },
+  "黑骑士大剑兵": {
+    "name": "Black Knight Greatswordsman",
+    "lore": "A black-armored knight hunts demons with a colossal blade."
+  },
+  "黑骑士大斧兵": {
+    "name": "Black Knight Greataxe Warrior",
+    "lore": "A heavy battleaxe falls upon demons and intruders alike."
+  },
+  "结晶蜥蜴幼体": {
+    "name": "Young Crystal Lizard",
+    "lore": "A gem-bearing little lizard that scurries into cracks in the wall."
+  },
+  "贪食结晶蜥蜴": {
+    "name": "Ravenous Crystal Lizard",
+    "lore": "A great crystalline beast grown fat from devouring souls."
+  },
+  "幽邃教堂执事": {
+    "name": "Cathedral Deacon",
+    "lore": "Fireballs and prayers to the Deep defend the cathedral."
+  },
+  "幽邃教堂骑士": {
+    "name": "Cathedral Knight",
+    "lore": "Heavy armor, great hammers, and greatswords seal off the narrow corridors."
+  },
+  "幽邃教堂巨人": {
+    "name": "Cathedral Giant",
+    "lore": "A vast slave imprisoned in the cathedral's flooded hall."
+  },
+  "大蛆人": {
+    "name": "Infested Corpse",
+    "lore": "A maggot-infested corpse spreads corrupted blood through contact."
+  },
+  "宝箱怪": {
+    "name": "Mimic",
+    "lore": "Disguised as a chest, it catches the greedy with unnaturally long limbs."
+  },
+  "卡萨斯骷髅剑士": {
+    "name": "Carthus Skeleton Swordsman",
+    "lore": "A nimble swordsman haunting the Catacombs of Carthus."
+  },
+  "卡萨斯红眼剑士": {
+    "name": "Carthus Red-eyed Swordsman",
+    "lore": "Curved-blade strikes and rolling movement become a swift, unbroken assault."
+  },
+  "卡萨斯大曲刀手": {
+    "name": "Carthus Great Curved Swordsman",
+    "lore": "A towering catacomb guardian deals bleeding combinations with a heavy curved blade."
+  },
+  "卡萨斯车轮骷髅": {
+    "name": "Carthus Bonewheel Skeleton",
+    "lore": "A spiked skeleton hurtles down the catacomb passages at great speed."
+  },
+  "熏烟湖螃蟹": {
+    "name": "Smouldering Lake Crab",
+    "lore": "A thick shell protects this inhabitant of the scorching lake."
+  },
+  "恶魔遗迹咕噜": {
+    "name": "Demon Ruins Ghru",
+    "lore": "A beastlike inhabitant of the ruins of Chaos skilled with poisoned blades."
+  },
+  "恶魔祭司": {
+    "name": "Demon Cleric",
+    "lore": "Its ball of flame releases floating projectiles that pursue intruders."
+  },
+  "墓地沙虫": {
+    "name": "Carthus Sandworm",
+    "lore": "A giant worm erupts from beneath Smouldering Lake and spits lightning."
+  },
+  "教宗骑士": {
+    "name": "Pontiff Knight",
+    "lore": "A curved-sword knight of the Boreal Valley delivers long, flowing combinations."
+  },
+  "教宗火焰魔女": {
+    "name": "Fire Witch",
+    "lore": "A burning brand and eruptions of ground fire guard the streets."
+  },
+  "冷冽谷银骑士": {
+    "name": "Boreal Valley Silver Knight",
+    "lore": "Lightning-infused spears and straight swords defend the long royal stairway."
+  },
+  "银骑士大弓兵": {
+    "name": "Silver Knight Greatbow Archer",
+    "lore": "From the rooftops, great dragon-slaying arrows knock approaching foes away."
+  },
+  "伊鲁席尔奴隶": {
+    "name": "Irithyll Slave",
+    "lore": "A gaunt, frost-shrouded servant vanishes before springing an ambush."
+  },
+  "沙力万巨兽": {
+    "name": "Sulyvahn's Beast",
+    "lore": "A great, fanged beast guards the waterway with crushing bites and lightning breath."
+  },
+  "狱卒": {
+    "name": "Jailer",
+    "lore": "A branding iron and an aura of terror drain the strength of prisoners."
+  },
+  "婴儿脸爬行者": {
+    "name": "Wretch",
+    "lore": "A failed experiment with an infantlike face crawls along the dungeon walls."
+  },
+  "罪之都石像鬼": {
+    "name": "Profaned Capital Gargoyle",
+    "lore": "Stone guardians with long spears defend the old capital of the Profaned Flame."
+  },
+  "罪之都手掌怪": {
+    "name": "Monstrosity of Sin",
+    "lore": "A great hand-headed creature devours life in a crushing embrace."
+  },
+  "古龙顶蛇人": {
+    "name": "Archdragon Peak Man-serpent",
+    "lore": "Armed with curved swords and shields, these serpent-men follow the path of the dragon."
+  },
+  "古龙顶蛇人大斧手": {
+    "name": "Man-serpent Greataxe Warrior",
+    "lore": "A massive long-handled axe blocks the mountain path."
+  },
+  "古龙顶召唤师": {
+    "name": "Man-serpent Summoner",
+    "lore": "The ringing of its bell summons Drakeblood Knights and warriors of old."
+  },
+  "岩石蜥蜴": {
+    "name": "Rock Lizard",
+    "lore": "Rocky armor protects its body as it rolls into enemies."
+  },
+  "艾雷德尔米尔伍德骑士": {
+    "name": "Ariandel Millwood Knight",
+    "lore": "A heavily armored forest warrior fights with a battleaxe and greatbow."
+  },
+  "米尔伍德大弓骑士": {
+    "name": "Millwood Greatbow Knight",
+    "lore": "Great arrows blast the ground apart, destroying an enemy's footing."
+  },
+  "鸦羽骑士": {
+    "name": "Crow Quill Knight",
+    "lore": "An aristocratic Corvian of the painting wields a thrusting sword and throwing blades."
+  },
+  "鸦爪骑士": {
+    "name": "Crow Talon Knight",
+    "lore": "Huge crow claws carry this knight into a sudden, furious assault."
+  },
+  "绘画树女": {
+    "name": "Painted Tree Woman",
+    "lore": "A womanlike tree repels intruders with flame or freezing breath."
+  },
+  "狼群": {
+    "name": "Painted World Wolf Pack",
+    "lore": "Wolves of the painted snowfields call their companions to hunt together."
+  },
+  "环印骑士直剑兵": {
+    "name": "Ringed Knight Swordsman",
+    "lore": "Ancient fire still burns within the armor of this Ringed Knight."
+  },
+  "环印骑士双特大剑兵": {
+    "name": "Ringed Knight Paired Greatswordsman",
+    "lore": "An elite of the Ringed City swings a pair of burning ultra greatswords."
+  },
+  "哈兰德战士": {
+    "name": "Harald Legion Knight",
+    "lore": "A towering, hollowed warrior delivers crushing blows with a curved greatsword."
+  },
+  "聚集于深渊的蝗虫": {
+    "name": "Locust Preacher",
+    "lore": "An insectlike inhabitant praises the Abyss in the Ringed City's poisonous swamp."
+  },
+  "巡礼天使": {
+    "name": "Pilgrim Angel",
+    "lore": "Its ceaseless beams are sustained by a pilgrim chrysalis hidden on the ground."
+  },
+  "巡礼蝴蝶": {
+    "name": "Pilgrim Butterfly",
+    "lore": "It drifts above Lothric and controls the Dragonslayer Armour."
+  },
+  "咒蛙": {
+    "name": "Dark Souls III Basilisk",
+    "lore": "It exhales a curse-bearing mist from the depths of the wetland."
+  },
+  "环印城墓碑亡者": {
+    "name": "Grave-bearing Hollow",
+    "lore": "Hollows burdened with gravestones emerge from the shadows of the Ringed City's streets."
+  },
+  "巨人判官": {
+    "name": "Judicator Giant",
+    "lore": "It summons spectral archers and knights to protect the Ringed City."
+  },
+  "哈维尔战士": {
+    "name": "Havel Warrior",
+    "lore": "The rock-armored warrior of Archdragon Peak blocks the way with a Dragon Tooth and greatshield."
+  },
+  "彼海姆的文海姆": {
+    "name": "Sir Vilhelm",
+    "lore": "A silent knight with a black greatsword guards the attic of the painting."
+  },
+  "教会野兽": {
+    "name": "Cleric Beast",
+    "lore": "A towering, beast-transformed cleric on the bridge pressures nearby prey with sweeping claws."
+  },
+  "加斯科因": {
+    "name": "Father Gascoigne",
+    "lore": "This hunter transforms into a beast as battle rages, his gun and axe keeping up relentless pressure."
+  },
+  "梅尔戈乳母": {
+    "name": "Mergo's Wet Nurse",
+    "lore": "Many curved blades close off her prey's escape from every direction."
+  },
+  "渴血兽": {
+    "name": "Blood-starved Beast",
+    "lore": "A flayed beast relentlessly pursues hunters with poisonous blood and pouncing attacks."
+  },
+  "阿梅利亚": {
+    "name": "Vicar Amelia",
+    "lore": "The vicar of the Grand Cathedral restores her life through prayer."
+  },
+  "汉威克女巫": {
+    "name": "Witch of Hemwick",
+    "lore": "She hides herself to cast spells and summon scythe-bearing Mad Ones."
+  },
+  "雅南暗影": {
+    "name": "Shadows of Yharnam",
+    "lore": "Three guardians cover one another with blades, fireballs, and candle flame."
+  },
+  "罗姆": {
+    "name": "Rom, the Vacuous Spider",
+    "lore": "The vacuous spider calls down arcane meteors while smaller spiders protect her."
+  },
+  "黑兽帕尔": {
+    "name": "Darkbeast Paarl",
+    "lore": "Lightning coils around its skeletal frame, and charged discharges drive nearby foes away."
+  },
+  "重生之古神": {
+    "name": "The One Reborn",
+    "lore": "A colossal mass of corpses spews foul, corrosive fluids."
+  },
+  "米克拉什": {
+    "name": "Micolash, Host of the Nightmare",
+    "lore": "The nightmare's host flees through endless passages and attacks with arcane tentacles."
+  },
+  "星之使者": {
+    "name": "Celestial Emissary",
+    "lore": "This kin reveals its enormous true form from within the crowd."
+  },
+  "伊布莱塔斯": {
+    "name": "Ebrietas, Daughter of the Cosmos",
+    "lore": "She fights with tentacles, rushing attacks, and the arcane light of the stars."
+  },
+  "格曼": {
+    "name": "Gehrman, the First Hunter",
+    "lore": "The first hunter combines the Burial Blade with swift, deadly footwork."
+  },
+  "月之魔物": {
+    "name": "Moon Presence",
+    "lore": "The Great One descending into the dream can reduce a hunter's life to almost nothing."
+  },
+  "路德维希": {
+    "name": "Ludwig, the Accursed",
+    "lore": "The cursed, beast-shaped knight finally raises the Holy Moonlight Sword."
+  },
+  "劳伦斯": {
+    "name": "Laurence, the First Vicar",
+    "lore": "The first vicar's beastly body is consumed by flame and lava; those who strike him up close are burned in return."
+  },
+  "活体失败者": {
+    "name": "Living Failures",
+    "lore": "The failed experiments of the Research Hall together summon meteors from the cosmos."
+  },
+  "玛丽亚": {
+    "name": "Lady Maria of the Astral Clocktower",
+    "lore": "The hunter of the Astral Clocktower fights with paired blades and burning blood."
+  },
+  "科斯孤儿": {
+    "name": "Orphan of Kos",
+    "lore": "It charges ferociously with its placenta weapon and calls lightning down upon the coast."
+  },
+  "苏美鲁女王雅南": {
+    "name": "Yharnam, Pthumerian Queen",
+    "lore": "Deep in the chalices, the queen defeats intruders with blood blades and doubles."
+  },
+  "苏美鲁后裔": {
+    "name": "Pthumerian Descendant",
+    "lore": "An ancient guardian with paired curved blades pursues intruders in rapid combinations."
+  },
+  "苏美鲁长老": {
+    "name": "Pthumerian Elder",
+    "lore": "An ancient sorcerer turns his staff into a succession of fiery weapons."
+  },
+  "不死巨人": {
+    "name": "Undead Giant",
+    "lore": "This chalice giant sweeps its surroundings with scythes, heavy hammers, or chains."
+  },
+  "放血兽": {
+    "name": "Bloodletting Beast",
+    "lore": "A towering, skinless beast overwhelms opponents with long arms and trampling feet."
+  },
+  "无头放血兽": {
+    "name": "Headless Bloodletting Beast",
+    "lore": "A parasite within its severed neck sprays venom."
+  },
+  "旧主看门狗": {
+    "name": "Watchdog of the Old Lords",
+    "lore": "The burning hound leaves trails of flame after its charges."
+  },
+  "洛伦黑暗怪兽": {
+    "name": "Loran Darkbeast",
+    "lore": "A skeletal monster deep in Loran unleashes unceasing lightning."
+  },
+  "被遗忘的疯子": {
+    "name": "Forgotten Madman",
+    "lore": "A tomb hunter driven mad fights with arcane arts and close-combat weapons."
+  },
+  "野兽附身的灵魂": {
+    "name": "Beast-possessed Soul",
+    "lore": "A soul consumed by beasthood attacks intruders with flame."
+  },
+  "脑噬者": {
+    "name": "Brainsucker",
+    "lore": "This kin binds hunters with arcane power and drains their Insight."
+  },
+  "人偶": {
+    "name": "The Doll",
+    "lore": "In the dream, she helps hunters turn Blood Echoes into strength."
+  },
+  "吉尔伯特": {
+    "name": "Gilbert",
+    "lore": "A sick man behind a window offers help to a hunter newly arrived in Yharnam."
+  },
+  "亚莉安娜": {
+    "name": "Arianna",
+    "lore": "A woman of the Cathedral Ward who offers her distinctive blood."
+  },
+  "阿黛拉": {
+    "name": "Adella",
+    "lore": "A nun of the Healing Church who helps hunters with her special blood."
+  },
+  "欧顿小教堂居民": {
+    "name": "Oedon Chapel Dweller",
+    "lore": "The keeper of the chapel tends its refuge for survivors."
+  },
+  "孤独老妇人": {
+    "name": "Lonely Old Woman",
+    "lore": "After taking shelter in the chapel, she offers sedatives to the hunter."
+  },
+  "加斯科因的小女儿": {
+    "name": "Gascoigne's Younger Daughter",
+    "lore": "She entrusts a music box to a stranger through her window and waits for her family to return."
+  },
+  "小女孩的姐姐": {
+    "name": "Young Girl's Older Sister",
+    "lore": "A girl at the window claims to be the child's sister and seeks the ribbon her sister left behind."
+  },
+  "约瑟夫卡": {
+    "name": "Iosefka",
+    "lore": "The clinic's doctor provides special blood vials for healing."
+  },
+  "冒牌约瑟夫卡": {
+    "name": "Impostor Iosefka",
+    "lore": "The researcher who seized the clinic transforms those seeking help into kin."
+  },
+  "艾琳": {
+    "name": "Eileen the Crow",
+    "lore": "The crow hunter pursues fellow hunters who have become drunk with blood."
+  },
+  "杜拉": {
+    "name": "Djura",
+    "lore": "The hunter of Old Yharnam uses his gatling gun to protect its beastly inhabitants."
+  },
+  "阿尔弗雷德": {
+    "name": "Alfred",
+    "lore": "A devotee of the Executioners who hunts Cainhurst's Vilebloods with heavy weapons."
+  },
+  "亨利克": {
+    "name": "Henryk",
+    "lore": "A veteran hunter clad in yellow garb resistant to lightning."
+  },
+  "瓦尔特": {
+    "name": "Valtr, Master of the League",
+    "lore": "With a broken saw, the League's master purges the impurity he sees in others."
+  },
+  "安娜莉丝": {
+    "name": "Annalise, Queen of the Vilebloods",
+    "lore": "The undying queen gathers Blood Dregs as she awaits a Child of Blood."
+  },
+  "西蒙": {
+    "name": "Simon the Harrowed",
+    "lore": "An old hunter with a bowblade investigates the Hunter's Nightmare."
+  },
+  "布拉多": {
+    "name": "Brador",
+    "lore": "A Church assassin clad in beast hide bars visitors with the Bloodletter."
+  },
+  "圣女阿德琳": {
+    "name": "Saint Adeline",
+    "lore": "A patient of the Research Hall craves Brain Fluid and hears the voice of the stars."
+  },
+  "可疑乞丐": {
+    "name": "Suspicious Beggar",
+    "lore": "A cannibal posing as a survivor conceals his beastly form."
+  },
+  "蜘蛛帕奇": {
+    "name": "Patches the Spider",
+    "lore": "With treasure as bait, he pushes hunters into danger."
+  },
+  "老猎人亨利特": {
+    "name": "Old Hunter Henriett",
+    "lore": "An old hunter wielding the Kirkhammer offers aid against the Grand Cathedral's guardian."
+  },
+  "双胞胎弟弟马达拉斯": {
+    "name": "Younger Madaras Twin",
+    "lore": "A League hunter armed with a butcher's knife and a great serpent's whistle."
+  },
+  "亚楠市民": {
+    "name": "Yharnam Huntsman",
+    "lore": "The beast-stricken inhabitants of Yharnam still swing their farming tools."
+  },
+  "持枪市民": {
+    "name": "Rifle Huntsman",
+    "lore": "A huntsman at the rear supports his companions with gunfire."
+  },
+  "持盾市民": {
+    "name": "Shield Huntsman",
+    "lore": "A makeshift shield blocks light attacks from the front."
+  },
+  "猎犬": {
+    "name": "Hunting Dog",
+    "lore": "Packs of hunting dogs swiftly pounce on exposed prey."
+  },
+  "亚楠乌鸦": {
+    "name": "Carrion Crow",
+    "lore": "A carrion crow that has lost flight pecks and lunges along the ground."
+  },
+  "老鼠群": {
+    "name": "Labyrinth Rat Swarm",
+    "lore": "Rats of the tombs surround their prey with overwhelming numbers."
+  },
+  "教会仆从": {
+    "name": "Church Servant",
+    "lore": "A pale servant of the Church carries a lantern and a cane."
+  },
+  "研究大厅患者": {
+    "name": "Research Hall Patient",
+    "lore": "An experimental patient with a swollen head wanders through the Research Hall."
+  },
+  "持火暴徒": {
+    "name": "Torch-bearing Huntsman",
+    "lore": "Yharnam's mobs raise torches and firebombs to hunt outsiders."
+  },
+  "兽化病患": {
+    "name": "Beast Patient",
+    "lore": "An afflicted inhabitant of Old Yharnam lunges at hunters with repeated claw attacks."
+  },
+  "小天界使者": {
+    "name": "Small Celestial Emissary",
+    "lore": "A blue kin that fires arcane projectiles from afar."
+  },
+  "血虱": {
+    "name": "Bloodlicker",
+    "lore": "A bloated blood-drinking creature attacks with long limbs and sprays of blood."
+  },
+  "小蛇球": {
+    "name": "Small Snake Ball",
+    "lore": "A knot of intertwined snakes spits poisonous fluid."
+  },
+  "巨蛇球": {
+    "name": "Giant Snake Ball",
+    "lore": "The forest's tangled masses of great serpents spew venom without pause."
+  },
+  "砖块巨人": {
+    "name": "Brick Troll",
+    "lore": "A gigantic huntsman delivers slow but crushing punches with a brick."
+  },
+  "斧头巨人": {
+    "name": "Executioner",
+    "lore": "A hulking, cloaked executioner sweeps his axe through everything before him."
+  },
+  "教会巨人": {
+    "name": "Church Giant",
+    "lore": "An enormous Church servant fights with a great axe or an iron ball."
+  },
+  "教会十字架仆从": {
+    "name": "Church Crucifix Servant",
+    "lore": "A servant wielding a wooden crucifix threatens nearby foes with heavy blows and frenzy."
+  },
+  "狼人": {
+    "name": "Scourge Beast",
+    "lore": "A werewolf overwhelms isolated hunters with swift claw attacks."
+  },
+  "摇铃女": {
+    "name": "Bell-ringing Woman",
+    "lore": "The ringing of her bell summons enemies and red phantoms."
+  },
+  "冬灯": {
+    "name": "Winter Lantern",
+    "lore": "The gaze of this singing, malformed creature alone can induce frenzy."
+  },
+  "曼希斯之脑": {
+    "name": "Brain of Mensis",
+    "lore": "The giant brain suspended in the Nightmare of Mensis builds frenzy in those it watches."
+  },
+  "食人猪": {
+    "name": "Maneater Boar",
+    "lore": "An enormous, swollen boar charges at prey trapped on narrow paths."
+  },
+  "该隐赫斯特血鸦": {
+    "name": "Bloody Crow of Cainhurst",
+    "lore": "A Vileblood hunter in crow garb wields the Chikage with deadly skill."
+  },
+  "巨型鱼人": {
+    "name": "Shark-Giant",
+    "lore": "A fishing hamlet giant overwhelms hunters with an anchor and vicious lunges."
+  },
+  "渔村鱼人": {
+    "name": "Fishing Hamlet Villager",
+    "lore": "Altered by a Great One, the hamlet's inhabitants fight with harpoons and long spears."
+  },
+  "鱼人祭司": {
+    "name": "Fishman Priest",
+    "lore": "A priest of the fishing hamlet calls down arcane attacks from afar."
+  },
+  "脑液": {
+    "name": "Brain Fluid",
+    "lore": "Living brain tissue left behind by failed experiments in the Research Hall."
+  },
+  "石像鬼": {
+    "name": "Cainhurst Gargoyle",
+    "lore": "The stone creatures of Cainhurst suddenly spread their wings and dive at intruders."
+  },
+  "该隐赫斯特女幽灵": {
+    "name": "Cainhurst Noblewoman Ghost",
+    "lore": "The castle's silent noblewomen slash at outsiders without warning."
+  },
+  "苏美鲁守卫": {
+    "name": "Pthumerian Watcher",
+    "lore": "Ancient guardians of the chalice tombs repel intruders with great blades, clubs, or firearms."
+  },
+  "苏美鲁守墓人": {
+    "name": "Keeper of the Old Lords",
+    "lore": "A pointed-helmed tomb guardian fights with heavy, fiery weapons."
+  },
+  "墓穴蜘蛛": {
+    "name": "Tomb Spider",
+    "lore": "Spiders emerge in swarms from the shadows of the chalice tombs."
+  },
+  "迷宫狂人": {
+    "name": "Labyrinth Madman",
+    "lore": "A tomb madman wielding corpses attacks in a blinding charge."
+  },
+  "墓犬": {
+    "name": "Tomb Hound",
+    "lore": "The tomb hound brings dark-aligned attacks to sacrifice-based battles."
+  },
+  "教会猎人": {
+    "name": "Church Hunter",
+    "lore": "The Church hunter brings physical attacks to sacrifice-based battles."
+  },
+  "蛛形怪": {
+    "name": "Spider Beast",
+    "lore": "The spider beast brings dark-aligned attacks to sacrifice-based battles."
+  },
+  "触手兽": {
+    "name": "Tentacled Beast",
+    "lore": "The tentacled beast brings dark-aligned attacks to sacrifice-based battles."
+  },
+  "狼": {
+    "name": "Wolf",
+    "lore": "The Shinobi Prosthetic and lethal sword arts let this shinobi adapt swiftly across the battle line."
+  },
+  "鬼刑部": {
+    "name": "Gyoubu Masataka Oniwa",
+    "lore": "The mounted samurai seals off the castle gate battlefield with his long spear."
+  },
+  "蝴蝶夫人": {
+    "name": "Lady Butterfly",
+    "lore": "An illusionist shinobi uses threads and phantom doubles to disrupt the battle."
+  },
+  "弦一郎": {
+    "name": "Genichiro Ashina",
+    "lore": "An Ashina swordsman combines archery, lightning, and relentless sword combinations."
+  },
+  "屏风猿猴": {
+    "name": "Folding Screen Monkeys",
+    "lore": "The monkeys of sight, hearing, speech, and invisibility test perception and evasion."
+  },
+  "狮子猿": {
+    "name": "Guardian Ape",
+    "lore": "The immortal ape rises even after losing its head, now wielding a sword."
+  },
+  "无首狮子猿": {
+    "name": "Headless Ape",
+    "lore": "The beheaded ape guards its cavern with terrifying cries and sword strikes."
+  },
+  "破戒僧": {
+    "name": "Corrupted Monk",
+    "lore": "The naginata-wielding monk's illusion blocks Mibu Village with sweeping, spinning cuts."
+  },
+  "宫内破戒僧": {
+    "name": "True Corrupted Monk",
+    "lore": "The bridge guardian is bound to an immortal centipede."
+  },
+  "枭": {
+    "name": "Great Shinobi Owl",
+    "lore": "The old shinobi hinders opponents with smoke, poison, and healing-blocking medicine."
+  },
+  "义父": {
+    "name": "Owl (Father)",
+    "lore": "Owl at his peak repositions himself with the help of a phantom owl."
+  },
+  "一心": {
+    "name": "Isshin, the Sword Saint",
+    "lore": "The Sword Saint's fighting style combines spear, sword, and lightning."
+  },
+  "怨恨之鬼": {
+    "name": "Demon of Hatred",
+    "lore": "Accumulated hatred takes the shape of a gigantic, burning Shura."
+  },
+  "神龙": {
+    "name": "Divine Dragon",
+    "lore": "The Sakura Dragon raises storms with a seven-branched sword; reflected lightning can break its defense."
+  },
+  "艾玛": {
+    "name": "Emma, the Gentle Blade",
+    "lore": "The physician Emma helps Wolf treat Dragonrot, then draws her gentle blade to stop his fall into Shura."
+  },
+  "侍大将河原田直盛": {
+    "name": "General Naomori Kawarada",
+    "lore": "The general guarding the outskirts fights with a long blade and sweeping cuts."
+  },
+  "侍大将山内典膳": {
+    "name": "General Tenzen Yamauchi",
+    "lore": "The general at the outskirts checkpoint meets enemies with thrusts and sweeping attacks."
+  },
+  "侍大将松本内藏佑": {
+    "name": "General Kuranosuke Matsumoto",
+    "lore": "Riflemen protect the general on the castle keep's stairs."
+  },
+  "苇名七本枪山内式部利胜": {
+    "name": "Seven Ashina Spears - Shikibu Toshikatsu Yamauchi",
+    "lore": "An honored Ashina retainer fights with long-spear thrusts and wide, sweeping attacks."
+  },
+  "苇名七本枪鬼庭主马雅次": {
+    "name": "Seven Ashina Spears - Shume Masaji Oniwa",
+    "lore": "A master spearman still holds his position within the burning Ashina Castle."
+  },
+  "苇名流佐濑甚助": {
+    "name": "Ashina Elite - Jinsuke Saze",
+    "lore": "The swordsman in the dojo specializes in lightning-fast Ashina Cross draws."
+  },
+  "水生氏成": {
+    "name": "Ujinari Mizuo",
+    "lore": "A red-eyed swordsman of Ashina Castle uses swift cross-draw attacks but fears flame."
+  },
+  "赤鬼": {
+    "name": "Chained Ogre",
+    "lore": "The restrained, red-eyed giant excels at crushing grabs but fears fire."
+  },
+  "蚺蛇重藏": {
+    "name": "Juzou the Drunkard",
+    "lore": "A huge, hard-drinking bandit exhales clouds of poison."
+  },
+  "牛饮德次郎": {
+    "name": "Tokujiro the Glutton",
+    "lore": "This drunken forest brute bars the road with a great blade and poisonous breath."
+  },
+  "赤备重吉": {
+    "name": "Shigekichi of the Red Guard",
+    "lore": "A heavily armored Red Guard warrior breathes flame and swings a heavy blade."
+  },
+  "火牛": {
+    "name": "Blazing Bull",
+    "lore": "With burning timber lashed to its horns, the bull charges in a frenzy."
+  },
+  "宫之樱牛": {
+    "name": "Sakura Bull of the Palace",
+    "lore": "The great bull of Fountainhead Palace charges beneath horns shedding cherry blossoms."
+  },
+  "铠甲武士": {
+    "name": "Armored Warrior",
+    "lore": "Blades scarcely harm the bridge's armored warrior; victory requires forcing him over the edge."
+  },
+  "长爪蜈蚣仙云": {
+    "name": "Long-arm Centipede Sen-un",
+    "lore": "The claw-bladed fighter of Senpou Temple unleashes dense, relentless combinations."
+  },
+  "长爪蜈蚣峰云": {
+    "name": "Long-arm Centipede Giraffe",
+    "lore": "The claw-bladed fighter inside the Gun Fort blocks the passage."
+  },
+  "蛇眼白藤": {
+    "name": "Snake Eyes Shirafuji",
+    "lore": "The sniper before the Gun Fort fights with a firearm and a deadly hooking grab."
+  },
+  "蛇眼白萩": {
+    "name": "Snake Eyes Shirahagi",
+    "lore": "The Snake Eyes guard of the poisonous swamp can fight on tainted ground without pause."
+  },
+  "孤影众太刀足": {
+    "name": "Lone Shadow Longswordsman",
+    "lore": "The shinobi at the bottom of the well combines fierce kicks with swordplay."
+  },
+  "孤影众忌手": {
+    "name": "Lone Shadow Vilehand",
+    "lore": "This Lone Shadow weakens opponents with combinations of poisoned hand strikes."
+  },
+  "孤影众枪足之正长": {
+    "name": "Lone Shadow Masanaga the Spear-Bearer",
+    "lore": "A Lone Shadow skilled in kicking arts whistles for ninja hounds."
+  },
+  "雾隐贵人": {
+    "name": "Mist Noble",
+    "lore": "The noble hidden in a ruined house sustains the forest's illusions."
+  },
+  "无首": {
+    "name": "Headless",
+    "lore": "A headless apparition swings a heavy blade and drives approaching foes away with terror."
+  },
+  "七面武士": {
+    "name": "Shichimen Warrior",
+    "lore": "A vengeful spirit attacks with departed souls and beams of cursed light."
+  },
+  "淤加美长老静": {
+    "name": "Okami Leader Shizu",
+    "lore": "The elder of Fountainhead Palace seals off the lake with lightning-charged kemari kicks."
+  },
+  "白蛇": {
+    "name": "Great Serpent",
+    "lore": "The great white serpent of the valley drives intruders away with sudden, swift strikes."
+  },
+  "鱼王": {
+    "name": "Great Colored Carp",
+    "lore": "The enormous carp beneath Fountainhead Palace's lake defends its territory with crushing charges."
+  },
+  "九郎": {
+    "name": "Kuro, the Divine Heir",
+    "lore": "The Divine Heir seeks to sever immortality and gives Wolf the will to continue."
+  },
+  "变若之子": {
+    "name": "Divine Child of Rejuvenation",
+    "lore": "The girl of Senpou Temple offers rice to help travelers."
+  },
+  "黑笠之貉": {
+    "name": "Blackhat Badger",
+    "lore": "A shinobi who left Senpou Temple helps Wolf reach its hidden depths."
+  },
+  "穴山": {
+    "name": "Anayama the Peddler",
+    "lore": "The merchant gathers information and supplies Wolf with provisions."
+  },
+  "藤冈": {
+    "name": "Fujioka the Info Broker",
+    "lore": "An information broker who sets up shop at the Dilapidated Temple."
+  },
+  "小太郎": {
+    "name": "Kotaro",
+    "lore": "The innocent giant longs to find a pure white pinwheel."
+  },
+  "阵左卫门": {
+    "name": "Jinzaemon Kumano",
+    "lore": "A samurai follows the sound of a shamisen into Mibu Village."
+  },
+  "伊之介": {
+    "name": "Inosuke Nogami",
+    "lore": "The wounded samurai of Hirata Estate offers a clue to protecting the young lord."
+  },
+  "野上玄斋": {
+    "name": "Nogami Gensai",
+    "lore": "A samurai of Hirata Estate willing to help challenge Juzou."
+  },
+  "雕刻师": {
+    "name": "The Sculptor",
+    "lore": "The one-armed shinobi carves Buddha statues and maintains Wolf's Shinobi Prosthetic."
+  },
+  "道顺": {
+    "name": "Doujun",
+    "lore": "The dungeon physician experiments with turning people into red-eyed subjects."
+  },
+  "道玄": {
+    "name": "Dogen",
+    "lore": "The physician who created the Shinobi Prosthetic left techniques that reshape combat."
+  },
+  "不死半兵卫": {
+    "name": "Hanbei the Undying",
+    "lore": "The samurai who cannot die helps Wolf practice swordplay at the temple."
+  },
+  "坛子贵人春长": {
+    "name": "Pot Noble Harunaga",
+    "lore": "He collects Treasure Carp Scales from Wolf and sells precious goods."
+  },
+  "坛子贵人维盛": {
+    "name": "Pot Noble Koremori",
+    "lore": "The noble in a pot at Fountainhead Palace longs to become the Great Carp."
+  },
+  "供养众": {
+    "name": "Memorial Mob",
+    "lore": "A merchant in dangerous country sells supplies to passing shinobi."
+  },
+  "苇名足轻": {
+    "name": "Ashina Foot Soldier",
+    "lore": "An Ashina soldier with ordinary blades and spears guards the outskirts."
+  },
+  "苇名弓兵": {
+    "name": "Ashina Archer",
+    "lore": "An archer supports companions on the front line."
+  },
+  "苇名火枪兵": {
+    "name": "Ashina Rifleman",
+    "lore": "A rifleman uses high ground to maintain steady fire."
+  },
+  "苇名农夫": {
+    "name": "Ashina Farmer",
+    "lore": "A farmer uses crude tools to resist intruders."
+  },
+  "山贼": {
+    "name": "Hirata Bandit",
+    "lore": "A bandit of Hirata Estate pillages with a short blade and spear."
+  },
+  "持盾山贼": {
+    "name": "Shield Bandit",
+    "lore": "A sturdy wooden shield blocks frontal attacks but is vulnerable to an axe."
+  },
+  "苇名长枪兵": {
+    "name": "Ashina Spearman",
+    "lore": "A spearman's thrusts keep enemies at a distance."
+  },
+  "野犬": {
+    "name": "Wild Hound",
+    "lore": "Agile packs of dogs pursue shinobi traveling the roads."
+  },
+  "猴群": {
+    "name": "Monkey Troop",
+    "lore": "Monkeys of the Bodhisattva Valley harass enemies by throwing stones."
+  },
+  "持枪猴": {
+    "name": "Rifle Monkey",
+    "lore": "A monkey of the valley raises a firearm and shoots."
+  },
+  "水生村民": {
+    "name": "Mibu Villager",
+    "lore": "Villagers touched by immortality gather in ever greater numbers."
+  },
+  "源之宫贵人": {
+    "name": "Fountainhead Noble",
+    "lore": "An aged noble plays a flute to steal the vitality of those who approach."
+  },
+  "壁虎": {
+    "name": "Gecko",
+    "lore": "Hidden on cliff walls and inside houses, it spits poison at passersby."
+  },
+  "火把山贼": {
+    "name": "Torch Bandit",
+    "lore": "A bandit brandishing a torch drives foes back with flame."
+  },
+  "持炮山贼": {
+    "name": "Cannon Bandit",
+    "lore": "A bandit with a shoulder-mounted cannon delivers powerful blows from afar."
+  },
+  "孤影众": {
+    "name": "Lone Shadow Shinobi",
+    "lore": "An Interior Ministry shinobi fights with a blade, powerful kicks, and agile movement."
+  },
+  "仙峰僧": {
+    "name": "Senpou Monk",
+    "lore": "A monk of Senpou Temple uses fists and feet to deflect blades."
+  },
+  "斗笠双刃僧": {
+    "name": "Senpou Battle Monk",
+    "lore": "An elite monk in a woven hat leaps into combat with a double-ended naginata."
+  },
+  "附虫者": {
+    "name": "Infested Monk",
+    "lore": "A centipede-infested monk rises again after being struck down."
+  },
+  "白猿剑客": {
+    "name": "White Monkey Swordsman",
+    "lore": "A white-furred monkey wields paired swords with far greater ferocity than an ordinary troop."
+  },
+  "赤备兵": {
+    "name": "Red Guard Soldier",
+    "lore": "An elite of the Interior Ministry wears red armor and attacks with paired blades or a firearm."
+  },
+  "巨型公鸡": {
+    "name": "Giant Rooster",
+    "lore": "The roadside rooster attacks with fierce pecks and flapping wings."
+  },
+  "淤加美武者": {
+    "name": "Okami Warrior",
+    "lore": "An agile warrior of Fountainhead Palace defends it with leaping movement and lightning techniques."
+  },
+  "淤加美弓手": {
+    "name": "Okami Archer",
+    "lore": "An archer of Fountainhead Palace channels lightning into arrows."
+  },
+  "淤加美蹴鞠手": {
+    "name": "Okami Kemari Player",
+    "lore": "A succession of kicked kemari balls strikes distant targets."
+  },
+  "太郎兵": {
+    "name": "Taro Troop Brute",
+    "lore": "A gigantic soldier overwhelms foes with a wooden mallet or bell clapper."
+  },
+  "地牢囚徒": {
+    "name": "Dungeon Prisoner",
+    "lore": "A prisoner bereft of reason wanders through the Abandoned Dungeon."
+  },
+  "水生阿凛": {
+    "name": "O'Rin of the Water",
+    "lore": "The shamisen-playing spirit asks after Lord Sakuza as she fights with drifting steps and flowing sword dances."
+  },
+  "七本枪": {
+    "name": "Seven Ashina Spears",
+    "lore": "This spearfighter brings physical attacks to sacrifice-based battles."
+  },
+  "苇名武士": {
+    "name": "Ashina Samurai",
+    "lore": "The Ashina samurai brings physical attacks to sacrifice-based battles."
+  },
+  "忍者": {
+    "name": "Shinobi",
+    "lore": "The shinobi brings physical attacks to sacrifice-based battles."
+  },
+  "盖尔·金辉": {
+    "name": "Gilded Slave Knight Gael",
+    "lore": "The old knight crossed countless battlefields, stitching the resolve of the fallen into his bloodstained cloak."
+  },
+  "深渊守望者·金辉": {
+    "name": "Gilded Abyss Watchers",
+    "lore": "Wolf blood renews its covenant in golden embers; fallen swordsmen leave their final round of cuts to their companions."
+  },
+  "冷冽谷的玻尔多·金辉": {
+    "name": "Gilded Vordt of the Boreal Valley",
+    "lore": "Icy gold coats the beastly armor as its low, stalking steps pursue warm life through the frozen mist."
+  },
+  "教宗沙力万·金辉": {
+    "name": "Gilded Pontiff Sulyvahn",
+    "lore": "Twin swords cleave golden shadows; the Pontiff leaves his unfinished orders to a mirror image, and the final cuts keep closing in."
+  },
+  "薪王们的化身·金辉": {
+    "name": "Gilded Soul of Cinder",
+    "lore": "All who linked the fire entrust their golden kindling to one suit of armor; as one sword style burns away, another memory rises."
+  },
+  "黑龙米狄尔·金辉": {
+    "name": "Gilded Darkeater Midir",
+    "lore": "Golden scales still gleam within the Abyss; the ancient dragon that swallowed ages of darkness leaves one last blast for intruders."
+  },
+  "灰烬审判者古达·金辉": {
+    "name": "Gilded Iudex Gundyr",
+    "lore": "The withdrawn coiled sword leaves a golden fissure; the silent judge once more awaits the Undead."
+  },
+  "结晶老者·金辉": {
+    "name": "Gilded Crystal Sage",
+    "lore": "Crystals scatter layer upon layer of golden light, each afterimage whispering the next incantation."
+  },
+  "幽邃主教群·金辉": {
+    "name": "Gilded Deacons of the Deep",
+    "lore": "Golden candles light decaying vestments, while prayers to the Deep drift from behind the gathered faces."
+  },
+  "霸王沃尼尔·金辉": {
+    "name": "Gilded High Lord Wolnir",
+    "lore": "Golden bracelets shine at the edge of the Abyss; he clutches not at a crown, but at the last thread of light."
+  },
+  "巨人尤姆·金辉": {
+    "name": "Gilded Yhorm the Giant",
+    "lore": "Golden light passes over the great blade amid the storm; the lonely king still fights for those he could not save."
+  },
+  "冷冽谷的舞娘·金辉": {
+    "name": "Gilded Dancer of the Boreal Valley",
+    "lore": "One blade of fire, one of dark; gold follows every measured step, and only when the music ends do the blades arrive."
+  },
+  "猎龙铠甲·金辉": {
+    "name": "Gilded Dragonslayer Armour",
+    "lore": "Empty armor wears a golden sheen, while its ancient lightning axe still remembers the duty of slaying dragons."
+  },
+  "洛斯里克王子·金辉": {
+    "name": "Gilded Lothric, Younger Prince",
+    "lore": "The frail prince binds his brother's soul with golden light; neither will awaken to link the fire again."
+  },
+  "无名王者·金辉": {
+    "name": "Gilded Nameless King",
+    "lore": "Storm and lightning forge a golden spear, and the forgotten god's name still echoes beside his dragon."
+  },
+  "修女芙莉德·金辉": {
+    "name": "Gilded Sister Friede",
+    "lore": "Gold glints across frost blades and black flame; the spent painting still refuses the arrival of a new color."
+  },
+  "格曼·金辉": {
+    "name": "Gilded Gehrman, the First Hunter",
+    "lore": "The first hunter leaves his final hunting notes, hoping those who awaken need not face the long night alone."
+  },
+  "加斯科因·金辉": {
+    "name": "Gilded Father Gascoigne",
+    "lore": "A faint gold shines along the old hunter's axe; steps not yet consumed by beasthood still remember how to meet the prey."
+  },
+  "科斯孤儿·金辉": {
+    "name": "Gilded Orphan of Kos",
+    "lore": "Coastal lightning lights the golden remnant of birth; every furious rush hurls an unheard answer back at the world."
+  },
+  "教会野兽·金辉": {
+    "name": "Gilded Cleric Beast",
+    "lore": "Golden fragments catch among twisted antlers; the roar upon the bridge still tears a hunter's courage in two."
+  },
+  "路德维希·金辉": {
+    "name": "Gilded Ludwig, the Accursed",
+    "lore": "Gold reveals broken beast bones and the holy blade of old; a hunter's unextinguished spark endures within the mad charge."
+  },
+  "玛丽亚·金辉": {
+    "name": "Gilded Lady Maria of the Astral Clocktower",
+    "lore": "Blood becomes golden thread between paired blades; with every kill, the clocktower's guardian pursues a past no one can redeem."
+  },
+  "渴血兽·金辉": {
+    "name": "Gilded Blood-starved Beast",
+    "lore": "Thirst churns beneath its gilded hide; the scent of blood rouses it more surely than any bell."
+  },
+  "阿梅利亚·金辉": {
+    "name": "Gilded Vicar Amelia",
+    "lore": "A golden pendant rests between great claws; the prayer has not ended, but has taken on a beast's voice."
+  },
+  "汉威克女巫·金辉": {
+    "name": "Gilded Witch of Hemwick",
+    "lore": "Gold glimmers through hidden eyes; whoever sees the witch clearly has also been seen by her."
+  },
+  "雅南暗影·金辉": {
+    "name": "Gilded Shadows of Yharnam",
+    "lore": "Candle flame, serpent shadows, and blades overlap in gold; the three gatekeepers wait for a single misplaced step."
+  },
+  "罗姆·金辉": {
+    "name": "Gilded Rom, the Vacuous Spider",
+    "lore": "The silent spider keeps watch over the lake in golden light, while the truth lies beneath moonlight you have yet to see."
+  },
+  "重生之古神·金辉": {
+    "name": "Gilded The One Reborn",
+    "lore": "Bells raise a gilded mass of remains; even this crude rite still hopes to lift humanity to the height of gods."
+  },
+  "米克拉什·金辉": {
+    "name": "Gilded Micolash, Host of the Nightmare",
+    "lore": "His golden cage pursues the answers of a dream; his feet move far faster than his understanding."
+  },
+  "梅尔戈乳母·金辉": {
+    "name": "Gilded Mergo's Wet Nurse",
+    "lore": "Six blades unfold silently in gold, while a child's cries remain hidden within a pitch-black embrace."
+  },
+  "月之魔物·金辉": {
+    "name": "Gilded Moon Presence",
+    "lore": "The crimson moon takes on a golden glow; its outstretched hand seems a blessing, or the reclaiming of all freedom."
+  },
+  "劳伦斯·金辉": {
+    "name": "Gilded Laurence, the First Vicar",
+    "lore": "Golden flames burn through the earliest teachings; the first vicar still searches for his lost human skull."
+  },
+  "鬼刑部·金辉": {
+    "name": "Gilded Gyoubu Masataka Oniwa",
+    "lore": "Golden dust settles on the warhorse before the gate; one sweep of the spear forces every challenger from his path."
+  },
+  "蝴蝶夫人·金辉": {
+    "name": "Gilded Lady Butterfly",
+    "lore": "Golden threads move true and false figures alike; when the phantom butterflies fade, two secret pages remain to break the deadlock."
+  },
+  "一心·金辉": {
+    "name": "Gilded Isshin, the Sword Saint",
+    "lore": "The Sword Saint takes half a step into golden light, his blade answering every hesitation and probing strike."
+  },
+  "弦一郎·金辉": {
+    "name": "Gilded Genichiro Ashina",
+    "lore": "Ashina's lightning lingers on a golden edge; with even one breath left, he will fight for another inch of his homeland."
+  },
+  "狮子猿·金辉": {
+    "name": "Gilded Guardian Ape",
+    "lore": "Golden spray rolls down white fur; even fallen, the great ape clutches a blade and a resolve that will not end."
+  },
+  "怨恨之鬼·金辉": {
+    "name": "Gilded Demon of Hatred",
+    "lore": "Golden fire binds the hatred that could not be released; Shura shatters the earth, burning every pain into a heavier blow."
+  },
+  "赤鬼·金辉": {
+    "name": "Gilded Chained Ogre",
+    "lore": "Gold shines in red eyes; once its chains break, its embrace is deadlier than any blade."
+  },
+  "火牛·金辉": {
+    "name": "Gilded Blazing Bull",
+    "lore": "Burning horns trail golden fire; no shield wall at Ashina's gate can halt its charge."
+  },
+  "屏风猿猴·金辉": {
+    "name": "Gilded Folding Screen Monkeys",
+    "lore": "Gold moves among seeing, hearing, speaking, and silence; the final monkey is always where you cannot look."
+  },
+  "无首狮子猿·金辉": {
+    "name": "Gilded Headless Ape",
+    "lore": "Gold lights the severed neck; the immortal insect still drives the ape to swing its long-bloodied blade."
+  },
+  "破戒僧·金辉": {
+    "name": "Gilded Corrupted Monk",
+    "lore": "The phantom raises a naginata in golden light; her lingering laughter is colder than the wind upon the bridge."
+  },
+  "枭·金辉": {
+    "name": "Gilded Great Shinobi Owl",
+    "lore": "A vast feathered shadow obscures the gold; the shinobi code has never contained a word about fairness."
+  },
+  "宫内破戒僧·金辉": {
+    "name": "Gilded True Corrupted Monk",
+    "lore": "The immortal insect gleams with gold as Fountainhead Palace's bridge guardian raises her long blade to greet another visitor."
+  },
+  "神龙·金辉": {
+    "name": "Gilded Divine Dragon",
+    "lore": "Withered branches sprout golden light; the wind called by the seven-branched sword still awaits returning lightning."
+  },
+  "艾玛·金辉": {
+    "name": "Gilded Emma, the Gentle Blade",
+    "lore": "The scent of golden medicine lingers before the blade; even a gentle doctor may have to cut down Shura with her own hands."
+  },
+  "义父·金辉": {
+    "name": "Gilded Owl (Father)",
+    "lore": "A ghostly blue owl crosses the golden light; at last, the father has found his child strong enough."
+  },
+  "玛尔基特": {
+    "name": "Margit, the Fell Omen",
+    "lore": "Wields a cursed sword and spectral holy weapons to hold back Tarnished approaching the capital."
+  },
+  "葛瑞克": {
+    "name": "Godrick the Grafted",
+    "lore": "The grafted lord meets his challengers with a great axe and a multitude of stolen arms."
+  },
+  "蕾娜拉": {
+    "name": "Rennala, Queen of the Full Moon",
+    "lore": "The queen of the full moon fights with Carian sorcery and summoned spirits."
+  },
+  "拉塔恩": {
+    "name": "Starscourge Radahn",
+    "lore": "The Starscourge General commands gravity magic and a pair of colossal swords."
+  },
+  "拉卡德": {
+    "name": "Rykard, Lord of Blasphemy",
+    "lore": "The blasphemous lord has joined with a great serpent and makes his lair amid molten rock."
+  },
+  "莫格": {
+    "name": "Mohg, Lord of Blood",
+    "lore": "The Lord of Blood drains life through rituals of bloodflame."
+  },
+  "蒙葛特": {
+    "name": "Morgott, the Omen King",
+    "lore": "The Omen King guards the Erdtree with a curved sword and weapons of holy light."
+  },
+  "火焰巨人": {
+    "name": "Fire Giant",
+    "lore": "Confronts his enemies with a vast shield and the flame of the one-eyed god."
+  },
+  "玛利喀斯": {
+    "name": "Maliketh, the Black Blade",
+    "lore": "His Black Blade bears Destined Death; relentless leaping strikes leave no time to breathe."
+  },
+  "荷莱·露": {
+    "name": "Hoarah Loux",
+    "lore": "Casts aside the bearing of a lord to fight with crushing grapples and earth-shaking stomps."
+  },
+  "葛孚雷": {
+    "name": "Godfrey, First Elden Lord",
+    "lore": "The first Elden Lord shakes the earth with his great axe."
+  },
+  "拉达冈": {
+    "name": "Radagon of the Golden Order",
+    "lore": "The restorer of the Golden Order punishes his foes with a sacred hammer and flashes of light."
+  },
+  "艾尔登之兽": {
+    "name": "Elden Beast",
+    "lore": "The embodiment of the Golden Order blankets the battlefield in showers of holy stars."
+  },
+  "玛莲妮亚": {
+    "name": "Malenia, Blade of Miquella",
+    "lore": "Miquella's blade is renowned for her Waterfowl Dance and the bloom of scarlet rot."
+  },
+  "米凯拉": {
+    "name": "Miquella",
+    "lore": "The slumbering Empyrean guides his followers through enchantment and grace."
+  },
+  "黄金树守卫": {
+    "name": "Tree Sentinel",
+    "lore": "A heavily armored golden rider patrols with halberd and shield."
+  },
+  "龙装大树守卫": {
+    "name": "Draconic Tree Sentinel",
+    "lore": "The armored rider before the capital's gate strengthens his weapon with red lightning."
+  },
+  "恶兆妖鬼蒙格": {
+    "name": "Mohg, the Omen",
+    "lore": "The Omen beneath the capital bars the sewers with his trident and bloodflame."
+  },
+  "接肢贵族": {
+    "name": "Grafted Scion",
+    "lore": "A many-armed noble alternates twin-sword flurries with the protection of a greatshield."
+  },
+  "狮子混种": {
+    "name": "Leonine Misbegotten",
+    "lore": "A lion-maned misbegotten lunges ferociously with a greatsword."
+  },
+  "熔炉骑士": {
+    "name": "Crucible Knight",
+    "lore": "An ancient knight fights with sword, shield, and incantations that echo the Crucible of life."
+  },
+  "熔炉骑士奥陶琵斯": {
+    "name": "Crucible Knight Ordovis",
+    "lore": "The knight's spinning greatsword draws forth the golden power of the Crucible."
+  },
+  "熔炉骑士志留亚": {
+    "name": "Crucible Knight Siluria",
+    "lore": "Her tree spear gathers the spiraling life force of the Crucible."
+  },
+  "铁棘艾隆梅尔": {
+    "name": "Elemer of the Briar",
+    "lore": "His executioner's sword spins beyond his grasp, while briar-covered armor punishes those who draw near."
+  },
+  "铃珠猎人": {
+    "name": "Bell Bearing Hunter",
+    "lore": "Commands a sword from afar to take the bell bearings of wandering merchants."
+  },
+  "黑刀刺客": {
+    "name": "Black Knife Assassin",
+    "lore": "The death imbued in her black knife lends itself to swift assassination."
+  },
+  "黑刀之首亚勒托": {
+    "name": "Alecto, Black Knife Ringleader",
+    "lore": "The assassins' leader meets her foes with a deathly black knife and swift leaping attacks."
+  },
+  "猎犬骑士达瑞威尔": {
+    "name": "Bloodhound Knight Darriwil",
+    "lore": "Bloodhound footwork and curved claws make his close-range slashes difficult to catch."
+  },
+  "猎犬骑士弗罗": {
+    "name": "Bloodhound Knight Floh",
+    "lore": "A loyal bloodhound knight guards a cavern in obedience to his lord's command."
+  },
+  "黑夜骑兵": {
+    "name": "Night's Cavalry",
+    "lore": "A heavily armored rider patrols only at night, wielding a flail or polearm."
+  },
+  "死亡鸟": {
+    "name": "Deathbird",
+    "lore": "A gaunt, monstrous bird attacks night travelers with a hooked poker and a curse of death."
+  },
+  "死之鸟": {
+    "name": "Death Rite Bird",
+    "lore": "Spreads its wings to perform death's rites and call forth cold ghostflame."
+  },
+  "腐败树灵": {
+    "name": "Putrid Tree Spirit",
+    "lore": "Its immense, rootlike body spews scarlet rot."
+  },
+  "溃烂树灵": {
+    "name": "Ulcerated Tree Spirit",
+    "lore": "A twisted tree spirit charges with its entire body and erupts in golden flame."
+  },
+  "黄金树的化身": {
+    "name": "Erdtree Avatar",
+    "lore": "A giant guardian of a Minor Erdtree wields a staff and casts holy light."
+  },
+  "腐败化身": {
+    "name": "Putrid Avatar",
+    "lore": "An avatar tainted by rot leaves dangerous, poisonous ground in its wake."
+  },
+  "归树看门犬": {
+    "name": "Erdtree Burial Watchdog",
+    "lore": "A statue-like watchdog guards the tomb with stiff leaps and magic."
+  },
+  "守墓斗士": {
+    "name": "Grave Warden Duelist",
+    "lore": "A catacomb duelist swings great hammers fastened to chains."
+  },
+  "发狂斗士": {
+    "name": "Putrid Grave Warden Duelist",
+    "lore": "The corrupted duelist's heavy blows spread scarlet rot."
+  },
+  "石挖山妖": {
+    "name": "Stonedigger Troll",
+    "lore": "A tunnel troll with rocky skin shakes loose showers of stone with its club."
+  },
+  "诺克斯剑士": {
+    "name": "Nox Swordstress",
+    "lore": "A swordstress of the Eternal City attacks with the flowing reach of a liquid blade."
+  },
+  "诺克斯修士": {
+    "name": "Nox Monk",
+    "lore": "Guards the Eternal City with silver armor and a flowing hammer."
+  },
+  "仿身泪滴": {
+    "name": "Mimic Tear",
+    "lore": "A silver tear takes its opponent's shape, copying equipment and fighting techniques."
+  },
+  "英雄石像鬼": {
+    "name": "Valiant Gargoyle",
+    "lore": "Mended with corpse wax, the gargoyle swings paired colossal weapons."
+  },
+  "黑剑眷属": {
+    "name": "Black Blade Kindred",
+    "lore": "A gargoyle serving the Black Blade imbues its colossal weapons with the power of death."
+  },
+  "祖灵": {
+    "name": "Ancestor Spirit",
+    "lore": "A staglike ancestral spirit leaps upon spectral light and guards its homeland with spirit flame."
+  },
+  "祖灵之王": {
+    "name": "Regal Ancestor Spirit",
+    "lore": "Draws life from spirit beasts to sustain the ancestral cycle."
+  },
+  "龙人士兵": {
+    "name": "Dragonkin Soldier",
+    "lore": "A giant soldier seeking the power of dragons unleashes frozen lightning."
+  },
+  "诺克史黛拉的龙人士兵": {
+    "name": "Dragonkin Soldier of Nokstella",
+    "lore": "The underground dragonkin soldier sweeps the wetlands with a spear of frozen lightning."
+  },
+  "鲜血贵族": {
+    "name": "Sanguine Noble",
+    "lore": "A noble serving the blood dynasty fights with a thrusting sword and blades of blood."
+  },
+  "战场魔法师": {
+    "name": "Battlemage",
+    "lore": "An armored mage bombards enemies with magical cannon fire and a stone hammer."
+  },
+  "魔法教授米丽安": {
+    "name": "Preceptor Miriam",
+    "lore": "The preceptor of the inverted study hall holds visitors at bay with a magical greatbow."
+  },
+  "红狼拉达冈": {
+    "name": "Red Wolf of Radagon",
+    "lore": "The red wolf alternates swift bites with glintblade sorcery."
+  },
+  "英雄红狼": {
+    "name": "Red Wolf of the Champion",
+    "lore": "A red wolf roaming a hero's grave commands glintblades and fiery red fangs."
+  },
+  "结晶人": {
+    "name": "Crystalian",
+    "lore": "Its crystal shell resists cutting weapons; only after it breaks do the creature's weaknesses appear."
+  },
+  "腐败结晶人": {
+    "name": "Putrid Crystalian",
+    "lore": "Rot has invaded its crystal shell, lending corruption to its spinning attacks and crystal sorcery."
+  },
+  "神皮使徒": {
+    "name": "Godskin Apostle",
+    "lore": "A god-hunting apostle stretches his body and fights with black flame and a twinblade."
+  },
+  "神皮贵族": {
+    "name": "Godskin Noble",
+    "lore": "A corpulent noble pressures foes with a thrusting sword and crushing rolls."
+  },
+  "神皮双人组": {
+    "name": "Godskin Duo",
+    "lore": "The apostle and noble rise again in turn, combining their black flames."
+  },
+  "老将欧尼尔": {
+    "name": "Commander O'Neil",
+    "lore": "The swamp veteran summons dead soldiers with his standard and scatters scarlet rot."
+  },
+  "老将尼奥": {
+    "name": "Commander Niall",
+    "lore": "The one-legged veteran guards Castle Sol with a battle standard and a lightning-charged prosthesis."
+  },
+  "坠星兽物": {
+    "name": "Fallingstar Beast",
+    "lore": "An armored beast uses gravity and charging attacks to defend a meteor's landing ground."
+  },
+  "成年坠星兽物": {
+    "name": "Full-Grown Fallingstar Beast",
+    "lore": "The mature beast unleashes stronger gravity and tears rocks from the ground."
+  },
+  "石肤白王": {
+    "name": "Alabaster Lord",
+    "lore": "An ancient pale-skinned lord draws enemies toward his blade with waves of gravity."
+  },
+  "石肤黑王": {
+    "name": "Onyx Lord",
+    "lore": "The dark-skinned lord summons meteors and commands gravity with a curved sword."
+  },
+  "艾丝缇": {
+    "name": "Astel, Naturalborn of the Void",
+    "lore": "An alien born of a nebula bombards its foes with starlight and a barbed tail."
+  },
+  "黑暗繁星艾丝缇": {
+    "name": "Astel, Stars of Darkness",
+    "lore": "An astral monstrosity fills deep tunnels with meteors and nebulae."
+  },
+  "恶兆孪生子": {
+    "name": "Fell Twins",
+    "lore": "A pair of Omens seal off the Divine Tower with great blades and blood-colored flame."
+  },
+  "腐败眷属": {
+    "name": "Kindred of Rot",
+    "lore": "An insectlike servant of rot attacks with threads and a polearm."
+  },
+  "飞龙亚基尔": {
+    "name": "Flying Dragon Agheel",
+    "lore": "The flying dragon of Limgrave's lake guards its territory with fiery breath."
+  },
+  "辉石龙史玛拉格": {
+    "name": "Glintstone Dragon Smarag",
+    "lore": "A dragon that devours sorcerers patrols the academy with magical breath."
+  },
+  "辉石龙亚杜拉": {
+    "name": "Glintstone Dragon Adula",
+    "lore": "A glintstone dragon serving the Lunar Princess commands a freezing blade of moonlight."
+  },
+  "熔岩土龙马卡尔": {
+    "name": "Magma Wyrm Makar",
+    "lore": "A crawling wyrm bears a scalesword and spews magma."
+  },
+  "大土龙席欧朵利克": {
+    "name": "Great Wyrm Theodorix",
+    "lore": "The great wyrm guards its snowy resting place with a colossal sword and magma."
+  },
+  "冰结湖的玻列琉斯": {
+    "name": "Borealis the Freezing Fog",
+    "lore": "The mountaintop ice dragon exhales deadly frost through a veil of white mist."
+  },
+  "腐败龙艾格基斯": {
+    "name": "Decaying Ekzykes",
+    "lore": "A flying dragon ravaged by scarlet rot exhales its corruption."
+  },
+  "飞龙桂雷尔": {
+    "name": "Flying Dragon Greyll",
+    "lore": "A huge flying dragon keeps watch over the bridge in Greyoll's Dragonbarrow."
+  },
+  "普拉顿桑克斯": {
+    "name": "Dragonlord Placidusax",
+    "lore": "Hidden beyond time, the ancient Dragonlord meets intruders with red lightning and dragon breath."
+  },
+  "兰沙克": {
+    "name": "Ancient Dragon Lansseax",
+    "lore": "The ancient dragon once taught in human form; her red lightning now sweeps the plateau."
+  },
+  "弗尔桑克斯": {
+    "name": "Lichdragon Fortissax",
+    "lore": "The ancient dragon fought death for a dear friend, only to become entwined in death lightning."
+  },
+  "大龙桂奥尔": {
+    "name": "Elder Dragon Greyoll",
+    "lore": "Though aged, the mother of dragons still commands her young with a mighty roar."
+  },
+  "葛瑞克士兵": {
+    "name": "Godrick Soldier",
+    "lore": "A soldier of Limgrave guards the roads with spear, shield, and crossbow."
+  },
+  "雷亚卢卡利亚士兵": {
+    "name": "Raya Lucaria Soldier",
+    "lore": "A soldier of Liurnia fights with weapons protected by magic."
+  },
+  "拉塔恩士兵": {
+    "name": "Radahn Soldier",
+    "lore": "A Redmane soldier kindles flame to resist scarlet rot."
+  },
+  "罗德尔士兵": {
+    "name": "Leyndell Soldier",
+    "lore": "A soldier of the capital guards its gates with a long spear and lightning incantations."
+  },
+  "圣树士兵": {
+    "name": "Haligtree Soldier",
+    "lore": "A defender of Miquella's Haligtree relies on holy light and self-sacrifice."
+  },
+  "流刑士兵": {
+    "name": "Exile Soldier",
+    "lore": "A red-hooded exile guards the castle with a spear and storm pots."
+  },
+  "失乡骑士": {
+    "name": "Banished Knight",
+    "lore": "An armored knight bereft of his homeland wields a greatsword with storm techniques."
+  },
+  "流浪贵族": {
+    "name": "Wandering Noble",
+    "lore": "A noble stripped of former status wanders among the ruins."
+  },
+  "贵族魔法师": {
+    "name": "Noble Sorcerer",
+    "lore": "A fallen noble survives through elementary glintstone sorcery."
+  },
+  "白金之子": {
+    "name": "Albinauric",
+    "lore": "An artificial life-form seeks refuge among the lakes and snowfields."
+  },
+  "第二代白金之子": {
+    "name": "Second-Generation Albinauric",
+    "lore": "A frog-like Albinauric swarms its foes with rolling attacks and clubs."
+  },
+  "白金之子弓手": {
+    "name": "Albinauric Archer",
+    "lore": "An expert Albinauric archer holds enemies back from afar with magical arrows."
+  },
+  "亚人": {
+    "name": "Demi-Human",
+    "lore": "A nocturnal demi-human launches ambushes with short weapons."
+  },
+  "亚人女王": {
+    "name": "Demi-Human Queen",
+    "lore": "A towering demi-human leader combines staff attacks with vicious bites."
+  },
+  "混种": {
+    "name": "Misbegotten",
+    "lore": "An enslaved misbegotten pursues its enemies with crude weapons."
+  },
+  "有翼混种": {
+    "name": "Winged Misbegotten",
+    "lore": "A winged misbegotten attacks from the air with missiles and thrown weapons."
+  },
+  "恶兆之子": {
+    "name": "Omen",
+    "lore": "Rejected by the Golden Order, an Omen fights with brute strength and a great blade."
+  },
+  "恶兆猎人": {
+    "name": "Omenkiller",
+    "lore": "A hunter wearing a grinning mask slaughters Omens with paired great cleavers."
+  },
+  "灵庙士兵": {
+    "name": "Mausoleum Soldier",
+    "lore": "A headless soldier guards a walking mausoleum in spectral form."
+  },
+  "骷髅兵": {
+    "name": "Skeletal Militiaman",
+    "lore": "One of Those Who Live in Death, it tries to reassemble its bones after falling."
+  },
+  "骷髅山贼": {
+    "name": "Skeletal Bandit",
+    "lore": "A skeleton lurking in the graveyard delivers rapid cuts with paired curved swords."
+  },
+  "兽人": {
+    "name": "Beastman",
+    "lore": "A beastman of Farum Azula fights with a curved sword and lunging attacks."
+  },
+  "法姆亚兹拉兽人": {
+    "name": "Beastman of Farum Azula",
+    "lore": "A beastman of the ancient dragon city carries a great cleaver and commands dragon lightning."
+  },
+  "战鹰": {
+    "name": "Warhawk",
+    "lore": "A Stormveil warhawk has blades bound to its talons."
+  },
+  "风暴鹰": {
+    "name": "Stormhawk",
+    "lore": "An eagle riding the storm dives at great speed on fierce winds."
+  },
+  "巨型乌鸦": {
+    "name": "Monstrous Crow",
+    "lore": "A huge Caelid scavenger attacks with a deformed beak and claws."
+  },
+  "巨型犬": {
+    "name": "Monstrous Dog",
+    "lore": "A giant dog of the rotted lands tears at enemies with its long jaws."
+  },
+  "野狼": {
+    "name": "Wild Wolf",
+    "lore": "A pack wolf excels at hunting from the flanks."
+  },
+  "卢恩熊": {
+    "name": "Runebear",
+    "lore": "A hulking beast tears enemies apart with astonishing speed and strength."
+  },
+  "巨蟹": {
+    "name": "Giant Crab",
+    "lore": "A hard-shelled giant crab swings both claws and spits bubbles."
+  },
+  "巨型龙虾": {
+    "name": "Giant Crayfish",
+    "lore": "A giant crustacean of Liurnia is known for its pincers and long-range jet of water."
+  },
+  "陆生海鞘": {
+    "name": "Land Squirt",
+    "lore": "A swollen sea creature releases clouds of poison when approached."
+  },
+  "陆生章鱼": {
+    "name": "Land Octopus",
+    "lore": "An octopus lashes with its tentacles and can regrow injured limbs."
+  },
+  "米兰达花": {
+    "name": "Miranda Flower",
+    "lore": "A giant poisonous flower releases pollen and rays of light."
+  },
+  "灵魂水母": {
+    "name": "Spirit Jellyfish",
+    "lore": "A fragile spirit defends itself by floating above danger and using poisonous tendrils."
+  },
+  "小恶魔": {
+    "name": "Imp",
+    "lore": "A small catacomb statue waits around corners to ambush visitors with a forked axe."
+  },
+  "小章鱼": {
+    "name": "Baby Land Octopus",
+    "lore": "Young octopuses hide in wetlands and attack in biting swarms."
+  },
+  "山妖": {
+    "name": "Troll",
+    "lore": "A giant with a hollow chest assails enemies with roars and crushing blows."
+  },
+  "挖石工": {
+    "name": "Miner",
+    "lore": "A miner's stony skin resists blades; it strikes back with a pickaxe."
+  },
+  "手指怪物": {
+    "name": "Fingercreeper",
+    "lore": "A giant hand crawls along the ground and traps visitors in its finger-claws."
+  },
+  "交界地·咒蛙": {
+    "name": "Lands Between Basilisk",
+    "lore": "A basilisk with swollen false eyes exhales a curse of death."
+  },
+  "交界地·大老鼠": {
+    "name": "Lands Between Giant Rat",
+    "lore": "Giant cave rats gather in packs, biting their victims and spreading disease."
+  },
+  "史莱姆": {
+    "name": "Slime",
+    "lore": "A viscous creature drops from above and engulfs enemies passing beneath it."
+  },
+  "腐烂野狗": {
+    "name": "Rotten Stray",
+    "lore": "A rot-infected dog spreads disease through its bite."
+  },
+  "癫火村民": {
+    "name": "Frenzied Villager",
+    "lore": "A villager touched by the Flame of Frenzy bursts yellow flame from the eyes."
+  },
+  "癫火老鼠": {
+    "name": "Frenzied Rat",
+    "lore": "A rat infected by madness wanders the lands consumed by frenzy."
+  },
+  "人偶士兵": {
+    "name": "Marionette Soldier",
+    "lore": "A four-armed puppet attacks ceaselessly with bows or paired spears."
+  },
+  "鸟型人偶士兵": {
+    "name": "Avionette Soldier",
+    "lore": "A birdlike mechanical puppet circles overhead, firing missiles and breathing flame."
+  },
+  "辉石魔法师": {
+    "name": "Glintstone Sorcerer",
+    "lore": "An academy sorcerer channels ranged spells through glintstone."
+  },
+  "雷亚卢卡利亚铁处女": {
+    "name": "Abductor Virgin",
+    "lore": "An iron maiden seizes enemies with mechanical arms and drags them into its body."
+  },
+  "土龙": {
+    "name": "Magma Wyrm",
+    "lore": "A dragon that has lost the power of flight carves a path with magma and a heavy blade."
+  },
+  "罗德尔骑士": {
+    "name": "Leyndell Knight",
+    "lore": "A golden-armored knight of the capital strengthens a long spear with lightning."
+  },
+  "葛瑞克骑士": {
+    "name": "Godrick Knight",
+    "lore": "A Stormveil knight guards his lord with sword, shield, and spear."
+  },
+  "杜鹃骑士": {
+    "name": "Cuckoo Knight",
+    "lore": "A mercenary knight of the academy mixes magic into weapon attacks."
+  },
+  "赤狮骑士": {
+    "name": "Redmane Knight",
+    "lore": "An elite Redmane warrior fights with flame and the Lion's Claw technique."
+  },
+  "圣树骑士": {
+    "name": "Haligtree Knight",
+    "lore": "An armored knight of the Haligtree protects allies with holy light and healing incantations."
+  },
+  "腐败骑士": {
+    "name": "Cleanrot Knight",
+    "lore": "A knight loyal to Malenia endures the rot and continues to fight."
+  },
+  "尊腐骑士芬雷": {
+    "name": "Cleanrot Knight Finlay",
+    "lore": "The Cleanrot Knight who carried the goddess of war home from Aeonia."
+  },
+  "卡利亚骑士穆格拉姆": {
+    "name": "Moongrum, Carian Knight",
+    "lore": "The knight before the queen's chamber excels at shield parries and glintblades."
+  },
+  "火焰主教": {
+    "name": "Fire Prelate",
+    "lore": "A massive prelate in red armor guards the forbidden flame with a magma-coated hammer."
+  },
+  "黑焰习武修士": {
+    "name": "Blackflame Monk",
+    "lore": "A monk who forsook the giants' flame now serves the god-slaying black flame."
+  },
+  "火焰习武修士": {
+    "name": "Fire Monk",
+    "lore": "A follower of the flame wards off enemies with a heavy blade and fire incantations."
+  },
+  "诺克斯夜巫": {
+    "name": "Night Maiden",
+    "lore": "A night maiden of the Eternal City shapes silver magic into weapons."
+  },
+  "银色泪滴": {
+    "name": "Silver Tear",
+    "lore": "A fluid life-form of the Eternal City changes shape when struck."
+  },
+  "蛇人": {
+    "name": "Man-Serpent",
+    "lore": "A serpent of Volcano Manor stretches its body and spits magma."
+  },
+  "失乡骑士英格威尔": {
+    "name": "Banished Knight Engvall",
+    "lore": "A battle-hardened banished knight holds the line with his halberd."
+  },
+  "红狮子骑士奥加": {
+    "name": "Redmane Knight Ogha",
+    "lore": "A Redmane knight skilled with a greatbow shields allies beneath a rain of arrows."
+  },
+  "克里斯托福": {
+    "name": "Ancient Dragon Knight Kristoff",
+    "lore": "An ancient dragon knight stands firm at the front with a greatshield and lightning strikes."
+  },
+  "露缇尔": {
+    "name": "Lhutel the Headless",
+    "lore": "The headless knight protects companions with spectral teleportation and a greatshield."
+  },
+  "梅琳娜": {
+    "name": "Melina",
+    "lore": "A mysterious maiden guides the Tarnished and fulfills her purpose through flame."
+  },
+  "菈妮": {
+    "name": "Ranni the Witch",
+    "lore": "The Lunar Princess forges a path to the stars with the cold magic taught by the snow witch."
+  },
+  "布莱泽": {
+    "name": "Blaidd the Half-Wolf",
+    "lore": "A half-wolf warrior protects Ranni with a royal greatsword."
+  },
+  "罗杰尔": {
+    "name": "Sorcerer Rogier",
+    "lore": "A spellblade weaves glintblades and magical techniques into his swordplay."
+  },
+  "瓦雷": {
+    "name": "White Mask Varre",
+    "lore": "A white-masked guide leads the maidenless toward the dynasty through rituals of blood."
+  },
+  "玛莉卡": {
+    "name": "Queen Marika the Eternal",
+    "lore": "The Eternal Queen is the vessel of the Elden Ring and the heart of the Golden Order."
+  },
+  "铁拳亚历山大": {
+    "name": "Iron Fist Alexander",
+    "lore": "A warrior jar journeys from battle to battle, seeking to become a hero through his fists."
+  },
+  "壶哥": {
+    "name": "Jar-Bairn",
+    "lore": "A little warrior jar dreams of travel and protects the other jars of Jarburg."
+  },
+  "狄亚罗斯": {
+    "name": "Diallos",
+    "lore": "The heir of House Hoslow ultimately chooses to protect Jarburg."
+  },
+  "涅斐丽·露": {
+    "name": "Nepheli Loux",
+    "lore": "A warrior with twin axes upholds justice through the power of the storm."
+  },
+  "海妲": {
+    "name": "Hyetta",
+    "lore": "A maiden seeking a distant light journeys toward the Flame of Frenzy."
+  },
+  "夏玻利利": {
+    "name": "Shabriri",
+    "lore": "Tempts the Tarnished in the name of the Flame of Frenzy, spreading the call of chaos."
+  },
+  "柏克": {
+    "name": "Boc the Seamster",
+    "lore": "A demi-human tailor alters garments with skillful hands and longs for acceptance."
+  },
+  "交界地·帕奇": {
+    "name": "Lands Between Patches",
+    "lore": "A seasoned opportunist makes good use of a shield, a spear, and a timely retreat."
+  },
+  "伊蕾娜": {
+    "name": "Irina",
+    "lore": "The daughter of Castle Morne's commander entrusts a letter bearing her concern for her father."
+  },
+  "艾德格": {
+    "name": "Edgar",
+    "lore": "The commander of Castle Morne defends both duty and family with a Banished Knight's halberd."
+  },
+  "骑士贝纳尔": {
+    "name": "Knight Bernahl",
+    "lore": "A knight who rejects the Order challenges an ordained fate with his scepter and combat arts."
+  },
+  "叛律者亨利克斯": {
+    "name": "Recusant Henricus",
+    "lore": "A recusant in an enormous helmet meets enemies with a great hammer and ground-shaking blows."
+  },
+  "“大角”忒拉格斯": {
+    "name": "Great Horned Tragoth",
+    "lore": "A warrior in Bull-Goat armor fights with a great hammer and lightning."
+  },
+  "“古老骑士”伊修托邦": {
+    "name": "Old Knight Istvan",
+    "lore": "An aged recusant preserves his knightly honor with scaled armor and a greatsword."
+  },
+  "“黄昏将尽”莱利": {
+    "name": "Rileigh the Idle",
+    "lore": "An assassin exploits openings with a rapid-fire crossbow and a thrusting sword."
+  },
+  "“白狼战鬼”巴格莱姆": {
+    "name": "Vargram the Raging Wolf",
+    "lore": "A warrior in white-wolf armor bears a greatsword made for hunting gods."
+  },
+  "“离群魔法师”维赫勒": {
+    "name": "Errant Sorcerer Wilhelm",
+    "lore": "A sorcerer who left the academy supports his companion with glintstone spells."
+  },
+  "塞尔维斯": {
+    "name": "Preceptor Seluvis",
+    "lore": "A preceptor who bends bodies to his will through puppet potions."
+  },
+  "魔女瑟濂": {
+    "name": "Sorceress Sellen",
+    "lore": "A witch seeking primeval sorcery fights with comets and glintstone spells."
+  },
+  "魔法师托普斯": {
+    "name": "Thops",
+    "lore": "A sorcerer outside the academy studies a force field capable of repelling magic."
+  },
+  "阿祖勒": {
+    "name": "Primeval Sorcerer Azur",
+    "lore": "A primeval sorcerer's glintstone gaze has witnessed the end of the universe."
+  },
+  "卢瑟特": {
+    "name": "Primeval Sorcerer Lusat",
+    "lore": "A primeval sorcerer draws his magic from distant stars."
+  },
+  "米利森": {
+    "name": "Millicent",
+    "lore": "A one-armed warrior bearing the fate of rot searches for a will of her own."
+  },
+  "格威": {
+    "name": "Gowry",
+    "lore": "A kindred of rot in an old man's guise guides scarlet buds toward their bloom."
+  },
+  "食粪者": {
+    "name": "Dung Eater",
+    "lore": "An infamous prisoner defiles golden grace with a curse."
+  },
+  "菲雅": {
+    "name": "Fia, Deathbed Companion",
+    "lore": "A deathbed companion gathers warmth through her embrace, seeking a future for Those Who Live in Death."
+  },
+  "D，狩猎死亡者": {
+    "name": "D, Hunter of the Dead",
+    "lore": "The bearer of Twinned Armor hunts Those Who Live in Death in the name of the Golden Order."
+  },
+  "罗德莉卡": {
+    "name": "Roderika",
+    "lore": "A spirit tuner strengthens wandering souls through understanding and empathy."
+  },
+  "修古": {
+    "name": "Smithing Master Hewg",
+    "lore": "A smith bound to the Erdtree forges weapons that may one day slay a god."
+  },
+  "伊吉": {
+    "name": "War Counselor Iji",
+    "lore": "A giant craftsman serves as both a smith and Ranni's counselor."
+  },
+  "百智爵士基甸·奥夫尼尔": {
+    "name": "Sir Gideon Ofnir, the All-Knowing",
+    "lore": "The All-Knowing gathers the secrets of the Lands Between and commands many sorceries."
+  },
+  "恩夏": {
+    "name": "Ensha of the Royal Remains",
+    "lore": "A silent guard in Royal Remains armor fights with a life-draining fist weapon."
+  },
+  "金面具": {
+    "name": "Goldmask",
+    "lore": "Through silent contemplation, he studies the Golden Order's flaws in pursuit of perfect order."
+  },
+  "柯林": {
+    "name": "Brother Corhyn",
+    "lore": "An incantation teacher studies the Golden Order and shares his prayers with his companions."
+  },
+  "结缘教堂的米利耶": {
+    "name": "Miriel, Pastor of Vows",
+    "lore": "The gentle pastor guards learning and incantations through tolerance."
+  },
+  "拉缇娜": {
+    "name": "Latenna the Albinauric",
+    "lore": "An Albinauric archer, bereft of her wolf companion, seeks a home for her people."
+  },
+  "尤拉": {
+    "name": "Bloody Finger Hunter Yura",
+    "lore": "A hunter of Bloody Fingers uses his long blade and swift draw to resist the spread of blood."
+  },
+  "艾琉诺拉": {
+    "name": "Eleonora, Violet Bloody Finger",
+    "lore": "The violet Bloody Finger combines a twinblade with dragon communion flame in relentless combinations."
+  },
+  "娜斯塔西娅": {
+    "name": "Anastasia, Tarnished-Eater",
+    "lore": "The Tarnished-Eater pursues her prey with an enormous butcher's knife."
+  },
+  "“红灵”阿尔贝利希": {
+    "name": "Mad Tongue Alberich",
+    "lore": "Challenges visitors to Roundtable Hold with cold sorcery and thorn magic."
+  },
+  "游牧商人咖列": {
+    "name": "Merchant Kale",
+    "lore": "A wandering merchant helps newcomers to the Lands Between with supplies and rumors."
+  },
+  "流氓": {
+    "name": "Blackguard Big Boggart",
+    "lore": "A prawn seller of Liurnia gets by with iron fists and rough-edged kindness."
+  },
+  "菈雅": {
+    "name": "Rya",
+    "lore": "A recruiter for Volcano Manor conceals her origins as a man-serpent."
+  },
+  "塔妮丝": {
+    "name": "Tanith",
+    "lore": "The lady of Volcano Manor guides recusants in their struggle against the Erdtree."
+  },
+  "战士壶大壶": {
+    "name": "The Great-Jar",
+    "lore": "An immense, silent warrior jar tests challengers through three champions."
+  },
+  "“穿刺者”梅瑟莫": {
+    "name": "Messmer the Impaler",
+    "lore": "Scours the realm of shadow with an impaling spear, serpents, and flame beyond grace."
+  },
+  "“暴虐”贝勒": {
+    "name": "Bayle the Dread",
+    "lore": "A maimed dragon seeks vengeance against the ancient dragons with flame-lightning and broken wings."
+  },
+  "双月骑士蕾菈娜": {
+    "name": "Rellana, Twin Moon Knight",
+    "lore": "One sword gathers moonlight while the other burns with Messmer's flame."
+  },
+  "神兽舞狮": {
+    "name": "Divine Beast Dancing Lion",
+    "lore": "The people of the tower invoke wind, lightning, and frost through a sacred lion dance."
+  },
+  "“老将”盖乌斯": {
+    "name": "Commander Gaius",
+    "lore": "An Albinauric commander charges beside his boar, wielding the power of gravity."
+  },
+  "腐败眷属罗蜜娜": {
+    "name": "Romina, Saint of the Bud",
+    "lore": "The saint of the bud spreads rot through a body joined with a scorpion."
+  },
+  "指头之母梅蒂尔": {
+    "name": "Metyr, Mother of Fingers",
+    "lore": "A mother of fingers born among the stars casts spells with twisted starlight and giant fingers."
+  },
+  "融泥骑士": {
+    "name": "Putrescent Knight",
+    "lore": "A knight of the stone coffin drives off spirits with a putrescent blade and a mount of sludge."
+  },
+  "癫火之王米德拉": {
+    "name": "Midra, Lord of Frenzied Flame",
+    "lore": "A suffering sage pulls out the greatsword of his punishment and becomes the Lord of Frenzied Flame."
+  },
+  "“约定之王”拉塔恩": {
+    "name": "Promised Consort Radahn",
+    "lore": "The general of twin swords returns beneath Miquella's sheltering light."
+  },
+  "罗刹": {
+    "name": "Rakshasa",
+    "lore": "A red-armored swordswoman harvests enemies with repeated great-katana strikes, heedless of her own safety."
+  },
+  "孤牢骑士": {
+    "name": "Blackgaol Knight",
+    "lore": "A heavily armored knight wields the Greatsword of Solitude in a nameless mausoleum."
+  },
+  "“锯齿山”之龙": {
+    "name": "Jagged Peak Drake",
+    "lore": "A drake caught in the ancient dragons' conflict fights with fiery breath."
+  },
+  "古龙瑟涅桑克斯": {
+    "name": "Ancient Dragon Senessax",
+    "lore": "An ancient dragon of Jagged Peak sends lightning through the water."
+  },
+  "黄金河马": {
+    "name": "Golden Hippopotamus",
+    "lore": "The huge beast before Shadow Keep's gate sprouts golden spikes."
+  },
+  "死之骑士": {
+    "name": "Death Knight",
+    "lore": "An ancient dragon knight serving the Prince of Death fights with twin axes and dragon lightning."
+  },
+  "“大祭司”尤弥尔": {
+    "name": "Count Ymir",
+    "lore": "A Carian preceptor studies the bond between fingers and stars, casting finger sorceries."
+  },
+  "“古龙人”": {
+    "name": "Ancient Dragon-Man",
+    "lore": "A swordsman devoted to dragon communion guards the Dragon's Pit with a great katana made for hunting dragons."
+  },
+  "亚人剑圣翁吉": {
+    "name": "Demi-Human Swordmaster Onze",
+    "lore": "A demi-human swordmaster closes in with swift swordplay and glintstone sword-light."
+  },
+  "灵火龙": {
+    "name": "Ghostflame Dragon",
+    "lore": "A dead dragon ravages the realm of shadow with ghostflame."
+  },
+  "树影化身": {
+    "name": "Scadutree Avatar",
+    "lore": "A gigantic, twisted flower sprouts anew through three witherings."
+  },
+  "梅瑟莫士兵": {
+    "name": "Messmer Soldier",
+    "lore": "A soldier of the Impaler scours the realm of shadow with fire and spear."
+  },
+  "梅瑟莫黑骑士": {
+    "name": "Black Knight of Messmer",
+    "lore": "A black-armored knight of Messmer's army fights with a golden great hammer and greatshield."
+  },
+  "火焰骑士": {
+    "name": "Fire Knight",
+    "lore": "A red-robed knight of Shadow Keep fights with fire magic and serpentine weapons."
+  },
+  "幽影民": {
+    "name": "Shadow Commoner",
+    "lore": "An inhabitant stripped of bodily color preserves old habits in the realm of shadow."
+  },
+  "角人战士": {
+    "name": "Hornsent Warrior",
+    "lore": "A warrior of the tower people defends the homeland with horn ornaments and a curved sword."
+  },
+  "咒剑士": {
+    "name": "Curseblade",
+    "lore": "A twin-bladed dancer in a divine beast mask darts in with rapid, whirling steps."
+  },
+  "血怪": {
+    "name": "Bloodfiend",
+    "lore": "A giant worshipper of the blood deity draws blood with heavy weapons."
+  },
+  "血怪咒术师": {
+    "name": "Bloodfiend Hexer",
+    "lore": "A bloodfiend caster supports the clan with bloodflame."
+  },
+  "大嘴小恶魔": {
+    "name": "Bigmouth Imp",
+    "lore": "A catacomb statue with a cannon for a head fires explosive rounds."
+  },
+  "柳条人": {
+    "name": "Furnace Golem",
+    "lore": "A towering furnace burns its trophies and sweeps the realm of shadow with kicks and waves of flame."
+  },
+  "人形苍蝇": {
+    "name": "Man-Fly",
+    "lore": "People of the shadow have become flies, swarming forward on buzzing wings."
+  },
+  "蜘蛛蝎": {
+    "name": "Spider Scorpion",
+    "lore": "A long-legged creature with a scorpion's tail lurks within the tower."
+  },
+  "手指蠕虫": {
+    "name": "Fingercreeper Worm",
+    "lore": "A worm ringed with fingerprint-like markings guards the finger ruins."
+  },
+  "吸生蠕虫": {
+    "name": "Lamprey",
+    "lore": "A worm binds its victims with a ring-shaped mouth and drains their life."
+  },
+  "不可触碰的老翁": {
+    "name": "Aging Untouchable",
+    "lore": "An old wanderer of the Abyssal Woods takes lives with frenzied flame and grasping hands."
+  },
+  "罐中人": {
+    "name": "Living Jar Innard",
+    "lore": "A living being stuffed into a great jar defends itself with twisted limbs and flesh."
+  },
+  "神鸟战士": {
+    "name": "Divine Bird Warrior",
+    "lore": "A warrior adorned with golden wings unleashes the feathers of the divine bird."
+  },
+  "神兽战士": {
+    "name": "Divine Beast Warrior",
+    "lore": "An elite of the spiral tower channels the divine beast's wind, lightning, and frost."
+  },
+  "熔炉骑士德沃尼亚": {
+    "name": "Crucible Knight Devonia",
+    "lore": "A great-hammer-wielding knight searches for the origins of the Crucible."
+  },
+  "蕾妲": {
+    "name": "Needle Knight Leda",
+    "lore": "In Miquella's name, the Needle Knight judges and removes those whose loyalties waver."
+  },
+  "安帕赫": {
+    "name": "Sir Ansbach",
+    "lore": "A former blood knight seeks the truth about his lord with a great scythe and blades of blood."
+  },
+  "弗蕾雅": {
+    "name": "Redmane Freyja",
+    "lore": "A Redmane warrior believes that battle is still what her general desires."
+  },
+  "角人": {
+    "name": "Hornsent",
+    "lore": "Burdened with vengeance for his people, the hornsent casts retaliatory incantations."
+  },
+  "角人老妪": {
+    "name": "Hornsent Grandam",
+    "lore": "An elder of the tower people offers prayers for the divine beast and those seeking vengeance."
+  },
+  "大维壶师": {
+    "name": "Great Potentate",
+    "lore": "A follower who collects jars and studies perfumery fights with poisoned hands."
+  },
+  "穆尔": {
+    "name": "Moore",
+    "lore": "A scavenger in heavy verdigris armor protects friends with his greatshield."
+  },
+  "休里耶": {
+    "name": "Thiollier",
+    "lore": "A perfumer devoted to St. Trina understands poison and deep sleep."
+  },
+  "圣女托莉娜": {
+    "name": "St. Trina",
+    "lore": "The embodiment of a purple water lily comforts the lost with the nectar of sleep."
+  },
+  "埃贡": {
+    "name": "Igon",
+    "lore": "A broken dragon hunter seeks revenge against Bayle with a dragon communion greatbow."
+  },
+  "龙飨女巫芙柔桑克斯": {
+    "name": "Dragon Communion Priestess Florissax",
+    "lore": "Guides dragon hunters at the Dragonlord's command and knows the ancient lightning of dragons."
+  },
+  "“黑夜剑士”约兰": {
+    "name": "Swordhand of Night Jolan",
+    "lore": "Loyal to the high priest, she wields a blade of night, slipping between adjacent lanes to strike an isolated opposing card."
+  },
+  "“黑夜剑士”安娜": {
+    "name": "Swordhand of Night Anna",
+    "lore": "Jolan's sister attacks with claws of night, using nimble footwork to find a weak opposing lane."
+  },
+  "红熊鲁格利亚": {
+    "name": "Rugalea the Great Red Bear",
+    "lore": "A bear warrior fights with claws and roars, drawing on the strength of the red bear."
+  },
+  "火焰骑士昆兰": {
+    "name": "Fire Knight Queelign",
+    "lore": "A red-robed knight casts seeking flames at intruders."
+  },
+  "火焰骑士希德": {
+    "name": "Fire Knight Hilde",
+    "lore": "A fire knight in Messmer's service fights with a fire spear and spells."
+  },
+  "丹恩": {
+    "name": "Dryleaf Dane",
+    "lore": "A monk of the Dryleaf order practices with fists, feet, and unwavering faith."
+  },
+  "墓地鼠": {
+    "name": "Graveyard Rat",
+    "lore": "Its fighting style brings the Dark element into the game's sacrifice system."
+  },
+  "卡利亚骑士": {
+    "name": "Carian Knight",
+    "lore": "Its fighting style brings the Light element into the game's sacrifice system."
+  },
+  "玛莲妮亚·金辉": {
+    "name": "Gilded Malenia, Blade of Miquella",
+    "lore": "Where her blade passes, spilled blood becomes a golden glimmer of renewed resolve."
+  },
+  "“穿刺者”梅瑟莫·金辉": {
+    "name": "Gilded Messmer the Impaler",
+    "lore": "A fire serpent coils around a golden spear; the victor's blood keeps an exiled edge burning."
+  },
+  "神兽舞狮·金辉": {
+    "name": "Gilded Divine Beast Dancing Lion",
+    "lore": "To the sound of golden bells, the divine beast stamps up thunderclouds, its heavy lion's head shielding the tower people's last line."
+  },
+  "双月骑士蕾菈娜·金辉": {
+    "name": "Gilded Rellana, Twin Moon Knight",
+    "lore": "Twin moons light her golden blades; after she is gone, an unread vow still points toward another path."
+  },
+  "树影化身·金辉": {
+    "name": "Gilded Scadutree Avatar",
+    "lore": "A golden flower opens again among its wounds, leaving the land a final spark even in its last withering."
+  },
+  "葛瑞克·金辉": {
+    "name": "Gilded Godrick the Grafted",
+    "lore": "Borrowed arms gleam with gold; each fallen opponent adds another grasping measure of greed to his cumbersome kingship."
+  },
+  "艾尔登之兽·金辉": {
+    "name": "Gilded Elden Beast",
+    "lore": "The Order becomes flowing gold; starlight passes beyond the blades to grant the unseen law one more breath."
+  },
+  "“约定之王”拉塔恩·金辉": {
+    "name": "Gilded Promised Consort Radahn",
+    "lore": "Twin swords uphold a softly golden vow; returned from the place of fallen stars, the lord holds the final lane for a shared destiny."
+  },
+  "蕾娜拉·金辉": {
+    "name": "Gilded Rennala, Queen of the Full Moon",
+    "lore": "The full moon rises once more over golden waters as the queen folds a broken star chart into the entrance to another dream."
+  },
+  "玛尔基特·金辉": {
+    "name": "Gilded Margit, the Fell Omen",
+    "lore": "A ragged cloak cannot conceal golden phantom weapons; the gate's watchman drives hesitant Tarnished back toward an unkindled road."
+  },
+  "拉达冈·金辉": {
+    "name": "Gilded Radagon of the Golden Order",
+    "lore": "Shattered gold is set into a body of stone; after the sacred hammer falls, a final resolve to mend the world still shines behind him."
+  },
+  "“暴虐”贝勒·金辉": {
+    "name": "Gilded Bayle the Dread",
+    "lore": "Broken wings bear golden flame-lightning; with every kill, the wounded dragon regains the strength to hurl itself at the sky."
+  },
+  "黄金树守卫·金辉": {
+    "name": "Gilded Tree Sentinel",
+    "lore": "Gold has always belonged to the Erdtree's knight; greatshield and halberd together guard the first road."
+  },
+  "红狼拉达冈·金辉": {
+    "name": "Gilded Red Wolf of Radagon",
+    "lore": "Golden magic becomes a blade along the red wolf's fangs; its watch over the academy never ended when its master departed."
+  },
+  "拉塔恩·金辉": {
+    "name": "Gilded Starscourge Radahn",
+    "lore": "Gold lights twin swords and a little horse; at the general's roar, the fallen stars finally begin to move again."
+  },
+  "龙装大树守卫·金辉": {
+    "name": "Gilded Draconic Tree Sentinel",
+    "lore": "Red lightning crawls over golden dragon armor; the knight at the capital's gate still stands as its final wall."
+  },
+  "蒙葛特·金辉": {
+    "name": "Gilded Morgott, the Omen King",
+    "lore": "Golden grace once rejected his name, yet his cursed sword still protects the tree that never accepted him."
+  },
+  "拉卡德·金辉": {
+    "name": "Gilded Rykard, Lord of Blasphemy",
+    "lore": "Gold entwines with devouring flame; the serpent lord promises that every rebel will be family forever."
+  },
+  "莫格·金辉": {
+    "name": "Gilded Mohg, Lord of Blood",
+    "lore": "Bloodflame carves a countdown into the gold; the blood dynasty's blessing never seeks its sacrifice's consent."
+  },
+  "火焰巨人·金辉": {
+    "name": "Gilded Fire Giant",
+    "lore": "Gold reflects the ancient fury in a single eye; the giant beside the forbidden flame still has nowhere left to retreat."
+  },
+  "玛利喀斯·金辉": {
+    "name": "Gilded Maliketh, the Black Blade",
+    "lore": "Destined Death cleaves the gold; when the Black Blade falls, even vows of immortality lose their meaning."
+  },
+  "葛孚雷·金辉": {
+    "name": "Gilded Godfrey, First Elden Lord",
+    "lore": "Gold settles once more upon the first lord's axe; when the lion falls away, only a true warrior remains."
+  }
+}

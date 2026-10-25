@@ -1291,7 +1291,7 @@ function render(){
  let h='';
  if(G&&OV!=='title'){
  const hc=G.sel!=null?G.hand[G.sel]:null,mc=G.moveSel!=null?G.p[G.moveSel]:null,selected=hc||mc,drawPreview=tutorialOverviewDraw();
- h+=`<main class="game-shell"><header class="hdr table-topbar"><div class="table-brand"><span class="table-emblem" aria-hidden="true">✦</span><div><strong>灯誓牌</strong><small>${bossStageLabelHTML()}</small></div></div><nav class="table-tools" aria-label="游戏设置">${typeof replayButtonHTML==='function'?replayButtonHTML():''}<button class="icon-toggle" data-a="mute" aria-pressed="${!mute}" aria-label="${mute?'开启':'关闭'}音效">音效 ${mute?'关':'开'}</button><button class="icon-toggle" data-a="mus" aria-pressed="${!mmute}" aria-label="${mmute?'开启':'关闭'}音乐；${esc(musicNowTitle())}" title="${esc(musicNowTitle())}">音乐 ${mmute?'关':'开'}</button><button class="deck-access" data-a="deckmanager" aria-label="查看我的卡组">${deckIconHTML()}卡组</button><button data-a="rules" aria-label="玩法手册">规则</button></nav></header>`;
+ h+=`<main class="game-shell"><header class="hdr table-topbar"><div class="table-brand"><span class="table-emblem" aria-hidden="true">✦</span><div><strong>灯誓牌</strong><small>${bossStageLabelHTML()}</small></div></div><nav class="table-tools" aria-label="游戏设置">${typeof replayButtonHTML==='function'?replayButtonHTML():''}<button class="icon-toggle" data-a="mute" aria-pressed="${!mute}" aria-label="${mute?'开启':'关闭'}音效">音效 ${mute?'关':'开'}</button>${languageToggleHTML()}<button class="icon-toggle" data-a="mus" aria-pressed="${!mmute}" aria-label="${mmute?'开启':'关闭'}音乐；${esc(musicNowTitle())}" title="${esc(musicNowTitle())}">音乐 ${mmute?'关':'开'}</button><button class="deck-access" data-a="deckmanager" aria-label="查看我的卡组">${deckIconHTML()}卡组</button><button data-a="rules" aria-label="玩法手册">规则</button></nav></header>`;
  h+=`<section class="opponent-hud side-hud" aria-label="敌方生命与牌库">${healthHTML('e')}<div class="opponent-stock side-stock">${pileHTML('e')}<div class="enemy-hand" aria-label="敌方手牌${G.eh.length}张">${G.eh.map((c,i)=>`<div class="card-back ${i<G.eh.length-5?'hand-tucked':''} ${frozenTurns(c)?'is-frozen':''}" data-index="${i}" aria-label="${frozenTurns(c)?'冻结中的敌方手牌，剩余'+frozenTurns(c)+'回合':'隐藏的敌方手牌'}"></div>`).join('')}<span class="enemy-hand-count">${G.eh.length}</span></div></div></section>`;
  h+=`<section class="table-arena" aria-label="五席战场">${G.phase==='round-start'&&roundFirstSide()==='e'?`<div class="round-start-notice" role="status"><small>上一回合已结束</small><strong>第 ${G.turn} 回合</strong><span>Boss先部署 · 旧祭品已可献祭</span></div>`:''}<div class="row board enemy-board">${G.e.map((c,i)=>c?cardHTML(c,c.t===G.turn?'fresh':'',`id="c-e-${i}" data-a="enemyinfo" data-i="${i}" tabindex="0"`):`<div class="slot" id="c-e-${i}"><small>${i+1}</small><span aria-hidden="true">◇</span></div>`).join('')}</div><div class="round-banner"><span>第 ${G.turn} / ${MATCH_LIMIT} 回合</span><i aria-hidden="true"></i><b>${roundFirstSide()==='p'?'我方':'Boss'}先手</b><i aria-hidden="true"></i><span>双方各结算一次</span></div><div class="row board player-board">${G.p.map((c,i)=>{const ok=hc&&!frozenTurns(hc)&&G.sac.size===hc.c&&(!c||G.sac.has(i)),sac=G.sac.has(i),mobile=c&&['shift','swap'].includes(c.mv)&&c.moved!==G.turn;return c?cardHTML(c,(sac?'sacrificing ':'')+(G.moveSel===i?'move-selected ':'')+(mobile?'can-move ':'')+(c.t===G.turn?'fresh':''),`id="c-p-${i}" data-a="s" data-i="${i}" tabindex="0" ${ok?'style="outline:2px solid var(--candle)"':''}`):`<div class="slot ${ok?'ok':''}" id="c-p-${i}" data-a="s" data-i="${i}" tabindex="0"><small>${i+1}</small><span aria-hidden="true">◇</span></div>`}).join('')}</div></section>`;
  h+=`<section class="player-vitals side-hud" aria-label="我方生命与牌库">${healthHTML('p')}<div class="opponent-stock player-stock side-stock">${pileHTML('p')}<div class="reserve-summary"><div class="ash-source" id="ash-source" role="img" aria-label="余芯来源">灰</div><span class="own-hand-count" aria-label="我方手牌${G.hand.length}张"><small>手牌</small><b>${G.hand.length}</b></span></div></div></section><section class="interaction-bar">`;
@@ -2554,6 +2554,12 @@ function cardAttackSoundType(c){
  if(c.n==='余芯'||c.n==='碎灯偶')return 'impact';
  const name=String(c.baseName||c.n||'').replace(/^(?:砂镜地窟|黑魂[ⅠⅡⅢ]|暮潮港湾|霜枝高地|星铸天穹|折光边境)·/,'').replace(/·鎏金$/,'');
  if(CARD_ATTACK_SOUND_OVERRIDES[name])return CARD_ATTACK_SOUND_OVERRIDES[name];
+ const family=CARD_ART_PROFILES[c.baseName||c.n]?.family;
+ if(['mage','healer','alien','butterfly'].includes(family))return 'magic';
+ if(family==='spirit')return 'spirit';
+ if(['knight','human','rogue','undead'].includes(family))return 'blade';
+ if(['giant','plant','mushroom','jar','blob','hand','mimic'].includes(family))return 'impact';
+ if(family)return 'beast';
  const lore=String(c.lore||'');
  // Ranged weapons precede knights: an armored archer still releases a projectile.
  if(/大弓|弓兵|弓手|弩兵|弩手|火枪|持枪|持炮|枪手|射手|投斧/.test(name))return 'bow';
@@ -2605,7 +2611,7 @@ function playCombatSound(kind,context,variant=null){
 }
 function playCardAttackSound(card){
  const type=cardAttackSoundType(card),name=String(card?.baseName||card?.n||'');
- const variant=type==='beast'&&/鸦|乌鸦|鹰|飞鸟/.test(name)?'beastBird':type==='beast'&&/霜枝苔痕赤角兽|樱牛|野牛/.test(name)?'beastBull':null;
+ const family=CARD_ART_PROFILES[name]?.family,variant=type==='beast'&&(family==='bird'||/鸦|乌鸦|鹰|飞鸟|掠风鸟/.test(name))?'beastBird':type==='beast'&&(family==='bull'||/赤角兽|樱牛|野牛/.test(name))?'beastBull':null;
  return playCombatSound(type,undefined,variant);
 }
 Object.assign(SND,{burn:()=>playCombatSound('burn'),heal:()=>playCombatSound('heal'),rare:()=>playCombatSound('rare')});
@@ -3096,6 +3102,17 @@ function i18nText(source){
  result=leading+result+trailing;
  if(localeTextCache.size>8192)localeTextCache.clear();localeTextCache.set(source,result);return result;
 }
+function languageToggleHTML(){
+ const english=gameLanguage!=='en',target=english?'en':'zh-CN',title=english?'Switch to English':'切换为中文';
+ return `<button type="button" class="icon-toggle language-toggle" data-language="${target}" data-i18n-control lang="${english?'en':'zh-CN'}" title="${title}" aria-label="${title}"><span class="language-full">${english?'English':'中文'}</span><span class="language-compact" aria-hidden="true">${english?'EN':'中'}</span></button>`;
+}
+function englishCardSearchTerms(card){
+ const sigils={fly:'fly flying flight airborne',guard:'guard guardian block flying',thorn:'thorn thorns reflect',bones:'bones bone skeleton',parry:'parry deflect',vamp:'vampire vamp lifesteal blood',regen:'regen regenerate regeneration',poison:'poison toxic',abyss:'freeze frozen cost discount'};
+ const elements={'物理':'physical','火':'fire flame','雷':'lightning thunder','光':'light holy','暗':'dark shadow','血':'blood','魔':'magic arcane','冰':'ice frost','毒':'poison toxic'};
+ const moves={shift:'shift move left right',swap:'swap move exchange left right',push:'push knockback move'};
+ const extras={soul:'soul kill growth',ember:'ember kindle heal healing',rekindle:'rekindle rebirth return hand'};
+ return [englishCardName(card),card.kind,sigils[card.s],elements[card.at],moves[card.mv],extras[card.x],card.heal&&'heal healing restore',card.dr&&'draw cards',card.dd&&'death draw',card.death&&'deathrattle death '+card.death,card.growth&&'growth kill',card.zeroAttackPunish&&'ambush conditional attack',card.rarity==='rare'?'rare gilded gold golden':'common',LOOP_STORY.chapters[card.game]?.name.en,`${card.c||0} cost ${card.c||0}费`].filter(Boolean).join(' ');
+}
 function languageSwitchHTML(){return `<nav class="language-switch" aria-label="Language" data-i18n-control><button type="button" data-language="zh-CN" lang="zh-CN" aria-pressed="${gameLanguage==='zh-CN'}">中文</button><button type="button" data-language="en" lang="en" aria-pressed="${gameLanguage==='en'}">English</button></nav>`}
 function localizeTextNode(node){
  if(gameLanguage==='en'&&node.parentElement?.matches('.card .at')){const mark={物:'P',火:'F',雷:'L',光:'H',暗:'D',血:'B',魔:'M',冰:'I',毒:'T'}[node.nodeValue];if(mark)node.nodeValue=mark;return;}
@@ -3144,7 +3161,7 @@ render=function(){renderBeforeLocalization();localizeRoot(document.getElementByI
 const selectionBeforeLocalization=renderSelection;
 renderSelection=function(){selectionBeforeLocalization();for(const selector of ['.interaction-bar','.sidebar-inspection','.tutorial-layer'])localizeRoot(document.querySelector(selector));scheduleLocaleLayout()};
 const searchBeforeLocalization=cardSearchText;
-cardSearchText=function(card){const english=I18N_CARDS[card.n];return searchBeforeLocalization(card)+(english?' '+english.name+' '+english.lore+' '+i18nText(searchBeforeLocalization(card)):'')};
+cardSearchText=function(card){const english=I18N_CARDS[card.n];return searchBeforeLocalization(card)+' '+englishCardSearchTerms(card)+(english?' '+english.name+' '+english.lore:'')};
 document.addEventListener('click',event=>{const button=event.target.closest('[data-language]');if(!button)return;event.preventDefault();event.stopImmediatePropagation();setGameLanguage(button.dataset.language)},true);
 const localeObserver=new MutationObserver(records=>{
  const roots=new Set();for(const record of records){if(record.type==='childList')for(const node of record.addedNodes)roots.add(node);else roots.add(record.target)}

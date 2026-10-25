@@ -1,0 +1,105 @@
+{
+  "version": 1,
+  "sources": [
+    {
+      "id": "fireCrackle",
+      "sourcefile": "mods/fantasycore/soundfx/environment/open_fire_loop.ogg",
+      "sourceURL": "https://github.com/flareteam/flare-game/blob/af6eee6d339ac98011864bfe89da837fe7769c28/mods/fantasycore/soundfx/environment/open_fire_loop.ogg",
+      "downloadURL": "https://raw.githubusercontent.com/flareteam/flare-game/af6eee6d339ac98011864bfe89da837fe7769c28/mods/fantasycore/soundfx/environment/open_fire_loop.ogg",
+      "author": "Ezwa; remix by Dinamic (embedded Vorbis ARTIST/Remixed tags)",
+      "license": "CC-BY-SA-3.0",
+      "duration": 2.753061,
+      "sha256": "fc6ba1e163f01ab88c0aeff7fbe04ff206c10b40257e4fde3a7051698698386b",
+      "note": "Recommended natural open-fire crackling. Crop a 1–1.4 second section with short fade for card sacrifice. Preserve attribution and credit changes; modified audio remains CC-BY-SA-3.0. Project README explicitly licenses all art/data under CC-BY-SA3, separate from GPL engine. Original file metadata explicitly states ARTIST=Ezwa, Remixed=Dinamic, COMMENTS=Public Domain (pdsounds.org). Flare credits do not individually map this file; author evidence comes from embedded metadata. Conservative redistributed adaptation can retain CC-BY-SA3 project license.",
+      "originalLicenseMetadata": "Public Domain (pdsounds.org)"
+    },
+    {
+      "id": "swordImpact",
+      "sourcefile": "assets/sword-hit.wav",
+      "sourceURL": "https://github.com/benmarz/minimum_game/blob/c13436130911640292f0fcb18ac52c17a8ea7bd7/assets/sword-hit.wav",
+      "downloadURL": "https://raw.githubusercontent.com/benmarz/minimum_game/c13436130911640292f0fcb18ac52c17a8ea7bd7/assets/sword-hit.wav",
+      "author": "Pedro Santo / audione (Freesound #52458)",
+      "license": "CC0-1.0",
+      "duration": 0.5,
+      "sha256": "0bcc7ca8adea7858fb615b76b525eebc9887db30409e717c06c6224d40459a39",
+      "note": "Clipped by source game from audione sword-01.wav. Individual per-file attribution explicitly CC0. Original URL https://freesound.org/people/audione/sounds/52458/ . Recommended human/knight sword contact."
+    },
+    {
+      "id": "swordSwing2",
+      "sourcefile": "top-down-shooter/sounds/sword-2.wav",
+      "sourceURL": "https://github.com/sparklinlabs/superpowers-asset-packs/blob/e8674a03ab4456802f71f848c4df79eccca23f7a/top-down-shooter/sounds/sword-2.wav",
+      "downloadURL": "https://raw.githubusercontent.com/sparklinlabs/superpowers-asset-packs/e8674a03ab4456802f71f848c4df79eccca23f7a/top-down-shooter/sounds/sword-2.wav",
+      "author": "Pixel-boy / Sparklin Labs",
+      "license": "CC0-1.0",
+      "duration": 0.338209,
+      "sha256": "a7450111b69f5715d4767250581439a667745d095cbf72dffd760fd39156e6c2",
+      "note": "CC0 sword attack alternate variation."
+    },
+    {
+      "id": "arrow",
+      "sourcefile": "western-fps-2d/sounds/arrow.ogg",
+      "sourceURL": "https://github.com/sparklinlabs/superpowers-asset-packs/blob/e8674a03ab4456802f71f848c4df79eccca23f7a/western-fps-2d/sounds/arrow.ogg",
+      "downloadURL": "https://raw.githubusercontent.com/sparklinlabs/superpowers-asset-packs/e8674a03ab4456802f71f848c4df79eccca23f7a/western-fps-2d/sounds/arrow.ogg",
+      "author": "Pixel-boy / Sparklin Labs",
+      "license": "CC0-1.0",
+      "duration": 0.387958,
+      "sha256": "4843fbfaa82adb1d0d0d411813e85d508dd7fab905c000a97b20d9fb057b6984",
+      "note": "CC0 bow/arrow short attack."
+    },
+    {
+      "id": "beast1",
+      "sourcefile": "medieval-fantasy/sounds/monster-1.wav",
+      "sourceURL": "https://github.com/sparklinlabs/superpowers-asset-packs/blob/e8674a03ab4456802f71f848c4df79eccca23f7a/medieval-fantasy/sounds/monster-1.wav",
+      "downloadURL": "https://raw.githubusercontent.com/sparklinlabs/superpowers-asset-packs/e8674a03ab4456802f71f848c4df79eccca23f7a/medieval-fantasy/sounds/monster-1.wav",
+      "author": "Pixel-boy / Sparklin Labs",
+      "license": "CC0-1.0",
+      "duration": 0.350113,
+      "sha256": "e869de88ca6e08b49f3a474aa23090d440ab184b4b90a3d6d3e965ddc6125820",
+      "note": "Short fantasy monster vocal, not documented as a real animal field recording."
+    },
+    {
+      "id": "beast2",
+      "sourcefile": "medieval-fantasy/sounds/monster-2.wav",
+      "sourceURL": "https://github.com/sparklinlabs/superpowers-asset-packs/blob/e8674a03ab4456802f71f848c4df79eccca23f7a/medieval-fantasy/sounds/monster-2.wav",
+      "downloadURL": "https://raw.githubusercontent.com/sparklinlabs/superpowers-asset-packs/e8674a03ab4456802f71f848c4df79eccca23f7a/medieval-fantasy/sounds/monster-2.wav",
+      "author": "Pixel-boy / Sparklin Labs",
+      "license": "CC0-1.0",
+      "duration": 0.327732,
+      "sha256": "09ad1d322e373d3bf13ca4a55d920501fb7a21c1bd1496088873a3e3db9adf6c",
+      "note": "Alternate short fantasy monster vocal."
+    },
+    {
+      "id": "bull",
+      "sourcefile": "western-fps-2d/sounds/bulls.ogg",
+      "sourceURL": "https://github.com/sparklinlabs/superpowers-asset-packs/blob/e8674a03ab4456802f71f848c4df79eccca23f7a/western-fps-2d/sounds/bulls.ogg",
+      "downloadURL": "https://raw.githubusercontent.com/sparklinlabs/superpowers-asset-packs/e8674a03ab4456802f71f848c4df79eccca23f7a/western-fps-2d/sounds/bulls.ogg",
+      "author": "Pixel-boy / Sparklin Labs",
+      "license": "CC0-1.0",
+      "duration": 0.90415,
+      "sha256": "b6b496258dd25e87de710f3d7f691fec07c3be6eb6b649c958ae541f8dd56fcf",
+      "note": "Non-human bovine vocal, suitable large beasts."
+    },
+    {
+      "id": "bird",
+      "sourcefile": "western-fps-2d/sounds/raven-1.ogg",
+      "sourceURL": "https://github.com/sparklinlabs/superpowers-asset-packs/blob/e8674a03ab4456802f71f848c4df79eccca23f7a/western-fps-2d/sounds/raven-1.ogg",
+      "downloadURL": "https://raw.githubusercontent.com/sparklinlabs/superpowers-asset-packs/e8674a03ab4456802f71f848c4df79eccca23f7a/western-fps-2d/sounds/raven-1.ogg",
+      "author": "Pixel-boy / Sparklin Labs",
+      "license": "CC0-1.0",
+      "duration": 9.789146,
+      "sha256": "6ceccbeb9f9d94e0b37fd7ddfdc7f75e14d723a7bcd45b66c1438819991f4554",
+      "note": "Raven calls; 9.8s source, trim a single call for bird attacks."
+    },
+    {
+      "id": "metalHeavy",
+      "sourcefile": "kenney_impactsounds/Audio/impactMetal_heavy_000.ogg",
+      "sourceURL": "https://github.com/ETdoFresh/kenney.nl/blob/45df48c4d45f8716216b1a9e22df0b69cd9f5932/kenney_impactsounds/Audio/impactMetal_heavy_000.ogg",
+      "downloadURL": "https://raw.githubusercontent.com/ETdoFresh/kenney.nl/45df48c4d45f8716216b1a9e22df0b69cd9f5932/kenney_impactsounds/Audio/impactMetal_heavy_000.ogg",
+      "author": "Kenney Vleugels / Kenney.nl",
+      "license": "CC0-1.0",
+      "duration": 0.167664,
+      "sha256": "e07045693e4a2b3d165c424e3dab4c781d9ff8880a386880ac89a51315d7f831",
+      "note": "Metal impact/hammer-like contact from Kenney Impact Sounds. Pack license explicitly credits Kenney and CC0."
+    }
+  ]
+}

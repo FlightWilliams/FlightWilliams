@@ -1,0 +1,12 @@
+{
+  "version": "0.18.3",
+  "cards": 988,
+  "core": "assets/game.295fd6781bea.js",
+  "styles": "assets/game.7bb6c86fa621.css",
+  "sounds": "assets/sounds.9dd4337a50d2.js",
+  "media": [
+    "assets/bonfire_gif.50d0bb4f12db.gif",
+    "assets/bonfire_still.54749c12aee8.png"
+  ],
+  "coreSha256": "295fd6781bea9f2e37df65ae9bad20661df1b2de8755c84194bbb1b4f66c3a29"
+}

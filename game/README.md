@@ -1,4 +1,4 @@
-# 薪火牌 · 轻量首屏与微信兼容 0.18.2
+# 薪火牌 · 中英文与双语搜索 0.18.3
 
 [index.html](index.html) 是网站轻量入口，配合[assets/](assets/)中的核心程序、样式与可延后媒体，无需构建命令或后端。网站发布请整包上传；离线试玩ZIP保留完整内嵌单文件。
 
@@ -9,6 +9,14 @@
 - [下载试玩ZIP](https://github.com/FlightWilliams/FlightWilliams/raw/refs/heads/main/game/xinhuo-demo.zip)，解压后打开 index.html。
 - [试听三十首原创轮回配乐](music/index.html) · [曲目与播放说明](MUSIC.md)。
 - 作者：Will Wang。
+
+## 0.18.3 更新
+
+音效按钮旁加入中英文切换，首页保留语言按钮；988张牌及主要界面提供英文。图鉴与卡组搜索始终支持中文、英文名称与能力／属性关键词，英文不区分大小写。语言偏好保存在浏览器；旧存档、牌组和战斗规则保持。
+
+`python3 build.py`可重新生成网站、单文件与两个部署包；浏览器检查使用 `GAME_TEST_URL=http://127.0.0.1:8893/index.html node tests/language_check.cjs`。
+
+[本次更新](UPDATE-0.18.3.md)
 
 ## 0.18.2 更新
 

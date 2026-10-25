@@ -1,0 +1,148 @@
+[
+  {
+    "id": "burn",
+    "duration": 1.17,
+    "peak": 0.72,
+    "source": [
+      "fireCrackle"
+    ],
+    "license": "CC-BY-SA-3.0",
+    "changes": "excerpt/trim, mono 22050Hz, EQ, normalization, fades; some sounds layered or pitched",
+    "pcm_sha256": "49806691cd7e99a67bae1d9fcd23e43cfbab5ec79247d1768eb2884c315bb565",
+    "wav_sha256": "79d680f187a97bc6f874ce2537de3a8ff7acf2a594a51dbbcb242c108e682a6e"
+  },
+  {
+    "id": "blade",
+    "duration": 0.5625,
+    "peak": 0.72,
+    "source": [
+      "swordImpact",
+      "swordSwing2"
+    ],
+    "license": "CC0-1.0",
+    "changes": "excerpt/trim, mono 22050Hz, EQ, normalization, fades; some sounds layered or pitched",
+    "pcm_sha256": "24798eaae76106a35b6c4b0e6aa16314213adda9322d79eef3efcac5fb6b5e33",
+    "wav_sha256": "bfebbf688d304e4a933ef6feaf13a18dfc0adf71d92af72db98e6e44d397d83c"
+  },
+  {
+    "id": "beast",
+    "duration": 0.4102,
+    "peak": 0.72,
+    "source": [
+      "beast1"
+    ],
+    "license": "CC0-1.0",
+    "changes": "excerpt/trim, mono 22050Hz, EQ, normalization, fades; some sounds layered or pitched",
+    "pcm_sha256": "a41168f2473448309622d375fdc389ce29c2092f3e5ebd54983d6fce74330055",
+    "wav_sha256": "f9db0a8a9f09949d596c741da3a276f55057b69212a3dfe31901ed788b6e34be"
+  },
+  {
+    "id": "beastAlt",
+    "duration": 0.3601,
+    "peak": 0.72,
+    "source": [
+      "beast2"
+    ],
+    "license": "CC0-1.0",
+    "changes": "excerpt/trim, mono 22050Hz, EQ, normalization, fades; some sounds layered or pitched",
+    "pcm_sha256": "1eeb81a64205671d10c6af5e6384878faef8311f4090af09893b79d568135644",
+    "wav_sha256": "5db77c835b41c058fe9995edc93a303666be369ff6c0c6c6cf0c8ff5844adf50"
+  },
+  {
+    "id": "beastBird",
+    "duration": 0.65,
+    "peak": 0.72,
+    "source": [
+      "bird"
+    ],
+    "license": "CC0-1.0",
+    "changes": "excerpt/trim, mono 22050Hz, EQ, normalization, fades; some sounds layered or pitched",
+    "pcm_sha256": "01a81afb0e1b8fdfaf2d8ffb2d81b0b37bdc53f001ded172641fef27e08d450c",
+    "wav_sha256": "d4e65f9b231b7e5a8f82d71e30cbdbd20cfb1b922cac099d2eaf066099db1da3"
+  },
+  {
+    "id": "beastBull",
+    "duration": 0.7468,
+    "peak": 0.72,
+    "source": [
+      "bull"
+    ],
+    "license": "CC0-1.0",
+    "changes": "excerpt/trim, mono 22050Hz, EQ, normalization, fades; some sounds layered or pitched",
+    "pcm_sha256": "a59dc5668c1b263b01be623b8853011631de55429077c009f2d5dace1f27eaf0",
+    "wav_sha256": "af02166ae4240b4d5ead628ac2e3f1ba1b59231b6c5c07204a006ad670a4fc4d"
+  },
+  {
+    "id": "bow",
+    "duration": 0.3382,
+    "peak": 0.72,
+    "source": [
+      "arrow"
+    ],
+    "license": "CC0-1.0",
+    "changes": "excerpt/trim, mono 22050Hz, EQ, normalization, fades; some sounds layered or pitched",
+    "pcm_sha256": "36dc3728d6d9488f453230f7696a7b8d7fd8b600912c253b3fd084a241a1ebde",
+    "wav_sha256": "a6c4494c4c24ceb8682268a017369b575240827141f77af8af091fda82465ae6"
+  },
+  {
+    "id": "impact",
+    "duration": 0.278,
+    "peak": 0.4422,
+    "source": [
+      "metalHeavy",
+      "original-low-thud"
+    ],
+    "license": "CC0-1.0",
+    "changes": "excerpt/trim, mono 22050Hz, EQ, normalization, fades; some sounds layered or pitched",
+    "pcm_sha256": "6059d171f4d2827ad1bbd2c77dbcab36e23c4868e0e8900f36cca68b0f394086",
+    "wav_sha256": "1311fa6ed7152095a190b1f974081b384ac1b43637188e776b5bddec4ebcdac8"
+  },
+  {
+    "id": "magic",
+    "duration": 0.5,
+    "peak": 0.72,
+    "source": [
+      "original synthesis"
+    ],
+    "license": "Original for this game",
+    "changes": "excerpt/trim, mono 22050Hz, EQ, normalization, fades; some sounds layered or pitched",
+    "pcm_sha256": "9018f8818d97b3f1debd84dc278c115f1d5a5293b93f3103f29d6ecf1f15ec41",
+    "wav_sha256": "29643b2d9682d1c66223ae94e5d7ab60f2c1350aa30586f95da1c30e6ecdd742"
+  },
+  {
+    "id": "spirit",
+    "duration": 0.68,
+    "peak": 0.72,
+    "source": [
+      "original synthesis"
+    ],
+    "license": "Original for this game",
+    "changes": "excerpt/trim, mono 22050Hz, EQ, normalization, fades; some sounds layered or pitched",
+    "pcm_sha256": "384692b9045c6bca9307d02eec5626868d3822a156e7e01fa9112f8852e75141",
+    "wav_sha256": "b053680b3b98437031ec277480c62b3d3c3b285fb8fc6b5fc4050feab2037f4b"
+  },
+  {
+    "id": "heal",
+    "duration": 1.08,
+    "peak": 0.72,
+    "source": [
+      "original synthesis"
+    ],
+    "license": "Original for this game",
+    "changes": "excerpt/trim, mono 22050Hz, EQ, normalization, fades; some sounds layered or pitched",
+    "pcm_sha256": "678533cb35ed4aeb48c735d1bb7e39d882eaa5b48959cf70b98b7616c1f83978",
+    "wav_sha256": "7e9ee954f83064f44e358858c1d14753dc0eea2c86903d78e66dbec056f7847e"
+  },
+  {
+    "id": "rare",
+    "duration": 1.05,
+    "peak": 0.72,
+    "source": [
+      "original synthesis"
+    ],
+    "license": "Original for this game",
+    "changes": "excerpt/trim, mono 22050Hz, EQ, normalization, fades; some sounds layered or pitched",
+    "pcm_sha256": "3316f87f298f6afb7a5a06dae88c56eb46f938f293c625a7cda1acf8c1b2912e",
+    "wav_sha256": "9bad4c6af323168740571c750db1442154456c9e0a39fc0a684cd619dafab3f0"
+  }
+]

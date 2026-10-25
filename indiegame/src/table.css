@@ -1211,3 +1211,8 @@ html[lang="en"] .card .top b{overflow-wrap:anywhere}
 .story-companion-toast{position:fixed;z-index:1400;top:max(10px,env(safe-area-inset-top));right:10px;box-sizing:border-box;width:min(420px,calc(100vw - 20px));padding:14px 48px 14px 16px;border:1px solid #b49452;border-radius:6px;background:#252418f5;color:#ead5a7;box-shadow:0 10px 40px #0008;font-size:13px;line-height:1.65}.story-companion-toast small{color:#bca36f;font-size:10px}.story-companion-toast p{margin:5px 0 0}.story-companion-toast button{position:absolute;right:3px;top:3px;width:38px;height:38px;min-height:38px;padding:0;background:transparent;border:0;color:#d3bd8c;font-size:22px}
 @media(max-width:480px){.story-clear{padding:16px 12px;gap:10px}.story-prose p{font-size:13px;line-height:1.8}.story-drawer .drawer-head h2{font-size:18px}.home-screen .author-credit>[data-story-journal]{padding-inline:6px;font-size:9px}.story-drawer .drawer-scroll{padding:14px;font-size:13px}}
 @media(max-height:500px){.story-clear{justify-content:flex-start}.story-prose p{font-size:12px}.story-drawer .drawer-head h2{font-size:16px}}
+
+/* One language action stays next to the sound action during a match. */
+.table-tools .language-toggle{min-width:54px}.language-toggle .language-compact{display:none}
+html[lang="en"] .table-tools .replay-entry::after{content:'Replay'}html[lang="en"] .table-tools .replay-return::after{content:'Return'}
+@media(max-width:600px){.game-shell .table-tools .language-toggle{width:36px;min-width:36px;padding-inline:3px}.language-toggle .language-full{display:none}.language-toggle .language-compact{display:inline}}

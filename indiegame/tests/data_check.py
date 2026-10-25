@@ -26,6 +26,8 @@ problems=[]
 for f in files:
  text=f.read_text().lower();problems.extend((str(f.relative_to(P)),word)for word in foreign if word in text)
 check('No retired work, creator, character or coin-sigil references in project content',not problems)
-check('Legacy recording tables are empty',all('const '+n+'={};'in(P/'src/runtime.template.js').read_text()for n in ['SMP','CARD_AUDIO_SAMPLES','COMBAT_AUDIO_SAMPLES']))
+check('Audio tables stay outside the first-load gameplay core',all('const '+n+'={};'in(P/'src/runtime.template.js').read_text()for n in ['SMP','CARD_AUDIO_SAMPLES','COMBAT_AUDIO_SAMPLES']))
+audio=json.loads((P/'audio/shared-manifest.json').read_text())
+check('Shared audio assets retain their recorded fingerprint',hashlib.sha256((P/audio['asset']).read_bytes()).hexdigest()==audio['sha256'])
 check('Independent save namespace',"'lo_collection_v1'"in(P/'src/runtime.template.js').read_text()and'mz_'not in(P/'src/runtime.template.js').read_text())
 (P/'tests/data-results.json').write_text(json.dumps(checks,ensure_ascii=False,indent=2)+'\n');print(json.dumps({'passed':len(checks),'failed':0}))

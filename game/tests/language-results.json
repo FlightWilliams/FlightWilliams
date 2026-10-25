@@ -1,0 +1,54 @@
+[
+  {
+    "name": "All 988 cards have English names and original canonical identifiers",
+    "passed": true
+  },
+  {
+    "name": "Homepage language choice persists across reloads",
+    "passed": true
+  },
+  {
+    "name": "The in-battle language button is immediately beside the sound button",
+    "passed": true
+  },
+  {
+    "name": "Toggling language preserves selected cards, live references, life and turn",
+    "passed": true
+  },
+  {
+    "name": "Deck management accepts Chinese and mixed-case English search in either UI language",
+    "passed": true
+  },
+  {
+    "name": "Catalogue filtering and inspection retain raw names after English rendering",
+    "passed": true
+  },
+  {
+    "name": "Typing into the actual deck and catalogue search fields accepts either language",
+    "passed": true
+  },
+  {
+    "name": "Gilded card searches work in Chinese and English without unlocking hidden cards",
+    "passed": true
+  },
+  {
+    "name": "English ability, attribute and function queries work in either UI language",
+    "passed": true
+  },
+  {
+    "name": "Reload keeps the saved battle and selected language",
+    "passed": true
+  },
+  {
+    "name": "Phone header sound and language buttons stay visible in portrait and landscape",
+    "passed": true
+  },
+  {
+    "name": "Phone homepage language controls remain reachable in both languages",
+    "passed": true
+  },
+  {
+    "name": "No browser errors",
+    "passed": true
+  }
+]

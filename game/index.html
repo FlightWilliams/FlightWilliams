@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="zh-CN"><head><meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
-<meta name="theme-color" content="#171a12"><meta name="game-version" content="0.18.2">
+<meta name="theme-color" content="#171a12"><meta name="game-version" content="0.18.3">
 <meta name="description" content="薪火牌，一款以余火、献祭与对位战斗为主题的免费卡牌试玩游戏。作者 Will Wang。">
 <title>薪火牌 · Will Wang</title><style>
 html{color-scheme:dark;background:#171a12}body{margin:0;color:#ead9b3;font-family:"Microsoft YaHei","PingFang SC",sans-serif;background:radial-gradient(ellipse at 50% 25%,#39402b,#171a12 70%)}
@@ -19,6 +19,8 @@ html{color-scheme:dark;background:#171a12}body{margin:0;color:#ead9b3;font-famil
 (function(){
  var state={started:Date.now(),isReady:false,audioReady:false,audioLoading:false},audioScript=null,watchdog=0,mainScript=null,audioRetryAt=0;
  window.XINHUO_WEB=state;
+ var initialEnglish=false;try{initialEnglish=new URLSearchParams(location.search).get('lang')==='en'||(!new URLSearchParams(location.search).get('lang')&&localStorage.getItem('mz_language_v1')==='en')}catch(e){}
+ if(initialEnglish){document.documentElement.lang='en';document.title='Ember Cards · Will Wang';var heading=document.querySelector('.entry-shell h1');if(heading)heading.textContent='Ember Cards';var caption=document.querySelector('.entry-shell h1+p');if(caption)caption.textContent='Five lanes. One last flame.';var status=document.querySelector('.entry-status');if(status)status.textContent='Preparing the table…';var note=document.querySelector('.entry-status+p');if(note)note.textContent='Images and sounds will arrive as you play.';var credit=document.querySelector('.entry-shell small');if(credit)credit.textContent='By: Will Wang'}
  function box(){return document.getElementById('web-recovery')}
  function message(text){var el=document.getElementById('web-message');if(el)el.textContent=text;var b=box();if(b)b.hidden=false;}
  function script(url,loaded,failed){var el=document.createElement('script');el.src=url;el.async=true;el.onload=loaded;el.onerror=failed;document.head.appendChild(el);return el;}
@@ -33,7 +35,7 @@ html{color-scheme:dark;background:#171a12}body{margin:0;color:#ead9b3;font-famil
   var idle=function(){if(!document.hidden)state.loadAudio();};
   if(window.requestIdleCallback)window.requestIdleCallback(idle,{timeout:1800});else setTimeout(idle,600);
  };
- var link=document.createElement('link');link.rel='stylesheet';link.href="assets/game.67a2478fdedb.css";
+ var link=document.createElement('link');link.rel='stylesheet';link.href="assets/game.7bb6c86fa621.css";
  link.onerror=function(){message('牌桌样式未能下载。请重试；游戏存档不会因此清除。');};document.head.appendChild(link);
  var recovery=document.getElementById('web-retry');
  if(recovery)recovery.onclick=function(){location.reload();};
@@ -47,7 +49,7 @@ html{color-scheme:dark;background:#171a12}body{margin:0;color:#ead9b3;font-famil
   if(state.isReady)return;
   if(event.message)message('游戏未能启动。请更新微信，或点右上角“…”后使用浏览器打开；也可以重试。');
  });
- mainScript=script("assets/game.f0c204f86cf5.js",function(){
+ mainScript=script("assets/game.295fd6781bea.js",function(){
   if(window.BOOT&&window.BOOT.ready)state.ready();
   else if(!state.isReady)message('游戏未能启动。请更新微信，或使用Safari等浏览器打开。');
  },function(){message('游戏文件未能下载，请重试。如果一直失败，请换一个可访问的试玩地址。');});

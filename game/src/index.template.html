@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="zh-CN"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="theme-color" content="#171a12"><meta name="game-version" content="__VERSION__">
+<meta name="description" content="薪火牌，一款以余火、献祭与对位战斗为主题的免费卡牌试玩游戏。作者 Will Wang。">
+<title>薪火牌 · Will Wang</title><style>
+html{color-scheme:dark;background:#171a12}body{margin:0;color:#ead9b3;font-family:"Microsoft YaHei","PingFang SC",sans-serif;background:radial-gradient(ellipse at 50% 25%,#39402b,#171a12 70%)}
+.entry-shell{box-sizing:border-box;min-height:100vh;min-height:100svh;max-width:560px;margin:auto;padding:clamp(25px,9vh,80px) 22px;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:20px;text-align:center}
+.entry-shell h1{font-family:"Songti SC",serif;font-size:42px;letter-spacing:.25em;margin:0}.entry-shell p{font-size:13px;line-height:1.9;margin:0;color:#bdbda4}.entry-shell .entry-mark{color:#edb45c;font-size:60px;line-height:1;text-shadow:0 0 35px #e37e3477}.entry-shell small{font-size:12px;color:#bfa36a}.entry-status{font-size:13px;color:#dbc58f}
+.web-recovery{box-sizing:border-box;position:fixed;z-index:2000;left:50%;bottom:max(12px,env(safe-area-inset-bottom));transform:translateX(-50%);width:min(92%,440px);padding:16px;border:1px solid #aa8b52;border-radius:8px;background:#1b241bf5;box-shadow:0 4px 24px #0009;color:#e4d6b5;font:13px/1.7 "Microsoft YaHei","PingFang SC",sans-serif;text-align:left}.web-recovery[hidden]{display:none}.web-recovery p{margin:0 0 10px}.web-recovery button{font:inherit;min-height:40px;padding:6px 12px;margin-right:8px;color:#f0d598;border:1px solid #a0804f;border-radius:4px;background:#3a3525;cursor:pointer}.web-recovery output{display:block;overflow-wrap:anywhere;font-size:11px;margin-top:8px}.web-recovery .web-help{font-size:12px;color:#c7c3ae}
+</style></head>
+<body><div id="app"><main class="entry-shell" aria-label="薪火牌首页">
+<span class="entry-mark" aria-hidden="true"><svg viewBox="0 0 64 76" width="64" height="76"><path d="M32 3c7 18 21 23 21 41a21 21 0 1 1-42 0c0-10 6-18 11-24-1 11 3 16 7 18C37 26 26 20 32 3z" fill="#e8a34a"/><path d="M33 34c2 11 9 13 9 23a10 10 0 1 1-20 0c0-6 5-10 7-13-1 6 2 9 4 9 2-7-2-11 0-19z" fill="#f8d58c"/><path d="m13 69 39 5M13 74l39-5" stroke="#8d6a43" stroke-width="4" stroke-linecap="round"/></svg></span><h1>薪火牌</h1><p>五席之间，余火未熄</p>
+<div class="entry-status" role="status">正在准备牌桌…</div><p>图片与音效会陆续载入。</p><small>作者：Will Wang</small>
+<noscript><p>请允许浏览器运行JavaScript，或在Safari等浏览器中打开。</p></noscript>
+</main></div><div id="tip"></div>
+<aside id="web-recovery" class="web-recovery" hidden role="status"><p id="web-message"></p><button id="web-retry" type="button">重新打开</button><button id="web-copy" type="button">复制链接</button><output id="web-url"></output><p class="web-help">iPhone微信：右上角“…” → 在浏览器打开。若连此页也打不开，需要换用可访问的网址。</p></aside>
+<script>
+(function(){
+ var state={started:Date.now(),isReady:false,audioReady:false,audioLoading:false},audioScript=null,watchdog=0,mainScript=null,audioRetryAt=0;
+ window.XINHUO_WEB=state;
+ var initialEnglish=false;try{initialEnglish=new URLSearchParams(location.search).get('lang')==='en'||(!new URLSearchParams(location.search).get('lang')&&localStorage.getItem('mz_language_v1')==='en')}catch(e){}
+ if(initialEnglish){document.documentElement.lang='en';document.title='Ember Cards · Will Wang';var heading=document.querySelector('.entry-shell h1');if(heading)heading.textContent='Ember Cards';var caption=document.querySelector('.entry-shell h1+p');if(caption)caption.textContent='Five lanes. One last flame.';var status=document.querySelector('.entry-status');if(status)status.textContent='Preparing the table…';var note=document.querySelector('.entry-status+p');if(note)note.textContent='Images and sounds will arrive as you play.';var credit=document.querySelector('.entry-shell small');if(credit)credit.textContent='By: Will Wang'}
+ function box(){return document.getElementById('web-recovery')}
+ function message(text){var el=document.getElementById('web-message');if(el)el.textContent=text;var b=box();if(b)b.hidden=false;}
+ function script(url,loaded,failed){var el=document.createElement('script');el.src=url;el.async=true;el.onload=loaded;el.onerror=failed;document.head.appendChild(el);return el;}
+ state.loadAudio=function(){
+  if(state.audioReady||state.audioLoading||Date.now()<audioRetryAt)return;
+  state.audioLoading=true;
+  audioScript=script("assets/sounds.9dd4337a50d2.js",function(){state.audioLoading=false;state.audioReady=true;},function(){state.audioLoading=false;audioRetryAt=Date.now()+30000;if(audioScript)audioScript.remove();});
+ };
+ state.ready=function(){
+  if(state.isReady)return;state.isReady=true;clearTimeout(watchdog);
+  var b=box();if(b)b.hidden=true;
+  var idle=function(){if(!document.hidden)state.loadAudio();};
+  if(window.requestIdleCallback)window.requestIdleCallback(idle,{timeout:1800});else setTimeout(idle,600);
+ };
+ var link=document.createElement('link');link.rel='stylesheet';link.href="__CSS__";
+ link.onerror=function(){message('牌桌样式未能下载。请重试；游戏存档不会因此清除。');};document.head.appendChild(link);
+ var recovery=document.getElementById('web-retry');
+ if(recovery)recovery.onclick=function(){location.reload();};
+ var copy=document.getElementById('web-copy');
+ if(copy)copy.onclick=function(){
+  var url=location.href,output=document.getElementById('web-url');
+  function show(){if(output)output.textContent=url;}
+  if(navigator.clipboard&&navigator.clipboard.writeText){navigator.clipboard.writeText(url).then(function(){if(output)output.textContent='链接已复制，可粘贴到Safari或其他浏览器。';},show);}else show();
+ };
+ window.addEventListener('error',function(event){
+  if(state.isReady)return;
+  if(event.message)message('游戏未能启动。请更新微信，或点右上角“…”后使用浏览器打开；也可以重试。');
+ });
+ mainScript=script("__CORE__",function(){
+  if(window.BOOT&&window.BOOT.ready)state.ready();
+  else if(!state.isReady)message('游戏未能启动。请更新微信，或使用Safari等浏览器打开。');
+ },function(){message('游戏文件未能下载，请重试。如果一直失败，请换一个可访问的试玩地址。');});
+ watchdog=setTimeout(function(){if(!state.isReady)message('连接较慢，牌桌仍在准备。可以重试，或在微信右上角“…”选择浏览器打开。');},10000);
+}());
+</script></body></html>

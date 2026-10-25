@@ -60,7 +60,11 @@
     "passed": true
   },
   {
-    "name": "Legacy recording tables are empty",
+    "name": "Audio tables stay outside the first-load gameplay core",
+    "passed": true
+  },
+  {
+    "name": "Shared audio assets retain their recorded fingerprint",
     "passed": true
   },
   {

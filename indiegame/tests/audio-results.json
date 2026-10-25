@@ -1,0 +1,49 @@
+[
+  {
+    "name": "The deferred sound asset is byte-identical in both editions",
+    "passed": true,
+    "evidence": {
+      "sha256": "9dd4337a50d2451a9cff4628bcbee8520cfbcd54b0ca47f241998589c5a2e526"
+    }
+  },
+  {
+    "name": "All twelve independent sound files match the original files and their manifest",
+    "passed": true
+  },
+  {
+    "name": "All thirty scores retain identical musical events and synthesis parameters",
+    "passed": true
+  },
+  {
+    "name": "Both players load all eleven legacy, seven paper and twelve combat samples",
+    "passed": true
+  },
+  {
+    "name": "Rendered cues match within floating-point mixing precision",
+    "passed": true,
+    "evidence": {
+      "cues": 21,
+      "maxWaveError": 2.9802322387695312e-8
+    }
+  },
+  {
+    "name": "Bird and bull actors select the matching shared creature recording",
+    "passed": true
+  },
+  {
+    "name": "The actual sound switch immediately stops paper and combat voices",
+    "passed": true
+  },
+  {
+    "name": "Unavailable optional audio never blocks boot or starting a battle",
+    "passed": true
+  },
+  {
+    "name": "The single-file edition includes every sample and makes no sample request",
+    "passed": true
+  },
+  {
+    "name": "No browser errors in shared sound and fallback scenarios",
+    "passed": true
+  }
+]

@@ -1,0 +1,128 @@
+[
+  {
+    "project": "indiegame",
+    "name": "The battle language button immediately follows sound and toggles without changing the selected play",
+    "passed": true
+  },
+  {
+    "project": "indiegame",
+    "name": "Chinese and English card names work in the catalogue in either UI language, including case and spaces",
+    "passed": true,
+    "evidence": {
+      "canonical": "苔庭铜缄掠风鸟",
+      "chinese": "苔鸦",
+      "english": "Moss Crow"
+    }
+  },
+  {
+    "project": "indiegame",
+    "name": "Deck management accepts both names in either language without changing the deck",
+    "passed": true
+  },
+  {
+    "project": "indiegame",
+    "name": "English ability keywords find matching collected cards in both search modules in either language",
+    "passed": true
+  },
+  {
+    "project": "indiegame",
+    "name": "English searches never reveal locked cards or offer an Add button for them",
+    "passed": true
+  },
+  {
+    "project": "indiegame",
+    "name": "Sound and language stay visible and clickable across phone and desktop battle headers",
+    "passed": true,
+    "evidence": [
+      {
+        "width": 320,
+        "height": 568
+      },
+      {
+        "width": 390,
+        "height": 759
+      },
+      {
+        "width": 844,
+        "height": 390
+      },
+      {
+        "width": 1366,
+        "height": 768
+      }
+    ]
+  },
+  {
+    "project": "indiegame",
+    "name": "Language preference and canonical battle progress survive reload",
+    "passed": true
+  },
+  {
+    "project": "indiegame",
+    "name": "No browser errors",
+    "passed": true
+  },
+  {
+    "project": "game",
+    "name": "The battle language button immediately follows sound and toggles without changing the selected play",
+    "passed": true
+  },
+  {
+    "project": "game",
+    "name": "Chinese and English card names work in the catalogue in either UI language, including case and spaces",
+    "passed": true,
+    "evidence": {
+      "canonical": "巨鸦",
+      "chinese": "巨鸦",
+      "english": "Giant Crow"
+    }
+  },
+  {
+    "project": "game",
+    "name": "Deck management accepts both names in either language without changing the deck",
+    "passed": true
+  },
+  {
+    "project": "game",
+    "name": "English ability keywords find matching collected cards in both search modules in either language",
+    "passed": true
+  },
+  {
+    "project": "game",
+    "name": "English searches never reveal locked cards or offer an Add button for them",
+    "passed": true
+  },
+  {
+    "project": "game",
+    "name": "Sound and language stay visible and clickable across phone and desktop battle headers",
+    "passed": true,
+    "evidence": [
+      {
+        "width": 320,
+        "height": 568
+      },
+      {
+        "width": 390,
+        "height": 759
+      },
+      {
+        "width": 844,
+        "height": 390
+      },
+      {
+        "width": 1366,
+        "height": 768
+      }
+    ]
+  },
+  {
+    "project": "game",
+    "name": "Language preference and canonical battle progress survive reload",
+    "passed": true
+  },
+  {
+    "project": "game",
+    "name": "No browser errors",
+    "passed": true
+  }
+]
