@@ -14,7 +14,7 @@ You do not drink. Tea has left a ring in the cup. It smells of cold iron.
 He smiles, turns the glove over, and unpicks the two stitches he has just made. You wait for more. Instead, he pushes a thin file across the desk. Damp has glued its pages together. You separate them with your thumb and find your photograph.
 You are due to go missing tomorrow. The reporting person’s name is folded into the cover. Only a heavily hooked final stroke shows.
 “The date is wrong.”
-“I said that too.” The Night Watch bends over his thread.
+“I said that too.” Noah, the Night Watch, bends over his thread.
 The clock on the wall reads 03:17. A drop falls from your sleeve into the basin. A moment later, the radio repeats the sound.
 He puts the sewing away and lays a soft-edged deck of cards between you. The glove has turned inside out. On its lining is the wet thumbprint you have just left on the file.
 The water around it has dried.
@@ -110,7 +110,7 @@ Before leaving, you put your bowl in the sink. The water in the bottom moves awa
 ### The Reply Arrives First
 
 There is no sea breeze at Sunken Harbor, but salt stings your lips. Water lies beneath the quay. Each step brings a wet answering step from below.
-The Lighthouse Warden sits on a low stool, taking apart a navigation lamp green with corrosion. He sorts the screws by size inside a tobacco tin. A kettle boils beside him, a stick wedged in its spout to keep it quiet.
+Eli, the Lighthouse Warden, sits on a low stool, taking apart a navigation lamp green with corrosion. He sorts the screws by size inside a tobacco tin. A kettle boils beside him, a stick wedged in its spout to keep it quiet.
 “How do you know when it's ready?”
 “It starts swearing.”
 You look at him. He removes another screw. One corner of his mouth moves.
@@ -197,7 +197,7 @@ The wet mark retreats down the wall, revealing a narrow door. The form has left 
 “I sent it back,” you say.
 The officer looks at the ink on your hand. He does not say, “At last.”
 You open the door.
-In the Fogtown duty room, the Night Watch is pouring water. The clock reads 03:17. He looks at your face, then at the space behind you. The kettle lingers above the rim.
+In the Fogtown duty room, the Night Watch, Noah is pouring water. The clock reads 03:17. He looks at your face, then at the space behind you. The kettle lingers above the rim.
 “Name?”
 You do not answer at once. The missing-person file is still dated tomorrow, but a soup stain marks one corner. You place the things you have brought back over the photograph.
 “How many chairs do you have?”
@@ -209,7 +209,7 @@ The fog has not cleared. As you sit, the cup burns your palm. The missing blue e
 
 ## The Tea Is Still Warm
 
-The tin basin is where you left it. So is your coat, with a length of blue thread mending its cuff. Hearing the chair scrape, the Night Watch counts the people in the doorway and brings out more cups.
+The tin basin is where you left it. So is your coat, with a length of blue thread mending its cuff. Hearing the chair scrape, the Night Watch, Noah counts the people in the doorway and brings out more cups.
 “More mouths. I'll have to water it down.”
 The tea smells of iron. The clock still reads 03:17. This time, the radio does not speak ahead of you. You open the file without hiding the reporting field. It is still your name.
 “I want to leave,” you say.

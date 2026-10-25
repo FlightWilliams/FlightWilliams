@@ -1,0 +1,48 @@
+[
+  {
+    "name": "All 108 short Boss identities are unique and retain matching normal and Gilded card IDs",
+    "passed": true,
+    "evidence": {
+      "bosses": 108,
+      "mainEncounters": 96
+    }
+  },
+  {
+    "name": "A captured old checkpoint keeps its exact board, hand, deck and Boss key while showing the new identity",
+    "passed": true
+  },
+  {
+    "name": "All 108 live Boss headers and English skill popovers show the new name, story flavor and unchanged rules",
+    "passed": true,
+    "evidence": {
+      "translatedLivePopovers": 108
+    }
+  },
+  {
+    "name": "Core Boss card details retain their occupation and show translated identities and abilities",
+    "passed": true
+  },
+  {
+    "name": "Chinese and English Boss names and active skill names find the same collected cards in catalogue and deck library",
+    "passed": true
+  },
+  {
+    "name": "Previously saved skill names render as their new story names without changing historical Boss keys",
+    "passed": true
+  },
+  {
+    "name": "A renamed normal or Gilded Boss still equips the same paid healing and shield skill through its saved key",
+    "passed": true
+  },
+  {
+    "name": "Boss names and skill controls are reachable on four screen sizes in both languages",
+    "passed": true,
+    "evidence": {
+      "layouts": 8
+    }
+  },
+  {
+    "name": "No browser errors in identity and skill migration scenarios",
+    "passed": true
+  }
+]

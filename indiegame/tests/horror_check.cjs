@@ -1,7 +1,8 @@
 const {chromium}=require('playwright');
 const assert=require('node:assert/strict'),fs=require('node:fs'),path=require('node:path');
 const ROOT=path.join(__dirname,'..'),BASE=process.env.INDIE_TEST_URL||'http://127.0.0.1:8930/indiegame/index.html';
-const archetypes=[['苔庭铠卫·雅恩','守夜人','Night Watch','nightwatch'],['炽砂修灯师·瑟罗','防火女','Fire Warden','firewarden'],['暮潮灯议长·艾汀','灯塔守护者','Lighthouse Warden','lighthouse']];
+const labels=JSON.parse(fs.readFileSync(path.join(ROOT,'data/card-names.json'),'utf8'));
+const archetypes=[['苔庭铠卫·雅恩','nightwatch'],['炽砂修灯师·瑟罗','firewarden'],['暮潮灯议长·艾汀','lighthouse']].map(([id,role])=>[id,labels[id].zh,labels[id].en,role]);
 (async()=>{
  const browser=await chromium.launch({executablePath:process.env.CHROMIUM_PATH||(fs.existsSync('/usr/bin/chromium')?'/usr/bin/chromium':undefined),args:['--no-sandbox']});
  const results=[];
@@ -28,7 +29,7 @@ const archetypes=[['苔庭铠卫·雅恩','守夜人','Night Watch','nightwatch'
    await page.evaluate(()=>{setGameLanguage('en');G=null;OV='title';render()});
    const r=await page.evaluate(archetypes=>({heading:document.querySelector('.console-heading h2').textContent,chapters:Object.values(LOOP_STORY.chapters).map(c=>c.name.en),labels:archetypes.map(([id])=>new DOMParser().parseFromString(cardPortraitHTML(POOL.find(c=>c.n===id)),'image/svg+xml').documentElement.getAttribute('aria-label'))}),archetypes);
    assert.equal(r.heading,'Continue the Investigation');assert.deepEqual(r.chapters,['Fogtown','Bell Tower','Ash Works','Sunken Harbor','Snow Station','White Room']);assert.deepEqual(r.labels,archetypes.map(x=>x[2]));
-   await page.evaluate(()=>setGameLanguage('zh-CN'));const zh=await page.evaluate(id=>new DOMParser().parseFromString(cardPortraitHTML(POOL.find(c=>c.n===id)),'image/svg+xml').documentElement.getAttribute('aria-label'),archetypes[0][0]);assert.equal(zh,'守夜人');
+   await page.evaluate(()=>setGameLanguage('zh-CN'));const zh=await page.evaluate(id=>new DOMParser().parseFromString(cardPortraitHTML(POOL.find(c=>c.n===id)),'image/svg+xml').documentElement.getAttribute('aria-label'),archetypes[0][0]);assert.equal(zh,archetypes[0][1]);
   });
   await page.evaluate(()=>{openInitiativeCoin=async()=> 'p';newRun()});await page.waitForFunction(()=>G&&!G.busy&&!drawRunning);
   await page.evaluate(()=>{infoPanel=null;render()});

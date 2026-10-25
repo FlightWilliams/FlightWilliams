@@ -2621,5 +2621,14 @@
   "这里可以开关<strong>音效与音乐</strong>，查看卡组和玩法手册。点<strong>返回主页</strong>保存当前对局，随后在首页点<strong>继续游戏</strong>回来；结算中请稍候。": "Toggle <strong>sound and music</strong>, view your deck or read the rules. Choose <strong>Home</strong> to save this match, then <strong>Continue Game</strong> to return. Wait for dealing or combat to finish first.",
   "主线进度自动保存 · 返回主页后可继续游戏": "Progress saves automatically · Continue Game resumes from home",
   "保存与继续": "Save and Continue",
-  "点牌桌上方的“返回主页”，保存当前关卡、回合、生命、手牌和牌桌。主页点“继续游戏”回到原来的对局；返回主页后刷新页面，仍可从这里继续。发牌与战斗结算期间须等结算完成。新手练习与重战不会覆盖主线存档。": "Choose Home above the table to save the current encounter, round, health, hand and board. Continue Game on the homepage restores this match. Reloading after returning home keeps you on the homepage. Wait for dealing or combat to finish first. Tutorial and replay matches do not replace the main campaign save."
+  "点牌桌上方的“返回主页”，保存当前关卡、回合、生命、手牌和牌桌。主页点“继续游戏”回到原来的对局；返回主页后刷新页面，仍可从这里继续。发牌与战斗结算期间须等结算完成。新手练习与重战不会覆盖主线存档。": "Choose Home above the table to save the current encounter, round, health, hand and board. Continue Game on the homepage restores this match. Reloading after returning home keeps you on the homepage. Wait for dealing or combat to finish first. Tutorial and replay matches do not replace the main campaign save.",
+  "发动冷却": "Cooldown",
+  "发动代价": "Cost",
+  "专属卡组": "Signature Deck",
+  "暂时化灰": "Temporary Wick Form",
+  "从第2回合启用。成功发动后休息下一完整回合，第2个回合才可再次发动。": "Available from round 2. After use, rest for one full round; the ability becomes available in the following round.",
+  "弃牌、生命或场上献祭等原技能代价另行支付；条件不足保留余芯。": "Pay any additional discard, life or field-sacrifice cost separately. If conditions are not met, keep the Wick.",
+  "这里只查看说明，不改变当前选牌或战斗进程。": "Reading this panel does not change your selected card or advance the battle.",
+  "目标变为0攻1血、无技能的余芯，覆盖玩家下一个完整行动回合；之后在Boss部署阶段恢复原牌及原有攻血状态，不回满生命，不触发入场效果。余芯死亡或被献祭，原牌本场不再恢复，也不触发原牌亡语；刚恢复的牌免疫一轮化灰。": "The target becomes an ability-free 0/1 Wick for the player’s next full action round. It then returns during Boss deployment with its previous Attack and Health. It is not fully healed and does not repeat entry effects. If the Wick dies or is sacrificed, the original does not return or trigger its death ability. Restored cards are immune to this transformation for one round.",
+  "${boss}发动「${skill}」": "${boss} uses “${skill}”."
 }

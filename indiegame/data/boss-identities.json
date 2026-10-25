@@ -1,0 +1,758 @@
+{
+  "苔庭铠卫·雅恩": {
+    "zh": "诺亚",
+    "en": "Noah",
+    "roleZh": "守夜人",
+    "roleEn": "Night Watch",
+    "world": "mire"
+  },
+  "苔庭裂角客领誓·阿珀": {
+    "zh": "亚伯",
+    "en": "Abel",
+    "roleZh": "断角客",
+    "roleEn": "Broken Horn",
+    "world": "mire"
+  },
+  "苔庭赤角兽领誓·艾珀": {
+    "zh": "布鲁诺",
+    "en": "Bruno",
+    "roleZh": "井牛",
+    "roleEn": "Well Bull",
+    "world": "mire"
+  },
+  "苔庭裂角客领誓·欧珀": {
+    "zh": "西拉",
+    "en": "Silas",
+    "roleZh": "倒吊客",
+    "roleEn": "Hanged Guest",
+    "world": "mire"
+  },
+  "苔庭潜印客·莫恩": {
+    "zh": "芬恩",
+    "en": "Finn",
+    "roleZh": "空手人",
+    "roleEn": "Empty Hands",
+    "world": "mire"
+  },
+  "苔庭铠卫·欧恩": {
+    "zh": "欧文",
+    "en": "Owen",
+    "roleZh": "旧警卫",
+    "roleEn": "Old Guard",
+    "world": "mire"
+  },
+  "苔庭绛纹蝶领誓·乌珀": {
+    "zh": "伊拉",
+    "en": "Ira",
+    "roleZh": "报丧蝶",
+    "roleEn": "Mourning Moth",
+    "world": "mire"
+  },
+  "苔庭织光蛛领誓·雅珀": {
+    "zh": "梅布尔",
+    "en": "Mabel",
+    "roleZh": "井蛛",
+    "roleEn": "Well Spider",
+    "world": "mire"
+  },
+  "苔庭峰脊巨灵领誓·瑟珀": {
+    "zh": "雨果",
+    "en": "Hugo",
+    "roleZh": "搬尸人",
+    "roleEn": "Body Porter",
+    "world": "mire"
+  },
+  "苔庭铠卫领誓·维珀": {
+    "zh": "里昂",
+    "en": "Leon",
+    "roleZh": "无证者",
+    "roleEn": "No Witness",
+    "world": "mire"
+  },
+  "苔庭铠卫领誓·希珀": {
+    "zh": "里德",
+    "en": "Reed",
+    "roleZh": "桥下卫",
+    "roleEn": "Bridge Guard",
+    "world": "mire"
+  },
+  "苔庭缄骨客领誓·米珀": {
+    "zh": "阿莫斯",
+    "en": "Amos",
+    "roleZh": "掘墓人",
+    "roleEn": "Gravedigger",
+    "world": "mire"
+  },
+  "苔庭铠卫领誓·阿恩": {
+    "zh": "赛斯",
+    "en": "Seth",
+    "roleZh": "誓证人",
+    "roleEn": "Sworn Witness",
+    "world": "mire"
+  },
+  "苔庭晶棘蜥龙领誓·艾恩": {
+    "zh": "埃兹拉",
+    "en": "Ezra",
+    "roleZh": "雾龙",
+    "roleEn": "Mist Drake",
+    "world": "mire"
+  },
+  "苔庭裂角客领誓·伊恩": {
+    "zh": "科尔",
+    "en": "Cole",
+    "roleZh": "灰客",
+    "roleEn": "Ash Guest",
+    "world": "mire"
+  },
+  "苔庭灯议长·图珀": {
+    "zh": "尼尔斯",
+    "en": "Niles",
+    "roleZh": "收信人",
+    "roleEn": "Letter Keeper",
+    "world": "mire"
+  },
+  "铜钟峰脊巨灵领誓·维拉": {
+    "zh": "奥托",
+    "en": "Otto",
+    "roleZh": "敲钟人",
+    "roleEn": "Bell Ringer",
+    "world": "brass"
+  },
+  "铜钟铠卫领誓·瑟翎": {
+    "zh": "库尔特",
+    "en": "Kurt",
+    "roleZh": "铁面人",
+    "roleEn": "Iron Mask",
+    "world": "brass"
+  },
+  "铜钟峰脊巨灵领誓·岚拉": {
+    "zh": "埃米尔",
+    "en": "Emil",
+    "roleZh": "空壳人",
+    "roleEn": "Hollow Man",
+    "world": "brass"
+  },
+  "铜钟灯议长·莱拉": {
+    "zh": "艾达",
+    "en": "Ada",
+    "roleZh": "账房",
+    "roleEn": "Ledger Clerk",
+    "world": "brass"
+  },
+  "铜钟缄骨客领誓·岑拉": {
+    "zh": "莫里斯",
+    "en": "Morris",
+    "roleZh": "守尸人",
+    "roleEn": "Mortuary Guard",
+    "world": "brass"
+  },
+  "铜钟环藤蛇领誓·伦拉": {
+    "zh": "巴兹尔",
+    "en": "Basil",
+    "roleZh": "盘钟蛇",
+    "roleEn": "Bell Serpent",
+    "world": "brass"
+  },
+  "铜钟裂角客领誓·佩拉": {
+    "zh": "拉尔斯",
+    "en": "Lars",
+    "roleZh": "炉边客",
+    "roleEn": "Stove Guest",
+    "world": "brass"
+  },
+  "铜钟裂角客领誓·泽拉": {
+    "zh": "费利克斯",
+    "en": "Felix",
+    "roleZh": "拆钟人",
+    "roleEn": "Clock Breaker",
+    "world": "brass"
+  },
+  "铜钟织光蛛领誓·阿温": {
+    "zh": "格蕾塔",
+    "en": "Greta",
+    "roleZh": "缝钟蛛",
+    "roleEn": "Clock Spider",
+    "world": "brass"
+  },
+  "铜钟缄骨客领誓·欧温": {
+    "zh": "伊万",
+    "en": "Ivan",
+    "roleZh": "不眠者",
+    "roleEn": "The Sleepless",
+    "world": "brass"
+  },
+  "铜钟铠卫领誓·乌温": {
+    "zh": "鲍里斯",
+    "en": "Boris",
+    "roleZh": "刺衣卫",
+    "roleEn": "Bristle Guard",
+    "world": "brass"
+  },
+  "铜钟缄骨客领誓·洛温": {
+    "zh": "莉娜",
+    "en": "Lena",
+    "roleZh": "饮露人",
+    "roleEn": "Dew Drinker",
+    "world": "brass"
+  },
+  "铜钟枝灯树灵领誓·诺温": {
+    "zh": "露丝",
+    "en": "Ruth",
+    "roleZh": "旧根",
+    "roleEn": "Old Root",
+    "world": "brass"
+  },
+  "铜钟铠卫领誓·佩温": {
+    "zh": "维克托",
+    "en": "Victor",
+    "roleZh": "讨债人",
+    "roleEn": "Debt Collector",
+    "world": "brass"
+  },
+  "铜钟铠卫领誓·泽温": {
+    "zh": "索尔",
+    "en": "Saul",
+    "roleZh": "独眼卫",
+    "roleEn": "One-Eye Guard",
+    "world": "brass"
+  },
+  "铜钟铠卫领誓·阿雅": {
+    "zh": "西里尔",
+    "en": "Cyril",
+    "roleZh": "报时人",
+    "roleEn": "Timekeeper",
+    "world": "brass"
+  },
+  "炽砂铠卫领誓·乌弥": {
+    "zh": "古斯",
+    "en": "Gus",
+    "roleZh": "炉门卫",
+    "roleEn": "Furnace Guard",
+    "world": "cinder"
+  },
+  "炽砂铠卫领誓·依弥": {
+    "zh": "罗尔夫",
+    "en": "Rolf",
+    "roleZh": "铁醉汉",
+    "roleEn": "Iron Drunk",
+    "world": "cinder"
+  },
+  "炽砂灯议长·诺弥": {
+    "zh": "伊诺克",
+    "en": "Enoch",
+    "roleZh": "烟中人",
+    "roleEn": "Smoke Caller",
+    "world": "cinder"
+  },
+  "炽砂灯议长·瑟弥": {
+    "zh": "埃德温",
+    "en": "Edwin",
+    "roleZh": "灰医",
+    "roleEn": "Ash Doctor",
+    "world": "cinder"
+  },
+  "炽砂铠卫领誓·维弥": {
+    "zh": "安东",
+    "en": "Anton",
+    "roleZh": "复工者",
+    "roleEn": "Shift Return",
+    "world": "cinder"
+  },
+  "炽砂缄骨客领誓·希弥": {
+    "zh": "托比亚斯",
+    "en": "Tobias",
+    "roleZh": "拾骨人",
+    "roleEn": "Bone Collector",
+    "world": "cinder"
+  },
+  "炽砂灯议长·米弥": {
+    "zh": "伊妮德",
+    "en": "Enid",
+    "roleZh": "洗片师",
+    "roleEn": "Film Washer",
+    "world": "cinder"
+  },
+  "炽砂峰脊巨灵领誓·索弥": {
+    "zh": "霍勒斯",
+    "en": "Horace",
+    "roleZh": "扛炉人",
+    "roleEn": "Furnace Porter",
+    "world": "cinder"
+  },
+  "炽砂铠卫领誓·莱弥": {
+    "zh": "罗兰",
+    "en": "Roland",
+    "roleZh": "烟衣卫",
+    "roleEn": "Smoke Guard",
+    "world": "cinder"
+  },
+  "炽砂铠卫领誓·莫弥": {
+    "zh": "埃德加",
+    "en": "Edgar",
+    "roleZh": "封炉人",
+    "roleEn": "Furnace Seal",
+    "world": "cinder"
+  },
+  "炽砂灯议长·伦弥": {
+    "zh": "菲伊",
+    "en": "Faye",
+    "roleZh": "拾火者",
+    "roleEn": "Fire Finder",
+    "world": "cinder"
+  },
+  "炽砂灯议长·图弥": {
+    "zh": "薇拉",
+    "en": "Vera",
+    "roleZh": "焚档人",
+    "roleEn": "File Burner",
+    "world": "cinder"
+  },
+  "炽砂铠卫领誓·芮弥": {
+    "zh": "马丁",
+    "en": "Martin",
+    "roleZh": "返厂人",
+    "roleEn": "Shift Ghost",
+    "world": "cinder"
+  },
+  "炽砂灯议长·伊罗": {
+    "zh": "迈尔斯",
+    "en": "Miles",
+    "roleZh": "热线员",
+    "roleEn": "Hotline Clerk",
+    "world": "cinder"
+  },
+  "炽砂晶棘蜥龙领誓·雅罗": {
+    "zh": "雷克斯",
+    "en": "Rex",
+    "roleZh": "炉龙",
+    "roleEn": "Furnace Drake",
+    "world": "cinder"
+  },
+  "炽砂灯议长·诺罗": {
+    "zh": "多里安",
+    "en": "Dorian",
+    "roleZh": "停工者",
+    "roleEn": "The Shutdown",
+    "world": "cinder"
+  },
+  "暮潮星枝鹿领誓·莱尘": {
+    "zh": "米洛",
+    "en": "Milo",
+    "roleZh": "逆潮鹿",
+    "roleEn": "Backtide Deer",
+    "world": "tide"
+  },
+  "暮潮灯议长·岑尘": {
+    "zh": "裘德",
+    "en": "Jude",
+    "roleZh": "赌客",
+    "roleEn": "Cardsharp",
+    "world": "tide"
+  },
+  "暮潮裂角客领誓·莫尘": {
+    "zh": "卢卡",
+    "en": "Luca",
+    "roleZh": "潮牙",
+    "roleEn": "Tide Maw",
+    "world": "tide"
+  },
+  "暮潮星枝鹿领誓·伦尘": {
+    "zh": "奥林",
+    "en": "Orin",
+    "roleZh": "浮尸鹿",
+    "roleEn": "Drift Deer",
+    "world": "tide"
+  },
+  "暮潮灯议长·佩尘": {
+    "zh": "哈兰",
+    "en": "Harlan",
+    "roleZh": "旧船长",
+    "roleEn": "Old Captain",
+    "world": "tide"
+  },
+  "暮潮潜印客领誓·泽尘": {
+    "zh": "尼科",
+    "en": "Nico",
+    "roleZh": "换牌人",
+    "roleEn": "Card Dealer",
+    "world": "tide"
+  },
+  "暮潮织光蛛领誓·图尘": {
+    "zh": "玛塔",
+    "en": "Marta",
+    "roleZh": "海底蛛",
+    "roleEn": "Deep Spider",
+    "world": "tide"
+  },
+  "暮潮缄骨客领誓·阿汀": {
+    "zh": "康拉德",
+    "en": "Conrad",
+    "roleZh": "舱底客",
+    "roleEn": "Bilge Guest",
+    "world": "tide"
+  },
+  "暮潮灯议长·艾汀": {
+    "zh": "伊莱",
+    "en": "Eli",
+    "roleZh": "灯塔守护者",
+    "roleEn": "Lighthouse Warden",
+    "world": "tide"
+  },
+  "暮潮浮辉使领誓·塔尘": {
+    "zh": "泰丝",
+    "en": "Tess",
+    "roleZh": "雾中影",
+    "roleEn": "Fog Shade",
+    "world": "tide"
+  },
+  "暮潮灯议长·乌汀": {
+    "zh": "达蒙",
+    "en": "Damon",
+    "roleZh": "换舷人",
+    "roleEn": "Rail Switcher",
+    "world": "tide"
+  },
+  "暮潮折面星客领誓·依汀": {
+    "zh": "埃丝梅",
+    "en": "Esme",
+    "roleZh": "梦眼",
+    "roleEn": "Dream Eye",
+    "world": "tide"
+  },
+  "暮潮踏铃驹领誓·雅汀": {
+    "zh": "贾尔斯",
+    "en": "Giles",
+    "roleZh": "浪蹄",
+    "roleEn": "Wave Hoof",
+    "world": "tide"
+  },
+  "暮潮灯议长·维汀": {
+    "zh": "卢西安",
+    "en": "Lucian",
+    "roleZh": "红酒客",
+    "roleEn": "Red Guest",
+    "world": "tide"
+  },
+  "暮潮星枝鹿领誓·诺汀": {
+    "zh": "芙萝拉",
+    "en": "Flora",
+    "roleZh": "刺枝鹿",
+    "roleEn": "Thorn Deer",
+    "world": "tide"
+  },
+  "暮潮灯议长·希汀": {
+    "zh": "诺兰",
+    "en": "Nolan",
+    "roleZh": "听潮人",
+    "roleEn": "Tide Listener",
+    "world": "tide"
+  },
+  "霜枝铜缄裂角客": {
+    "zh": "埃里克",
+    "en": "Erik",
+    "roleZh": "雪角",
+    "roleEn": "Snow Horn",
+    "world": "frost"
+  },
+  "霜枝铠卫领誓·泽芙": {
+    "zh": "布拉姆",
+    "en": "Bram",
+    "roleZh": "破冰卫",
+    "roleEn": "Ice Guard",
+    "world": "frost"
+  },
+  "霜枝苔痕赤角兽": {
+    "zh": "伊瓦尔",
+    "en": "Ivar",
+    "roleZh": "盲牛",
+    "roleEn": "Blind Bull",
+    "world": "frost"
+  },
+  "霜枝潜印客领誓·图芙": {
+    "zh": "马雷克",
+    "en": "Marek",
+    "roleZh": "飞刀客",
+    "roleEn": "Flying Knife",
+    "world": "frost"
+  },
+  "霜枝铠卫领誓·芮芙": {
+    "zh": "安塞尔",
+    "en": "Ansel",
+    "roleZh": "冰线卫",
+    "roleEn": "Ice Watch",
+    "world": "frost"
+  },
+  "霜枝攀钟猿领誓·阿诺": {
+    "zh": "阿洛",
+    "en": "Arlo",
+    "roleZh": "白猿",
+    "roleEn": "White Ape",
+    "world": "frost"
+  },
+  "霜枝攀钟猿领誓·艾诺": {
+    "zh": "乌尔里克",
+    "en": "Ulric",
+    "roleZh": "断臂猿",
+    "roleEn": "One-Arm Ape",
+    "world": "frost"
+  },
+  "霜枝攀钟猿领誓·伊诺": {
+    "zh": "内斯托",
+    "en": "Nestor",
+    "roleZh": "老雪猿",
+    "roleEn": "Old Snow Ape",
+    "world": "frost"
+  },
+  "霜枝灯议长·欧诺": {
+    "zh": "阿尔玛",
+    "en": "Alma",
+    "roleZh": "冻哨",
+    "roleEn": "Frozen Sentry",
+    "world": "frost"
+  },
+  "霜枝潜印客领誓·依诺": {
+    "zh": "索伦",
+    "en": "Soren",
+    "roleZh": "隐名人",
+    "roleEn": "Hidden Name",
+    "world": "frost"
+  },
+  "霜枝灯议长·乌诺": {
+    "zh": "英格丽",
+    "en": "Ingrid",
+    "roleZh": "封站人",
+    "roleEn": "Station Keeper",
+    "world": "frost"
+  },
+  "霜枝晶棘蜥龙领誓·维诺": {
+    "zh": "雷夫",
+    "en": "Leif",
+    "roleZh": "眠龙",
+    "roleEn": "Sleeping Drake",
+    "world": "frost"
+  },
+  "霜枝灯议长·希诺": {
+    "zh": "希尔达",
+    "en": "Hilda",
+    "roleZh": "山医",
+    "roleEn": "Hill Doctor",
+    "world": "frost"
+  },
+  "霜枝潜印客领誓·雅诺": {
+    "zh": "内尔",
+    "en": "Nell",
+    "roleZh": "窃听人",
+    "roleEn": "Wiretapper",
+    "world": "frost"
+  },
+  "霜枝裂角客领誓·瑟诺": {
+    "zh": "塔伦",
+    "en": "Taran",
+    "roleZh": "火怒客",
+    "roleEn": "Burnt Guest",
+    "world": "frost"
+  },
+  "霜枝灯议长·诺诺": {
+    "zh": "乔纳斯",
+    "en": "Jonas",
+    "roleZh": "望乡人",
+    "roleEn": "Homeward Man",
+    "world": "frost"
+  },
+  "星铸铠卫领誓·洛玟": {
+    "zh": "卡勒布",
+    "en": "Caleb",
+    "roleZh": "守页人",
+    "roleEn": "Page Guard",
+    "world": "astral"
+  },
+  "星铸裂角客领誓·佩烙": {
+    "zh": "奥蒂斯",
+    "en": "Otis",
+    "roleZh": "裂面客",
+    "roleEn": "Split Face",
+    "world": "astral"
+  },
+  "星铸灯议长·泽烙": {
+    "zh": "沃恩",
+    "en": "Vaughn",
+    "roleZh": "摘星人",
+    "roleEn": "Star Taker",
+    "world": "astral"
+  },
+  "星铸巡影狼领誓·阿霖": {
+    "zh": "罗南",
+    "en": "Ronan",
+    "roleZh": "逐月狼",
+    "roleEn": "Moon Wolf",
+    "world": "astral"
+  },
+  "星铸灯议长·图烙": {
+    "zh": "伊欧妮",
+    "en": "Ione",
+    "roleZh": "盲测师",
+    "roleEn": "Blind Surveyor",
+    "world": "astral"
+  },
+  "星铸铠卫领誓·芮烙": {
+    "zh": "西塞尔",
+    "en": "Cecil",
+    "roleZh": "石碑卫",
+    "roleEn": "Stone Guard",
+    "world": "astral"
+  },
+  "星铸铠卫领誓·米玟": {
+    "zh": "奥尔顿",
+    "en": "Alton",
+    "roleZh": "无面卫",
+    "roleEn": "Faceless Guard",
+    "world": "astral"
+  },
+  "星铸裂角客领誓·伊玟": {
+    "zh": "达拉",
+    "en": "Dara",
+    "roleZh": "裂夜客",
+    "roleEn": "Night Split",
+    "world": "astral"
+  },
+  "星铸环藤蛇领誓·阿玟": {
+    "zh": "阿斯彭",
+    "en": "Aspen",
+    "roleZh": "环尾蛇",
+    "roleEn": "Ringtail Snake",
+    "world": "astral"
+  },
+  "星铸裂角客领誓·艾玟": {
+    "zh": "埃尔默",
+    "en": "Elmer",
+    "roleZh": "夜食客",
+    "roleEn": "Night Eater",
+    "world": "astral"
+  },
+  "星铸峰脊巨灵领誓·欧玟": {
+    "zh": "路德",
+    "en": "Luther",
+    "roleZh": "托梁人",
+    "roleEn": "Beam Holder",
+    "world": "astral"
+  },
+  "星铸巡影狼领誓·乌玟": {
+    "zh": "韦德",
+    "en": "Wade",
+    "roleZh": "失群狼",
+    "roleEn": "Lost Wolf",
+    "world": "astral"
+  },
+  "星铸灯议长·雅玟": {
+    "zh": "勒内",
+    "en": "Rene",
+    "roleZh": "空座客",
+    "roleEn": "Empty Seat",
+    "world": "astral"
+  },
+  "星铸铠卫领誓·维玟": {
+    "zh": "阿丝特莉",
+    "en": "Astrid",
+    "roleZh": "证血人",
+    "roleEn": "Blood Witness",
+    "world": "astral"
+  },
+  "星铸灯议长·诺玟": {
+    "zh": "欧内斯特",
+    "en": "Ernest",
+    "roleZh": "署名者",
+    "roleEn": "The Signer",
+    "world": "astral"
+  },
+  "星铸折面星客领誓·瑟玟": {
+    "zh": "埃文",
+    "en": "Evan",
+    "roleZh": "门后人",
+    "roleEn": "Behind the Door",
+    "world": "astral"
+  },
+  "砂镜铠卫领誓·塔安": {
+    "zh": "阿奇",
+    "en": "Archie",
+    "roleZh": "复卷守备",
+    "roleEn": "Refolded Sentry",
+    "world": "vault"
+  },
+  "砂镜铠卫领誓·诺翎": {
+    "zh": "埃利斯",
+    "en": "Ellis",
+    "roleZh": "灰签巡守",
+    "roleEn": "Greytab Patrol",
+    "world": "vault"
+  },
+  "砂镜铠卫领誓·莫安": {
+    "zh": "沃尔特",
+    "en": "Walter",
+    "roleZh": "旧印门卫",
+    "roleEn": "Oldseal Keeper",
+    "world": "vault"
+  },
+  "砂镜潮纹游鱼领誓·依瑟": {
+    "zh": "珀西",
+    "en": "Percy",
+    "roleZh": "漏页鱼",
+    "roleEn": "Leafless Fish",
+    "world": "vault"
+  },
+  "砂镜织光蛛领誓·阿瑟": {
+    "zh": "伊迪丝",
+    "en": "Edith",
+    "roleZh": "盲档蛛",
+    "roleEn": "Blinddoc Spider",
+    "world": "vault"
+  },
+  "砂镜灯议长·维瑟": {
+    "zh": "奥斯卡",
+    "en": "Oscar",
+    "roleZh": "无字药师",
+    "roleEn": "Wordless Chemist",
+    "world": "vault"
+  },
+  "折光镜瞳山猫领誓·塔岚": {
+    "zh": "皮普",
+    "en": "Pip",
+    "roleZh": "倒瞳猫",
+    "roleEn": "Backeye Cat",
+    "world": "rift"
+  },
+  "折光铠卫领誓·芮岚": {
+    "zh": "奎恩",
+    "en": "Quinn",
+    "roleZh": "倒瞳执勤者",
+    "roleEn": "Backeye Watchman",
+    "world": "rift"
+  },
+  "折光铠卫领誓·岑岚": {
+    "zh": "奥尔登",
+    "en": "Alden",
+    "roleZh": "重曝门卫",
+    "roleEn": "Exposed Keeper",
+    "world": "rift"
+  },
+  "折光灯议长·索岚": {
+    "zh": "罗杰",
+    "en": "Roger",
+    "roleZh": "光孔搬运工",
+    "roleEn": "Pinhole Porter",
+    "world": "rift"
+  },
+  "折光枝灯树灵领誓·希泽": {
+    "zh": "海泽尔",
+    "en": "Hazel",
+    "roleZh": "断像枯树",
+    "roleEn": "Cutimage Tree",
+    "world": "rift"
+  },
+  "折光晶棘蜥龙领誓·莱岚": {
+    "zh": "科拉",
+    "en": "Cora",
+    "roleZh": "镜蚀长龙",
+    "roleEn": "Etched Wyrm",
+    "world": "rift"
+  }
+}

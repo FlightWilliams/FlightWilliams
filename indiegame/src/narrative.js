@@ -3,6 +3,9 @@ const CARD_DISPLAY_NAMES=__DATA_CARD_NAMES__;
 const CARD_STORIES=__DATA_CARD_STORIES__;
 const LOOP_STORY=__DATA_LOOP_STORY__;
 const COMPANION_DIALOGUE=__DATA_COMPANION_DIALOGUE__;
+const BOSS_IDENTITIES=__DATA_BOSS_IDENTITIES__;
+const BOSS_ABILITY_LEGACY=__DATA_BOSS_ABILITY_LEGACY__;
+const STORY_BOSS_ABILITIES=new Map(BOSS_ABILITIES.map(ability=>[ability.boss,ability]));
 const STORY_BOSSES=new Set(Object.values(CAMPAIGNS).flat().map(st=>st.boss));
 const STORY_STORAGE='lo_story_v1';
 const STORY={version:1,friends:{},seen:{},pendingFriend:null};
@@ -16,6 +19,10 @@ function shortCardName(card,language=gameLanguage){
  return id||'';
 }
 function cardNarrative(card){return CARD_STORIES[card?.n]?.zh||card?.lore||''}
+function bossIdentityForCard(card){return BOSS_IDENTITIES[typeof card==='string'?card:card?.baseName||card?.n]||null}
+function bossRoleText(card,language=gameLanguage){const identity=bossIdentityForCard(card);return identity?.[language==='en'?'roleEn':'roleZh']||''}
+function bossFlavorText(ability,language=gameLanguage){return ability?.[language==='en'?'flavorEn':'flavor']||''}
+function bossOwnedRuleText(ability){return gameLanguage==='en'?i18nText(ability.description).replace(/\bthe player's\b/gi,"the opponent's").replace(/\bthe player\b/gi,'the opponent').replace(/\bthe Boss\b/gi,'you'):ability.description.replace(/玩家/g,'对手').replace(/Boss/g,'我方').replace(/敌方/g,'对方')}
 function storyText(path,params={},language=gameLanguage){
  let value=LOOP_STORY;for(const part of path.split('.'))value=value?.[part];
  if(value&&typeof value==='object')value=value[language==='en'?'en':'zh'];
@@ -96,6 +103,10 @@ const HORROR_UI_ALIASES={
 };
 for(const [source,label]of Object.entries(HORROR_UI_ALIASES)){storyNameDictionary[source]=label.zh;I18N_STRINGS[source]=label.en;I18N_STRINGS[label.zh]=label.en}
 for(const row of Object.values(BOSS_DIALOGUE)){I18N_STRINGS[row.farewell]=row.farewellEn;I18N_STRINGS[row.echo]=row.echoEn}
+for(const identity of Object.values(BOSS_IDENTITIES))I18N_STRINGS[identity.roleZh]=identity.roleEn;
+for(const ability of BOSS_ABILITIES){I18N_STRINGS[ability.name]=ability.nameEn;if(ability.flavor)I18N_STRINGS[ability.flavor]=ability.flavorEn}
+for(const deck of Object.values(BOSS_DECKS)){if(deck.themeEn)I18N_STRINGS[deck.theme]=deck.themeEn;if(deck.planEn)I18N_STRINGS[deck.plan]=deck.planEn}
+for(const [oldName,boss]of Object.entries(BOSS_ABILITY_LEGACY)){const ability=STORY_BOSS_ABILITIES.get(boss);if(ability){storyNameDictionary[oldName]=ability.name;I18N_STRINGS[oldName]=ability.nameEn}}
 const storyNameKeys=Object.keys(storyNameDictionary).filter(id=>id!==storyNameDictionary[id]).sort((a,b)=>b.length-a.length);
 const storyNameMatcher=new RegExp(storyNameKeys.map(s=>s.replace(/[.*+?^${}()|[\]\\]/g,'\\$&')).join('|'),'g');
 function storyChineseText(text){if(typeof text!=='string')return text;let output=text.replace(storyNameMatcher,id=>storyNameDictionary[id]);for(const [id,labels]of storyIdentityLabels)output=output.split(id).join(labels.zh);return output}

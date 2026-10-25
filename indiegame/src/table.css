@@ -962,6 +962,7 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
 .boss-ability-panel-head{display:flex;align-items:center;justify-content:space-between;gap:10px;flex:none;padding:8px 10px;border-bottom:1px solid #ab785b55}
 .boss-ability-panel-head small{color:#d39d8c;font-size:10px;line-height:1.5;display:block}
 .boss-ability-panel-head h2{margin:2px 0 0;font-size:19px;line-height:1.25;color:#f0d09d}
+.boss-ability-flavor,.card-hold-identity{font-size:12px;line-height:1.7;color:#b8c4a8;border-left:2px solid #75866b;padding-left:9px}
 .boss-ability-panel-head button{min-width:52px;min-height:44px;height:44px;flex:none;font-size:11px;padding:0 8px}
 .boss-ability-panel-scroll{min-height:0;overflow:auto;overscroll-behavior:contain;-webkit-overflow-scrolling:touch;padding:10px 14px 14px;touch-action:pan-y}
 .boss-ability-status{margin:0 0 10px;font-size:11px;line-height:1.6;color:#edc080;border:1px solid #a7844b66;border-radius:4px;background:#b7822222;padding:5px 8px}
@@ -982,7 +983,7 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
  .game-shell .table-tools{align-self:flex-start}
 }
 @media(max-width:360px) and (orientation:portrait){.game-shell{grid-template-rows:88px 50px minmax(0,1fr) 50px 44px 130px}}
-@media(max-height:520px) and (min-aspect-ratio:1.25/1){.game-shell .boss-ability-trigger{margin-top:-29px;font-size:10px}}
+@media(max-height:520px) and (min-aspect-ratio:1.25/1){.game-shell .boss-ability-trigger{margin-top:-25px;font-size:10px}}
 .boss-ability-popover .boss-deck-theme{margin:10px 0;padding:9px 10px;border-left:2px solid #ac8149;background:#ac814914;color:#c8b797;font-size:12px;line-height:1.65}
 .boss-deck-theme strong{font-weight:500;color:#e3c58a}
 .player-boss-skill-trigger{display:inline-flex;align-items:center;gap:4px;min-height:24px;max-width:160px;padding:3px 6px;border:1px solid #98733b;border-radius:4px;font-size:11px;letter-spacing:0;color:#e4c37f;vertical-align:middle;line-height:1.25;flex-shrink:1}
