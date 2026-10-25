@@ -12,7 +12,7 @@ You do not drink. Tea has left a ring in the cup. It smells of cold iron.
 “I want to leave.”
 “Good. You haven't decided to take my job.”
 He smiles, turns the glove over, and unpicks the two stitches he has just made. You wait for more. Instead, he pushes a thin file across the desk. Damp has glued its pages together. You separate them with your thumb and find your photograph.
-You are due to go missing tomorrow.
+You are due to go missing tomorrow. The reporting person’s name is folded into the cover. Only a heavily hooked final stroke shows.
 “The date is wrong.”
 “I said that too.” The Night Watch bends over his thread.
 The clock on the wall reads 03:17. A drop falls from your sleeve into the basin. A moment later, the radio repeats the sound.
@@ -37,7 +37,7 @@ You set down the cup. Sixteen keys hang beneath the counter. The last is drippin
 ### An Unopened Letter
 
 As you put away the last card, the cook replaces the lid on his pot. The fog has thinned enough to reveal the crooked post-office sign across the street.
-An unsealed envelope lies on the counter. Your name is in the sender field. Inside is a short piece of blue thread. The postmark is dated tomorrow, but its ink has soaked deep into the paper.
+An unsealed envelope lies on the counter. Your name is in the sender field. Inside is a short piece of blue thread. Its knot is tied backward, a habit you learned badly as a child and never corrected. The postmark is dated tomorrow, but its ink has soaked deep into the paper.
 “Our postman always takes his time,” the cook says.
 “This seems fairly quick.”
 “That's what bothers me.”
@@ -71,6 +71,7 @@ The thin woman packs the tape into a cardboard box and writes the Ash Works addr
 “They repair things there. People too. Keep your expectations sensible.”
 You close the box. A small cough comes from inside.
 She looks up. “Nothing to worry about. The tape is wound too tight.”
+The White Room address is written inside the lid, its last digit retraced. Your hand stops over the pen. The same color of ink stains your fingertip.
 You reach to unplug the recorder. Your fingers find a cable cut off close to the casing. Dust has settled into the end. It was cut a long time ago.
 Outside, a companion takes the heavy box from you. Through the cardboard, you hear your recorded voice thank them.
 They look at you.
@@ -101,6 +102,7 @@ She looks at you and pushes the pot closer.
 The disconnected copier feeds out a photograph. The paper is warm. It shows a quay at Sunken Harbor. She picks a flake of ash from one corner, revealing a blue-rimmed cup upside down on the rail.
 You recognize the chip. In the photographed water, a bell-tower window is reflected.
 “Take the left road,” she says. “When the water rises, don't ask anyone the time.”
+She presses a spool of blue thread into your palm and cuts a length before you can refuse. “For torn clothes. You needn’t hold a funeral for the place.”
 Before leaving, you put your bowl in the sink. The water in the bottom moves away from the drain. Slowly, it climbs the bowl and washes off your fingerprints.
 
 ## 4 · Sunken Harbor
@@ -129,8 +131,8 @@ Behind you, someone quietly says a third name. It sounds familiar. When you turn
 The ferryman puts on his shoe and tests it.
 “One face won't get you two tickets.”
 Before you can answer, a telegraph starts clattering farther along the quay. Its paper unrolls onto the floor. It gives the Snow Station address and three words: DO NOT ANSWER.
-The ferryman looks at the strip of paper.
-Then he asks you the question again.
+A thumb has smeared the ink over the sender’s name. You swallow your answer.
+The ferryman waits too long, then asks you the question again.
 
 ## 5 · Snow Station
 
@@ -143,6 +145,7 @@ He finds a peppermint in a tin, considers it, then replaces it with two. The bri
 A service with no destination is announced over the loudspeaker. He adds a routine mark to the blackboard and turns on the radio. Your distress call forces its way through the speaker, broken by hard breathing.
 He lowers the volume slowly.
 “We can make out the address this time.”
+At the last digit, the voice hesitates and repeats it. You recognize the pause. That is how you read the address inside the box lid.
 The switch has stayed on receive.
 Your recorded voice gives the White Room building number. As the final digit sounds, his fingers stop on the dial. You think he has heard something. Then he shows you his open hand.
 The sweets have melted. A sodden ticket lies between their two wrappers.
@@ -168,7 +171,7 @@ The White Room smells of a freshly mopped floor. It has no windows, though damp 
 The recording officer pulls out a chair. His shirt is neatly pressed. A rusted paper clip is pinned to one cuff.
 “Keep your coat on. You won't be sitting long.”
 You ask what counts as long. He opens the file instead of answering and places a photograph in the middle of the table. You are seated in this chair. The person behind you has been cropped in half.
-Missing person. Witness. Recording officer. Your name fills all three fields.
+Missing person. Witness. Recording officer. Your name fills all three fields. The last stroke in the reporting field ends in a hook. You made the same mark a moment ago, finishing the address for him.
 You touch the paper. The smell of cabbage soup from Ash Works rises briefly between you. He smells it too. He swallows and straightens the pens.
 “Can I go when we're finished?”
 “You can leave this room.”
@@ -180,10 +183,19 @@ At last, he puts down his pen.
 ### The Cup Is Still Warm
 
 The last card lands. Somewhere in the White Room, a kettle comes to the boil. The recording officer looks down at the table. He makes no move to switch it off.
-The damp line retreats down the wall, revealing a narrow door. Bean soup drifts through the gap, mixed with shoe polish. You pocket your cards. Your fingers find the needle in your cuff and the fraying length of blue thread.
-“Is this the way out?”
-He rubs ink from his thumb. His lips move before he settles on an answer.
-“Someone's waiting.”
+The recorder at the corner of the desk begins turning. Someone is breathing hard, asking whether anyone can hear. You know that breath. At Snow Station, you turned it down because it was too loud.
+“Give them the address.” Into the microphone, you read the White Room building number. You stumble over the last digit and repeat it. The person on the tape pauses in the same place.
+You let go of the microphone. Your palm is wet.
+The officer offers a blank missing-person form. “Nobody goes looking until somebody reports it.”
+The photograph is yours. The form is empty. You remember everyone who has held a door or saved a meal for you, and write your name. At the date, you hesitate. Then you put tomorrow. At least there is still a day, you think.
+The last stroke of the reporting person’s name ends in a hook you cannot quite control.
+Afraid your earlier self will answer the ferryman, you write the Snow Station address and DO NOT ANSWER on telegraph paper. Your thumb catches the wet ink, smearing the sender’s name.
+The Fire Warden’s blue thread is still in your pocket. You cut a length, tie the backward knot, and put it in an envelope bearing your name. The wet key holds down its flap. You push everything, with the report, into the return slot in the wall, hoping to leave a route for someone who cannot get out.
+Inside the metal chute, a spoon taps the edge of a pot. Then the cook’s weather forecast begins reading your name.
+You reach back in. Your fingers find only damp metal.
+The wet mark retreats down the wall, revealing a narrow door. The form has left the desk. Its carbon copy is the first page you opened when you woke.
+“I sent it back,” you say.
+The officer looks at the ink on your hand. He does not say, “At last.”
 You open the door.
 In the Fogtown duty room, the Night Watch is pouring water. The clock reads 03:17. He looks at your face, then at the space behind you. The kettle lingers above the rim.
 “Name?”
@@ -192,14 +204,14 @@ You do not answer at once. The missing-person file is still dated tomorrow, but 
 He counts them. The room is quiet. You hear someone trying not to laugh outside the door.
 “One short today, I think.”
 You pull out a chair for whoever has followed you and hang your coat over the chair where you first found it. Its wooden legs scrape the floor with an ordinary, ugly sound. Your hand stops at the familiarity of it.
-The fog has not cleared. No trace of dawn shows beyond it. As you sit, the cup burns your palm. The Night Watch is still pouring. You lower your eyes to the rim.
-The missing patch of blue enamel is slowly returning.
+You know who sent the letter. Nobody has accounted for the two stitches the Night Watch unpicked, the print inside his glove, or the light beneath the water.
+The fog has not cleared. As you sit, the cup burns your palm. The missing blue enamel is returning. This time, you leave the reporting person’s name unfolded.
 
 ## The Tea Is Still Warm
 
 The tin basin is where you left it. So is your coat, with a length of blue thread mending its cuff. Hearing the chair scrape, the Night Watch counts the people in the doorway and brings out more cups.
 “More mouths. I'll have to water it down.”
-The tea smells of iron. The clock still reads 03:17. This time, the radio does not speak ahead of you.
+The tea smells of iron. The clock still reads 03:17. This time, the radio does not speak ahead of you. You open the file without hiding the reporting field. It is still your name.
 “I want to leave,” you say.
 He waits with the needle between his fingers.
 “I know. Put your coat on first.”

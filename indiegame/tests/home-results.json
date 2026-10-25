@@ -1,0 +1,56 @@
+[
+  {
+    "name": "A real second-round battle returns home and continues without redealing or losing the draw choice",
+    "passed": true,
+    "evidence": {
+      "round": 2,
+      "playerName": "Eleanor Nightingale",
+      "loadedScript": "pact.829b1e7bea4e.js",
+      "loadedStyle": "table.e692c647ef44.css",
+      "preservedChoice": "draw from finite deck or Wick"
+    }
+  },
+  {
+    "name": "Reloading after Return Home stays on the homepage and the English player name survives Continue",
+    "passed": true
+  },
+  {
+    "name": "An unresolved freeze choice and active Boss skill state survive the home round trip",
+    "passed": true
+  },
+  {
+    "name": "Resolving combat or a running draw disables Home and refuses programmatic exit",
+    "passed": true
+  },
+  {
+    "name": "A storage write failure leaves the current cards and decision on the table",
+    "passed": true
+  },
+  {
+    "name": "Unclaimed rewards remain identical when Home is used from the reward overlay",
+    "passed": true
+  },
+  {
+    "name": "Leaving tutorial practice restores and saves the main campaign instead of the practice board",
+    "passed": true
+  },
+  {
+    "name": "Leaving a Boss replay from Home keeps the saved main rewards intact",
+    "passed": true
+  },
+  {
+    "name": "Home and Continue stay visible and clickable on four screens in both UI languages",
+    "passed": true,
+    "evidence": {
+      "layouts": 8
+    }
+  },
+  {
+    "name": "An unreadable saved game shows a restore message without leaving a broken battle",
+    "passed": true
+  },
+  {
+    "name": "No browser errors in save and navigation scenarios",
+    "passed": true
+  }
+]

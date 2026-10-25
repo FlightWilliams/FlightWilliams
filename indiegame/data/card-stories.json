@@ -816,8 +816,8 @@
     "en": "The patrol boots stay clean. Mud caught in the soles comes from a river that was filled in. The time clock at the Ash Works prints tomorrow’s date."
   },
   "炽砂修灯师·瑟罗": {
-    "zh": "防火女把汤盛进铁碗，用围裙擦掉碗沿的灰。她守着冷炉，雨衣袖口却一直发烫。“趁热喝，凉了就只剩盐味。”你接碗时发现，炉门封条上的手印，比她的手多一根指头。",
-    "en": "The Fire Warden serves soup in a tin bowl and wipes ash from the rim with her apron. She keeps a cold furnace; her raincoat cuffs stay hot. “Drink before it cools. Then it is only salt.” On the furnace seal, a handprint has one finger more than hers."
+    "zh": "防火女把汤盛进铁碗，又塞来一卷蓝线。“衣服破了就补，别连人也扔掉。”她守着冷炉，雨衣袖口一直发烫。你认出线头上的小剪口，和那封早已寄到的信里一模一样。",
+    "en": "The Fire Warden serves soup in a tin bowl and adds a spool of blue thread. “Mend torn clothes. No need to throw away the person.” She keeps a cold furnace; her raincoat cuffs stay hot. The tiny cut at the thread’s end matches the letter that arrived long ago."
   },
   "炽砂铠卫·维罗": {
     "zh": "他的证件照闭着眼，见到你之后，照片里的眼睛才睁开。灰厂的打卡钟打印着明天的日期。",
@@ -3184,12 +3184,12 @@
     "en": "Sheets of scale remain beneath the bridge. The largest is wider than the missing car’s door. A new gold mark stops outside the door. Every companion denies drawing it."
   },
   "苔庭铠卫·雅恩": {
-    "zh": "守夜人把搪瓷杯推到你面前，杯沿缺口朝着自己。“当心烫。”他又看了一眼那块停在03:17的表。茶早凉了，杯柄却烫得握不住。你想问，他已经翻开下一页值班簿。",
-    "en": "The Night Watch slides an enamel cup toward you, keeping the chipped rim on his side. “Careful. Hot.” He glances at the watch stopped at 03:17. The tea is cold; the handle burns your fingers. Before you can ask, he turns the page of the duty book."
+    "zh": "守夜人把缺口朝外的搪瓷杯推过来，瞥了一眼停在03:17的表。“登记人也得签字。”他说。你认得最后那一笔，想问是谁写的，他却先把案卷折好，压在自己的值班簿下面。",
+    "en": "The Night Watch pushes over an enamel cup, its chipped side turned away, and glances at the watch stopped at 03:17. “The reporting person signs too.” You recognize the last stroke. Before you can ask who wrote it, he folds the file under his own duty book."
   },
   "鎏金·苔庭铠卫·雅恩": {
-    "zh": "金边值班簿比普通那本薄。守夜人不让你翻最后一页，只把搪瓷杯往旁边挪了挪。“多放一把椅子吧。”他低头签字。钟仍停在03:17，门外这次响起了两个人的脚步。",
-    "en": "The gold-edged duty book is thinner. The Night Watch keeps its last page closed and moves the enamel cup aside. “Another chair, perhaps.” He signs. The clock still reads 03:17. This time, two sets of footsteps wait outside."
+    "zh": "金边值班簿的最后一页没有封住。守夜人递来一支笔，笔帽上的齿印恰好贴合你的牙。“多放一把椅子吧。”他说。钟停在03:17，你终于看见，报失踪和接班，用的是同一张表。",
+    "en": "The gold-edged duty book lies open at its last page. The pen he offers has tooth marks that fit your teeth. “Another chair, perhaps.” The clock reads 03:17. At last you see that reporting someone missing and taking a shift use the same form."
   },
   "苔庭裂角客领誓·阿珀": {
     "zh": "他额头上的硬角刮伤了测量尺。档案写着先天畸形，附上的出生照里却没有这个人。",
@@ -3632,12 +3632,12 @@
     "en": "He examines every recovered body but never writes a cause of death. A warning on the back is signed with your former address."
   },
   "暮潮灯议长·艾汀": {
-    "zh": "灯塔守护者擦镜片时，总给你留一块干布。煤油味压不住袖口的咸腥。“回信来了再吃。”他拧亮航灯，水底却早亮了一次。桌上那封回信，连你刚说错的一个字都照抄了。",
-    "en": "The Lighthouse Warden leaves you a dry cloth whenever he cleans the lens. Kerosene cannot hide the brine in his cuffs. “We eat when the reply comes.” He lights the lamp; the water has already answered. The letter on the table repeats even the word you just misspoke."
+    "zh": "灯塔守护者擦镜片时，总给你留一块干布。“先看落款，再问是谁回信。”水底的光又早亮了一次。你翻开纸页，末尾那块抹开的墨，刚好盖住了自己名字的最后一笔。",
+    "en": "The Lighthouse Warden leaves you a dry cloth for the lens. “Check the signature before asking who replied.” The underwater light comes early again. At the foot of the letter, a smear of ink covers the last stroke of your name."
   },
   "鎏金·暮潮灯议长·艾汀": {
-    "zh": "灯塔守护者换了新灯芯，旧的叠好收进烟盒。他让你扶住镜框，自己往水底打出一束光。“今晚不等回信，饭会凉。”远处的光熄了；桌上那封回信，第一次没有拆封。",
-    "en": "The Lighthouse Warden fits a new wick and folds the old one into a tobacco tin. You steady the lens while he signals below. “No waiting tonight. Supper will go cold.” The distant light goes out. For the first time, the reply on the table stays sealed."
+    "zh": "灯塔守护者把旧灯芯叠进烟盒，替你按住被风吹起的回信。“知道谁寄的，不等于知道谁在水底。”他把灯转向你身后。纸上的字迹没有变，那束光却仍比你们先到。",
+    "en": "The Lighthouse Warden folds the old wick into a tobacco tin and holds down your letter. “Knowing the sender doesn’t tell you who’s under the water.” He turns the lamp behind you. The handwriting is unchanged. The light still arrives before either of you."
   },
   "暮潮浮辉使领誓·塔尘": {
     "zh": "他的声音只在海水碰到鞋边时出现，嘴唇从来不动。干燥的录音带上，却留着持续的吞咽声。",

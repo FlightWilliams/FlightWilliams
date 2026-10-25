@@ -2612,5 +2612,14 @@
   "封存": " Sealed ",
   "不可献祭": "Cannot be sacrificed",
   "碎灯仆": "Broken-Wick Servitor",
-  "的死亡回响": "’s defeat echo"
+  "的死亡回响": "’s defeat echo",
+  "返回主页": "Home",
+  "返回主页并保存进度": "Save progress and return home",
+  "继续游戏": "Continue Game",
+  "进度暂时无法保存，请稍后重试。": "Your progress could not be saved. Please try again.",
+  "未能读取进度，请重试。": "Your progress could not be restored. Please try again.",
+  "这里可以开关<strong>音效与音乐</strong>，查看卡组和玩法手册。点<strong>返回主页</strong>保存当前对局，随后在首页点<strong>继续游戏</strong>回来；结算中请稍候。": "Toggle <strong>sound and music</strong>, view your deck or read the rules. Choose <strong>Home</strong> to save this match, then <strong>Continue Game</strong> to return. Wait for dealing or combat to finish first.",
+  "主线进度自动保存 · 返回主页后可继续游戏": "Progress saves automatically · Continue Game resumes from home",
+  "保存与继续": "Save and Continue",
+  "点牌桌上方的“返回主页”，保存当前关卡、回合、生命、手牌和牌桌。主页点“继续游戏”回到原来的对局；返回主页后刷新页面，仍可从这里继续。发牌与战斗结算期间须等结算完成。新手练习与重战不会覆盖主线存档。": "Choose Home above the table to save the current encounter, round, health, hand and board. Continue Game on the homepage restores this match. Reloading after returning home keeps you on the homepage. Wait for dealing or combat to finish first. Tutorial and replay matches do not replace the main campaign save."
 }

@@ -1085,6 +1085,7 @@ function stageDeck(st){
 }
 function opening(deck){const cheap=deck.findIndex(c=>c.c===1);if(cheap>=0)deck.push(deck.splice(cheap,1)[0]);return deck}
 function newRun(){
+ setHomepageRequested(false);
  if(typeof checkpointClear==='function')checkpointClear();
  cancelInitiativeCoin();
  TUT=null;DM=null;HOLD_DETAIL=null;infoPanel=null;detailCardOverride=null;
@@ -1242,7 +1243,7 @@ function pileHTML(side){
  const n=side==='p'?G.draw.length:G.ed.length,total=side==='p'?G.deck.length:G.st.dk.length,layers=Math.min(n,40),depth=Math.min(n*.55,22);
  return `<div class="deck-wrap">${side==='p'?'<button class="deck-access-pile" data-a="deckmanager" aria-label="查看并管理我的卡组">':''}<div class="deck-pile" id="deck-${side}" role="img" aria-label="${side==='p'?'我方':'敌方'}牌堆，剩余${n}张">${n?Array.from({length:layers},(_,i)=>`<div class="deck-layer" style="transform:translate(${i*depth/Math.max(1,layers-1)}px,${-i*depth/Math.max(1,layers-1)}px)"></div>`).join(''):'<span class="deck-empty">空</span>'}</div><div class="deck-info"><span class="deck-name">${side==='p'?'我方':'敌方'}牌堆</span><span class="deck-count"><b>${n}</b><small> / ${total}</small></span></div>${side==='p'?'<span class="deck-management-hint" aria-hidden="true">≡</span></button>':''}</div>`;
 }
-function rulesHTML(){return `<div class="rules-copy"><p class="drawer-eyebrow">FIELD PROCEDURE</p><h2>落牌之前</h2><p>你与敌人各有7点生命、五个战斗格。攻击空位或飞越对手会直击生命，生命归零即落败。</p><button class="tutorial-home-link" data-a="tutorial">重看新手指引 · 界面与出牌</button><button class="tutorial-home-link" data-a="catalog">浏览全部卡牌图鉴</button><h3>卡组与备用</h3><p>出战上限36张，推荐24张；起始卡组至少12张。点牌堆图标查看卡组，按费用、功能、属性或名称排序。排序只改变显示，不改变抽牌顺序。默认初始卡组16张，推荐24张。奖励卡直接加入出战，达到36张上限后才提示整理；已满36张时新奖励放入备用，备用不参加抽牌。</p><h3>抽牌与献祭</h3><p>双方基础起手各5张，包含1张余芯，首回合无需再抽牌。每轮回首关掷币后，金币化为1张额外余芯交给后手：先手5张、后手6张。额外余芯不消耗牌库，仍需自行部署并存活到下一回合才能献祭。正式对战由空牌桌开场，双方自行部署；新部署的祭品须存活到下一回合才能献祭。之后每回合免费获得1张余芯，再选择抽1张卡组牌或再取余芯。费用●代表需要献祭的友军数量；新召唤的牌下回合才能献祭。场上余芯标明“新入场”或“可献祭”，敌我使用相同规则。</p><h3>永久收藏与死亡身份</h3><p>未获得的牌以问号背面封存，不能查看能力或自由编入；获得并实际加入出战后才永久解锁。备用中的新牌须先编入并保存。普通出战同名最多2张；鎏金在出战与备用中合计最多1张，余芯不受同名限制。每轮16关内最多暂存1张死亡身份，第二次死亡可保留旧卡或替换新卡；重试自动携带，通关本轮16关后才永久归档并可自由组卡。</p><h3>死亡余芯的成长</h3><p>正式战斗的死亡次数在当前浏览器累计保存。每第3次死亡（第3、6、9次等）单独有33%概率生成比上一份死亡遗骸更强的身份；费用可为1、2或3费，成长存在上限。没有命中不会消耗或削弱已保留的身份。每轮仍最多暂存一张，第二次死亡可比较旧卡与新卡后保留或替换；通关16关后才永久归档，练习不计死亡。</p><h3>我方装备Boss技能</h3><p>与守关Boss同名的普通或鎏金卡部署在我方场上后，可点击我方生命旁的技能按钮装备其专属主动技能；仅在手牌或卡组中不能装备。每回合最多装备一次，从第2回合开始启用。每次成功发动额外消耗一张未冻结的手牌余芯；发动后下一回合冷却，再下一回合才能再次发动，原技能的弃牌、生命等代价仍需另外支付。部署技能在我方部署阶段点击发动；攻击后技能先点击准备，在双方攻击结束后结算。效果中的友军、敌军与代价按我方视角计算。已装备技能可沿用至下回合，来源卡离场或暂时化灰后失效，不能靠换卡或换技能绕过次数限制。</p><h3>Boss主动技能与弃牌</h3><p>每位守关者使用与自身角色和技能搭配的专属卡组。Boss名字旁显示专属技能，点按或悬停阅读时机、代价与本回合状态。从第2回合开始，每次成功发动消耗一张未冻结的手牌余芯，随后跳过下一回合，再下一回合才能重用；没有目标或代价不足时，不扣余芯也不进入冷却，敌我一致。部署类在敌方部署时使用，攻击后类在双方攻击结算后使用。主动丢弃手牌不触发亡语、死亡抽牌或复燃，抽牌仍消耗有限牌堆。双方弃牌堆可在战斗记录中查看。</p><p>暂时余芯化会覆盖玩家下一次完整行动，之后恢复原卡当前攻血与成长，不回满血、不重复入场。余芯被杀或献祭后不再恢复，也不触发原卡亡语；刚恢复的卡有一轮再次变形免疫。</p><h3>鎏金稀有与亡语</h3><p>共有${POOL.filter(c=>c.rarity==='rare'&&!c.token).length}张鎏金卡，含全部96位轮回Boss与旧版收藏，攻防均高于对应普通版。普通通关奖励有5%概率出现当前Boss的鎏金，可从三张中任选一张。每个轮回通关第16关后，必定出现该作品三张不同Boss鎏金卡，任选一张加入卡组。成长卡每次以自身攻击击杀敌方卡牌后攻击加1，直击生命或中毒击杀不触发。亡语在死亡和献祭时触发。鎏金灯蛛优先生成于原格与最近空格，位置不足则进入手牌；召唤物须存活到下一回合才能献祭。亡语召唤物不计入稀有收集卡。</p><h3>苔庭潜印客·莫恩与冻结</h3><p>苔庭潜印客·莫恩出场后，可选一张自己的手牌冻结。冻结本回合与下一回合，期间不能打出；第三回合开始自动解冻并减少1点献祭费用，最低0费。手牌上显示剩余回合。右键、Esc或“跳过”可放弃本次效果；已完成的部署不会撤回。冻结与减费仅在本次对战中有效。</p><h3>走位与先攻</h3><p>点选手牌，再选祭品与落点。选错时按鼠标右键或Esc，手机点击“取消”，即可清除选牌、祭品和位移选择。取消仅清除待确认选择，已完成的出牌或移动不会撤回。未选手牌时，点击带横移／换位的友军，再用左右按钮调整位置，每回合一次。换位后双方均不能再次移动；击退不追加攻击。</p><p>每轮回首关，先选契币正反，再点击灯契币投掷：猜中我方先手，否则Boss先手。金币伴随叮声和旋转声落定，再化成余芯交给后手。之后每位Boss的开场先手交替；同一场内逐回合交换先部署与先攻的一方。后手转先手时，Boss可能在回合切换前后连续部署；中央会显示新回合提示，战斗记录按回合分隔，这不代表新放下的余芯可在同回合献祭。双方都部署后才结算攻击，每张存活卡每回合最多攻击一次。守护可以拦截飞行；吸血和中毒只有造成伤害才生效。</p><h3>护盾与重战</h3><p>护盾只保护下一次受攻击，承受一次攻击后即失效；即使守护或弹反将伤害降为0，也会消耗护盾。普通敌卡死亡不再因魂系关卡规则自动生成余芯，只有卡牌自身明确写出的能力才会留下遗骸；新生成的牌仍须等下一回合才能献祭。</p><p>首页和第一关可选择重战已经击败的单个Boss，未通关关卡锁定。重战使用最近保存的卡组，不覆盖主线存档，也不发通关奖励或累计死亡成长。</p><h3>轮回配乐</h3><p>每个轮回按第1–4、5–8、9–12、13–15关分段切换原创配乐，第16关另用最终Boss曲，共30首。顶部音乐按钮可独立开关，按钮说明显示当前曲名与关卡段；静音偏好保存在当前浏览器，切后台暂停、返回恢复。游戏内本地合成，无需额外下载音乐。</p><h3>回去的路</h3><p>你是误入异界的旅人。选择守关者的奖励卡，意味着接受对方同行；走过最后一扇门后会回到雾林，伙伴、收藏、牌组与重战解锁都会保留。每次循环仍有六个世界、九十六场对局。</p><p>苔雾荒庭 → 铜钟堡垒 → 炽砂熔城 → 暮潮港湾 → 霜枝高地 → 星铸天穹。每轮16位不同守关者，共96关；难度与电脑决策逐轮提升。通关后沿用已获得的出战卡组与备用牌。晋阶和跨难度卡组保存在当前浏览器，回到首页可继续管理；主线在安全出牌节点及关卡结束后自动保存，重新载入会继续上次未完成的位置；未领取奖励保留。第36回合仍未分胜负时，按生命、场面战力裁决；完全同分玩家获胜。</p><p class="drawer-note">手牌较多时可左右滑动；手机长按卡牌查看介绍与完整技能，也可选牌后点“详情”。主线安全节点自动保存；新手与重战不覆盖主线存档。</p></div>`}
+function rulesHTML(){return `<div class="rules-copy"><p class="drawer-eyebrow">FIELD PROCEDURE</p><h2>落牌之前</h2><p>你与敌人各有7点生命、五个战斗格。攻击空位或飞越对手会直击生命，生命归零即落败。</p><button class="tutorial-home-link" data-a="tutorial">重看新手指引 · 界面与出牌</button><button class="tutorial-home-link" data-a="catalog">浏览全部卡牌图鉴</button><h3>保存与继续</h3><p>点牌桌上方的“返回主页”，保存当前关卡、回合、生命、手牌和牌桌。主页点“继续游戏”回到原来的对局；返回主页后刷新页面，仍可从这里继续。发牌与战斗结算期间须等结算完成。新手练习与重战不会覆盖主线存档。</p><h3>卡组与备用</h3><p>出战上限36张，推荐24张；起始卡组至少12张。点牌堆图标查看卡组，按费用、功能、属性或名称排序。排序只改变显示，不改变抽牌顺序。默认初始卡组16张，推荐24张。奖励卡直接加入出战，达到36张上限后才提示整理；已满36张时新奖励放入备用，备用不参加抽牌。</p><h3>抽牌与献祭</h3><p>双方基础起手各5张，包含1张余芯，首回合无需再抽牌。每轮回首关掷币后，金币化为1张额外余芯交给后手：先手5张、后手6张。额外余芯不消耗牌库，仍需自行部署并存活到下一回合才能献祭。正式对战由空牌桌开场，双方自行部署；新部署的祭品须存活到下一回合才能献祭。之后每回合免费获得1张余芯，再选择抽1张卡组牌或再取余芯。费用●代表需要献祭的友军数量；新召唤的牌下回合才能献祭。场上余芯标明“新入场”或“可献祭”，敌我使用相同规则。</p><h3>永久收藏与死亡身份</h3><p>未获得的牌以问号背面封存，不能查看能力或自由编入；获得并实际加入出战后才永久解锁。备用中的新牌须先编入并保存。普通出战同名最多2张；鎏金在出战与备用中合计最多1张，余芯不受同名限制。每轮16关内最多暂存1张死亡身份，第二次死亡可保留旧卡或替换新卡；重试自动携带，通关本轮16关后才永久归档并可自由组卡。</p><h3>死亡余芯的成长</h3><p>正式战斗的死亡次数在当前浏览器累计保存。每第3次死亡（第3、6、9次等）单独有33%概率生成比上一份死亡遗骸更强的身份；费用可为1、2或3费，成长存在上限。没有命中不会消耗或削弱已保留的身份。每轮仍最多暂存一张，第二次死亡可比较旧卡与新卡后保留或替换；通关16关后才永久归档，练习不计死亡。</p><h3>我方装备Boss技能</h3><p>与守关Boss同名的普通或鎏金卡部署在我方场上后，可点击我方生命旁的技能按钮装备其专属主动技能；仅在手牌或卡组中不能装备。每回合最多装备一次，从第2回合开始启用。每次成功发动额外消耗一张未冻结的手牌余芯；发动后下一回合冷却，再下一回合才能再次发动，原技能的弃牌、生命等代价仍需另外支付。部署技能在我方部署阶段点击发动；攻击后技能先点击准备，在双方攻击结束后结算。效果中的友军、敌军与代价按我方视角计算。已装备技能可沿用至下回合，来源卡离场或暂时化灰后失效，不能靠换卡或换技能绕过次数限制。</p><h3>Boss主动技能与弃牌</h3><p>每位守关者使用与自身角色和技能搭配的专属卡组。Boss名字旁显示专属技能，点按或悬停阅读时机、代价与本回合状态。从第2回合开始，每次成功发动消耗一张未冻结的手牌余芯，随后跳过下一回合，再下一回合才能重用；没有目标或代价不足时，不扣余芯也不进入冷却，敌我一致。部署类在敌方部署时使用，攻击后类在双方攻击结算后使用。主动丢弃手牌不触发亡语、死亡抽牌或复燃，抽牌仍消耗有限牌堆。双方弃牌堆可在战斗记录中查看。</p><p>暂时余芯化会覆盖玩家下一次完整行动，之后恢复原卡当前攻血与成长，不回满血、不重复入场。余芯被杀或献祭后不再恢复，也不触发原卡亡语；刚恢复的卡有一轮再次变形免疫。</p><h3>鎏金稀有与亡语</h3><p>共有${POOL.filter(c=>c.rarity==='rare'&&!c.token).length}张鎏金卡，含全部96位轮回Boss与旧版收藏，攻防均高于对应普通版。普通通关奖励有5%概率出现当前Boss的鎏金，可从三张中任选一张。每个轮回通关第16关后，必定出现该作品三张不同Boss鎏金卡，任选一张加入卡组。成长卡每次以自身攻击击杀敌方卡牌后攻击加1，直击生命或中毒击杀不触发。亡语在死亡和献祭时触发。鎏金灯蛛优先生成于原格与最近空格，位置不足则进入手牌；召唤物须存活到下一回合才能献祭。亡语召唤物不计入稀有收集卡。</p><h3>苔庭潜印客·莫恩与冻结</h3><p>苔庭潜印客·莫恩出场后，可选一张自己的手牌冻结。冻结本回合与下一回合，期间不能打出；第三回合开始自动解冻并减少1点献祭费用，最低0费。手牌上显示剩余回合。右键、Esc或“跳过”可放弃本次效果；已完成的部署不会撤回。冻结与减费仅在本次对战中有效。</p><h3>走位与先攻</h3><p>点选手牌，再选祭品与落点。选错时按鼠标右键或Esc，手机点击“取消”，即可清除选牌、祭品和位移选择。取消仅清除待确认选择，已完成的出牌或移动不会撤回。未选手牌时，点击带横移／换位的友军，再用左右按钮调整位置，每回合一次。换位后双方均不能再次移动；击退不追加攻击。</p><p>每轮回首关，先选契币正反，再点击灯契币投掷：猜中我方先手，否则Boss先手。金币伴随叮声和旋转声落定，再化成余芯交给后手。之后每位Boss的开场先手交替；同一场内逐回合交换先部署与先攻的一方。后手转先手时，Boss可能在回合切换前后连续部署；中央会显示新回合提示，战斗记录按回合分隔，这不代表新放下的余芯可在同回合献祭。双方都部署后才结算攻击，每张存活卡每回合最多攻击一次。守护可以拦截飞行；吸血和中毒只有造成伤害才生效。</p><h3>护盾与重战</h3><p>护盾只保护下一次受攻击，承受一次攻击后即失效；即使守护或弹反将伤害降为0，也会消耗护盾。普通敌卡死亡不再因魂系关卡规则自动生成余芯，只有卡牌自身明确写出的能力才会留下遗骸；新生成的牌仍须等下一回合才能献祭。</p><p>首页和第一关可选择重战已经击败的单个Boss，未通关关卡锁定。重战使用最近保存的卡组，不覆盖主线存档，也不发通关奖励或累计死亡成长。</p><h3>轮回配乐</h3><p>每个轮回按第1–4、5–8、9–12、13–15关分段切换原创配乐，第16关另用最终Boss曲，共30首。顶部音乐按钮可独立开关，按钮说明显示当前曲名与关卡段；静音偏好保存在当前浏览器，切后台暂停、返回恢复。游戏内本地合成，无需额外下载音乐。</p><h3>回去的路</h3><p>你是误入异界的旅人。选择守关者的奖励卡，意味着接受对方同行；走过最后一扇门后会回到雾林，伙伴、收藏、牌组与重战解锁都会保留。每次循环仍有六个世界、九十六场对局。</p><p>苔雾荒庭 → 铜钟堡垒 → 炽砂熔城 → 暮潮港湾 → 霜枝高地 → 星铸天穹。每轮16位不同守关者，共96关；难度与电脑决策逐轮提升。通关后沿用已获得的出战卡组与备用牌。晋阶和跨难度卡组保存在当前浏览器，回到首页可继续管理；主线在安全出牌节点及关卡结束后自动保存，重新载入会继续上次未完成的位置；未领取奖励保留。第36回合仍未分胜负时，按生命、场面战力裁决；完全同分玩家获胜。</p><p class="drawer-note">手牌较多时可左右滑动；手机长按卡牌查看介绍与完整技能，也可选牌后点“详情”。主线安全节点自动保存；新手与重战不覆盖主线存档。</p></div>`}
 function selectedCard(){return G?.sel!=null?G.hand[G.sel]:G?.moveSel!=null?G.p[G.moveSel]:null}
 function drawerHTML(){
  let title='灯台手册',content=storyJournalButton()+rulesHTML();
@@ -1252,7 +1253,7 @@ function drawerHTML(){
  return `<div class="drawer-backdrop"><button class="drawer-scrim" data-a="closepanel" aria-label="关闭面板"></button><section class="info-drawer" role="dialog" aria-modal="true" aria-labelledby="drawer-title"><div class="drawer-head"><h2 id="drawer-title">${esc(title)}</h2><button data-a="closepanel" aria-label="关闭面板">关闭 ×</button></div><div class="drawer-scroll">${content}</div></section></div>`;
 }
 function battleMessage(){const hc=selectedCard();return G.busy?'烛火摇曳，战斗结算中…':G.freezeChoice?'苔庭潜印客·莫恩：点一张手牌冻结两回合，解冻减1费；取消可跳过':G.mustDraw?'已获余芯。选择抽卡，或再取余芯。':G.sel!=null?frozenTurns(hc)?hc.bossFrozenUntil>G.turn&&!(hc.frozenUntil>G.turn)?'Boss冰封：当前不能打出，恢复后费用不变':`冻结剩余 ${frozenTurns(hc)} 回合，不能打出；解冻后减1费（最低0）`:G.sac.size<hc.c?`选择 ${hc.c-G.sac.size} 张祭品，新牌下回合可献祭`:'点击空格或选中的祭品位置落牌':G.moveSel!=null?MOVE_HELP[hc.mv]||'点详情阅读卡牌能力，或选择手牌部署':'选择手牌部署，或点选位移卡调整位置'}
-function homepageHTML(){return `<main class="home-screen title-screen"><section class="home-hero"><div class="home-brand"><span class="home-eyebrow">${esc(storyCopy('home','eyebrow'))}</span><h1>灯誓牌</h1><p class="subtitle">${esc(storyCopy('home','subtitle'))}</p></div><div class="home-fire"><img src="${BONFIRE_GIF}" alt="燃烧的剑与灯台"></div><p class="home-caption">${esc(storyCopy('home','caption'))}</p><p class="home-tribute">${esc(storyCopy('home','text'))}</p><div class="home-stats"><span><b>5</b> 席战场</span><span><b>7</b> 点灯火</span><span><b>${POOL.length}</b> 张卡牌</span></div></section><section class="home-console"><div class="console-heading"><span>REOPEN THE FILE</span><h2>继续调查</h2></div>${journeyHTML()}<p class="home-mode">第${campaignIndex()+1}轮 · ${GAME_META[difficulty][0]} · 关间回复${RULES[difficulty].heal}点灯火</p><label class="name-label" for="nm">行灯者姓名</label><input id="nm" maxlength="${typeof i18nNameLimit==='function'?i18nNameLimit():5}" value="${esc(pname)}" placeholder="输入姓名，或留空随机" autocomplete="off"><button class="pri home-start" data-a="start">${esc(storyCopy('home',journey.cleared===DIFFICULTY_ORDER.length||journey.loops?'return':'start'))}<span aria-hidden="true">✦</span></button><div class="home-secondary"><button class="deck-access" data-a="deckmanager">${deckIconHTML()}我的卡组 · ${getCampaignCarry(activeDifficulty())?.deck.length||(validDeck(customDeck)?customDeck.length:STARTER.length)}</button><button data-a="rules">玩法手册</button>${typeof replayButtonHTML==='function'?replayButtonHTML():''}</div><p class="home-cancel-hint">鼠标右键 / Esc 取消选择 · 手机点“取消”</p><p class="home-save-note">主线进度自动保存 · 重新载入继续未完成的战斗</p>${identityHomepageHTML()}${checkpointHomepageHTML()}</section><footer class="author-credit" aria-label="作者：Will Wang">${typeof languageSwitchHTML==='function'?languageSwitchHTML():''}${storyJournalButton()}<span class="author-signature"><span class="author-label">作者：</span><span class="sig">Will Wang</span></span></footer></main>`}
+function homepageHTML(){const resume=checkpointCanContinue();return `<main class="home-screen title-screen"><section class="home-hero"><div class="home-brand"><span class="home-eyebrow">${esc(storyCopy('home','eyebrow'))}</span><h1>灯誓牌</h1><p class="subtitle">${esc(storyCopy('home','subtitle'))}</p></div><div class="home-fire"><img src="${BONFIRE_GIF}" alt="燃烧的剑与灯台"></div><p class="home-caption">${esc(storyCopy('home','caption'))}</p><p class="home-tribute">${esc(storyCopy('home','text'))}</p><div class="home-stats"><span><b>5</b> 席战场</span><span><b>7</b> 点灯火</span><span><b>${POOL.length}</b> 张卡牌</span></div></section><section class="home-console"><div class="console-heading"><span>REOPEN THE FILE</span><h2>继续调查</h2></div>${journeyHTML()}<p class="home-mode">第${campaignIndex()+1}轮 · ${GAME_META[difficulty][0]} · 关间回复${RULES[difficulty].heal}点灯火</p><label class="name-label" for="nm">行灯者姓名</label><input id="nm" maxlength="${typeof i18nNameLimit==='function'?i18nNameLimit():5}" value="${esc(pname)}" placeholder="输入姓名，或留空随机" autocomplete="off"><button class="pri home-start" ${resume?'data-checkpoint="continue"':'data-a="start"'}>${resume?'继续游戏':esc(storyCopy('home',journey.cleared===DIFFICULTY_ORDER.length||journey.loops?'return':'start'))}<span aria-hidden="true">✦</span></button><div class="home-secondary"><button class="deck-access" data-a="deckmanager">${deckIconHTML()}我的卡组 · ${getCampaignCarry(activeDifficulty())?.deck.length||(validDeck(customDeck)?customDeck.length:STARTER.length)}</button><button data-a="rules">玩法手册</button>${typeof replayButtonHTML==='function'?replayButtonHTML():''}</div><p class="home-cancel-hint">鼠标右键 / Esc 取消选择 · 手机点“取消”</p><p class="home-save-note">主线进度自动保存 · 返回主页后可继续游戏</p>${identityHomepageHTML()}${checkpointHomepageHTML()}</section><footer class="author-credit" aria-label="作者：Will Wang">${typeof languageSwitchHTML==='function'?languageSwitchHTML():''}${storyJournalButton()}<span class="author-signature"><span class="author-label">作者：</span><span class="sig">Will Wang</span></span></footer></main>`}
 function selectionControlsHTML(){
  const mc=G.moveSel!=null?G.p[G.moveSel]:null,selected=selectedCard();let h='';
  if(mc&&['shift','swap'].includes(mc.mv))h+=`<div class="move-controls"><button data-a="move" data-d="-1" ${canMove('p',G.moveSel,-1)&&!G.busy&&!G.mustDraw?'':'disabled'} aria-label="左移一格">← 左移</button><span>${esc(mc.n)}<small>${mc.moved===G.turn?'本回合已移动':MOVE_LABEL[mc.mv]+' · 每回合一次'}</small></span><button data-a="move" data-d="1" ${canMove('p',G.moveSel,1)&&!G.busy&&!G.mustDraw?'':'disabled'} aria-label="右移一格">右移 →</button></div>`;
@@ -1291,7 +1292,7 @@ function render(){
  let h='';
  if(G&&OV!=='title'){
  const hc=G.sel!=null?G.hand[G.sel]:null,mc=G.moveSel!=null?G.p[G.moveSel]:null,selected=hc||mc,drawPreview=tutorialOverviewDraw();
- h+=`<main class="game-shell"><header class="hdr table-topbar"><div class="table-brand"><span class="table-emblem" aria-hidden="true">✦</span><div><strong>灯誓牌</strong><small>${bossStageLabelHTML()}</small></div></div><nav class="table-tools" aria-label="游戏设置">${typeof replayButtonHTML==='function'?replayButtonHTML():''}<button class="icon-toggle" data-a="mute" aria-pressed="${!mute}" aria-label="${mute?'开启':'关闭'}音效">音效 ${mute?'关':'开'}</button>${languageToggleHTML()}<button class="icon-toggle" data-a="mus" aria-pressed="${!mmute}" aria-label="${mmute?'开启':'关闭'}音乐；${esc(musicNowTitle())}" title="${esc(musicNowTitle())}">音乐 ${mmute?'关':'开'}</button><button class="deck-access" data-a="deckmanager" aria-label="查看我的卡组">${deckIconHTML()}卡组</button><button data-a="rules" aria-label="玩法手册">规则</button></nav></header>`;
+ h+=`<main class="game-shell"><header class="hdr table-topbar"><div class="table-brand"><span class="table-emblem" aria-hidden="true">✦</span><div><strong>灯誓牌</strong><small>${bossStageLabelHTML()}</small></div></div><nav class="table-tools" aria-label="游戏设置"><button class="home-return" data-a="home" ${G.busy||drawRunning?'disabled':''} aria-label="返回主页并保存进度" title="返回主页并保存进度">返回主页</button>${typeof replayButtonHTML==='function'?replayButtonHTML():''}<button class="icon-toggle" data-a="mute" aria-pressed="${!mute}" aria-label="${mute?'开启':'关闭'}音效">音效 ${mute?'关':'开'}</button>${languageToggleHTML()}<button class="icon-toggle" data-a="mus" aria-pressed="${!mmute}" aria-label="${mmute?'开启':'关闭'}音乐；${esc(musicNowTitle())}" title="${esc(musicNowTitle())}">音乐 ${mmute?'关':'开'}</button><button class="deck-access" data-a="deckmanager" aria-label="查看我的卡组">${deckIconHTML()}卡组</button><button data-a="rules" aria-label="玩法手册">规则</button></nav></header>`;
  h+=`<section class="opponent-hud side-hud" aria-label="敌方生命与牌库">${healthHTML('e')}<div class="opponent-stock side-stock">${pileHTML('e')}<div class="enemy-hand" aria-label="敌方手牌${G.eh.length}张">${G.eh.map((c,i)=>`<div class="card-back ${i<G.eh.length-5?'hand-tucked':''} ${frozenTurns(c)?'is-frozen':''}" data-index="${i}" aria-label="${frozenTurns(c)?'冻结中的敌方手牌，剩余'+frozenTurns(c)+'回合':'隐藏的敌方手牌'}"></div>`).join('')}<span class="enemy-hand-count">${G.eh.length}</span></div></div></section>`;
  h+=`<section class="table-arena" aria-label="五席战场">${G.phase==='round-start'&&roundFirstSide()==='e'?`<div class="round-start-notice" role="status"><small>上一回合已结束</small><strong>第 ${G.turn} 回合</strong><span>Boss先部署 · 旧祭品已可献祭</span></div>`:''}<div class="row board enemy-board">${G.e.map((c,i)=>c?cardHTML(c,c.t===G.turn?'fresh':'',`id="c-e-${i}" data-a="enemyinfo" data-i="${i}" tabindex="0"`):`<div class="slot" id="c-e-${i}"><small>${i+1}</small><span aria-hidden="true">◇</span></div>`).join('')}</div><div class="round-banner"><span>第 ${G.turn} / ${MATCH_LIMIT} 回合</span><i aria-hidden="true"></i><b>${roundFirstSide()==='p'?'我方':'Boss'}先手</b><i aria-hidden="true"></i><span>双方各结算一次</span></div><div class="row board player-board">${G.p.map((c,i)=>{const ok=hc&&!frozenTurns(hc)&&G.sac.size===hc.c&&(!c||G.sac.has(i)),sac=G.sac.has(i),mobile=c&&['shift','swap'].includes(c.mv)&&c.moved!==G.turn;return c?cardHTML(c,(sac?'sacrificing ':'')+(G.moveSel===i?'move-selected ':'')+(mobile?'can-move ':'')+(c.t===G.turn?'fresh':''),`id="c-p-${i}" data-a="s" data-i="${i}" tabindex="0" ${ok?'style="outline:2px solid var(--candle)"':''}`):`<div class="slot ${ok?'ok':''}" id="c-p-${i}" data-a="s" data-i="${i}" tabindex="0"><small>${i+1}</small><span aria-hidden="true">◇</span></div>`}).join('')}</div></section>`;
  h+=`<section class="player-vitals side-hud" aria-label="我方生命与牌库">${healthHTML('p')}<div class="opponent-stock player-stock side-stock">${pileHTML('p')}<div class="reserve-summary"><div class="ash-source" id="ash-source" role="img" aria-label="余芯来源">灰</div><span class="own-hand-count" aria-label="我方手牌${G.hand.length}张"><small>手牌</small><b>${G.hand.length}</b></span></div></div></section><section class="interaction-bar">`;
@@ -1302,7 +1303,7 @@ function render(){
  if(OV==='title')h=homepageHTML();
  if(OV==='win')h+=campaignRewardHTML();
  if(OV==='replay-result'&&typeof replayResultHTML==='function')h+=replayResultHTML();
- if(OV==='camp')h+=`<div class="ov modal-screen camp-screen"><span class="modal-kicker">REVIEW THE FILE</span><h2>灯台旁 · 整理卡组</h2><p>已领取「${esc(G.newReward?.n||'奖励卡')}」<br>出战 ${G.deck.length}/36 张 · 备用 ${(G.reserve||[]).length} 张 · 推荐24张</p><p>已达到36张出战上限。可以保留当前卡组，或将卡移入备用，再把需要的卡重新编入。</p><button class="deck-access" data-a="deckmanager">${deckIconHTML()}管理本轮卡组</button><button class="pri" data-a="camp-continue">${G.lv>=STG.length?'完成本轮挑战':'继续下一关'}</button></div>`;
+ if(OV==='camp')h+=`<div class="ov modal-screen camp-screen"><span class="modal-kicker">REVIEW THE FILE</span><h2>灯台旁 · 整理卡组</h2><p>已领取「${esc(G.newReward?.n||'奖励卡')}」<br>出战 ${G.deck.length}/36 张 · 备用 ${(G.reserve||[]).length} 张 · 推荐24张</p><p>已达到36张出战上限。可以保留当前卡组，或将卡移入备用，再把需要的卡重新编入。</p><button class="deck-access" data-a="deckmanager">${deckIconHTML()}管理本轮卡组</button><button class="pri" data-a="camp-continue">${G.lv>=STG.length?'完成本轮挑战':'继续下一关'}</button><button data-a="home">返回主页</button></div>`;
  if(OV==='dead')h+=`<div class="ov modal-screen identity-death-screen"><h2>你死了</h2><p>死于「${esc(G.dc.by)}」<br>通过 ${G.wins}/${STG.length} 关 · 击杀 ${G.kills} 个敌人</p>${playerDeathEchoHTML()}${G.identityChoice?'':cardHTML(G.dc,'','id="death-identity-card"')}${identityDeathHTML()}<button class="pri" data-a="title" ${G.identityChoice?'disabled':''}>回到灯台</button></div>`;
  if(OV==='clear')h+=storyClearHTML();
  if(infoPanel)h+=drawerHTML();if(DM)h+=deckManagerHTML();h+=cardHoldHTML();
@@ -1343,6 +1344,7 @@ document.addEventListener('contextmenu',event=>{
 });
 function nextStage(){if(G.lv>=STG.length){OV='clear';render();return}G.lv++;battle()}
 document.addEventListener('click',async event=>{
+ if(event.target.closest('[data-a="home"]')){returnToHomepage();return}
  if(tutorialOverviewClick(event))return;
  const t=event.target.closest('[data-a]');if(!t)return;const action=t.dataset.a,i=Number(t.dataset.i);
  if(cardHoldClick(action))return;
@@ -1359,7 +1361,7 @@ document.addEventListener('click',async event=>{
  if(OV==='catalog'){
  if(action==='prev')catalogPage=Math.max(0,catalogPage-1);if(action==='next')catalogPage++;render();return;
  }
- if(action==='title'){if(G?.identityChoice)return;if(typeof checkpointSave==='function')checkpointSave();G=null;difficulty=activeDifficulty();OV='title';render();return}
+ if(action==='title'){returnToHomepage();return}
  if(action==='nextdifficulty'&&OV==='clear'){const current=DIFFICULTY_ORDER.indexOf(difficulty);if(current<DIFFICULTY_ORDER.length-1&&journey.cleared<=current)return;if(current===DIFFICULTY_ORDER.length-1&&!beginNextStoryLoop())return;newRun();return}
  if(action==='mute'){mute=!mute;render();return}
  if(action==='mus'){musicMute(!mmute);render();return}
@@ -2127,7 +2129,7 @@ const TUTORIAL_STORAGE='lo_tutorial_v1';
 let TUT=null;
 let tutorialMainSession=null;
 const INTERFACE_TOUR=[
- {target:'.table-tools',title:'控制按钮',text:'这里可以开关<strong>音效与音乐</strong>，查看自己的卡组，或打开玩法手册。'},
+ {target:'.table-tools',title:'控制按钮',text:'这里可以开关<strong>音效与音乐</strong>，查看卡组和玩法手册。点<strong>返回主页</strong>保存当前对局，随后在首页点<strong>继续游戏</strong>回来；结算中请稍候。'},
  {target:'#enemy-health',title:'敌人的生命值',text:'敌人共有<strong>7点生命</strong>。游辉、霜瓣、潮露或七芒星辉随关卡变化，每个亮起的图标代表1点。'},
  {target:'#deck-e',title:'敌方牌堆',text:'敌人的卡组也有限。这里显示<strong>剩余牌数</strong>，牌堆会随着抽牌逐渐变薄。'},
  {target:'.enemy-hand',title:'敌方手牌',text:'牌背是对手还没有打出的手牌。可以看见<strong>数量</strong>，但看不见牌面。'},
@@ -2428,7 +2430,7 @@ function claimReward(i){
 function confirmCampaignReward(){return false}
 function campaignRewardHTML(){
  if(!G)return '';const final=isCampaignFinalReward(),rare=G.rw.some(c=>c.rarity==='rare');
- return `<div class="ov modal-screen reward-screen ${final?'final-abyss-reward':''}"><span class="modal-kicker">${final?'SEALED EVIDENCE':'INTERVIEW CLOSED'}</span><h2 class="${rare?'rare-reward-title':''}">${final?(G.rewardGoldExhausted?'轮回礼赞 · 鎏金已集齐':'轮回礼赞 · 鎏金'+G.rw.length+'选一'):rare?'鎏金降临 · 稀有奖励':'灯火仍在燃烧'}</h2>${bossFarewellHTML()}<section class="story-reward-note"><strong>${esc(storyCopy('companions','rewardTitle'))}</strong><p>${esc(storyCopy('companions','rewardText'))}</p></section>${identityCampaignHTML()}<p>${esc(G.st.n)} · 第${G.turn}回合获胜<br>生命 ${G.hp}/7 · 关间回复 ${RULES[difficulty].heal} 点</p><p class="rare-reward-note">${final?(G.rewardGoldExhausted?'本作鎏金已全部获得，本次可选择普通卡补充卡组。':'本轮回已完成！从本作Boss剩余'+G.rw.length+'张未拥有鎏金中，选择一张加入卡组。'):rare?'<strong>当前Boss的鎏金奖励已出现</strong> · 三张中任选一张':'本次通关有5%概率出现当前Boss鎏金 · 任选一张'}</p>${G.rewardFeedback?`<p class="deck-manager-feedback" role="status">${esc(G.rewardFeedback)}</p>`:''}<div class="row reward-row">${G.rw.map((c,i)=>cardHTML(c,'',`data-a="rw" data-i="${i}" tabindex="0" role="button" aria-label="${esc(c.n)}，选择这张奖励"`)).join('')}</div><p>点击一张卡牌领取。奖励加入出战；普通同名已达2张或出战满36张时进入备用。鎏金每种仅1张，已拥有的不会重复抽到。卡组与备用会沿用至下一轮回。</p></div>`;
+ return `<div class="ov modal-screen reward-screen ${final?'final-abyss-reward':''}"><span class="modal-kicker">${final?'SEALED EVIDENCE':'INTERVIEW CLOSED'}</span><h2 class="${rare?'rare-reward-title':''}">${final?(G.rewardGoldExhausted?'轮回礼赞 · 鎏金已集齐':'轮回礼赞 · 鎏金'+G.rw.length+'选一'):rare?'鎏金降临 · 稀有奖励':'灯火仍在燃烧'}</h2>${bossFarewellHTML()}<section class="story-reward-note"><strong>${esc(storyCopy('companions','rewardTitle'))}</strong><p>${esc(storyCopy('companions','rewardText'))}</p></section>${identityCampaignHTML()}<p>${esc(G.st.n)} · 第${G.turn}回合获胜<br>生命 ${G.hp}/7 · 关间回复 ${RULES[difficulty].heal} 点</p><p class="rare-reward-note">${final?(G.rewardGoldExhausted?'本作鎏金已全部获得，本次可选择普通卡补充卡组。':'本轮回已完成！从本作Boss剩余'+G.rw.length+'张未拥有鎏金中，选择一张加入卡组。'):rare?'<strong>当前Boss的鎏金奖励已出现</strong> · 三张中任选一张':'本次通关有5%概率出现当前Boss鎏金 · 任选一张'}</p>${G.rewardFeedback?`<p class="deck-manager-feedback" role="status">${esc(G.rewardFeedback)}</p>`:''}<div class="row reward-row">${G.rw.map((c,i)=>cardHTML(c,'',`data-a="rw" data-i="${i}" tabindex="0" role="button" aria-label="${esc(c.n)}，选择这张奖励"`)).join('')}</div><p>点击一张卡牌领取。奖励加入出战；普通同名已达2张或出战满36张时进入备用。鎏金每种仅1张，已拥有的不会重复抽到。卡组与备用会沿用至下一轮回。</p><button data-a="home">返回主页</button></div>`;
 }
 
 document.addEventListener('change',event=>{if(!DM)return;if(event.target.id==='dm-rarity'&&['all','rare','common'].includes(event.target.value)){DM.rarity=event.target.value;DM.page=0;DM.detail=null;render();return}if(event.target.id!=='dm-sort')return;if(!Object.hasOwn(DECK_SORTS,event.target.value))return;DM.sort=event.target.value;DM.page=0;DM.detail=null;render()});
@@ -2829,7 +2831,7 @@ function finishBossReplay(won){
 function replayResultHTML(){
  if(!isBossReplay()||!REPLAY_SESSION?.result)return '';
  const result=REPLAY_SESSION.result,echo=result.won&&typeof bossFarewellHTML==='function'?bossFarewellHTML():!result.won&&typeof playerDeathEchoHTML==='function'?playerDeathEchoHTML():'';
- return `<div class="ov modal-screen replay-result"><span class="modal-kicker">A GUARDIAN REMEMBERED</span><h2>${result.won?'重战胜利':'重战结束'}</h2><p>${esc(replayWorldLabel(REPLAY_SESSION.game))} · 第${REPLAY_SESSION.level}关<br>${esc(REPLAY_SESSION.boss)} · ${result.turns}回合</p>${echo}<p>这是一次重战，不发奖励、不改变主线进度，也不新增死亡身份。</p><button type="button" class="pri" data-replay="return">返回之前的主线</button></div>`;
+ return `<div class="ov modal-screen replay-result"><span class="modal-kicker">A GUARDIAN REMEMBERED</span><h2>${result.won?'重战胜利':'重战结束'}</h2><p>${esc(replayWorldLabel(REPLAY_SESSION.game))} · 第${REPLAY_SESSION.level}关<br>${esc(REPLAY_SESSION.boss)} · ${result.turns}回合</p>${echo}<p>这是一次重战，不发奖励、不改变主线进度，也不新增死亡身份。</p><button type="button" class="pri" data-replay="return">返回之前的主线</button><button data-a="home">返回主页</button></div>`;
 }
 function returnBossReplay(){
  const session=REPLAY_SESSION;if(!session||!isBossReplay()||G.busy||drawRunning)return false;
@@ -2859,6 +2861,7 @@ document.addEventListener('keydown',event=>{
 // Save only completed player decisions, never an animation or a half-resolved combat.
 // A small graph codec preserves cards shared by equipment, temporary effects and zones.
 const CHECKPOINT_STORAGE='lo_run_checkpoint_v1',CHECKPOINT_VERSION=1,CHECKPOINT_MAX_BYTES=2500000;
+const HOME_STORAGE='lo_home_requested_v1';
 const CHECKPOINT_IGNORED_FIELDS=new Set(['sel','moveSel','sac']);
 let checkpointLastBody='',checkpointLastError='',checkpointEntry=null,checkpointRestoring=false,checkpointDrawWait=null;
 function checkpointGraphEncode(root){
@@ -2994,7 +2997,7 @@ function checkpointRestore(){
   difficulty=saved.difficulty;STG.splice(0,STG.length,...CAMPAIGNS[difficulty].map(stage=>({...stage,dk:[]})));
   const deck=game.st.dk;game.st=STG[game.lv-1];game.st.dk=deck;game.busy=0;game.sel=null;game.moveSel=null;game.sac=new Set();G=game;OV=saved.overlay;
   if(typeof TUT!=='undefined')TUT=null;if(typeof DM!=='undefined')DM=null;if(typeof HOLD_DETAIL!=='undefined')HOLD_DETAIL=null;if(typeof infoPanel!=='undefined')infoPanel=null;if(typeof detailCardOverride!=='undefined')detailCardOverride=null;
-  if(typeof pname!=='undefined'&&typeof saved.name==='string')pname=saved.name.slice(0,5);
+  if(typeof pname!=='undefined'&&typeof saved.name==='string')pname=saved.name.slice(0,20);
   checkpointEntry={game:G,lv:G.lv,difficulty,hp:saved.entry?.hp||7,kills:saved.entry?.kills||0};checkpointLastBody='';checkpointLastError='';checkpointRestoring=false;
   if(saved.mode==='next'){G.busy=1;OV=null;nextStage()}
   else if(saved.mode==='restart'){G.hp=G.lv===1?7:Math.max(1,Math.min(7,saved.entry?.hp||7))-(RULES[difficulty]?.heal||0);G.kills=Math.max(0,saved.entry?.kills||0);G.busy=1;OV=null;battle()}
@@ -3003,13 +3006,41 @@ function checkpointRestore(){
  }catch{checkpointRestoring=false;checkpointClear();return false}
 }
 function checkpointClear(){try{localStorage.removeItem(CHECKPOINT_STORAGE)}catch{}checkpointLastBody='';checkpointEntry=null;return true}
+function homepageRequested(){try{return localStorage.getItem(HOME_STORAGE)==='1'}catch{return false}}
+function setHomepageRequested(home){try{if(home)localStorage.setItem(HOME_STORAGE,'1');else localStorage.removeItem(HOME_STORAGE)}catch{}}
+function showProgressNotice(message){
+ let notice=document.getElementById('progress-notice');
+ if(!notice){notice=document.createElement('aside');notice.id='progress-notice';notice.setAttribute('role','alert');document.body.appendChild(notice)}
+ notice.textContent=message;clearTimeout(notice.dismissTimer);notice.dismissTimer=setTimeout(()=>notice.remove(),6000);
+}
+function returnToHomepage(){
+ if(G?.busy||drawRunning||G?.identityChoice||DM||HOLD_DETAIL)return false;
+ if(isBossReplay()&&!returnBossReplay())return false;
+ if(G?.tutorial){
+  const main=tutorialMainSession;tutorialMainSession=null;TUT=null;
+  if(main){G=main.game;OV=main.overlay;difficulty=main.difficulty;STG.splice(0,STG.length,...main.stages)}else G=null;
+ }
+ const panel=infoPanel,detail=detailCardOverride;infoPanel=null;detailCardOverride=null;
+ if(G&&!checkpointSave()){
+  infoPanel=panel;detailCardOverride=detail;
+  render();
+  showProgressNotice(gameLanguage==='en'?'Your progress could not be saved. Please try again.':'进度暂时无法保存，请稍后重试。');return false;
+ }
+ closeBossAbilityPopover(false);closePlayerBossSkillPopover(false);closeReplayMenu(false);
+ G=null;TUT=null;difficulty=activeDifficulty();OV='title';setHomepageRequested(true);render();return true;
+}
+function continueSavedGame(){
+ if(OV!=='title'||G?.busy||drawRunning)return false;
+ if(checkpointRestore()){setHomepageRequested(false);render();return true}
+ render();showProgressNotice(gameLanguage==='en'?'Your progress could not be restored. Please try again.':'未能读取进度，请重试。');return false;
+}
 function checkpointHomepageHTML(){
  const saved=checkpointRead();if(!checkpointHeaderValid(saved)||!checkpointCanContinue())return '';
  const stage=CAMPAIGNS[saved.difficulty][saved.lv-1],label=saved.mode==='next'?'已保存通关奖励，继续下一关':saved.mode==='restart'?'已更新卡组，重新挑战未完成的Boss':saved.overlay==='win'?'继续领取已保存的奖励':`继续第${saved.lv}关 · ${stage.boss}`;
- return `<p class="home-save-note">上次进度已保存</p><button data-checkpoint="continue">${esc(label)}</button>`;
+ return `<p class="home-save-note checkpoint-summary" data-checkpoint-status>上次进度已保存<br>${esc(label)}</p>`;
 }
 if(typeof document!=='undefined'){
- document.addEventListener('click',event=>{if(!event.target.closest('[data-checkpoint="continue"]'))return;event.preventDefault();if(checkpointRestore()&&typeof render==='function')render()});
+ document.addEventListener('click',event=>{if(!event.target.closest('[data-checkpoint="continue"]'))return;event.preventDefault();continueSavedGame()});
  document.addEventListener('visibilitychange',()=>{if(document.hidden)checkpointSave()});
 }
 if(typeof window!=='undefined')window.addEventListener('pagehide',()=>checkpointSave());
@@ -3173,6 +3204,6 @@ document.documentElement.lang=gameLanguage;document.title=gameLanguage==='en'?'L
 
 __SOUND_SOURCE__
 initializeCollection();initializeIdentity();
-checkpointRestore();
+if(!homepageRequested())checkpointRestore();
 render();
 window.BOOT={ready:true,progress:100,disabled:true};
