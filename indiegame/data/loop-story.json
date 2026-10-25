@@ -1,147 +1,237 @@
 {
   "version": 1,
   "title": {
-    "zh": "回去的路",
-    "en": "The Way Home"
+    "zh": "未结案",
+    "en": "An Open Case"
   },
   "opening": {
     "zh": {
-      "title": "门外不是你的家",
-      "text": "你记得自己只是推开了一扇门。再抬头时，街道不见了，眼前只有浓雾、一盏灯，和一个等你出牌的陌生人。\n“想回去？先赢我。”他把牌推到你面前，仿佛这句话已经说过很多次。",
-      "button": "坐到牌桌前"
+      "title": "失踪者是你",
+      "text": "你在一间值班室里醒来。外套滴着水，鞋底却是干的。桌上的失踪案卷标着明天的日期，照片里的人是你。\n守夜人把一副牌摆好。他已经填完了你的姓名，只等你确认。",
+      "button": "核对案卷"
     },
     "en": {
-      "title": "This Is Not Your Doorstep",
-      "text": "You remember opening a door. When you looked up, your street was gone. There was only fog, a lantern, and a stranger waiting for you to play.\n“Want to go home? Beat me first.” He slides the cards across as though he has said this many times before.",
-      "button": "Take a Seat"
+      "title": "You Are the Missing Person",
+      "text": "You wake in a duty room. Your coat is dripping. The soles of your shoes are dry. A missing-person file on the desk is dated tomorrow. It contains your photograph.\nThe Night Watch has laid out a deck of cards. Your name is already on the form. He is waiting for you to confirm it.",
+      "button": "Examine the File"
     }
   },
   "home": {
     "zh": {
-      "eyebrow": "一扇陌生的门，一条回家的路",
-      "subtitle": "赢过陌生人，带朋友回家",
-      "caption": "你不记得来路。有人却记得你。",
-      "text": "你误入一个陌生的世界，只能靠手中的牌寻找出口。六个世界里，守路人向你发起对局；被你选中的对手，会成为陪你前行的伙伴。可越接近最后一扇门，沿途的一切就越像曾经见过。",
-      "start": "寻找出口",
-      "return": "再走一次",
-      "loop": "第{loop}次上路 · 伙伴仍在身边"
+      "eyebrow": "案卷编号：03:17",
+      "subtitle": "记录仍在继续",
+      "caption": "这份案卷里，只有你的失踪尚未发生。",
+      "text": "你在陌生小镇醒来，案卷上的失踪者却是自己。六处现场，九十六份口供。有人守着出口，有人记得你没有经历过的事。把愿意同行的人带上；接近最后一扇门时，录音里的你，已经问过相同的问题。",
+      "start": "打开案卷",
+      "return": "重新调查",
+      "loop": "第{loop}次调查 · 证词仍在"
     },
     "en": {
-      "eyebrow": "A STRANGE DOOR. A WAY HOME.",
-      "subtitle": "Face strangers. Find companions.",
-      "caption": "You forgot the way here. Someone remembers you.",
-      "text": "Lost in an unfamiliar world, you play your cards to find a way home. Across six realms, the keepers of the road challenge you. The foes you choose become your companions. Yet the closer you get to the final door, the more familiar everything feels.",
-      "start": "Find the Way Home",
-      "return": "Walk the Road Again",
-      "loop": "Journey {loop} · Your companions are still with you"
+      "eyebrow": "CASE NUMBER: 03:17",
+      "subtitle": "The record is still running.",
+      "caption": "Your disappearance is the only event still to happen.",
+      "text": "You wake in an unfamiliar town. The missing person in the file is you. Six sites. Ninety-six statements. Someone is guarding the exit. Others remember things you have not done. Take the witnesses willing to come with you. Near the last door, a recording of your voice is already asking the same questions.",
+      "start": "Open the File",
+      "return": "Reopen the Case",
+      "loop": "Investigation {loop} · The statements remain"
     }
   },
   "chapters": {
     "mire": {
-      "name": {"zh": "雾林", "en": "Mistwood"},
+      "name": {
+        "zh": "雾镇",
+        "en": "Fogtown"
+      },
       "intro": {
-        "zh": {"title": "雾里的第一盏灯", "text": "你在湿冷的林间醒来，口袋里多了一副不认识的牌。守路人说，穿过六道门就能回家。你问他为什么拦路，他只答：“先看看你打算怎么走。”"},
-        "en": {"title": "The First Lantern", "text": "You wake in a cold, damp wood with an unfamiliar deck in your pocket. A keeper says six doors stand between you and home. When you ask why he blocks the road, he replies, “First, show me how you mean to travel.”"}
+        "zh": {
+          "title": "停电发生在03:17",
+          "text": "镇上的人都把停电时间说成03:17，却没有两个人记得同一天。街口的告示贴着你的照片，纸已经被雨泡旧。守夜人说，想离开，就先把十六份证词核完。"
+        },
+        "en": {
+          "title": "The Power Failed at 03:17",
+          "text": "Everyone gives 03:17 as the time of the outage. No two people agree on the day. Your photograph is posted at the corner, on paper already spoiled by rain. The Night Watch says you can leave when sixteen statements have been checked."
+        }
       },
       "clear": {
-        "zh": {"title": "对手坐到了你身旁", "text": "林尽头的门终于打开。败下阵来的守路人没有走开，他指着你选中的牌：“带上它吧。下一段路，我认得。”你第一次觉得，这里并非只有敌人。"},
-        "en": {"title": "A Seat Beside You", "text": "The door beyond the wood finally opens. The defeated keeper stays. He points to the card you chose. “Bring it. I know the next stretch.” For the first time, this place feels less full of enemies."}
+        "zh": {
+          "title": "寄件人一栏",
+          "text": "最后一份证词夹着一个空信封，寄件人是你，邮戳的日期还没到。你选中的同行者收好信封，说钟楼的人能读懂邮戳。门开着，他却等你先走。"
+        },
+        "en": {
+          "title": "The Sender Field",
+          "text": "An empty envelope is clipped to the last statement. You sent it. The postmark is dated in the future. The companion you chose pockets it and says someone at the bell tower can read the mark. The door is open. They wait for you to go first."
+        }
       }
     },
     "brass": {
-      "name": {"zh": "钟城", "en": "Bell City"},
+      "name": {
+        "zh": "钟楼",
+        "en": "Bell Tower"
+      },
       "intro": {
-        "zh": {"title": "慢了一拍的钟声", "text": "城里的钟都指向不同的时刻。这里的守路人拿旧事作赌注，说赢了就给你一条去灰原的路。同行者却拉住你：不要拿自己的名字下注。"},
-        "en": {"title": "A Bell One Beat Late", "text": "Every clock in the city shows a different hour. Its keepers wager old memories and promise a road to the Ashlands if you win. A companion catches your sleeve: never wager your own name."}
+        "zh": {
+          "title": "录音比你早一句",
+          "text": "钟楼没有钟，值班表却按钟声换班。每过一层，都有人要求重录你的证词。磁带里，你总比自己早说一句；有一处停顿里，多了一次呼吸。"
+        },
+        "en": {
+          "title": "The Tape Is One Sentence Ahead",
+          "text": "There is no bell in the tower. The duty roster still changes at the chime. On every floor, someone wants your statement recorded again. On the tape, your voice speaks one sentence before you do. An extra breath occupies one of the pauses."
+        }
       },
       "clear": {
-        "zh": {"title": "他记得你的名字", "text": "最后一口钟响起时，有人喊出了你的名字。你明明没有告诉过他。新伙伴说自己只是猜的，却把一张写满旧笔记的纸藏进了衣袋。"},
-        "en": {"title": "He Knows Your Name", "text": "As the last bell rings, someone calls your name. You never told him. Your new companion says it was a guess, then slips a page covered in old notes into his pocket."}
+        "zh": {
+          "title": "没有上楼的人",
+          "text": "你关掉录音机，带轮还在转。录音里的同行者说，楼上的人已经下来了。楼梯间没有脚步，门缝下却多了一张灰厂的交接单，签收人仍是你。"
+        },
+        "en": {
+          "title": "Nobody Went Upstairs",
+          "text": "You switch off the recorder. The reels keep turning. On the tape, your companion says the person upstairs has come down. The stairwell is silent. An Ash Works transfer slip lies under the door, with your signature in the receipt field."
+        }
       }
     },
     "cinder": {
-      "name": {"zh": "灰原", "en": "Ashlands"},
+      "name": {
+        "zh": "灰厂",
+        "en": "Ash Works"
+      },
       "intro": {
-        "zh": {"title": "没有锁的钥匙", "text": "灰原上到处都是造钥匙的炉子，却没人找得到相配的锁。守路人把出口画在地上，赢一局才肯补上一段。你照着图走，渐渐发现有些转弯不必看图也认得。"},
-        "en": {"title": "Keys Without Locks", "text": "The Ashlands are full of furnaces making keys, though nobody can find the locks. Keepers draw you a map, adding a stretch for every match you win. Soon you find yourself taking turns before you check the page."}
+        "zh": {
+          "title": "停产后的夜班",
+          "text": "灰厂停产二十七年，夜班名单仍每天换新。防火女穿着沾灰的雨衣，守着冷炉，挨个收走工人手里的火柴。她脚边的封盒里，有一场尚未点燃的火。你在墙上找到自己的考勤记录，只有离岗次数。"
+        },
+        "en": {
+          "title": "The Shift After Closure",
+          "text": "The works closed twenty-seven years ago. A new night-shift list appears every day. In an ash-stained raincoat, the Fire Warden collects matches beside a cold furnace. A sealed box at her feet contains a fire that has not started. Your attendance record lists only departures."
+        }
       },
       "clear": {
-        "zh": {"title": "旧地图上的新墨", "text": "地图完成了，墨迹下面却压着一条更旧的路线。它与你走过的路一模一样。你想问清楚，伙伴已经替你收好牌：“先到港口，那里也许有人知道。”"},
-        "en": {"title": "Fresh Ink, Old Map", "text": "The map is complete. Beneath the fresh ink lies an older route, exactly the one you have taken. Before you can ask, a companion gathers your cards. “The harbor first. Someone there may know.”"}
+        "zh": {
+          "title": "多出来的影子",
+          "text": "停机后的复印机吐出一张码头照片。照片里的人都背对镜头，只有一个影子朝向你。同行者认出了自己的外套，却不肯承认照片里的那条路通往沉港。"
+        },
+        "en": {
+          "title": "The Extra Shadow",
+          "text": "The disconnected copier produces a photograph of a quay. Everyone in it faces away from the camera. One shadow faces you. Your companion recognizes their coat but denies that the road in the photograph leads to Sunken Harbor."
+        }
       }
     },
     "tide": {
-      "name": {"zh": "暮港", "en": "Dusk Harbor"},
+      "name": {
+        "zh": "沉港",
+        "en": "Sunken Harbor"
+      },
       "intro": {
-        "zh": {"title": "船票只写去处", "text": "港口的船票都没有返程日期。摆渡人说，穿过雪岭就能看见最后的门，但每位乘客必须先打完自己的牌局。一个旧对手替你占好了船边的位置，像是等了你很久。"},
-        "en": {"title": "A Ticket With No Return", "text": "None of the harbor tickets has a return date. The ferryman says the last door lies beyond the Snowridge, but every passenger must finish a match before boarding. A former foe has saved you a place by the rail, as though he has waited a long time."}
+        "zh": {
+          "title": "没有海的港口",
+          "text": "地图上，沉港离海还有很远。黑水里却映着一组陌生的星位。灯塔守护者把光打进水底；水下的回光，总比灯塔先亮一步。摆渡人只问，上次靠岸时，你身边有几个人。"
+        },
+        "en": {
+          "title": "A Harbor Far From the Sea",
+          "text": "The map places Sunken Harbor far inland. Unfamiliar stars are reflected in its black water. The Lighthouse Warden directs the beam beneath the quay. The answering light always appears first. The ferryman asks how many people were with you the last time you came ashore."
+        }
       },
       "clear": {
-        "zh": {"title": "他们也想离开", "text": "离岸后，伙伴们终于说起各自想回去的地方。原来他们拦路，不全是为了把你留下。有些人只是想找一个能赢过自己、也愿意一起走的人。"},
-        "en": {"title": "They Want Out, Too", "text": "Away from shore, your companions finally speak of the places they miss. Not all of them guarded the road to keep you here. Some were waiting for someone who could beat them and still offer a place beside them."}
+        "zh": {
+          "title": "同一张脸，三个名字",
+          "text": "港务簿记着一艘从未建造的船，失踪乘客的照片与你相同。同行者各自认出了那张脸，说出的名字却不一样。你没有纠正他们；雪站的电报已经第三次催你到场。"
+        },
+        "en": {
+          "title": "One Face, Three Names",
+          "text": "The harbor ledger lists a ship that was never built. Its missing passenger has your face. Your companions recognize the photograph. They give different names. You correct none of them. Snow Station has sent its third telegram asking you to attend."
+        }
       }
     },
     "frost": {
-      "name": {"zh": "雪岭", "en": "Snowridge"},
+      "name": {
+        "zh": "雪站",
+        "en": "Snow Station"
+      },
       "intro": {
-        "zh": {"title": "雪里的第二行脚印", "text": "雪岭上有一行与你鞋底相同的脚印，走在你前面。守路人不再问你是谁，只问这次带了多少朋友。山顶的星门已经可见，你却开始害怕那种熟悉感。"},
-        "en": {"title": "Your Footprints Ahead", "text": "A trail of prints crosses the Snowridge ahead of you. They match your boots. The keepers no longer ask your name, only how many friends you brought this time. The Star Gate is visible above, but its familiarity frightens you."}
+        "zh": {
+          "title": "接收位置上的求救声",
+          "text": "雪把铁轨埋了，站内仍在广播一班没有终点的列车。值班员反复播放你的求救录音，电台却始终停在接收位置。你听见了白室的地址，那一段还没有被录到磁带上。"
+        },
+        "en": {
+          "title": "A Call on the Receive Channel",
+          "text": "Snow covers the tracks. The station keeps announcing a train with no destination. The attendant plays your distress call. The radio is set to receive. You hear an address for the White Room. That section has not reached the tape yet."
+        }
       },
       "clear": {
-        "zh": {"title": "“上一次，你也是这么说的。”", "text": "你说，过了最后一扇门，大家就都能回家。新伙伴看了你很久，轻声回答：“上一次，你也是这么说的。”没有人肯解释上一次是什么时候。"},
-        "en": {"title": "“You Said That Last Time.”", "text": "You promise that beyond the final door, everyone can go home. Your new companion watches you for a while. “You said that last time, too.” Nobody will explain when last time was."}
+        "zh": {
+          "title": "下一页的口供",
+          "text": "你终于找到求救者的签名，笔迹与你相同。下一页写着你刚刚打完的牌局，落款时间是03:17。同行者按住纸角，问你能不能先别翻到最后一页。"
+        },
+        "en": {
+          "title": "The Statement on the Next Page",
+          "text": "You find the caller’s signature. It is in your handwriting. The next page describes the match you have just finished. The time is 03:17. A companion holds down the corner and asks you not to turn to the last page yet."
+        }
       }
     },
     "astral": {
-      "name": {"zh": "星门", "en": "Star Gate"},
+      "name": {
+        "zh": "白室",
+        "en": "White Room"
+      },
       "intro": {
-        "zh": {"title": "出口就在眼前", "text": "最后的牌桌摆在一扇普通木门前，门把手与你家的一模一样。守门人说，这里没有谁能替你推门。你把伙伴的牌摊在桌上，决定这次一定走出去。"},
-        "en": {"title": "The Door Before You", "text": "The final table stands before an ordinary wooden door. Its handle is exactly like the one at home. The keeper says nobody can open it for you. You spread your companions across the table, certain you will get out this time."}
+        "zh": {
+          "title": "记录人也是你",
+          "text": "白室里没有窗，墙上的潮痕却随海面升降。桌上只有你的案卷：失踪者、目击者、记录人，三栏填着同一个名字。门后有人请你核对最后一份证词；那是你尚未说出口的话。"
+        },
+        "en": {
+          "title": "You Took the Statement",
+          "text": "There are no windows in the White Room. Damp marks on the walls rise and fall with a distant sea. Your file is on the table. Missing person, witness, recording officer: the same name in all three fields. Someone behind the door asks you to verify a statement you have not given yet."
+        }
       },
       "clear": {
-        "zh": {"title": "门外还是那片雾", "text": "你赢了最后一局，推开木门。门外没有你的街道，只有雾林和最初那盏灯。\n守路人抬起头：“想回去？先赢我。”\n你终于想起，自己已经听过这句话。可这一次，身后的朋友没有消失，手里的牌也还在。路又回到了起点，你却不再独自上路。"},
-        "en": {"title": "Fog on the Other Side", "text": "You win the last match and open the door. Your street is not there. Only Mistwood, and that first lantern.\nThe keeper looks up. “Want to go home? Beat me first.”\nNow you remember hearing it before. But this time your friends are still behind you, and the cards are still in your hand. The road has returned to its beginning. You will not walk it alone."}
+        "zh": {
+          "title": "案卷重新打开",
+          "text": "最后一局结束，白墙上出现一道门。你推开它，回到雾镇的值班室。\n钟指着03:17。桌上那份失踪案卷，日期仍是明天。\n守夜人问你姓名。这一次，身后有人替你回答。同行者保留了各自的证词，没有两份对得上。你的旧签名下面，另一种笔迹正在起头。"
+        },
+        "en": {
+          "title": "The File Reopens",
+          "text": "The last match ends. A door appears in the white wall. You open it and step into the Fogtown duty room.\nThe clock reads 03:17. Tomorrow’s missing-person file is waiting on the desk.\nThe Night Watch asks your name. This time someone behind you answers. Your companions have kept their statements. None agrees with the others. Beneath your old signature, a second hand has begun to write."
+        }
       }
     }
   },
   "companions": {
     "zh": {
-      "rewardTitle": "留一个位置给同行的人",
-      "rewardText": "选中守关者的牌，就是接受对方同行。曾经挡路的人，也可能陪你找到出口。",
-      "recruit": "{boss}收起对面的牌，坐到了你身旁。“下一段路，我陪你。”",
-      "recruitGold": "{boss}把最信任的那张牌交给你。它发着金光，像一句不会收回的承诺。",
-      "recruitAgain": "{boss}认出了你。“这回别走散了。”",
-      "cardNote": "曾经的对手，如今愿意与你一起寻找出口。",
-      "ordinaryReward": "沿路相识的身影化作新的牌。选一张，带上下一段旅程。",
-      "selectionHint": "选择Boss牌，可让这位旧对手成为同行伙伴；卡牌技能与组卡规则不变。"
+      "rewardTitle": "证词已归档",
+      "rewardText": "选择守关者的卡牌，接受对方作为同行证人。他们记得你没有经历过的事，也许知道出口在哪里。",
+      "recruit": "{boss}在证词上留下记号，站到你这一边。纸张背面多了一行：禁止单独行动。",
+      "recruitGold": "{boss}交出一份金边案卷。同一句证词下面，压着两种笔迹。",
+      "recruitAgain": "{boss}看了你很久。“这回先听我把录音放完。”",
+      "cardNote": "同行证人。曾在对面的座位上，提供过另一份证词。",
+      "ordinaryReward": "新的记录被放进案卷。选一张，带去下一处现场。",
+      "selectionHint": "选择Boss牌，可让这位对手成为同行证人；卡牌技能与组卡规则不变。"
     },
     "en": {
-      "rewardTitle": "Make Room for a Companion",
-      "rewardText": "Choose a keeper's card to accept their company. Someone who blocked your path may help you find the way out.",
-      "recruit": "{boss} gathers the cards from the other side and sits beside you. “I'll come for the next stretch.”",
-      "recruitGold": "{boss} gives you a trusted card. Its gold light feels like a promise that will be kept.",
-      "recruitAgain": "{boss} recognizes you. “Let's not lose each other this time.”",
-      "cardNote": "Once an opponent, now a companion searching for the way home.",
-      "ordinaryReward": "Faces met along the road become new cards. Choose one for the journey ahead.",
-      "selectionHint": "Choose a Boss card to welcome a former foe as a companion. Card abilities and deck rules stay the same."
+      "rewardTitle": "Statement Filed",
+      "rewardText": "Choose a keeper’s card to take them with you as a witness. They remember things you have not done. They may know where the exit is.",
+      "recruit": "{boss} marks the statement and comes to your side. A line has appeared on the back: no one proceeds alone.",
+      "recruitGold": "{boss} hands you a file with a gold border. Two different hands have signed beneath the same statement.",
+      "recruitAgain": "{boss} studies you. “This time, let the tape finish before you go.”",
+      "cardNote": "A witness traveling with you. Their earlier statement was taken from the opposite chair.",
+      "ordinaryReward": "Another record is placed in the file. Choose one for the next site.",
+      "selectionHint": "Choose a Boss card to take a former opponent with you as a witness. Card abilities and deck rules stay the same."
     }
   },
   "loop": {
     "zh": {
-      "button": "带着伙伴回到雾林",
-      "continue": "继续寻找出口",
-      "notice": "道路回到雾林，已获得的伙伴、卡牌、收藏和保存的卡组仍然保留。",
-      "returnTitle": "你记得这盏灯",
-      "returnText": "雾林还是原来的雾林。守路人刚要说话，你已经替他摆好了牌。你没有忘记上一段路，也没有丢下那些愿意同行的人。",
-      "countLabel": "第{loop}次上路"
+      "button": "带着证人返回雾镇",
+      "continue": "继续调查",
+      "notice": "案卷重新打开。已获得的同行者、卡牌、收藏、保存牌组与重战解锁仍然保留。",
+      "returnTitle": "值班室的第二份笔录",
+      "returnText": "雾镇的值班室没有变，桌上却多出几把椅子。你认得守夜人，也认得他准备问的问题。你把证词放在桌上，第一次没有照着录音回答。",
+      "countLabel": "第{loop}次调查"
     },
     "en": {
-      "button": "Return to Mistwood Together",
-      "continue": "Keep Looking for the Exit",
-      "notice": "The road returns to Mistwood. Your companions, cards, collection and saved deck stay with you.",
-      "returnTitle": "You Remember This Lantern",
-      "returnText": "The same mist hangs between the trees. Before the keeper can speak, you set out the cards. You remember the road you walked, and you have not left your companions behind.",
-      "countLabel": "Journey {loop}"
+      "button": "Return to Fogtown Together",
+      "continue": "Continue the Investigation",
+      "notice": "The file reopens. Your witnesses, cards, collection, saved deck and replay unlocks remain.",
+      "returnTitle": "A Second Statement",
+      "returnText": "The Fogtown duty room is unchanged. There are more chairs at the table. You know the Night Watch and the question he is about to ask. You put the statements down. For once, you do not give the answer on the tape.",
+      "countLabel": "Investigation {loop}"
     }
   }
 }

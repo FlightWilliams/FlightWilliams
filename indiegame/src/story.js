@@ -1,22 +1,22 @@
-// Character dialogue belongs to the lamp-pact setting.
+// Testimony and echoes belong to this original case-file setting.
 const BOSS_DIALOGUE=__DATA_BOSS_DIALOGUE__;
-function bossFarewellText(st){return BOSS_DIALOGUE[st?.boss]?.farewell||'这一轮灯局归你，长夜却还没有签字。'}
+function bossFarewellText(st){const row=BOSS_DIALOGUE[st?.boss];return (gameLanguage==='en'?row?.farewellEn:row?.farewell)||(gameLanguage==='en'?'The recording ends before the witness finishes.':'证人还没有说完，录音已经结束。')}
 function recordBossFarewell(card=null,reason='victory'){
  if(!G||G.tutorial||!G.st||G.bossFarewell)return false;
  if(reason!=='victory'&&(reason!=='combat'||card?.n!==G.st.boss))return false;
  G.bossFarewell=bossFarewellText(G.st);logBattle(`${G.st.boss}：“${G.bossFarewell}”`);return true;
 }
 function bossFarewellHTML(){
- if(!G||G.tutorial||!G.st)return '';const text=G.bossFarewell||bossFarewellText(G.st);
- return `<blockquote class="boss-farewell" aria-label="Boss战败台词"><p>“${esc(text)}”</p><footer>${esc(G.st.boss)}<span> · 败者的余音</span></footer></blockquote>`;
+ if(!G||G.tutorial||!G.st)return '';const text=bossFarewellText(G.st);
+ return `<blockquote class="boss-farewell" aria-label="Boss战败台词"><p>“${esc(text)}”</p><footer>${esc(G.st.boss)}<span> · 问询记录</span></footer></blockquote>`;
 }
-function bossDeathEchoText(st){return BOSS_DIALOGUE[st?.boss]?.echo||'把这次失手记在灯契背面，下次别再把退路一起献掉。'}
+function bossDeathEchoText(st){const row=BOSS_DIALOGUE[st?.boss];return (gameLanguage==='en'?row?.echoEn:row?.echo)||(gameLanguage==='en'?'Your statement is already signed. The date is tomorrow.':'你的证词已经签好了。日期是明天。')}
 function recordPlayerDeathEcho(){
  if(!G||G.tutorial||!G.st||G.deathEcho)return false;
  const text=bossDeathEchoText(G.st);G.deathEcho={boss:G.st.boss,text};
- logBattle(`${G.st.boss}的死亡回响：“${text}”`);if(G.dc)G.dc.lore=`${pname}在${G.st.n}留下的灯契。${text}`;return true;
+ logBattle(`${G.st.boss}的死亡回响：“${text}”`);if(G.dc)G.dc.lore=`${pname}在${G.st.n}留下的案卷记录。${text}`;return true;
 }
 function playerDeathEchoHTML(){
- if(!G||G.tutorial)return '';const echo=G.deathEcho||{boss:G.st?.boss,text:bossDeathEchoText(G.st)};
- return `<blockquote class="player-death-echo" aria-label="败北回响"><p>“${esc(echo.text)}”</p><footer>${esc(echo.boss)}<span> · 留给行灯者的话</span></footer></blockquote>`;
+ if(!G||G.tutorial)return '';const echo=G.deathEcho||{boss:G.st?.boss};const testimony=bossDeathEchoText({boss:echo.boss});
+ return `<blockquote class="player-death-echo" aria-label="败北回响"><p>“${esc(testimony)}”</p><footer>${esc(echo.boss)}<span> · 档案附注</span></footer></blockquote>`;
 }

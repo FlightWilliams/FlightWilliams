@@ -23,7 +23,7 @@ const LEGACY_SAVE=JSON.parse(zlib.inflateSync(Buffer.from('eJztXVlT20ge/ypTqn30T
   await check('Every card has new bilingual narrative and every chapter foreshadows the loop',()=>{
    const cards=JSON.parse(fs.readFileSync(path.join(ROOT,'data/cards.json'),'utf8')),stories=JSON.parse(fs.readFileSync(path.join(ROOT,'data/card-stories.json'),'utf8')),story=JSON.parse(fs.readFileSync(path.join(ROOT,'data/loop-story.json'),'utf8'));
    assert.equal(Object.keys(stories).length,988);for(const card of cards){assert.ok(stories[card.n]?.zh);assert.ok(stories[card.n]?.en);assert.ok(!/[\u3400-\u9fff]/.test(stories[card.n].en))}
-   assert.equal(Object.keys(story.chapters).length,6);assert.match(story.chapters.astral.clear.zh.text,/雾林/);assert.match(story.chapters.astral.clear.en.text,/Mistwood/);
+   assert.equal(Object.keys(story.chapters).length,6);assert.ok(story.chapters.astral.clear.zh.text.includes(story.chapters.mire.name.zh));assert.ok(story.chapters.astral.clear.en.text.includes(story.chapters.mire.name.en));
   });
   let legacyState;
   await check('A genuine v1.0.1 save resumes with its board, hand, deck and health intact',async()=>{
@@ -89,7 +89,7 @@ const LEGACY_SAVE=JSON.parse(zlib.inflateSync(Buffer.from('eJztXVlT20ge/ypTqn30T
   await check('The English journal and loop ending contain fully translated story text',async()=>{
    await page.evaluate(()=>{window.storyTestGame=G;G=null;OV='title';infoPanel=null;setGameLanguage('en');render()});await page.locator('[data-story-journal]').first().click();
    const journal=await page.locator('.info-drawer').innerText();assert.ok(journal.length>80);assert.ok(!/[\u3400-\u9fff]/.test(journal),journal);await page.locator('.drawer-head [data-a="closepanel"]').click();
-   await page.evaluate(()=>{difficulty='astral';STG.splice(0,STG.length,...CAMPAIGNS.astral.map(st=>({...st,dk:[]})));journey.cleared=6;G=window.storyTestGame;Object.assign(G,{lv:16,wins:16,st:STG[15],busy:0,identityRecorded:false});OV='clear';render()});const ending=await page.locator('.journey-clear').innerText();assert.match(ending,/Mistwood/);assert.ok(!/[\u3400-\u9fff]/.test(ending),ending);
+   await page.evaluate(()=>{difficulty='astral';STG.splice(0,STG.length,...CAMPAIGNS.astral.map(st=>({...st,dk:[]})));journey.cleared=6;G=window.storyTestGame;Object.assign(G,{lv:16,wins:16,st:STG[15],busy:0,identityRecorded:false});OV='clear';render()});const ending=await page.locator('.journey-clear').innerText();assert.ok(ending.includes(await page.evaluate(()=>LOOP_STORY.chapters.mire.name.en)));assert.ok(!/[\u3400-\u9fff]/.test(ending),ending);
   });
   await check('Portrait and landscape phones keep story controls inside the viewport',async()=>{
    for(const[width,height]of[[320,568],[844,390]]){

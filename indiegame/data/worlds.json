@@ -1,82 +1,82 @@
 [
   {
     "id": "mire",
-    "name": "苔雾荒庭",
-    "en": "Mireglass Reach",
-    "prefix": "苔庭",
-    "prefixEn": "Mireglass",
-    "place": "雾灯渡口",
-    "placeEn": "mist-lit causeways",
-    "color": "#88a472"
+    "name": "雾镇",
+    "en": "Fogtown",
+    "prefix": "雾镇",
+    "prefixEn": "Fogtown",
+    "place": "北堤值班室",
+    "placeEn": "north-jetty duty room",
+    "color": "#798d85"
   },
   {
     "id": "brass",
-    "name": "铜钟堡垒",
-    "en": "Brassbell Citadel",
-    "prefix": "铜钟",
-    "prefixEn": "Brassbell",
-    "place": "悬钟阶城",
-    "placeEn": "hanging bell streets",
-    "color": "#b69b66"
+    "name": "钟楼",
+    "en": "Bell Tower",
+    "prefix": "钟楼",
+    "prefixEn": "Bell Tower",
+    "place": "停钟值守间",
+    "placeEn": "stopped-clock chamber",
+    "color": "#a29c82"
   },
   {
     "id": "cinder",
-    "name": "炽砂熔城",
-    "en": "Cinderglass Foundry",
-    "prefix": "炽砂",
-    "prefixEn": "Cinderglass",
-    "place": "赤砂工坊",
-    "placeEn": "red-sand workshops",
-    "color": "#c17b58"
+    "name": "灰厂",
+    "en": "Ash Works",
+    "prefix": "灰厂",
+    "prefixEn": "Ash Works",
+    "place": "封闭炉房",
+    "placeEn": "sealed furnace room",
+    "color": "#9b8876"
   },
   {
     "id": "tide",
-    "name": "暮潮港湾",
-    "en": "Dusk-Tide Harbor",
-    "prefix": "暮潮",
-    "prefixEn": "Dusktide",
-    "place": "夜汐码头",
-    "placeEn": "night-tide quays",
-    "color": "#a37c9e"
+    "name": "沉港",
+    "en": "Sunken Harbor",
+    "prefix": "沉港",
+    "prefixEn": "Sunken Harbor",
+    "place": "水下灯塔",
+    "placeEn": "submerged lighthouse",
+    "color": "#698b88"
   },
   {
     "id": "frost",
-    "name": "霜枝高地",
-    "en": "Frostbough March",
-    "prefix": "霜枝",
-    "prefixEn": "Frostbough",
-    "place": "覆霜栈桥",
-    "placeEn": "frost-laced bridges",
-    "color": "#8cbbbc"
+    "name": "雪站",
+    "en": "Snow Station",
+    "prefix": "雪站",
+    "prefixEn": "Snow Station",
+    "place": "废线候车室",
+    "placeEn": "abandoned platform",
+    "color": "#a3acaf"
   },
   {
     "id": "astral",
-    "name": "星铸天穹",
-    "en": "Starforged Expanse",
-    "prefix": "星铸",
-    "prefixEn": "Starforged",
-    "place": "浮光观测台",
-    "placeEn": "floating observatories",
-    "color": "#c2b36c"
+    "name": "白室",
+    "en": "White Room",
+    "prefix": "白室",
+    "prefixEn": "White Room",
+    "place": "无窗问询室",
+    "placeEn": "windowless interview room",
+    "color": "#b6b8a7"
   },
   {
     "id": "vault",
-    "name": "砂镜地窟",
-    "en": "Sandmirror Vault",
-    "prefix": "砂镜",
-    "prefixEn": "Sandmirror",
-    "place": "回声矿井",
-    "placeEn": "echoing crystal shafts",
-    "color": "#b3a17e"
+    "name": "档案室",
+    "en": "Archive Room",
+    "prefix": "档案室",
+    "prefixEn": "Archive Room",
+    "place": "地下卷库",
+    "placeEn": "subterranean record stacks",
+    "color": "#988b76"
   },
   {
     "id": "rift",
-    "name": "折光边境",
-    "en": "Prism-Rift Frontier",
-    "prefix": "折光",
-    "prefixEn": "Prismrift",
-    "place": "裂辉驿站",
-    "placeEn": "refracted waystations",
-    "color": "#a690bd"
+    "name": "负片室",
+    "en": "Negative Room",
+    "prefix": "负片室",
+    "prefixEn": "Negative Room",
+    "place": "未曝光暗房",
+    "placeEn": "unexposed darkroom",
+    "color": "#78878d"
   }
 ]

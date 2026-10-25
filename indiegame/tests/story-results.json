@@ -4,8 +4,8 @@
     "passed": true,
     "evidence": {
       "cards": 988,
-      "maxChineseLength": 7,
-      "maxEnglishLength": 23
+      "maxChineseLength": 8,
+      "maxEnglishLength": 24
     }
   },
   {

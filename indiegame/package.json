@@ -1,6 +1,6 @@
 {
   "name": "lantern-oath-indiegame",
-  "version": "1.0.3",
+  "version": "1.1.0",
   "private": true,
   "scripts": {
     "build": "python3 build.py",
@@ -10,6 +10,7 @@
     "test:skills": "node tests/skill_ai_check.cjs",
     "test:combat": "node tests/combat_check.cjs",
     "test:story": "node tests/story_check.cjs",
+    "test:horror": "node tests/horror_check.cjs",
     "test:language": "node tests/language_search_check.cjs",
     "test:audio": "node tests/audio_check.cjs"
   },

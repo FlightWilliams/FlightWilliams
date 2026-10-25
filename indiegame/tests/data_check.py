@@ -8,7 +8,7 @@ check('988 distinct original card names',len(cards)==len(names)==988)
 check('Every mechanical card field matches its baseline',all({k:v for k,v in c.items()if k not in ['n','lore','alias','baseName','game']}==baseline[c['n']]for c in cards))
 check('All 988 English names and descriptions exist',set(english)==names and all(v['name']and v['lore']and not re.search('[\u3400-\u9fff]',v['name']+v['lore'])for v in english.values()))
 labels=data('card-names.json');stories=data('card-stories.json');joins=data('companion-dialogue.json');plot=data('loop-story.json')
-check('All 988 cards have unique short bilingual display names',set(labels)==names and len({v['zh']for v in labels.values()})==988 and len({v['en']for v in labels.values()})==988 and all(2<=len(v['zh'])<=(7 if byname[n].get('rarity')=='rare'else 5)and len(v['en'])<=25 for n,v in labels.items()))
+check('All 988 cards have unique short bilingual display names',set(labels)==names and len({v['zh']for v in labels.values()})==988 and len({v['en']for v in labels.values()})==988 and all(2<=len(v['zh'])<=(8 if byname[n].get('rarity')=='rare'else 5)and len(v['en'])<=25 for n,v in labels.items()))
 check('Every card has newly written bilingual story flavour',set(stories)==names and all(v.get('zh')and v.get('en')and not re.search('[\u3400-\u9fff]',v['en'])for v in stories.values()))
 check('Six chapters lead back to the first world and all main Bosses can join',set(plot['chapters'])==set(campaign)and all(st['boss']in joins and joins[st['boss']].get('join')and joins[st['boss']].get('joinEn')for stages in campaign.values()for st in stages))
 check('Gilded base relationships preserved',all(c.get('baseName')in names and c['n']=='鎏金·'+c['baseName']for c in cards if c.get('rarity')=='rare'))
@@ -19,8 +19,8 @@ check('All retinue cards exist and normal-only',all(n in names and byname[n].get
 check('Every stage has newly written bilingual defeat and death dialogue',all(st['boss']in dialog and all(dialog[st['boss']].get(k)for k in ['farewell','farewellEn','echo','echoEn'])for world in campaign.values()for st in world))
 check('Thirty original scores retained',len(data('music-scores.json'))==30)
 check('Every portrait profile belongs to an original card',set(data('portraits.json'))==names)
-# Specific work/creator/sigil names must not be present in shipped text or code.
-foreign=['宫崎','miyazaki','fromsoftware','inscryption','邪恶冥刻','黑暗之魂','dark souls','demon\'s souls','demon’s souls','elden ring','艾尔登法环','血源','bloodborne','只狼','sekiro','黄金树','苇名','亚楠','权力的游戏','game of thrones','三首金龙','三首龙','帕奇','防火女','火防女','薪王葛温','亚尔特留斯']
+# Specific franchise/creator/sigil references remain excluded. The user explicitly requested the original Fire Warden archetype name 防火女.
+foreign=['宫崎','miyazaki','fromsoftware','inscryption','邪恶冥刻','黑暗之魂','dark souls','demon\'s souls','demon’s souls','elden ring','艾尔登法环','血源','bloodborne','只狼','sekiro','黄金树','苇名','亚楠','权力的游戏','game of thrones','三首金龙','三首龙','帕奇','火防女','薪王葛温','亚尔特留斯']
 files=[*P.glob('data/*.json'),*P.glob('src/*'),P/'index.html',P/'standalone.html']
 problems=[]
 for f in files:

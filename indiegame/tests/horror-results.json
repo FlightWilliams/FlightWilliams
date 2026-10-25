@@ -1,0 +1,36 @@
+[
+  {
+    "name": "Core witnesses have matching bilingual names, distinct roles and case-file details",
+    "passed": true
+  },
+  {
+    "name": "All 988 portraits are valid static SVGs, cache their output and leave gameplay randomness untouched",
+    "passed": true,
+    "evidence": {
+      "bad": [],
+      "randomCalls": 0,
+      "count": 988,
+      "elapsedMs": 92
+    }
+  },
+  {
+    "name": "English home, chapter names and portrait readout labels use the current mystery setting",
+    "passed": true
+  },
+  {
+    "name": "All three witnesses show their own translated lore in the real long-press detail dialog",
+    "passed": true
+  },
+  {
+    "name": "Every defeat/death statement translates and stale saved testimony does not override the new file",
+    "passed": true
+  },
+  {
+    "name": "Witnesses and the Gilded lighthouse remain recognizable on desktop and phone tables",
+    "passed": true
+  },
+  {
+    "name": "No browser errors",
+    "passed": true
+  }
+]

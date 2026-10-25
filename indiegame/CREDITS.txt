@@ -1,7 +1,7 @@
 Lantern Oath / 灯誓牌
 Author: Will Wang
 
-The setting, card names and descriptions, character dialogue, coin faces, lantern images and geometric pact emblems were authored for this project.
+The setting, card names and descriptions, character dialogue, coin faces, lantern images and case-file portraits were authored for this project. The Night Watch, Fire Warden and Lighthouse Warden belong to this original mystery: duty logs, a sealed cold furnace and signals answered before they are sent.
 Music uses the same original note scores and local procedural synthesis as the companion game. Sound effects share its recorded samples and synthesized cues. Paper and most combat recordings have CC0 sources; the adapted fire recording is distributed under CC-BY-SA 3.0. Attribution, source details, the complete license and independent WAVs are in audio/. Eleven legacy MP3 samples have no per-sample provenance record in the existing project and are not represented as CC0 or commercially cleared.
 
 The handwritten signature uses a subset of Dancing Script, renamed Will Wang Signature, under the SIL Open Font License 1.1. Copyright 2016 The Dancing Script Project Authors. The complete notice is distributed in assets/font-OFL.txt and embedded with the stylesheet.
