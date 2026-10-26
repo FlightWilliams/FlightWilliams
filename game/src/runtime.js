@@ -424,7 +424,7 @@ function takeCard(side,ash=false){
  drawQueue.push({game:G,side,c,source:document.getElementById(ash&&side==='p'?'ash-source':'deck-'+side)?.getBoundingClientRect()});return c;
 }
 function flushDraws(){
- if(drawRunning||!drawQueue.length)return drawIdle;drawRunning=true;
+ if(drawRunning||!drawQueue.length)return drawIdle;drawRunning=true;updateHandPlayability();
  drawIdle=(async()=>{try{while(drawQueue.length){
  const item=drawQueue.shift();if(item.game!==G||OV)continue;
  const index=(item.side==='p'?G.hand:G.eh).indexOf(item.c);
@@ -448,7 +448,7 @@ function flushDraws(){
    await Promise.race([animation.finished,new Promise(resolve=>{timer=setTimeout(resolve,280)})]);
   }
  }catch{}finally{if(timer!==null)clearTimeout(timer);if(animation)try{animation.cancel()}catch{}target.style.visibility=previousVisibility;ghost.remove()}
- }}finally{drawRunning=false;}})();return drawIdle;
+ }}finally{drawRunning=false;updateHandPlayability();}})();return drawIdle;
 }
 
 function newRun(){
@@ -1267,6 +1267,27 @@ function canSacrificeCard(side,index,turn=G?.turn){
  const board=side==='p'?G?.p:side==='e'?G?.e:null,card=board?.[index];
  return !!card&&!card.bossNoSacrifice&&Number.isInteger(card.t)&&card.t>=0&&card.t<turn;
 }
+// A hand card is affordable before selecting its sacrifices; sacrificing also frees a lane.
+function canPlayHandCard(card){
+ if(!G||!card||OV!==null||G.busy||G.mustDraw||G.freezeChoice||drawRunning||G.entrancePending||frozenTurns(card))return false;
+ if(G.tutorial){
+  tutorialSync();
+  const allowed=['ash','place'].includes(TUT?.step)?'余灰':['card','sac','summon'].includes(TUT?.step)?'巨鸦':null;
+  if(card.n!==allowed)return false;
+ }else if(G.phase!=='player-deploy')return false;
+ const cost=card.c||0,mature=G.p.filter((c,i)=>canSacrificeCard('p',i)).length;
+ return mature>=cost&&(cost>0||G.p.some(c=>!c));
+}
+function handCardClass(card,index){
+ return [index===G.sel?'sel':'',G.freezeChoice&&!frozenTurns(card)?'freeze-target':'',canPlayHandCard(card)?'hand-playable':'hand-unplayable'].filter(Boolean).join(' ');
+}
+function updateHandPlayability(){
+ document.querySelectorAll('.game-shell .hand [data-a="h"]').forEach(node=>{
+  const playable=canPlayHandCard(G?.hand[Number(node.dataset.i)]);
+  node.classList.toggle('hand-playable',playable);
+  node.classList.toggle('hand-unplayable',!playable);
+ });
+}
 function sacrificeStatusHTML(c){
  if(!G||!c.fod&&c.n!=='余灰')return '';
  const side=G.p?.includes(c)?'p':G.e?.includes(c)?'e':null;if(!side)return '';
@@ -1555,6 +1576,7 @@ function renderSelection(){
  const hc=G.sel!=null?G.hand[G.sel]:null,selected=selectedCard();
  const toggle=(node,key,on)=>{if(node.classList.contains(key)!==!!on)node.classList.toggle(key,!!on)};
  shell.querySelectorAll('.hand [data-a="h"]').forEach((node,i)=>toggle(node,'sel',i===G.sel));
+ updateHandPlayability();
  G.p.forEach((c,i)=>{
   const node=document.getElementById('c-p-'+i);if(!node)return;
   const sac=G.sac.has(i),ok=!!hc&&!frozenTurns(hc)&&G.sac.size===hc.c&&(!c||sac);
@@ -1579,7 +1601,7 @@ function render(){
  h+=`<section class="player-vitals side-hud" aria-label="我方生命与牌库">${healthHTML('p')}<div class="opponent-stock player-stock side-stock">${pileHTML('p')}<div class="reserve-summary"><div class="ash-source" id="ash-source" role="img" aria-label="余灰来源">灰</div><span class="own-hand-count" aria-label="我方手牌${G.hand.length}张"><small>手牌</small><b>${G.hand.length}</b></span></div></div></section><section class="interaction-bar">`;
  h+=selectionControlsHTML()+'</section>';
  h+=`<aside class="table-sidebar"><div class="sidebar-heading"><span>THE EMBER CHRONICLE</span><b>${RULES[difficulty].name.split(' · ')[0]}轮回</b></div><p class="stage-rule">${esc(G.st.pd)}</p><div class="sidebar-inspection">${selectionInspectionHTML(selected)}</div><div class="sidebar-actions"><button data-a="logs">战斗记录</button><button data-a="rules">篝火手册</button></div></aside>`;
- h+=`<section class="player-dock"><div class="hand-rack"><div class="hand" aria-label="我方手牌，可左右滑动">${G.hand.map((c,i)=>cardHTML(c,(i===G.sel?'sel ':'')+(G.freezeChoice&&!frozenTurns(c)?'freeze-target':''),`data-a="h" data-i="${i}" tabindex="0" aria-label="${esc(c.n)}${frozenTurns(c)?'，冻结剩余'+frozenTurns(c)+'回合，不能打出':G.freezeChoice?'，点击冻结两回合，解冻减1费':''}"`)).join('')}</div></div><div class="action-column"><span class="action-caption">${G.mustDraw||drawPreview?'DRAW YOUR FATE':'COMMIT TO THE FIRE'}</span><div class="ctl">${G.mustDraw||drawPreview?`<button class="pri" data-a="deck" ${G.draw.length&&!G.busy?'':'disabled'}>抽卡组 · ${G.draw.length}</button><button data-a="sq" ${G.busy?'disabled':''}>再取余灰</button>`:`<button class="pri" data-a="end" ${G.busy||G.freezeChoice?'disabled':''}>${G.busy?'战斗结算中…':G.freezeChoice?'请选择冻结手牌':'结束部署'}<small>${roundFirstSide()==='p'?'我方':'Boss'}先手</small></button>`}</div></div></section></main>`;
+ h+=`<section class="player-dock"><div class="hand-rack"><div class="hand" aria-label="我方手牌，可左右滑动">${G.hand.map((c,i)=>cardHTML(c,handCardClass(c,i),`data-a="h" data-i="${i}" tabindex="0" aria-label="${esc(c.n)}${frozenTurns(c)?'，冻结剩余'+frozenTurns(c)+'回合，不能打出':G.freezeChoice?'，点击冻结两回合，解冻减1费':''}"`)).join('')}</div></div><div class="action-column"><span class="action-caption">${G.mustDraw||drawPreview?'DRAW YOUR FATE':'COMMIT TO THE FIRE'}</span><div class="ctl">${G.mustDraw||drawPreview?`<button class="pri" data-a="deck" ${G.draw.length&&!G.busy?'':'disabled'}>抽卡组 · ${G.draw.length}</button><button data-a="sq" ${G.busy?'disabled':''}>再取余灰</button>`:`<button class="pri" data-a="end" ${G.busy||G.freezeChoice?'disabled':''}>${G.busy?'战斗结算中…':G.freezeChoice?'请选择冻结手牌':'结束部署'}<small>${roundFirstSide()==='p'?'我方':'Boss'}先手</small></button>`}</div></div></section></main>`;
  }
  if(OV==='title')h=homepageHTML();
  if(OV==='win')h+=campaignRewardHTML();

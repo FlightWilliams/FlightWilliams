@@ -1213,3 +1213,8 @@ html[lang="en"] .game-shell .table-tools .replay-entry::after{content:'Replay'}h
  .game-shell .table-tools .icon-toggle{width:36px;min-width:36px;padding-inline:2px;font-size:8px}.game-shell .table-tools .language-toggle{width:34px;min-width:34px;padding-inline:2px;font-size:10px}
  .language-label-full{display:none}.language-label-short{display:inline}.game-shell .table-brand{min-width:0;flex:1;max-width:none}.game-shell .table-brand .boss-name{max-width:100%;overflow-wrap:anywhere;white-space:normal}
 }
+
+/* Hand brightness reflects deployment eligibility without hiding card details. */
+.game-shell .hand .card.hand-playable,
+.game-shell .hand .card.freeze-target{filter:brightness(1.08)}
+.game-shell .hand .card.hand-unplayable:not(.freeze-target){filter:brightness(.68)}
