@@ -25,7 +25,7 @@ const LEGACY_SAVE=JSON.parse(zlib.inflateSync(Buffer.from(captured[1],'base64'))
    return {bosses:108,mainEncounters:Object.values(read('campaigns')).flat().length};
   });
   const context=await browser.newContext({viewport:{width:390,height:759},reducedMotion:'reduce'});
-  await context.addInitScript(()=>{try{localStorage.setItem('lo_tutorial_v1','done');localStorage.setItem('lo_music_mute','1')}catch{}});
+  await require('./auto_entrances.cjs')(context);await context.addInitScript(()=>{try{localStorage.setItem('lo_tutorial_v1','done');localStorage.setItem('lo_music_mute','1')}catch{}});
   const page=await context.newPage();page.on('pageerror',e=>errors.push(e.message));
   await page.goto(BASE);await page.waitForFunction(()=>window.BOOT?.ready);
   await check('A captured old checkpoint keeps its exact board, hand, deck and Boss key while showing the new identity',async()=>{

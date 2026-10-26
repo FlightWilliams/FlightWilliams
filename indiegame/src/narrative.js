@@ -3,6 +3,7 @@ const CARD_DISPLAY_NAMES=__DATA_CARD_NAMES__;
 const CARD_STORIES=__DATA_CARD_STORIES__;
 const LOOP_STORY=__DATA_LOOP_STORY__;
 const COMPANION_DIALOGUE=__DATA_COMPANION_DIALOGUE__;
+const BOSS_ENTRANCES=__DATA_BOSS_ENTRANCES__;
 const BOSS_IDENTITIES=__DATA_BOSS_IDENTITIES__;
 const BOSS_ABILITY_LEGACY=__DATA_BOSS_ABILITY_LEGACY__;
 const STORY_BOSS_ABILITIES=new Map(BOSS_ABILITIES.map(ability=>[ability.boss,ability]));
@@ -71,12 +72,28 @@ function renderStoryToast(){
  storyToastTimer=setTimeout(()=>{if(STORY.pendingFriend&&JSON.stringify(STORY.pendingFriend)===key){STORY.pendingFriend=null;saveStory();renderStoryToast()}},9000);
 }
 function storyJournalButton(){return `<button type="button" data-story-journal>${gameLanguage==='en'?'Case Notes':'调查手记'}</button>`}
+function bossEntranceCopy(boss=G?.st?.boss){return BOSS_ENTRANCES[boss]?.[gameLanguage==='en'?'en':'zh']||null}
+function bossEntranceHTML(){
+ const copy=bossEntranceCopy(),pending=!!G?.entrancePending,boss=G?.st?.boss;
+ if(!copy)return '';
+ const en=gameLanguage==='en';
+ return `<div class="drawer-backdrop"><div class="drawer-scrim" aria-hidden="true"></div><section class="info-drawer story-drawer boss-entrance" role="dialog" aria-modal="true" aria-labelledby="entrance-title"><header class="drawer-head"><div><small>${esc(storyWorldName())} · ${en?'Encounter':'第'} ${G.lv}${en?'':'关'}</small><h2 id="entrance-title">${esc(shortCardName(boss))} · ${esc(copy.title)}</h2></div><button class="pri" data-boss-entrance="${pending?'begin':'close'}">${en?(pending?'Play':'Close'):(pending?'开始对局':'返回牌桌')}</button></header><div class="drawer-scroll"><p class="entrance-role">${en?'Arrival record':'来访记录'}</p>${storyParagraphs(copy.text)}<p class="story-note">${en?(pending?'The cards are still untouched. Start when you are ready.':'Reading this scene does not change the match.'):(pending?'牌还没有发下。准备好后，开始对局。':'重读出场不会改变当前对局。')}</p></div><footer class="entrance-actions">${languageToggleHTML()}${pending?`<button data-boss-entrance="skip">${en?'Skip scene':'跳过出场'}</button><button data-boss-entrance="home">${en?'Home':'返回主页'}</button>`:`<button data-boss-entrance="close">${en?'Return to the table':'返回牌桌'}</button>`}</footer></section></div>`;
+}
+async function beginBossEncounter(){
+ const game=G;if(!game?.entrancePending||game.busy||drawRunning)return false;
+ game.entrancePending=false;game.busy=1;game.phase='opening';infoPanel=null;render();
+ await dealBattleOpening(game);showCampaignChapter(game);return G===game;
+}
+function showCampaignChapter(game){
+ if(G!==game||!G||G.tutorial||G.replay||OV||G.lv!==1||G.busy||G.phase!=='player-deploy')return;
+ const key=`case-0317:${journey.loops||0}:${difficulty}`;if(STORY.seen[key])return;STORY.seen[key]=true;saveStory();infoPanel='story';render();
+}
 function storyJournalHTML(){
  const world=G?.st?.games?.[0]||difficulty||activeDifficulty(),chapter=storyChapter(world),opening=LOOP_STORY.opening[gameLanguage==='en'?'en':'zh'];
  const returned=world==='mire'&&(journey.loops||0)>0,title=returned?storyCopy('loop','returnTitle'):chapter.title;
  const text=returned?storyCopy('loop','returnText'):chapter.text;
  const friends=Object.keys(STORY.friends).filter(id=>CARD_DISPLAY_NAMES[id]),heading=gameLanguage==='en'?'Witnesses Travelling With You':'同行证人';
- return `<div class="drawer-backdrop"><button class="drawer-scrim" data-a="closepanel" aria-label="${gameLanguage==='en'?'Close story':'关闭手记'}"></button><section class="info-drawer story-drawer" role="dialog" aria-modal="true" aria-labelledby="story-title"><div class="drawer-head"><div><small>${esc(storyCopy('loop','countLabel',{loop:(journey.loops||0)+1}))} · ${esc(storyWorldName(world))}</small><h2 id="story-title">${esc(title)}</h2></div><button data-a="closepanel">${gameLanguage==='en'?'Continue':'继续前行'}</button></div><div class="drawer-scroll">${world==='mire'&&!(journey.loops||0)?`<h3>${esc(opening.title)}</h3>${storyParagraphs(opening.text)}`:''}${storyParagraphs(text)}<h3>${heading}</h3><p>${esc(friends.length?friends.map(id=>shortCardName(id)).join(' · '):storyCopy('companions','rewardText'))}</p><p class="story-note">${esc(storyCopy('companions','selectionHint'))}</p></div></section></div>`;
+ return `<div class="drawer-backdrop"><button class="drawer-scrim" data-a="closepanel" aria-label="${gameLanguage==='en'?'Close story':'关闭手记'}"></button><section class="info-drawer story-drawer" role="dialog" aria-modal="true" aria-labelledby="story-title"><div class="drawer-head"><div><small>${esc(storyCopy('loop','countLabel',{loop:(journey.loops||0)+1}))} · ${esc(storyWorldName(world))}</small><h2 id="story-title">${esc(title)}</h2></div><button data-a="closepanel">${gameLanguage==='en'?'Continue':'继续前行'}</button></div><div class="drawer-scroll">${world==='mire'&&!(journey.loops||0)?`<h3>${esc(opening.title)}</h3>${storyParagraphs(opening.text)}`:''}${storyParagraphs(text)}${G&&bossEntranceCopy()?`<button data-boss-entrance="read">${gameLanguage==='en'?'Read Boss entrance':'重看Boss出场'}</button>`:''}<h3>${heading}</h3><p>${esc(friends.length?friends.map(id=>shortCardName(id)).join(' · '):storyCopy('companions','rewardText'))}</p><p class="story-note">${esc(storyCopy('companions','selectionHint'))}</p></div></section></div>`;
 }
 function storyClearHTML(){
  const last=difficulty===DIFFICULTY_ORDER[DIFFICULTY_ORDER.length-1],chapter=storyChapter(difficulty,'clear'),next=DIFFICULTY_ORDER[DIFFICULTY_ORDER.indexOf(difficulty)+1];
@@ -110,14 +127,15 @@ for(const [oldName,boss]of Object.entries(BOSS_ABILITY_LEGACY)){const ability=ST
 const storyNameKeys=Object.keys(storyNameDictionary).filter(id=>id!==storyNameDictionary[id]).sort((a,b)=>b.length-a.length);
 const storyNameMatcher=new RegExp(storyNameKeys.map(s=>s.replace(/[.*+?^${}()|[\]\\]/g,'\\$&')).join('|'),'g');
 function storyChineseText(text){if(typeof text!=='string')return text;let output=text.replace(storyNameMatcher,id=>storyNameDictionary[id]);for(const [id,labels]of storyIdentityLabels)output=output.split(id).join(labels.zh);return output}
-const drawerBeforeStory=drawerHTML;drawerHTML=function(){return infoPanel==='story'?storyJournalHTML():drawerBeforeStory()};
+const drawerBeforeStory=drawerHTML;drawerHTML=function(){return infoPanel==='entrance'||infoPanel==='entrance-read'?bossEntranceHTML():infoPanel==='story'?storyJournalHTML():drawerBeforeStory()};
 const renderBeforeStory=render;render=function(){renderBeforeStory();renderStoryToast()};
 const battleBeforeStory=battle;
 battle=async function(){
- const game=G;await battleBeforeStory();if(G!==game||!G||G.tutorial||G.replay||OV||G.lv!==1||G.busy)return;
- const key=`case-0317:${journey.loops||0}:${difficulty}`;if(STORY.seen[key])return;STORY.seen[key]=true;saveStory();infoPanel='story';render();
+ const game=G;await battleBeforeStory();showCampaignChapter(game);
 };
 document.addEventListener('click',event=>{
+ const entrance=event.target.closest('[data-boss-entrance]')?.dataset.bossEntrance;
+ if(entrance){event.preventDefault();if(entrance==='begin'||entrance==='skip')beginBossEncounter();else if(entrance==='home')returnToHomepage();else if(entrance==='read'&&bossEntranceCopy()&&!G?.busy&&!drawRunning){infoPanel='entrance-read';render()}else if(entrance==='close'&&!G?.entrancePending){infoPanel=null;render()}return}
  if(event.target.closest('[data-story-dismiss]')){event.preventDefault();STORY.pendingFriend=null;saveStory();renderStoryToast();return}
  if(!event.target.closest('[data-story-journal]'))return;event.preventDefault();if(G?.busy||drawRunning)return;infoPanel='story';render();
 });

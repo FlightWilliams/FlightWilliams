@@ -10,7 +10,7 @@ const BASE=process.env.INDIE_TEST_URL||'http://127.0.0.1:8770/index.html';
  try{
   const page=await browser.newPage({viewport:{width:1366,height:768},reducedMotion:'reduce'});
   const errors=[];page.on('pageerror',error=>errors.push(error.message));
-  await page.addInitScript(()=>{localStorage.setItem('lo_tutorial_v1','done');localStorage.setItem('lo_music_mute','1')});
+  await require('./auto_entrances.cjs')(page);await page.addInitScript(()=>{localStorage.setItem('lo_tutorial_v1','done');localStorage.setItem('lo_music_mute','1')});
   await page.goto(BASE);await page.waitForFunction(()=>window.BOOT?.ready&&typeof aiEvaluatePosition==='function');
   const results=await page.evaluate(()=>{
    const saved={game:G,difficulty,overlay:OV};const results=[];

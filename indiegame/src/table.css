@@ -1225,3 +1225,8 @@ html[lang="en"] .card .top b{overflow-wrap:anywhere}
 }
 html[lang="en"] .table-tools .replay-entry::after{content:'Replay'}html[lang="en"] .table-tools .replay-return::after{content:'Return'}
 @media(max-width:600px){.game-shell .table-tools .language-toggle{width:36px;min-width:36px;padding-inline:3px}.language-toggle .language-full{display:none}.language-toggle .language-compact{display:inline}}
+
+/* Entrance scenes pause before dealing; only their text area scrolls. */
+.boss-entrance{max-width:700px}.boss-entrance .drawer-head{flex:none}.boss-entrance .drawer-head h2{font-size:21px;line-height:1.4}.boss-entrance .drawer-head>button{min-width:88px;flex:none}.boss-entrance .entrance-role{font-size:11px;letter-spacing:.06em;color:#a9b99b;border-bottom:1px solid #77886a44;padding-bottom:10px}.entrance-actions{display:flex;justify-content:flex-end;gap:8px;padding:10px 16px;border-top:1px solid #77886a44;flex:none}.entrance-actions button{min-height:44px;min-width:70px;padding:6px 10px;font-size:12px}.entrance-actions .language-toggle{margin-right:auto}
+@media(max-width:480px){.boss-entrance .drawer-head h2{font-size:17px}.boss-entrance .drawer-head>button{min-width:76px;padding-inline:8px;font-size:12px}.entrance-actions{gap:6px;padding:8px 12px}.entrance-actions button{font-size:11px;min-width:60px}}
+@media(max-height:520px){.boss-entrance .drawer-head h2{font-size:16px;margin:2px 0}.entrance-actions{padding:5px 12px}}

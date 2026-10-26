@@ -1,0 +1,57 @@
+[
+  {
+    "name": "All 96 campaign Bosses have complete bilingual entrances matched to their level and identity",
+    "passed": true,
+    "evidence": {
+      "entrances": 96
+    }
+  },
+  {
+    "name": "A new run shows its entrance before any deal, coin or enemy deployment",
+    "passed": true,
+    "evidence": {
+      "preparedPlayerDeck": 16,
+      "loadedScript": "pact.1715cb9c8b7e.js",
+      "loadedStyle": "table.9c055f578fb6.css"
+    }
+  },
+  {
+    "name": "Changing language, returning home and refreshing preserve the pending scene and exact prepared decks",
+    "passed": true
+  },
+  {
+    "name": "Skipping the scene opens the real coin and preserves the five/six-card opening and draw order",
+    "passed": true
+  },
+  {
+    "name": "A double start resolves only one opening deal and one coin",
+    "passed": true
+  },
+  {
+    "name": "The next Boss introduction precedes its first enemy deployment and fresh sacrifices remain immature",
+    "passed": true
+  },
+  {
+    "name": "Rereading the current entrance does not advance the turn, redeal or alter any combat card",
+    "passed": true
+  },
+  {
+    "name": "Replaying a cleared Boss also introduces it first without replacing the saved main battle",
+    "passed": true
+  },
+  {
+    "name": "Old in-progress v1.0.1 checkpoints resume their exact battle without inserting a new entrance",
+    "passed": true
+  },
+  {
+    "name": "Long entrance paragraphs and start/home controls remain reachable on four screens in both languages",
+    "passed": true,
+    "evidence": {
+      "layouts": 8
+    }
+  },
+  {
+    "name": "No browser errors during entrance, continuation and legacy scenarios",
+    "passed": true
+  }
+]

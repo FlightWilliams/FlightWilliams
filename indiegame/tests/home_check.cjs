@@ -6,7 +6,7 @@ const BASE=process.env.INDIE_TEST_URL||'http://127.0.0.1:8930/indiegame/index.ht
  const results=[];
  try{
   const context=await browser.newContext({viewport:{width:390,height:759},reducedMotion:'reduce'});
-  await context.addInitScript(()=>{try{localStorage.setItem('lo_tutorial_v1','done');localStorage.setItem('lo_music_mute','1')}catch{}});
+  await require('./auto_entrances.cjs')(context);await context.addInitScript(()=>{try{localStorage.setItem('lo_tutorial_v1','done');localStorage.setItem('lo_music_mute','1')}catch{}});
   const page=await context.newPage(),errors=[];page.on('pageerror',e=>errors.push(e.message));
   const check=async(name,fn)=>{const evidence=await fn();results.push({name,passed:true,...(evidence?{evidence}:{})});console.log('PASS',name)};
   const ready=()=>page.waitForFunction(()=>window.BOOT?.ready);

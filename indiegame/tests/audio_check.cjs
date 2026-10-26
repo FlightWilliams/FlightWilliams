@@ -21,7 +21,7 @@ async function check(name,fn){const evidence=await fn();results.push({name,passe
  const browser=await chromium.launch({executablePath:process.env.CHROMIUM_PATH||(fs.existsSync('/usr/bin/chromium')?'/usr/bin/chromium':undefined),args:['--no-sandbox','--autoplay-policy=no-user-gesture-required']});
  try{
   const context=await browser.newContext(),errors=[];context.on('page',p=>p.on('pageerror',e=>errors.push(e.message)));
-  await context.addInitScript(()=>{try{localStorage.setItem('lo_music_mute','1');localStorage.setItem('mz_music_mute','1');localStorage.setItem('lo_tutorial_v1','done');localStorage.setItem('mz_tutorial_v1','done')}catch{}});
+  await require('./auto_entrances.cjs')(context);await context.addInitScript(()=>{try{localStorage.setItem('lo_music_mute','1');localStorage.setItem('mz_music_mute','1');localStorage.setItem('lo_tutorial_v1','done');localStorage.setItem('mz_tutorial_v1','done')}catch{}});
   const pages=[];for(const url of [GAME_URL,INDIE_URL]){const page=await context.newPage();await page.goto(url,{waitUntil:'domcontentloaded'});await page.waitForFunction(()=>window.BOOT?.ready);await page.waitForFunction(()=>window.LANTERN_AUDIO?.audioReady||window.XINHUO_WEB?.audioReady);pages.push(page)}
   await check('Both players load all eleven legacy, seven paper and twelve combat samples',async()=>{
    const snapshots=[];for(const page of pages)snapshots.push(await page.evaluate(()=>({legacy:JSON.stringify(SMP),paper:JSON.stringify(CARD_AUDIO_SAMPLES),combat:JSON.stringify(COMBAT_AUDIO_SAMPLES),counts:[Object.keys(SMP).length,Object.keys(CARD_AUDIO_SAMPLES).length,Object.keys(COMBAT_AUDIO_SAMPLES).length]})));

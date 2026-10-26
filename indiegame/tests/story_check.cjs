@@ -12,7 +12,7 @@ const LEGACY_SAVE=JSON.parse(zlib.inflateSync(Buffer.from('eJztXVlT20ge/ypTqn30T
  const check=async(name,fn)=>{try{const evidence=await fn();results.push({name,passed:true,...(evidence?{evidence}:{})});console.log('PASS',name)}catch(error){results.push({name,passed:false,error:error.message});console.log('FAIL',name,error.message)}};
  try{
   const context=await browser.newContext({viewport:{width:390,height:759},isMobile:true,hasTouch:true,reducedMotion:'reduce'});
-  await context.addInitScript(()=>{localStorage.setItem('lo_tutorial_v1','done');localStorage.setItem('lo_music_mute','1')});
+  await require('./auto_entrances.cjs')(context);await context.addInitScript(()=>{localStorage.setItem('lo_tutorial_v1','done');localStorage.setItem('lo_music_mute','1')});
   const page=await context.newPage();page.on('pageerror',error=>errors.push(error.message));
   await check('All 988 short names are unique, bounded and retain matching Gilded identities',()=>{
    const names=JSON.parse(fs.readFileSync(path.join(ROOT,'data/card-names.json'),'utf8')),cards=JSON.parse(fs.readFileSync(path.join(ROOT,'data/cards.json'),'utf8'));

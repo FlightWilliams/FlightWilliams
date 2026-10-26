@@ -11,7 +11,7 @@ const results=[];
   for(const target of targets){
    const context=await browser.newContext({viewport:{width:1366,height:768},reducedMotion:'reduce'});
    const page=await context.newPage(),errors=[];page.on('pageerror',error=>errors.push(error.message));
-   await context.addInitScript(prefix=>{localStorage.setItem(prefix+'tutorial_v1','done');localStorage.setItem(prefix+'music_mute','1')},target.prefix);
+   await require('./auto_entrances.cjs')(context);await context.addInitScript(prefix=>{localStorage.setItem(prefix+'tutorial_v1','done');localStorage.setItem(prefix+'music_mute','1')},target.prefix);
    const check=async(name,fn)=>{try{const evidence=await fn();results.push({project:target.name,name,passed:true,...(evidence?{evidence}:{})});console.log('PASS',target.name,name)}catch(error){results.push({project:target.name,name,passed:false,error:error.message});console.log('FAIL',target.name,name,error.message)}};
    try{
     await page.goto(target.url);await page.waitForFunction(()=>window.BOOT?.ready&&typeof setGameLanguage==='function'&&typeof englishCardName==='function');

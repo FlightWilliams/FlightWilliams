@@ -1103,8 +1103,13 @@ function awardCoinWick(first){
  logBattle(`金币化作余芯交给${side==='p'?'你':'Boss'}：后手起手6张，多获得1张余芯；需要自行部署并存活一回合才能献祭。`);render();return true;
 }
 async function battle(){
- const game=G,carry=G.hp;Object.assign(G,{hp:G.lv===1?7:Math.min(7,Math.max(4,carry+RULES[difficulty].heal)),ehp:7,p:Array(5).fill(null),e:Array(5).fill(null),turn:1,passiveTurn:-1,sel:null,moveSel:null,freezeChoice:false,busy:1,killer:null,lastHit:null,log:[],rewardClaimed:false,rewardSelection:new Set(),rewardFeedback:"",newRewards:[],newReward:null,bossFarewell:null,deathEcho:null,mustDraw:1,enemyDeployedTurn:0,phase:'opening',coinBonusSide:null,coinBonusGranted:false});
+ const game=G,carry=G.hp;Object.assign(G,{hp:G.lv===1?7:Math.min(7,Math.max(4,carry+RULES[difficulty].heal)),ehp:7,p:Array(5).fill(null),e:Array(5).fill(null),turn:1,passiveTurn:-1,sel:null,moveSel:null,freezeChoice:false,busy:1,killer:null,lastHit:null,log:[],rewardClaimed:false,rewardSelection:new Set(),rewardFeedback:"",newRewards:[],newReward:null,bossFarewell:null,deathEcho:null,mustDraw:1,enemyDeployedTurn:0,phase:'opening',coinBonusSide:null,coinBonusGranted:false,entrancePending:false});
  G.sac.clear();G.st=STG[G.lv-1];G.st.dk=stageDeck(G.st);G.ed=opening(shuf(G.st.dk.map(n=>eCard(n,G.st))));G.eh=[];G.draw=opening(shuf(G.deck.map(c=>makeCard(c))));G.hand=[];bossAbilitiesInitBattle();OV=null;
+ if(!G.tutorial&&BOSS_ENTRANCES[G.st.boss]){G.entrancePending=true;G.phase='encounter-intro';G.mustDraw=0;G.busy=0;infoPanel='entrance';render();return}
+ await dealBattleOpening(game);
+}
+async function dealBattleOpening(game){
+ if(G!==game)return;
  render();snd('shuffle');
  for(const side of ['e','p','e','p','e','p','e','p']){takeCard(side);render();await drawIdle;if(G!==game)return}
  for(const side of ['p','e']){const ash=takeCard(side,true);if(side==='e')ash.e=1;render();await drawIdle;if(G!==game)return}
@@ -1349,7 +1354,7 @@ document.addEventListener('click',async event=>{
  const t=event.target.closest('[data-a]');if(!t)return;const action=t.dataset.a,i=Number(t.dataset.i);
  if(cardHoldClick(action))return;
  if(deckManagerClick(action,t))return;
- if(action==='closepanel'){infoPanel=null;detailCardOverride=null;render();return}
+ if(action==='closepanel'){if(G?.entrancePending){beginBossEncounter();return}infoPanel=null;detailCardOverride=null;render();return}
  if(action==='cancel'){cancelSelection();return}
  if(action==='identity-keep'||action==='identity-replace'){identityChoose(action==='identity-keep'?'keep':'replace');return}
  if(G?.busy||drawRunning)return;
@@ -1387,7 +1392,7 @@ document.addEventListener('change',event=>{const t=event.target;if(t.id==='catga
 document.addEventListener('input',event=>{if(event.target.id!=='catsearch')return;const pos=event.target.selectionStart;catalogSearch=event.target.value;catalogPage=0;render();const input=document.getElementById('catsearch');input?.focus();input?.setSelectionRange(pos,pos)});
 document.addEventListener('keydown',event=>{if((event.key==='Enter'||event.key===' ')&&event.target.matches('[data-a][tabindex]')){event.preventDefault();event.target.click()}});
 
-document.addEventListener('keydown',event=>{if(event.key!=='Escape')return;if(DM){event.preventDefault();closeDeckManager();return}if(infoPanel){infoPanel=null;detailCardOverride=null;render();return}if(cancelSelection())event.preventDefault()});
+document.addEventListener('keydown',event=>{if(event.key!=='Escape')return;if(G?.entrancePending&&infoPanel==='entrance'){event.preventDefault();beginBossEncounter();return}if(DM){event.preventDefault();closeDeckManager();return}if(infoPanel){infoPanel=null;detailCardOverride=null;render();return}if(cancelSelection())event.preventDefault()});
 document.addEventListener('focusin',updateViewport);document.addEventListener('focusout',()=>requestAnimationFrame(updateViewport));
 __AI_SOURCE__
 __BOSS_AI_POLICY_SOURCE__
@@ -2923,9 +2928,9 @@ function checkpointSave(options={}){
  // retain the transition marker, rather than turn it into an empty reward page.
  const transition=!!G.rewardClaimed&&(!!options.transition||OV==='win'),terminal=['win','camp','clear','dead'].includes(OV);
  if(!G.busy&&typeof drawRunning!=='undefined'&&drawRunning&&typeof drawIdle!=='undefined'&&drawIdle?.then&&checkpointDrawWait!==drawIdle){const pending=drawIdle;checkpointDrawWait=pending;pending.then(()=>{if(checkpointDrawWait===pending)checkpointDrawWait=null;checkpointSave()}).catch(()=>{if(checkpointDrawWait===pending)checkpointDrawWait=null})}
- const portfolio=!!options.portfolio&&['camp','clear'].includes(OV);
- if(!transition&&(G.busy||typeof drawRunning!=='undefined'&&drawRunning||!portfolio&&(typeof DM!=='undefined'&&DM||typeof HOLD_DETAIL!=='undefined'&&HOLD_DETAIL||typeof infoPanel!=='undefined'&&infoPanel)))return false;
- if(!transition&&!terminal&&(OV!==null||G.phase!=='player-deploy'))return false;
+ const entrance=!!G.entrancePending&&G.phase==='encounter-intro',portfolio=!!options.portfolio&&['camp','clear'].includes(OV);
+ if(!transition&&(G.busy||typeof drawRunning!=='undefined'&&drawRunning||!portfolio&&(typeof DM!=='undefined'&&DM||typeof HOLD_DETAIL!=='undefined'&&HOLD_DETAIL||typeof infoPanel!=='undefined'&&infoPanel&&!(entrance&&infoPanel==='entrance'))))return false;
+ if(!transition&&!terminal&&(OV!==null||G.phase!=='player-deploy'&&!entrance))return false;
  try{
   const entry=checkpointBaseEntry(),mode=transition&&G.deck.length<DECK_MAX&&G.lv<CAMPAIGNS[difficulty].length?'next':'state';
   const overlay=transition?(G.deck.length>=DECK_MAX?'camp':G.lv>=CAMPAIGNS[difficulty].length?'clear':null):OV;
@@ -2961,7 +2966,9 @@ function checkpointGameValid(game,saved){
   const cards=game[key];if(!Array.isArray(cards)||cards.length>4096||['p','e'].includes(key)&&cards.length!==5||!cards.every(card=>card===null&&['p','e'].includes(key)||checkpointCardValid(card,owned,historical)))return false;
  }
  if(!game.st||game.st.boss!==CAMPAIGNS[saved.difficulty][saved.lv-1].boss||!Array.isArray(game.st.dk)||!game.st.dk.every(name=>typeof name==='string'&&!!collectionCard(name)))return false;
- if(!['p','e'].includes(game.campaignFirst)||!['p','e'].includes(game.encounterFirst))return false;
+ const entrance=!!game.entrancePending&&game.phase==='encounter-intro';
+ if(entrance){if(game.hand.length||game.eh.length||game.p.some(Boolean)||game.e.some(Boolean))return false}
+ else if(!['p','e'].includes(game.campaignFirst)||!['p','e'].includes(game.encounterFirst))return false;
  if(!game.discard||!['p','e'].every(side=>Array.isArray(game.discard[side])&&game.discard[side].length<=4096&&game.discard[side].every(card=>checkpointCardValid(card,side==='p',historical))))return false;
  if(!game.bossSkill||!Array.isArray(game.bossSkill.temp)||!Array.isArray(game.bossSkill.deferred))return false;
  if(saved.overlay==='win'&&(!Array.isArray(game.rw)||game.rw.length>3||game.rw.some(card=>!checkpointCardValid(card))))return false;
@@ -3004,6 +3011,7 @@ function checkpointRestore(){
   checkpointEntry={game:G,lv:G.lv,difficulty,hp:saved.entry?.hp||7,kills:saved.entry?.kills||0};checkpointLastBody='';checkpointLastError='';checkpointRestoring=false;
   if(saved.mode==='next'){G.busy=1;OV=null;nextStage()}
   else if(saved.mode==='restart'){G.hp=G.lv===1?7:Math.max(1,Math.min(7,saved.entry?.hp||7))-(RULES[difficulty]?.heal||0);G.kills=Math.max(0,saved.entry?.kills||0);G.busy=1;OV=null;battle()}
+  else if(G.entrancePending&&G.phase==='encounter-intro')infoPanel='entrance';
   else if(typeof playerBossSkillState==='function')playerBossSkillState();
   return true;
  }catch{checkpointRestoring=false;checkpointClear();return false}

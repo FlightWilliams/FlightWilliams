@@ -8,7 +8,7 @@ const archetypes=[['苔庭铠卫·雅恩','nightwatch'],['炽砂修灯师·瑟�
  const results=[];
  try{
   const context=await browser.newContext({viewport:{width:390,height:759},reducedMotion:'reduce'});
-  await context.addInitScript(()=>{try{localStorage.setItem('lo_tutorial_v1','done');localStorage.setItem('lo_music_mute','1')}catch{}});
+  await require('./auto_entrances.cjs')(context);await context.addInitScript(()=>{try{localStorage.setItem('lo_tutorial_v1','done');localStorage.setItem('lo_music_mute','1')}catch{}});
   const page=await context.newPage(),errors=[];page.on('pageerror',e=>errors.push(e.message));
   const check=async(name,fn)=>{const evidence=await fn();results.push({name,passed:true,...(evidence?{evidence}:{})});console.log('PASS',name)};
   await page.goto(BASE);await page.waitForFunction(()=>window.BOOT?.ready);
