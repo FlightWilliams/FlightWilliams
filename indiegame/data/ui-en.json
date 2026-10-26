@@ -2630,5 +2630,6 @@
   "弃牌、生命或场上献祭等原技能代价另行支付；条件不足保留余芯。": "Pay any additional discard, life or field-sacrifice cost separately. If conditions are not met, keep the Wick.",
   "这里只查看说明，不改变当前选牌或战斗进程。": "Reading this panel does not change your selected card or advance the battle.",
   "目标变为0攻1血、无技能的余芯，覆盖玩家下一个完整行动回合；之后在Boss部署阶段恢复原牌及原有攻血状态，不回满生命，不触发入场效果。余芯死亡或被献祭，原牌本场不再恢复，也不触发原牌亡语；刚恢复的牌免疫一轮化灰。": "The target becomes an ability-free 0/1 Wick for the player’s next full action round. It then returns during Boss deployment with its previous Attack and Health. It is not fully healed and does not repeat entry effects. If the Wick dies or is sacrificed, the original does not return or trigger its death ability. Restored cards are immune to this transformation for one round.",
-  "${boss}发动「${skill}」": "${boss} uses “${skill}”."
+  "${boss}发动「${skill}」": "${boss} uses “${skill}”.",
+  "输入姓名，留空随机人名": "Your name, or leave blank for a random name"
 }

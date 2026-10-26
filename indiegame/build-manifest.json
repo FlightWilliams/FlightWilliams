@@ -1,12 +1,12 @@
 {
-  "version": "1.1.4",
+  "version": "1.1.5",
   "cards": 988,
   "stages": 96,
   "bossSkills": 108,
   "bossEntrances": 96,
   "musicTracks": 30,
   "sounds": "assets/sounds.9dd4337a50d2.js",
-  "script": "assets/pact.1715cb9c8b7e.js",
+  "script": "assets/pact.06559bfac750.js",
   "style": "assets/table.9c055f578fb6.css",
-  "scriptSha256": "1715cb9c8b7ec86b774554f4c1c2c56e6fb7c3c91ae8a79158ff59c6713c6cce"
+  "scriptSha256": "06559bfac7506ae4ae6daf7dde82eaf722313d1083a0c0914d4fdf1c51f1ef5e"
 }
