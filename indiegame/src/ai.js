@@ -45,7 +45,7 @@ function aiEvaluatePosition(enemy,player,options={}){
  function hurt(side,c,n,shieldOverride=null,defer=false){
   if(!c||!b[side].includes(c)||n<=0)return 0;
   const fx=c.bossEffects||{},shield=shieldOverride??fx.shield??0;let damage=n;
-  if(shield>0){damage=Math.max(0,damage-shield);delete fx.shield}
+  if(shield>0){damage=0;delete fx.shield}
   if(damage<=0)return 0;c.h-=damage;if(c.h<=0&&!defer)remove(side,b[side].indexOf(c));return damage;
  }
  function heroDamage(side,n){
@@ -58,7 +58,7 @@ function aiEvaluatePosition(enemy,player,options={}){
   const them=other(side),t=b[them][i],base=effectiveCardAttack(a,t);if(base<=0)return;
   const fx=a.bossEffects||{},reduce=fx.attackReduction||0;delete fx.attackReduction;
   if(!t||(bossHasSkill(a,'fly')&&!bossHasSkill(t,'guard'))){heroDamage(them,Math.max(0,base-reduce));if(fx.selfDamage)hurt(side,a,fx.selfDamage);return}
-  const tf=t.bossEffects||{},shield=tf.shield||0;delete tf.shield;
+  const tf=t.bossEffects||{},shield=tf.shield||0;
   let damage=Math.max(0,bossAttackDamage(a,t,!!fx.pierce)-reduce);delete fx.pierce;
   if(a.at==='火'&&tf.fireWeakness){damage+=tf.fireWeakness;delete tf.fireWeakness}
   const parried=bossHasSkill(t,'parry')&&damage<=1;let reflect=0,actual=0;
