@@ -1,39 +1,39 @@
 {
   "version": 1,
   "title": {
-    "zh": "未结案",
-    "en": "An Open Case"
+    "zh": "归来的人",
+    "en": "The One Who Came Back"
   },
   "opening": {
     "zh": {
-      "title": "值班室里的陌生人",
-      "text": "你先闻到湿羊毛的气味。\n外套搭在椅背上，水沿着袖口滴进铁盆。盆底已经积了半寸，脚上的鞋却很干净。你不记得走过哪一条路，也不记得是谁替你脱下了外套。\n桌对面的男人正在补一只手套。他的制服领口发白，线头夹在嘴角，收音机里只有低低的沙声。热水壶坐在小炉上，壶嘴却塞着一团旧报纸。\n“醒了？”他把针插回袖口，“杯子自己拿。缺口朝外，省得割嘴。”\n你没喝。杯底有一圈茶垢，闻起来是冷铁的味道。\n“我想离开这里。”\n“好事。”他说，“说明你还没打算接我的班。”\n他笑了一下，把手套翻过来，又拆掉刚缝好的两针。你等着他继续。他却伸出手，推来一份薄薄的案卷。封皮受过潮，纸页粘在一起。你用拇指分开它，看见自己的照片。\n失踪日期是明天。登记人那一栏折进封皮，只露出一个收笔过重的钩。\n“日期写错了。”\n“我也这么说过。”守夜人诺亚低下头，继续穿线。\n墙上的钟停在03:17。那滴水从袖口落下，撞进盆底；紧接着，你在收音机里又听见它响了一次。\n他收起针线，把一副边缘发软的牌放到桌上。手套被翻到了里面，露出你刚才留在案卷上的那枚湿指印。\n指印周围的水迹，已经干了。",
-      "button": "坐到桌前"
+      "title": "你的失踪案卷",
+      "text": "你醒来时，守夜人诺亚正在把你的外套拧干。袖口补着蓝线，口袋里塞着一张受潮的照片。照片上是你，背后站着一群裹毛毯的人。你认得自己的脸，却想不起他们是谁。\n“你是从港口那条路回来的。”诺亚给你倒了半杯热茶，“走到门口就撑不住了。我只来得及把你扶进来。”\n你问这是哪里，他说是雾镇的值班室。你想起身找出口，他没有拦，只把一份案卷递给你。失踪者是你，失踪日期却填着明天。登记人的签名被水洇开，只剩最后一笔长长的钩。\n“有人要害我？”\n“有人报你失踪。”诺亚把两句话分开说，“现在还不知道是谁。日期也可能填错，不能拿它当死亡预告。”\n墙上的钟停在03:17。诺亚说，灰厂起火以后，镇上就困在这一夜里。有些路走着走着又绕回来，人的记忆也留不全；他不知道这一切怎么开始的，只知道纸和录音比人的记性可靠。\n你低头看照片。那些人站着，你也站着。至少拍照时，你们都还活着。\n“我得查清这张照片在哪儿拍的，还有是谁写了这份东西。”你说。\n诺亚点头，把镇上的街图铺开。邮局就在两条街外，案卷是从那里送来的。\n“先查寄件记录。沿着你确实走过的路找，别追每一句吓人的传闻。镇上的人记得不一样，就用牌把事情的先后摆出来；他们说过什么，你都记下。”\n你把热茶喝完，将照片和案卷收进外套。这一次，出门要做什么，你知道了。",
+      "button": "查清寄件人"
     },
     "en": {
-      "title": "The Stranger in the Duty Room",
-      "text": "Wet wool is the first thing you smell.\nYour coat hangs over a chair. Water runs from its cuff into a tin basin, already half an inch deep. Your shoes are clean. You cannot remember the road you took, or who helped you out of the coat.\nAcross the desk, a man is mending a glove. His uniform collar has worn pale. He holds a thread between his lips. A radio murmurs static. A kettle sits on the stove with newspaper stuffed into its spout.\n“Awake? Help yourself to a cup. Keep the chipped side away from your mouth.” He tucks the needle into his sleeve.\nYou do not drink. Tea has left a ring in the cup. It smells of cold iron.\n“I want to leave.”\n“Good. You haven't decided to take my job.”\nHe smiles, turns the glove over, and unpicks the two stitches he has just made. You wait for more. Instead, he pushes a thin file across the desk. Damp has glued its pages together. You separate them with your thumb and find your photograph.\nYou are due to go missing tomorrow. The reporting person’s name is folded into the cover. Only a heavily hooked final stroke shows.\n“The date is wrong.”\n“I said that too.” Noah, the Night Watch, bends over his thread.\nThe clock on the wall reads 03:17. A drop falls from your sleeve into the basin. A moment later, the radio repeats the sound.\nHe puts the sewing away and lays a soft-edged deck of cards between you. The glove has turned inside out. On its lining is the wet thumbprint you have just left on the file.\nThe water around it has dried.",
-      "button": "Take a Seat"
+      "title": "Your Missing-Person File",
+      "text": "When you wake, Noah, the Night Watch, is wringing out your coat. Blue thread mends one cuff. A damp photograph has been pushed into a pocket: you, standing in front of a group wrapped in blankets. You recognize your face, but none of the people behind it.\n“You came back along the harbor road,” Noah says, pouring half a cup of hot tea. “Collapsed at the door. I got you inside. That's all I saw.”\nThis is the duty room in Fogtown. You get up to look for a way out. Noah does not stop you, but hands you a file. You are the missing person. The date of disappearance is tomorrow. Water has blurred the reporting person's signature, leaving a long hooked final stroke.\n“Is someone threatening me?”\n“Someone reported you missing,” Noah says carefully. “We don't know who. The date might be a mistake. It isn't evidence that you're going to die.”\nThe wall clock reads 03:17. Noah explains that the town has been caught in this night since the fire at the Ash Works. Some roads lead back to their starting point. People's memories do not survive intact. He does not know how it began. He only knows that paper and recordings are more dependable than memory.\nYou study the photograph. Those people are standing. So are you. At least when it was taken, you were alive.\n“I need to find where this was taken, and who filed this report.”\nNoah spreads out a street map. The post office is two streets away; the file was delivered from there.\n“Start with the dispatch record. Follow the road you can prove you took. Don't chase every frightening rumor. When people disagree, use the cards to lay out what happened first. Write down their accounts.”\nYou finish the tea and put the photograph and file inside your coat. This time, you know what you are going out to do.",
+      "button": "Find the Sender"
     }
   },
   "home": {
     "zh": {
       "eyebrow": "案卷编号：03:17",
-      "subtitle": "有人替你记得",
-      "caption": "先坐下。外面的雨，还没有开始。",
-      "text": "你在一间漏雨的值班室醒来。守夜人诺亚递来冷茶，还有一份明天的失踪案卷。照片是你。沿着钟声、炉灰与海底的灯光，走过六处现场；有些对手会留在桌边，有些愿意陪你找出口。他们说，这是第一次见面。可你记得其中一人喝茶时，总把杯子的缺口朝外。",
+      "subtitle": "沿着来路，找到自己",
+      "caption": "失踪报告是一份求助，不是你的结局。",
+      "text": "你在雾镇的值班室醒来，身边是一份写着自己姓名、却注明天失踪的案卷。03:17的灰厂火警后，你究竟去了哪里？从寄件记录查起，循着钟楼录音、工厂交接单和撤离船的名单，找回一段能被证实的行程。每到一处，弄清上一段发生了什么，再决定下一步去哪里。",
       "start": "打开案卷",
-      "return": "重新调查",
-      "loop": "第{loop}次调查 · 椅子还给你留着"
+      "return": "复核这份案卷",
+      "loop": "第{loop}次调查 · 带着查明的结果上路"
     },
     "en": {
       "eyebrow": "CASE NUMBER: 03:17",
-      "subtitle": "Someone remembers for you.",
-      "caption": "Sit down. The rain outside has not started yet.",
-      "text": "You wake in a leaking duty room. Noah, the Night Watch, offers cold tea and tomorrow's missing-person file. The photograph is yours. Follow bells, furnace ash and a light beneath the water through six sites. Some opponents stay at the table. Others will help you find the exit. They say you have never met. Yet you remember how one of them drinks: always with the chipped side of the cup turned away.",
+      "subtitle": "Trace the road that brought you here.",
+      "caption": "A missing-person report is a request for help, not your ending.",
+      "text": "You wake in Fogtown beside a file reporting you missing tomorrow. Where did you go after the Ash Works fire at 03:17? Start with its postal trail. Follow the tower recording, factory handover and evacuation boat records to recover a journey that witnesses can verify. Establish what happened on each part of the road before deciding where to go next.",
       "start": "Open the File",
-      "return": "Reopen the Case",
-      "loop": "Investigation {loop} · Your chair is waiting"
+      "return": "Review the Case",
+      "loop": "Investigation {loop} · Travel with what you have learned"
     }
   },
   "chapters": {
@@ -44,22 +44,22 @@
       },
       "intro": {
         "zh": {
-          "title": "冷掉的早饭",
-          "text": "走出值班室时，你先闻到一股煮豆子的气味。街对面的熟食铺开着半扇门，老板把锅盖掀起一条缝，让蒸汽擦过自己发红的鼻尖。\n“还没走？”他问。\n你停在门口。“我们见过？”\n老板用勺背敲了敲锅沿。“我做生意的。谁站在外面不进来，我都这么问。”\n他递来一只搪瓷杯，杯口缺了块蓝漆。豆汤很热，胡椒呛得你咳了一声。老板笑了，把收音机拍响。天气预报里，一个女人正在念你的姓名。\n他立刻把声音拧小。\n“总把失踪的人安排在早饭时间。”他说，“影响胃口。”\n你问起停电。他说是星期三。隔壁买烟的人说星期日。两个人很快吵到谁欠了谁的钱，倒都坚持钟停在03:17。\n你低头放杯子，发现柜台下面挂着十六把钥匙。最末一把还在滴水。老板顺着你的目光看过去，笑意慢慢收住。\n“先别碰。那把门锁，还没装。”"
+          "title": "先查谁见过你",
+          "text": "熟食铺的老板认出了你的外套，替你把热汤端到靠窗的小桌。他说，起火那夜给撤离的人分过早饭，见过不少和你一样湿透的旅客。\n“那你见过我？”\n“见过这件衣服。脸我不敢认。那时天太黑，你们又都低着头。”\n你没有急着说服他，先把照片放在桌上。老板认出背景里的路栏，指出那不是镇外，而是去港口的转运点。他在案卷边上画了位置，愿意把自己确定见到的事情写下来。\n你接着去邮局。收信人尼尔斯正在整理那夜未送完的邮件。他能查封皮的中转标记，却不能替一封没写寄件地址的信猜主人。\n“先别认定有人在追你。”尼尔斯说，“弄清你从哪边回来，再查信从哪边来。两条路对上，才算找到线头。”\n你在街图上圈出转运点和邮局。接下来要问的是巡夜人、搬运工和桥边的目击者：他们看见的究竟是有人失踪，还是一个人已经回来，却没有被登记。"
         },
         "en": {
-          "title": "A Breakfast Gone Cold",
-          "text": "Outside the duty room, the first thing you notice is the smell of beans. The cook across the street has his door half open. He lifts the lid just far enough to let the steam warm his reddened nose.\n“Still here?” he asks.\n“Have we met?”\n“I run a business. I say that to anyone standing outside without buying.”\nHe hands you an enamel cup with a chip in its blue rim. The soup is hot. Pepper catches your throat. Laughing, he thumps the radio into life. A woman in the weather forecast is reading out your name.\nHe turns it down at once.\n“Missing people at breakfast. They ought to think about appetites.”\nYou ask about the outage. He says Wednesday. The man buying cigarettes next door says Sunday. Soon they are arguing about an unpaid debt. Both agree that the clock stopped at 03:17.\nYou set down the cup. Sixteen keys hang beneath the counter. The last is dripping onto the floor. The cook follows your gaze. His smile fades.\n“Leave that one. They haven't fitted its lock yet.”"
+          "title": "Ask Who Actually Saw You",
+          "text": "The cook recognizes your coat and brings soup to a small table by the window. He served breakfast to evacuees on the night of the fire. Many travelers were as soaked as you.\n“Then you saw me?”\n“I saw that coat. I won't swear to the face. It was dark, and everyone had their head down.”\nInstead of pressing him, you lay out the photograph. He recognizes the barrier in the background: a transfer point on the harbor road, not the edge of town. He marks it in your file and offers to write down what he is sure he saw.\nAt the post office, Nils, the Letter Receiver, is sorting the night's undelivered mail. He can trace a transit mark. He cannot guess who sent an envelope without a return address.\n“Don't start by deciding someone is hunting you,” Nils says. “Find out which way you came back. Then find out which way the letter came. When the routes meet, we'll have something.”\nYou circle the transfer point and post office on Noah's map. Now you must ask patrols, porters and the people by the bridge what they actually saw: someone disappearing, or someone returning without being recorded."
         }
       },
       "clear": {
         "zh": {
-          "title": "没人拆开的信",
-          "text": "你把最后一张牌收好，熟食铺的老板也恰好合上锅盖。街上的雾淡了些，露出对面邮局歪斜的招牌。\n柜台上放着一个没有封口的信封。寄件栏写着你的姓名，里面只有一小截蓝线。那截线打了个反结，你小时候学错了，到现在也改不过来。你翻过来，邮戳是明天，墨却已经吃进纸里。\n“镇上邮差办事一向慢。”老板说。\n“这算快吧。”\n“所以我才不喜欢。”\n门外有人停下脚步，愿意陪你走一段。你侧身让出路，把信封塞进外套。那截线挂住袖口的破洞，轻轻一扯，竟严丝合缝。\n出门时，老板把那把湿钥匙扔过来。你没问锁装好了没有。\n去钟楼的路就在邮局后面。你走出几步，回头想还那只杯子。老板已经把它洗净，倒扣在架上。\n你摸了摸手里。杯子还热着。"
+          "title": "信从钟楼转来",
+          "text": "最后一份目击记录送到邮局时，尼尔斯已经腾出了一块干净的柜台。你把说法摊开：有人记得你去过撤离点，有人见你从港口方向返回；没有一个人亲眼见到你失踪。\n“所以这份案卷证明有人在找你，不证明你死了。”你把这句话写在首页。\n尼尔斯从原来的信封夹层取出一小截蓝线。线头打着反结，和你袖口的补线一样。它让你怀疑寄件人碰过这件外套，但还不足以认定是谁。\n他把封皮翻过来，指给你看一枚清楚的中转戳：钟楼夜间值守处。钟楼既收求救录音，也替断了联系的地方转交信件；那里应该留着这封信被接收的记录。\n临走前，老板把汤装进有盖的饭盒，说留在路上喝。你这次记得道谢。\n你已知道自己曾经回来过。下一步不是追着“明天”两个字害怕，而是去钟楼查当夜的通话和转寄记录，找出那群裹毛毯的人与你有什么关系。"
         },
         "en": {
-          "title": "An Unopened Letter",
-          "text": "As you put away the last card, the cook replaces the lid on his pot. The fog has thinned enough to reveal the crooked post-office sign across the street.\nAn unsealed envelope lies on the counter. Your name is in the sender field. Inside is a short piece of blue thread. Its knot is tied backward, a habit you learned badly as a child and never corrected. The postmark is dated tomorrow, but its ink has soaked deep into the paper.\n“Our postman always takes his time,” the cook says.\n“This seems fairly quick.”\n“That's what bothers me.”\nSomeone pauses outside, willing to walk a little of the road with you. You make room in the doorway and pocket the envelope. The thread catches on your torn cuff. One small tug pulls the edges neatly together.\nOn your way out, the cook tosses you the wet key. You do not ask whether the lock has been fitted.\nThe road to the bell tower runs behind the post office. A few steps along it, you turn to return the cup. The cook has already washed it and placed it upside down on the shelf.\nYou look at your hand. Your cup is still warm."
+          "title": "The Letter Passed Through the Bell Tower",
+          "text": "By the time the final witness statement reaches the post office, Nils has cleared a counter for you. You lay out the accounts. Some people saw you at the evacuation point. Others saw you returning from the harbor. Nobody actually saw you disappear.\n“So the file proves someone was looking for me. It doesn't prove I died.” You write that on the first page.\nFrom a fold in the original envelope, Nils retrieves a short length of blue thread. Its backward knot matches the mend in your cuff. The sender may have handled your coat. That is a reason to investigate, not enough to name them.\nHe turns the envelope over and shows you a legible transit stamp: Bell Tower Night Office. The tower collected emergency recordings and forwarded mail for places cut off by the fire. It should have a record of accepting this envelope.\nBefore you leave, the cook packs soup into a lidded tin. You remember to thank him this time.\nYou now know that you once came back. The next step is to check the tower's calls and forwarding records, not fear the word “tomorrow.” Somewhere in those records may be the connection between you and the people in blankets."
         }
       }
     },
@@ -70,22 +70,22 @@
       },
       "intro": {
         "zh": {
-          "title": "钟声之前",
-          "text": "钟楼的木扶手有一层油腻的亮光。你沿楼梯上去，鞋底每响一次，楼上就迟半拍回一声。\n值守间里，一个瘦女人正给旧录音机换带。她把铅笔插进卷轴，慢慢转动，桌边摆着两瓣剥好的橘子。\n“吃一瓣？”\n你摇头。她自己吃了，酸得眯起眼。\n“好。至少还有人相信我。”\n你递上信封。她看见邮戳，把橘皮拢到一边，腾出一块干净地方。\n“这得往上送。我们只记声音，不管日期。”\n录音机忽然咔哒一响。你还没开口，磁带里的声音已经问：“楼上是谁？”\n女人没有看机器。她拉开抽屉，拿出一张印着问询项目的表，熟练地划掉第一行。\n“通常你会晚一点问。”她说。\n你走到窗边。楼顶的钟架空着，断绳从梁上垂下。巷子里却有人开始收摊，仿佛听到了报时。\n女人递来耳机，替你理好缠住衣领的线。她的手指很冷。\n“到第十六份就停。最后那一声，别跟着数。”"
+          "title": "把停电前后分开",
+          "text": "钟楼值守间里，录音员正在用铅笔收紧一盘松开的磁带。她看过中转戳，找到收件簿，又将一摞求救记录放在你面前。\n“信是在停电以后转来的。要查你之前做过什么，得先听停电以前。”\n她按下播放键。喇叭里的声音急得发哑，叫人离开灰厂正门，改走检修道，再去港口。那个说话的习惯让你心里一紧，听起来很像你。\n你问她是不是这台机器知道了将来的事。她摇头，指着收音线路和录制顺序：“这一盘是当时留下的通话，不是机器在替你预言。像不像你的声音，等找到接电话的人再认。”\n墙上的大钟同样停在03:17。她把钟表记录移到一旁，留下断电前的工班交接单、电话接通记录和磁带编号。这三样能互相核对，不必相信某个人说自己听到了几下钟声。\n你坐到桌边，把牌按“报警、撤离、停电”分开。你要查清这通电话从哪里打来、说话者为何知道检修道，再决定它能不能证明你当夜的身份。"
         },
         "en": {
-          "title": "Before the Chime",
-          "text": "The wooden banister is polished with old grease. As you climb, each footstep receives an answer from upstairs, half a beat late.\nIn the duty room, a thin woman is changing the tape in a recorder. She turns a spool with a pencil. Two peeled orange segments wait beside her elbow.\n“Want one?”\nYou decline. She eats it herself and winces at the sourness.\n“Good. Someone still trusts me.”\nYou show her the envelope. At the sight of the postmark, she sweeps aside the peel to make a clean space.\n“That goes upstairs. We deal in sounds, not dates.”\nThe recorder clicks. Before you can speak, your voice on the tape asks, “Who's upstairs?”\nWithout looking at the machine, she opens a drawer, takes out a printed interview sheet and crosses off the first question.\n“You usually wait a little longer.”\nAt the window, you can see the empty bell frame overhead. A broken rope hangs from the beam. Down in the alley, traders begin packing their stalls as though the hour has sounded.\nShe offers you the headphones and untangles the cable from your collar. Her fingers are cold.\n“Stop at the sixteenth statement. Don't count along with the last chime.”"
+          "title": "Separate Before and After the Outage",
+          "text": "In the tower's night office, a recording clerk uses a pencil to tighten a loose reel. After checking the transit stamp, she finds the incoming-mail ledger and sets a stack of emergency-call records before you.\n“The letter was forwarded after the outage. To find what you did before that, we need the earlier recordings.”\nShe presses Play. A hoarse, urgent voice tells people to leave the Ash Works by its service passage, not the main gate, and continue to the harbor. Something about the speaker's phrasing makes you sit still. It sounds like you.\nYou ask whether the machine knows the future. She shakes her head and points to the receiving line and reel order. “This is a call recorded when it happened. It isn't a prophecy. Find whoever answered it before you decide whose voice it is.”\nThe tower clock has stopped at 03:17 too. She sets its timings aside and keeps the shift handover sheet, call-connection log and reel number. Those can be checked against one another without trusting anyone's memory of how many bells rang.\nYou sit down and arrange cards for the alarm, the evacuation and the outage. You need to locate the call, understand why the speaker knew the service passage, and decide what it really proves about your part in that night."
         }
       },
       "clear": {
         "zh": {
-          "title": "没拔下来的插头",
-          "text": "楼梯间的脚步终于停了。你等了一会儿，没人推门进来。\n瘦女人把磁带装进纸盒，写上灰厂的地址。她的铅笔只剩半截，写到门牌号时断了一次。你把自己的笔递过去，她接得很快，仿佛早知道你会伸手。\n“那边有人修东西。”她说，“人也修，别抱太大希望。”\n你合上盒盖，里面传来一声轻咳。\n女人抬起眼。“没关系。只是带子绕得太紧。”\n盒盖里侧写着白室的门牌号，最后一个数字描过两遍。你拿笔的手停了一下，指腹上正沾着同样颜色的墨。\n你伸手去拔录音机的插头，指尖却只碰到一截齐根剪断的电线。切口积着灰，绝不是刚剪的。\n走出钟楼时，同行的人替你接过沉重的盒子。隔着纸板，你听见录音里的自己道了声谢。\n那人看着你。你还没有开口。"
+          "title": "电话来自灰厂",
+          "text": "录音的顺序终于对上了。灰厂先发出火警，随后有人用东炉值班室的电话要求开启检修道；03:17断电，钟停了，后面的报时不能再当作准确时间。\n录音员让你对着空白带念了一遍地址，再把两段声音接着放。停顿、改口和咬字都很相近，但她仍将结论写得谨慎：说话者很可能是你，需要现场证词确认。\n电话登记表给出了更实在的东西：灰厂东炉值班室的分机号，以及一条从检修道通往港口的撤离路线。原信封则是通过停电后的应急邮袋转来，钟楼只做中转，之后交给雾镇邮局。寄件人到底是谁，钟楼没有留下可靠姓名。\n“有人指挥撤离，不等于他就是起火的人。”录音员说。你没有反驳。听见自己的声音以后，你确实想过最坏的可能。\n她把通话抄本夹进案卷。你在地图上沿检修道画了一条线，到灰厂厂门便停笔。下一步要找那夜守着这扇门的人，核对你是在帮忙救人，还是留下了别的麻烦。"
         },
         "en": {
-          "title": "The Plug You Didn't Pull",
-          "text": "The footsteps in the stairwell stop at last. You wait. Nobody opens the door.\nThe thin woman packs the tape into a cardboard box and writes the Ash Works address on its lid. Her pencil is a stub. It breaks halfway through the building number. You offer your pen. She takes it so quickly she seems to have been waiting for your hand.\n“They repair things there. People too. Keep your expectations sensible.”\nYou close the box. A small cough comes from inside.\nShe looks up. “Nothing to worry about. The tape is wound too tight.”\nThe White Room address is written inside the lid, its last digit retraced. Your hand stops over the pen. The same color of ink stains your fingertip.\nYou reach to unplug the recorder. Your fingers find a cable cut off close to the casing. Dust has settled into the end. It was cut a long time ago.\nOutside, a companion takes the heavy box from you. Through the cardboard, you hear your recorded voice thank them.\nThey look at you.\nYou haven't spoken yet."
+          "title": "The Call Came from the Ash Works",
+          "text": "The recordings finally fall into order. The Ash Works raised a fire alarm. Someone then called from the east-furnace duty room to request the service exit. At 03:17 the power failed and the clock stopped; later bell timings cannot be treated as precise.\nThe clerk records you reading an address and plays the two voices together. The pauses, corrections and pronunciation are close, but she writes a careful conclusion: probably the same speaker, requiring confirmation at the scene.\nThe telephone ledger provides firmer evidence: the east-furnace duty-room extension and an evacuation route from the service passage to the harbor. The original envelope arrived in an emergency mailbag after the outage. The tower only forwarded it to Fogtown's post office. The tower has no reliable name for its sender.\n“Directing an evacuation doesn't make someone the person who started the fire,” the clerk says. You do not argue. Hearing what might be your own voice, you had begun to fear exactly that.\nShe clips the transcript into your file. On the map you follow the service passage as far as the factory gate. The next person you need is whoever held that gate on the night of the fire. They may be able to tell you whether you helped people escape, or left some other trouble behind."
         }
       }
     },
@@ -96,22 +96,22 @@
       },
       "intro": {
         "zh": {
-          "title": "防火女的午饭",
-          "text": "灰厂的门卫室飘着白菜汤的气味。你推门时，防火女正用勺子撇油，旧雨衣搭在膝上。炉膛里没有火，锅里的汤却一直开着。\n“碗在上面。”她说。\n你没动。她回头看了看你，又看了看锅。\n“放心，难吃归难吃，没下别的东西。”\n你接过碗。热气松开了冻僵的指头。她从你手里拿走录音盒，擦去底部的煤灰，在交接簿上签字。笔尖划过纸面时，你听见了一小段钟声。\n防火女停了一下，只把字写完。\n午饭过后，她挽起袖子检查炉门。封条贴得很齐，每一道折角都压过两遍。你问她，厂子关了二十七年，为什么还值班。\n“机器停了，工钱可没结。”她说，“再说，里面的东西不知道停产。”\n炉门深处有人轻轻敲了一下。\n她把勺子搁下，戴上隔热手套。方才还在开玩笑的脸慢慢绷紧。那只手套在袖口处有一道蓝线，缝得很细。\n“汤喝完就把碗放着。”她对你说，“不管它待会儿喊谁的名字。”"
+          "title": "她守的是撤离的门",
+          "text": "灰厂的门卫室里还有半锅白菜汤。防火女给你盛了一碗，接过钟楼的通话抄本，读到“检修道”三个字时便点了头。\n“这句话是你喊的。我听见了。”\n她卷起袖子，露出手臂上旧的烫伤。那夜炉区起火，她留下压住防火门，让人从检修道通过。你接过一盏手灯，负责把后面的撤离者领去港口。\n你摸了摸外套上的蓝线。她说你当时被门上的铁钩扯破了袖口。她给了针和蓝线，你怕耽误撤离，自己草草缝好，还把收尾的线结打反了。\n“那我不是……”\n“我只看见你在救人。”她把后半句话接过去，“可我没跟到港口，不能替后面的事担保。先别凭我一句话松气，也别凭一句录音就怪自己。”\n她将工班表和疏散图放到桌上，叫你去找那晚领工具、开门、清点人数的人。他们各自只看见一段，合起来才能证明最后一批人何时离厂。汤还有些烫，你端稳碗，头一次觉得自己能把这件事查完。"
         },
         "en": {
-          "title": "The Fire Warden's Lunch",
-          "text": "Cabbage soup scents the gatehouse at Ash Works. When you push the door open, the Fire Warden is skimming fat from the pot, an old raincoat spread across her knees. There is no fire in the stove. The soup keeps boiling.\n“Bowls are up there.”\nYou hesitate. She looks from you to the pot.\n“It's bad, I'll grant you. Nothing added to make it worse.”\nYou take a bowl. Its heat loosens your stiff fingers. She accepts the tape box, wipes coal dust from its base and signs the handover book. As the nib moves across the page, you hear a brief chime.\nShe pauses, then finishes her signature.\nAfter lunch, she rolls up her sleeves to inspect the furnace door. Every seal is straight, every corner pressed down twice. You ask why she still works here after twenty-seven years of closure.\n“The machines stopped. They never settled the wages. Besides, what's in there hasn't heard about the closure.”\nSomething taps from deep inside the furnace.\nShe puts down her spoon and draws on insulated gloves. The humor leaves her face. A fine line of blue stitching repairs one glove at the cuff.\n“Finish your soup and leave the bowl,” she says. “Whatever name it starts calling.”"
+          "title": "The Door She Held Open",
+          "text": "Half a pot of cabbage soup remains in the Ash Works gatehouse. The Fire Warden serves you a bowl and reads the tower's transcript. She nods at the words “service passage.”\n“You said that. I heard you.”\nRolling up her sleeve, she shows you an old burn. When the furnace area caught fire, she stayed to hold the fire door so people could reach the service passage. You took a hand lamp and led the people at the rear toward the harbor.\nYou touch the blue stitching on your coat. She remembers the torn cuff catching on a doorway hook. She gave you a needle and blue thread; unwilling to delay the evacuation, you patched it yourself, finishing with your usual backward knot.\n“Then I wasn't—”\n“I saw you helping people,” she finishes. “But I didn't go to the harbor. I can't promise what happened after that. Don't stop investigating on my word, and don't blame yourself on the strength of one recording.”\nShe lays a shift sheet and evacuation plan on the table. The people who issued tools, opened the passage and counted the evacuees each saw part of the night. Together their accounts can establish when the last group left.\nThe soup is still too hot. You steady the bowl. For the first time, this feels like something you may actually be able to finish."
         }
       },
       "clear": {
         "zh": {
-          "title": "关火以后",
-          "text": "最后一张交接单压进抽屉，炉门后终于安静下来。防火女摘下一只手套，在桌边坐了很久，肩膀一点点低下去。\n你想问她里面是什么，话到嘴边，改成了：“还有汤吗？”\n她看了你一眼，伸手把锅推近。\n“凉的。别挑。”\n断电的复印机忽然送出一张照片。纸面温热，拍的是沉港码头。防火女用指甲挑开粘在角上的一片灰，露出一只缺蓝漆的杯子，倒扣在栏杆上。\n你认出了杯口的缺口。照片里的水面，却映着一扇钟楼的窗。\n“走靠左那条路。”她说，“涨水时别问路人时间。”\n她把一卷蓝线放进你掌心，怕你推辞，先剪下一截。“给破衣服用的。不是让你给这里办葬礼。”\n离开前，你把空碗放进水池。池底的水没有流向下水口，而是缓缓爬上那只碗，洗净了你的指纹。"
+          "title": "有人看见你把人带出去",
+          "text": "值班记录、工具借用单和撤离点的照片摆在一起，你终于认出了照片里那盏手灯。领灯的人是你，站在身后的，是从检修道出来的最后一批人。\n照片拍在厂门外。交接单上写着去向：港口最后一班撤离船。几位当事人的签名能对上，人数也没有在出厂时少掉。\n你把原先写在页边的“可能引发火警”划掉。现在不是因为谁安慰了你，而是因为记录证明，火警发生时你还在领取引导工具，随后一直在协助撤离。\n防火女收起空碗，问你还要不要再添一点。你说得趁路还清楚，先去港口。她将一份交接单的副本包进油纸，免得再被雨浸坏。\n“厂门外面我就看不见了。”她说，“问清那条船接了谁，别只看它开走没有。”\n你把补着蓝线的袖口拉平。这里已经回答了你在火里做过什么，接下来要回答的是：那些人有没有上船，你又为什么会一个人回到雾镇。"
         },
         "en": {
-          "title": "After the Heat",
-          "text": "The last transfer slip goes into the drawer. At last, the furnace falls quiet. The Fire Warden removes one glove and sits at the table until her shoulders begin to ease.\nYou mean to ask what is inside. Instead, you ask whether there is any soup left.\nShe looks at you and pushes the pot closer.\n“Cold. Don't complain.”\nThe disconnected copier feeds out a photograph. The paper is warm. It shows a quay at Sunken Harbor. She picks a flake of ash from one corner, revealing a blue-rimmed cup upside down on the rail.\nYou recognize the chip. In the photographed water, a bell-tower window is reflected.\n“Take the left road,” she says. “When the water rises, don't ask anyone the time.”\nShe presses a spool of blue thread into your palm and cuts a length before you can refuse. “For torn clothes. You needn’t hold a funeral for the place.”\nBefore leaving, you put your bowl in the sink. The water in the bottom moves away from the drain. Slowly, it climbs the bowl and washes off your fingerprints."
+          "title": "They Saw You Lead People Out",
+          "text": "The duty record, tool-issue sheet and photograph from the evacuation point are finally side by side. You recognize the hand lamp. You signed for it. The people behind you are the last group to come through the service passage.\nThe photograph was taken outside the factory gate. The handover slip names their destination: the final evacuation boat at the harbor. The witnesses' signatures agree. Nobody was lost from the group before it left the factory.\nYou cross out “possibly involved in starting the fire,” which you had written in the margin. Not because someone reassured you, but because the records place you collecting guide equipment when the alarm was raised and helping with the evacuation afterward.\nThe Fire Warden takes your empty bowl and offers more soup. You say you should reach the harbor while the route is clear. She wraps a copy of the handover slip in oilpaper to keep it dry.\n“I couldn't see beyond the gate,” she says. “Find out who that boat took. Don't settle for knowing it sailed.”\nYou straighten the blue-mended cuff. This place has answered what you did during the fire. Next you must find whether those people boarded, and why you ended up alone in Fogtown."
         }
       }
     },
@@ -122,22 +122,22 @@
       },
       "intro": {
         "zh": {
-          "title": "先到的回信",
-          "text": "沉港没有海风，空气里的盐却咬得嘴唇发疼。码头木板底下有水，你走一步，下面就传来一步湿漉漉的回声。\n灯塔守护者伊莱坐在矮凳上，拆一盏满是铜绿的航灯。他把螺丝按大小排进烟盒，手边烧着一壶水。壶嘴塞了根木棍，免得它叫。\n“水开了怎么知道？”你问。\n“它会骂人。”\n你看了看他。他拧下一颗螺丝，嘴角动了一下。\n“等久了，我也会。”\n你递上灰厂的照片。他没有接，只把灯芯挑高，透过磨花的玻璃照了一下。照片上的水纹动了。\n木板下面，有一束光先亮起来。冷白的，直直穿过黑水。片刻以后，他手里的航灯才点着。\n他低头看表，拿铅笔记下一分钟的误差，又在旧记录旁添了一横。\n“以前只早几秒。”\n水壶忽然发出短促的嘶声。你伸手去拿，守护者按住你的手腕。他的掌心很暖，力道很稳。\n“先等它把话说完。”"
+          "title": "没有座位，不等于没有上船",
+          "text": "港务室的桌子很窄，你得先挪开一堆救生绳，才能摊下灰厂的交接单。值班人查到对应的船次，却在乘客座位表上找不到你的名字。\n你盯着那一格空白，刚刚放下的担忧又回来了。\n灯塔守护者伊莱从外面进来，把修到一半的航灯放到地上。他说，那夜担架太占地方，你把自己的编号座位让了出去，后来站在船工旁边帮着扶人。他只记得你登船，不能凭记忆证明你在哪里下船。\n“这表按座位抄。没占座位的人容易漏。”伊莱把表翻到背面，“查船工的交接记录，不要拿一个空格替自己写结局。”\n你问起灯塔收到的异常信号。他指了指接线簿：有一段来源标着白室的录音，会触发值守灯的提醒。那是需要核对来路的信息，不是海里有人叫你下去。\n伊莱要你先核清最后一班船的乘客、帮工和靠岸去向。只有将这三件事接起来，才知道漏掉的是一个名字，还是一个真正没到岸的人。"
         },
         "en": {
-          "title": "The Reply Arrives First",
-          "text": "There is no sea breeze at Sunken Harbor, but salt stings your lips. Water lies beneath the quay. Each step brings a wet answering step from below.\nEli, the Lighthouse Warden, sits on a low stool, taking apart a navigation lamp green with corrosion. He sorts the screws by size inside a tobacco tin. A kettle boils beside him, a stick wedged in its spout to keep it quiet.\n“How do you know when it's ready?”\n“It starts swearing.”\nYou look at him. He removes another screw. One corner of his mouth moves.\n“Given enough time, so do I.”\nYou offer the Ash Works photograph. He leaves it in your hand and raises the wick, shining through the scratched glass. The photographed water stirs.\nA beam appears beneath the boards: cold white, straight through the black water. Only then does the lamp in his hands light up.\nHe checks his watch and notes a difference of one minute, adding a mark beside an older entry.\n“It used to be a few seconds.”\nThe kettle gives a sharp hiss. You reach for it. He catches your wrist with a warm, steady hand.\n“Let it finish.”"
+          "title": "No Seat Is Not the Same as No Passenger",
+          "text": "The harbor office desk is so narrow that you must move a coil of rescue rope before laying out the factory handover slip. The clerk finds the right sailing, but not your name on its numbered passenger list.\nYou stare at the blank space. The fear you had begun to put down returns.\nEli, the Lighthouse Keeper, comes in and sets a half-repaired lamp on the floor. He remembers that a stretcher needed extra room. You gave up your numbered seat and stood beside the crew, helping support the passengers. He saw you board. Memory alone cannot prove where you got off.\n“This list was copied from the seats. Helpers are easy to miss.” Eli turns it over. “Check the crew's handover record. Don't let an empty box write your ending.”\nYou ask about the strange signal received by the lighthouse. He points to the connection book: a recording marked as coming from the White Room triggers the watch lamp's alert. It is a message whose source needs checking, not somebody under the water calling you in.\nFirst you must reconcile the last boat's passengers, helpers and landing. Only then can you tell whether the records lost a name, or whether someone truly failed to reach the shore."
         }
       },
       "clear": {
         "zh": {
-          "title": "第三个乘客",
-          "text": "守护者把拆下的灯罩装回去，用袖口擦了一遍。水下没有再亮。他没有显出高兴，只在记录簿上把最后一横描深。\n出港的船停在台阶下。摆渡人蹲着补鞋，针从厚皮里穿过，发出细小的吱声。你把港务簿递过去，他翻到失踪乘客那页，指着一张照片问是不是你。\n脸是你的。姓名不是。\n你身后有人低声念出另一个名字，听上去很熟。那人却立刻否认自己说过话。\n摆渡人把鞋穿好，站起来试了试。\n“一张脸省不了两张票。”他说。\n你正要回答，远处电报机响起来。纸带一路吐到地上，上面只有雪站的地址和三个字：别回答。\n纸带末尾有一块被拇指抹开的墨，正好遮住发报人。你把话咽了回去。摆渡人等得太久，便把刚才的问题又问了一遍。"
+          "title": "漏掉的是帮工栏",
+          "text": "船长将座位表推到一边，找出了船工留存的工作联。你的名字就写在背面：协助照看伤员，与最后一批乘客同船，站在船尾。\n两张表并没有真的多出或少掉一个人。有人抄报撤离情况时，只看了编号座位，把没有座位的你漏在了统计外。你把这处错误圈起来，请船长在更正旁签字。\n靠岸记录说明，这条船到了雪站下方的接驳码头，乘客交给了站方。伊莱把码头的交接编号写给你。他提醒你，这只能证明船靠了岸；最后有没有进站、有没有到接待处，还得查那边的回执。\n你将航线沿着地图往北接。起火、出厂、上船，这几段已经连在一起。海面没有替你藏起另一个身份，你只是一直拿着一张没有帮工栏的表找自己。\n船长替你系紧装案卷的布带。“要是找到站里的那一联，也给我带个口信。”\n你答应了。你去雪站，不再是寻找自己落水的证据，而是去领取那份也许早已证明你平安到达的记录。"
         },
         "en": {
-          "title": "The Third Passenger",
-          "text": "The Warden fits the lamp glass back into place and wipes it with his cuff. No further light comes from below. He does not seem relieved. He only presses harder on the last mark in his book.\nA boat waits at the steps. The ferryman is crouched over a shoe repair. The needle squeaks as it passes through the thick leather. He takes the harbor ledger, finds the missing-passenger page and asks whether the photograph is yours.\nYour face. Another name.\nBehind you, someone quietly says a third name. It sounds familiar. When you turn, they deny having spoken.\nThe ferryman puts on his shoe and tests it.\n“One face won't get you two tickets.”\nBefore you can answer, a telegraph starts clattering farther along the quay. Its paper unrolls onto the floor. It gives the Snow Station address and three words: DO NOT ANSWER.\nA thumb has smeared the ink over the sender’s name. You swallow your answer.\nThe ferryman waits too long, then asks you the question again."
+          "title": "The Helper's Entry Was Left Out",
+          "text": "The captain sets the seat list aside and finds the crew's retained working copy. Your name is on the back: assisting injured travelers, aboard with the final group, stationed at the stern.\nThe two sheets do not describe an extra person or a missing body. When someone copied the evacuation figures, they used only the numbered seats and omitted you from the count. You circle the error and ask the captain to sign the correction.\nThe landing log places the boat at the transfer pier below Snow Station, where its passengers were handed over to station staff. Eli writes down the handover reference. He reminds you that this proves the boat reached land, not that every passenger entered the station or reached reception. Those arrivals require the station's receipt.\nYou extend the route northward on your map. The fire, the factory departure and the boat journey now join together. The sea has not hidden a second identity. You have been trying to find yourself on a form with no space for a helper.\nThe captain tightens the strap around your file. “If you find the station copy, send word.”\nYou promise. You are going to Snow Station to find a record of safe arrival, not to look for proof that you drowned."
         }
       }
     },
@@ -148,22 +148,22 @@
       },
       "intro": {
         "zh": {
-          "title": "给迟到的人留的座位",
-          "text": "雪站候车室的暖气烫得碰不得，窗内却结着一层薄冰。值班员蹲在长椅旁，用旧报纸垫平一条短腿。你等他站起来，才发现他把最干净的那个座位留给了你。\n“晚点多久？”你问。\n“看你坐多久。”\n他从铁皮盒里摸出一块薄荷糖，想了想，又放回去，换成两块。糖纸冻脆了，捏在手里细细作响。\n墙上的广播报出一趟没有终点的车。值班员照常在黑板上添了一笔，随后拧开电台。你的求救声从喇叭里挤出来，夹着急促的喘息。\n他慢慢把音量调小。\n“这次能听清地址了。”他说。\n求救声说到最后一个数字时，迟疑了一下，又重念一遍。你认得那个停顿，刚才看盒盖时，自己也这么念过。\n你看着电台。开关一直停在接收。\n录音里的你说出白室的门牌号。那串数字刚说完，值班员的手指便停在旋钮上。你以为他听到了什么，直到他把手摊给你看。\n掌心的糖已经化了。两张糖纸之间，夹着一张湿透的车票。\n上面的出发站，叫雾镇。"
+          "title": "把来的人一个个对上",
+          "text": "雪站值班员接过交接编号，先让你靠着暖气坐一会儿。你的手冻得翻不开纸，他从铁盒里拿出一颗薄荷糖，连同热水一起推过来。\n“找最后那班船？人在站里登记过，表不在这本里。”\n他带你到转运窗口。码头记上岸，站房记进站，接待处还留着一张到站回执。三个地方的记录不能混作一张，否则漏掉一笔，就会把仍在赶路的人当成失踪。\n你正在比对名字，电台放出一段旧广播：“别再报失踪，带上到站回执。”声音像你，发送来源写着白室。你已经不敢只凭声音认人，但这句话至少说清了要找什么。\n值班员把音量调小，没有关掉。“先查回执。查到了，再去问谁发的。它说得准，也不表示它每件事都知道。”\n你将码头交接单压在窗口，开始核对这批人到达后的去向。若连你也到过白室，就能把完整的活人行程放到那份失踪报告旁边，看清究竟是哪一步出了错。"
         },
         "en": {
-          "title": "A Seat for the Late Arrival",
-          "text": "The waiting-room radiator is too hot to touch. A film of ice coats the inside of the window. The attendant crouches beside a bench, folding old newspaper beneath its short leg. When he stands, you see that he has saved the cleanest seat for you.\n“How late is the train?”\n“Depends how long you sit.”\nHe finds a peppermint in a tin, considers it, then replaces it with two. The brittle wrappers crackle in his fingers.\nA service with no destination is announced over the loudspeaker. He adds a routine mark to the blackboard and turns on the radio. Your distress call forces its way through the speaker, broken by hard breathing.\nHe lowers the volume slowly.\n“We can make out the address this time.”\nAt the last digit, the voice hesitates and repeats it. You recognize the pause. That is how you read the address inside the box lid.\nThe switch has stayed on receive.\nYour recorded voice gives the White Room building number. As the final digit sounds, his fingers stop on the dial. You think he has heard something. Then he shows you his open hand.\nThe sweets have melted. A sodden ticket lies between their two wrappers.\nThe departure station is Fogtown."
+          "title": "Match the People Who Arrived",
+          "text": "The station attendant takes the handover reference and asks you to sit by the radiator. Your fingers are too cold to separate the pages. He puts a mint and a cup of hot water beside you.\n“The last boat? Those people were registered here. Wrong book, though.”\nHe takes you to the transfer window. The pier recorded disembarkation; the station recorded entry; reception kept an arrival receipt. The three must not be treated as one list. Otherwise a missing entry can turn somebody still making their way to reception into a missing person.\nAs you compare names, the radio plays an old message: “Do not report yourself missing again. Bring the arrival receipt.” The voice sounds like you. The recorded source is the White Room. You are no longer willing to identify someone by sound alone, but at least the message says exactly what to look for.\nThe attendant lowers the volume without switching it off. “Find the receipt first. Then ask who sent that. Being right about one thing doesn't mean a voice knows everything.”\nYou set the pier handover slip on the counter and start tracing the group after it landed. If you reached the White Room too, you can place a complete living journey beside the missing-person report and see where the account went wrong."
         }
       },
       "clear": {
         "zh": {
-          "title": "不用归还的外套",
-          "text": "站台尽头没有火车，只有一盏被雪压歪的灯。你把最后一份口供摊在灯下，纸上完整记着刚才那场牌局。连你反悔过的一步也在。\n记录时间是03:17。\n值班员替你拍掉肩上的雪，想把自己的外套借给你。你说有了。他摸了摸那层薄得透风的料子，没有争，只把一根缝衣针别在你的袖口。\n“脱线了就补。别等回来再说。”\n你问他自己怎么御寒。\n他朝候车室抬了抬下巴。“我有暖气。烫得很。”\n通往白室的小门在站房背后。门上没有把手，只留着一个旧钥匙孔。你把雾镇带来的钥匙靠近，锁舌便自己退了回去。\n身后，长椅吱呀一响。\n值班员正在给下一个人垫椅脚。"
+          "title": "最后一批人已到站",
+          "text": "到站回执从接待处的留底册里找到了。船上的乘客都在，名字旁有接收人的签字；你的名字写在下方的随行引导员一栏。那夜你下船后，陪最后一批人走进雪站；离站页又记着，你随后沿步道去了白室。\n值班员又找来医务记录。你的袖口有蓝线，手上沾着炉灰，疲惫得坐下就睡。这些普通的细节，与灰厂和码头的人各自记下的事情吻合。你不是一张名单上的猜测，是被不同地方的人亲眼接到过的人。\n“这批人没有谁还留在船上。”值班员说。\n你把这句话写给船长，又在自己的案卷里补上：已确认到达雪站。胸口那股一直绷着的力气松开了，你才发现薄荷糖还攥在手里。\n剩下的问题更具体了：既然你已安全到站，为什么白室寄出了你的失踪报告？广播又为什么叫你不要再报一次？\n站方将回执副本交给你，背面标出白室的外侧接待门和登记窗口。你有了能与火场交接、船工记录相互印证的最后一联。这次去白室，你要带着证据问清楚，不再只递上自己的姓名。"
         },
         "en": {
-          "title": "A Coat You Needn't Return",
-          "text": "There is no train at the end of the platform. Only a lamp bent beneath the snow. In its light, you spread out the last statement. It describes the match you have just played, including a move you thought better of making.\nThe time is 03:17.\nThe attendant brushes snow from your shoulders and offers you his coat. You tell him you have one. He feels the thin material, makes no argument and pins a sewing needle to your cuff.\n“If a seam goes, mend it. Don't leave it until you get back.”\nYou ask how he will keep warm.\nHe nods toward the waiting room. “I've got the radiator. Hot as anything.”\nThe small door to the White Room stands behind the station building. No handle, just an old keyhole. As you lift the Fogtown key toward it, the bolt withdraws by itself.\nBehind you, the bench creaks.\nThe attendant is folding paper under its leg for the next arrival."
+          "title": "The Last Group Reached the Station",
+          "text": "The arrival receipt is found in reception's retained ledger. All the boat's passengers are there, each with a receiving signature. Your name appears below them under “accompanying guide.” After disembarking, you brought the last group into Snow Station. A departure entry records that you later took the footpath toward the White Room.\nThe attendant also finds a medical note. Blue stitching at your cuff. Furnace ash on your hands. Exhausted enough to fall asleep as soon as you sat down. These ordinary details match what people at the factory and pier recorded independently. You are not a guess on a list. People in different places actually received you.\n“Nobody from that group was left on the boat,” the attendant says.\nYou put that in a message for the captain and add a line to your own file: arrival at Snow Station confirmed. As the tension leaves your chest, you realize you are still holding the mint.\nThe questions left are more precise. If you arrived safely, why did the White Room send a report that you were missing? Why did the broadcast warn you not to file another one?\nThe station gives you a receipt copy with the White Room's outer reception entrance and registration window marked on the back. You have the final document needed to corroborate the factory handover and crew record. This time you will bring evidence, not only your name."
         }
       }
     },
@@ -174,63 +174,63 @@
       },
       "intro": {
         "zh": {
-          "title": "对面的椅子",
-          "text": "白室闻起来像刚拖过的地板。没有窗，墙脚却留着一圈潮痕。桌上放着三只搪瓷杯，水面都很平，杯底的影子却各自晃动。\n记录员替你拉开椅子。他穿着熨得整齐的衬衫，袖口还别着一枚生锈的曲别针。\n“外套不用脱。”他说，“这里坐不久。”\n你问他多久算久。他翻开案卷，没有答，只把一张照片推到桌子中央。照片里的你正坐在这把椅子上，身后的人被裁掉了一半。\n失踪者、目击者、记录人，三栏都是你的姓名。登记栏的最后一笔拖出一个钩。你刚才替记录员补完门牌号，落笔时也是这样。\n你碰了一下纸角，灰厂那股白菜汤的气味忽然浮上来。记录员也闻到了。他咽了一下，继续摆正桌上的笔。\n“问完能走？”你说。\n“能离开这间屋子。”\n你看着他。他把那句话划掉，重新写了一遍，一个字没改。\n门后的灯亮了。你听到衣料摩擦椅背的声音，对面那把空椅子慢慢向后挪开。\n记录员终于松开了手里的笔。\n“现在，请你听听另一份说法。”"
+          "title": "把整条路放到桌上",
+          "text": "白室的接待桌上放着一只印泥盒。你没有先报姓名，而是依次摆出灰厂的交接单、船工的工作联和雪站的到站回执。纸上不同的签名，终于把同一个人的路连到了这里。\n记录员看得很慢。他承认自己见过这件蓝线外套，却不愿只凭这点就认定寄件人。他把原报告的留底取出来，请你先核对登记时间、收件路径和签名，免得又把一份猜测抄成事实。\n“你们能把东西寄到过去？”你问。\n他指向墙边的退件槽。“我们试过。投进去的纸和录音，会在这一夜较早的收件处出现。人过不去。钟楼的转寄件和雪站那段广播，都能从这里查到去向。”\n你问，这是不是意味着还得再填一张失踪表。\n“先别填。”他说，“你手里已经有到达记录。查清原来那张为什么写，才知道还需不需要另一张。”\n走廊有两处出口：内侧通道回雾镇，外侧是撤离者离开的路。你把雪站画出的接待门圈在地图上。这一回，你要先听完证词、核完原件，再决定走哪一扇门。"
         },
         "en": {
-          "title": "The Opposite Chair",
-          "text": "The White Room smells of a freshly mopped floor. It has no windows, though damp marks ring the walls. Three enamel cups stand on the table. Their water is still. The shadows at their bases move independently.\nThe recording officer pulls out a chair. His shirt is neatly pressed. A rusted paper clip is pinned to one cuff.\n“Keep your coat on. You won't be sitting long.”\nYou ask what counts as long. He opens the file instead of answering and places a photograph in the middle of the table. You are seated in this chair. The person behind you has been cropped in half.\nMissing person. Witness. Recording officer. Your name fills all three fields. The last stroke in the reporting field ends in a hook. You made the same mark a moment ago, finishing the address for him.\nYou touch the paper. The smell of cabbage soup from Ash Works rises briefly between you. He smells it too. He swallows and straightens the pens.\n“Can I go when we're finished?”\n“You can leave this room.”\nYou look at him. He crosses out the sentence and writes it again without changing a word.\nA light comes on behind the door. Cloth brushes against a chair back. The empty seat opposite you begins sliding away from the table.\nAt last, he puts down his pen.\n“Now I'd like you to hear the other account.”"
+          "title": "Put the Whole Journey on the Table",
+          "text": "An ink pad sits on the White Room reception desk. Instead of giving your name first, you lay out the factory handover slip, the crew's working copy and the station arrival receipt. Their different signatures finally join one person's journey all the way to this room.\nThe clerk reads slowly. He remembers the blue-mended coat, but will not identify the sender on that alone. He retrieves the retained copy of the original report and asks you to compare its filing time, delivery route and signature before another assumption is copied as fact.\n“Can you send things into the past?”\nHe points to the return slot in the wall. “We've tested it. Papers and recordings put through there appear at receiving points earlier in this same night. People cannot go through. The forwarded envelope at the Bell Tower and the station broadcast can both be traced from here.”\nYou ask whether that means filing another missing-person report.\n“Not yet,” he says. “You already have an arrival record. Find out why the first report was written before deciding you need another.”\nThere are two routes out of the corridor. The inner passage returns to Fogtown. The outer one is the evacuees' way out. You circle the reception entrance marked by the station. This time you will hear the accounts and check the originals before choosing a door."
         }
       },
       "clear": {
         "zh": {
-          "title": "还热着的杯子",
-          "text": "最后一张牌落下，白室里响起水壶烧开的声音。记录员低头看了看桌面，没有去关。\n桌角的录音机转了起来。里面有人喘着气，问有没有人听见。你认得那口气：在雪站，你曾嫌它太吵，把音量拧小过。\n“先把地址说清楚。”你对着话筒报出白室的门牌号。最后一个数字念得含糊，你又重念一遍。磁带里那个人也停在同一个地方。\n你松开话筒，手心已经湿了。\n记录员递来一张空白的失踪登记表。“没人报失踪，就不会有人出去找。”\n照片是你的。表格还空着。你想起一路为你留门、留汤的人，把自己的姓名写了上去。失踪日期那一栏，你迟疑很久，最后填了明天。至少还有一天，你想。\n登记人处的最后一笔，拖出一个收不住的钩。\n你怕过去的自己在码头说错话，在电报纸上写下雪站的地址和“别回答”。拇指蹭过未干的墨，抹掉了发报人的名字。\n防火女给的蓝线还在口袋里。你剪下一截，打了个反结，装进写着自己姓名的信封。那把湿钥匙压住封口；你把它们连同登记表推进墙边的退件槽，想给走不出去的人留一条路。\n铁槽里响了一声勺子碰锅沿的轻响。随后，你听见熟食铺的天气预报开始念你的姓名。\n你把手伸回去，只摸到潮湿的铁皮。\n墙上的潮痕退下去，露出一道窄门。登记表已经不在桌上；留下的复写纸，正是你醒来时翻过的第一页。\n“我把它送回去了。”你说。\n记录员看着你手上的墨，没有说“终于”。\n你推开门。\n雾镇的值班室里，守夜人诺亚正往杯子里添水。钟停在03:17。他抬头看你，先看脸，再看你身后，壶嘴便在杯沿上多停了一会儿。\n“姓名？”他问。\n你没有立刻回答。桌上的失踪案卷还是明天的日期，纸角却多了一块汤渍。你把一路带来的东西放在上面，压住了照片。\n“你这里有几把椅子？”你说。\n守夜人低头数了一遍。屋里明明安静，你却听见有人在门外忍笑。\n“今天大概要少一把。”他答。\n你替身后的人挪开椅子，把外套脱下来，搭回原来的椅背。木腿擦过地板，发出很普通、很难听的一声。那声音让你的手停了一下。\n你知道是谁寄了那封信。可守夜人拆掉的两针、手套里面的指印，还有水底那束光，仍然没有人认领。\n窗外的雾仍旧不散。你坐下时，掌心被杯子烫痛。缺掉的蓝漆正一点点浮回来；这回，你没有把登记人那一栏折进封皮。"
+          "title": "这次不再寄出失踪报告",
+          "text": "最后几份记录核完，埃文将原报告的复写联推到你面前。签名完整地留在第二张纸上，连你写错后改过的一个字都在。\n登记人是你。\n你把照片和蓝线放在旁边。记录员说，上一次你走到白室时，没有带齐沿路的交接凭据，只记得自己护送过一批人，却不知道他们后来去了哪里。你怕他们还在等，也怕自己从此没人记得，便填了一份寻找自己的求救报告，想让收件人沿路再找一次。\n你摸到签名末尾的长钩，那种手腕用力的习惯忽然接上了记忆。\n“日期是我故意填的。”你说，“我以为写明天，就能给救我的人留出一天。”\n那不是死亡预告，只是一个疲惫的人在求救时想出的笨办法。你终于想起了上一次交寄时的经过：当时你从补好的袖口剪下蓝线，打了个自己惯用的反结，作为认领信物；照片、报告和信封一同进了退件槽，经钟楼转回雾镇。它们比写下它们的你更早到达，这才成了你醒来时的案卷。\n“寄完以后呢？”你问。\n记录员指着内侧通道：“你回去等人来找。后来又带着同一份报告回来。每次只换一张失踪表，沿路缺掉的证明却始终没有补齐。”\n这一次，桌上不只有你的签名。灰厂的人证明你领着大家离厂，船工证明你让出座位后仍在船上帮忙，雪站的人证明你和那批旅客平安到达。那些留下的证词彼此相合。你终于能确定：你救助过他们，自己也已经走出了危险的那一段路。\n你没有再填失踪申请。在旧案卷的“寻获”一栏，你写下到达地点和经过，请记录员附上三处凭据。他将案卷合好，指向雪站在地图上标出的外侧门。那是撤离者走过的路。你以前不知道它通往哪里，只敢回雾镇等待；现在你知道大家已经到了，也知道自己该往哪边走。\n雪站广播里的那句话也有了来处。你对着录音机说：“别再报失踪，带上到站回执。”随后把路线副本和录音送入退件槽，收件处写雪站。你送回去的是一条能照着做的指引，不是另一份要求别人寻找你的失踪报告。\n外门推开，走廊尽头透进晨光。你站到门外，听见远处有人收起路障。风很冷，吹在脸上的感觉却很清楚。\n你可以离开了。\n临走前，你将完成的案卷抱回雾镇。诺亚看见你带回的到站回执，起身去搬椅子。你告诉他，那份报告是自己写的，路已经查明，最后那批人也已找到。\n“那杯茶还要吗？”他问。\n“要。喝完就走。”\n你把案卷摊开给他看，没有藏起登记人的名字。外面的天在慢慢变亮。你若再沿着这条路走，是去把结果告诉仍在等消息的人，不是因为不知道自己是谁。"
         },
         "en": {
-          "title": "The Cup Is Still Warm",
-          "text": "The last card lands. Somewhere in the White Room, a kettle comes to the boil. The recording officer looks down at the table. He makes no move to switch it off.\nThe recorder at the corner of the desk begins turning. Someone is breathing hard, asking whether anyone can hear. You know that breath. At Snow Station, you turned it down because it was too loud.\n“Give them the address.” Into the microphone, you read the White Room building number. You stumble over the last digit and repeat it. The person on the tape pauses in the same place.\nYou let go of the microphone. Your palm is wet.\nThe officer offers a blank missing-person form. “Nobody goes looking until somebody reports it.”\nThe photograph is yours. The form is empty. You remember everyone who has held a door or saved a meal for you, and write your name. At the date, you hesitate. Then you put tomorrow. At least there is still a day, you think.\nThe last stroke of the reporting person’s name ends in a hook you cannot quite control.\nAfraid your earlier self will answer the ferryman, you write the Snow Station address and DO NOT ANSWER on telegraph paper. Your thumb catches the wet ink, smearing the sender’s name.\nThe Fire Warden’s blue thread is still in your pocket. You cut a length, tie the backward knot, and put it in an envelope bearing your name. The wet key holds down its flap. You push everything, with the report, into the return slot in the wall, hoping to leave a route for someone who cannot get out.\nInside the metal chute, a spoon taps the edge of a pot. Then the cook’s weather forecast begins reading your name.\nYou reach back in. Your fingers find only damp metal.\nThe wet mark retreats down the wall, revealing a narrow door. The form has left the desk. Its carbon copy is the first page you opened when you woke.\n“I sent it back,” you say.\nThe officer looks at the ink on your hand. He does not say, “At last.”\nYou open the door.\nIn the Fogtown duty room, the Night Watch, Noah is pouring water. The clock reads 03:17. He looks at your face, then at the space behind you. The kettle lingers above the rim.\n“Name?”\nYou do not answer at once. The missing-person file is still dated tomorrow, but a soup stain marks one corner. You place the things you have brought back over the photograph.\n“How many chairs do you have?”\nHe counts them. The room is quiet. You hear someone trying not to laugh outside the door.\n“One short today, I think.”\nYou pull out a chair for whoever has followed you and hang your coat over the chair where you first found it. Its wooden legs scrape the floor with an ordinary, ugly sound. Your hand stops at the familiarity of it.\nYou know who sent the letter. Nobody has accounted for the two stitches the Night Watch unpicked, the print inside his glove, or the light beneath the water.\nThe fog has not cleared. As you sit, the cup burns your palm. The missing blue enamel is returning. This time, you leave the reporting person’s name unfolded."
+          "title": "No More Missing-Person Appeals",
+          "text": "When the final records have been checked, Evan slides the report's carbon copy toward you. The second sheet preserves the complete signature, even a word corrected halfway through writing it.\nYou were the reporting person.\nYou put the photograph and blue thread beside it. The clerk explains that on your previous visit you had brought none of the route's corroborating documents. You remembered escorting people, but did not know where they had ended up. Afraid they were still waiting, and afraid you would be forgotten yourself, you filed an appeal to find you. You hoped its recipient would retrace the journey.\nYour finger follows the long hook at the end of the signature. The familiar pressure of your own wrist brings back the moment of writing it.\n“I chose that date,” you say. “I thought putting tomorrow would give whoever came to help one more day.”\nIt was never a prediction of death. It was a frightened, exhausted person's imperfect request for help. You remember the earlier attempt: you had cut blue thread from the mended cuff and tied your usual backward knot as a way to identify the sender. The photograph, report and envelope went through the return slot and were forwarded through the Bell Tower to Fogtown. They arrived earlier in the night than the person who had written them. That was the file beside you when you woke.\n“What did I do after sending it?”\nThe clerk points to the inner passage. “Went back to wait for someone to find you. Later you returned with the same report. You kept replacing the missing-person form without bringing the proof missing from the route.”\nThis time, more than your own signature lies on the desk. Factory witnesses place you guiding the group out. The crew confirms you stayed aboard to help after giving up your seat. Station staff received both you and the travelers safely. Their independent accounts agree. You helped them, and you too reached the end of the dangerous part of the journey.\nYou do not complete another appeal. In the old file's “Found” field, you record where you arrived and what happened, and ask the clerk to attach the three sets of evidence. He closes the file and points to the outer door marked on the station map: the route used by the evacuees. Before, you had not known where it led and had gone back to Fogtown to wait. Now you know the group arrived, and which way you can go.\nThe station warning now has a source too. You speak into the recorder: “Do not report yourself missing again. Bring the arrival receipt.” You send the recording and a route copy through the slot, addressed to Snow Station. What you send back is usable guidance, not another appeal asking someone else to find you.\nThe outer door opens. Morning light reaches the end of the corridor. Outside, you hear somebody taking down a road barrier. The wind is cold and unmistakable against your face.\nYou can leave.\nBefore you go, you carry the completed file back to Fogtown. Seeing the arrival receipt, Noah gets up to fetch a chair. You tell him that you wrote the report, the route is now established, and the last group has been found.\n“Still want that tea?”\n“Yes. Then I'll be on my way.”\nYou open the file for him without hiding the reporting person's name. Outside, the sky is growing light. If you travel this route again, it will be to bring the answer to people still waiting for news, not because you no longer know who you are."
         }
       }
     }
   },
   "companions": {
     "zh": {
-      "rewardTitle": "桌边多了一把椅子",
-      "rewardText": "对手把手从牌上收回来，暂时没有走。也许只是等雨停，也许和你一样，不愿再独自上路。",
-      "recruit": "{boss}拉过一把椅子。“先说好，路上要是有热饭，你请。”说着，替你扶住了那扇往回合的门。",
-      "recruitGold": "{boss}把金边的那张记录递过来，纸角还带着体温。“收好。别又当成别人的东西。”",
-      "recruitAgain": "{boss}看了看你的旧外套，往旁边挪出一点位置。“还是这里破了。坐下，我找根线。”",
-      "cardNote": "曾经坐在对面的人。如今愿意替你扶一会儿门。",
-      "ordinaryReward": "桌面上留下几张记录，纸页带着刚才那个人指尖的温度。选一张，带去下一处现场。",
-      "selectionHint": "选中Boss奖励牌后，对方才成为同行证人。原有卡牌技能、费用与组卡规则继续生效。"
+      "rewardTitle": "一份愿意留下的证词",
+      "rewardText": "对手把自己的见闻说清，愿意在记录上署名。你可以邀请对方同行，也可以带着证词继续查下去。",
+      "recruit": "{boss}在口供副本上签了名。“我看到的就是这些。前面的事，我陪你再问。”",
+      "recruitGold": "{boss}把仔细核对过的记录交给你。“这份留底你拿着，有不明白的，我们就按当时的次序查。”",
+      "recruitAgain": "{boss}翻到上次签过名的那一页。“这段已经对过，别丢。说说这回又查到了什么。”",
+      "cardNote": "曾经与你核对当夜经过的证人，愿意继续同行。",
+      "ordinaryReward": "桌上留下了几份现场记录。选一份带走，作为下一段调查的参照。",
+      "selectionHint": "选中Boss奖励牌后，对方才成为同行证人。没有同行的人也会留下核实过的书面证词；原有卡牌技能、费用与组卡规则继续生效。"
     },
     "en": {
-      "rewardTitle": "Another Chair at the Table",
-      "rewardText": "Your opponent takes a hand off the cards but does not leave. Perhaps they are waiting for the rain to stop. Perhaps they are tired of traveling alone.",
-      "recruit": "{boss} pulls up a chair. “If there's a hot meal on the road, you're buying.” Then they hold the door before it swings shut.",
-      "recruitGold": "{boss} hands over the record with the gold border. The corner is still warm. “Keep it. Don't mistake it for someone else's again.”",
-      "recruitAgain": "{boss} notices your old coat and makes room. “Torn in the same place. Sit down. I'll find some thread.”",
-      "cardNote": "Someone who once sat opposite you. Now willing to hold the door for a while.",
-      "ordinaryReward": "Several records remain on the table, the paper still warm from the other person's fingers. Choose one for the next site.",
-      "selectionHint": "A Boss becomes a witness traveling with you only when you choose its reward card. Existing abilities, costs and deck rules still apply."
+      "rewardTitle": "An Account Worth Keeping",
+      "rewardText": "Your opponent has explained what they witnessed and is willing to sign the account. You may invite them along, or carry their statement to the next site.",
+      "recruit": "{boss} signs the statement copy. “That is what I saw. For what happened farther on, I can help you ask.”",
+      "recruitGold": "{boss} hands you the carefully checked account. “Keep this copy. If anything is unclear, we can go through the sequence again.”",
+      "recruitAgain": "{boss} opens the page signed on your last visit. “We checked this part. Keep it. Now tell me what else you found.”",
+      "cardNote": "A witness who helped establish the events of that night and is willing to travel with you.",
+      "ordinaryReward": "Several records from this site remain on the table. Choose one to carry as a reference for the next part of the investigation.",
+      "selectionHint": "A Boss travels with you only when you choose its reward card. Those who stay behind can still provide verified written testimony. Existing abilities, costs and deck rules still apply."
     }
   },
   "loop": {
     "zh": {
-      "button": "推开值班室的门",
-      "continue": "继续调查",
-      "notice": "新一轮调查开始时，同行者、已获卡牌、收藏、最近保存的牌组和重战解锁都会保留。",
-      "returnTitle": "茶还没有凉透",
-      "returnText": "铁盆放在原来的位置。你的外套也在，只是袖口缝上了一截蓝线。守夜人诺亚听见椅脚响，抬头数了数门口的人，默默多拿出几个杯子。\n“人多了，水得兑淡一点。”\n你闻到冷茶里的铁味。墙上的钟仍停在03:17，可收音机这回没有抢先替你说话。你把案卷摊开，终于没有躲过那一栏：登记人，还是你的姓名。\n“我想离开这里。”你说。\n他捏着针，等了一会儿。\n“我知道。先把外套穿好。”",
+      "button": "把案卷带回雾镇",
+      "continue": "复核这份案卷",
+      "notice": "再次调查会保留同行者、已获卡牌、收藏、最近保存的牌组和重战解锁；已经查明的结局不会被抹去。",
+      "returnTitle": "把结果带回去",
+      "returnText": "诺亚把完成的案卷放到桌子中间。失踪报告没有被烧掉，也没有换成一张干净的空白纸；你当时的惊慌、填错的日期和后来补齐的证明，都留在里面。\n“港口的人还等着回话。”你说，“还有灰厂那边，我答应过要告诉他们。”\n他递来一只带盖的杯子，免得路上把茶洒了。“这回不用找你自己了。”\n你点头。你已经在外门看见晨光，现在回来，是要把结果交回证人手里，再核对别人尚未说清的经历。案卷里的旧记录仍写着03:17；你知道那是停电的时刻，不必再把每一页都当成对自己的预告。\n你收好已经核实的记录。愿意同行的人可以一起走，留下的人也能收到消息。你们不必每次都从一张空白的表开始。",
       "countLabel": "第{loop}次调查"
     },
     "en": {
-      "button": "Open the Duty Room Door",
-      "continue": "Continue the Investigation",
-      "notice": "The next investigation keeps your companions, acquired cards, collection, latest saved deck and replay unlocks.",
-      "returnTitle": "The Tea Is Still Warm",
-      "returnText": "The tin basin is where you left it. So is your coat, with a length of blue thread mending its cuff. Hearing the chair scrape, the Night Watch, Noah counts the people in the doorway and brings out more cups.\n“More mouths. I'll have to water it down.”\nThe tea smells of iron. The clock still reads 03:17. This time, the radio does not speak ahead of you. You open the file without hiding the reporting field. It is still your name.\n“I want to leave,” you say.\nHe waits with the needle between his fingers.\n“I know. Put your coat on first.”",
+      "button": "Bring the File Back to Fogtown",
+      "continue": "Review the Case",
+      "notice": "Further investigations retain companions, acquired cards, collection, your latest saved deck and replay unlocks. The resolved ending is not undone.",
+      "returnTitle": "Bring the Answer Back",
+      "returnText": "Noah puts the completed file in the middle of the desk. The missing-person report has not been burned or replaced with a clean sheet. Your fear, the date you chose and the evidence later added to correct the account all remain in it.\n“The harbor is waiting for word,” you say. “I promised the people at the factory too.”\nHe gives you a cup with a lid so you will not spill the tea. “At least this time you're not looking for yourself.”\nYou nod. You have seen morning light through the outer door. You came back to return the findings to witnesses and check experiences that remain unclear. The old records still say 03:17. You know that was when the power failed. You no longer have to read every page as a prediction of your own fate.\nYou pack the verified accounts. Whoever wants to come can travel with you; those who stay can still receive the news. You do not have to begin with an empty form every time.",
       "countLabel": "Investigation {loop}"
     }
   }

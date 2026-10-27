@@ -1235,3 +1235,33 @@ html[lang="en"] .table-tools .replay-entry::after{content:'Replay'}html[lang="en
 .game-shell .hand .card.hand-playable,
 .game-shell .hand .card.freeze-target{filter:brightness(1.08)}
 .game-shell .hand .card.hand-unplayable:not(.freeze-target){filter:brightness(.68)}
+
+/* Boss identities share the title width; costs keep their own line. */
+.game-shell .board .card.boss-card .top,
+.game-shell .board .card.boss-card.e .top,
+.game-shell .hand .card.boss-card .top{display:grid;grid-template-columns:minmax(0,1fr);gap:1px;padding-right:0}
+.game-shell .board .card.boss-card .top b,
+.game-shell .hand .card.boss-card .top b{min-width:0;width:100%;padding-right:0;-webkit-line-clamp:3;line-height:1.2}
+.game-shell .board .card.boss-card.rare-card .top b,
+.game-shell .hand .card.boss-card.rare-card .top b{padding-right:0;-webkit-line-clamp:3}
+.game-shell .hand .card.boss-card .top i{justify-self:end;font-size:.72em;line-height:1}
+.game-shell .card.boss-card.rare-card .rarity-mark{top:auto;bottom:3px;left:calc(50% - .6em);right:auto}
+@media(max-width:760px) and (orientation:portrait){
+ .game-shell .table-brand strong{font-size:12px;line-height:1.1;letter-spacing:.03em;white-space:nowrap}
+ .game-shell .table-brand small{gap:1px}
+ .game-shell .table-brand .boss-name{font-size:10px;line-height:1.05}
+}
+
+html[lang="en"] .game-shell .board .card.boss-card .top b,
+html[lang="en"] .game-shell .hand .card.boss-card .top b{-webkit-line-clamp:4;line-height:1.2}
+@media(max-width:600px),(max-height:500px) and (orientation:landscape){
+ .game-shell .hand .card.boss-card{min-width:64px;min-height:70px;padding:2px}
+ .game-shell .board .card.boss-card{padding:2px}
+ .game-shell .board .card.boss-card .top,
+ .game-shell .board .card.boss-card.e .top{margin:0;padding:0}
+ .game-shell .board .card.boss-card .sg,
+ .game-shell .hand .card.boss-card .sg{max-height:1.1em;flex:none}
+}
+@media(max-width:360px) and (orientation:portrait){
+ html:not([lang="en"]) .game-shell .board .card.boss-card .top b{font-size:.8em}
+}

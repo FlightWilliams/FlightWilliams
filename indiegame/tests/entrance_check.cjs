@@ -8,7 +8,7 @@ const LEGACY=JSON.parse(zlib.inflateSync(Buffer.from(fixture[1],'base64')).toStr
  const browser=await chromium.launch({executablePath:process.env.CHROMIUM_PATH||(fs.existsSync('/usr/bin/chromium')?'/usr/bin/chromium':undefined),args:['--no-sandbox']});
  const results=[],errors=[];const check=async(name,fn)=>{try{const evidence=await fn();results.push({name,passed:true,...(evidence?{evidence}:{})});console.log('PASS',name)}catch(e){results.push({name,passed:false,error:e.message});throw e}};
  try{
-  const entrances=read('boss-entrances'),campaigns=read('campaigns'),identities=read('boss-identities');
+  const entrances=read('boss-entrances'),campaigns=read('campaigns'),identities=read('boss-identities'),labels=read('card-names');
   await check('All 96 campaign Bosses have complete bilingual entrances matched to their level and identity',()=>{
    const stages=Object.entries(campaigns).flatMap(([world,rows])=>rows.map((st,index)=>({world,level:index+1,boss:st.boss})));assert.equal(stages.length,96);assert.deepEqual(new Set(Object.keys(entrances)),new Set(stages.map(x=>x.boss)));
    for(const st of stages){const row=entrances[st.boss],id=identities[st.boss];assert.equal(row.world,st.world);assert.equal(row.level,st.level);for(const lang of ['zh','en']){const c=row[lang];assert.ok(c.title&&c.text);assert.ok(c.text.split('\n').filter(Boolean).length>=3,st.boss);assert.ok((c.title+c.text).includes(id[lang]),st.boss+' lacks '+lang+' name')}assert.ok(row.zh.text.length>=140);assert.ok(!/[\u3400-\u9fff]/.test(row.en.title+row.en.text))}
@@ -22,11 +22,12 @@ const LEGACY=JSON.parse(zlib.inflateSync(Buffer.from(fixture[1],'base64')).toStr
   await page.goto(BASE);await ready();await page.locator('#nm').fill('Rowan');await page.locator('[data-a="start"]').click();await pending();
   let prepared;
   await check('A new run shows its entrance before any deal, coin or enemy deployment',async()=>{
+   assert.ok((await page.locator('#entrance-title').innerText()).startsWith(labels[await page.evaluate(()=>G.st.boss)].zh+' · '));
    assert.equal(await page.locator('.boss-entrance').count(),1);assert.equal(await page.locator('.initiative-coin-screen').count(),0);
    const r=await page.evaluate(()=>({phase:G.phase,hand:G.hand.length,enemyHand:G.eh.length,p:G.p.filter(Boolean).length,e:G.e.filter(Boolean).length,draw:G.draw.map(c=>c.n),ed:G.ed.map(c=>c.n),enemyTurn:G.enemyDeployedTurn,coin:G.coinBonusGranted}));assert.equal(r.phase,'encounter-intro');assert.deepEqual([r.hand,r.enemyHand,r.p,r.e,r.enemyTurn],[0,0,0,0,0]);assert.equal(r.coin,false);prepared=r;return {preparedPlayerDeck:r.draw.length,loadedScript:await page.evaluate(()=>[...document.scripts].find(n=>/pact\./.test(n.src))?.src.split('/').pop()),loadedStyle:await page.evaluate(()=>[...document.styleSheets].find(s=>s.href&&/table\./.test(s.href))?.href.split('/').pop())};
   });
   await check('Changing language, returning home and refreshing preserve the pending scene and exact prepared decks',async()=>{
-   const before=await graph();await page.locator('.boss-entrance [data-language="en"]').click();assert.deepEqual(await graph(),before);assert.ok(await page.locator('.boss-entrance').evaluate(n=>{const copy=n.cloneNode(true);copy.querySelectorAll('[data-language]').forEach(x=>x.remove());return !/[\u3400-\u9fff]/.test(copy.textContent)}));
+   const before=await graph();await page.locator('.boss-entrance [data-language="en"]').click();assert.ok((await page.locator('#entrance-title').innerText()).startsWith(labels[await page.evaluate(()=>G.st.boss)].en+' · '));assert.deepEqual(await graph(),before);assert.ok(await page.locator('.boss-entrance').evaluate(n=>{const copy=n.cloneNode(true);copy.querySelectorAll('[data-language]').forEach(x=>x.remove());return !/[\u3400-\u9fff]/.test(copy.textContent)}));
    await page.locator('.boss-entrance [data-boss-entrance="home"]').click();assert.equal(await page.evaluate(()=>G),null);await page.reload();await ready();assert.equal(await page.evaluate(()=>OV),'title');await page.locator('.home-start[data-checkpoint="continue"]').click();await pending();assert.deepEqual(await graph(),before);assert.equal(await page.locator('.initiative-coin-screen').count(),0);
   });
   await check('Skipping the scene opens the real coin and preserves the five/six-card opening and draw order',async()=>{

@@ -816,8 +816,8 @@
     "en": "The patrol boots stay clean. Mud caught in the soles comes from a river that was filled in. The time clock at the Ash Works prints tomorrow’s date."
   },
   "炽砂修灯师·瑟罗": {
-    "zh": "防火女把汤盛进铁碗，又塞来一卷蓝线。“衣服破了就补，别连人也扔掉。”她守着冷炉，雨衣袖口一直发烫。你认出线头上的小剪口，和那封早已寄到的信里一模一样。",
-    "en": "The Fire Warden serves soup in a tin bowl and adds a spool of blue thread. “Mend torn clothes. No need to throw away the person.” She keeps a cold furnace; her raincoat cuffs stay hot. The tiny cut at the thread’s end matches the letter that arrived long ago."
+    "zh": "防火女将白菜汤推到你面前。那夜炉区起火，她守着防火门，让撤离的人从检修道通过；你的袖口被铁钩扯破，她递来针和蓝线，你自己匆匆补好。“结打反了也先穿着。出去以后再拆，别站在门口挡路。”",
+    "en": "The Fire Warden sets cabbage soup before you. When the furnace area caught fire that night, she held the fire door while people used the service passage. When a hook tore your cuff, she gave you a needle and blue thread; you patched it in a hurry. “The knot is backward. Wear it anyway. Fix it outside, and keep the doorway clear.”"
   },
   "炽砂铠卫·维罗": {
     "zh": "他的证件照闭着眼，见到你之后，照片里的眼睛才睁开。灰厂的打卡钟打印着明天的日期。",
@@ -3184,12 +3184,12 @@
     "en": "Cora, filed as Etched Wyrm. Sheets of scale remain beneath the bridge. The largest is wider than the missing car’s door. A new gold mark stops outside the door. Every companion denies drawing it."
   },
   "苔庭铠卫·雅恩": {
-    "zh": "诺亚，档案称“守夜人”。守夜人把缺口朝外的搪瓷杯推过来，瞥了一眼停在03:17的表。“登记人也得签字。”他说。你认得最后那一笔，想问是谁写的，他却先把案卷折好，压在自己的值班簿下面。",
-    "en": "Noah, filed as Night Watch. The Night Watch pushes over an enamel cup, its chipped side turned away, and glances at the watch stopped at 03:17. “The reporting person signs too.” You recognize the last stroke. Before you can ask who wrote it, he folds the file under his own duty book."
+    "zh": "诺亚，档案称“守夜人”。身后的钟停在03:17。他把热茶放在值班簿旁，只在自己见过的那一段路后签字。“我见你回来，没见你失踪。”他说。说完，他将案卷摊开，把邮局的转寄戳指给你看。",
+    "en": "Noah, filed as Night Watch. The clock behind him reads 03:17. He sets hot tea beside his duty book and signs only the part of the route he witnessed. “I saw you return. I did not see you disappear.” He opens the file and points out the post office transit stamp."
   },
   "鎏金·苔庭铠卫·雅恩": {
-    "zh": "诺亚，档案称“守夜人”。金边值班簿的最后一页没有封住。守夜人递来一支笔，笔帽上的齿印恰好贴合你的牙。“多放一把椅子吧。”他说。钟停在03:17，你终于看见，报失踪和接班，用的是同一张表。",
-    "en": "Noah, filed as Night Watch. The gold-edged duty book lies open at its last page. The pen he offers has tooth marks that fit your teeth. “Another chair, perhaps.” The clock reads 03:17. At last you see that reporting someone missing and taking a shift use the same form."
+    "zh": "诺亚，档案称“守夜人”。金边值班簿里留着不同人的原话，没有替他们补上漂亮的结尾。他给你腾出一把椅子：“记不住就一起查。别因为一栏空着，就急着把人划掉。”",
+    "en": "Noah, filed as Night Watch. His gold-edged duty book keeps each witness’s own words without improving the ending. He clears a chair for you. “If memory fails, we can check together. An empty field is no reason to cross a person out.”"
   },
   "苔庭裂角客领誓·阿珀": {
     "zh": "亚伯，档案称“断角客”。他额头上的硬角刮伤了测量尺。档案写着先天畸形，附上的出生照里却没有这个人。",
@@ -3632,12 +3632,12 @@
     "en": "Conrad, filed as Bilge Guest. He examines every recovered body but never writes a cause of death. A warning on the back is signed with your former address."
   },
   "暮潮灯议长·艾汀": {
-    "zh": "伊莱，档案称“灯塔守护者”。灯塔守护者擦镜片时，总给你留一块干布。“先看落款，再问是谁回信。”水底的光又早亮了一次。你翻开纸页，末尾那块抹开的墨，刚好盖住了自己名字的最后一笔。",
-    "en": "Eli, filed as Lighthouse Warden. The Lighthouse Warden leaves you a dry cloth for the lens. “Check the signature before asking who replied.” The underwater light comes early again. At the foot of the letter, a smear of ink covers the last stroke of your name."
+    "zh": "伊莱，档案称“灯塔守护者”。他将座位表翻到背面，指着船工留下的帮工记录。“让出座位的人，也能留在船上。”说完，他递给你一块干布，让你先擦净交接编号，再去问靠岸的人。",
+    "en": "Eli, filed as Lighthouse Warden. He turns the seat list over and points to the crew’s helper entry. “Giving up a seat does not mean leaving the boat.” He offers a dry cloth so you can clean the transfer number before asking who received the landing party."
   },
   "鎏金·暮潮灯议长·艾汀": {
-    "zh": "伊莱，档案称“灯塔守护者”。灯塔守护者把旧灯芯叠进烟盒，替你按住被风吹起的回信。“知道谁寄的，不等于知道谁在水底。”他把灯转向你身后。纸上的字迹没有变，那束光却仍比你们先到。",
-    "en": "Eli, filed as Lighthouse Warden. The Lighthouse Warden folds the old wick into a tobacco tin and holds down your letter. “Knowing the sender doesn’t tell you who’s under the water.” He turns the lamp behind you. The handwriting is unchanged. The light still arrives before either of you."
+    "zh": "伊莱，档案称“灯塔守护者”。航灯的接线簿标着白室的线路。他能查清灯为什么亮，却不肯拿一束水面倒影证明谁已经到站。“去找接收人的签字。”他把干燥的船册副本放进你的案卷。",
+    "en": "Eli, filed as Lighthouse Warden. The lamp’s wiring log names the White Room line. He can trace the signal, but a reflection on the water cannot prove a passenger arrived. “Find the receiving signature.” He slips a dry copy of the boat record into your file."
   },
   "暮潮浮辉使领誓·塔尘": {
     "zh": "泰丝，档案称“雾中影”。他的声音只在海水碰到鞋边时出现，嘴唇从来不动。干燥的录音带上，却留着持续的吞咽声。",

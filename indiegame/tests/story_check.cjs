@@ -14,10 +14,15 @@ const LEGACY_SAVE=JSON.parse(zlib.inflateSync(Buffer.from('eJztXVlT20ge/ypTqn30T
   const context=await browser.newContext({viewport:{width:390,height:759},isMobile:true,hasTouch:true,reducedMotion:'reduce'});
   await require('./auto_entrances.cjs')(context);await context.addInitScript(()=>{localStorage.setItem('lo_tutorial_v1','done');localStorage.setItem('lo_music_mute','1')});
   const page=await context.newPage();page.on('pageerror',error=>errors.push(error.message));
-  await check('All 988 short names are unique, bounded and retain matching Gilded identities',()=>{
-   const names=JSON.parse(fs.readFileSync(path.join(ROOT,'data/card-names.json'),'utf8')),cards=JSON.parse(fs.readFileSync(path.join(ROOT,'data/cards.json'),'utf8'));
+  await check('All 988 names retain unique Boss role prefixes, bounded non-Boss names and matching Gilded identities',()=>{
+   const names=JSON.parse(fs.readFileSync(path.join(ROOT,'data/card-names.json'),'utf8')),cards=JSON.parse(fs.readFileSync(path.join(ROOT,'data/cards.json'),'utf8')),identities=JSON.parse(fs.readFileSync(path.join(ROOT,'data/boss-identities.json'),'utf8'));
    assert.equal(Object.keys(names).length,988);assert.equal(new Set(Object.values(names).map(x=>x.zh)).size,988);assert.equal(new Set(Object.values(names).map(x=>x.en)).size,988);
-   for(const card of cards){const n=names[card.n];assert.ok(n&&n.zh&&n.en);assert.ok(n.zh.length<=(card.rarity==='rare'?8:5),card.n+': '+n.zh);assert.ok(n.en.length<=25,n.en);assert.ok(!/[\u3400-\u9fff]/.test(n.en));if(card.rarity==='rare'){assert.equal(n.zh,'鎏金·'+names[card.baseName].zh);assert.equal(n.en,'Gilded '+names[card.baseName].en)}}
+   for(const card of cards){
+    const n=names[card.n],identity=identities[card.baseName||card.n],gold=card.rarity==='rare';assert.ok(n&&n.zh&&n.en);
+    if(identity){assert.equal(n.zh,(gold?'鎏金·':'')+identity.roleZh+identity.zh);assert.equal(n.en,(gold?'Gilded ':'')+identity.roleEn+' '+identity.en)}
+    else{assert.ok(n.zh.length<=(gold?8:5),card.n+': '+n.zh);assert.ok(n.en.length<=25,n.en)}
+    assert.ok(!/[\u3400-\u9fff]/.test(n.en));if(gold){assert.equal(n.zh,'鎏金·'+names[card.baseName].zh);assert.equal(n.en,'Gilded '+names[card.baseName].en)}
+   }
    return {cards:cards.length,maxChineseLength:Math.max(...Object.values(names).map(x=>x.zh.length)),maxEnglishLength:Math.max(...Object.values(names).map(x=>x.en.length))};
   });
   await check('Every card has new bilingual narrative and every chapter foreshadows the loop',()=>{

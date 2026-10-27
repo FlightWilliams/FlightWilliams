@@ -7,8 +7,13 @@ def check(name,value):assert value,name;checks.append({'name':name,'passed':True
 check('988 distinct original card names',len(cards)==len(names)==988)
 check('Every mechanical card field matches its baseline',all({k:v for k,v in c.items()if k not in ['n','lore','alias','baseName','game']}==baseline[c['n']]for c in cards))
 check('All 988 English names and descriptions exist',set(english)==names and all(v['name']and v['lore']and not re.search('[\u3400-\u9fff]',v['name']+v['lore'])for v in english.values()))
-labels=data('card-names.json');stories=data('card-stories.json');joins=data('companion-dialogue.json');plot=data('loop-story.json')
-check('All 988 cards have unique short bilingual display names',set(labels)==names and len({v['zh']for v in labels.values()})==988 and len({v['en']for v in labels.values()})==988 and all(2<=len(v['zh'])<=(8 if byname[n].get('rarity')=='rare'else 5)and len(v['en'])<=25 for n,v in labels.items()))
+labels=data('card-names.json');stories=data('card-stories.json');joins=data('companion-dialogue.json');plot=data('loop-story.json');identities=data('boss-identities.json')
+def valid_display_name(n,label):
+ card=byname[n];identity=identities.get(card.get('baseName',n));gold=card.get('rarity')=='rare'
+ if identity:
+  return label=={'zh':('鎏金·'if gold else'')+identity['roleZh']+identity['zh'],'en':('Gilded 'if gold else'')+identity['roleEn']+' '+identity['en']}
+ return 2<=len(label['zh'])<=(8 if gold else 5)and len(label['en'])<=25
+check('All 988 display names are unique, with role-prefixed Bosses and bounded non-Boss names',set(labels)==names and len({v['zh']for v in labels.values()})==988 and len({v['en']for v in labels.values()})==988 and all(valid_display_name(n,v)for n,v in labels.items()))
 check('Every card has newly written bilingual story flavour',set(stories)==names and all(v.get('zh')and v.get('en')and not re.search('[\u3400-\u9fff]',v['en'])for v in stories.values()))
 check('Six chapters lead back to the first world and all main Bosses can join',set(plot['chapters'])==set(campaign)and all(st['boss']in joins and joins[st['boss']].get('join')and joins[st['boss']].get('joinEn')for stages in campaign.values()for st in stages))
 check('Gilded base relationships preserved',all(c.get('baseName')in names and c['n']=='鎏金·'+c['baseName']for c in cards if c.get('rarity')=='rare'))

@@ -12,14 +12,15 @@ const LEGACY_SAVE=JSON.parse(zlib.inflateSync(Buffer.from(captured[1],'base64'))
  const check=async(name,fn)=>{try{const evidence=await fn();results.push({name,passed:true,...(evidence?{evidence}:{})});console.log('PASS',name)}catch(error){results.push({name,passed:false,error:error.message});console.log('FAIL',name,error.message)}};
  try{
   const identities=read('boss-identities'),abilities=read('boss-abilities'),names=read('card-names'),cards=read('cards');
-  await check('All 108 short Boss identities are unique and retain matching normal and Gilded card IDs',()=>{
+  await check('All 108 personal identities stay unique while normal and Gilded labels put the role before the name',()=>{
    assert.equal(Object.keys(identities).length,108);assert.deepEqual(new Set(Object.keys(identities)),new Set(abilities.map(a=>a.boss)));
    assert.equal(new Set(Object.values(identities).map(x=>x.zh)).size,108);assert.equal(new Set(Object.values(identities).map(x=>x.en)).size,108);
    for(const[id,entry]of Object.entries(identities)){
     assert.ok(entry.zh.length>=2&&entry.zh.length<=4,entry.zh);assert.ok(entry.en.length<=17&&!/[\u3400-\u9fff]/.test(entry.en),entry.en);assert.ok(entry.roleZh&&entry.roleEn);
-    assert.equal(names[id].zh,entry.zh);assert.equal(names[id].en,entry.en);
-    for(const card of cards.filter(c=>c.baseName===id&&c.rarity==='rare')){assert.equal(names[card.n].zh,'鎏金·'+entry.zh);assert.equal(names[card.n].en,'Gilded '+entry.en)}
+    assert.equal(names[id].zh,entry.roleZh+entry.zh);assert.equal(names[id].en,entry.roleEn+' '+entry.en);
+    for(const card of cards.filter(c=>c.baseName===id&&c.rarity==='rare')){assert.equal(names[card.n].zh,'鎏金·'+entry.roleZh+entry.zh);assert.equal(names[card.n].en,'Gilded '+entry.roleEn+' '+entry.en)}
    }
+   assert.equal(names['苔庭铠卫·雅恩'].zh,'守夜人诺亚');
    assert.equal(new Set(abilities.map(a=>a.name)).size,108);assert.equal(new Set(abilities.map(a=>a.nameEn)).size,108);
    for(const a of abilities){assert.ok(a.name&&a.name.length<=5&&!a.name.includes('·'));assert.ok(a.nameEn&&a.flavor&&a.flavorEn&&!/[\u3400-\u9fff]/.test(a.nameEn+a.flavorEn));assert.equal(a.ashCost,1);assert.equal(a.cooldownRounds,1)}
    return {bosses:108,mainEncounters:Object.values(read('campaigns')).flat().length};
@@ -31,20 +32,37 @@ const LEGACY_SAVE=JSON.parse(zlib.inflateSync(Buffer.from(captured[1],'base64'))
   await check('A captured old checkpoint keeps its exact board, hand, deck and Boss key while showing the new identity',async()=>{
    await page.evaluate(storage=>{localStorage.clear();for(const[k,v]of Object.entries(storage))localStorage.setItem(k,v)},LEGACY_SAVE.storage);await page.reload();await page.waitForFunction(()=>window.BOOT?.ready&&G&&!G.busy);
    const r=await page.evaluate(()=>({state:{turn:G.turn,hp:G.hp,ehp:G.ehp,deck:G.deck.map(c=>c.n),hand:G.hand.map(c=>c.n),draw:G.draw.map(c=>c.n),p:G.p.map(c=>c&&{n:c.n,a:c.a,h:c.h,c:c.c,t:c.t}),e:G.e.map(c=>c&&{n:c.n,a:c.a,h:c.h,c:c.c,t:c.t}),boss:G.st.boss},label:document.querySelector('.boss-name')?.textContent,language:gameLanguage}));
-   assert.deepEqual(r.state,LEGACY_SAVE.state);assert.equal(r.label,identities[r.state.boss][r.language==='en'?'en':'zh']);
+   assert.deepEqual(r.state,LEGACY_SAVE.state);assert.equal(r.label,names[r.state.boss][r.language==='en'?'en':'zh']);
   });
   await page.evaluate(()=>{openInitiativeCoin=async()=> 'p';newRun()});await page.waitForFunction(()=>G&&!G.busy&&!drawRunning);await page.evaluate(()=>{infoPanel=null;render()});
-  await check('All 108 live Boss headers and English skill popovers show the new name, story flavor and unchanged rules',async()=>{
+  await check('All 216 normal and Gilded cards render role-prefixed names in both languages without changing IDs',async()=>{
    const failed=await page.evaluate(identities=>{
-    const failed=[],original=G.st;setGameLanguage('en');
-    for(const a of BOSS_ABILITIES){
+    const failed=[];
+    for(const language of ['zh-CN','en']){
+     setGameLanguage(language);
+     for(const [id,entry]of Object.entries(identities))for(const card of POOL.filter(c=>c.n===id||c.baseName===id)){
+     const gold=card.rarity==='rare',expected=language==='en'?(gold?'Gilded ':'')+entry.roleEn+' '+entry.en:(gold?'鎏金·':'')+entry.roleZh+entry.zh;
+     const node=document.createElement('div');node.innerHTML=cardHTML(card);document.body.appendChild(node);localizeRoot(node);
+     const label=node.querySelector('.top b')?.textContent,key=node.querySelector('.card')?.dataset.cardName;
+     if(label!==expected||displayedCardName(card)!==expected||shortCardName(card,language)!==expected||key!==card.n)failed.push({id:card.n,language,label,expected});node.remove();
+     }
+    }
+    return failed;
+   },identities);assert.deepEqual(failed,[]);
+  });
+  await check('All 108 live bilingual Boss headers and English skill popovers show role before name and unchanged rules',async()=>{
+   const failed=await page.evaluate(identities=>{
+    const failed=[],original=G.st;
+    for(const language of ['zh-CN','en'])for(const a of BOSS_ABILITIES){
+     setGameLanguage(language);
      const entry=identities[a.boss];G.st={...original,boss:a.boss,n:a.boss};render();openBossAbilityPopover(true);const panel=document.getElementById('boss-ability-panel');localizeRoot(panel);
      const text=panel?.textContent||'',header=document.querySelector('.boss-name')?.textContent,reason=[];
-     if(header!==entry.en)reason.push('header');if(!text.includes(a.nameEn))reason.push('ability');if(!text.includes(a.flavorEn))reason.push('flavor');if(!text.includes(i18nText(a.description)))reason.push('rules');if(/[\u3400-\u9fff]/.test(text))reason.push('untranslated');if(typeof BOSS_SKILL_HANDLERS[a.boss]!=='function')reason.push('handler');
-     if(reason.length)failed.push({boss:entry.en,reason,text:text.slice(0,700)});closeBossAbilityPopover(false);
+     const expected=language==='en'?entry.roleEn+' '+entry.en:entry.roleZh+entry.zh;
+     if(header!==expected)reason.push('header');if(!text.includes(language==='en'?a.nameEn:a.name))reason.push('ability');if(!text.includes(language==='en'?a.flavorEn:a.flavor))reason.push('flavor');if(!text.includes(i18nText(a.description)))reason.push('rules');if(language==='en'&&/[\u3400-\u9fff]/.test(text))reason.push('untranslated');if(typeof BOSS_SKILL_HANDLERS[a.boss]!=='function')reason.push('handler');
+     if(reason.length)failed.push({boss:entry.en,language,reason,text:text.slice(0,700)});closeBossAbilityPopover(false);
     }
     G.st=original;render();return failed;
-   },identities);assert.deepEqual(failed,[]);return {translatedLivePopovers:108};
+   },identities);assert.deepEqual(failed,[]);return {bilingualLiveHeaders:216,translatedLivePopovers:108};
   });
   const core=['苔庭铠卫·雅恩','暮潮灯议长·艾汀'];
   await check('Core Boss card details retain their occupation and show translated identities and abilities',async()=>{
@@ -78,6 +96,29 @@ const LEGACY_SAVE=JSON.parse(zlib.inflateSync(Buffer.from(captured[1],'base64'))
    for(const[width,height]of[[320,568],[390,759],[844,390],[1366,768]])for(const language of ['zh-CN','en']){
     await page.setViewportSize({width,height});await page.evaluate(language=>{setGameLanguage(language);render()},language);assert.ok(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth+1));
     const trigger=page.locator('.boss-ability-trigger'),box=await trigger.boundingBox();assert.ok(box&&box.x>=0&&box.y>=0&&box.x+box.width<=width+1&&box.y+box.height<=height+1,`${width}/${language}: skill outside viewport`);assert.ok((await page.locator('.boss-name').innerText()).length>0);await trigger.hover();const panel=page.locator('#boss-ability-panel');if(!await panel.isVisible())await trigger.click();await panel.waitFor();assert.ok(await panel.isVisible());await panel.locator('[data-boss-ability="close"]').click();await page.screenshot({path:`/tmp/boss-identities-${width}x${height}-${language}.png`});
+   }
+   return {layouts:8};
+  });
+  await check('Longest role-prefixed names fit beside skill controls and stay readable on Boss cards',async()=>{
+   for(const[width,height]of[[320,568],[390,759],[844,390],[1366,768]])for(const language of ['zh-CN','en']){
+    const key=language==='en'?'en':'zh',id=Object.keys(identities).sort((a,b)=>names[b][key].length-names[a][key].length)[0];
+    await page.setViewportSize({width,height});
+    const result=await page.evaluate(({id,language})=>{
+     const saved={stage:G.st,p:G.p,e:G.e,hand:G.hand,sel:G.sel};
+     try{
+      const normal=POOL.find(c=>c.n===id),gold=POOL.find(c=>c.baseName===id&&c.rarity==='rare');
+      G.st={...G.st,boss:id,n:id};G.p=[makeCard(normal),makeCard(gold),null,null,null];G.e=Array(5).fill(null);G.hand=[makeCard(normal),makeCard(gold)];G.sel=null;
+      setGameLanguage(language);render();
+      const bar=document.querySelector('.table-topbar').getBoundingClientRect(),name=document.querySelector('.boss-name').getBoundingClientRect(),button=document.querySelector('.boss-ability-trigger').getBoundingClientRect();
+      const titles=[...document.querySelectorAll('.hand .boss-card .top b,.player-board .boss-card .top b')].map(node=>({text:node.textContent,visibleHeight:node.clientHeight,textHeight:node.scrollHeight}));
+      const cards=[...document.querySelectorAll('.hand .boss-card,.player-board .boss-card')].map(node=>({bottom:node.getBoundingClientRect().bottom,statsBottom:node.querySelector('.st').getBoundingClientRect().bottom,artHeight:node.querySelector('.art').getBoundingClientRect().height}));
+      return {barBottom:bar.bottom,nameBottom:name.bottom,buttonBottom:button.bottom,titles,cards};
+     }finally{G.st=saved.stage;G.p=saved.p;G.e=saved.e;G.hand=saved.hand;G.sel=saved.sel;render()}
+    },{id,language});
+    assert.ok(result.nameBottom<=result.barBottom+1&&result.buttonBottom<=result.barBottom+1,`${width}/${language}: Boss name or skill overlaps life row`);
+    assert.equal(result.titles.length,4);
+    for(const title of result.titles)assert.ok(title.textHeight<=title.visibleHeight+1,`${width}/${language}: clipped ${title.text}`);
+    for(const card of result.cards)assert.ok(card.statsBottom<=card.bottom+1&&card.artHeight>=8,`${width}/${language}: card title crowds artwork or stats`);
    }
    return {layouts:8};
   });

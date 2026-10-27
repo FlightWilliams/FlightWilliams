@@ -8,6 +8,7 @@ SOUNDS='assets/sounds.9dd4337a50d2.js'
 def read(name):return(ROOT/name).read_text(encoding='utf-8')
 def data(name):return json.loads(read('data/'+name+'.json'))
 def js(value):return json.dumps(value,ensure_ascii=False,separators=(',',':'))
+def manuscript(text):return '\n\n'.join(line for line in text.splitlines()if line.strip())
 def fingerprint(name,ext,content):
  raw=content.encode();digest=hashlib.sha256(raw).hexdigest()[:12];path='assets/'+name+'.'+digest+'.'+ext
  (ROOT/path).write_bytes(raw);return path
@@ -37,12 +38,12 @@ plot=data('loop-story');story_files=[]
 for language,filename in [('zh','zh-CN.md'),('en','en.md')]:
  sections=['# 灯誓牌 · '+plot['title']['zh'] if language=='zh'else '# Lantern Oath · '+plot['title']['en'],
   '作者：Will Wang。完整剧情稿，包含结局。'if language=='zh'else 'By Will Wang. Complete story manuscript, including the ending.',
-  '## '+plot['opening'][language]['title'],plot['opening'][language]['text']]
+  '## '+plot['opening'][language]['title'],manuscript(plot['opening'][language]['text'])]
  for index,chapter in enumerate(plot['chapters'].values(),1):
   sections.extend(['## '+str(index)+' · '+chapter['name'][language]])
   for part in ['intro','clear']:
-   sections.extend(['### '+chapter[part][language]['title'],chapter[part][language]['text']])
- sections.extend(['## '+plot['loop'][language]['returnTitle'],plot['loop'][language]['returnText']])
+   sections.extend(['### '+chapter[part][language]['title'],manuscript(chapter[part][language]['text'])])
+ sections.extend(['## '+plot['loop'][language]['returnTitle'],manuscript(plot['loop'][language]['returnText'])])
  path='story/'+filename;(ROOT/path).write_text('\n\n'.join(sections)+'\n',encoding='utf-8');story_files.append(path)
 # Export the encounter roster so the names, roles and rules can be reviewed together.
 identities=data('boss-identities');abilities={row['boss']:row for row in data('boss-abilities')};translations=data('ui-en')
@@ -63,14 +64,14 @@ for language,filename in [('zh','bosses.zh-CN.md'),('en','bosses.en.md')]:
   '| --- | --- | --- | --- | --- |'])
  for index,boss in enumerate((boss for boss in identities if boss not in main),1):sections.append(roster_row(boss,index))
  path='story/'+filename;(ROOT/path).write_text('\n'.join(sections)+'\n',encoding='utf-8');story_files.append(path)
-entrances=data('boss-entrances')
+entrances=data('boss-entrances');display_names=data('card-names')
 for language,filename in [('zh','entrances.zh-CN.md'),('en','entrances.en.md')]:
  sections=['# Boss出场集'if language=='zh'else '# Boss Entrances','作者：Will Wang。包含所有关卡出场。'if language=='zh'else 'By Will Wang. Contains every encounter entrance.']
  for world,stages in data('campaigns').items():
   sections.append('## '+plot['chapters'][world]['name'][language])
   for index,stage in enumerate(stages,1):
-   boss=stage['boss'];scene=entrances[boss][language];identity=identities[boss]
-   sections.extend(['### '+str(index)+' · '+identity[language]+' · '+scene['title'],scene['text']])
+   boss=stage['boss'];scene=entrances[boss][language]
+   sections.extend(['### '+str(index)+' · '+display_names[boss][language]+' · '+scene['title'],manuscript(scene['text'])])
  path='story/'+filename;(ROOT/path).write_text('\n\n'.join(sections)+'\n',encoding='utf-8');story_files.append(path)
 files=['index.html',script,style,'assets/lantern-rest.svg','assets/lantern-alight.svg','assets/font-OFL.txt','_headers','CREDITS.txt',SOUNDS,*story_files,*[str(p.relative_to(ROOT))for p in sorted((ROOT/'audio').iterdir())if p.is_file()]]
 with zipfile.ZipFile(ROOT/'lantern-oath-web.zip','w',zipfile.ZIP_DEFLATED)as z:

@@ -1,387 +1,387 @@
 {
   "苔庭铠卫·雅恩": {
-    "join": "钥匙挂我腰上，簿子归你拿。有人问几点，就让他看03:17，别借表给他。上回借出去，天就没亮。",
-    "joinEn": "I will keep the keys; you take the book. If anyone asks the time, show them 03:17. Do not lend them your watch. Last time, morning never came."
+    "join": "我能替你核对回镇的记录。更早的路，我们一起问。",
+    "joinEn": "I can check your return to town. We can ask about the earlier road together."
   },
   "苔庭裂角客领誓·阿珀": {
-    "join": "那把椅子归你了。坐稳再走，别笑；我就是坐着它来的，镇口还没有到。",
-    "joinEn": "The chair is yours. Sit firmly before we leave. Laugh if you like; it brought me here, and the edge of town is still ahead."
+    "join": "我带上量衣记录，谁要复核，都可以当面问我。",
+    "joinEn": "I will bring the measurement sheet. Anyone checking it can ask me in person."
   },
   "苔庭赤角兽领誓·艾珀": {
-    "join": "你把铃收好。它饿的时候，我听得出来；要是它叫我的名字，先别让我答应。",
-    "joinEn": "Keep the bell. I can hear when it is hungry. If it calls me by name, do not let me answer at once."
+    "join": "我认得桥边的路。带着桶，路上还能帮人。",
+    "joinEn": "I know the bridge road. With the bucket, I can still help along the way."
   },
   "苔庭裂角客领誓·欧珀": {
-    "join": "往上爬时，替我扶住梯子。往下就不必了，这地方往下走，通常得再爬一次。",
-    "joinEn": "Hold the ladder when I climb. Do not bother on the way down. Going down here usually means another climb."
+    "join": "走到路口我指给你看，免得地图上的箭头又画反了。",
+    "joinEn": "At the junction I can show you, so the arrows do not get reversed again."
   },
   "苔庭潜印客·莫恩": {
-    "join": "钱袋扣紧，我走外侧。你可以数钱，不过到了桥头，先数数还剩几只手。",
-    "joinEn": "Fasten your purse. I will walk on the outside. Count your money if you must; at the bridge, count the hands first."
+    "join": "我帮你把原件和抄件分开放。至少别让我们自己先弄混。",
+    "joinEn": "I will keep the originals apart from the copies. We should not be the first to confuse them."
   },
   "苔庭铠卫·欧恩": {
-    "join": "外套借你。别嫌烟味，我洗过三回了。口袋里那张车票要是发热，就叫醒我。",
-    "joinEn": "Borrow my coat. Never mind the smoke; I have washed it three times. Wake me if the ticket in the pocket grows warm."
+    "join": "走吧。我看见的事，我会自己向他们说清楚。",
+    "joinEn": "Come on. I will explain what I saw in my own words."
   },
   "苔庭绛纹蝶领誓·乌珀": {
-    "join": "把灯罩留条缝。它想跟着我们，不想被人看见。你也有这种时候，对吧？",
-    "joinEn": "Leave a gap in the lampshade. It wants to come without being seen. You know the feeling, do you not?"
+    "join": "我会把更正的那一页带上。错的话传得再远，也得有人改。",
+    "joinEn": "I will bring the corrected page. However far an error travels, someone must correct it."
   },
   "苔庭织光蛛领誓·雅珀": {
-    "join": "脚放在白线上，慢一点。我会补好你身后的网。那些敲门的，今晚只能再等一等。",
-    "joinEn": "Keep your feet on the white thread. Slowly. I will mend the web behind you. Those at the door can wait another night."
+    "join": "袖口我替你补牢。那截旧线另装好，别和新补的混了。",
+    "joinEn": "I will mend your cuff firmly. Store the old thread separately from the new repair."
   },
   "苔庭峰脊巨灵领誓·瑟珀": {
-    "join": "绳子你拿这一头。我答应过不再丢下谁；担架上的也算，虽然他自己不这么想。",
-    "joinEn": "Take this end of the rope. I promised not to leave anyone behind. That includes the one on the stretcher, whatever he thinks."
+    "join": "我跟你走这一段。有人要问担架上的人，我来回答。",
+    "joinEn": "I will travel this stretch with you. I can answer questions about the stretcher passenger."
   },
   "苔庭铠卫领誓·维珀": {
-    "join": "证件我没有，路倒认得。你若肯带我，查证的时候就说我是给你送伞的。",
-    "joinEn": "I have no papers, but I know the road. Take me along; at a checkpoint, say I brought your umbrella."
+    "join": "线路和维修记录我熟。我帮你把时间上的错接找出来。",
+    "joinEn": "I know the lines and repair records. I can help find where the timeline was misconnected."
   },
   "苔庭铠卫领誓·希珀": {
-    "join": "桥中间有块松木板，绕开它。我每晚都修，早上钉子却总在我的鞋底。",
-    "joinEn": "Mind the loose plank in the middle. I mend it every night. By morning, the nails are always in my soles."
+    "join": "我带路到桥口。哪边通码头，哪边回镇里，到了就清楚。",
+    "joinEn": "I will lead you to the bridge. There you can see which way reaches the harbor and which returns to town."
   },
   "苔庭缄骨客领誓·米珀": {
-    "join": "铲子别放进车厢，会弄脏座位。我跟你走，可不想一到下一站就开始上班。",
-    "joinEn": "Keep the shovel out of the carriage. It dirties the seats. I will come, but I would rather not start work at the next stop."
+    "join": "登记簿不方便整本带走。我给你留签过字的抄件，也愿意当面核实。",
+    "joinEn": "The register must stay. I will give you a signed copy and confirm it in person if needed."
   },
   "苔庭铠卫领誓·阿恩": {
-    "join": "我把名字签在背面了。正面留给你；要是有人问，这回我们至少有两份说法。",
-    "joinEn": "My name is on the back. The front is yours. If anyone asks, at least we have two accounts of it now."
+    "join": "我跟你去问。我签过的每一句，都会记得自己凭什么签。",
+    "joinEn": "I will ask with you. I will remember the grounds for every statement I sign."
   },
   "苔庭晶棘蜥龙领誓·艾恩": {
-    "join": "等雾往低处走再动身。你看它在躲什么；我不敢问，也不想在它前头带路。",
-    "joinEn": "Wait until the mist moves downhill. Watch what it avoids. I dare not ask, and I will not lead the way ahead of it."
+    "join": "我带着风向记录。到了厂边，能帮你把烟走过的路对出来。",
+    "joinEn": "I will bring the wind sheet. At the plant, we can check the path the smoke took."
   },
   "苔庭裂角客领誓·伊恩": {
-    "join": "照片由你收着。我不爱照相，尤其不爱那张。底片上，我比现在还年轻一天。",
-    "joinEn": "Keep the photograph. I dislike cameras, that picture most of all. On its negative, I am a day younger than I am now."
+    "join": "底片先留在店里，抄件我带。有人怀疑照片，我们有原件可查。",
+    "joinEn": "The negative stays at the shop; I will bring a copy. If anyone doubts the picture, the original is available."
   },
   "苔庭灯议长·图珀": {
-    "join": "信我收下了，地址你来读。邮差欠我三趟回程，今晚总该让他替我们跑一次。",
-    "joinEn": "I have the letter. You read the address. The postman owes me three return trips. Tonight he can make one for us."
+    "join": "我帮你看着转递单。再查到一份材料，就能接在原来的路线上。",
+    "joinEn": "I will keep track of the transit slip. Each new record can be connected to the same route."
   },
   "铜钟峰脊巨灵领誓·维拉": {
-    "join": "把耳朵捂好，门我来推。我们听到的若不是同一声，进去以后就别分开走。",
-    "joinEn": "Cover your ears. I will push the door. If we hear different chimes, we stay together once we are inside."
+    "join": "我熟悉钟楼的楼层。找录音室不用再绕一圈。",
+    "joinEn": "I know the tower floors. We can find the recording room without another circuit."
   },
   "铜钟铠卫领誓·瑟翎": {
-    "join": "钥匙别碰我的脸，冻得厉害。走吧，换岗的人该到了；我不想再跟自己交班。",
-    "joinEn": "Keep the key away from my face. It is bitterly cold. Let us leave before the relief arrives. I am tired of handing over to myself."
+    "join": "借阅经过我记着。有人问原带的出处，我来说明。",
+    "joinEn": "I will keep the loan record. I can explain where the original reel came from."
   },
   "铜钟峰脊巨灵领誓·岚拉": {
-    "join": "替我留个座位就行。不用垫子，我感觉不到。椅子响的时候，你装作没听见。",
-    "joinEn": "A seat is enough. No cushion; I would not feel it. When the chair creaks, pretend you did not hear."
+    "join": "盒子我来拿。原带和抄件分层放，路上不会弄乱。",
+    "joinEn": "I will carry the box. The original reel and copies will stay in separate layers."
   },
   "铜钟灯议长·莱拉": {
-    "join": "赊账本也带上。走出镇子就一笔勾销；你别高兴太早，写这句话的人还没回来。",
-    "joinEn": "Bring the credit book. All debts end beyond the town. Do not celebrate yet; whoever wrote that has not returned."
+    "join": "时间表我给你抄清楚，免得一串数字又被念成另一回事。",
+    "joinEn": "I will copy the timeline clearly, so the numbers do not acquire another meaning in retelling."
   },
   "铜钟缄骨客领誓·岑拉": {
-    "join": "布给他盖严一点。我的活儿做到这就够了；路上若听见敲棺声，先查查是谁在外头。",
-    "joinEn": "Cover him properly. My work here is done. If the coffin starts knocking on the road, first check who is outside it."
+    "join": "这段交接我愿意作证。其他没见过的事，到了现场再问。",
+    "joinEn": "I will witness this handover. We can ask about what I did not see when we reach the site."
   },
   "铜钟环藤蛇领誓·伦拉": {
-    "join": "把钟摆卸下来再走。它已经不报时了，可闻到生人的气味，还是会往那边摆。",
-    "joinEn": "Take down the pendulum before we leave. It no longer tells time, but it still swings toward the smell of a stranger."
+    "join": "医务记录这一页我带着，给你免去一段不必要的怀疑。",
+    "joinEn": "I will bring this medical entry, so an unsupported suspicion need not follow you."
   },
   "铜钟裂角客领誓·佩拉": {
-    "join": "炉边那壶水带上，我记得还热。你先别喝；壶嘴刚才，叫出了我母亲的名字。",
-    "joinEn": "Take the kettle by the stove. It should still be warm. Do not drink yet. The spout just said my mother’s name."
+    "join": "厂区那一段我认得。带上图，到了我指给你。",
+    "joinEn": "I know that part of the plant. Bring the map and I will point it out."
   },
   "铜钟裂角客领誓·泽拉": {
-    "join": "小齿轮收进纸包，别放衣袋。它们爱往心口钻。你笑什么？修钟的也有修不好的东西。",
-    "joinEn": "Wrap the small gears in paper, not in your pocket. They work their way toward the heart. Laugh all you like; even a clockmaker has limits."
+    "join": "工具车推得慢，你先走。我会把维修记录带到值班室。",
+    "joinEn": "The tool cart is slow; go ahead. I will bring the maintenance record to the duty room."
   },
   "铜钟织光蛛领誓·阿温": {
-    "join": "钟面我替你缝住。听见它在里头走，就继续走你的，千万别好心放它出来。",
-    "joinEn": "I will stitch the clock face shut. If you hear something moving inside, keep walking. Do not be kind enough to let it out."
+    "join": "修过的带子和原抄件我一起收好。谁要复核，都能看见接头。",
+    "joinEn": "I will keep the repaired tape beside the original transcript. Anyone checking it can inspect the splice."
   },
   "铜钟缄骨客领誓·欧温": {
-    "join": "困了就推推我，我还认得路。只要不是梦里那条；那条路，醒着的人走不了。",
-    "joinEn": "Nudge me if you grow tired. I still know the road. Unless it is the one in my dreams. Nobody awake can take that road."
+    "join": "那晚我醒着。我能帮你核哪些是真听见，哪些只是后来又放的。",
+    "joinEn": "I was awake that night. I can distinguish what I heard live from what was replayed later."
   },
   "铜钟铠卫领誓·乌温": {
-    "join": "走的时候离我远半步。衣服上的刺不认朋友，上次拥抱我可赔了一整件大衣。",
-    "joinEn": "Stay half a step away as we walk. The thorns do not know a friend. My last embrace cost someone an entire overcoat."
+    "join": "我替你保管这份失物登记。有人借过衣服，也该有机会说清楚。",
+    "joinEn": "I will keep the lost-property entry. Whoever borrowed the clothes deserves a chance to explain."
   },
   "铜钟缄骨客领誓·洛温": {
-    "join": "杯底那一点留着，等天亮再喝。要是咽下去还是咸的，我们就还没离开楼里。",
-    "joinEn": "Leave a little in the cup until daylight. If it still tastes of salt, we have not left the tower."
+    "join": "路上我带水。你问话时，我帮你记下他们真正说过的句子。",
+    "joinEn": "I will carry water. While you ask, I can write down the words people actually use."
   },
   "铜钟枝灯树灵领誓·诺温": {
-    "join": "你扶着那截根，别用斧头。它肯松开台阶，我们就有路；要换什么，等它开口。",
-    "joinEn": "Hold the root. No axe. If it lets go of the stairs, we have a way through. Let it name its price."
+    "join": "接线图我带着。下一处若有不同说法，我们照图比，不靠吵。",
+    "joinEn": "I will bring the wiring diagram. If the next account differs, we can compare it instead of arguing."
   },
   "铜钟铠卫领誓·佩温": {
-    "join": "欠条我没撕，先折起来。出了门再谈利息。我也想知道，这几年究竟是谁在替我收钱。",
-    "joinEn": "I have folded the note, not torn it up. We can discuss interest outside. I would like to know who has been collecting for me."
+    "join": "账单这一页我留副本。到了厂里，我替你问负责接线的人。",
+    "joinEn": "I will keep a copy of this page and ask who handled the line when we reach the plant."
   },
   "铜钟铠卫领誓·泽温": {
-    "join": "站在我看得见的这边。另一边我也能看见点东西，不过没有一样像是活人。",
-    "joinEn": "Stay on the side where I can see you. I see things on the other side too. None looks particularly alive."
+    "join": "我愿意带着原抄件去。自己的听错，不能留给下一个人承担。",
+    "joinEn": "I will bring the first transcript. My mishearing should not become the next person’s burden."
   },
   "铜钟铠卫领誓·阿雅": {
-    "join": "表我停好了，等你走远再上弦。别道谢，迟到一回的感觉，我也想试试。",
-    "joinEn": "I have stopped the watch. I will wind it when you are well away. No thanks needed. I would like to be late for once."
+    "join": "我带上通话时间表。到了灰厂，我们把声音和现场接起来。",
+    "joinEn": "I will bring the call timeline. At the Ash Works, we can connect the voice to the scene."
   },
   "炽砂铠卫领誓·乌弥": {
-    "join": "手套给你，门上还有余热。我先检查封条；厂里最不缺的，就是擅自开门的人。",
-    "joinEn": "Take the gloves. The door is still warm. Let me check the seals first. This factory has never lacked people who open doors without asking."
+    "join": "我可以替你指出检修通道，也会把当晚看见的事写清。",
+    "joinEn": "I can show you the service passage and write down what I saw that night."
   },
   "炽砂铠卫领誓·依弥": {
-    "join": "瓶子是空的，别闻了。酒早没了，醉意倒还在。出去以后，我想喝点真的。",
-    "joinEn": "The bottle is empty. Stop smelling it. The drink is gone; the drunkenness remains. Outside, I would like something real."
+    "join": "水桶我来拎。到了医务室，你替我把这件事问明白。",
+    "joinEn": "I'll carry the bucket. At the infirmary, help me get this part straight."
   },
   "炽砂灯议长·诺弥": {
-    "join": "靠墙走，我会跟上。烟里还有我的半件外套，等它肯放手，剩下的半个也就齐了。",
-    "joinEn": "Stay by the wall. I will catch up. The smoke still has half my coat. When it lets go, the rest of me will be complete."
+    "join": "我能认出那通电话，也能说明我们怎样把人叫到出口。",
+    "joinEn": "I can identify the call and explain how we brought people to the exit."
   },
   "炽砂灯议长·瑟弥": {
-    "join": "止血钳收好，别夹文件。纸会疼的，你昨天没听见么？走吧，路上的伤我管。",
-    "joinEn": "Put the forceps away. Not on the papers; paper feels it. Did you not hear yesterday? Come on. I will see to any wounds on the road."
+    "join": "我带上病历副本。路上绷带松了，也别硬撑。",
+    "joinEn": "I'll bring a copy of the patient notes. And tell me if that bandage comes loose."
   },
   "炽砂铠卫领誓·维弥": {
-    "join": "工牌不用还，拿着吧。万一外面也查考勤，咱们总不能算无故旷工。",
-    "joinEn": "Keep the pass. They may check attendance outside too. We should not be marked absent without leave."
+    "join": "这回我把补记页拿好，省得又有人把你当作炉前工。",
+    "joinEn": "I'll keep the additions straight this time, so nobody mistakes you for a furnace operator."
   },
   "炽砂缄骨客领誓·希弥": {
-    "join": "骨头我分开装了，不会再响。就是那只手有自己的主意，经过栏杆时你看着点。",
-    "joinEn": "I packed the bones separately. They will not rattle now. The hand has ideas of its own. Watch it near railings."
+    "join": "我来核人数。你去查去向，别让送出去的人又被记作留在里面。",
+    "joinEn": "I'll check the count. You trace the route, so those sent out aren't listed as still inside."
   },
   "炽砂灯议长·米弥": {
-    "join": "底片给你，别迎着灯看。我陪你去找拍照的人；这张合影里，我还没来得及站好。",
-    "joinEn": "Take the negative. Keep it out of the light. I will come to find the photographer. In that group picture, I had not taken my place yet."
+    "join": "我保管底片，你带印样。需要作证时，我会说明它怎么拍下来的。",
+    "joinEn": "I'll keep the negative; take the print. I can explain how it was taken if you need a witness."
   },
   "炽砂峰脊巨灵领誓·索弥": {
-    "join": "炉子我背着就行，别往里添柴。它最近胃口不好，连纸上写的木头都烧。",
-    "joinEn": "I can carry the furnace. Do not feed it. Its appetite has been strange lately; it even burns the word for wood on paper."
+    "join": "要搬的重物交给我。那条路怎么撑住的，我也会讲清。",
+    "joinEn": "Leave the heavy lifting to me. I can explain how we kept that route open."
   },
   "炽砂铠卫领誓·莱弥": {
-    "join": "风口我挡着。你先走，别踩墙边那排脚印；鞋底的花纹，我认得是我的。",
-    "joinEn": "I will block the vent. Go ahead, but avoid those prints along the wall. I recognize the tread. It is mine."
+    "join": "我来认路。厂里哪些地方能走，我比这些旧箭头熟。",
+    "joinEn": "I'll guide you. I know the usable passages better than those old arrows do."
   },
   "炽砂铠卫领誓·莫弥": {
-    "join": "封条留我一半，你拿一半。要是两边都发烫，就别争是谁开了门，先跑。",
-    "joinEn": "Half the seal for you, half for me. If both halves turn hot, never mind who opened the door. Run."
+    "join": "我会说明封门的先后。防火女守住的那一段，不该被我们记错。",
+    "joinEn": "I'll confirm the order of the sealing. We should not misrecord the passage the Fire Warden protected."
   },
   "炽砂灯议长·伦弥": {
-    "join": "这点火够照路，别拿来取暖。有人靠得太近，它就会记住那个人的温度。",
-    "joinEn": "This flame is enough to light the road, not to warm us. Lean too close and it remembers your temperature."
+    "join": "我把页码守好。你只管往前问，别再为一张错表回头。",
+    "joinEn": "I'll keep the pages in order. Go on with your questions, without being sent back by the wrong form."
   },
   "炽砂灯议长·图弥": {
-    "join": "灰装进铁盒，我留着有用。字烧掉了，笔迹还在；也许门外有人肯认领。",
-    "joinEn": "Put the ash in the tin. I can use it. The words burned away, but the handwriting remains. Someone outside may claim it."
+    "join": "我能分清作废页和要留的副本。路上这些纸，我帮你收好。",
+    "joinEn": "I know obsolete pages from the copies that matter. I'll help keep these papers safe."
   },
   "炽砂铠卫领誓·芮弥": {
-    "join": "卡我替你打好了。出厂后别回头刷第二次，这台机器从来分不清离开和报到。",
-    "joinEn": "I have punched your card. Do not turn back to punch it again. That machine has never distinguished leaving from arriving."
+    "join": "我记得你扶着谁走出门。该我确认的，我不会再含糊。",
+    "joinEn": "I remember whom you helped through that door. I'll be precise about my part."
   },
   "炽砂灯议长·伊罗": {
-    "join": "电话线别拔，我拿着听筒走。对面那个人还没说完，至少今晚，不能再让他独自等了。",
-    "joinEn": "Leave the line connected. I will carry the receiver. The caller has not finished. Tonight, at least, they need not wait alone."
+    "join": "有需要核对的接线，我来认。你当晚叫的是救援，我会说明。",
+    "joinEn": "I'll identify any connections that need checking. You were calling for help; I can confirm it."
   },
   "炽砂晶棘蜥龙领誓·雅罗": {
-    "join": "把铁片按平，慢慢来。它肯从喉咙里吐出来，已经算客气了，别再拿来试火。",
-    "joinEn": "Flatten the metal, gently. It was kind enough to cough it up. Do not test it in the fire again."
+    "join": "我认得火停在哪里。需要搬开挡路的东西，就叫我。",
+    "joinEn": "I know where the fire stopped. Call me if something heavy blocks the way."
   },
   "炽砂灯议长·诺罗": {
-    "join": "下班铃我关了。让他们多坐一会儿。你说外头有天亮？那我可得亲自看看。",
-    "joinEn": "I switched off the closing bell. Let them sit a little longer. You say it gets light outside? I will have to see that myself."
+    "join": "我带上交接副本，到了沉港，和他们把两边的记录当面对齐。",
+    "joinEn": "I'll bring the handover copy and help match it with the harbor's own record."
   },
   "暮潮星枝鹿领誓·莱尘": {
-    "join": "别拽缰绳，让它自己找浅水。要是它突然停下，我劝你也停；岸不总在前面。",
-    "joinEn": "Keep the rein loose. Let it find the shallows. If it stops, I suggest you stop too. The shore is not always ahead."
+    "join": "我认得从检修道到候船棚的路，能替你把这一段指清。",
+    "joinEn": "I know the way from the service road to the shelter. I can show you that stretch."
   },
   "暮潮灯议长·岑尘": {
-    "join": "筹码我留下，外套带走。钱可以改天再赢；你要真认得出口，这一局我跟。",
-    "joinEn": "I will leave the chips and take my coat. There will be other winnings. If you really know an exit, I am in."
+    "join": "我带着原票根，谁改了哪一席，我们当面算。",
+    "joinEn": "I'll bring the original stubs, and we can establish who changed each seat."
   },
   "暮潮裂角客领誓·莫尘": {
-    "join": "离那排牙远一点。它刚认了我，可没认你。走吧，等潮水抬头就不好走了。",
-    "joinEn": "Keep away from those teeth. It recognizes me now, but not you. Come on. Travel gets harder when the tide looks up."
+    "join": "我拿好包扎登记。你忙着问话，也别忘了照顾这只胳膊。",
+    "joinEn": "I'll keep the dressing register. Don't neglect that arm while you're busy asking questions."
   },
   "暮潮星枝鹿领誓·伦尘": {
-    "join": "先替它把眼睛盖住。岸上灯太亮，它不习惯。绳子你松着，它会跟上来的。",
-    "joinEn": "Cover its eyes first. The shore lights are too bright for it. Keep the rope loose. It will follow."
+    "join": "我会指给你看我们等船的地方，余下的要请船上人确认。",
+    "joinEn": "I can show you where we waited. The crew must confirm the rest."
   },
   "暮潮灯议长·佩尘": {
-    "join": "你拿舵，我认星。认错了也别急着骂我，船沉了以后，星星就没待过原来的位置。",
-    "joinEn": "You take the helm. I will read the stars. Save your complaints if I am wrong; since the sinking, none has kept its old place."
+    "join": "这段航程我来作证。上岸以后，咱们再问接收的人。",
+    "joinEn": "I'll testify to the crossing. For what happened ashore, we'll ask those who received you."
   },
   "暮潮潜印客领誓·泽尘": {
-    "join": "这副牌你洗，袖口翻出来。我也翻。走到一条船上，总得先学会互相提防。",
-    "joinEn": "You shuffle. Turn out your sleeves; I will do the same. Sharing a boat means learning how to watch each other."
+    "join": "我会把漏抄那一行补清。我的疏忽，不该让你一直找不到自己。",
+    "joinEn": "I'll clarify the line I failed to copy. My omission shouldn't leave you unable to find yourself."
   },
   "暮潮织光蛛领誓·图尘": {
-    "join": "线绕在手腕上，别打死结。真有什么从底下拉，先松开我，救人不是这么个救法。",
-    "joinEn": "Wind the thread around your wrist. No tight knot. If something pulls below, let go of me first. That is no way to rescue anyone."
+    "join": "我带着装卸编号走。绳结说不全的，我亲自补上。",
+    "joinEn": "I'll bring the loading reference. I can explain what the knot alone cannot."
   },
   "暮潮缄骨客领誓·阿汀": {
-    "join": "床板我拿去补船。别问我睡哪里；睡过这一舱，站着都算好觉。",
-    "joinEn": "I will use the bunk boards to patch the boat. Do not ask where I will sleep. After that hold, standing up counts as a good night."
+    "join": "舱底这一段我能说清。咱们去问靠岸以后的人。",
+    "joinEn": "I can account for the bilge inspection. Let's ask about what happened after landing."
   },
   "暮潮灯议长·艾汀": {
-    "join": "灯罩你擦，我去提油。水底要是先回了信，就放进衣袋；饭后再读，省得白吃。",
-    "joinEn": "You polish the glass; I will fetch the oil. If a reply comes from below before our signal, pocket it. Read it after supper. No need to spoil a meal."
+    "join": "我带上接线记录。你查人的去向，我帮你认那段回信的来处。",
+    "joinEn": "I'll bring the connection log. While you trace the people, I can identify the message's source."
   },
   "暮潮浮辉使领誓·塔尘": {
-    "join": "把灯调暗一点，你就能看见我。亮着的时候跟紧些；连我也不知道自己躲去了哪里。",
-    "joinEn": "Lower the lamp and you can see me. Keep close while it is bright. Even I do not know where I go then."
+    "join": "你替别人扶过水杯，我也能替你扶一会儿门。该作证时叫我。",
+    "joinEn": "You held cups for others. I can hold a door for you. Ask when you need my statement."
   },
   "暮潮灯议长·乌汀": {
-    "join": "我坐左边，你坐右边。等船靠岸再换；水里的那两位，还在照着咱们学。",
-    "joinEn": "I sit left, you sit right. We can change ashore. The two in the water are still learning by watching us."
+    "join": "我记得你怎样搬过那两把椅子，这一笔我来解释。",
+    "joinEn": "I remember you moving those two chairs. I'll explain that entry."
   },
   "暮潮折面星客领誓·依汀": {
-    "join": "手别伸进去，水会记住指纹。你要问它什么，让我来；它已经认识我的声音了。",
-    "joinEn": "Keep your hand out. The water remembers fingerprints. Let me ask the questions. It already knows my voice."
+    "join": "我陪你去，但只给看见的事作证。这样你才知道哪些话能信。",
+    "joinEn": "I'll go with you, but testify only to what I saw. That way you know which statements you can rely on."
   },
   "暮潮踏铃驹领誓·雅汀": {
-    "join": "草料不用带，带干毛巾。它跑得再快，也得先让蹄子相信，岸确实是干的。",
-    "joinEn": "Leave the feed. Bring dry towels. However fast it runs, its hooves need to believe the shore is dry."
+    "join": "这条车道我走过，伤员也从这里送走。我能领你到雪站。",
+    "joinEn": "I know this cart road. The injured went this way too. I can lead you to Snow Station."
   },
   "暮潮灯议长·维汀": {
-    "join": "酒我不带了，免得你一路看着瓶子。杯子留着吧，出去以后，咱们也许还有得庆祝。",
-    "joinEn": "I will leave the wine. No need for you to watch the bottle all the way. Keep the glasses. We may have something to celebrate outside."
+    "join": "我把账本那页带上。问完了，咱们找个真能坐下吃饭的地方。",
+    "joinEn": "I'll bring that account-book page. After the questions, let's find somewhere we can sit and eat properly."
   },
   "暮潮星枝鹿领誓·诺汀": {
-    "join": "枝子上那盏灯取下来，拿布包好。它不是挂上去的，我也不想让你看见它怎么长的。",
-    "joinEn": "Take the lamp from the antler and wrap it in cloth. Nobody hung it there. I would rather you did not see how it grows."
+    "join": "我认得这批人经过的绳结和路。需要指路，我跟你走。",
+    "joinEn": "I recognize the knots and the route this group used. I'll come if you need a guide."
   },
   "暮潮灯议长·希汀": {
-    "join": "潮声先别录。坐下喝口热水，听我说完；你上回来，少听的偏偏就是这一段。",
-    "joinEn": "Leave the recorder off. Sit and have something warm while I finish. Last time, this was the part you did not stay to hear."
+    "join": "我替你收好这几页。到了雪站，咱们把最后一个接收签名找出来。",
+    "joinEn": "I'll keep these pages together. At Snow Station, we'll find the last receiving signature."
   },
   "霜枝铜缄裂角客": {
-    "join": "把角上的布再裹一层，别让它结冰。它要是敲起车窗来，里面的人会以为该下车了。",
-    "joinEn": "Wrap the horn again. Keep the ice off it. If it taps a window, the passengers inside will think it is time to get out."
+    "join": "我在站口接过那批人，愿意替这段作证。原件留站里，带上副本就能继续查。",
+    "joinEn": "I received that group at the entrance and will stand by my account. The original stays here; take a copy to continue."
   },
   "霜枝铠卫领誓·泽芙": {
-    "join": "跟着我踩旧脚印，新雪下面不结实。要是听见冰从头顶裂开，也别抬头。",
-    "joinEn": "Step in the old prints. The fresh snow is not sound beneath. If you hear ice cracking overhead, do not look up."
+    "join": "我给你带路到货运室。再有人把售票记录当作全部名单，我会替你指出错处。",
+    "joinEn": "I will take you to the freight office. If someone treats ticket sales as the whole list again, I will explain the error."
   },
   "霜枝苔痕赤角兽": {
-    "join": "绳结打松点。它闻得到回家的草，路上别再给它报站名，广播已经报错太多回了。",
-    "joinEn": "Loosen the knot. It can smell the grass at home. No more station names on the way. The announcements have been wrong often enough."
+    "join": "我拖着担架走过这段路。你去问接收人，我也会把同一段经过说明白。",
+    "joinEn": "I pulled the stretcher along this route. Ask the receiver; I will give the same account."
   },
   "霜枝潜印客领誓·图芙": {
-    "join": "刀收鞘，汤还给你。外头要是真的下雪，总得带个能削木柴的人，算你没白请客。",
-    "joinEn": "The knife stays sheathed. Here is your soup. If it is really snowing outside, you will need someone who can shave kindling. Your meal was well spent."
+    "join": "我会保留底片，把这份完整照片交给你。需要核对时，我能说明它在哪个位置拍下。",
+    "joinEn": "I will retain the negative and give you this complete photograph. I can identify where it was taken if the image needs checking."
   },
   "霜枝铠卫领誓·芮芙": {
-    "join": "沿白线走，我把后头封住。别心疼胶带，它比车票便宜，也比人的皮结实。",
-    "joinEn": "Follow the white line. I will seal the way behind us. Do not spare the tape. Cheaper than a ticket, tougher than skin."
+    "join": "我替你把通话工单夹好。谁接了哪一段，我愿意陪你去找当班人核实。",
+    "joinEn": "I will put the call logs in order for you. I can help find the attendants who received each handover."
   },
   "霜枝攀钟猿领誓·阿诺": {
-    "join": "围巾留给它，咱们再找一条。你看它抱得多紧；有人从前，也是这样给它系上的。",
-    "joinEn": "Let it keep the scarf. We can find another. See how tightly it holds it? Someone once tied it on that way."
+    "join": "我把接收布签带上，陪你核对诊室的记录。认得那件外套的人，不只纸上这一笔。",
+    "joinEn": "I will bring my reception tag and help check the treatment records. The written entry is not the only thing that identifies your coat."
   },
   "霜枝攀钟猿领誓·艾诺": {
-    "join": "另一只袖子扎起来，免得灌雪。它还会往那边递东西，等空着的手去接，习惯改不过来。",
-    "joinEn": "Tie the empty sleeve against the snow. It still offers things to the missing hand. Some habits take longer to change."
+    "join": "我跟你带上这张草表。有人再把担架数当成人数，就让他把两行都看清。",
+    "joinEn": "I will bring the rough sheet with you. If somebody counts stretchers as people again, we can show them both lines."
   },
   "霜枝攀钟猿领誓·伊诺": {
-    "join": "食盒你拿着，它就肯跟。别喂太快；这地方把饥饿留住了，饱意却留不长。",
-    "joinEn": "Carry the food tin and it will follow. Feed it slowly. This place keeps hunger well, but fullness never lasts."
+    "join": "厨房的领餐页可以作旁证。我带副本，原件还得留给后来核账的人。",
+    "joinEn": "The kitchen issue sheet can corroborate the account. I will take a copy and leave the original for the next check."
   },
   "霜枝灯议长·欧诺": {
-    "join": "哨子挂你那边，我吹不响了。真到需要的时候，短的两声，长的那声留给站里。",
-    "joinEn": "You wear the whistle. I can no longer blow it. If we need it, two short notes. Leave the long one for the station."
+    "join": "我会把接收经过写清，再签上自己的名字。有没有我同行，这份证词都能交给登记处。",
+    "joinEn": "I will write out the reception account and sign it. The registry can use that statement whether or not I travel with you."
   },
   "霜枝潜印客领誓·依诺": {
-    "join": "名字先空着，我认得自己的行李。出了这里再告诉你，省得售票窗又替我改一遍。",
-    "joinEn": "Leave my name blank. I know my luggage. I will tell you outside, before the ticket window can change it again."
+    "join": "我把署名的证词交给你。到了白室，若有人要问，我会按当时看见的事回答。",
+    "joinEn": "Take my signed statement. If the White Room has questions, I will answer from what I saw that night."
   },
   "霜枝灯议长·乌诺": {
-    "join": "门牌卸下来带走。没有站名，它就不好意思再叫人等车了，至少我这么想。",
-    "joinEn": "Take down the station sign. Without a name, it may be too embarrassed to make us wait for a train. I hope so, anyway."
+    "join": "我带针线，也带那页签领副本。路上若有人认不出蓝线，我可以说明是谁补的。",
+    "joinEn": "I will bring my sewing things and a copy of the collection sheet. I can explain who repaired the blue stitching."
   },
   "霜枝晶棘蜥龙领誓·维诺": {
-    "join": "别把暖炉叫醒。它梦见的地方还不冷，等咱们过去，也许能剩一点热。",
-    "joinEn": "Do not wake the stove. It is dreaming of somewhere warm. Perhaps some heat will remain when we get there."
+    "join": "我守过步道入口，可以领你走到该走的方向。地图和出口登记也一并带上。",
+    "joinEn": "I guarded the service-path entrance and can point you the right way. Bring the map and exit register too."
   },
   "霜枝灯议长·希诺": {
-    "join": "热水壶带上，药包我背。路上谁说自己不冷，你先看看他的手，还会不会抖。",
-    "joinEn": "Bring the kettle. I will carry the medicine. If someone says they are not cold, check whether their hands can still tremble."
+    "join": "医疗见证已经签好，我也愿意同行。纸上写清的事，不会因为我走不走而改变。",
+    "joinEn": "The medical statement is signed, and I am willing to come with you. What it records does not depend on my traveling with you."
   },
   "霜枝潜印客领誓·雅诺": {
-    "join": "耳机一人一边，听见敲三下就摘。别问第三下以后是什么，我还想在路上睡会儿。",
-    "joinEn": "One earpiece each. Take it off after three knocks. Do not ask what follows. I would like some sleep on the road."
+    "join": "我带上接收工单，帮你保管原带。谁问那句话何时收到，我能说明白。",
+    "joinEn": "I will bring the reception log and keep the original tape safe. I can explain when the warning was received."
   },
   "霜枝裂角客领誓·瑟诺": {
-    "join": "把水浇上去，别给我留面子。火真蹿起来，谁先赔不是都没用，靴子会先烧。",
-    "joinEn": "Throw the water. Spare my pride later. If it flares up, apologies will not help. The boots burn first."
+    "join": "我跟你去，把灰厂到渡口的经历说清。你那一回留在最后，是为了帮人。",
+    "joinEn": "I will come and explain the journey from the factory to the harbor. You stayed behind that time to help people."
   },
   "霜枝灯议长·诺诺": {
-    "join": "行李不多，等我关上柜子。我把旧地址留在里面；到了新地方，你再教我写一个。",
-    "joinEn": "Not much luggage. Let me shut the locker. I left the old address inside. When we arrive somewhere new, you can help me write another."
+    "join": "我愿意一起走到登记处。到站回执已有独立签字，你不必靠我一个人的保证。",
+    "joinEn": "I will walk with you to the registry. The arrival receipt is independently signed; you need not rely on my word alone."
   },
   "星铸铠卫领誓·洛玟": {
-    "join": "书签别拔，我记不住页码。等你真找到最后一页，再叫醒我；别拿封底骗我。",
-    "joinEn": "Leave the bookmark. Page numbers slip my mind. Wake me when you find the last page. The back cover will not fool me."
+    "join": "卡勒布把副本夹好：“我陪你核最后一段，但每处原件都要留下。”",
+    "joinEn": "Caleb clips the copies together. “I can help check the last part, but each original stays with its keeper.”"
   },
   "星铸裂角客领誓·佩烙": {
-    "join": "镜子给它蒙上，走路就不会老停。我也想看看，没那张脸盯着，自己还会不会认错门。",
-    "joinEn": "Cover the mirror so it stops us less. I would like to see whether I still take the wrong door without that face watching."
+    "join": "奥蒂斯站起身：“这回我不排在你看不见的地方。要问那晚的到达，我还记得。”",
+    "joinEn": "Otis gets up. “I will not wait out of sight this time. If anyone asks about that arrival, I still remember it.”"
   },
   "星铸灯议长·泽烙": {
-    "join": "梯子你扶着，我把那一点光摘下来。够不够照路，得先到了黑处才知道。",
-    "joinEn": "Steady the ladder. I will take down that bit of light. We will know whether it is enough when we reach the dark."
+    "join": "沃恩把订书钉收进口袋：“我带笔和夹子，省得你又把不同的底册订错。”",
+    "joinEn": "Vaughn pockets his staples. “I will bring a pen and clips, so the separate records do not get mixed up again.”"
   },
   "星铸巡影狼领誓·阿霖": {
-    "join": "跟它走，别催。它还在等月亮转过去；有些路，得先让水里的影子腾个位。",
-    "joinEn": "Follow it. No hurry. It is waiting for the moon to turn. On some roads, the reflection has to make room first."
+    "join": "罗南叼起巡查簿跟到你身边，等你看清路牌才向前走。",
+    "joinEn": "Ronan brings the patrol book to your side and waits for you to read the signs before moving on."
   },
   "星铸灯议长·图烙": {
-    "join": "题目背面朝上，咱们出去再看答案。要是我又问你看见什么，就请我先闭上眼。",
-    "joinEn": "Keep the questions face down. We can read the answers outside. If I ask what you see again, tell me to shut my eyes first."
+    "join": "伊欧妮收起细杖：“我陪你听，谁把猜测说成亲眼所见，我会提醒。”",
+    "joinEn": "Ione folds her cane. “I can listen with you and point out when a guess is being passed off as something seen.”"
   },
   "星铸铠卫领誓·芮烙": {
-    "join": "碑文拓在纸上，石头就留下。人要走得快一点，总不能把每件错事都背在肩上。",
-    "joinEn": "Take a rubbing. Leave the stone. To make any speed, we cannot carry every wrong thing on our backs."
+    "join": "西塞尔放下旧登记牌：“该拆的是错结论。走吧，我帮你把更正送过去。”",
+    "joinEn": "Cecil puts down the old board. “The wrong conclusion is what needs taking down. I can help carry the correction.”"
   },
   "星铸铠卫领誓·米玟": {
-    "join": "脸上的布不用解，我认得你的鞋声。你走慢一点；我不想出门就认丢第一个朋友。",
-    "joinEn": "Leave the cloth on my face. I know your footsteps. Walk slowly. I would hate to lose my first friend just outside the door."
+    "join": "奥尔顿将灯提起来：“我替你照着这些记录，不替你换一张身份。”",
+    "joinEn": "Alton lifts the lamp. “I can help read these records. You do not need me to give you another identity.”"
   },
   "星铸裂角客领誓·伊玟": {
-    "join": "灯别照着伤口，照脚下。裂缝里那些人不认路，喊得再客气，你也别替他们领路。",
-    "joinEn": "Light the ground, not the wound. The people in that crack do not know the road. However politely they ask, do not guide them."
+    "join": "达拉替你封好证物袋：“这回不往里面添猜想。需要核哪件，我就拿哪件。”",
+    "joinEn": "Dara seals the evidence bags. “No guesses go in with them. Tell me which piece needs checking, and I will bring it.”"
   },
   "星铸环藤蛇领誓·阿玟": {
-    "join": "尾巴先松开，别再咬着。你看，它也累了。今晚让路往前伸一次，回来再说。",
-    "joinEn": "Let go of the tail. No more biting. See how tired it is? Let the road run forward tonight. We can discuss returning later."
+    "join": "阿斯彭盘在装着副本的篮边，跟你去找能说明寄件经过的人。",
+    "joinEn": "Aspen coils beside the basket of copies and follows you to find someone who can explain the dispatch."
   },
   "星铸裂角客领誓·艾玟": {
-    "join": "盘子我洗好了，就别再端上来。赶路的人得吃饭，可我总得学会分清客人和晚餐。",
-    "joinEn": "I washed the plate. Leave it there. Travelers need food, but I must learn the difference between a guest and a supper."
+    "join": "埃尔默把剩下的面包包好：“先吃。等会儿要问借笔的事，我会把知道的说清。”",
+    "joinEn": "Elmer wraps the rest of his bread. “Eat first. If anyone asks about borrowing that pen, I will explain what I know.”"
   },
   "星铸峰脊巨灵领誓·欧玟": {
-    "join": "你先过去，我把梁放稳。别忙着道谢，真要谢，出去给我找把不晃的椅子。",
-    "joinEn": "Go ahead while I settle the beam. Save your thanks. Outside, find me a chair that does not wobble."
+    "join": "路德把铁门支好：“这边暂时不用我扛着了。我陪你去认外门。”",
+    "joinEn": "Luther braces the iron door. “This one can stand without me for a while. I can help you find the outer door.”"
   },
   "星铸巡影狼领誓·乌玟": {
-    "join": "把绳子收起来，它不用牵。你停它就会停；别再往后数了，少的那只不会喜欢。",
-    "joinEn": "Put the lead away. It stops when you stop. Do not keep counting behind us. The missing one would not like it."
+    "join": "韦德叼起录音盒，走到你身侧；这次，它不用独自守着一段没人听完的话。",
+    "joinEn": "Wade brings the recording box to your side. This time, the unheard appeal is not his to guard alone."
   },
   "星铸灯议长·雅玟": {
-    "join": "椅子留空，外套拿走。我陪你站着等。这屋里坐过的人太多，谁都没等到自己的号。",
-    "joinEn": "Leave the chair empty. Take the coat. I will wait standing with you. Too many have sat here without their number being called."
+    "join": "勒内收起空白失踪表：“这张先不用了。我陪你把该完成的到达记录送过去。”",
+    "joinEn": "Rene puts away the blank missing-person form. “We do not need this one. I can help take the arrival record to be completed.”"
   },
   "星铸铠卫领誓·维玟": {
-    "join": "纱布按紧，名字等会儿签。人的血不该拿来校对，我早该想起这件事。",
-    "joinEn": "Hold the gauze down. The signature can wait. Blood was never meant for checking a form. I should have remembered sooner."
+    "join": "阿丝特莉收好绷带：“我的见证已经写下了。若你还需要人核对，我愿意再说一遍。”",
+    "joinEn": "Astrid packs the bandages. “My statement is already written. If another check is needed, I am willing to give it again.”"
   },
   "星铸灯议长·诺玟": {
-    "join": "笔我收了，你拿空白那份。外面要是还查姓名，咱们这回让他们先报自己的。",
-    "joinEn": "The pen is put away. You take the blank copy. If they ask our names outside, let them give theirs first."
+    "join": "欧内斯特把备用笔递给你：“原件有出处，见证有姓名。我陪你把最后一栏写清。”",
+    "joinEn": "Ernest hands you the spare pen. “The records have sources and the statements have names. I can help make the last entry clear.”"
   },
   "星铸折面星客领誓·瑟玟": {
-    "join": "门替你留着，我也出去看看。你若又见到同一张桌子，别急着坐；替我多留把椅子。",
-    "joinEn": "I will hold the door and come out too. If you find the same table again, do not sit at once. Leave another chair for me."
+    "join": "埃文从门边取下路牌：“我愿意替后来的人把方向说清。你先去看看天亮。”",
+    "joinEn": "Evan takes down the direction sign. “I can make the route clear for whoever comes next. You go and see the daylight.”"
   },
   "炽砂修灯师·瑟罗": {
     "join": "汤在炉边，喝完再走。我会把封条重新压好；今晚让那团火自己待着，别什么都有人陪。",

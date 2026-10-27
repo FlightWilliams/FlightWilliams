@@ -4,670 +4,780 @@ By Will Wang. Contains every encounter entrance.
 
 ## Fogtown
 
-### 1 · Noah · The Man Who Never Changed Shifts
+### 1 · Night Watch Noah · Start with the Last Person Who Saw You
 
-Noah takes a piece of worn felt from the narrow cupboard behind the door and spreads it between the cups. His uniform collar has faded white. A cuff button is missing, but the needle remains in place. He pushes the mended glove deep into a pocket.
-“You wanted to leave. Someone has to establish that you are awake.” He pulls out the opposite chair.
-You ask why a signature will not do. He glances at the clock, stopped at 03:17. His thumb works over a dried red spot on a card.
-“Signatures are easy to learn.”
-The basin sounds again. Without turning, he slides the first card into the lamplight.
+Noah opens the duty book between you and the file. The photograph is yours, but the missing date is tomorrow. The field marked FOUND is blank. His worn uniform cuff rests beside the page while he holds its damp corner flat.
 
-### 2 · Abel · The Mark in the Doorframe
+“Don't count yourself among the dead,” he says. “I know you came back to this door tonight, exhausted. You asked for directions twice, then fell asleep. Anything before that would be a guess.”
 
-A crack of timber comes from the survey office behind the food shop. Abel turns sideways through its doorway. Paint hangs from the broken horn on his forehead. He holds a felt hat with two holes cut through the brim, each a different size.
-He has come for a height record measured three times. Your name occupies its collection field. You tell him you have never been here. Without arguing, he turns the sheet over and reveals a flattened deck.
-“I need to know whether you are lying, or the ruler.”
-He sits with his broken horn toward the wall. A recess fits it perfectly. Its edges are clean, as though someone wipes them every day.
+You ask who delivered the file. Noah points toward the post office and arranges several cards in the order of the streets. He offers to help reconstruct the last stretch you remember. “Start with people who recognize you. Find out where you went before deciding why somebody reported you missing.”
 
-### 3 · Bruno · The Bell in the Empty Bucket
+### 2 · Broken Horn Abel · More Than a Photograph
 
-Nobody is at the well. An overturned bucket rolls quietly beside it. Bruno pushes through the cattle-shed gate, wet straw clinging to broad shoulders. His nose ring is black with rust. A strip tied around one horn bears a work number canceled three times.
-He rights the bucket with a hoof. A bell sounds inside. When you approach, he backs behind a low crate laid with cards, blocking the door to the next street.
-A water-collection form names Bruno. The proxy field is blank.
-You reach for a pencil. His muzzle pushes it away, leaving the cards. Two coughs come from the shed. His ears turn toward them. No warmth leaves his nostrils.
+The measuring room's doorway is low. Abel removes his hat to keep his broken horn clear of the beam. After looking at your photograph, he brings out a coat-measurement sheet from the previous night, with two worn places marked beside the cuff. Instead of claiming to recognize you, he asks you to stand by the door.
 
-### 4 · Silas · Down From the Roof
+“Someone wearing that coat asked how to reach the duty room,” he says, pointing to a repaired cuff. “I didn't see the face clearly. Height and clothing need to match. A photograph in a file doesn't make every sighting yours.”
 
-The rain stops. Silas slides down an inverted drainpipe, touching the lintel with his feet before releasing his hands. His coat hem has burned stiff. A pale ring marks his neck, while the little horns above it are carefully trimmed.
-He carries a folding table. He has come to reclaim the use of the roof from a tenant downstairs. The tenant has left. A complaint addressed to you remains.
-“They say I make too much noise asleep.” He unfolds the table. “I have not closed my eyes all night.”
-He offers you a chair and pulls cards from the scorched seams of his coat. Water runs upward along his sleeves, disappearing beneath the collar.
+You lay your coat beside the measurement sheet. Its worn places match the marks. Abel moves his ruler aside and sets out the cards. He is willing to check what the visitor said. This may establish part of your route; it does not identify whoever sent the report.
 
-### 5 · Finn · The Pockets Already Empty
+### 3 · Well Bull Bruno · Who Needed the Water
 
-Someone waves a sheet behind the bus-shelter glass. Finn wears a narrow black coat with sleeves extending past his wrists. Rain has pressed his hair against his temples. He says he has come from the post office to return a misdirected statement.
-Your name is on it. You touch your pocket. The folded page is gone.
-“I took nothing.” He opens spotless hands. “People who take things seldom keep them in their hands.”
-He straightens a crooked table with his shoe and asks you to decide which account is genuine. Two wet chair marks remain on the floor. When you sit, the chair nearest the road has somehow moved behind his back.
+Bruno stands beside the well with the drawing rope draped over a short horn. As you approach, the bull nudges an empty bucket toward a wooden crate. Soot rubs off its rim. A water-supply sheet for evacuees lies beside a laid-out deck.
 
-### 6 · Owen · The Late Patrol
+You show the photograph. Bruno nods, taps the bucket with a hoof, then points toward the bridge path. The sheet records a visitor borrowing the bucket to give an injured traveler water. The visitor returned it with smoke-blackened cuffs.
 
-Owen comes out of the fog at the corner, ash falling from his heels. His old police jacket strains across the shoulders. Half the badge has worn off his cap. Several cigarette ends of equal length flatten his breast pocket.
-He has come to inspect the night locks. Every door is bolted inside except the closed shoe shop beside you, whose shutter stands a handspan above the pavement.
-“Sit inside. Standing interviews make people think I am still paid.”
-He spreads cards over a cobbler’s stool and asks which street you intend to take out of town. As you describe the junction, he cups a hand around the bulb. It has just dimmed. A fresh cut in his palm is closing beneath its light.
+Bruno will not sign a name he never clearly heard, but he leaves you the route to check. There is finally something more concrete than the word MISSING: whoever wore your coat that night was still helping the people passing through Fogtown.
 
-### 7 · Ira · The Edges of the Obituary
+### 4 · Hanged Guest Silas · Back from the Bridge
 
-A huge moth unfolds between old newspapers as the stall shutter rises. Black powder rims Ira’s wings. Two pale markings each conceal half a face in profile. Her antennae touch the paper. Both obituary columns tremble.
-The seller is absent. A photograph lies beneath the money dish. The people at either end have been rubbed out. You remain in the middle.
-Ira has followed that photograph here. She settles opposite the empty chair. Each wingbeat turns selected cards, leaving room for your hand.
-You ask whom to pay. A faint laugh comes from under the newspaper. The faces on the wings stay still. A price label lands at the table’s corner. It reads: PLEASE SIT.
+Silas gathers the rope hanging from the eaves and lowers himself upside down beside a folding table before standing upright. His scorched coat brushes the stool. He repaired a drain on the roof the previous night and could see the entire road between bridge and post office. He is the witness Abel suggested you find.
 
-### 8 · Mabel · Mending at the Well
+“I can tell going to the harbor from coming back,” Silas says. “The person I saw was walking into town. Stopped twice against the railing. Nobody was chasing them.”
 
-The well cover lifts a little from below. A pale leg rests on the stone. Mabel climbs out slowly, wet house numbers hanging from her abdomen. All eight feet are dry and clean. She follows a broken thread to your cuff.
-You step back. She retreats too, leaving the low stool beside the well for you. Fine silk covers its seat beneath heat-warped cards.
-Someone has scratched a sentence behind a house number: SETTLE WHAT IS OWED FIRST.
-You do not know what you owe. Mabel taps the table edge. Dull red points brighten along the threads. She does not spring. She waits for your hand to touch the cards, as patiently as someone waiting for you to accept a needle.
+He arranges cards for the bridge, junction and duty room, asking which places you recognize. Silas will confirm a direction, not invent a point of origin. You add a statement to be checked: someone wearing your coat returned to Fogtown from the evacuation route.
 
-### 9 · Hugo · The Other End of the Stretcher
+### 5 · Empty Hands Finn · Two Different Pieces of Paper
 
-Hugo pushes an unoccupied stretcher out through the narrow door beside the post office. His shoulders almost fill the entrance. His face is pale. Freshly washed folds run straight down his apron. Only an empty blanket covers the stretcher’s heaviest section.
-“Watch this a moment.” He stops beside you without releasing the blanket corner.
-He was taking someone beyond town. At every junction he found the same road sign. Now he needs to establish whether the road is wrong or he has forgotten his passenger.
-You lay the cards on the stretcher. Hugo sits gently. His chair sinks half an inch into the floor. Something beneath the blanket pulls out a seat for you.
+Finn waits in the shelter outside the post office, his black sleeves covering half his hands. He spreads two papers on the bench: your missing-person file and the town's night-entry record. Both carry your name. They serve different purposes.
 
-### 10 · Leon · The Light Outside the Roster
+“People keep passing them around together until it sounds as though you're already gone,” he says, returning the file. “A missing report means someone is looking for you. An entry record means someone saw you. The first doesn't cancel the second.”
 
-Leon leaves the power room by its side door carrying a flashlight without its glass. His dark service jacket has a tight tie and a blank identity card. As you give your name, his thumb turns the card over.
-He is looking for the last person who touched the switch before the outage. The maintenance sheet contains a drawing of your coat. The face is blacked out.
-“I have no papers either,” you tell him.
-“That saves time.” He brings two insulated wooden stools. “We need not establish which papers are real.”
-The flashlight blinks. He pins the cards to the maintenance table. The current inside the wall falls silent. Only a metal fastener in his sleeve continues to click.
+Finn turns his empty pockets out, produces a few cards and suggests separating rumor from firsthand knowledge. He does not know who wrote the letter. He can preserve the originals, so the next witness has something to compare instead of merely repeating what the town has started saying.
 
-### 11 · Reed · The Place Beneath the Bridge
+### 6 · Old Guard Owen · The Patrol Book’s Order
 
-Reed climbs the inspection ladder beside the pier with a dented flask on his back. His uniform hem is soaked. The new patches over its knees are clean. A short hammer is tied to his wrist so it cannot fall.
-He checks the central bridge plank every day. Today a card was wedged beneath it. Your name is written on its back, a nail hole piercing the final stroke.
-“Not across yet.” He retrieves folding stools from behind the rail. “Tell me why you came from below.”
-You reached the bridge by the main road. Reed does not argue. He spreads the cards on his toolbox. Your footsteps sound underneath, arriving late and stopping directly beneath you both.
+Owen gives you the low stool in the shoe repair shop and sits beside the door. Beneath his old cap, a pale ring marks his flattened hair. He takes out the patrol book, checks the date, then finds the page for the outage. He did not hear every bell that night.
 
-### 12 · Amos · The Earth Dug Early
+“The evacuation notice came first. Later I met someone in that coat.” He glances at your cuff. “They asked whether that proves you fled the factory. It doesn't. I wasn't with you on that stretch.”
 
-Amos comes through the cemetery’s back gate dragging a shovel wrapped in a clean pillowcase. His cheekbones cannot support the brim of his cap. No blood shows in an old split along his neck. Before speaking, he gently lifts his jaw back into place.
-He is looking for a canceled burial date. Beside the open grave are your name and rain-blurred numbers.
-“A hole cannot stay empty long. People start thinking I am lazy.”
-He puts two ash boxes together, levels them carefully and asks you to sit. Over the cards, he wants you to establish whether this name should remain or be crossed out. Before his shovel touches the ground, the soil loosens around your shoes.
+Owen uses cards to mark the junctions he patrolled and asks you to compare the earlier statements. He will record the order he can support without guessing at what he missed. To find where the evacuation notice originated, you still need the place that kept the calls.
 
-### 13 · Seth · The Signature That Would Not Land
+### 7 · Mourning Moth Ira · Not an Obituary
 
-Seth follows a windblown form down the municipal steps. His hair is cropped short. His shirt is buttoned to the throat. Old gun calluses mark his palm. His holster is empty, but he keeps that side protected as he walks.
-He was asked to sign a statement saying he fired last night. He remembers refusing to fire.
-“Were you there?”
-You shake your head. He seems relieved.
-Seth lays the form on a long table and weights its corners with cards. He asks you to reconstruct the night with him before he commits to an account. The pen remains above the blank field. Through the paper, the final stroke of his signature is already visible.
+With the newsstand shutter only halfway raised, Ira spreads gray-black wings across the papers. The moth picks your photograph out of the notices waiting to be printed, then touches the obituary column with an antenna. The layouts look similar; their headings plainly differ.
 
-### 14 · Ezra · Outside the Weather Record
+When you move the photograph toward the obituary, Ira stops you. The editor's note says there is a request to locate this person, but no certificate of death. Ira places the correction on top, addressing a mistake the town has begun repeating as fact.
 
-A long tail opens the weather-station door. Cold fog enters first. Ezra folds torn wing membranes against a narrow scaled body and lowers a long dragon’s head beneath the frame. Old pieces of printing type are caught between the scales. The smell of burning has drawn the creature from the ridge outside town.
-The attendant’s board says: NOTHING UNUSUAL. Beside the words lies a blank print the size of your shoe.
-A claw taps NOTHING UNUSUAL. It wants a game to bear witness to the cold spell nobody admits happened.
-The drake lowers its head to the maintenance bench and slowly produces ash-dusted cards. It keeps you away from the stove, pushing a thermometer toward your chair instead.
-Water beads on the card backs. The thermometer has not moved. Your last breath is freezing against its muzzle.
+The moth nudges the cards toward your seat. The question here is what the record actually says, not whose explanation sounds more frightening. For now, the file does not prove you died. The investigation should continue along the route of a living traveler.
 
-### 15 · Cole · A Borrowed Face
+### 8 · Well Spider Mabel · Blue Thread at the Cuff
 
-Cole leaves the developing room in a coat made for somebody broader. His face is unremarkable except for permanent ash marks beside the mouth. A curved horn has been filed flat beneath his hair, exposing pale, damp grain.
-He brings a collection slip. He is looking for a photograph that has not yet been exchanged. Every sample behind the counter bears your name.
-“Do not recognize them too quickly.” He stops your reaching hand. “The sooner you do, the more often they change.”
-He empties a deck onto the portrait stool and asks you to sort out who belongs on each card. A face powders into ash beneath his finger. The cloth underneath retains the warmth of that person.
+Mabel climbs from the well rim onto a repair frame, a length of thread held in each pale foot. You place the blue thread from the envelope beside your cuff. The spider frees a foot to make room for your stool and pushes a magnifying glass closer.
 
-### 16 · Niles · The Letter Kept for the Late Arrival
+The colors match. Both knots are tied backward. Mabel demonstrates the usual knot, then slowly repeats the mistaken version. Your fingers recognize the last wrong turn before your memory does. It is the way you have always mended clothing.
 
-Niles enters through the post office’s rear door, on the passage toward the bell tower. An old mailbag strains against his thin shoulders. His cuffs are sharply pressed. An unstruck match rests behind one ear.
-The person he expects has not arrived. The return receipts have already been signed. He pushes the letters toward you. The uppermost envelope has no recipient, but its seal carries the pattern of your thumb.
-“I only want to know whom to give it to.” He pulls out a chair. “Names are useless here. Too many people share them.”
-He weights the letters with selected cards. The bell-tower door stays open. You raise a hand against the lamp. Your shadow has already touched the first card.
+Mabel does not identify the sender on that basis. Thread changes hands; coats can be borrowed. But whoever sent the envelope had access to something connected with you. These two objects remain on the card table. They are things to investigate, not grounds to condemn someone you have not met.
+
+### 9 · Body Porter Hugo · The Passenger Was Breathing
+
+Hugo parks his stretcher trolley beside the post office, holding a damaged axle in one broad hand. Someone said your coat had lain on this trolley. You ask whether its passenger was injured or dead. Hugo folds the blanket aside.
+
+“I know the difference,” he says. “They complained about the bumps and asked how far it was to the duty room. Alive, but too tired to walk. I took them as far as the street outside the duty room. They insisted on walking the last few steps. I can't tell you what came before.”
+
+He circles the duty room address in the transport book, then sets out cards so you can compare the witnesses along the road. The stretcher is no longer evidence of your death. Hugo can establish a return to Noah's door. To learn why the passenger was exhausted, you must look further back along the evacuation route.
+
+### 10 · No Witness Leon · A Stopped Clock Is Not an Ending
+
+Leon brings a burnt fuse from the power room, places it in a metal tray and switches on his torch. The lettering on his badge is unreadable, but his maintenance book is carefully kept. When you ask why everybody names 03:17, he turns the circuit diagram toward you.
+
+“The tower and this street shared a supply. The clocks stopped together when it failed.” He taps the repair entry. “You can't use them to time what happened afterward. A clock staying still doesn't mean people stopped traveling.”
+
+He helps separate the accounts before and after the outage using cards. You had feared you vanished at that exact minute. Now 03:17 is a starting point for the inquiry, not everybody's ending. Calls and witnesses will have to establish the order the clocks cannot provide.
+
+### 11 · Bridge Guard Reed · Two Directions Across the Bridge
+
+Reed climbs the inspection ladder and nails a loose board down before taking your file. A cord secures the short hammer to his wrist; fresh sawdust sits beneath his nails. Silas saw a traveler returning this way. Reed remembers which way people moved on the bridge.
+
+“Evacuees used the upper side. People returning to town kept to this rail.” He shows you two worn tracks. “Don't reverse the arrows. You could reach the harbor and come back. A list with one entry won't record both journeys for you.”
+
+He lays cards across his toolbox and asks you to arrange the directions described by the witnesses. You need a whole route, not a single crossing mistaken for a disappearance. Following the bridge still leads toward the places used by the evacuees.
+
+### 12 · Gravedigger Amos · A Blank Is Not Proof
+
+Amos leaves his shovel outside the cemetery gate rather than bringing it into the duty shed. After reading your file, he takes the death register from a shelf. Its pages are thin. He turns them slowly, making sure you can see that he is checking rather than merely glancing.
+
+Your name is absent. You relax, but Amos shakes his head. “That doesn't mean you were never in danger. I can say this: we received no body under your name and arranged no burial. Don't write more than that. Don't write less, either.”
+
+He closes the register and spreads cards on the empty table. The task is to separate supported statements from questions still open. Your file remains a request to find a living person. Finding its sender requires tracing the papers, not searching the cemetery for an answer it cannot give.
+
+### 13 · Sworn Witness Seth · A Signature for What Was Seen
+
+Seth dries the town hall table and sets down the statements you have collected. His shirt is buttoned high. He braces his hand against the wood without rushing to sign. When you ask him to witness the account, he first divides firsthand observations from things people heard.
+
+“I can sign that you returned to town tonight. I can keep asking questions with you,” he says. “I didn't see anyone send the letter. Similar handwriting isn't something I can swear to.”
+
+He uses cards to arrange the stretches described by Hugo and Reed, leaving a gap where neither account reaches. You begin to understand what a willing witness offers: help checking your suspicions, not approval of all of them. Records someone else can verify will be more useful at the tower than another alarming rumor.
+
+### 14 · Mist Drake Ezra · Which Way the Smoke Traveled
+
+Ezra rests outside the weather station, his long tail kept clear of the drying raincoats. You hold out your cuff. The drake smells the soot, then pins the wind sheet to the table with a claw. He watched the factory grounds and the downhill road to the harbor from above.
+
+The wind blew from the Ash Works toward Fogtown. Soot shows that somebody passed through smoke; it does not establish who started a fire. Ezra leaves the card for the fire site apart from the sightings along your route.
+
+What first looked like an accusation becomes a trace of a journey that needs checking. The drake stands by his observations without inventing events inside the plant. The calls kept at the tower may establish who raised the alarm and what the person in your coat was doing there.
+
+### 15 · Ash Guest Cole · The Photograph Was Not Replaced
+
+Cole stops you outside the photographic darkroom and asks you to dry your cuff before coming closer. His borrowed coat hangs badly and soot marks his mouth, but the negative is steady in his fingers. Finn asked him to check whether your file used an altered or stolen face.
+
+“Same negative,” Cole says, matching a damaged edge to the print. “That establishes the photograph, not the sender. Someone might know you. They might simply have obtained this picture.”
+
+He puts the negative in a paper sleeve and clears a dry space for the cards. You can set aside the theory that the file concerns a different person. You are the person being sought. What remains is to trace the letter that brought this photograph through the post office and into Noah's hands.
+
+### 16 · Letter Keeper Niles · Where the Letter Had Been
+
+Niles empties his mailbag onto the sorting table, finds the envelope containing blue thread and clips the file's transit slip beside it. His thin finger follows the stamps instead of lingering over the unreadable sender field.
+
+“I delivered it to Noah. I can't vouch for whoever sent it,” he says. The slip carries a Bell Tower transit reference. Beside it is a call-log index: the tower received a fire-alarm call mentioning your name that night. The tower kept the original recording; the post office received only a summary.
+
+Niles copies the reference onto a blank card and helps you check the name, photograph and road accounts once more. The next task is specific: hear that call, learn who mentioned you during the fire alarm and where the evacuees were being taken. The sender is still unknown, but there is now somewhere to seek an answer.
 
 ## Bell Tower
 
-### 1 · Otto · Rosin in the Palm
+### 1 · Bell Ringer Otto · Do Not Start with the Bells
 
-The woman in the recording room opens a side door. Rosin dust falls down the stairs before Otto appears, carrying a broken rope. His shoulders scrape plaster from the frame onto faded overalls. He must tilt his head to look at you.
-“There is no bell upstairs.” He opens a callused hand. “No wages either. Still have to come.” He shakes a copper shaving from his boot. Outside, the traders cover their ears.
-Otto coils the rope around a table leg and brings two low stools. He wants another pair of eyes on the day's timing cards; somebody has removed the one marked CLOSED. As you sit, he steadies the tabletop with great care. A hammer strikes beneath the floor.
+Otto comes down from the bell frame with a coil of rope on his shoulder and resin on his broad palms. You show him the reference copied at the post office and ask whether you were still in town when the clock reached 03:17. He puts the rope down before answering.
 
-### 2 · Kurt · The Shift Change
+“Don't ask this bell to decide.” He points to the severed power supply. “The time signal stopped. People kept moving. Some have attached the last bell they heard to everything that happened afterward.”
 
-The door at the end of the corridor opens three times before Kurt steps through. His dark blue jacket is sharply pressed. A thin iron mask covers his face, newly polished around the nose. His keys tap his trousers; the shadow on the wall advances one square.
-“Taking the shift, or covering it?” he asks, examining your handover form. You say you need directions. A small sigh comes through the mask. Apparently that is the difficult answer.
-He turns the duty table into the corridor and arranges cards on either side. Nobody passes without a recorded seat. You must find yours in a match. He gestures for you to sit. A length of shadow reaches from his cuff before his hand does.
+He separates time-signal cards from call cards on the repair table. You came for the original emergency recording, not another report of the stopped clock. Otto marks the recording room's floor and tells you to verify the call reference before reconstructing the night's order.
 
-### 3 · Emil · The Weight of an Empty Coat
+### 2 · Iron Mask Kurt · A Call, Not a Rumor
 
-The lift cage stops behind you, empty. Then an old coat slowly fills out against the wire mesh. Emil's chest could block the whole doorway. A narrow pale face rises above his collar, separated from it by a strip of darkness.
-He holds the cage door and crosses to the inspection table. His footsteps are heavy, but the floor does not bend. “Sign me present.” The voice comes from beside you, nowhere near his mouth.
-A deck is waiting. Emil says the inspector accepts only someone who has played with him as proof that this room is occupied. You pull out a chair. The human-shaped hollow behind its back slowly straightens. Across the table, he buttons the empty coat and moves aside to leave you the light.
+Kurt waits outside the recording room, a thin iron mask covering his nose and sorted keys hanging at his waist. He reads the postal transit slip and finds the loan register, but does not hand you every reel at once.
 
-### 4 · Ada · Breakfast on the Ledger
+“Are you finding out who said what, or merely looking for a sentence that sounds like you?” he asks. You write your purpose plainly: verify the fire call's source, order and complete contents without using one familiar voice to accuse someone.
 
-The sound of abacus beads leads you to a mezzanine. Ada sits behind stacked ledgers, tight cuffs above knuckles stained with red and blue ink. Their spectacles have only one lens. The uncovered eye still follows every bead.
-“Addresses are available. Old accounts first.” They offer an itemized breakfast bill with your name at the bottom. You say you never ate it. They strike off the interest. “One meal less, then.”
-Cards emerge from a receipt clip. Ada moves the candle between you. They need help balancing an account with no traceable payer; a match is the only signature this office still recognizes. As you touch the first card, the charge in the ledger quietly changes to yesterday.
+Kurt sets the cards on the counter and asks you to check the reference with him, so you do not mistake a later summary for the original. A matching reference gives the recording a source. The next question is how it reached the tower, not how many strange stories the building can supply.
 
-### 5 · Morris · The Empty Place on the Trolley
+### 3 · Hollow Man Emil · Who Carried the Original Reel
 
-The basement ramp is slick. You grip the rail as Morris pushes a seatless trolley toward you. His uniform has dried tight around visible ribs. Cracked lips leave his teeth exposed. Yellow label strings circle both wrists.
-“Make way. The next one's in a hurry.” He nods toward the empty trolley, then dusts a stool for you. Small pale bones catch in its axle. Each turn sounds like teeth clenching.
-He pulls a folding table from beneath the chassis. The last handover at the basement exit is missing a witness. He asks you to play through it with him, one card at a time. He offers the deck and leaves one side free for the trolley. Before you ask about its passenger, Morris taps twice on the table for them.
+Emil pushes a lift cage stacked with recording boxes toward you. His old coat hangs hollow around broad shoulders. His voice is quiet, but his hands never shake beneath the load. The reel Kurt directed you to is in the lowest damp-proof case.
 
-### 6 · Basil · Names in the Medicine Box
+“It came through the Ash Works line,” Emil says, turning over the transfer slip. “They recorded it, then I brought the original upstairs. Not the excerpts people circulated afterward.” The reference matches the postal slip. Two duty workers signed the seal.
 
-Glass knocks inside the medicine cabinet. Basil slips between fallen measuring cups, scales the color of soaked brass. A wet line follows its belly. A tiny patient tag is fastened beside its neck.
-It coils around the desk leg and touches each named medicine bottle with its tongue. At the bottle bearing your name, it stops. A hoarse voice in the speaker asks for it, “Before taking it, do you know who you are?”
-You shake your head. The snake releases the bottle and slides cards from beneath its body. Two chairs are drawn inside the cabinet door; one has no legs. Basil will not let you take the medicine before a match to establish the name. You turn the first card. Somebody swallows inside the cabinet.
+He uses an empty case as a card table while you compare the details. The familiar voice is still unexplained, but one possibility can be set aside: this was not a recording improvised by a passerby for a missing-person notice. It came from an emergency call made that night.
 
-### 7 · Lars · Nothing in the Stove
+### 4 · Ledger Clerk Ada · The Charge Records a Connection
 
-A narrow break room lies between floors. Lars drops from its flue, curved horns scraping a long note from the metal. Half his face is finely cracked. Steam rises from the cuffs of a scorched leather apron.
-Thinking he is cold, you move a stool toward the stove. He catches it. His fingertips are cold enough to make you flinch. “Not there. Haven't found the last place I sat yet.”
-He wipes the table with a clean corner of the apron and takes out smoke-blackened cards. He was sent to investigate a fire with no source. Every statement, however, insists on beginning with this match. When you sit, he closes the stove door. Nothing is inside. The knocking stops.
+Ada peers through her one remaining lens at the reference you bring. A yellowed communications bill lies beneath her abacus. She finds the line and covers other callers' names with paper rather than drawing unrelated lives into your inquiry.
 
-### 8 · Felix · Three Bells That Never Rang
+“The money isn't the point. The connection time is,” she says. “The emergency line was in use before the main supply failed. A backup battery kept the recorder running. A turning reel doesn't mean the call began after the outage.”
 
-Felix drags a tool cart backward down the stairs. At the final step, two short horns twitch above his collar. Tape wraps his long fingers. Three holes burn through his work shirt; his pockets are full of silent little bells.
-“I didn't take it apart.” You have asked nothing. He twists an intact nut into two pieces. He is looking for a hidden sound and insists you have just heard it.
-Felix lays three blackened photographs across the table and sits on his toolbox. He wants a card match so he can hear when you draw breath. As your hands reach the tabletop, the middle photograph sags. Something continues holding the other two in shape.
+She lays out the bill, duty record and cards so you can compare their time marks. The call concerns what someone did while the danger unfolded. A familiar voice may be disturbing. It does not turn a properly sourced recording of an earlier event into a prediction of the future.
 
-### 9 · Greta · Stitches Behind the Dial
+### 5 · Mortuary Guard Morris · The Entry Says Injured
 
-The empty clock casing overhead dips when you enter the storeroom. Greta descends from it, eight legs thin as watch springs. Grey fluff covers its abdomen. A stitched egg sac hangs beneath.
-Following a thread to the table, it repairs a torn record exactly where your hand rested. The revealed writing lists those who have touched its young. You lift your hand. The thread does not slacken.
-Cards circle the table, white lines connecting them to your seat and hers. An old speaker crackles. “The count comes after the match. Leave the chair here.” Greta raises a foreleg and pulls your stool closer. Several sounds come from the sac. You cannot count them. The total is already written down.
+Morris parks the trolley used for recording boxes beside the basement ramp and unties the tag cord around his wrist. You heard the call also reached the medical room, so you ask whether anyone reported your death. He produces an injury-transfer book rather than a covered stretcher.
 
-### 10 · Ivan · The Waking Seam
+“This says awaiting transfer. There was a reply afterward,” he says, following the entry with a finger. “Nobody asked me to receive a body under this name. Moving an injured person and moving the dead require different records.”
 
-The infirmary bed is empty. A hand reaches from beneath it and catches your falling water glass. Ivan slowly crawls out. His face shows no trace of sleep. The threads beside his eyelids are as thick as the old rope upstairs.
-He pulls on a hospital coat and presses a separated wrist bone into its sleeve. “Doctor said I could rest if I closed my eyes. Three doctors have gone off shift.” His smile takes effort.
-He places his chart facedown and fetches cards from a pillowcase. A completed match will let the attendant certify that he is awake, instead of sending him beneath the bed again. As you settle opposite, a broken clock starts in the corridor. His stitches tighten with each tick.
+He sets out cards for the call, transfer and reply, asking you to recover the actual words. You may have been hurt at the fire, but the theory that you were already dead loses another supposed support. To know whether the caller sought rescue or directed others to safety, you must hear the complete call.
 
-### 11 · Boris · Holding Someone Else’s Door
+### 6 · Bell Serpent Basil · A Drug Name Is Not a Cause
 
-At the lost-property room, Boris lifts a shield from a coat stand. Small spikes bend inward along its straps. His old uniform has no tears. In the mirror surface, a second face follows him a beat late.
-“How many are you looking for?” You say you do not know. He nods. “Don't count inside yet. I started with one.” He turns the shield toward the missing-person photographs.
-Boris brings a table from beneath an empty stand. Only when the attendant loses a card match, he explains, can a visitor take over guarding this door. He leaves you the seat facing the exit and does not hurry you. The person in the shield has already sat down and is reaching for your cards.
+Basil slides from beneath the medical cabinet, brass-colored scales brushing empty medicine cartons. The serpent pushes a care sheet to the edge of the table, marking SMOKE INHALATION; REST ADVISED. A blank medication form is placed separately.
 
-### 12 · Lena · An Empty Cup Is Not Enough
+You ask whether someone drugged you into forgetting. Basil shakes the tag at his neck and directs you to the signatures: an observation was recorded; no drug administration under your name was. Someone came in unwell from smoke. That does not explain every gap in your memory.
 
-The drinking-room tap has no pipe. Lena waits beneath it for a drop to fall from the rusted mouth. An oversized grey shirt hangs over chalk-dry skin. Several differently shaped teeth show when they smile.
-You offer a cup. Lena smells it without taking it. “Don't waste it. They recognize only the names on the bags.” Evidence bags stir against the wall. A tooth inside one taps on glass.
-Lena spreads wet registration cards across a table. You must establish who owns the cup through a match before the upper door can be opened. You pull out your chair. The door glass reflects an empty seat. The first card between your fingers grows warm. At last, Lena takes the cup, but still does not drink.
+The cards are already arranged along the corner. You leave both deliberate interference and exhaustion open to inquiry instead of choosing the more frightening explanation. The immediate task is to establish who was on the call and where they went, not invent an attacker from an empty medication form.
 
-### 13 · Ruth · Arriving Through the Floor
+### 7 · Stove Guest Lars · The Alarm Came from the Ash Works
 
-A board rises first. Ruth's roots enter the reception room, carefully avoiding every place that holds a hot cup. The trunk bends inside the door. Pottery fragments lodge in old bark; half the roots are black, half water-pale.
-You step back. A branch gently catches a tipping chair. The attendance book opens on the desk. A line slowly appears: HERE FOR AN EXAMINATION, NOT FOR PLANTING.
-Ruth reaches between two empty chairs and divides the cards. To pass the stairs blocked by its roots, you must help distinguish the living person's record through a match. You sit. A cough sounds from deep inside the trunk. The voice says, “Much obliged.” The nearby clock does not start.
+Lars hangs his scorched apron over a chair and clears the only level table in the rest room. He once worked beside the Ash Works furnaces. Hearing that you want the fire alarm's origin, he fetches the line label kept by the duty operator.
 
-### 14 · Victor · The Voice Behind the Bill
+“The tower received a fire call. That doesn't mean the tower was burning,” he says. “This extension belongs to the eastern furnace. The caller wanted the service passage opened there, not a stove upstairs.” He points to the two places on a map.
 
-Victor arrives by the exterior service ladder, rain on his heels. Only the left half of his neatly buttoned coat is wet. His gloves do not match. Beside his throat, repeatedly lifted tape covers no visible wound.
-He lays a collection notice before you and asks whether you know its signatory. Only half a signature remains. Before you answer, another voice comes from his mouth: “Never met them.”
-Victor is waiting for testimony that can void an old account. This office accepts no spoken appeals, so he proposes a match whose record neither of you can alter. When you sit, he presses down the tape and squares the two hands of cards. Each time a finger touches paper, the rain outside briefly stops.
+Lars brings out cards to check that you have not confused the locations. The furnace door in the recording now has a specific site. A source line still cannot establish whether the person holding the receiver was an arsonist, an employee or someone who came to help.
 
-### 15 · Saul · An Answer Arrives Late
+### 8 · Clock Breaker Felix · Outage First, Repairs Later
 
-Saul rises in the archive lift, seated backward on a narrow stool and sharpening a short pencil. A stiffly washed bandage covers his left eye. The right stays on your shoes. A number has been unstitched from his collar.
-“I have one question.” He nods, writes NO, then asks what it is. Pencil shavings on his knees slowly arrange themselves into other letters.
-He sets the interview table between you. A match will establish who answers last, he says, before someone else completes his statement for him again. You lay down your cards. Only then does he reply to your first sentence: “Go ahead.” The paper he wrote on has turned itself over.
+Felix drags his tool cart to the bench, leaving oil on a nut with his taped fingers. The removed clock hands remind you of a rumor that someone stopped the tower deliberately. He pushes the maintenance order toward you before answering.
 
-### 16 · Cyril · The Timekeeper’s Ring
+“The power failed first. I dismantled it later,” he says, pointing to two entries. “The gear jammed. Repairing a stopped clock isn't what stopped it.” The storage number on the hands matches Otto's repair request.
 
-The stairs end here. Cyril emerges through a low, unmarked door, frost on the shoulders of his black coat. His hair is closely cut. A watch chain has left an old white mark behind one ear. A ring hangs inside the empty glass bell he carries.
-“Looking for the exit?” He holds the ring against the glass beside your finger. It would fit. “Not time to claim lost property.”
-He places a stopped pocket watch on the card box. Only the final interview, he says, will make the stairs acknowledge another floor below. He straightens your chair and takes the seat farthest from the door. When you lift the lid, frost retreats around the glass. He never checks the watch.
+Felix separates the two jobs with cards and asks you to restore their order. The clock at 03:17 cannot establish guilt for the fire, and nothing here says you damaged it. With that confusion resolved, the next useful task is recovering the incomplete sentence on the original reel.
+
+### 9 · Clock Spider Greta · The Half-Sentence Beneath the Noise
+
+Greta lowers herself from an empty clock case, slender feet holding both ends of a recording tape. The reel came loose during transport, and the operator documented the repair. You worry that a few missing words might reverse the message.
+
+The clock spider holds the repaired section under the lamp instead of hiding it inside the player. The original operator's transcription survives: “Don't use the main gate. Open the service passage. Take them to the harbor.” The obscured word was DON'T, not an instruction added afterward.
+
+Greta weights both records with cards while you compare the sentences. You are no longer hearing someone simply order people toward the main gate. The complete instruction avoids danger. Why the caller knew the service route still needs an answer from people who worked at the plant.
+
+### 10 · The Sleepless Ivan · A Replay Is Not Another Call
+
+Ivan sits beside the medical-room door with reddened eyes, insisting on reading the duty entry through. He stayed awake that night and heard the same appeal several times. You ask whether each repetition marked the disaster happening again.
+
+“The first was a live call. Afterward we rewound it to check the names,” he says, showing you the playback record. “We couldn't hear clearly and were afraid of missing somebody. We played it twice more. That isn't three reports.”
+
+He takes his familiar cards from a pillowcase and helps separate receiving from replaying. The voice you recognize did not predict the questions you would ask today. It recorded an experience that needs checking. The next questions are smaller and more useful: who heard the speaker clearly, and can their accounts support one another?
+
+### 11 · Bristle Guard Boris · Clothes Cannot Establish Guilt
+
+Boris takes a burnt set of work clothes from the lost-property rack and leaves his shield beside the chair. Soot on your coat and marks near its collar remind him of the person who brought the clothes. He asks you not to touch the bag and shows you the original entry.
+
+“Some borrowed clothing to keep smoke out. Some put it around injured people,” he says. “Wearing work clothes doesn't make you a worker, much less the person who started a fire. We haven't established why the caller entered the plant.”
+
+He puts character cards beside the clothes to distinguish appearance from actions. The call came from the Ash Works, and its speaker knew the site. Those are reasons to investigate, not a complete accusation. You need the plant's duty record to learn what the caller came to do.
+
+### 12 · Dew Drinker Lena · A Pause to Give Somebody Water
+
+Lena brings a chipped water jug into the drinking room, fills your cup and takes the other chair. She distributed water for the medical room that night. She remembers the caller leaving the receiver briefly, then returning to continue the directions.
+
+“They hadn't fled,” Lena says. “They said, let them have some water first. Then asked who could walk and who needed help. The voice was urgent, but kept waiting for answers.” She could not see the caller and will put down only the words she heard.
+
+You use cards to reconstruct the actions around that pause. Silence in the recording need not mean concealment. In this stretch, at least, the speaker was helping evacuees. A witness at the plant might connect those actions and that voice to an actual person.
+
+### 13 · Old Root Ruth · It Was the Line That Broke
+
+Ruth's roots enter the switching room along the stairs, carefully avoiding the fallen cable. Workers' chalk marks remain on her old bark. She supported a damaged cable rack during repairs and knows why the recording cuts out halfway through.
+
+“Heat loosened the connection when the rack gave way.” The repair note held between her branches diagrams the break. “Nobody cut out a name while you were speaking. Static isn't evidence that someone silenced a witness.”
+
+Ruth steadies two chairs with her roots and pushes the cards for both sections together. Before the interruption, the speaker names the service passage. After reconnection on the same Ash Works line, the speaker names the harbor. You do not fill the gap with an invented attacker. You restore only the directions the records support.
+
+### 14 · Debt Collector Victor · The Account Leads to the East Furnace
+
+Victor sets his collection folder on the repair table, rain dripping from one black glove and one brown. You expect a demand for an unfamiliar debt. Instead he extracts the backup-line usage sheet and shows you that page alone.
+
+“The account belongs to the east-furnace duty room, not to you,” he says, pointing to the charge. “I can trace responsibility for the telephone. I can't trace the hand holding it. An unpaid bill and a fire aren't the same allegation.”
+
+He weights the curling paper with cards and checks the extension and recording reference with you. The inquiry now leads to one particular room at the Ash Works. Finding its duty worker and asking who led people through the service passage will do more than continuing to wonder why the voice sounds like yours.
+
+### 15 · One-Eye Guard Saul · The Operator’s Own Statement
+
+Saul sits beside the archive lift, his one eye following the copies you bring. He produces his switching book and shows you a hesitation in the writing. In the poor signal, he first recorded USE THE MAIN GATE instead of DON'T USE THE MAIN GATE. The correction bears his signature.
+
+“I heard my mistake and corrected it. You shouldn't have to carry it,” Saul says. “The call was connected to the Ash Works. The speaker gave your name and said they would stay last until the others cleared the service passage.”
+
+He puts the first transcription and corrected sheet on opposite sides of the card table. You must compare which version the recording and witnesses support, not choose the one you prefer. Saul will sign what he heard. Witnesses who saw the caller at the plant must establish whether that person was you.
+
+### 16 · Timekeeper Cyril · Take the Actual Words to a Witness
+
+Cyril brings a stiff paper box from the clock room and packs the original reel, operator's transcript and repair timeline separately. The mark of an old watch chain remains behind his ear, but he does not use a stopped watch to time anyone's actions. The lid names the east-furnace duty room at the Ash Works.
+
+“What we can establish is this: during the fire alarm, someone using your name asked for the service passage to be opened, sent evacuees toward the harbor and stayed behind them,” Cyril says. “That isn't a death notice. Whether someone borrowed your name requires a witness who was there.”
+
+He sets out the final cards so you can separate findings from open questions. Your next stop is the Ash Works, to ask the Fire Warden and the night workers: who made the call, why did they know that passage, and did they leave with the evacuees?
 
 ## Ash Works
 
-### 1 · Gus · Boots Outside the Gate
+### 1 · Furnace Guard Gus · The Gatekeeper Remembers You
 
-The conveyor is still. Oil on the rail has not dried. Gus climbs down the inspection ladder, shoulders catching in the doorway. His washed-out uniform is marked with black handprints, all dragging toward the collar.
-He scrapes the mud from your soles before allowing you near the furnace. “Freshly mopped inside.” Half an inch of ash lies beneath the door.
-His keys will not turn the lock. After listening to something behind it, he drags over the duty desk and spreads a deck between you. “The list doesn't recognize faces. We'll have to check again.” He pins down the card nearest the door. On his back, a handprint moves an inch toward his neck.
+The side gate of the Ash Works stands half open. Gus comes down the inspection ladder with a rag still draped over his shoulder. Seeing the call log from the Bell Tower, he covers the name with his thumb and asks which entrance you used that night.
 
-### 2 · Rolf · Someone Still Drinking
+You point to the main gate. He shakes his head and opens the gate book. You entered through the smaller rescue entrance, took no production tools and signed up for no shift. “Making the emergency call doesn't mean you started the fire. But I only saw you come in. I can't speak for what happened inside.”
 
-Rolf crawls out from beneath a coal truck. His helmet strikes the axle with a sound that hurts your teeth. He does not rub his head, only drains the water from the brim into a bottle.
-He is tall, with yellowed stubble and leather patches over both knees. It takes him two attempts to stand. The hand steadying you is precise enough to find a loose thread in your coat. “Water. Don't worry. They stopped supplying drink years ago.”
-Names cover the helmet lining. The newest is yours. Before he goes farther, he wants to establish who is wearing it tonight. Cards slip from the lining onto a mess table. He pulls out your chair and nudges the empty bottle behind its leg.
+Gus spreads his cards beside the register to check the order of arrivals. The rescue passage will take you farther in. First, you must establish whom you were helping before you picked up the telephone.
 
-### 3 · Enoch · Two Pairs of Glasses
+### 2 · Iron Drunk Rolf · Where the Water Went
 
-You stop at the broken glass. Someone warns you before your foot comes down. Enoch edges out behind an exhaust pipe, two pairs of spectacles balanced on his narrow face. Copper wire repairs one arm.
-He crouches to collect the fragments, avoiding his reflection in each. “Lenses cost money. Eyes cost more.” He offers you one pair without releasing it.
-Through the glass, the workshop is clean. Outside it, coal dust covers the floor. He needs someone to decide which side has finished its shift. You sit at a window cleaner's narrow table. He lays the cards on an unbroken pane. Only after the first one settles does the reflection beneath it sit slowly in the opposite chair.
+Rolf crawls out beneath a stationary coal wagon and straightens his dented helmet. The bottle is still tucked into his belt, but he picks up an empty bucket before asking whether your shoulder has healed.
 
-### 4 · Edwin · The Seats Beside the Medicine Cabinet
+You suspect he has mistaken you for someone else. He points to two strips of cloth around the handle. “You said the iron burned your hands. I tore those off my shirt. You took water to the infirmary. The call about smoke at the east furnace came after you got back.” He admits he had been drinking and will not ask you to rely on his memory alone.
 
-Edwin pushes open the infirmary door with two enamel trays balanced in his hands. His round spectacles are worn pale. His sleeves are rolled unevenly; his nails are clipped short. A hot-water bottle rests against his palm.
-He takes your hand and asks when you last ate. You cannot remember. Sighing, he pockets the medicine-cabinet key. “Always the difficult prescriptions.”
-Three chairs stand beside the desk. Only one cushion is warm. He moves the case notes aside and invites you to a game. He wants to see whose place you will save first. As the cards brush the table, a discharge slip rises in the washbasin. The patient's signature is still lengthening across the page.
+Rolf pushes the bottle back under the wagon and steadies the bucket. “They keep saying I remember nothing that night. Go and ask. The water hardly carried itself.” The infirmary is at the end of the corridor. Someone there can confirm whether the bucket arrived before the alarm.
 
-### 5 · Anton · The Shift to Make Up
+### 3 · Smoke Caller Enoch · Where the Call Was Made
 
-A locker knocks once before Anton emerges from behind its door. He wears two sets of work clothes. The outer one is buttoned wrong; the inner one has an empty badge frame on its back.
-He brushes ash from your cuff and asks whether you have seen anyone from his shift. Which shift? He studies a stack of identical attendance sheets. “Depends which one still admits I was there.”
-A deck waits on the lunch table. Someone owes a shift, he says. Someone has to make it up. After this game, perhaps you can establish who is allowed to rest. Before sitting, he feels the empty chair beside him and weighs down the deck with his old badge. Another portion of his photographed colleague's shoulder has gone.
+A cough comes from behind the exhaust pipe. Enoch emerges, adjusting two pairs of glasses worn together. After listening to the Bell Tower recording, he asks to hear its final sentence again. Rather than study your face, he taps the pipe behind him.
 
-### 6 · Tobias · The Outside Chairs
+“That clang in the background is a trolley hitting the support. The telephone was right here.” He was calling workers out that night. He remembers you giving the address for a worker who was coughing too hard to speak. The instruction on the tape was to use the service exit, not to return to the furnace room.
 
-Tobias rises from a basket of castings with a piece of jawbone balanced in his hand. His sacking apron hangs loose before exposed ribs. White plaster clings to his teeth.
-He brushes a chair clean, then carefully sweeps his own knees. The bristles pass through. No dust reaches the floor. “Middle seat,” says a voice from inside the apron. “Edges are cold.”
-Only the outside rows of the three benches have been clawed apart. He draws recovered cards from between his bones, one at a time. He needs help arranging the last shift's seating. When you sit, he places the jawbone on the table and pushes it toward the far end, as though saving supper for someone refusing to come back.
+Enoch sketches the telephone, infirmary and exit on the card table. He wants their sequence checked. Your voice now belongs to a specific place. What remains uncertain is whether the people you called actually got out.
 
-### 7 · Enid · Fingers Under the Red Lamp
+### 4 · Ash Doctor Edwin · Leaving the Infirmary Alive
 
-The darkroom curtain stirs. Enid backs through it carrying a developing tray, holding the doorway for a shadow that does not follow. Wet hair clings to their forehead. Pale fingerprints cover a black apron.
-They offer you a dry cloth but clean their spectacles on a sleeve. Vinegar rises from the trays. Every photograph faces the wall. Bad pictures? Enid smiles. “The people in them haven't agreed yet.”
-Two seats are empty in a group photograph. Enid turns it facedown and brings out a deck, asking for a fresh witness record. You sit opposite each other. The red lamp reveals the dirt between your fingers. An unused line above the table sags a fraction lower, as though something has just been hung there.
+Edwin puts two enamel trays away so you can spread the call log across his desk. Medicine stains his cuffs. While turning the pages of a patient book, he presses a bottle of warm water into your hands.
 
-### 8 · Horace · The Weight He Won’t Put Down
+“This is not a death record,” he tells you first. You had breathed smoke and burned an arm, but insisted on leaving with the last people still able to walk. The water delivered to the infirmary has a receipt bearing his signature. Rolf's recollection finally has independent support.
 
-The boiler gantry gives a small creak. Horace slowly straightens beneath it. The giant almost reaches the ceiling. A blanket folded four times cushions his shoulders beneath a section of cold furnace casing.
-He nudges a lunch tin toward you and gestures for you to sit clear. Water leaks from the casing onto his neck. He only tightens one shoulder. You ask how long he can hold it. “Long enough for lunch to go cold.”
-He wants to know who signed the old load inspection. Cards are clipped inside its folder. With two thick fingers, he places them on a low table. You steady its leg. He bends his head, waiting for you to read the sheet declaring that everything is normal.
+Edwin flattens a curled corner beneath the warm bottle and lets you copy the page, warning you not to fill in the blank after it yourself. Holding the pen, you can finally write one certain sentence in the file: you left the infirmary alive. Next, you need the evacuation register.
 
-### 9 · Roland · The Route on the Plan
+### 5 · Shift Return Anton · Not on the Night Shift
 
-Roland runs down the fire passage and stops without breathing hard. Pinholes burn through the hem of his smoke coat. Water beads inside his visor; when he wipes it, the drops run up his glove into the cuff.
-He spreads a workshop plan over an emergency-light box and asks where you would be safe. Before you touch it, a red mark moves toward your finger. He pins it down, still polite. “Take your time. Escaping can wait a moment.”
-The reverse is marked out as a card table, blackened with smoke. He brings out a deck and asks you to choose a route for those who never completed theirs. As you pull over a tool stool, he stays on the passage's outside edge, afraid of what might follow if he moves.
+Anton stands beside the lockers, trying to put two wrongly buttoned work coats back in order. When you ask for your employee number, he takes the night-shift list down from the cupboard and blows ash from its edges.
 
-### 10 · Edgar · Light Inside the Visor
+Your name is not on it. That does not make him suspicious. “We'd already changed shifts when you came to help. After the power failed, the extra names were squeezed onto the back of an old form. It makes them look like late arrivals in the furnace room.” He separates the original roster from the later notes.
 
-Edgar squeezes through the passage beside the furnace, dragging a roll of sealing tape. His heavy leather coat is unscorched. A white branching mark crosses the inside of his visor. Up close, it crackles dryly.
-He refuses help, asking only that you flatten the insulating mat. After each seal, he checks his pulse. Fixed? He peers into the visor. “Depends which side is broken.”
-He weighs down a table corner with the remaining tape and produces a deck flecked with burns. The electrician's report lacks one witness. He wants you to sit through the test and watch what he cannot. As you touch the first card, a filament flashes. Outside the furnace, the power cable remains cut.
+Anton smooths the original page and points with a wry smile to the corrections beside his own name. “They got me wrong, and I came here every day. You came to help. We need to look farther on.” He makes room at the desk and offers to explain shift change, alarm and evacuation in order.
 
-### 11 · Faye · The Copy Kept Back
+### 6 · Bone Collector Tobias · Counting People, Not Remains
 
-A hand emerges from the disposal room before Faye appears behind it, carrying a stack of papers. Ash covers their narrow shoulders. A cap flattens their short hair. Red string salvaged from a document bag circles one wrist.
-They retrieve a sheet beside your foot, blow away the ash, then blow again. Burning it would be easier, you suggest. Faye holds the page to the lamp. A shallow wound marks it. “Someone would still have to sign for it.”
-The cards on the desk have been picked from wastepaper, their edges missing a thin layer. Faye needs a destination for the copy nobody collected. As you straighten the deck, the red string tightens. Behind the papers, another bound hand withdraws half a beat late.
+Tobias sits beside a casting basket, his sackcloth apron covering exposed ribs. He packs collected bone fragments into a wooden box and slides a stack of sooty papers toward you. Seeing your expression, he points out the heading.
 
-### 12 · Vera · The Coat Without Ash
+“An evacuation roll call. Not a list of bodies.” He waited with the injured at the service exit, making one stroke for each person let through. Someone counted an empty stretcher among the passengers, then crossed out the whole line. The correction left what looks like a missing person.
 
-Someone beckons beside the high-voltage wires. Vera crosses the coal dust without dirtying their shoes. The long coat looks freshly taken from a wardrobe. Only the badge keeps turning in the wind.
-They unpin it. The face printed on the back looks outward through the paper. An unflattering picture? Vera feels their own cheek. “It thinks this side is crowded.”
-A deck comes out of an empty brazier. Vera removes the scraps caught between its cards and lays it on a cable drum. The records meant for burning have lost their fronts. They need you to establish who remains on this side. When you sit opposite, the coat's shadow does not fall to the floor. It climbs slowly onto the dead wire overhead.
+Tobias refuses to fill that gap from memory. He lays out cards for the walkers, the stretcher passengers and those carrying them, asking you to count again. The sheet shows living people using the exit. A photograph is still needed to establish where you stood among them.
 
-### 13 · Martin · Another Tool Changed
+### 7 · Film Washer Enid · Blue Thread on the Negative
 
-The stores hatch stands slightly open. Martin slips through it as though this is how he leaves every day. One sleeve is half an inch short. Four differently colored pressure marks ring the exposed wrist.
-He approaches with a wrench, returns to exchange it for pliers, then tries a pry bar. At last he spreads empty hands and smiles. “Perhaps I won't have to borrow anything today.”
-Four requisition slips lie on the desk, each missing a different corner. Together, their gaps form a small door. He places the deck inside its outline. He is not collecting a debt, he says. He wants to know which shift will finally let him leave. As you pull over a chair, he watches how you take the first card.
+Enid carries a developing tray out of the darkroom and dries her hands before letting you touch a negative. She clips the newly recovered frame against a lamp. Several people crowd the service exit. You stand on the outer edge, supporting an injured person's shoulder.
 
-### 14 · Miles · The Unanswered Line
+You recognize the blue thread in the coat's cuff. Enid points to the frame number. “You weren't pasted in later. You're in the pictures on either side too. The sequence is intact.” You face the exit with the hand lamp hanging from your wrist. The people beside you are following your lead.
 
-The telephone rings out of an empty office. Miles carries the switchboard into the corridor and sits beneath it. His face is pale. The receiver has polished a patch behind his ear. Three pencils of equal length fill his shirt pocket.
-He disconnects the cable. The ringing moves closer. A wrong connection? He nods and folds a sheet of addresses. “They think I'm the one who called the wrong place.”
-A deck is wedged under the board. He needs help deciding who should receive the next sentence. He sets two chairs across the passage. As you sit, he holds down a glowing indicator. In the receiver, another chair scrapes. A quiet breath follows, waiting for your first card.
+“Take the whole print. Don't cut out only your own face.” Enid hands you a clear copy. “The people beside the door can tell you which way you went.” You put the photograph away and prepare to ask those who kept the passage open why it was later closed.
 
-### 15 · Rex · What the Plan Cannot Hold
+### 8 · Furnace Porter Horace · Keeping the Passage Open
 
-You think the boiler wall has split. Then the split opens, revealing an eye armored with rust-colored scales. Rex coils behind the flue. Its horns scrape the beam; each breath combs the ash into thin lines.
-An inspection sheet is caught between the scales above its eye. As you reach to free it, the drake lowers its head until the floor groans. The recorded measurements would not contain a single claw.
-It nudges a blackened card box toward your foot and scratches two places onto the ash-clearing bench. A hoarse human voice moves through the smoke. “Tell me which side counts as outside.” You sit. Before the first card, it holds back the breath it has never quite finished releasing.
+Horace straightens beneath the lifting frame, a blanket folded four times over his shoulder. Instead of returning the cold section of furnace casing to its place, he shows you a long polished scrape across the floor.
 
-### 16 · Dorian · The Page Still Unsettled
+You ask whether someone used it to block the exit. He measures the gap with his hands. “It blocked the fire, not the people. We set it across the side so there'd still be a passage through the service door. The Fire Warden held the door steady from the other side.”
 
-Dorian waits beneath the closure notice beside a dismantled lamp. He is thin, wearing a faded office coat with carefully mended cuffs. His fingertips are so black that their creases have disappeared.
-He pushes a pay slip under the desk with his shoe before offering you a chair. Why not simply collect the money? He looks at the empty pay window. “They say I owe one more day. I've been afraid to ask for leave.”
-The deck weighs down a closure notice dated twenty-seven years ago. He wants to know which line he must sign to hand over tonight. Once you are seated, he turns the old lamp toward you. The repaired groove inside follows your handwriting. Its date is older than your birth.
+Horace places wooden blocks beside his cards and asks you to arrange the last group's passage. The narrow opening in Enid's photograph now makes sense. People deliberately kept that way out open, allowing those who used it a chance to reach the harbor.
+
+### 9 · Smoke Guard Roland · The Service Road to the Docks
+
+Roland approaches along the fire passage, small holes burned through his smoke coat. He puts his mask down and unfolds an old plant map on the floor. Only after crossing out the blocked main gate does he ask which way the people in the photograph are facing.
+
+You trace their direction onto the service road. He nods. “Exactly. Not back into the furnace room. This joins the coal walkway. The far end is the harbor.” He remembers you telling the walkers to support the injured rather than wait for a vehicle in the narrow doorway.
+
+Roland draws a heavy line toward the docks and folds the map to fit a pocket. He will help check every junction, but wants you to establish when the door was sealed. You know which way the evacuees went. First, find out why it was closed, so those who protected their passage are not mistaken for those obstructing it.
+
+### 10 · Furnace Seal Edgar · The Order on the Seal
+
+Edgar drags a roll of old sealing tape out of the narrow passage, his heavy leather mask hanging against his chest. He does not stop you examining the furnace door. First, he weighs a handover sheet down beside it and asks you to read its signatures.
+
+The sealing signature follows the evacuation count. Seeing you still watching the lock, he steps aside. “The Fire Warden didn't shut people in. She held the door until the last group passed. Then I sealed it. Left open, it would have carried fire along the service road toward the docks.”
+
+He puts the unused tape away and takes his seat at the cards, ready to check that sequence item by item. A shut door is not sufficient evidence of wrongdoing. The useful document is outside it: the sheet naming those who took charge of the evacuees next.
+
+### 11 · Fire Finder Faye · Which Page Was Saved
+
+Faye comes out of the disposal room carrying a pile of scorched papers, her short hair flattened by her cap. When you say the records were burned, she immediately separates the top pages into two stacks.
+
+One is the shift list from before the outage. The other is the temporary evacuation sheet. She had no time to sort them while rescuing the papers. People searching the older roster later counted transferred patients as still inside. “Not every crossed-out name has vanished. Some were simply moved onto this page.”
+
+You brush ash from the page edges and clip the two sets back together in order. Faye pats the file bag and lets out a long breath. “Take the right sheet this time. Don't send anyone chasing a boat with an old shift list.” It is this group's transfer record that you will check at the harbor.
+
+### 12 · File Burner Vera · The File Burner's Copy
+
+Vera hangs her clean coat away from the stove and sits on a low stool. Reading “file disposal” on her badge, you ask whether she fed the missing pages into the fire. Rather than take offence, she retrieves a disposal register from beside her feet.
+
+The destroyed papers were obsolete shift lists and unused forms, not evacuation receipts. Each entry names where a copy was sent. The evacuation duplicate went to the shutdown office. “Find out what I burned before you scold me. With this badge, everyone thinks they can blame the whole fire on me.”
+
+Following her finger, you copy the location of the duplicate. When you stop questioning every scrap of scorched paper, Vera offers you a hand cloth. “Find what's still here first. Come back and tell me what you learn.” The shutdown office holds the handover sheet you actually need.
+
+### 13 · Shift Ghost Martin · A Coat Cannot Sign for You
+
+At the stores window, Martin shakes out a work coat with a loan label sewn inside. You touch the blue thread in your own sleeve. Understanding the question, he lays both coats out for comparison.
+
+“Mine was borrowed. Yours is your own.” He remembers the Fire Warden giving you a needle and thread. You patched the cuff beside the service door, leaving the knot crooked on the inside. Later, you draped the coat over an injured person and took it back after passing through the door. The blue stitching in the photograph connects with that account.
+
+Martin carefully folds his uniform. “But coats get passed around. Ask the people who remember what you did to put their names to it.” He will confirm that you helped an injured person out. The transfer sheet must carry the route onward to the docks.
+
+### 14 · Hotline Clerk Miles · What Followed the Telephone Call
+
+Miles has carried the switchboard into the corridor. A pale patch behind his ear has been rubbed smooth by the receiver. Using the Bell Tower call number, he finds the connection sheet and reads out the places you asked him to contact.
+
+First, the infirmary was to bring the walkers to the service door. Next, the harbor was to hold a boat. Finally, Snow Station was to prepare for arrivals. Your words stumbled with urgency, but every instruction concerned evacuation. Miles recorded a call he actually connected and others acted upon, not a prediction of future events.
+
+He lays the sheet beside the card box and asks which connection you want to check first. Matched to the factory handover, it will give you a precise question for the harbor: did the waiting boat receive the last group?
+
+### 15 · Furnace Drake Rex · Where the Ash Stopped
+
+Rex coils behind the disused flue, his rust-coloured scales rubbing softly as he breathes. Seeing your plant map, the drake scrapes ash from one side of the service passage, exposing fire-whitened insulating bricks.
+
+You locate the spot on the map. The damage faces the furnace room; the side leading to the harbor still bears footprints. Rex nudges a brick toward the door and slowly nods. These are not marks of evacuees being driven back into the blaze. They are physical evidence that the furnace door held the fire away from their route.
+
+Rex withdraws his claw and clears the way to the office. You fold the map without looking back into the furnace room again. Photograph, roll call and physical site now support one another. It is time to put those statements into the handover and ask the harbor whether the group was received.
+
+### 16 · The Shutdown Dorian · The Last Group's Handover
+
+Dorian sets a table beneath the shutdown notice and gives you the side sheltered from the leak. He places the recovered evacuation handover beside the photograph, roll-call page and Miles's connection sheet.
+
+“This is how far the factory can testify.” His nail follows the transfer arrow. “You led people through the service door toward the harbor. Nothing here says you died in the furnace or set the fire. But this sheet records people being sent out. It cannot stand in for the harbor's receipt.”
+
+Dorian weighs the points still needing agreement down with card corners, ready for a final comparison. The waiting boat's reference is written below. You are no longer searching aimlessly for an exit. At the next site, you must discover which boat took this group and why your name is missing from the record of their return.
 
 ## Sunken Harbor
 
-### 1 · Milo · The Deer Against the Water
+### 1 · Backtide Deer Milo · Footprints to the Waiting Shelter
 
-Water runs east beneath the quay. Milo climbs the steps against it. The lean deer has black weed across its shoulders. Needles suspended from fishing line click against its antlers.
-You move a crate aside. It stays where it is and licks an old wound between its ribs. The surrounding fur drips. The wound itself is dry and pale.
-A deck rests on a stone mooring block beside a faded boat-repair receipt. Milo noses the paper toward you, then covers the vessel’s name with a hoof.
-When you reach to turn it over, its ears rise. You withdraw your hand and sit opposite. Only then does Milo release the paper and slide you a card.
+Milo comes up the dock steps, wet fur clinging to his narrow shoulders and old fishing line still tangled around his antlers. He lowers his head over the factory handover, then points an antler toward the waiting shelter on shore.
 
-### 2 · Jude · A Whistle Without Sound
+A post bears the same factory stamp as the one in your photograph. Instead of leading you out to sea, Milo noses aside a tarpaulin, revealing the desk where evacuees were received that night. Blue cloth is wrapped around a split table leg to keep seated patients from cutting themselves.
 
-Jude emerges behind the ticket booth clutching a brass whistle. His striped suit is too large. His tie is tucked inside his shirt, and blood has been hastily wiped from beneath his nose.
-He blows. You hear nothing. Across the water, a row of empty boats slips its moorings.
-“Watch me, not them.” He wipes his nose on his sleeve. “Haven’t lost today. Apart from the suit.”
-He borrows two fish crates, lays a hatch cover across them and shuffles with practiced hands. You ask why he has blocked the passage. He points at your harbor ledger.
-“My debts are in there. A hand first. Then we can decide who owes whom.”
+Milo gently noses the register within reach, then steps out of the shelter so you can use the dry stool. If the factory recorded a dispatch, the dock should have recorded a reception. You decide to begin at this desk and find out who was on duty when the final group arrived.
 
-### 3 · Luca · Salt in the Collar
+### 2 · Cardsharp Jude · Tickets Are Not a Head Count
 
-Someone forces the clinic’s side door outward. Luca squeezes through sideways. His coat has stiffened into a shell. Fine white teeth fill several cracks along his neck.
-He rubs his hands over a bucket. Salt flakes away. Before the exposed skin dries, his sleeves begin leaking again. A stamped test sheet floats in the water.
-“The doctor isn’t seeing anyone. Especially people who have paid already.” He covers the bucket.
-You ask to pass. Instead, Luca takes a dry deck from his rigid collar and lays it across the clinic’s folding table. The cards conceal the test number. He offers you a seat, keeping a finger on that corner as though waiting for you to recognize it.
+Jude emerges from behind the ticket booth in a striped suit large enough to be borrowed. He puts away the brass whistle he was turning in his hands and slaps a stack of unsold tickets onto the table. His smile fades when you ask about the blank stub.
 
-### 4 · Orin · The Rescue List
+“The rescue boat didn't sail by the number of paying customers. A stretcher took space without necessarily taking a ticket. Someone helping carry it might hold two.” He writes seats and passengers in separate columns. The blank beside your name currently proves only that no seat was assigned, not that you failed to board.
 
-The rising water delivers a deer to the steps. Orin’s belly is swollen. Rope marks press through its flattened coat. A life ring once hung around its neck; rubber has worn into the skin.
-When it stands, water withdraws from its four hooves, exposing rescue lists pasted into the mud. You bend to retrieve one. Its antlers reach the paper first.
-The open first-aid chest contains no bandages, only two identical decks. Orin lifts one in its mouth and sets it on the lid, then nudges the lid toward you.
-A number has been crossed off the list. The deer covers that line with its nose. Once you sit, it turns its own cards face down.
+Jude invites you to reconstruct the waiting order with cards. He will not let an empty box decide a living person's fate. To learn who was actually on shore, ask the people who dressed the wounds and watched the patients wait.
 
-### 5 · Harlan · The Captain’s Low Table
+### 3 · Tide Maw Luca · Treatment on the Dock
 
-A cough comes from a stranded boat. Harlan descends its ladder, his right foot following half a beat late. Salt falls from the captain’s cap drying on his shoulder.
-He beats it clean and puts it squarely on before inviting you below. Old anchor chain binds two legs of the low table. A pencil tied to its edge is barely long enough for two fingers.
-“The map ends here.” He touches a place rubbed through the paper. “Need company to look beyond it.”
-You ask whether the boat can still move. He steadies your chair instead and deals. Something heavy drags beneath the table. The chain tightens. Harlan pins it with his boot and waits for you to cut.
+Luca squeezes through the clinic's side door, salt stiffening his collar. The small teeth along his neck shift when he speaks, but he washes his hands twice before retrieving the night's dressing register.
 
-### 6 · Nico · The Other Tape
+Your name follows the injured evacuees. The note says your arm bandage was tightened. Luca remembers you refusing a seat under the shelter and standing to hold cups for the patients. “Being treated here doesn't mean someone later fell into the sea. Don't read a medical note as an obituary.”
 
-Nico backs out of the ticket queue with an old passage stub still stuck to his coat. His leather gloves have their fingertips cut away. His upper lip never moves when he smiles.
-He takes you to a shed of empty recording boxes. A greenish tape on the table ends in a strip of translucent, scaled skin.
-“Changing tapes or statements?” you ask.
-“Your seat first. You’re blocking the exit.” He shows you the door but remains against the windowless wall.
-You reach to check a box number. He covers it with a card. When he lifts the card, the number has changed. Nico spreads both hands and lets you choose a deck he has not touched.
+Luca tightens the loose bandage on your arm and marks the boat's berth beside the entry. “Ask someone who saw you board. My part ends on shore.” You thank him, put the medical record back into the file and continue along the waiting shelter.
 
-### 7 · Marta · The Sewing Left to Finish
+### 4 · Drift Deer Orin · The Lifebuoy's Evidence
 
-Following a mooring rope to the warehouse, you find a thimble larger than your fist. Marta hangs beneath a beam. Salt grains cling to the fine hair of its abdomen. Eight long legs slowly rotate a life ring.
-A human-shaped cocoon fills the ring. When you reach toward it, a strand settles on your wrist with the gentleness of a restraining hand.
-Four threads suspend a flat board below the beam. Marta tensions them into a table and smooths a deck across it, pressing down the damp corners.
-A courteous voice comes from the cocoon. “Let her finish.” You ask how long. One foreleg taps the empty seat. When you sit, the thimble stops swinging.
+Orin stands in shallow water beside the bank, a worn lifebuoy still around his neck. Seeing his swollen belly, you instinctively ask about a sinking. He pushes the rim onto the step so you can read its rescue number.
 
-### 8 · Conrad · The One Who Came Ashore
+The same number appears on the back of the factory handover. Orin presses a hoof against the stretcher column and looks up at you. The ring still bears the knot you tied while securing the lifting rope. It was equipment used to move an injured person, not proof that someone died.
 
-A drain cover rises. Conrad passes up his hat before hauling himself ashore. His gray skin shines. Fine sand fills his collar, and a length of stitching hangs beside his left ear.
-He wrings out the hat on the salvage-station table and arranges blank cause-of-death forms. After each sheet, he pauses to listen below.
-“Who are you waiting for?”
-“Someone willing to sign in person.” He offers the pen. His fingers are too cold to leave condensation on the wood.
-You refuse to sign for a stranger. Conrad studies you, pockets the forms and produces cards.
-“Start with something you know, then.” He wipes fresh mud from the opposite chair.
+Orin pushes the rope within reach and turns toward the small boat where the captain is waiting. You copy the number onto the back of the photograph and stop asking whether the deer looks as though it once died. Evidence of your own journey should come from those who actually stood on deck and watched the boarding.
 
-### 9 · Eli · Behind the Lamp Glass
+### 5 · Old Captain Harlan · The Last Boat
 
-Eli looks up from behind the navigation lamp, fine brass filings caught in his eyebrows. His cuffs have worn white. An old burn crosses one hand; a thread is trapped beside its scar.
-He stores the screws in a tobacco tin and clears two places with a dry cloth. A light flashes beneath the water. The unlit wick still lies in his palm.
-“Leave the letter. First, show me which card you save until last.”
-You ask what that has to do with signals. Eli turns the envelope over, hiding its signature, and sits out of the wind. He shuffles with his sound hand. The injured one shelters the small lamp beside you.
+Harlan comes down the gangway, his right foot landing a little after his left. He hangs his salt-crusted cap on a chair, checks the factory's waiting-boat reference and retrieves the sailing book from the cabin.
 
-### 10 · Tess · A Voice Beside Your Shoes
+The reference matches. This boat took the final evacuees to the landing for transfer to Snow Station. Harlan remembers you giving up the place reserved for you to an injured passenger and stepping onto the gangway once the stretcher was secure. “I saw you aboard. But I'm not the person who signed for arrivals on shore.”
 
-The ferry fog parts around Tess. A long coat clings to an unnaturally thin shape. No footprints follow its hem, only two parallel lines of water.
-You ask for directions. The reply rises beside your shoes. Tess keeps its lips closed. Water taps softly inside its throat.
-Fog pushes an old table against the rail. The cloth carries the same initials at three corners. The fourth, where Tess sits, has been cut away.
-“Speaking costs too much here,” says the voice at your feet. “Let me hear you another way.”
-It offers the deck. The water lines stop when you draw out your chair. Only after your hands reach the table does the chair scrape inside the fog.
+He spreads the sailing book and his cards together to examine the loading arrangement, not ask you to guess at a ghost ship. You have identified the sailing. Now you must discover where your name was recorded after your seat was crossed out.
 
-### 11 · Damon · The Seat on the Other Side
+### 6 · Card Dealer Nico · It Was the Seat That Changed
 
-Damon comes down the passenger ramp carrying two folding chairs. A faded steward’s band circles his wrist. Wind has split his cheeks. His black hair lies flat on one side, as though he has slept on it for years.
-He places your chair to the left, then moves it right and wipes the back dry.
-“Which side do you usually take?”
-You say either. Frowning, he studies a seating chart. Someone has bitten a position out of the paper.
-He lays cards on a suitcase between the chairs.
-“Play awhile. I need to know whether the person who moves is still the one who started.” Then he checks his own name badge.
+Nico steps back from the ticket line, two old counterfoils held between the cut fingers of his gloves. Seeing you study the stroke through your name, he turns them over to reveal the correction note.
 
-### 12 · Esme · The Water Sample
+“I changed the seat. Not the person.” Your allotted space went to a stretcher, making your ticket void. The handling note reads “accompanying helper,” not a different name. Busy with the evacuation, Nico failed to copy that line back onto the main sheet. The omission left a blank easily mistaken for an absence.
 
-Nobody answers at the examination tent. Its curtain lifts anyway. Esme rests in a broad chair, folds of gray-white skin contracting around one large, wet eye.
-Rubber gloves on the table seem full, but all their fingers bend outward. One slides a sample bottle toward you. A complete fingerprint floats on its water.
-“I cannot remember anyone who has not touched the sea,” says a voice behind the chair.
-You wipe your hands and leave the bottle alone. The eye narrows, fixing on the corner of your deck above your pocket.
-Esme moves the bottle aside and clears a dry space. As you lay out the cards, the fingerprint changes position on the glass.
+He places the two counterfoils on opposite sides of the card table so you can pair them with the captain's arrangement. Someone who actually moved the stretcher must confirm that account. You will look for Marta at the lifting rope, rather than another passenger with your face.
 
-### 13 · Giles · The Horse at the Landing
+### 7 · Deep Spider Marta · The Stretcher's Way Aboard
 
-You wait at the end of the gangway until Giles climbs the steps below the water. The tall gray horse has a coarsely braided mane. Two passage tags strike each other beside its saddle.
-It stops with its front hooves on dry boards and its hind hooves still submerged. When you reach for the bridle, it turns away, breathing warm iron onto your hand.
-Two opposing courses are tucked beneath the saddle, each weighted with a card. You read one harbor name. Both ears rise.
-Giles sets a card on a low mooring post and presses the other in the opposite direction. It will not choose your route. It wants to see what you do with a divided deck.
+Marta hangs beneath a warehouse beam, eight long legs turning an old lifebuoy. She holds the lifting rope beneath a thimble larger than your fist and leaves you a dry crate by the door.
 
-### 14 · Lucian · Red on the Rim
+You offer the corrected counterfoil. Moving the rope toward the boat, Marta shows you the railing removed to make room for the stretcher. You steadied the patient while she steadied the sling. Those practical demands forced Nico to change the seating arrangement.
 
-Lucian comes through the narrow passage behind the tavern carrying two wineglasses. His waistcoat is dark, his cufflinks mismatched. Red remains beneath his nails.
-He sets the glasses at a window table and wipes the empty chair.
-“Not an invitation to drink. They were keeping my seat.”
-A navigation lamp swings toward the window. He lowers its wick at once. One red drop falls from his finger into the wine. The distant light dims with it.
-You ask the ship’s name. Lucian pockets his handkerchief and lays out an unstained deck.
-“Ask when you can bear not to speak first.” He sits. The other figure in the window does not move.
+Marta tightens the loose knot again and lays it before you to compare with the photograph. She cannot remember where you went ashore. She can confirm only that, once the stretcher was secure, you stayed aboard to help. “Accompanying helper” now has a witness who can explain what you were actually doing.
 
-### 15 · Flora · The Hot Mooring Rope
+### 8 · Bilge Guest Conrad · No Missing Passenger in the Bilge
 
-A rope drags outside the warehouse. You follow it to Flora, head lowered beneath the awning. Burned coils bind the deer’s antlers. Each step draws a thread of steam from the ground.
-A gray film covers its left eye. One ear is notched. An old badge case hangs at its neck; water has erased the photograph, leaving only the pin’s impression.
-You lift a bucket to cool the rope. Flora backs away sharply and knocks a deck into a dry tray.
-Matching knot marks dent the card backs. The deer pushes the tray toward you and glances at the burned end. You lower the bucket and sit beside a low stool. The steam begins to settle.
+Conrad hands a wet hat up from the bilge before climbing the ladder himself, sand caught in his collar. When you ask whether a passenger might have been overlooked below, he props the hatch open and invites you to look.
 
-### 16 · Nolan · The Words Left in Shadow
+The compartment contains only pumping tools and stretcher boards. Conrad remembers you checking a leak, then returning immediately when called from the deck. “I watched you climb the ladder. Don't hide someone down here on my behalf just because the list is short a mark.” He wipes the mud from a rung.
 
-Nolan waits at the stern. Every button is present, though his collar is fastened one hole wrong. His ears do not match. One is small and pale; an old, tightly stitched scar crosses the other.
-You lift your lamp toward the words cut into the stern. He blocks the light quickly, then lowers his voice to apologize.
-“Read some things aloud, and somebody has to finish them.”
-Two backed chairs wait below. He gives you the one beside the door and sits with his back to the carving, producing cards warmed against his chest.
-How long has he waited? Nolan listens to the water and lays down a card.
-“Stay through this tide.” The boat shivers. Ashore, a telegraph begins.
+Conrad lights each ladder rung and props the hatch securely so you will not strike your head. “Look for yourself if you're looking for someone. I won't stop you.” You thank him, but your question has moved beyond the boat. The accounts aboard agree. Where did the people receiving you record the group after landing?
+
+### 9 · Lighthouse Warden Eli · Where the Signal Came From
+
+Eli looks up from behind the harbor lamp, a repair burn still visible across his hand. He does not ask whether you dare go underwater. He turns the connection book toward you and points out the return signal received before the boat arrived.
+
+“An old recording relayed on the White Room line. The lamp simply lit when it was received.” The reflection in the water became a story about another boat calling for rescue. Eli can identify the receiving line, but he cannot explain the timing on behalf of whoever sent the recording.
+
+Eli wipes water from the sailing book and copies the White Room line's name beside it. “Find the arrival receipt first. A lamp lighting isn't the same as a person arriving.” He returns to repairing the lamp. The questions are now separate: Snow Station can prove who arrived; the White Room must account for the message received early.
+
+### 10 · Fog Shade Tess · The Coat in the Fog
+
+Tess passes through the waiting shelter, her long coat clinging to narrow shoulders. When you offer the photograph, she straightens her wet collar before turning the image beneath the lamp.
+
+She recognizes the blue-threaded cuff and remembers why you were not sitting down. “The patient needed to lie flat. You stayed beside the stretcher. You borrowed my lamp when you went to inspect the leak.” Her recollection contains no second passenger with your name, only a busy helper who never found time to correct the seating register.
+
+Tess unties the lamp's loan token from its cord and puts it in her pocket. “The lamp came back, and you were aboard. I didn't follow the rest.” You do not ask her to invent what she never saw. Instead, you seek the crew responsible for changing sides and landing, to establish the next stretch of the voyage.
+
+### 11 · Rail Switcher Damon · Changing Sides, Not People
+
+Damon brings two folding chairs off the boat, seawater having bleached his crew armband. He opens the chairs and produces a sketch of the port and starboard sides. Have you mistaken entries on both sides for two separate boardings?
+
+The wind changed before landing, so the stretcher and those attending it were moved together. Damon remembers you passing the chairs across, which caused your position to be marked in both columns. “One person changing sides. Not one arriving while another disappeared. We should have explained that on the summary.”
+
+Opposite sides of the card table stand for the two rails as Damon offers to clarify the correction. You can now follow the same person through the move, without inventing another identity for yourself. The missing piece is the signature of whoever received the group on shore.
+
+### 12 · Dream Eye Esme · Say Only What You Saw
+
+Esme rests in a broad chair in the treatment shelter, folds of grey-white skin surrounding one large eye. Before you can ask whether she dreamed of you, she presses a fingertip onto a register, directing you first to what was written down.
+
+She redressed the patients' bandages aboard the boat. She remembers you passing medicine from the cabin door and someone on shore receiving the stretcher at the landing. Asked whether you later entered Snow Station, she shakes her head. “I didn't follow you there. A large eye still can't see through a mountain.”
+
+You write down the two things she can confirm and read them back to her. Only then does Esme add her witness mark. “At Snow Station, ask for their book.” She turns the lamp toward the page and waits for you to finish copying, adding no premonition she could not substantiate.
+
+### 13 · Wave Hoof Giles · The Transfer Cart Number
+
+Giles approaches from the far end of the cable bridge, his mane plaited and two permit plates clinking beside his saddle. The cart he pulled stands beneath the shelter, rough rope still wrapped around its wheels for grip.
+
+You hold the captain's landing page beside it. The permit number matches the reference at the foot of the sheet. Giles puts down the pencil held in his mouth and presses a hoof against the route to Snow Station. The injured rode on the cart; those able to walk followed its track. You did not need an assigned seat to remain on the same evacuation route.
+
+Cards go down beside the cart to join the crossing record to the land transfer. You now have a cart reference, not the station's receiving signature. It tells you which arrival receipt to seek, without prematurely proving that everyone arrived safely.
+
+### 14 · Red Guest Lucian · The Shelter Register
+
+Lucian carries a narrow table out of the tavern's back door. The two cups contain warm water kept for people waiting for transport. Red wine still stains his nails. At your question about the stretcher, he retrieves the night's temporary account book.
+
+The factory evacuees sheltered here from the rain. He charged nothing for soup or water but wrote down the transfer-cart reference. Lucian remembers you carrying bowls for the injured and drinking a little while standing in the doorway. “Missed the ticket list? You can still turn up beside somebody's supper.”
+
+Lucian tops up your warm water and taps the transfer reference. “So busy looking after everybody else then. At last you're looking for yourself.” You match the number to the permit plate. It adds an independent witness to the same stretch of the journey: this group really did wait here after leaving the boat.
+
+### 15 · Thorn Deer Flora · The Knots at Both Ends
+
+Flora drags a loop of blackened rope beneath the awning, one of the fine branches on her antlers worn short. You assume it came from a wreck, but she lays the end beside the factory handover, exposing a plant label still tied to it.
+
+The rope served at the service exit and later in lifting the stretcher. Its loading reference also agrees with the harbor papers. Flora traces slowly across both records. These were not two similar-looking groups, nor one group lost at the factory and another appearing on the dock. The same evacuees passed through consecutive stages.
+
+You lay the records out in order. Flora finally releases the rope from her teeth and lowers her head to drink from the shelter's bucket. The factory and harbor now form one connected stretch. At the transfer counter, you still need to ask why the receipt proving safe arrival never came back aboard the boat.
+
+### 16 · Tide Listener Nolan · One Receiving Signature Still Missing
+
+Nolan waits at the transfer counter, his coat collar fastened one button out of line. He arranges the captain's duplicate, corrected counterfoil and cart reference in a row. At the end, he leaves a space exactly large enough for another sheet.
+
+“The missing thing is Snow Station's receipt. Not another you.” Your name did not vanish at sea; it was entered under accompanying helpers. The factory's dispatch, the boat's reception and the shore transfer each have corroboration. The receiving signature at the destination has not yet been recovered.
+
+Nolan draws the road to Snow Station on the card box and ties the pages together for you. “Take them when you ask. Don't rely on memory alone.” You know whom to seek next, and which paper to request. The people who received the evacuees can establish whether the group reached the station safely.
 
 ## Snow Station
 
-### 1 · Erik · The Coat Beneath the Lamp
+### 1 · Snow Horn Erik · The People Who Arrived
 
-The last platform lamp sways. Erik comes out between two empty carriages. A piece of horn protrudes through his cap; the other is wrapped in dirty cloth. His coat is long, but its sleeves leave his blue wrists bare.
-He drags a wet coat to the radiator and spreads it gently, as though someone inside might wake. Its collar turns an inch toward you. No shoes show beneath it.
-“Somebody left this. I have to wait for the owner.” He indicates the table. “Might as well have company.”
-He wipes snow from the opposite chair and produces a deck. Names once marked its backs; only the pressure of the writing remains. When you sit, he turns the lamp toward the cards.
+Erik sweeps snow away from the waiting-room entrance, a bandaged piece of horn jutting from his cap. He studies your harbor register but leaves the missing-person report alone, pushing a dry stool toward the radiator instead.
 
-### 2 · Bram · Ice on the Soles
+“A crossed-out seat doesn't mean somebody failed to reach the shore.” He helped receive the boat passengers that night. He remembers you letting the others enter first and staying outside to unload a stretcher.
 
-In the maintenance passage, you hear measured blows against a rail. Bram approaches with an ice pick. Old leather reinforces his uniform shoulders. Frost whitens his eyebrows; a heavy bandage covers one ear.
-He knocks the ice from his boots at the threshold. It falls in two straight lines. Although the track behind you is empty, he guides you inside the yellow boundary.
-“Someone watches the other side before a line change,” he says. “I'll sit. You watch.”
-The small table in his room has been scrubbed clean. He puts the pick within reach, then lays out the cards with unexpected care. As you sit, he turns a spare chair toward the wall without looking at it. He has done that many times.
+You ask where to begin. From the cupboard he takes the arrival book, arranged by boat group, and places the Ash Works page beneath his card box. First, match the people who reached the station. Then trace which door you used when your work was done.
 
-### 3 · Ivar · A Bell With No Terminus
+### 2 · Ice Guard Bram · The Other Platform
 
-When the waiting-room doors swing open, you think a train has arrived. It is Ivar: a bull with shoulders above the counter, frozen tickets caught in its coat, and milk-white films over both eyes.
-Red wire winds around its horns. The loose end trails without a connector. With each step, static swallows another station name from the announcement.
-Someone has removed the chair on its side of the table. Ivar lowers a horn beside the cards. A worn brass tag on its collar still reads TRACTION.
-“Complete the shift inspection,” says the loudspeaker.
-The bull stops and releases a low, warm breath. When you bring over a chair for yourself, it slides the first card within reach.
+Bram comes down the service path with an ice pick, frost covering the old leather pad on his shoulder. He stops you on the way to the ticket window and points from the transfer reference on your boat register to an unsigned side platform.
 
-### 4 · Marek · The Shadow Left Behind
+“No tickets that night. Evacuees came through the freight entrance. Their list is in the freight office.” With the pick handle he frees the frozen latch. A temporary direction sheet is still nailed to the wall.
 
-The darkroom door opens a finger's width. Marek slips through in a close-fitting black coat, her hair cropped short, a pale scar beside her left ear. Both hands are empty. A narrow knife has appeared in the frame.
-“Keeps it from shutting,” she explains. She removes it and pares a splinter from the table.
-She came to collect an old negative. The counter will not release it until the person in the photograph leaves.
-“Watch for one game,” she says, spreading a deck. “Whoever is still here counts.”
-You sit opposite her. The glass behind you reflects two people. Her shadow remains beside the darkroom door, slowly pulling it closed.
+You had treated the absence of a ticket as proof you never reached the station. Bram shakes his head and lays cards across the watch desk. Ordinary travel and emergency reception were recorded separately. The freight attendant's signature is what you need to check next.
 
-### 5 · Ansel · The Man Following the Wire
+### 3 · Blind Bull Ivar · What the Harness Tag Means
 
-Ansel follows the wire along the skirting until he reaches you. Black grease marks his elbows and knees. Half the lining is missing from his helmet, leaving a deep red groove across his forehead. Fine copper wire shines in his pocket.
-He opens the junction box beneath the table, waits, then closes it exactly as before. Every lamp is burning. There are no wires inside.
-“The repair sheet says the fault is opposite.” He points a spanner at your chair. “They always write that.”
-He needs someone there until the meter settles. As you sit, he hands you cards and removes his heavy gloves. When the needle points straight at you, he keeps his eyes down.
-“Who starts?”
+Ivar pushes open the freight-room doors, a brass tag tapping against his harness. The bull's eyes are covered by a milky film. He draws an empty baggage cart beside the cart pictured on your transfer slip and lowers his head so you can remove a delivery note from the strap.
 
-### 6 · Arlo · A Hand at the Observation Window
+The note covers the trip from the landing to the station building. It lists stretchers and luggage, not seats aboard the boat. When you read “escort did not ride,” his horn touches the next line: the escort accompanied the cart on foot to the station.
 
-A freight trolley waits beside the radiator. Its door opens from within. Arlo climbs down, dried ointment clinging to white fur, blue shadows around its eyes. Someone has clipped its long nails neatly. Before approaching you, it presses the lock back into place.
-The observation window is opaque with frost. Arlo clears a small patch, immediately covers it with a palm, and makes a low, urgent sound.
-A keeper's note lies on the table: keep it quietly occupied until the thaw. Arlo has rubbed the signature until the paper has frayed.
-It brings a box of cards and leaves you the driest stack. When you sit, it copies you, hands folded properly, keeping itself between you and the window.
+The two lines describe different ways of making the same journey. Ivar braces the wheels before the cards slide off the cart. You still need the receiving signature. You cannot copy “did not ride” into your file as “went missing.”
 
-### 7 · Ulric · The Empty Place by the Bowl
+### 4 · Flying Knife Marek · Keep the Whole Photograph
 
-Following a metal bowl scraping the floor, you reach the back of the luggage room. Ulric sits on a low cabinet. An empty sleeve hangs among grey-white hair. Old bandages cover one shoulder; a washed-thin scarf conceals its head and neck.
-With its remaining hand, it lifts a spoon beyond the cabinet top. No light reaches there. You hear a patient voice: “Slowly. Still hot.”
-Half a deck is trapped beneath the bowl. Ulric retrieves the scattered cards and compares them with the spaces on the table, as though the missing pieces might make a complete game.
-You pull out a chair. It offers the cards, pats its empty sleeve, then points to the opposite place. Above the cabinet, something chews.
+At the darkroom door, Marek uses a thin knife to shave a splinter from the table. The pale scar beside her short hair is distinct in the red light. You give her the harbor transfer reference. She finds the corresponding platform negative and shows you the whole frame, rather than a cropped face.
 
-### 8 · Nestor · A Place for an Old Companion
+You stand behind a stretcher, the blue repair at your cuff plainly visible. Evacuees ahead of you are being led into the waiting room. At the right edge is half a door marked Treatment.
 
-Nestor drops from the station roof onto the awning and climbs down a drainpipe. It is thinner than the caged apes, with yellowing back fur and a ring of frosty white around its mouth. A rounded cake of soap stays clenched in one hand.
-It washes before touching the cards. When you draw your chair closer, it stops you and clears the neighboring place again.
-An old counting sheet hangs from its wrist. Someone has changed TWO to ONE. Nestor sets two buttons beside the deck and deals a card to one of them.
-Its quiet look is almost a request. You take the other stack. On the wall, an ape's shadow shifts aside, leaving half a chair's width for someone else.
+“A face proves you were here. It doesn't tell us where you went afterward.” Marek slides the photograph into a clear sleeve and weighs its curled edge with cards. Next, match its people to the reception list. Recognizing yourself is a start, not a conclusion.
 
-### 9 · Alma · Paper Inside the Coat
+### 5 · Ice Watch Ansel · Connect Both Ends
 
-Alma enters through the side door after the shift bell. The winter coat squares the shoulders; a pale chin shows above its collar, and unmelted ice catches in the lashes. Before sitting, Alma smooths the coat. Paper rustles inside.
-“Out of the draft. It mistakes people.” A hand in a torn glove holds the door for you.
-Two medical files on the table bear the same face. Their discharge dates are years apart. Alma puts a deck over them. A handover needs an order, Alma says; you cannot keep signing for both sides.
-As you take the other seat, whole handwritten case sheets show through the coat lining. Sweat has blurred the names. The pictured eyes follow the first card.
+Ansel crouches beside a junction box. He wipes oil from his hands before taking your photograph, then finds the telephone repair log from that night. One transfer reference matches the harbor register.
 
-### 10 · Soren · The Man Who Leaves Names Unsaid
+“Once the clocks stopped, we used group references. You can't put every event in order by a clock stuck at 03:17.” The harbor reported a departing group, freight reception acknowledged it, and the treatment room reported that people had been settled. A different attendant signed each call.
 
-Half of Soren's face appears behind the noticeboard. He waits until you pass before following along the wall. A grey scarf covers his mouth. His eyebrows are cut short; blue-black ink stains his thumb and forefinger.
-He asks no name. Instead, he offers a statement with small lines marking the pauses. Fine hairs have begun growing from several ink marks.
-“Don't read it aloud.” He takes the page back. “Paper learns.”
-At a window table, he lays out cards. He wants one conversation without names, to establish who once spoke for whom. As you lift your hand, he turns his identification face down. Three words on the photograph's back sound familiar. You cannot remember where you heard them.
+He lays the three records side by side, leaving the middle of the table for cards. The issue now is the order of the handovers. Establish that the boat and arrival records concern the same people before looking for anyone lost between them.
 
-### 11 · Ingrid · The Last Winter Coat
+### 6 · White Ape Arlo · He Remembers the Coat
 
-The cloakroom curtain lifts. Ingrid emerges carrying winter coats, iron-grey hair pinned with a pencil, fine spectacles on the nose. Needle pricks mark the knuckles. Only one cuff of Ingrid's own coat has been repaired.
-The hangers are moved away from the radiator. Every collar has a name tag. Nobody has collected one.
-“They say they moved. Such a hurry, they left the cold behind.” The spectacles finally turn toward you.
-A deck recovered from a pocket waits on the table. Ingrid hopes to identify its owner from a familiar manner of play and asks you for a game. Once you sit, an empty coat slowly fills out, an inch taller than its neighbor. Not a thread is missing from the sewing basket.
+Arlo sits beside the radiator with a pile of washed blankets, pale yellow ointment still marking his white fur. He sees the platform photograph, points straight at you behind the stretcher, then holds his reception wrist tag beside the picture.
 
-### 12 · Leif · A Breath Beneath the Platform
+You ask whether he belonged to that group. He nods, miming you wrapping somebody in a blanket and returning an empty stretcher to the door. His tag carries the same group reference as the boat register and names the treatment room.
 
-A breath over the loudspeaker shakes the platform floor. Leif raises its head from the inspection pit. Ice crusts a long brow; the scales are blackened at the edges. Broken maintenance seals and lengths of chain hang from its foreclaws.
-It follows the heating pipes slowly indoors, leaving its tail outside as though reluctant to bring the whole dream in. Your chair scrapes. Its eyes snap open, a thin line of white current crossing each pupil.
-A shed chest scale steadies the table's short leg.
-Leif pushes the card box toward you and taps the empty chair. It needs alternating sounds to keep awake through the next shift bell. As you sit, the breath in the loudspeaker finally escapes.
+Arlo places three cards in order beside the photograph, the tag and the direction of that room. He waits for you to repeat the sequence. He cannot recall every word spoken, but he remembers who stayed until everyone was warm. His account gives the written handover a witness.
 
-### 13 · Hilda · Warm Your Hands First
+### 7 · One-Arm Ape Ulric · One Stretcher, Two People
 
-Hilda opens the mountain-road door, bringing the damp smell of medicine. Grey hair clings to the forehead. The old coat shines at the shoulders; thread repairs a spectacle arm. The medical case is smaller than any luggage in the room.
-First, Hilda warms the kettle against the chest. Only when the hands stop shaking are your fingertips examined.
-“If you can complain it's hot, we needn't carry you yet.” A cup is placed on either side of the table.
-The mountain road is closed. The next patient has not arrived. Hilda brings out a curled deck: keeping someone awake requires an occupation.
-As you sit, a wet handprint appears in the casebook. Hilda covers it with blotting paper, without asking where your hands have been.
+Ulric moves his food bowl with his remaining hand, revealing a rough reception sheet underneath. Seeing you count names, the one-armed ape places two buttons beside a stretcher card and repeatedly points at two lines crowded into one box.
 
-### 14 · Nell · The Empty Place in the Headphones
+You ease open the fold. One line names the injured passenger; the other is the attendant who walked beside the stretcher. The first tally counted a single stretcher. Whoever copied the passenger list treated it as a single person.
 
-Nell crawls through the little door beneath the ticket window, straightens the coat, then removes the headphones. Their leather has split. A neat groove divides the hair. An insignia belonging to another uniform is hidden inside the lapel.
-“Quietly. Thin walls.” Nell taps the table and waits for the cough inside the wall to stop.
-The offered headphones contain only one person's breathing. An important sentence is missing. Nell wants to hear what pause you leave while deciding, and takes a deck from the cable box.
-You sit beyond the receiver's reach. Before the first card turns, the headphones cough. Nell crosses a square off the notebook with a perfectly steady hand, unsurprised.
+Ulric leaves the buttons in place and draws the card from underneath them: count again. A person did not vanish from the platform; an entry was not copied in full. You still need the other receivers' accounts. Correcting one total does not let you sign for the whole group.
 
-### 15 · Taran · The Guest Burned in Snow
+### 8 · Old Snow Ape Nestor · The Extra Bowl
 
-Orange light shows behind the snow wall. As you approach, Taran is rubbing a human outline away with the heel of his hand. Curved horn-bone escapes his cap. Fine cracks mark his skin. Hot ash leaves his black coat without a spark.
-He turns. A new burn crosses his palm. A cloakroom paper band circles his wrist, its number burned through until only a final zero remains.
-“They call it snow. I've worked a kiln. I know ash.”
-He follows you into the waiting room and places his deck far from the radiator. Whenever he pauses, his hand reaches toward the absent outline. A game might keep him seated. As you draw up a chair, he hides the blackened palm beneath the table.
+Nestor washes his hands in a basin and places two bowls upside down on a rack before touching your list. The old snow ape finds the kitchen issue sheet, weighs it down with a soap box and points through its blanket, medicine and meal marks.
 
-### 16 · Jonas · Keep Your Luggage Close
+The same person appears at all three desks. Three marks do not mean three new passengers. There is also a meal marked Escort, outside the passenger column. Beside it someone drew the blue repair at your coat cuff.
 
-Jonas approaches from the end of the platform. His brown coat is carefully brushed. Two mismatched blue buttons close its collar; a pale pressure mark divides his beard. He carries his case like a sleeping animal.
-At the door, he unties the rope and ties it again, leaving a finger's width in the knot.
-“For frozen hands, when I get home.”
-You ask which train goes there. Smiling, he moves the case beneath the table, revealing an old deck.
-“You want an exit. I want a station name. Better to think sitting down.”
-He straightens your raised collar. Fine wire inside it cuts his fingertip. He ignores the wound and lays the first card down. Its back shows two stations with the same name.
+Nestor pushes a card into the bowl's place, points at you and then at the waiting-room entrance. You did not leave the group outside the station. You came in and ate before going on. The kitchen kept an independent record of that pause in your journey.
+
+### 9 · Frozen Sentry Alma · Received, Then Sent On
+
+Alma removes a frost-stiffened glove and separates two similar forms. One records reception at the freight gate; the other records transfer toward the White Room. Your photograph and name appear in both.
+
+“Not two versions of you,” the Frozen Sentry says plainly. “The first entry says you arrived. The second says where you went from here.” Alma admits that an earlier copy took a blank section of the transfer column without its continuation on the back. That incomplete copy became “whereabouts unknown.”
+
+Alma leaves the originals on the table and places the cards beside the copies. Check the group references, clothing descriptions and witnesses together. If they match, the missing-person report needs review. It cannot be treated as an answer that overrides every other account.
+
+### 10 · Hidden Name Soren · Ask What Was Seen
+
+Soren lowers the gray scarf from his chin, revealing fingers stained blue-black with ink. Rather than taking your photograph at once, he offers a blank witness sheet and asks you not to supply a name or route yet.
+
+“If you prompt me, I may mistake your answer for my own memory.” He writes down the torn cuff, its blue stitching and the empty medicine case the escort carried when leaving. Only then does he compare those details with your photograph and meal record.
+
+Several details agree. Soren signs his account and spreads cards beside it. He withheld the name because he feared copying the wrong person again, not because he saw something unspeakable. You now have a witness statement that was not constructed from the missing-person report.
+
+### 11 · Station Keeper Ingrid · The Coat Was Collected
+
+Ingrid takes the pencil from her iron-gray bun and checks the clothing collection sheet. You ask whether somebody left a coat and never came back. She points to the signatures beside the collection entries, not to the empty hangers.
+
+“Clothes on a drying rack cannot tell you whether someone is alive or dead.” Your coat was dried in the waiting room and the blue stitching on its cuff noted on the collection sheet. The collection note says that its wearer then accompanied the Hill Doctor toward the White Room door.
+
+Ingrid moves her sewing basket to make a level space for cards. There is no second identical coat awaiting an owner: one coat was taken off and later worn away. Follow that departure. Do not turn an empty hanger into another missing person.
+
+### 12 · Sleeping Drake Leif · The Route Without a Train
+
+Leif lifts his narrow head from the inspection pit, ice lining his scales and a repair chain hanging beside one foreclaw. Hearing you say there is no boarding record, the Sleeping Drake moves a board with his tail, uncovering the pedestrian diversion map left on the wall.
+
+Snow closed the main line. People bound for the White Room used the service path behind the station instead. Leif guarded its entrance that night to keep evacuees off the tracks. He remembers you returning a medicine case at the door and showing the last stretch of the map to those behind you.
+
+He pushes the card box between the two routes and waits for you to reconsider the blank entry. No train journey does not mean no departure. Check the path's exit register next, rather than hunting for a ticket that was never sold.
+
+### 13 · Hill Doctor Hilda · The Doctor Signs for Her Patient
+
+Hilda sets down her medicine case and first checks that warmth has returned to your fingers. After reading the boat and arrival records, she finds her treatment notes from that night and reads the escort's name. It is yours.
+
+“You had breathed smoke and were exhausted. But you could walk and explain where the people with you had come from.” The Hill Doctor points to the examination results. “I checked these myself. This isn't hearsay. The group you brought is accounted for in reception too.”
+
+She signs the medical witness section of the arrival receipt but leaves the space for events after the White Room blank. Cards lie between the originals. You understand the limit of her testimony: you reached Snow Station alive. Why somebody later reported you missing must still be answered at the White Room.
+
+### 14 · Wiretapper Nell · Listen to the Whole Warning
+
+Nell crawls out beneath the ticket window and offers a battered pair of headphones. The recording begins with the White Room line reference. A tired voice then says, “Do not report yourself missing again. Bring the arrival receipt.” The voice sounds familiar, but you cannot remember saying those words.
+
+“I received it before you reached Snow Station.” Nell shows you the reception sheet. “That's why I kept the original tape. I didn't invent a time for it or alter anyone's list because of what it said.”
+
+He sets out cards and releases the rewind button while you listen to the sentence from beginning to end. This is an early warning from the White Room, not proof that you have been rescued. Take the tape and receipt there to learn why its speaker gave that advice.
+
+### 15 · Burnt Guest Taran · You Are Not Here to Confess
+
+Taran sits well away from the radiator, his burned palm resting on a damp cloth. He sees the Ash Works handover slip and first asks whether the Fire Warden still holds the furnace door. Your answer lets his tense shoulders relax.
+
+“I was among the evacuees. You led us through the service passage and later gave up your numbered boat seat for a stretcher, staying beside the crew to help. I remember what you did for people, not the report that says ‘whereabouts unknown.’” He recognizes the reception signature and is willing to add his own experience.
+
+Taran pushes the cards toward you. He demands no confession and offers no sweeping acquittal. The factory's departure, the harbor transfer and the station arrival now join into one route. You need not enter the White Room carrying only an accusation of your own disappearance.
+
+### 16 · Homeward Man Jonas · Bring the Receipt to the White Room
+
+Jonas sets his bag by his feet and unfolds a signed, stamped arrival receipt. Its transfer reference has been checked against the boat register. Hilda's and Alma's testimony is attached. Your name and those of the evacuees with you are all marked Received.
+
+“I walked that service path behind the others.” He points to the door at the rear of the station. “The White Room registry is at the far end. Don't circle back into the waiting room, and don't wait for a train.” He marks its receiving window on the route so you will not make another unnecessary turn.
+
+Jonas puts the receipt and recording in a stiff folder and leaves the cards on the table for the final part of your account. This time you have independent records and willing witnesses. Two questions remain: who submitted your missing-person appeal, and why did the White Room send that warning before you arrived?
 
 ## White Room
 
-### 1 · Caleb · The Cuff in the Door
+### 1 · Page Guard Caleb · Three Records on the Table
 
-The door is only a pencil outline on the white wall. Cloth tears. Caleb slips sideways through the line, leaving a corner of his uniform caught inside it. He has narrow shoulders, an old scar beneath his cap, and a row of buttons that become newer toward his wrist.
-He checks the missing pages before he looks at your face. “A file can close with one page short. Somebody just has to fill the gap.”
-You ask whether he guards the door or the paper. He smooths the trapped cuff and sets folded gloves beside the table. “Finish this game first. Then decide which question is worth asking.”
+Caleb clears a table at the White Room entrance. His cuff catches in a filing cabinet; after two tugs, he rolls it up and takes your case file. On seeing the Snow Station arrival receipt, he does not begin by asking your name.
 
-### 2 · Otis · The Last to Arrive
+“How many people left the Ash Works, how many reached the harbor, how many were received at the station.” He lays out the three records. “Match the journey first. Then we can tell whether someone is missing, or a line was left blank.”
 
-The others have left the interview room when Otis approaches from the back of the queue. His black coat is wet inside; its upturned collar is dry. Two blunt bony points rise at his temples. An old split runs from nose to jaw, and one side of his mouth speaks half a beat behind the other.
-“You're late.” He produces the attendance sheet and points to the earliest time. Its staple has entered the table and will not come out.
-He sits with the split side turned from the lamp. “They always hear me last. A card table is better. My turn has to come eventually.” He taps the deck square and waits for you to sit.
+You ask whether this proves you were never missing. Caleb shakes his head. “It proves you reached Snow Station alive. We still need someone who saw you enter the White Room, and an account of where you went afterward.” He places a deck beside the papers and asks you to begin with what is known, rather than guessing what every blank might conceal.
 
-### 3 · Vaughn · Two Copies
+### 2 · Split Face Otis · The Last Person Through the Door
 
-You open the copying room and find Vaughn taking a jammed sheet from above your head. The stepladder is already folded. When you blink, his feet are on the floor again. Half a box of staples bulges in his grey waistcoat.
-His glasses have one lens. Ink stains a forefinger, and his smile exposes a chipped front tooth. “I haven't got the original. Everyone says that. I made a note of it.”
-He lays down two contradictory statements. The same crease crosses both signatures. Before you can study them, he covers them with a deck. “Win or lose, you'll have to choose an account. First, show me what you do with the one in your hand.”
+Otis sits on a bench outside registration, an old scar splitting his cheek to the jaw. He pulls his scarf over it and makes room for the harbor record on your knees. When you mention that people thought you had been lost on the way, he waves the idea aside.
 
-### 4 · Ronan · Claws in the Corridor
+“I was still waiting here after that group arrived. You came in later, with snow all over your shoes. First thing you asked was whether anyone had been left behind. You were so tired you could barely hold a cup, but you walked in on your own.”
 
-Wet footsteps approach in leather shoes. A grey wolf enters instead. Half of Ronan's right ear is missing. A faded cloth collar presses down his neck fur, and white dust coats his hind legs. Each paw leaves a human shoeprint.
-He circles the chair beneath the lamp and stops at the far end of the table. On the monitor, he is still walking down the corridor, nowhere near its door.
-You reach to switch it off. He growls and noses an old patrol sheet beside the deck. Its final field is empty. He rests a paw on the card backs, looks at you, then at the exit: a watchman waiting for relief. Only when you pull out a chair does he withdraw his paw.
+He shows you the order in the reception book: groups placed together first, individual arrivals afterward. Your absence from the passenger list does not mean you never reached the White Room. Otis spreads the cards, willing to check the sequence he actually remembers.
 
-### 5 · Ione · The Back of the Photograph
+### 3 · Star Taker Vaughn · A Copy Is Not Another Witness
 
-Ione follows the scrape of a chair into the room. A thin cane touches the frame before their shoe crosses the threshold. Their hair is cropped short. Black paint covers both lenses of their glasses, but a spotless magnifier is clipped inside one cuff.
-A photograph lies face down. You ask what it shows. Ione feels its corner through a glove. “Don't tell me yet. Once it's said, changing it gets difficult.”
-The cane rests across the side where you meant to leave. This is a check without seeing the result, they explain. Questions have already failed too often. Three cards slide under the lamp, backs toward you. Ione never touches their faces, yet slowly straightens a crooked corner.
+Vaughn climbs a stepladder to bring down a packet of copies. His waistcoat pockets are full of staples. He steadies the ladder, waits for you to move a cup, and spreads the papers. The same handwriting appears on two forms; you take them for a second piece of proof.
 
-### 6 · Cecil · The Seat by the Wall
+“They were copied from one sheet.” Vaughn points to an identical crease. “Count them twice and the case only gets muddier. The original books kept separately at the works, the harbor, and the station come from different people who saw you.”
 
-Cecil looks up from a stone trolley, his shoulders powdered white. The duty coat is too large, yet tight across his chest, as though something flat and hard is hidden beneath it. He turns to let you pass. Sand trickles from a trouser cuff.
-He drags the chair by the wall to the center of the table. You say one seat is much like another. He smiles and places a palm against the wall. The dust in his skin vanishes.
-“Nobody's measured you yet.”
-Only two chairs remain. He takes a dusty deck from his pocket and proposes checking who belongs on the inside. When you sit, he keeps a foot against your chair leg, preventing it from returning to the wall.
+He does not destroy the missing-person form. He attaches a correction sheet. The old form shows that someone could not account for you then; it does not invalidate a later arrival receipt. With the cards ready, he asks you to separate originals from transcriptions, instead of hearing one mistake as many independent voices.
 
-### 7 · Alton · The Unpictured Pass
+### 4 · Moon Wolf Ronan · The Route in the Patrol Book
 
-The lock sounds twice before Alton removes his pass from the reader. His uniform is neatly pressed. His face stays beneath a shadow too thin to hide it. You can see his eyelashes, but cannot retain the position of his eyes.
-“Changed your pass?” You say no. He turns his own over. A blank photograph is splitting inside the plastic.
-He came to collect old passes. After seeing your file, he pockets the collection envelope. Two places at the long table have been polished by repeated use.
-“Paperwork takes too long.” He pulls out a chair and lays the deck over the empty photograph. “We'll use the old method. First, let's see whether you recognize what belongs to you.”
+Ronan comes from the side corridor with a patrol book in his jaws. The gray wolf has half a right ear and a duty tag on his cloth collar. He sniffs the blue thread on your coat, then rests his nose beside a muddy mark on the station receipt.
 
-### 8 · Dara · Pauses in a Bag
+You follow his paw across the page. The patrol book describes someone in a coat with a mended cuff entering from the Snow Station passage, after the evacuees were placed. It agrees with Otis. The person did not emerge from the waste outside, and no body was carried through the entrance.
 
-Dara waits outside the interview room with tied clear bags on his knees. His coat shoulders form sharp points. Small bone spurs ring the collar. His face is young; several folds of age sit beneath each eye. Whenever he holds his breath, the bags swell.
-You ask how long he has waited. He checks a handless watch and moves one bag aside. “The last person hasn't finished.”
-The room is empty. He keeps listening until a cough sounds beneath your feet.
-Only then does he rise and carry the bench to the card table. He will not wait for another statement that never arrives. A game, he suggests, might prove that his turn has really come. As he sits, every drop on the bags slides downward together.
+Ronan pushes over a corridor plan showing both the station approach and the passage back to town. You add the route you can now establish, leaving the exit entry blank. He settles opposite you and holds the cards beneath a paw, waiting while you check a journey someone actually witnessed.
 
-### 9 · Aspen · A Visitor from the Basin
+### 5 · Blind Surveyor Ione · Let the Witness Answer
 
-The tap is shut, but warm water keeps rising in the basin. Aspen climbs out through the drain. Closely fitted grey-white scales cover its body; the tip of its tail curls into a complete ring. An old bandage encircles its neck. A name has seeped through the cloth from inside.
-You step back. The snake slides a thin skin onto the table. Beneath it lies a discharge slip with a corner missing from the signature field.
-“Whose signature?” It taps the card box and lifts its head toward the records cabinet.
-It seems to be waiting for a final ward visit, not food. You spread the cards. It coils on the opposite chair, exposing an old wound beneath the bandage, and patiently waits for the check to begin.
+Ione finds the table edge with her cane and puts her blackened glasses in their case. She asks you to close the file and repeat, separately, what the people at the works, harbor, and station said. When you begin, “They all recognized me,” she raises a hand.
 
-### 10 · Elmer · Ink of His Own
+“Don't hand witnesses your conclusion. Ask where they saw you, what you were carrying, where you went next.” She touches the edges of the three records. “If they aren't sure, leave it blank. That's more reliable than a pleasing sentence supplied for your sake.”
 
-You find Elmer at the serving hatch with an empty tray. Long fingers extend from his cuffs, the nails carefully filed. Grease darkens the bony points at his temples. The hatch is shut. He keeps watching its unlit bulb.
-“No night meal?” He looks up, a red mark at the corner of his mouth. “There is. Accounts first.”
-He leads you to a nearby table. As he raises his hand, a fresh scab shows beneath a paper napkin. The hand rests on a completely dry fountain pen. Its nib still writes one word.
-Elmer places the tray beside his chair and pushes you the deck. Win or lose, he says, people must eat. Those willing to sit down may at least ask who ordered the meal.
+The accounts differ: one person remembers you supporting someone injured, another remembers a passenger count, another the handover at the station. Different details join into one journey. Ione lays out the cards and asks you to check it that way again, rather than making independent testimony into copied answers.
 
-### 11 · Luther · The Door on His Shoulder
+### 6 · Stone Guard Cecil · Unaccounted For Is Not Dead
 
-The ceiling seems lower. Then you see Luther approaching with an iron door on his shoulder, wall dust still clinging to its frame. He must bend his neck. Both shoulder seams of his thick coat have opened, revealing old nail holes in the skin.
-Three knocks sound behind the door. He answers with two taps, as routinely as acknowledging a late colleague.
-You clear the passage. Instead, he props the door beside the long table. On the evacuation plan, that position is marked as solid wall.
-“Standing questions don't count as a handover.” The chair complains beneath his knees. He sets cards by your hand and asks you to sit properly. He needs to establish which side he will be carrying the door for next.
+Cecil is taking an old registration board off the wall. Stone dust covers his shoulders, and a piece of hard wood inside his coat braces his chest when he carries a weight. Seeing you stare at UNACCOUNTED FOR, he turns the board over to show its instructions.
 
-### 12 · Wade · Where the Tape Breaks
+“This lists people whose arrival hadn't been checked during the evacuation. It isn't a death list. The lines went down that night. Anyone whose receipt hadn't reached us stayed here provisionally. Later arrivals were supposed to be added.”
 
-Wade emerges from the wastepaper room carrying half a recording tape. This wolf is thin enough for its shoulder blades to lift the dark fur. Stiff old adhesive wraps its left foreleg. It walks slowly, though the door behind it keeps banging at a runner's pace.
-You crouch to inspect the tape. It has no recording number, only a row of fingerprints pressed at different depths. Wade avoids your hand and deposits it in the middle of the card table.
-Two words appear on the blank sheet nearby: DON'T CONNECT.
-It pushes a chair toward you and takes the opposite end. Perhaps the game is meant to delay you. Perhaps it has finally found somebody willing to listen to the whole silence.
+You ask why your name was never added. Cecil collects the screws in a box. “That's what needs finding out. A name hanging on a board for a long time doesn't make its owner dead.” He straightens your chair. He will help check the gap in the records, but he will not carve a monument to an unsupported guess.
 
-### 13 · Rene · Two Ways Out
+### 7 · Faceless Guard Alton · More Than a Photograph
 
-Both doors open. Rene enters from the left while identical footsteps sound beyond the right. His pale coat has no pockets. Its collar is fastened high. No pores are visible on the backs of his hands.
-He indicates the exits, left hand left, right hand right. Both palms have exactly the same lines, including a break beneath the little finger.
-“Which one?” You do not answer. His shoulders ease.
-An empty place card stands on the table. Yours is the only chair without a name. Rene turns the card face down and proposes a game first. Spoken choices are too easily rewritten, he says. Something placed on the table can at least be witnessed by both sides.
+Alton waits beside the identity cabinet. His cap shades his face, but he turns the inspection lamp toward the table instead of asking you to stare at him. Your missing-person form carries a photograph; the station receipt does not. You fear the reconstructed route will come apart again.
 
-### 14 · Astrid · Blood Beneath the Paper
+“Photographs get damaged. People misremember faces.” He places the patrol book beside your cuff. “So cross-check: the name, the blue repair, who was there, which door the person came through. None of those should have to bear the whole case alone.”
 
-Astrid wheels in a medicine trolley. White threads caught in a caster tap the floor as it turns. Old wrist guards cover their cuffs. A flattened scar runs beside the neck. Fresh gloves are changed often; four used pairs lie stacked by the table.
-A small cut on your hand has opened again. Astrid offers cotton, waits for you to press it down, then removes the bloodstained sheet. Another statement lies beneath it. Its newest line records a hesitation you have not voiced.
-“Don't explain for me. Too many people wipe something clean and say it never happened.”
-A deck occupies the trolley's inner shelf. Astrid takes it out and sits beneath the lamp, asking to verify the record through a game rather than hear your prepared account again.
+The cabinet contains no other identity card with your face, only pages still awaiting completion. Alton puts the cards under the lamp. This time there is no need to guess who is real from their appearance. First establish whether the separate records point to one living arrival, then decide which entry needs correcting.
 
-### 15 · Ernest · Before the Signature
+### 8 · Night Split Dara · The Same Awkward Knot
 
-Ernest brings a chair from the far end of the White Room. The corridor has no doors, yet outdoor mud clings to its legs. He cushions the desk edge with a whitened cuff. His hair is neatly combed; a nearly flattened, chewed pen waits behind one ear.
-He asks your name, writes before you finish, then crosses it all out. “Sorry. It has to be right once.” There is real fatigue in his smile.
-Before you correct him, the stroke has turned into your childhood handwriting.
-Ernest studies his hand and places the pen out of reach. He is not asking directions. He wants to know whether the hand can still make a decision of its own. As the cards slide toward you, his other hand grips the chair arm.
+Dara spreads clear evidence bags on a bench. They hold the envelope and blue thread you have carried along the route. Blunt bone spurs at his collar keep catching his scarf, so he holds it down to avoid snagging the paper.
 
-### 16 · Evan · The Space Behind the Door
+“Don't decide somebody stole your things just yet.” He places the knot from the letter beside your cuff. In both, the thread passes over where it should go under; even the short end sits on the same side. It is the awkward repair you have never learned to correct.
 
-The door opens inward. Evan steps out from behind it, though you never see him pass the hinges. His coat cuffs have worn white. Long fingers carry an old furniture-moving scar. When the light reaches his face, the outline becomes clear a moment after its features.
-He holds the door, letting you smell boiling water. Cloth wraps the kettle handle. Its torn edge matches the loose thread at your sleeve.
-“Were you waiting for me?” He straightens blank forms and retrieves the deck beneath them.
-“For somebody willing to hear the last part.” He draws out the opposite chair. “People leaving don't usually sit.”
-The door stays open. He does not hurry you. He only leaves the pen within your reach.
+That alone cannot identify the sender. It shows that the sender handled the same coat, or already knew your habit. Dara bags the pieces separately and asks you to check the White Room dispatch records. What matters in this game is separating the resemblance you can see from conclusions it cannot yet support.
+
+### 9 · Ringtail Snake Aspen · The Slot Carries Records
+
+Aspen coils beside the return cabinet, pale scales brushing its worn paint. As you approach, the snake lifts its tail toward the instructions: bag letters, photographs, and recordings separately; do not put living things inside.
+
+You set the Fogtown delivery counterfoil beside the dispatch copy: the same envelope number, with the receiver's signature. The dispatch clerk confirms that this slot sends material to an earlier receiving point in the same night; the instructions beside it state the same function. A stopped clock is not proof that time reversed. The matched records and the slot's established function explain why this letter arrived early.
+
+Aspen nudges the dispatch book toward the card table. A pen-loan entry points to the meal window, where someone saw the sender. The narrow opening cannot carry living people. The next questions are who put your letter inside, and why that person needed help.
+
+### 10 · Night Eater Elmer · Why the Date Was Tomorrow
+
+Elmer is eating outside the meal window. He moves his tray when you bring the missing-person form. Coal dust stains the bone at his forehead, but his hands are clean. Asked who borrowed a pen here, he looks at your cuff and slowly nods.
+
+“The person in that coat. I refilled the ink. They said they couldn't find the exit and had no proof of the route they'd taken.” Elmer produces the retained application. The reporter's handwriting matches the name you have just written.
+
+Beside the date is an explanation: put tomorrow, so there is still a day for someone to come looking. This was not a prediction of death. It was a stranded person's appeal for help. Elmer spreads the cards where his meal stood. He can tell you how the application was made; he cannot decide whether you should write another.
+
+### 11 · Beam Holder Luther · The Person Took the Town Passage
+
+Luther is repairing the hinges of the iron door to the town passage. He must duck to enter; a cord holds the split shoulders of his coat out of his work. When you show him the dispatch book, he recognizes the date.
+
+“The person who handed over that packet left this way.” He points toward Fogtown. “They could hardly stand and asked for the shortest route. I said this was shorter. I never said it led out of town. The cabinet didn't carry them away. They walked back themselves.”
+
+Now you can join this account to Noah finding you outside the duty room. Luther braces the door and sets a card table beside it. There are two actual routes: one back to town, one toward the outer exit. Last time, the nearer route was mistaken for the way out. This time you can at least ask where each one leads.
+
+### 12 · Lost Wolf Wade · Hear the Appeal Through
+
+Wade brings a recording box from the waste-paper room, old tape still wrapped around his left foreleg. He guards it between his paws until you place the envelope and dispatch number beside it. Then he lets you take out the reel.
+
+The voice is exhausted, but it is not someone imitating you. It describes the coat, the Ash Works, and gaps in memory. At the end it asks whoever receives the appeal to retrace the route and bring back a record proving arrival. Elmer confirms that the person who borrowed his pen left this recording.
+
+This is no confession by an impostor who stole your identity. An earlier version of you sent an appeal to your earlier self. Wade settles beside the box. You take out the cards to check the whole account against the evidence, rather than listening only to its most frightening half-sentence.
+
+### 13 · Empty Seat Rene · Which Entry Needs Changing
+
+Rene sets two chairs before the registration desk. A blank missing-person form lies beside one; the Snow Station arrival receipt beside the other. With no pockets in his pale coat, he spreads every paper where both of you can see it.
+
+“Last time, the person had only an appeal and needed somebody else to establish the journey. This time you have records from three places and people willing to explain what happened. Another missing-person form would repeat the same request. It cannot make a receipt you've already received disappear.”
+
+You leave the old application on the table without tearing it. It explains why you retraced the route; it should not decide the ending for you. Rene invites you to check which facts now support an arrival entry and which remain frightened guesses. This time, you do not intend to put your own name on the list of people still to be found.
+
+### 14 · Blood Witness Astrid · A Witness Signs What They Saw
+
+Astrid wheels her medicine cart to the desk and changes the bandage rubbed through on your hand. She does not draw blood for a test. She opens her treatment book to the evacuation page. Registration needs to establish where people arrived, not demand another thing from you.
+
+“I saw you bring the injured in, and I treated your frostbite. I can sign for that. Let the people at the works describe the fire, and the harbor people describe the count aboard. Nobody fills in what they didn't see on someone else's behalf.”
+
+She signs her witness field and leaves the arrival confirmation for you. Separate records and people present can finally corroborate one another; your handwriting no longer has to prove itself. Astrid sets the cards beside her case and asks that the final check respect the same limits.
+
+### 15 · The Signer Ernest · Add the Finding to the Old File
+
+Ernest takes the pen from behind his ear, finds he has bitten through the cap, and offers you another. Instead of copying out a fresh missing-person form, he attaches the works handover, harbor register, and station receipt to the old application, identifying each source.
+
+“It was true that someone couldn't account for you then. It is also true that your arrival can be confirmed now.” He turns the correction field toward you. “Write FOUND; ARRIVAL CONFIRMED. That does not erase the journey. A signature alone cannot make the past unhappen.”
+
+The last entry remains blank. Ernest says what was missing last time was not a handsome signature, but people willing to stand behind their own parts of the route. Their records are here now. You lay out the cards to check questions that can be answered, before deciding what belongs in the completed file.
+
+### 16 · Behind the Door Evan · Before the Outer Door
+
+Evan brings two chairs to the outer door, old hauling scars across his long fingers. Its sign points out of town; the passage back to Fogtown is on the other side. He lets you inspect both directions before setting the case file between you.
+
+“The town passage is over there; this door leads outside. This time, do not simply take the shorter route. But this last form must reflect what you have established. The fact that someone once searched for you does not mean you must remain a missing person forever.”
+
+The file holds signed witness statements. Records from three places join on the table. The warning heard at Snow Station still needs its source accounted for at the recording desk before you leave. Evan pushes over the last deck and puts the pen beside the file. After this game, there is an arrival to record, rather than another search to arrange for tomorrow.
