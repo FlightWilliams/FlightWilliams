@@ -1,5 +1,11 @@
 // Translation is a presentation layer: saved names, card instances and actions
 // retain their original identifiers in both languages.
+// Rarity is visual metadata; saved card IDs remain distinct from their shared names.
+const GOLD_DISPLAY_NAMES=Object.fromEntries(POOL.filter(c=>c.rarity==='rare').map(c=>[c.n,c.baseName||c.n.replace(/·金辉$/,'')]));
+Object.assign(GOLD_DISPLAY_NAMES,{'金色小蜘蛛':'小蜘蛛','金色余灰':'余灰'});
+const rareNameEscape=s=>s.replace(/[.*+?^${}()|[\]\\]/g,'\\$&');
+const rareNameMatcher=new RegExp(Object.keys(GOLD_DISPLAY_NAMES).sort((a,b)=>b.length-a.length).map(rareNameEscape).join('|'),'g');
+function chineseCardText(text){return typeof text==='string'?text.replace(rareNameMatcher,name=>GOLD_DISPLAY_NAMES[name]):text}
 const LANGUAGE_STORAGE='mz_language_v1';
 let gameLanguage='zh-CN';
 try{const requested=new URLSearchParams(location.search).get('lang'),saved=localStorage.getItem(LANGUAGE_STORAGE);gameLanguage=requested==='en'||(!requested&&saved==='en')?'en':'zh-CN'}catch{}
@@ -16,7 +22,7 @@ Object.assign(localeDictionary,{
  '魂Ⅰ':'DS I','魂Ⅱ':'DS II','魂Ⅲ':'DS III','血源':'Bloodborne','只狼':'Sekiro','法环':'Elden Ring',
  '黑暗之魂Ⅰ':'Dark Souls I','黑暗之魂Ⅱ':'Dark Souls II','黑暗之魂Ⅲ':'Dark Souls III','恶魔之魂':"Demon’s Souls",'血源诅咒':'Bloodborne','艾尔登法环':'Elden Ring','黄金树幽影':'Shadow of the Erdtree',
  '物理':'Physical','火':'Fire','雷':'Lightning','光':'Light','暗':'Dark','血':'Blood','魔':'Magic','冰':'Ice','毒':'Poison',
- '练习木偶':'Training Dummy','练习·亡者':'Practice Hollow','金色小蜘蛛':'Gilded Spiderling','金色余灰':'Gilded Ash','骨':'Bones',
+ '练习木偶':'Training Dummy','练习·亡者':'Practice Hollow','金色小蜘蛛':'Spiderling','金色余灰':'Ash','骨':'Bones',
  '新入场':'Newly played','可献祭':'Ready to sacrifice','中文':'中文'
 });
 const localeEscape=s=>s.replace(/[.*+?^${}()|[\]\\]/g,'\\$&');
@@ -28,11 +34,11 @@ const localeTemplates=Object.entries(localeDictionary).filter(([key])=>key.inclu
  const pattern=pieces.map(piece=>{if(piece.startsWith('${')){parameters.push(piece);return '(.+?)'}return localeEscape(piece)}).join('');
  return {match:new RegExp('^'+pattern+'$'),parameters,target};
 });
-function englishCardName(card){return I18N_CARDS[typeof card==='string'?card:card?.n]?.name||(typeof card==='string'?card:card?.n)||''}
-function displayedCardName(card){return gameLanguage==='en'?englishCardName(card):card?.n||card||''}
+function englishCardName(card){const id=typeof card==='string'?card:card?.n;return I18N_CARDS[id]?.name||({'金色小蜘蛛':'Spiderling','金色余灰':'Ash'})[id]||id||''}
+function displayedCardName(card){const id=typeof card==='string'?card:card?.n;return gameLanguage==='en'?englishCardName(card):GOLD_DISPLAY_NAMES[id]||id||''}
 function i18nNameLimit(){return gameLanguage==='en'?20:5}
 function i18nText(source){
- if(gameLanguage!=='en'||!source||!localeHan.test(source))return source;
+ if(gameLanguage!=='en')return chineseCardText(source);if(!source||!localeHan.test(source))return source;
  if(localeTextCache.has(source))return localeTextCache.get(source);
  const leading=source.match(/^\s*/)[0],trailing=source.match(/\s*$/)[0],text=source.trim();
  let result=localeDictionary[text];
@@ -92,7 +98,7 @@ function localizeTextNode(node){
  if(gameLanguage==='en'&&node.parentElement.matches('.card .at')){const mark={物:'P',火:'F',雷:'L',光:'H',暗:'D',血:'B',魔:'M',冰:'I',毒:'T'}[node.nodeValue];if(mark)node.nodeValue=mark;return}
  const previous=localeNodeSource.get(node),current=node.nodeValue;
  const source=previous&&current===previous.translated?previous.source:current;
- const translated=gameLanguage==='en'?i18nText(source):source;
+ const translated=i18nText(source);
  localeNodeSource.set(node,{source,translated});if(current!==translated)node.nodeValue=translated;
 }
 function localizeElement(node){
@@ -105,7 +111,7 @@ function localizeElement(node){
  for(const key of ['title','aria-label','placeholder','alt','data-tip']){
   if(!node.hasAttribute(key))continue;
   const current=node.getAttribute(key),previous=attributes[key],source=previous&&previous.translated===current?previous.source:current;
-  const translated=gameLanguage==='en'?i18nText(source):source;attributes[key]={source,translated};if(current!==translated)node.setAttribute(key,translated);
+  const translated=i18nText(source);attributes[key]={source,translated};if(current!==translated)node.setAttribute(key,translated);
  }
 }
 function localizeRoot(root){

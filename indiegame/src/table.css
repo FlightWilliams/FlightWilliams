@@ -1255,7 +1255,7 @@ html[lang="en"] .table-tools .replay-entry::after{content:'Replay'}html[lang="en
 html[lang="en"] .game-shell .board .card.boss-card .top b,
 html[lang="en"] .game-shell .hand .card.boss-card .top b{-webkit-line-clamp:4;line-height:1.2}
 @media(max-width:600px),(max-height:500px) and (orientation:landscape){
- .game-shell .hand .card.boss-card{min-width:64px;min-height:70px;padding:2px}
+ .game-shell .hand .card.boss-card{padding:2px}
  .game-shell .board .card.boss-card{padding:2px}
  .game-shell .board .card.boss-card .top,
  .game-shell .board .card.boss-card.e .top{margin:0;padding:0}
@@ -1264,4 +1264,50 @@ html[lang="en"] .game-shell .hand .card.boss-card .top b{-webkit-line-clamp:4;li
 }
 @media(max-width:360px) and (orientation:portrait){
  html:not([lang="en"]) .game-shell .board .card.boss-card .top b{font-size:.8em}
+}
+
+/* All battle cards use their zone's shared dimensions, regardless of rarity or title. */
+.game-shell .board>.card,.game-shell .board>.slot{
+ box-sizing:border-box;min-width:0;min-height:0;
+ width:var(--battle-card-width);max-width:var(--battle-card-width);
+ height:calc(var(--battle-card-width)*1.4);max-height:calc(var(--battle-card-width)*1.4);
+ flex:0 0 var(--battle-card-width);
+}
+.game-shell .hand>.card{
+ box-sizing:border-box;min-width:0;min-height:0;
+ width:var(--hand-card-width);max-width:var(--hand-card-width);
+ height:calc(var(--hand-card-width)*1.4);max-height:calc(var(--hand-card-width)*1.4);
+ flex:0 0 var(--hand-card-width);
+}
+.game-shell .hand>.card.boss-card,.game-shell .hand>.card.rare-card{min-width:0;min-height:0}
+.game-shell .board .card .top,.game-shell .hand .card .top{min-width:0}
+.game-shell .board .card .top b,.game-shell .hand .card .top b{min-width:0;overflow-wrap:anywhere}
+.game-shell .board .card.boss-card .top b,
+.game-shell .hand .card.boss-card .top b,
+html[lang="en"] .game-shell .board .card.boss-card .top b,
+html[lang="en"] .game-shell .hand .card.boss-card .top b,
+.game-shell .board .card.boss-card.rare-card .top b,
+.game-shell .hand .card.boss-card.rare-card .top b,
+html[lang="en"] .game-shell .board .card.boss-card.rare-card .top b,
+html[lang="en"] .game-shell .hand .card.boss-card.rare-card .top b{-webkit-line-clamp:2;line-height:1.1}
+@media(max-width:360px) and (orientation:portrait){
+ .game-shell .hand .card.boss-card .sg{display:none}
+}
+
+/* Matchup badges occupy their own corner without covering names or rarity marks. */
+.game-shell .board .card>.element-matchup{
+ position:absolute;top:1px;right:1px;z-index:8;
+ display:grid;place-items:center;width:13px;height:15px;
+ border:1px solid currentColor;border-radius:3px;
+ background:#142016;color:#8ee27d;font:900 13px/1 Arial,sans-serif;
+ text-shadow:0 1px 1px #000;box-shadow:0 1px 3px #0008;
+ pointer-events:none;
+}
+.game-shell .board .card>.element-matchup.is-advantage{color:#8ee27d;background:#18361d}
+.game-shell .board .card>.element-matchup.is-disadvantage{color:#ff8880;background:#4d1e1b}
+.game-shell .board .card.has-element-matchup .top,
+.game-shell .board .card.boss-card.has-element-matchup .top,
+.game-shell .board .card.boss-card.e.has-element-matchup .top{padding-right:12px}
+.game-shell .board .card.rare-card>.rarity-mark{
+ top:auto;bottom:2px;left:calc(50% - .6em);right:auto;
 }

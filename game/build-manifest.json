@@ -1,12 +1,12 @@
 {
   "version": "0.18.3",
   "cards": 988,
-  "core": "assets/game.eb3ed5c68d5b.js",
-  "styles": "assets/game.0a6be144fa91.css",
+  "core": "assets/game.864737b42b9e.js",
+  "styles": "assets/game.27a9872a34bb.css",
   "sounds": "assets/sounds.9dd4337a50d2.js",
   "media": [
     "assets/bonfire_gif.50d0bb4f12db.gif",
     "assets/bonfire_still.54749c12aee8.png"
   ],
-  "coreSha256": "eb3ed5c68d5b5c9aff310f7943dbe56f67eb2139147c1a8404f5ead116ebf182"
+  "coreSha256": "864737b42b9ef2f0277f8564936134374302060d2ad41adc0a5eba1912e78291"
 }

@@ -10,12 +10,15 @@ check('All 988 English names and descriptions exist',set(english)==names and all
 labels=data('card-names.json');stories=data('card-stories.json');joins=data('companion-dialogue.json');plot=data('loop-story.json');identities=data('boss-identities.json')
 def valid_display_name(n,label):
  card=byname[n];identity=identities.get(card.get('baseName',n));gold=card.get('rarity')=='rare'
+ if gold:return label==labels[card['baseName']]
  if identity:
-  return label=={'zh':('鎏金·'if gold else'')+identity['roleZh']+identity['zh'],'en':('Gilded 'if gold else'')+identity['roleEn']+' '+identity['en']}
- return 2<=len(label['zh'])<=(8 if gold else 5)and len(label['en'])<=25
-check('All 988 display names are unique, with role-prefixed Bosses and bounded non-Boss names',set(labels)==names and len({v['zh']for v in labels.values()})==988 and len({v['en']for v in labels.values()})==988 and all(valid_display_name(n,v)for n,v in labels.items()))
+  return label=={'zh':identity['roleZh']+identity['zh'],'en':identity['roleEn']+' '+identity['en']}
+ return 2<=len(label['zh'])<=5 and len(label['en'])<=25
+normal_ids=[c['n']for c in cards if c.get('rarity')!='rare']
+check('All 988 cards keep distinct IDs; gold variants share bounded base display names',set(labels)==names and all(len({labels[n][lang]for n in normal_ids})==len(normal_ids)for lang in ['zh','en'])and all(valid_display_name(n,v)for n,v in labels.items()))
 check('Every card has newly written bilingual story flavour',set(stories)==names and all(v.get('zh')and v.get('en')and not re.search('[\u3400-\u9fff]',v['en'])for v in stories.values()))
-check('Six chapters lead back to the first world and all main Bosses can join',set(plot['chapters'])==set(campaign)and all(st['boss']in joins and joins[st['boss']].get('join')and joins[st['boss']].get('joinEn')for stages in campaign.values()for st in stages))
+cast=data('story-cast.json');core=set(cast['core'])
+check('Six recurring leads anchor three-character chapter casts and are the only companions',len(core)==6 and core<=names and set(cast['chapters'])==set(campaign)==set(plot['chapters'])and all(len(ids)==len(set(ids))==3 and set(ids)<=core for ids in cast['chapters'].values())and {key for key,row in joins.items()if row.get('join')or row.get('joinEn')}==core and all(joins[key].get('join')and joins[key].get('joinEn')for key in core))
 check('Gilded base relationships preserved',all(c.get('baseName')in names and c['n']=='鎏金·'+c['baseName']for c in cards if c.get('rarity')=='rare'))
 check('Six cycles of sixteen unique encounters',len(campaign)==6 and all(len(x)==16 for x in campaign.values())and len({st['boss']for world in campaign.values()for st in world})==96)
 check('Every stage has a matching skill and retinue',all(st['boss']in {a['boss']for a in skills}and st['boss']in decks and st['boss']in names for world in campaign.values()for st in world))
@@ -24,7 +27,7 @@ check('All retinue cards exist and normal-only',all(n in names and byname[n].get
 check('Every stage has newly written bilingual defeat and death dialogue',all(st['boss']in dialog and all(dialog[st['boss']].get(k)for k in ['farewell','farewellEn','echo','echoEn'])for world in campaign.values()for st in world))
 check('Thirty original scores retained',len(data('music-scores.json'))==30)
 check('Every portrait profile belongs to an original card',set(data('portraits.json'))==names)
-# Specific franchise/creator/sigil references remain excluded. The user explicitly requested the original Fire Warden archetype name 防火女.
+# Specific franchise/creator/sigil references remain excluded. The user explicitly requested the original Ellie's Echo archetype name 艾莉残影.
 foreign=['宫崎','miyazaki','fromsoftware','inscryption','邪恶冥刻','黑暗之魂','dark souls','demon\'s souls','demon’s souls','elden ring','艾尔登法环','血源','bloodborne','只狼','sekiro','黄金树','苇名','亚楠','权力的游戏','game of thrones','三首金龙','三首龙','帕奇','火防女','薪王葛温','亚尔特留斯']
 files=[*P.glob('data/*.json'),*P.glob('src/*'),P/'index.html',P/'standalone.html']
 problems=[]

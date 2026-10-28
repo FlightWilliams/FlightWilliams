@@ -11,7 +11,7 @@ const BASE=process.env.GAME_TEST_URL||'http://127.0.0.1:8893/index.html';
   const check=async(name,fn)=>{const evidence=await fn();results.push({name,passed:true,...(evidence?{evidence}:{})});console.log('PASS',name)};
   await page.goto(BASE);await page.waitForFunction(()=>window.BOOT?.ready&&typeof setGameLanguage==='function');
   await check('All 988 cards have English names and original canonical identifiers',async()=>{
-   const r=await page.evaluate(()=>({cards:POOL.length,coverage:POOL.every(c=>I18N_CARDS[c.n]?.name&&I18N_CARDS[c.n]?.lore),unique:new Set(Object.values(I18N_CARDS).map(c=>c.name)).size}));assert.equal(r.cards,988);assert.equal(r.unique,988);assert.ok(r.coverage);
+   const r=await page.evaluate(()=>{const normal=POOL.filter(c=>c.rarity!=='rare'),gold=POOL.filter(c=>c.rarity==='rare');return {cards:POOL.length,ids:new Set(POOL.map(c=>c.n)).size,coverage:POOL.every(c=>I18N_CARDS[c.n]?.name&&I18N_CARDS[c.n]?.lore),normal:normal.length,unique:new Set(normal.map(c=>I18N_CARDS[c.n].name)).size,paired:gold.every(c=>I18N_CARDS[c.n].name===I18N_CARDS[c.baseName].name)}});assert.equal(r.cards,988);assert.equal(r.ids,988);assert.equal(r.unique,r.normal);assert.ok(r.coverage&&r.paired);
   });
   await check('Homepage language choice persists across reloads',async()=>{
    await page.locator('[data-language="en"]').first().click();assert.equal(await page.evaluate(()=>gameLanguage),'en');assert.equal(await page.evaluate(()=>localStorage.getItem('mz_language_v1')),'en');await page.reload();await page.waitForFunction(()=>window.BOOT?.ready);assert.equal(await page.evaluate(()=>gameLanguage),'en');await page.locator('[data-language="zh-CN"]').first().click();assert.equal(await page.evaluate(()=>gameLanguage),'zh-CN');

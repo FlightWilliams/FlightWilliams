@@ -1,15 +1,15 @@
 {
   "苔庭裂角客领誓·阿珀": {
-    "farewell": "尺寸和袖口都对得上。那一晚，我见过穿这件衣服的人。",
-    "farewellEn": "The measurements and cuff match. I saw someone wearing that coat that night.",
-    "echo": "别把差不多当成一样。牌和证词，都得看清。",
-    "echoEn": "Nearly the same is not the same. Look closely at cards and statements alike."
+    "farewell": "路栏的位置对上了，回镇的方向还要继续核。",
+    "farewellEn": "The railing matches. Keep checking the return direction.",
+    "echo": "把图转正，再找一次桥头的位置。",
+    "echoEn": "Turn the map around and locate the bridge again."
   },
   "苔庭赤角兽领誓·艾珀": {
-    "farewell": "领水单你拿去。借桶的人还记得照顾伤员。",
-    "farewellEn": "Take the water sheet. Whoever borrowed the bucket was helping an injured traveler.",
-    "echo": "先留住能挡住下一击的牌。水也得一口一口喝。",
-    "echoEn": "Keep something that can block the next blow. Even water is taken one sip at a time."
+    "farewell": "水送给了撤离的人，这一项可以留下。",
+    "farewellEn": "The water went to evacuees. Keep that finding.",
+    "echo": "别把领用用途漏掉，再看一次。",
+    "echoEn": "Check the stated purpose before trying again."
   },
   "苔庭攀崖羊灵领誓·伊珀": {
     "farewell": "那个问题没有人回答，笔录上仍然有一句答复。原件已经找不到了。",
@@ -18,16 +18,16 @@
     "echoEn": "You thought you had found a witness. Your own name appeared on the statement first. Put that in the statement too."
   },
   "苔庭裂角客领誓·欧珀": {
-    "farewell": "我能作证的只有方向：那个人正往镇里走。",
-    "farewellEn": "I can vouch for the direction: that person was coming into town.",
-    "echo": "别只顾着往前压。先看看身后还剩几条空路。",
-    "echoEn": "Do not keep pressing forward. Check the open lanes behind you."
+    "farewell": "我只认走向镇里的那一段。",
+    "farewellEn": "I can confirm only the stretch toward town.",
+    "echo": "方向记清，别急着补出前面的路。",
+    "echoEn": "Keep the direction clear. Do not invent the earlier route."
   },
   "苔庭绛纹蝶领誓·乌珀": {
-    "farewell": "这是寻人启事。没有死亡证明，别把它贴进讣告栏。",
-    "farewellEn": "This is a missing-person notice. Do not put it among the obituaries without evidence of death.",
-    "echo": "看清对位，再出牌。别让一个像样的标题替你下结论。",
-    "echoEn": "Check the opposing lane before playing. Do not let a convincing heading decide for you."
+    "farewell": "好吧，那不是讣告。原件你拿走。",
+    "farewellEn": "Fine. It is not an obituary. Take the original.",
+    "echo": "别为了买一句安慰，就把原件交出去。",
+    "echoEn": "Do not surrender the original to buy reassurance."
   },
   "苔庭晶棘蜥龙领誓·依珀": {
     "farewell": "监控里我们始终没站在同一个地方。请把这句话也记进去。",
@@ -36,10 +36,10 @@
     "echoEn": "You followed the vacancies and sat down for somebody else. Do not cover the writing on the back."
   },
   "苔庭织光蛛领誓·雅珀": {
-    "farewell": "线和反结都留着。它们能帮你认路，暂时还不能替谁认罪。",
-    "farewellEn": "Keep the thread and its backward knot. They may help trace the route; they cannot establish guilt.",
-    "echo": "打结前先留够线。出牌前，也给自己留一张能接下去的。",
-    "echoEn": "Leave enough thread before tying the knot. Keep a card that lets you continue, too."
+    "farewell": "这回看全了。接下来查戳，不猜人。",
+    "farewellEn": "Now you have seen all of it. Check the stamps, not guesses.",
+    "echo": "线结只是线头，还不是指认谁的证据。",
+    "echoEn": "The knot is a lead, not yet an identification."
   },
   "苔庭裂角客领誓·诺珀": {
     "farewell": "我留在原地的那只鞋，已经有人领走。请把这句话也记进去。",
@@ -48,22 +48,22 @@
     "echoEn": "You thought the chair moved. The register moved your name. Nobody will sign this page."
   },
   "苔庭峰脊巨灵领誓·瑟珀": {
-    "farewell": "送到值班室时，人还活着。搬运登记可以给你作证。",
-    "farewellEn": "The passenger was alive at the duty room. The transport entry supports that.",
-    "echo": "先护住自己的生命。别为了多打一拳，把挡路的牌全搬空。",
-    "echoEn": "Protect your life first. Do not clear all your blockers for one extra strike."
+    "farewell": "我送到街口，最后几步是自己走的。",
+    "farewellEn": "I stopped at the street. The last steps were walked.",
+    "echo": "把搬运单的终点看清再说。",
+    "echoEn": "Read the transport destination carefully first."
   },
   "苔庭铠卫领誓·维珀": {
-    "farewell": "03:17是停电时刻，不是所有见闻的时刻。把后面的事继续往下查。",
-    "farewellEn": "03:17 marks the outage, not every sighting. Keep tracing what happened afterward.",
-    "echo": "先算这一轮会挨几下，再想下一轮怎么赢。",
-    "echoEn": "Count the blows you will take this round before planning to win the next."
+    "farewell": "钟停了，后来发生的事并没一起停。",
+    "farewellEn": "The clock stopped. Later events did not.",
+    "echo": "先核顺序，别只盯着那个时刻。",
+    "echoEn": "Check the sequence, not only the clock reading."
   },
   "苔庭铠卫领誓·希珀": {
-    "farewell": "去过一次和回来一次，是两条记录。别把你的路少算一半。",
-    "farewellEn": "Going out and coming back are separate entries. Do not lose half your route.",
-    "echo": "空出来的格子会被直击。往前走之前，先把脚下的桥补稳。",
-    "echoEn": "An empty lane invites a direct hit. Secure the bridge beneath you before advancing."
+    "farewell": "桥还是这座桥，来去要分清。",
+    "farewellEn": "It is the same bridge. Distinguish the directions.",
+    "echo": "再看路栏朝向，别把回来画成离开。",
+    "echoEn": "Check the railing before drawing a return as a departure."
   },
   "苔庭灯议长·洛珀": {
     "farewell": "我没带走那封信，因为封面上没有我的名字。日期没有更正过。",
@@ -72,10 +72,10 @@
     "echoEn": "You secured every item of evidence. You left no box for where you went. The original cannot be found."
   },
   "苔庭缄骨客领誓·米珀": {
-    "farewell": "这里没有你的死亡登记。把这句话原样写下，别再替它添结论。",
-    "farewellEn": "There is no death entry for you here. Write that exactly, without adding a conclusion.",
-    "echo": "不该献祭的牌，留着还能挡。别替自己提前挖空位置。",
-    "echoEn": "A card you keep can still block. Do not empty your own positions too early."
+    "farewell": "我没有亲眼见到，不能替那一栏作证。",
+    "farewellEn": "I did not witness it. I cannot certify that field.",
+    "echo": "空白留着，别让别人替你刻结论。",
+    "echoEn": "Leave the blank rather than accept someone else’s ending."
   },
   "苔庭晶棘蜥龙领誓·岚珀": {
     "farewell": "医生不承认写过第二份出院单。那不是冲洗时的划痕。",
@@ -132,10 +132,10 @@
     "echoEn": "When you turned, the place you had stood no longer recognized you. Check the wall behind the door number."
   },
   "苔庭灯议长·图珀": {
-    "farewell": "去钟楼，照这个编号找原带。先听清那个人说了什么。",
-    "farewellEn": "Take this reference to the tower and find the original reel. Hear what the speaker actually said.",
-    "echo": "信急着寄也得写对地址。再来之前，先把牌组里用不上的换掉。",
-    "echoEn": "Even an urgent letter needs the right address. Replace cards you cannot use before trying again."
+    "farewell": "去钟楼，带着编号听原话。",
+    "farewellEn": "Go to the tower. Use the reference to hear the original.",
+    "echo": "现在有具体去处了，再把记录核齐。",
+    "echoEn": "There is a destination now. Check the records again."
   },
   "苔庭镜瞳山猫领誓·芮珀": {
     "farewell": "屋顶的登记栏没有写进任何人。你可以回去再核一遍。",
@@ -144,28 +144,28 @@
     "echoEn": "After locking the door, you found a layer of ceiling missing inside. Nobody will sign this page."
   },
   "苔庭铠卫领誓·阿恩": {
-    "farewell": "缺的那一段就先空着。查到了再填，比猜对一次更可靠。",
-    "farewellEn": "Leave the missing stretch blank for now. Fill it when you know, rather than rely on a lucky guess.",
-    "echo": "先看自己的祭品够不够。想得到的落点，不一定现在就能到。",
-    "echoEn": "Count your usable sacrifices. The position you want may not be reachable yet."
+    "farewell": "我认不出那件衣服，这份话不能签。",
+    "farewellEn": "I cannot identify that coat. I cannot sign this account.",
+    "echo": "先问细节，别只听他说得有多肯定。",
+    "echoEn": "Ask for details, not how confidently they are delivered."
   },
   "苔庭晶棘蜥龙领誓·艾恩": {
-    "farewell": "灰从厂区吹来。衣服沾过烟，只能证明经过，不能证明起火的手。",
-    "farewellEn": "Smoke came from the plant. Soot proves exposure, not who started the fire.",
-    "echo": "顺着场面走，别和空想较劲。先堵住真正威胁你的那一格。",
-    "echoEn": "Read the actual position. Block the lane that really threatens you, not the one you imagined."
+    "farewell": "火光从厂区来，除此之外我不多说。",
+    "farewellEn": "The firelight came from the works. That is all I can say.",
+    "echo": "烟的方向不是人的罪名。",
+    "echoEn": "The direction of smoke is not a person’s guilt."
   },
   "苔庭裂角客领誓·伊恩": {
-    "farewell": "照片是真的。寄件人的问题，还得顺着信走。",
-    "farewellEn": "The photograph is genuine. To find the sender, follow the letter.",
-    "echo": "别只认一张熟脸。看清牌上的能力，再决定先处理谁。",
-    "echoEn": "Do not recognize only a familiar face. Read the abilities before choosing your priority."
+    "farewell": "原样都在，带完整的走。",
+    "farewellEn": "The original is intact. Take the whole print.",
+    "echo": "别只盯着脸，背景也能认路。",
+    "echoEn": "Look beyond the face. The background can locate the road."
   },
   "苔庭铠卫·欧恩": {
-    "farewell": "巡逻簿这一段我签了。通话的原始时间，还得去钟楼查。",
-    "farewellEn": "I have signed this part of the patrol account. Check the original call times at the tower.",
-    "echo": "刚上场的牌还不能献祭。等一轮，和等一份能站住的证词一样要紧。",
-    "echoEn": "A newly played card cannot be sacrificed yet. Waiting a round matters as much as waiting for a sound account."
+    "farewell": "这页只写有人回来，没有写谁死了。",
+    "farewellEn": "This page records a return, not a death.",
+    "echo": "把目击的先后重新排一遍。",
+    "echoEn": "Put the sightings in order again."
   },
   "苔庭铠卫·乌恩": {
     "farewell": "你看到的那一下没进记录。我记得当时没有开灯。",
@@ -180,10 +180,10 @@
     "echoEn": "You checked the door behind him, but not the shadow inside it. The seal was applied from inside."
   },
   "苔庭铠卫·雅恩": {
-    "farewell": "把见过你的人找齐。案卷说你失踪，不代表它已经写对了。",
-    "farewellEn": "Find the people who saw you. A missing report can be wrong.",
-    "echo": "先看清牌桌，再往前走。着急不能替你找回记忆。",
-    "echoEn": "Read the table before moving. Hurrying will not restore your memory."
+    "farewell": "先沿街图问。只记亲眼见过的那一段。",
+    "farewellEn": "Follow the map. Record only what each person witnessed.",
+    "echo": "先歇口气。案卷不会因为这一局输赢就变成死亡证明。",
+    "echoEn": "Rest first. A lost game does not turn the file into a death certificate."
   },
   "苔庭巡灯使·诺恩": {
     "farewell": "我没带走那封信，因为封面上没有我的名字。我记得当时没有开灯。",
@@ -252,10 +252,10 @@
     "echoEn": "You turned the last page. Its back carried the date of your first visit. The date was never corrected."
   },
   "苔庭潜印客·莫恩": {
-    "farewell": "原件收好。下一位证人该看纸上写的，不该听传言教他回答。",
-    "farewellEn": "Keep the original. The next witness should read it, not learn an answer from rumor.",
-    "echo": "你舍掉的那张牌，原本还能挡一回。别急着把有用的东西扔了。",
-    "echoEn": "The card you sacrificed could have blocked another round. Do not throw useful things away in haste."
+    "farewell": "封皮你留好，我不替它猜寄件人。",
+    "farewellEn": "Keep the envelope. I will not guess its sender.",
+    "echo": "先分开那几张纸，再来核对。",
+    "echoEn": "Separate the papers before checking them again."
   },
   "苔庭修灯师·伦恩": {
     "farewell": "每次查房，绷带都比上一次干净。我没有递交第二份。",
@@ -342,10 +342,10 @@
     "echoEn": "You waited for a report. The person outside was waiting for your shift. It was received before it was sent."
   },
   "铜钟峰脊巨灵领誓·维拉": {
-    "farewell": "报时和通话分开了。去听原带，别再让停钟替人说话。",
-    "farewellEn": "We have separated time signals from calls. Hear the original; do not let a stopped clock speak for people.",
-    "echo": "先稳住自己的五条战线。钟再响，也不会替空位挡伤害。",
-    "echoEn": "Keep your five lanes secure. No bell will block damage through an empty position."
+    "farewell": "先核这一通电话的来路。",
+    "farewellEn": "First trace this particular call.",
+    "echo": "钟声不能替你补上听漏的半句。",
+    "echoEn": "Chimes cannot supply the words you missed."
   },
   "铜钟铠卫领誓·希拉": {
     "farewell": "当时站在前面的人没有回话。封条是从里面贴上的。",
@@ -366,10 +366,10 @@
     "echoEn": "You watched one position without checking whether the room had stayed put. Check the filing cabinet left half open."
   },
   "铜钟峰脊巨灵领誓·岚拉": {
-    "farewell": "封条和交接单都在。带子确实从灰厂那条线路录下来。",
-    "farewellEn": "The seal and transfer slip survive. The reel was recorded from the Ash Works line.",
-    "echo": "手里东西再多，也得放到合适的位置。先清出能落牌的路。",
-    "echoEn": "However much you carry, it needs a proper place. Leave yourself a legal position to play into."
+    "farewell": "原带和交接号一起留下。",
+    "farewellEn": "Retain the original and its handover number.",
+    "echo": "先确认原件，再听抄件怎么说。",
+    "echoEn": "Establish the original before the copies."
   },
   "铜钟铠卫领誓·索拉": {
     "farewell": "当时站在前面的人没有回话。那段空白不在原带上。",
@@ -378,16 +378,16 @@
     "echoEn": "You thought only one person stood in front. You can check it again."
   },
   "铜钟灯议长·莱拉": {
-    "farewell": "接通早于断电，备用电池接着录。把这两个时刻一起带走。",
-    "farewellEn": "The call connected before the outage; backup power kept recording. Keep both times.",
-    "echo": "费用要一张一张算。别拿下一轮才成熟的牌，付这一轮的账。",
-    "echoEn": "Count each sacrifice. A card that matures next round cannot pay this round’s cost."
+    "farewell": "收讫章在这里，不用再付一次。",
+    "farewellEn": "The receipt is here. No second payment is due.",
+    "echo": "别拿案卷去换一张本该给你的账页。",
+    "echoEn": "Do not trade away the file for a page already owed to you."
   },
   "铜钟缄骨客领誓·岑拉": {
-    "farewell": "这里收到的是伤员转送消息，没有接收你遗体的记录。",
-    "farewellEn": "This was an injury-transfer message. There is no record of receiving your body.",
-    "echo": "能保住的先保住。别把还有用的牌，全算成已经没了。",
-    "echoEn": "Keep what can be saved. Do not count useful cards as lost before they are."
+    "farewell": "用途写着伤员，别再抄短了。",
+    "farewellEn": "It says injured people. Do not shorten it again.",
+    "echo": "读完用途，再判断这一页。",
+    "echoEn": "Read the whole purpose before judging the page."
   },
   "铜钟踏铃驹领誓·塔拉": {
     "farewell": "监控里我们始终没站在同一个地方。原件已经找不到了。",
@@ -402,22 +402,22 @@
     "echoEn": "You waited for a report. The person outside was waiting for your shift. Check the bell tower maintenance sheet."
   },
   "铜钟环藤蛇领誓·伦拉": {
-    "farewell": "观察单不是用药单。先查清发生过什么，再问为什么记不住。",
-    "farewellEn": "An observation sheet is not a medication record. Establish events before explaining the gaps.",
-    "echo": "看清冻结还要几回合。着急不会让它提前解开。",
-    "echoEn": "Check how many rounds of freezing remain. Hurrying will not thaw it sooner."
+    "farewell": "物资与火警批次能对上。",
+    "farewellEn": "The supplies match the alarm batch.",
+    "echo": "药名不能代替诊疗经过。",
+    "echoEn": "A drug name is not a treatment history."
   },
   "铜钟裂角客领誓·佩拉": {
-    "farewell": "去东炉值班室问。炉门在哪里，打过电话的人最清楚。",
-    "farewellEn": "Ask at the east-furnace duty room. Someone who was there can explain that door.",
-    "echo": "别把能挡住的格子让开。前门不通，就先把检修道走稳。",
-    "echoEn": "Do not abandon a lane you can hold. If the front way is blocked, secure the service route."
+    "farewell": "东炉值班室，号码没有变。",
+    "farewellEn": "The east-furnace duty room. The number has not changed.",
+    "echo": "把分机号抄全，再去问人。",
+    "echoEn": "Copy the complete extension before asking."
   },
   "铜钟裂角客领誓·泽拉": {
-    "farewell": "报修单留给你核。先断电，后拆钟，这个次序别再倒过来。",
-    "farewellEn": "Check the repair order. Outage first, dismantling later. Keep that order.",
-    "echo": "先后手会换。别把上一轮的顺序，当成这一轮也一样。",
-    "echoEn": "Initiative changes. Do not assume the previous round’s order still holds."
+    "farewell": "完整一句留着，别让人再截短。",
+    "farewellEn": "Keep the whole sentence. Let nobody shorten it again.",
+    "echo": "先听到末尾，再判断那个人在做什么。",
+    "echoEn": "Hear the ending before judging the speaker’s purpose."
   },
   "铜钟钩针蝎领誓·图拉": {
     "farewell": "颜色不是当场变的，你离开后才开始。请把这句话也记进去。",
@@ -432,10 +432,10 @@
     "echoEn": "You secured every item of evidence. You left no box for where you went. Nobody will sign this page."
   },
   "铜钟织光蛛领誓·阿温": {
-    "farewell": "开头的“别”听清了。是叫人避开正门，不是把人赶向危险。",
-    "farewellEn": "The missing “don’t” is clear. The instruction avoided the main gate, not sent people into danger.",
-    "echo": "一张牌漏看一个字，走法就不同。再打时，把能力也读完整。",
-    "echoEn": "One overlooked word changes a play. Read the whole ability before trying again."
+    "farewell": "检修道通港口，图上能核。",
+    "farewellEn": "The service passage reaches the harbor. The map confirms it.",
+    "echo": "路线可行，还不等于认出了说话的人。",
+    "echoEn": "A usable route does not identify the speaker."
   },
   "铜钟线尾鼠领誓·艾温": {
     "farewell": "检验员没碰过那块潮湿的纸。日期没有更正过。",
@@ -450,16 +450,16 @@
     "echoEn": "You watched one position without checking whether the room had stayed put. The copy bears the same mark."
   },
   "铜钟缄骨客领誓·欧温": {
-    "farewell": "那几次是回放，不是几次新报案。原始接听只有一条记录。",
-    "farewellEn": "Those were playbacks, not new reports. There is one original reception entry.",
-    "echo": "同一轮每张牌只攻一次。别把眼前的动作，算成还会再来一遍。",
-    "echoEn": "Each card attacks once per round. Do not budget for the same action happening twice."
+    "farewell": "同一盘带，只是一再重放。",
+    "farewellEn": "One tape, replayed several times.",
+    "echo": "把回放和来电分开记。",
+    "echoEn": "Record playback separately from the call."
   },
   "铜钟铠卫领誓·乌温": {
-    "farewell": "衣服只是一条线索。带着它去问人，别把它当判决。",
-    "farewellEn": "The clothes are a lead. Take them to a witness, not as a verdict.",
-    "echo": "盾要放在真正会挨打的位置。别只因为喜欢那张牌，就把空位忘了。",
-    "echoEn": "Put a defender where the blow will land. Do not forget an open lane because you like a card elsewhere."
+    "farewell": "没有签领页，我不能只凭衣服认人。",
+    "farewellEn": "Without the issue sheet, clothing cannot identify them.",
+    "echo": "别替一件外套认下不属于你的责任。",
+    "echoEn": "Do not accept a coat’s supposed responsibility as your own."
   },
   "铜钟露囊蛙领誓·依温": {
     "farewell": "外套上的破口比伤口少一处。那不是冲洗时的划痕。",
@@ -474,10 +474,10 @@
     "echoEn": "The last blow did not land where you remember. Check the unsigned handover form."
   },
   "铜钟枝灯树灵领誓·诺温": {
-    "farewell": "断口接回同一条线路，前后指向同一条撤离路。",
-    "farewellEn": "Both sides of the break belong to the same line and describe the same evacuation route.",
-    "echo": "根得留在能撑住的地方。别为多打一处，把原来的防线拔空。",
-    "echoEn": "Keep a root where it supports something. Do not uproot your defense for one more attack."
+    "farewell": "备用电源的记录就在这里。",
+    "farewellEn": "The backup power entry is here.",
+    "echo": "机器转着，不等于时间倒着走。",
+    "echoEn": "A running recorder is not time running backward."
   },
   "铜钟峰脊巨灵领誓·瑟温": {
     "farewell": "椅子换过位置，地上的旧印却还围着我。没人肯在这一页签名。",
@@ -498,10 +498,10 @@
     "echoEn": "When you turned, the place you had stood no longer recognized you. Put that in the statement too."
   },
   "铜钟缄骨客领誓·洛温": {
-    "farewell": "他离开话筒，是让别人喝水。那段沉默也有它实际的原因。",
-    "farewellEn": "They left the receiver to give someone water. That silence has an ordinary cause.",
-    "echo": "先护住能接下一击的牌。喘口气，不算退后。",
-    "echoEn": "Protect a card that can take the next blow. Taking a breath is not surrender."
+    "farewell": "停顿听清了，原话也就完整了。",
+    "farewellEn": "The pause is clear. The sentence is complete.",
+    "echo": "先让人喘口气，再听剩下的话。",
+    "echoEn": "Let the person breathe, then hear the rest."
   },
   "铜钟铠卫领誓·米温": {
     "farewell": "你看到的那一下没进记录。你可以回去再核一遍。",
@@ -552,16 +552,16 @@
     "echoEn": "You thought the chair moved. The register moved your name. The original cannot be found."
   },
   "铜钟铠卫领誓·佩温": {
-    "farewell": "东炉值班室。这回你有一个能当面问到人的地址了。",
-    "farewellEn": "The east-furnace duty room. You now have an address where someone can answer directly.",
-    "echo": "别拿所有牌去换眼前那一下。下一轮的账，也得有人付。",
-    "echoEn": "Do not trade every card for one immediate blow. Someone must pay next round’s costs too."
+    "farewell": "地址按原件来，那张抄错了。",
+    "farewellEn": "Use the original address. That copy is wrong.",
+    "echo": "不要急着上路，先对号码。",
+    "echoEn": "Check the number before setting off."
   },
   "铜钟铠卫领誓·泽温": {
-    "farewell": "我把更正经过签清楚。叫人走正门的误听，到我这里为止。",
-    "farewellEn": "I have signed the correction. The mistaken instruction to use the main gate ends with me.",
-    "echo": "看清再答，等稳再出。少看一处对位，整局就可能听岔。",
-    "echoEn": "Look before answering; settle before playing. One missed lane can change the whole exchange."
+    "farewell": "我签听到的，不签没看见的。",
+    "farewellEn": "I will sign what I heard, not what I did not see.",
+    "echo": "像一个声音，还要让现场的人来认。",
+    "echoEn": "A similar voice still needs identification at the scene."
   },
   "铜钟裂角客领誓·图温": {
     "farewell": "当时站在前面的人没有回话。我记得当时没有开灯。",
@@ -576,10 +576,10 @@
     "echoEn": "When you turned, the place you had stood no longer recognized you. The person who stamped it was off duty."
   },
   "铜钟铠卫领誓·阿雅": {
-    "farewell": "灰厂的值班人能认出现场那个人。拿着原话去，别替他们先作答。",
-    "farewellEn": "The Ash Works duty staff can identify the person on site. Bring the actual words; do not answer for them.",
-    "echo": "先把还缺哪一张想清楚，再决定怎么抽。你的路还没有走完。",
-    "echoEn": "Decide what your position lacks before choosing a draw. Your route is not finished."
+    "farewell": "去灰厂，问清开门和撤离。",
+    "farewellEn": "Go to the works. Check the opening and evacuation.",
+    "echo": "已经知道问题，带着原话再核一次。",
+    "echoEn": "You know the question. Check it against the original words."
   },
   "铜钟镜瞳山猫领誓·艾雅": {
     "farewell": "监控里我们始终没站在同一个地方。那一栏原来是空的。",
@@ -744,16 +744,16 @@
     "echoEn": "You turned the last page. Its back carried the date of your first visit. Check the clock face after it stopped."
   },
   "炽砂铠卫领誓·乌弥": {
-    "farewell": "进门的时间对上了。沿救援通道去问接过你那桶水的人。",
-    "farewellEn": "The entry time agrees. Follow the rescue passage and ask who received your bucket of water.",
-    "echo": "先把谁进门、谁出门排清，别急着给自己定罪。",
-    "echoEn": "Establish who entered and who left before you accuse yourself."
+    "farewell": "入厂顺序在这里，里面的事继续查。",
+    "farewellEn": "The arrival sequence is here. Check what happened inside.",
+    "echo": "先找对门，再核自己做过什么。",
+    "echoEn": "Find the right door, then what you did."
   },
   "炽砂铠卫领誓·依弥": {
-    "farewell": "医务室有人签收过那桶水。去问他们，别只听我这张醉嘴。",
-    "farewellEn": "Someone at the infirmary signed for that water. Ask them too, not just this drunk's recollection.",
-    "echo": "先分清我记得的和我猜的，才找得到下一步。",
-    "echoEn": "Separate what I remember from what I guessed. Then you can move on."
+    "farewell": "水送到了医务室。",
+    "farewellEn": "The water reached the clinic.",
+    "echo": "用途读完，别只看搬运两个字。",
+    "echoEn": "Read its purpose, not only “transport.”"
   },
   "炽砂枝灯树灵领誓·雅弥": {
     "farewell": "当时站在前面的人没有回话。那段空白不在原带上。门外的脚步一直停在第二下。",
@@ -762,28 +762,28 @@
     "echoEn": "The last blow did not land where you remember. Check the duty desk behind the glass."
   },
   "炽砂灯议长·诺弥": {
-    "farewell": "你说的是检修出口。把电话的位置标上，再查那些人从哪儿离厂。",
-    "farewellEn": "You said to use the service exit. Mark where the telephone stood, then check how the group left.",
-    "echo": "录音要连着听，别只揪住自己的声音。",
-    "echoEn": "Listen to the whole call, not only the sound of your own voice."
+    "farewell": "东炉的接线和钟楼对得上。",
+    "farewellEn": "The east-furnace connection matches the tower.",
+    "echo": "位置核清，别再多猜一处电话。",
+    "echoEn": "Confirm the location instead of inventing another telephone."
   },
   "炽砂灯议长·瑟弥": {
-    "farewell": "病历这一页可以抄走。它证明你当时活着，后面的路还得接着查。",
-    "farewellEn": "Copy this patient note. It proves you were alive then; the rest of the route still needs checking.",
-    "echo": "受过伤和已经遇难是两回事，别把后面的空白自己填满。",
-    "echoEn": "Being injured is not the same as having died. Don't fill in what the record doesn't say."
+    "farewell": "这页记的是治疗后离开。",
+    "farewellEn": "This records departure after treatment.",
+    "echo": "先照顾好伤，再核后面的路。",
+    "echoEn": "Care for the injury, then check the route beyond."
   },
   "炽砂铠卫领誓·维弥": {
-    "farewell": "班表和救援补记分开了。现在去找真正的撤离点名。",
-    "farewellEn": "The shift roster and rescue additions are separated. Now find the evacuation roll call.",
-    "echo": "先分清哪张表在记什么，名字才不会被挪错地方。",
-    "echoEn": "Work out what each sheet records, or the names will end up in the wrong places."
+    "farewell": "救援入口有你，夜班名单没有。",
+    "farewellEn": "You are at the rescue entrance, not on the shift list.",
+    "echo": "把到达和接班分开看。",
+    "echoEn": "Distinguish arriving from taking a shift."
   },
   "炽砂缄骨客领誓·希弥": {
-    "farewell": "这张记的是送出去的活人。照片还能帮你认清每个人的位置。",
-    "farewellEn": "This sheet counts living people sent out. The photograph can help identify their positions.",
-    "echo": "担架不是一个额外的人，搬担架的也不能漏掉。",
-    "echoEn": "A stretcher isn't an extra person. Those carrying it must still be counted."
+    "farewell": "最后一批人还要查出厂交接。",
+    "farewellEn": "The last group still needs its departure handover checked.",
+    "echo": "先数清活着离开的，别替人添一栏。",
+    "echoEn": "Count the living departures without inventing a category."
   },
   "炽砂裂角客领誓·洛弥": {
     "farewell": "我留在原地的那只鞋，已经有人领走。原件已经找不到了。",
@@ -792,10 +792,10 @@
     "echoEn": "When you turned, the place you had stood no longer recognized you. That box used to be blank."
   },
   "炽砂灯议长·米弥": {
-    "farewell": "整张照片都带上。袖口和旁边的人，比单独一张脸说明得更多。",
-    "farewellEn": "Take the whole photograph. The cuff and the people beside you say more than an isolated face.",
-    "echo": "把前后两张也看一遍，动作得接得上。",
-    "echoEn": "Look at the frames on either side too. The movement has to connect."
+    "farewell": "整张照片你拿好。",
+    "farewellEn": "Keep the whole photograph.",
+    "echo": "旁边的人也在照片里，别急着裁掉。",
+    "echoEn": "Keep the people beside you in frame."
   },
   "炽砂凝光泥团领誓·岚弥": {
     "farewell": "输血登记上，双方的姓名一样。请把这句话也记进去。",
@@ -804,16 +804,16 @@
     "echoEn": "You listed who lost blood, but not whose color improved. Do not cover the writing on the back."
   },
   "炽砂峰脊巨灵领誓·索弥": {
-    "farewell": "门边留下的那条缝，就是当晚的退路。沿它去找厂图上的检修道。",
-    "farewellEn": "The gap beside the door was the way out. Follow it to the service road on the plant map.",
-    "echo": "先让伤员过，再挪挡火的炉壳。次序反了，人就过不去。",
-    "echoEn": "Let the injured pass before moving the casing that holds back the fire. Reverse it and nobody gets through."
+    "farewell": "开门、通过、封门，顺序不能倒。",
+    "farewellEn": "Open, pass through, seal: do not reverse the order.",
+    "echo": "原件别放手，再核封条前后的记录。",
+    "echoEn": "Keep the original and compare the records around the sealing."
   },
   "炽砂铠卫领誓·莱弥": {
-    "farewell": "这条线通沉港。带着图去查封门时刻，就知道撤离有没有被截断。",
-    "farewellEn": "This line leads to the harbor. Check the sealing time against it to learn whether the evacuation was cut off.",
-    "echo": "别只看最近的门，要看那扇门外面的路接到哪里。",
-    "echoEn": "Look beyond the nearest door to where the road outside it leads."
+    "farewell": "栈道接着沉港，就从这边查。",
+    "farewellEn": "The walkway reaches the harbor. Follow it.",
+    "echo": "先认路，不要回到被堵住的正门。",
+    "echoEn": "Find the route rather than return to the blocked main gate."
   },
   "炽砂晶棘蜥龙领誓·岑弥": {
     "farewell": "证词到这里就停了，录音带还剩很长。日期没有更正过。",
@@ -828,16 +828,16 @@
     "echoEn": "You waited for an answer. The question came back instead. The date was never corrected."
   },
   "炽砂铠卫领誓·莫弥": {
-    "farewell": "封门在点名之后，签字都在这里。把交接纸也带上。",
-    "farewellEn": "The door was sealed after the count. The signatures are here. Take the handover sheet too.",
-    "echo": "把时间和签名一起看，关着的门才说得清。",
-    "echoEn": "Read the times with the signatures. Then the shut door makes sense."
+    "farewell": "封门在撤离之后，这点不能省。",
+    "farewellEn": "The sealing followed the evacuation. That cannot be omitted.",
+    "echo": "一张封条不能抹掉前面的经过。",
+    "echoEn": "A seal cannot erase the sequence before it."
   },
   "炽砂灯议长·伦弥": {
-    "farewell": "这袋是撤离单，另一袋才是旧班表。沉港要核的是前一袋。",
-    "farewellEn": "This bag holds evacuation sheets; the other is the old shift roster. The harbor needs the first.",
-    "echo": "纸多不等于查清了，先把不同用途的记录分开。",
-    "echoEn": "More paper doesn't mean more certainty. Sort the records by what they were for."
+    "farewell": "复写联的编号还认得清。",
+    "farewellEn": "The carbon copy’s number remains legible.",
+    "echo": "轻一点翻，别让急躁毁掉原件。",
+    "echoEn": "Turn it gently. Do not damage the original in haste."
   },
   "炽砂铠卫领誓·佩弥": {
     "farewell": "椅子换过位置，地上的旧印却还围着我。那不是冲洗时的划痕。",
@@ -852,16 +852,16 @@
     "echoEn": "After locking the door, you found a layer of ceiling missing inside. Check the emergency exit arrow."
   },
   "炽砂灯议长·图弥": {
-    "farewell": "副本在停工办公室，存放号写好了。找着以后，回来报个信。",
-    "farewellEn": "The copy is at the shutdown office. I've written down its reference. Let me know when you find it.",
-    "echo": "先查销毁登记，别对着一地灰猜谁藏了什么。",
-    "echoEn": "Check the disposal register before guessing at secrets in the ash."
+    "farewell": "这页还在，烧掉也改不了有人见过。",
+    "farewellEn": "The page remains. Burning it would not undo its witnesses.",
+    "echo": "先护好记录，别听销毁就能结案的说法。",
+    "echoEn": "Protect the record. Destruction does not close the case."
   },
   "炽砂铠卫领誓·芮弥": {
-    "farewell": "补线能和照片对上。但衣服会传手，还是让见过你的人把经过写下。",
-    "farewellEn": "The stitching matches the photograph. But coats get passed around; have those who saw you write down what happened.",
-    "echo": "一件外套不能代替整段行程，继续找看见你的人。",
-    "echoEn": "A coat cannot prove the whole journey. Keep looking for those who saw you."
+    "farewell": "针线她给，袖口是你自己补的。",
+    "farewellEn": "She supplied the sewing kit. You patched the cuff.",
+    "echo": "自己的衣服与借用厂服，分开放。",
+    "echoEn": "Keep your coat separate from the borrowed uniform."
   },
   "炽砂铠卫领誓·阿罗": {
     "farewell": "你看到的那一下没进记录。没人肯在这一页签名。",
@@ -876,10 +876,10 @@
     "echoEn": "You watched one position without checking whether the room had stayed put. I submitted no second copy. The rain outside falls only on the register."
   },
   "炽砂灯议长·伊罗": {
-    "farewell": "我接过的几通电话都对上了：检修门、沉港、雪站，照这条线去问。",
-    "farewellEn": "The calls agree: service exit, harbor, Snow Station. Follow those connections.",
-    "echo": "听清一句话是请谁做什么，别只记住话筒里的喘气声。",
-    "echoEn": "Listen for who was asked to do what, not merely the breathing on the receiver."
+    "farewell": "开的是检修道，不是炉门。",
+    "farewellEn": "The service passage was requested, not the furnace door.",
+    "echo": "把那句话读完，别替删节认罪。",
+    "echoEn": "Read the whole sentence. Do not confess to an omission."
   },
   "炽砂峰脊巨灵领誓·欧罗": {
     "farewell": "我留在原地的那只鞋，已经有人领走。没人肯在这一页签名。胶片的背面留着呼吸的雾。",
@@ -900,22 +900,22 @@
     "echoEn": "You followed the vacancies and sat down for somebody else. Do not cover the writing on the back. The attendant handed over the same receipt twice."
   },
   "炽砂晶棘蜥龙领誓·雅罗": {
-    "farewell": "这边的砖挡过火，门外留下了脚印。去拿交接单，继续查码头。",
-    "farewellEn": "These bricks held back the fire; footprints remain beyond the door. Take the handover and continue at the docks.",
-    "echo": "看烧损朝哪一边，再判断那道门保护了谁。",
-    "echoEn": "Look at which side burned before judging whom the door protected."
+    "farewell": "门外这条路确实走得通。",
+    "farewellEn": "The route outside this door was usable.",
+    "echo": "先对图和照片，再向前走。",
+    "echoEn": "Compare map and photograph before continuing."
   },
   "炽砂灯议长·诺罗": {
-    "farewell": "工厂送出的经过核清了。沉港的签收，得请码头的人自己确认。",
-    "farewellEn": "The factory's dispatch is established. The dock must confirm its own reception.",
-    "echo": "这里能证明送出，不能替终点证明收到。下一段还得查。",
-    "echoEn": "This end can prove dispatch, not arrival. The next stretch still needs checking."
+    "farewell": "厂里送出的人，去码头问接收。",
+    "farewellEn": "Ask the pier who received those sent from the works.",
+    "echo": "你在这里帮过人，下一段还要继续核实。",
+    "echoEn": "You helped people here. Keep checking the next stretch."
   },
   "炽砂修灯师·瑟罗": {
     "farewell": "别把汤泼了，我熬了一夜。炉门上的封条麻烦按紧，里面那位一闻见饭味就醒。",
     "farewellEn": "Mind the soup. It took all night. Press the seal on the furnace door. Whoever is inside wakes at the smell of supper.",
-    "echo": "防火女夹住你指间的火柴，慢慢放回铁盒。“手抖就歇会儿。”炉门紧锁，里面却响起刮擦汤勺的声音。",
-    "echoEn": "The Fire Warden takes the match from your trembling fingers and returns it to its tin. “Rest those hands.” The furnace is locked. A spoon scrapes a bowl inside."
+    "echo": "艾莉残影夹住你指间的火柴，慢慢放回铁盒。“手抖就歇会儿。”炉门紧锁，里面却响起刮擦汤勺的声音。",
+    "echoEn": "Ellie's Echo takes the match from your trembling fingers and returns it to its tin. “Rest those hands.” The furnace is locked. A spoon scrapes a bowl inside."
   },
   "炽砂铠卫·维罗": {
     "farewell": "外套上的破口比伤口少一处。别把背面的字遮住。",
@@ -1386,52 +1386,52 @@
     "echoEn": "You thought you had found a witness. Your own name appeared on the statement first. The door handle is still wet. The headphones contain a knock that never landed."
   },
   "暮潮星枝鹿领誓·莱尘": {
-    "farewell": "候船棚就是接收那批人的地方。先找值守登记。",
-    "farewellEn": "This shelter received the group. Start with its duty register.",
-    "echo": "沿岸上的登记桌查，别让水面的声音把路带偏。",
-    "echoEn": "Follow the reception desks on shore. Don't let sounds on the water draw you off the route."
+    "farewell": "先核码头接收，再找船次。",
+    "farewellEn": "Check dock reception before the boat.",
+    "echo": "先看批号，不必重猜一遍身份。",
+    "echoEn": "Start with the batch, not another guess at identity."
   },
   "暮潮灯议长·岑尘": {
-    "farewell": "座位有空，不代表船上少人。去问替伤员包扎的人。",
-    "farewellEn": "A blank seat entry needn't mean a missing passenger. Ask who dressed the patients' wounds.",
-    "echo": "先把票数和人数分开数，别拿空格作结论。",
-    "echoEn": "Count tickets and people separately before reaching a conclusion from a blank."
+    "farewell": "座位和人数已经分清。",
+    "farewellEn": "Seats and people are now distinct.",
+    "echo": "别把一张票当作整条船。",
+    "echoEn": "One ticket is not the whole boat."
   },
   "暮潮浮辉使领誓·塔尘": {
-    "farewell": "灯借给你，又由你还回来了。你在船上的这段，我记得。",
-    "farewellEn": "I lent you the lamp, and you returned it. I remember that part of your time aboard.",
-    "echo": "我没跟到后面的路。下一次，去找真正看见那一段的人。",
-    "echoEn": "I didn't follow the later route. Next time, find someone who actually witnessed it."
+    "farewell": "没有人见你自行离船。",
+    "farewellEn": "Nobody witnessed you leaving the boat.",
+    "echo": "听来的话不能催你签名。",
+    "echoEn": "Hearsay is no reason to sign."
   },
   "暮潮裂角客领誓·莫尘": {
-    "farewell": "你活着从我这儿走去候船。后面的事，找看见你登船的人。",
-    "farewellEn": "You left my care alive and went to wait for the boat. Ask a boarding witness about what followed.",
-    "echo": "病历写到哪里，我就能证明到哪里。别把伤情猜成结局。",
-    "echoEn": "I can testify only as far as the treatment notes go. An injury does not tell you the ending."
+    "farewell": "担架的位置可以核对。",
+    "farewellEn": "The stretcher position can be checked.",
+    "echo": "先查工作联上的帮工。",
+    "echoEn": "Check the helper entry on the working copy."
   },
   "暮潮星枝鹿领誓·伦尘": {
-    "farewell": "编号和工厂对上了。船长知道那一批怎样上船。",
-    "farewellEn": "The number matches the factory's. The captain knows how that group boarded.",
-    "echo": "这只救生圈只证明救过人，不能替你证明谁没活下来。",
-    "echoEn": "This lifebuoy proves someone was helped. It cannot prove who failed to survive."
+    "farewell": "这只绳圈用过的地方清楚了。",
+    "farewellEn": "The lifting rope’s use is established.",
+    "echo": "传闻不能替代搬运编号。",
+    "echoEn": "A rumor cannot replace the handling number."
   },
   "暮潮灯议长·佩尘": {
-    "farewell": "就是这一航次。你让出座位后，仍然在我这艘船上。",
-    "farewellEn": "This was the sailing. You stayed aboard my boat after giving up your seat.",
-    "echo": "把乘客的名字和占用的座位分开排，别把帮忙的人漏下。",
-    "echoEn": "Arrange passenger names separately from occupied seats, so the helpers are not left out."
+    "farewell": "原件背面也该一起保留。",
+    "farewellEn": "Keep the reverse of the original too.",
+    "echo": "别只拿座位表来问。",
+    "echoEn": "Do not bring only the seat list."
   },
   "暮潮潜印客领誓·泽尘": {
-    "farewell": "更正过的票根带好，上面写着随行协助。",
-    "farewellEn": "Keep the corrected stub. It records you as an accompanying helper.",
-    "echo": "两张票的来去要接上，不能凭一笔划线就把人抹掉。",
-    "echoEn": "Follow what happened to both tickets. A stroke through a seat must not erase a person."
+    "farewell": "漏抄的那一栏，得写回出处。",
+    "farewellEn": "The omitted field must retain its source.",
+    "echo": "先让原件说清楚。",
+    "echoEn": "Let the original establish the facts."
   },
   "暮潮织光蛛领誓·图尘": {
-    "farewell": "担架放好后你还在船上。这句话，我可以写下来。",
-    "farewellEn": "You were still aboard after the stretcher was secured. I'll put that in writing.",
-    "echo": "先看清谁扶担架、谁拉绳，再把他们放进人数里。",
-    "echoEn": "Establish who held the stretcher and who pulled the rope, then include them in the count."
+    "farewell": "让座以后，你仍在船上。",
+    "farewellEn": "After yielding your seat, you stayed aboard.",
+    "echo": "把搬运和登船分开核。",
+    "echoEn": "Check handling and boarding separately."
   },
   "暮潮缄骨客领誓·芮尘": {
     "farewell": "那块护栏只在背面沾着布料。接收时间早于发送时间。",
@@ -1440,16 +1440,16 @@
     "echoEn": "The wounds you examined on others filled your own form exactly. The person who stamped it was off duty."
   },
   "暮潮缄骨客领誓·阿汀": {
-    "farewell": "你检查完漏水就回甲板了。到站没有，要往前查。",
-    "farewellEn": "You went back on deck after checking the leak. Arrival at the station needs checking farther on.",
-    "echo": "空舱里没有答案，就该回到有见证的那条路上。",
-    "echoEn": "If the empty compartment answers nothing, return to the route witnesses can confirm."
+    "farewell": "两张表都留下，误报才有来处。",
+    "farewellEn": "Keep both lists to show where the error began.",
+    "echo": "不要为了安心造一张船票。",
+    "echoEn": "Do not invent a ticket for reassurance."
   },
   "暮潮灯议长·艾汀": {
-    "farewell": "回信来自白室，人的去向看雪站回执。两件事分开查。",
-    "farewellEn": "The signal came from the White Room. Snow Station's receipt concerns the people. Check them separately.",
-    "echo": "灯亮过不等于人到过。先弄清你手里的记录能证明什么。",
-    "echoEn": "A lamp lighting does not prove a person arrived. Establish what your record can actually support."
+    "farewell": "线路记下了，人还要查回执。",
+    "farewellEn": "The line is recorded; people need a receipt.",
+    "echo": "先查人去了哪里。",
+    "echoEn": "First establish where the people went."
   },
   "暮潮折面星客领誓·伊汀": {
     "farewell": "那个问题没有人回答，笔录上仍然有一句答复。盖章的人那天没有值班。纸边缺口与窗口的影子重合。",
@@ -1464,28 +1464,28 @@
     "echoEn": "You checked the door behind him, but not the shadow inside it. Check the wall exposed at low tide."
   },
   "暮潮灯议长·乌汀": {
-    "farewell": "左右舷两笔是同一个人。转送单还得找接岸的人签。",
-    "farewellEn": "Both rail entries describe the same person. The shore receiver must confirm the transfer sheet.",
-    "echo": "先把换位置的动作走一遍，再数有没有人少掉。",
-    "echoEn": "Trace the change of position before deciding whether anyone is missing."
+    "farewell": "两处记号属于同一位帮工。",
+    "farewellEn": "Both marks refer to the same helper.",
+    "echo": "先把两次动作按顺序摆好。",
+    "echoEn": "Put the two actions in order."
   },
   "暮潮折面星客领誓·依汀": {
-    "farewell": "我能确认的就这两件。到雪站以后，请看他们自己的簿子。",
-    "farewellEn": "Those are the two things I can confirm. At Snow Station, ask for their own register.",
-    "echo": "把亲眼见到的留下，猜来的先放在一边。",
-    "echoEn": "Keep what was actually witnessed. Set the guesses aside for now."
+    "farewell": "我只签见过的那一段。",
+    "farewellEn": "I sign only the stretch I witnessed.",
+    "echo": "下一格得找真正接收的人。",
+    "echoEn": "Find the actual receiver for the next entry."
   },
   "暮潮踏铃驹领誓·雅汀": {
-    "farewell": "车号写在转送页下面。到了雪站，照着它找接收回执。",
-    "farewellEn": "The cart number is at the foot of the transfer page. Use it to find the receiving receipt at Snow Station.",
-    "echo": "送出和收到还隔着一段路，别把两张签字当成一张。",
-    "echoEn": "Dispatch and reception are separated by a journey. Their signatures are not interchangeable."
+    "farewell": "接车批号指向雪站。",
+    "farewellEn": "The cart batch leads to Snow Station.",
+    "echo": "带着同一批号继续查。",
+    "echoEn": "Continue with the same batch number."
   },
   "暮潮星枝鹿领誓·诺汀": {
-    "farewell": "工厂到码头的编号接上了。再去找雪站那一头。",
-    "farewellEn": "The factory and dock references connect. Now find the receiving end at Snow Station.",
-    "echo": "两端记录接得上，才知道追的是同一批人。",
-    "echoEn": "Match the records at both ends to establish that you're tracing the same group."
+    "farewell": "工厂、船、接车联接上了。",
+    "farewellEn": "Factory, boat and cart records connect.",
+    "echo": "缺哪一段，就查哪一段。",
+    "echoEn": "Investigate the actual remaining gap."
   },
   "暮潮折面星客领誓·瑟汀": {
     "farewell": "证词到这里就停了，录音带还剩很长。封条是从里面贴上的。照片上那扇门今天才装好。",
@@ -1494,16 +1494,16 @@
     "echoEn": "You waited for a report. The person outside was waiting for your shift. It was received before it was sent. Indoor dust still clings to the key."
   },
   "暮潮灯议长·维汀": {
-    "farewell": "在我店里等过车的，就是船上下来那一组。编号留着，拿去对。",
-    "farewellEn": "The group waiting at my tavern came off that boat. Keep the reference and check it.",
-    "echo": "一顿热汤能让人歇脚，可不能代替终点的签收。",
-    "echoEn": "Hot soup gives people a rest. It cannot stand in for the destination's receipt."
+    "farewell": "这张假回执不能收。",
+    "farewellEn": "This false receipt cannot be accepted.",
+    "echo": "别用钱补一个没有的签名。",
+    "echoEn": "Do not buy a signature that never existed."
   },
   "暮潮灯议长·希汀": {
-    "farewell": "这一包是船上与岸边的记录。雪站那张回执，得你亲自找回来。",
-    "farewellEn": "This bundle covers the boat and the landing. You must still recover Snow Station's arrival receipt.",
-    "echo": "还差终点一张纸，不能把没查到写成没到过。",
-    "echoEn": "One destination record is still missing. Not finding it is not proof that nobody arrived."
+    "farewell": "把船册带去雪站核接收。",
+    "farewellEn": "Take the boat record to station reception.",
+    "echo": "先收好副本，别再怀疑落水。",
+    "echoEn": "Keep the copy; do not return to guessing about drowning."
   },
   "暮潮灯议长·洛汀": {
     "farewell": "我留在原地的那只鞋，已经有人领走。封条是从里面贴上的。录音机里的水位还在上升。",
@@ -1710,88 +1710,88 @@
     "echoEn": "The wound runs opposite to the direction of your hand. I remember the lights being off."
   },
   "霜枝铠卫领誓·泽芙": {
-    "farewell": "撤离的人走货运门，不走售票口。这张临时通行记录该和船册放在一起。",
-    "farewellEn": "The evacuees used the freight entrance, not the ticket window. Keep this emergency access record with the boat register.",
-    "echo": "别在结冰的轨道上找答案。先把入口找对，再查里面的名单。",
-    "echoEn": "Do not hunt for answers on icy tracks. Find the right entrance, then check the list inside."
+    "farewell": "接收窗口就在站房里。",
+    "farewellEn": "Reception is inside the station.",
+    "echo": "先核转送批号。",
+    "echoEn": "Check the transfer batch first."
   },
   "霜枝潜印客领誓·图芙": {
-    "farewell": "整张照片给你。脸、蓝线和诊室门牌都在，别再只留一个裁下的头像。",
-    "farewellEn": "Take the whole photograph. Your face, the blue stitching and the treatment-room sign are all there; keep more than a cropped portrait.",
-    "echo": "底片没有跑掉。歇好再来，我们从画面里实际拍到的东西接着核。",
-    "echoEn": "The negative is still here. Rest and come back; we can continue with what the frame actually shows."
+    "farewell": "撤离登记不用补买车票。",
+    "farewellEn": "Evacuation reception requires no extra ticket.",
+    "echo": "别让售票本替接收人回答。",
+    "echoEn": "A ticket book cannot answer for reception."
   },
   "霜枝铠卫领誓·芮芙": {
-    "farewell": "港口报出、站口接到、诊室安置，三个接班人都签过。按批次排，顺序就清楚了。",
-    "farewellEn": "Harbor departure, station reception, then treatment: three attendants signed. Follow the group reference and the order becomes clear.",
-    "echo": "钟停了，不是所有人都停在同一刻。下次用交接顺序，别只盯着钟面。",
-    "echoEn": "The stopped clock does not make every event simultaneous. Use the handover sequence next time, not the clock face alone."
+    "farewell": "原带的来源先保留下来。",
+    "farewellEn": "Preserve the original tape’s source.",
+    "echo": "先照能核实的那句做。",
+    "echoEn": "Start with the instruction you can verify."
   },
   "霜枝攀钟猿领誓·阿诺": {
-    "farewell": "你给我裹过毯子，等大家坐稳了才走。这一段，我记得。",
-    "farewellEn": "You wrapped me in a blanket and stayed until everyone was settled. I remember that part.",
-    "echo": "先裹好毯子。认路之前，总得让手暖起来。",
-    "echoEn": "Wrap yourself in the blanket first. Warm your hands before trying the route again."
+    "farewell": "毛毯和接收批号对得上。",
+    "farewellEn": "The blanket tag matches the reception batch.",
+    "echo": "去找诊室留下的签收。",
+    "echoEn": "Find the clinic’s receiving entry."
   },
   "霜枝攀钟猿领誓·艾诺": {
-    "farewell": "一副担架上记了伤者，旁边还有护送的人。漏的是一行字，不是一个人凭空消失。",
-    "farewellEn": "The sheet listed the injured passenger and the escort beside the stretcher. A line was omitted; a person did not vanish.",
-    "echo": "先把两枚纽扣摆回来。别着急下结论，从刚才漏数的地方重来。",
-    "echoEn": "Put both buttons back first. Do not rush the conclusion; start again where the count went wrong."
+    "farewell": "交与接，各有自己的签名。",
+    "farewellEn": "Handover and receipt have separate signatures.",
+    "echo": "别把一副担架数成两个人。",
+    "echoEn": "Do not count one stretcher as two people."
   },
   "霜枝攀钟猿领誓·伊诺": {
-    "farewell": "领毯、领药、领饭，是同一批人的不同记录。护送者那碗，也有单独的记号。",
-    "farewellEn": "Blankets, medicine and meals are different records for the same group. The escort’s bowl has its own mark too.",
-    "echo": "饭还在锅里。先吃一点，别饿着把同一个人算成三个。",
-    "echoEn": "There is still food in the pot. Eat first, so you do not count one person three times."
+    "farewell": "到岸这一段已经核实。",
+    "farewellEn": "The landing is established.",
+    "echo": "确定的事留下，没见的别补。",
+    "echoEn": "Keep confirmed facts; do not fill in what you never saw."
   },
   "霜枝灯议长·欧诺": {
-    "farewell": "接收页证明你到过，转送页说明你往白室走。把背页一并带走，别再缺半份。",
-    "farewellEn": "Reception proves you arrived; transfer records your journey toward the White Room. Take the continuation too, not half a form.",
-    "echo": "先别拿“去向不明”盖过所有记录。回来看原件，我们还能逐项核。",
-    "echoEn": "Do not let “whereabouts unknown” override every other record. Come back to the originals and we can check each entry."
+    "farewell": "你确实到了雪站。",
+    "farewellEn": "You did reach Snow Station.",
+    "echo": "到站和往后走，分开记。",
+    "echoEn": "Separate arrival from onward travel."
   },
   "霜枝灯议长·乌诺": {
-    "farewell": "衣服领回去了，签字也在。你穿着它离站，不是留下它就不见了。",
-    "farewellEn": "The coat was collected, and the signature is here. You wore it when you left; you did not leave it behind and disappear.",
-    "echo": "外套先穿好。空衣架不是坏消息，得查有没有领回的人。",
-    "echoEn": "Put your coat on first. An empty hanger is not bad news; check who collected the clothes."
+    "farewell": "领走的是同一件外套。",
+    "farewellEn": "The same coat was collected again.",
+    "echo": "从签领之后的去向查起。",
+    "echoEn": "Follow the departure after collection."
   },
   "霜枝潜印客领誓·依诺": {
-    "farewell": "我先写自己看见的，再和你的材料核对。现在这份证词，不是照着失踪报告抄的。",
-    "farewellEn": "I wrote what I saw before comparing your documents. This account was not copied from the missing-person report.",
-    "echo": "你不用替我把答案说出来。下次也从各自记得的事开始。",
-    "echoEn": "You do not need to supply my answers. Next time, start with what each of us remembers independently."
+    "farewell": "别人的空白表不能改你的路。",
+    "farewellEn": "Someone else’s blank form cannot rewrite your route.",
+    "echo": "保留姓名，查真正的接收。",
+    "echoEn": "Keep your name and find the actual reception."
   },
   "霜枝潜印客领誓·雅诺": {
-    "farewell": "原带和接收页都给你。话来自白室，但为什么来得这么早，得去那里核。",
-    "farewellEn": "Take the original tape and reception sheet. The message came from the White Room; ask there why it arrived so early.",
-    "echo": "先别按一句录音替自己下结论。把来处、接收页和说话内容分开核。",
-    "echoEn": "Do not judge your whole case by one recording. Check its source, reception record and words separately."
+    "farewell": "提醒的地址和回执一起带走。",
+    "farewellEn": "Take the warning’s address with the receipt.",
+    "echo": "把录音听完再猜来意。",
+    "echoEn": "Hear the whole tape before guessing at its purpose."
   },
   "霜枝灯议长·诺诺": {
-    "farewell": "回执上的人都接到了，步道也有见证。接下来去白室查申请人，别再绕回候车厅。",
-    "farewellEn": "Everyone on the receipt was received, and the path has witnesses. Next, ask the White Room who filed the appeal; do not circle back to the waiting room.",
-    "echo": "路已经标清，回执也替你收着。歇一歇，再从这扇门走。",
-    "echoEn": "The route is marked, and I will keep the receipt safe. Rest, then take this door."
+    "farewell": "带齐回执，到白室问接待。",
+    "farewellEn": "Take the receipt to White Room reception.",
+    "echo": "下一扇门已经有地址。",
+    "echoEn": "The next doorway now has an address."
   },
   "霜枝裂角客领誓·瑟诺": {
-    "farewell": "你把编号座位让给担架，自己在船员旁帮忙。我愿意把这件事写进证词。",
-    "farewellEn": "You gave your numbered seat to a stretcher and helped beside the crew. I will put that in my statement.",
-    "echo": "别把失踪报告当成认罪书。等缓过来，再把实际做过的事一件件摆清。",
-    "echoEn": "Do not treat the missing-person report as a confession. Recover first, then lay out what actually happened."
+    "farewell": "这封准信可以交给船长。",
+    "farewellEn": "This accurate message can go to the captain.",
+    "echo": "不要把待核的事写成结案。",
+    "echoEn": "Do not declare an unverified stretch closed."
   },
   "霜枝晶棘蜥龙领誓·维诺": {
-    "farewell": "去白室走检修步道。那夜不开这班车，所以不会有你的车票。",
-    "farewellEn": "Use the service path to the White Room. That train did not run that night, so there cannot be a ticket for you.",
-    "echo": "别跨进轨道。你要找的是站房后的步道，不是一辆迟到的车。",
-    "echoEn": "Stay off the tracks. You need the path behind the station, not a late train."
+    "farewell": "去白室走步道，不等列车。",
+    "farewellEn": "Take the footpath, not a train, to the White Room.",
+    "echo": "先问清他要你等什么。",
+    "echoEn": "Ask what you are actually being told to wait for."
   },
   "霜枝灯议长·希诺": {
-    "farewell": "我签的是亲眼检查过的事：你活着到了雪站，也能自己离开诊室。",
-    "farewellEn": "I sign for what I examined myself: you reached Snow Station alive and could leave the treatment room on your own.",
-    "echo": "先把呼吸稳下来。你不必靠撑到倒下，证明自己曾经帮过人。",
-    "echoEn": "Steady your breathing first. You do not have to collapse to prove you helped somebody."
+    "farewell": "诊疗页证明你活着到过这里。",
+    "farewellEn": "The medical note confirms you arrived alive.",
+    "echo": "先把已经接到的人记清。",
+    "echoEn": "Record those actually received."
   },
   "霜枝巡灯使·欧烙": {
     "farewell": "我没带走那封信，因为封面上没有我的名字。我没有递交第二份。录音机里的水位还在上升。",
@@ -1890,58 +1890,58 @@
     "echoEn": "You thought you had found a witness. Your own name appeared on the statement first. The copy bears the same mark. The water level inside the recorder is rising."
   },
   "星铸裂角客领誓·佩烙": {
-    "farewell": "我看见你自己走进来。这一句，我愿意署名负责。",
-    "farewellEn": "I saw you walk in on your own. I will put my name to that.",
-    "echo": "先听完证人，再下结论。排在最后的人，也可能看清了最后一步。",
-    "echoEn": "Hear the witness out before deciding. The person last in line may have seen the last step clearly."
+    "farewell": "白室自己的到达记录找到了。",
+    "farewellEn": "The White Room’s own arrival entry is found.",
+    "echo": "从进门以后继续查。",
+    "echoEn": "Continue from what happened after entry."
   },
   "星铸灯议长·泽烙": {
-    "farewell": "副本我会标清来源。三个地方留下的记录，不能混成一张传闻。",
-    "farewellEn": "I will mark where each copy came from. Records kept in three places must not become one repeated rumor.",
-    "echo": "别让纸多就盖过事实。下一次，先分清原件与转抄。",
-    "echoEn": "More paper does not outweigh the facts. Next time, separate originals from transcriptions."
+    "farewell": "副本不能冒充另一个见证。",
+    "farewellEn": "A copy cannot impersonate another witness.",
+    "echo": "先问原件从哪里来。",
+    "echoEn": "Ask where the original came from."
   },
   "星铸灯议长·图烙": {
-    "farewell": "三处的人各有各的记忆，正好能互相核对。不要再替他们预先作答。",
-    "farewellEn": "The three accounts remember different things; that is why they can corroborate one another. Do not supply their answers.",
-    "echo": "不知道的可以先留空。猜得再顺，也不能当成目击。",
-    "echoEn": "You can leave what you do not know blank. A smooth guess is not an eyewitness account."
+    "farewell": "不同动作，说的是同一个你。",
+    "farewellEn": "Different actions describe the same you.",
+    "echo": "把各人见到的那一段分开。",
+    "echoEn": "Separate the parts each person witnessed."
   },
   "星铸铠卫领誓·芮烙": {
-    "farewell": "把后来的到达补上，别让临时的“未归”替一个活人写结局。",
-    "farewellEn": "Add the later arrival. Do not let a provisional UNACCOUNTED FOR entry decide a living person's ending.",
-    "echo": "牌局没有核完，不等于那块名单已经说对了一切。",
-    "echoEn": "An unfinished game does not make everything on that list true."
+    "farewell": "旧表该附上新到的回执。",
+    "farewellEn": "The old sheet needs the newly received evidence.",
+    "echo": "未更新的字不是永远的判词。",
+    "echoEn": "An unchanged entry is not a permanent verdict."
   },
   "星铸环藤蛇领誓·阿玟": {
-    "farewell": "阿斯彭把寄件簿翻到借笔登记，尾尖压住通往配餐窗的指示。",
-    "farewellEn": "Aspen opens the dispatch book at the pen-loan entry and holds down the direction to the meal window with its tail.",
-    "echo": "阿斯彭停在柜门外，等你重新查看“只送记录”的说明。",
-    "echoEn": "Aspen waits outside the cabinet for you to read the instruction that it carries records only."
+    "farewell": "记录能回送，人仍得走路。",
+    "farewellEn": "Records can return; people must walk.",
+    "echo": "先对编号，别靠停钟猜。",
+    "echoEn": "Match the numbers instead of guessing from a stopped clock."
   },
   "星铸裂角客领誓·艾玟": {
-    "farewell": "明天是求救时填的日期，不是预告死亡。现在你可以查寄完信之后走了哪条路。",
-    "farewellEn": "Tomorrow was a date chosen in an appeal, not a prediction of death. Now check which route you took after sending it.",
-    "echo": "饿了就吃点，怕了就先停一下。不要又把恐惧当成表格上的事实。",
-    "echoEn": "Eat if you are hungry; pause if you are frightened. Do not enter fear on the form as if it were a fact."
+    "farewell": "明天不是死亡预告。",
+    "farewellEn": "Tomorrow was not a prediction of death.",
+    "echo": "把日期旁的解释读完。",
+    "echoEn": "Read the explanation beside the date."
   },
   "星铸裂角客领誓·伊玟": {
-    "farewell": "线结说明了习惯，寄件簿才会告诉你这封信从哪儿来。",
-    "farewellEn": "The knot shows a habit. The dispatch book can establish where the letter came from.",
-    "echo": "别凭一处相似就定案。信和外套都在，重来还能继续比。",
-    "echoEn": "Do not settle the case on one resemblance. The letter and coat are still here to compare."
+    "farewell": "现在可以核寄件人的原话。",
+    "farewellEn": "Now check the sender’s own words.",
+    "echo": "别只认一笔字，就跳过经过。",
+    "echoEn": "Do not skip the events after recognizing a signature."
   },
   "星铸峰脊巨灵领誓·欧玟": {
-    "farewell": "人是从回镇通道走的，不是被柜子吞掉的。外门在另一边。",
-    "farewellEn": "The person took the town passage. The cabinet did not swallow them. The outer door is on the other side.",
-    "echo": "近路未必是出口。重来时，先看清那扇门通向哪儿。",
-    "echoEn": "The shorter route is not necessarily the exit. Next time, check where that door leads."
+    "farewell": "回镇和出镇，是两条路。",
+    "farewellEn": "Back to town and out of town are different routes.",
+    "echo": "别只听他说哪条近。",
+    "echoEn": "Ask where the shorter route actually goes."
   },
   "星铸巡影狼领誓·乌玟": {
-    "farewell": "韦德将录音盒留在信封旁。那是旧时的求助，已不必再猜成一个冒名的人。",
-    "farewellEn": "Wade leaves the recording beside the envelope. It is the earlier appeal; there is no need to invent an impostor behind it.",
-    "echo": "韦德守着原带，等你再来把没听完的部分听清。",
-    "echoEn": "Wade guards the original recording, waiting for you to return and hear the part you missed."
+    "farewell": "求救的声音也有了主人。",
+    "farewellEn": "The appeal’s voice has an identified speaker.",
+    "echo": "说出这次带回了哪些证明。",
+    "echoEn": "Name the evidence brought back this time."
   },
   "星铸灯议长·依玟": {
     "farewell": "你看到的那一下没进记录。请把这句话也记进去。纸边缺口与窗口的影子重合。",
@@ -1950,28 +1950,28 @@
     "echoEn": "You thought only one person stood in front. Check the missing-person form still blank."
   },
   "星铸灯议长·雅玟": {
-    "farewell": "旧申请留下，新事实补上。你不必再向过去寄一份同样的失踪请求。",
-    "farewellEn": "Keep the old application and add what is now known. You need not send the same missing-person appeal into the past again.",
-    "echo": "要做哪一种登记，先看证据，不要只看自己有多害怕。",
-    "echoEn": "Choose the entry by the evidence, not by how frightened you feel."
+    "farewell": "补记寻获，不重写失踪。",
+    "farewellEn": "Record the confirmed finding, not another disappearance.",
+    "echo": "旧申请和新回执一起留。",
+    "echoEn": "Keep the old appeal with the new receipt."
   },
   "星铸灯议长·诺玟": {
-    "farewell": "到达的证据已经齐了。把这份案卷带到外门，最后一次确认去向。",
-    "farewellEn": "The evidence of arrival is complete. Take this file to the outer door and confirm where it leads.",
-    "echo": "别急着重新开一张空表。旧记录没有因为这一局失手就作废。",
-    "echoEn": "Do not rush to open another blank form. This setback has not invalidated the records you gathered."
+    "farewell": "错过的经过也要留出处。",
+    "farewellEn": "Keep the source of the corrected account too.",
+    "echo": "更正过的那页也要保留。",
+    "echoEn": "Keep the corrected page too."
   },
   "星铸折面星客领誓·瑟玟": {
-    "farewell": "外门通向镇外，回镇的路在另一侧。把最后的经过写清，再选择自己要走的路。",
-    "farewellEn": "The outer door leads beyond town; the return passage is on the other side. Complete the account, then choose your route.",
-    "echo": "出口没有换位置。下一次，带着查明的经过走到这里。",
-    "echoEn": "The exit has not moved. Next time, come here with what the investigation has established."
+    "farewell": "去做你已经查明该做的事。",
+    "farewellEn": "Act on what you have established.",
+    "echo": "外门在地图上，先稳住自己。",
+    "echoEn": "The outer door is on the map. Take a moment first."
   },
   "星铸铠卫领誓·维玟": {
-    "farewell": "我只签我见过的部分。其他人的签字，也都能找到各自的根据。",
-    "farewellEn": "I sign only for what I saw. The other statements have their own sources too.",
-    "echo": "你不必再用伤口证明自己。先把亲眼见过的人和记录找齐。",
-    "echoEn": "You do not need another wound to prove yourself. Gather the witnesses and their records first."
+    "farewell": "有用的警告不等于新的求救。",
+    "farewellEn": "A useful warning is not another appeal.",
+    "echo": "两份录音分开核用途。",
+    "echoEn": "Check the two recordings’ purposes separately."
   },
   "星铸修灯师·希玟": {
     "farewell": "医生不承认写过第二份出院单。日期没有更正过。",
@@ -1980,16 +1980,16 @@
     "echoEn": "You forgot to assign a number to the closed wound. The date was never corrected."
   },
   "星铸铠卫领誓·洛玟": {
-    "farewell": "三份记录先收好。下一步，找真正见过你进白室的人。",
-    "farewellEn": "Keep the three records together. Next, find someone who actually saw you enter the White Room.",
-    "echo": "别急着替空白补故事。重来时，先核那三份原件。",
-    "echoEn": "Do not fill the blanks with guesses. On your next attempt, check the three originals first."
+    "farewell": "先把已经确认的路摆出来。",
+    "farewellEn": "Begin with the route already established.",
+    "echo": "不必由你独自证明所有事。",
+    "echoEn": "You need not prove everything alone."
   },
   "星铸铠卫领誓·米玟": {
-    "farewell": "这些细节能接上同一个人。证件缺了一项，不必再猜出另一个你。",
-    "farewellEn": "These details point to the same person. A missing field on a card does not require a second version of you.",
-    "echo": "脸认不清，就查来路和在场的人；别把猜疑当作新的证明。",
-    "echoEn": "If the face is uncertain, check the route and the people present. Suspicion is not another piece of proof."
+    "farewell": "附件不能装作没有收到。",
+    "farewellEn": "The attachments cannot be treated as absent.",
+    "echo": "带着编号去登记窗口。",
+    "echoEn": "Take the document numbers to registration."
   },
   "星铸裂角客领誓·岚玟": {
     "farewell": "伤口合上时，另一份病历才开始记录。那不是冲洗时的划痕。",
@@ -2202,10 +2202,10 @@
     "echoEn": "You waited for a report. The person outside was waiting for your shift. Check the statement preceding the interview."
   },
   "星铸巡影狼领誓·阿霖": {
-    "farewell": "罗南用爪子点住巡查簿：你从雪站来过，接下去要查的是离开的方向。",
-    "farewellEn": "Ronan rests a paw on the patrol entry: you came from the station; next comes the direction you took out.",
-    "echo": "罗南把走廊图推回你面前，停在可以查证的那段来路上。",
-    "echoEn": "Ronan pushes the corridor plan back to you, holding it open at the part of the route that can be checked."
+    "farewell": "步道两端的记录接上了。",
+    "farewellEn": "The records at both ends of the path connect.",
+    "echo": "一段空白不等于一次失踪。",
+    "echoEn": "A gap is not itself another disappearance."
   },
   "星铸巡影狼领誓·艾霖": {
     "farewell": "椅子换过位置，地上的旧印却还围着我。盖章的人那天没有值班。印章旁边有你的鞋码。",
@@ -2916,10 +2916,10 @@
     "echoEn": "You thought the charts unrelated. Both use the same bed number. Do not cover the writing on the back."
   },
   "铜钟铠卫领誓·瑟翎": {
-    "farewell": "编号对上了。你要查的是原件，不是别人剪好的结论。",
-    "farewellEn": "The references match. You are examining the original, not a conclusion somebody cut together.",
-    "echo": "别拿到一张就急着打。先认清它能做什么。",
-    "echoEn": "Do not play a card merely because you drew it. Check what it can do."
+    "farewell": "柜子在那里，只找编号相同的那盒。",
+    "farewellEn": "The cabinet is there. Find the matching number.",
+    "echo": "问题别被带偏，仍然查那一通。",
+    "echoEn": "Keep the question on that call."
   },
   "苔庭缄骨客·维翎": {
     "farewell": "我没带走那封信，因为封面上没有我的名字。复印件上也有同样的印子。照片上那扇门今天才装好。",
@@ -2928,15 +2928,15 @@
     "echoEn": "You waited for a report. The person outside was waiting for your shift. Nobody will sign this page. The headphones contain a knock that never landed."
   },
   "霜枝铜缄裂角客": {
-    "farewell": "接船批号对得上。去货运室查接收本，你帮忙卸担架的事也记在那里。",
-    "farewellEn": "The boat-group references match. Check the freight reception book; it also records you helping to unload the stretcher.",
-    "echo": "先回暖气边坐一会儿。查不到车票，不等于查不到你来过的记录。",
-    "echoEn": "Sit by the radiator first. No ticket does not mean there is no record of your arrival."
+    "farewell": "暖过手，再把路看清。",
+    "farewellEn": "Warm your hands, then read the route.",
+    "echo": "你已经查过的事没有白费。",
+    "echoEn": "The facts already checked still count."
   },
   "霜枝苔痕赤角兽": {
-    "farewell": "护送人跟着行李车走到了站房。“没坐车”那一行，后面还有这一句。",
-    "farewellEn": "The escort walked beside the baggage cart to the station building. That is the continuation after “did not ride.”",
-    "echo": "停下来，把前后两行一起看。少读半句话，才会把活人漏掉。",
-    "echoEn": "Stop and read both lines together. Leaving out half a sentence is how a living person gets omitted."
+    "farewell": "那是空担架的回程备注。",
+    "farewellEn": "The note concerns the empty stretcher’s return.",
+    "echo": "把车的用途写清。",
+    "echoEn": "Clarify which cart the note means."
   }
 }

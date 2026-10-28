@@ -1,7 +1,14 @@
 // Public names are independent of the stable card identifiers used by saves.
 const CARD_DISPLAY_NAMES=__DATA_CARD_NAMES__;
+const TOKEN_DISPLAY_NAMES={
+ '鎏金灯蛛':{zh:'灯蛛',en:'Wick Spider'},
+ '鎏金余芯':{zh:'余芯',en:'Wick'}
+};
 const CARD_STORIES=__DATA_CARD_STORIES__;
 const LOOP_STORY=__DATA_LOOP_STORY__;
+const STORY_CAST=__DATA_STORY_CAST__;
+const STORY_CORE_IDS=new Set(STORY_CAST.core);
+function storyChapterLeads(world=difficulty){return STORY_CAST.chapters[world]||[]}
 const COMPANION_DIALOGUE=__DATA_COMPANION_DIALOGUE__;
 const BOSS_ENTRANCES=__DATA_BOSS_ENTRANCES__;
 const BOSS_IDENTITIES=__DATA_BOSS_IDENTITIES__;
@@ -12,9 +19,10 @@ const STORY_STORAGE='lo_story_v1';
 const STORY={version:1,friends:{},seen:{},pendingFriend:null};
 const storyIdentityLabels=new Map();
 try{const saved=JSON.parse(localStorage.getItem(STORY_STORAGE)||'null');if(saved?.version===1){if(saved.friends&&typeof saved.friends==='object'&&!Array.isArray(saved.friends))STORY.friends=saved.friends;if(saved.seen&&typeof saved.seen==='object'&&!Array.isArray(saved.seen))STORY.seen=saved.seen;if(saved.pendingFriend?.boss)STORY.pendingFriend=saved.pendingFriend}}catch{}
+if(STORY.pendingFriend&&!STORY_CORE_IDS.has(STORY.pendingFriend.boss))STORY.pendingFriend=null;
 function saveStory(){try{localStorage.setItem(STORY_STORAGE,JSON.stringify(STORY));return true}catch{return false}}
 function shortCardName(card,language=gameLanguage){
- const id=typeof card==='string'?card:card?.n,entry=CARD_DISPLAY_NAMES[id];if(entry)return entry[language==='en'?'en':'zh'];
+ const id=typeof card==='string'?card:card?.n,entry=CARD_DISPLAY_NAMES[id]||TOKEN_DISPLAY_NAMES[id];if(entry)return entry[language==='en'?'en':'zh'];
  const identity=typeof id==='string'?id.match(/^(.+)·死亡遗骸·第(\d+)轮$/):null;
  if(identity){const labels={zh:`${identity[1].slice(0,2)}·遗影${identity[2]}`,en:`${identity[1].slice(0,10)}'s Echo ${identity[2]}`};storyIdentityLabels.set(id,labels);return labels[language==='en'?'en':'zh']}
  return id||'';
@@ -46,8 +54,8 @@ function beginNextStoryLoop(){
  Object.assign(journey,next);return true;
 }
 function storyBossIdentity(card){
- const id=card?.baseName||card?.n,base=POOL.find(c=>c.n===id);
- return base&&(base.kind==='boss'||STORY_BOSSES.has(id))?id:null;
+ const id=typeof card==='string'?card:card?.baseName||card?.n;
+ return STORY_CORE_IDS.has(id)?id:null;
 }
 function recordStoryCompanion(card){
  if(!card||G?.tutorial||G?.replay)return false;const boss=storyBossIdentity(card);if(!boss)return false;
@@ -55,7 +63,7 @@ function recordStoryCompanion(card){
  STORY.pendingFriend={boss,repeat,gold:card.rarity==='rare'};saveStory();return true;
 }
 function storyCompanionText(){
- const pending=STORY.pendingFriend;if(!pending)return '';
+ const pending=STORY.pendingFriend;if(!pending||!STORY_CORE_IDS.has(pending.boss))return '';
  const own=COMPANION_DIALOGUE[pending.boss],line=own?.[gameLanguage==='en'?'joinEn':'join'];
  if(line&&!pending.repeat)return `${shortCardName(pending.boss)}${gameLanguage==='en'?': ':'：'}${line}`;
  return storyCopy('companions',pending.repeat?'recruitAgain':pending.gold?'recruitGold':'recruit',{boss:shortCardName(pending.boss)});
@@ -63,7 +71,7 @@ function storyCompanionText(){
 let storyToastKey=null,storyToastTimer=null;
 function renderStoryToast(){
  const pending=STORY.pendingFriend,node=document.getElementById('story-companion-toast');
- if(!pending){node?.remove();storyToastKey=null;clearTimeout(storyToastTimer);return}
+ if(!pending||!STORY_CORE_IDS.has(pending.boss)){node?.remove();storyToastKey=null;clearTimeout(storyToastTimer);return}
  if(OV!==null||infoPanel||DM||HOLD_DETAIL||G?.busy){node?.remove();storyToastKey=null;clearTimeout(storyToastTimer);return}
  const key=JSON.stringify(pending);let toast=node;
  if(!toast){toast=document.createElement('aside');toast.id='story-companion-toast';toast.className='story-companion-toast';toast.setAttribute('role','status');document.body.appendChild(toast)}
@@ -76,8 +84,8 @@ function bossEntranceCopy(boss=G?.st?.boss){return BOSS_ENTRANCES[boss]?.[gameLa
 function bossEntranceHTML(){
  const copy=bossEntranceCopy(),pending=!!G?.entrancePending,boss=G?.st?.boss;
  if(!copy)return '';
- const en=gameLanguage==='en';
- return `<div class="drawer-backdrop"><div class="drawer-scrim" aria-hidden="true"></div><section class="info-drawer story-drawer boss-entrance" role="dialog" aria-modal="true" aria-labelledby="entrance-title"><header class="drawer-head"><div><small>${esc(storyWorldName())} · ${en?'Encounter':'第'} ${G.lv}${en?'':'关'}</small><h2 id="entrance-title">${esc(shortCardName(boss))} · ${esc(copy.title)}</h2></div><button class="pri" data-boss-entrance="${pending?'begin':'close'}">${en?(pending?'Play':'Close'):(pending?'开始对局':'返回牌桌')}</button></header><div class="drawer-scroll"><p class="entrance-role">${en?'Arrival record':'来访记录'}</p>${storyParagraphs(copy.text)}<p class="story-note">${en?(pending?'The cards are still untouched. Start when you are ready.':'Reading this scene does not change the match.'):(pending?'牌还没有发下。准备好后，开始对局。':'重读出场不会改变当前对局。')}</p></div><footer class="entrance-actions">${languageToggleHTML()}${pending?`<button data-boss-entrance="skip">${en?'Skip scene':'跳过出场'}</button><button data-boss-entrance="home">${en?'Home':'返回主页'}</button>`:`<button data-boss-entrance="close">${en?'Return to the table':'返回牌桌'}</button>`}</footer></section></div>`;
+ const en=gameLanguage==='en',speaker=storyBossIdentity(BOSS_ENTRANCES[boss]?.speaker)||boss;
+ return `<div class="drawer-backdrop"><div class="drawer-scrim" aria-hidden="true"></div><section class="info-drawer story-drawer boss-entrance" role="dialog" aria-modal="true" aria-labelledby="entrance-title"><header class="drawer-head"><div><small>${esc(storyWorldName())} · ${en?'Encounter':'第'} ${G.lv}${en?'':'关'}</small><h2 id="entrance-title">${esc(shortCardName(speaker))} · ${esc(copy.title)}</h2></div><button class="pri" data-boss-entrance="${pending?'begin':'close'}">${en?(pending?'Play':'Close'):(pending?'开始对局':'返回牌桌')}</button></header><div class="drawer-scroll"><p class="entrance-role">${en?'Case progress':'调查进展'}</p>${storyParagraphs(copy.text)}<p class="story-note">${en?(pending?'The cards are still untouched. Start when you are ready.':'Reading this scene does not change the match.'):(pending?'牌还没有发下。准备好后，开始对局。':'重读出场不会改变当前对局。')}</p></div><footer class="entrance-actions">${languageToggleHTML()}${pending?`<button data-boss-entrance="skip">${en?'Skip scene':'跳过出场'}</button><button data-boss-entrance="home">${en?'Home':'返回主页'}</button>`:`<button data-boss-entrance="close">${en?'Return to the table':'返回牌桌'}</button>`}</footer></section></div>`;
 }
 async function beginBossEncounter(){
  const game=G;if(!game?.entrancePending||game.busy||drawRunning)return false;
@@ -92,7 +100,7 @@ function storyJournalHTML(){
  const world=G?.st?.games?.[0]||difficulty||activeDifficulty(),chapter=storyChapter(world),opening=LOOP_STORY.opening[gameLanguage==='en'?'en':'zh'];
  const returned=world==='mire'&&(journey.loops||0)>0,title=returned?storyCopy('loop','returnTitle'):chapter.title;
  const text=returned?storyCopy('loop','returnText'):chapter.text;
- const friends=Object.keys(STORY.friends).filter(id=>CARD_DISPLAY_NAMES[id]),heading=gameLanguage==='en'?'Witnesses Travelling With You':'同行证人';
+ const friends=Object.keys(STORY.friends).filter(id=>STORY_CORE_IDS.has(id)&&CARD_DISPLAY_NAMES[id]),heading=gameLanguage==='en'?'Witnesses Travelling With You':'同行证人';
  return `<div class="drawer-backdrop"><button class="drawer-scrim" data-a="closepanel" aria-label="${gameLanguage==='en'?'Close story':'关闭手记'}"></button><section class="info-drawer story-drawer" role="dialog" aria-modal="true" aria-labelledby="story-title"><div class="drawer-head"><div><small>${esc(storyCopy('loop','countLabel',{loop:(journey.loops||0)+1}))} · ${esc(storyWorldName(world))}</small><h2 id="story-title">${esc(title)}</h2></div><button data-a="closepanel">${gameLanguage==='en'?'Continue':'继续前行'}</button></div><div class="drawer-scroll">${world==='mire'&&!(journey.loops||0)?`<h3>${esc(opening.title)}</h3>${storyParagraphs(opening.text)}`:''}${storyParagraphs(text)}${G&&bossEntranceCopy()?`<button data-boss-entrance="read">${gameLanguage==='en'?'Read Boss entrance':'重看Boss出场'}</button>`:''}<h3>${heading}</h3><p>${esc(friends.length?friends.map(id=>shortCardName(id)).join(' · '):storyCopy('companions','rewardText'))}</p><p class="story-note">${esc(storyCopy('companions','selectionHint'))}</p></div></section></div>`;
 }
 function storyClearHTML(){
@@ -107,6 +115,7 @@ for(const [id,label]of Object.entries(CARD_DISPLAY_NAMES)){
  const oldLore=POOL.find(c=>c.n===id)?.lore,story=CARD_STORIES[id];
  if(story){if(oldLore)I18N_STRINGS[oldLore]=story.en;I18N_STRINGS[story.zh]=story.en}
 }
+for(const [id,label]of Object.entries(TOKEN_DISPLAY_NAMES)){storyNameDictionary[id]=label.zh;I18N_STRINGS[id]=label.en;I18N_STRINGS[label.zh]=label.en}
 for(const world of Object.keys(LOOP_STORY.chapters)){
  const label=LOOP_STORY.chapters[world].name;I18N_STRINGS[GAME_META[world][0]]=label.en;I18N_STRINGS[label.zh]=label.en;storyNameDictionary[GAME_META[world][0]]=label.zh;
 }

@@ -18,7 +18,7 @@ const LEGACY_SAVE=JSON.parse(zlib.inflateSync(Buffer.from(captured[1],'base64'))
    for(const[id,entry]of Object.entries(identities)){
     assert.ok(entry.zh.length>=2&&entry.zh.length<=4,entry.zh);assert.ok(entry.en.length<=17&&!/[\u3400-\u9fff]/.test(entry.en),entry.en);assert.ok(entry.roleZh&&entry.roleEn);
     assert.equal(names[id].zh,entry.roleZh+entry.zh);assert.equal(names[id].en,entry.roleEn+' '+entry.en);
-    for(const card of cards.filter(c=>c.baseName===id&&c.rarity==='rare')){assert.equal(names[card.n].zh,'鎏金·'+entry.roleZh+entry.zh);assert.equal(names[card.n].en,'Gilded '+entry.roleEn+' '+entry.en)}
+    for(const card of cards.filter(c=>c.baseName===id&&c.rarity==='rare')){assert.equal(names[card.n].zh,entry.roleZh+entry.zh);assert.equal(names[card.n].en,entry.roleEn+' '+entry.en)}
    }
    assert.equal(names['苔庭铠卫·雅恩'].zh,'守夜人诺亚');
    assert.equal(new Set(abilities.map(a=>a.name)).size,108);assert.equal(new Set(abilities.map(a=>a.nameEn)).size,108);
@@ -41,7 +41,7 @@ const LEGACY_SAVE=JSON.parse(zlib.inflateSync(Buffer.from(captured[1],'base64'))
     for(const language of ['zh-CN','en']){
      setGameLanguage(language);
      for(const [id,entry]of Object.entries(identities))for(const card of POOL.filter(c=>c.n===id||c.baseName===id)){
-     const gold=card.rarity==='rare',expected=language==='en'?(gold?'Gilded ':'')+entry.roleEn+' '+entry.en:(gold?'鎏金·':'')+entry.roleZh+entry.zh;
+     const expected=language==='en'?entry.roleEn+' '+entry.en:entry.roleZh+entry.zh;
      const node=document.createElement('div');node.innerHTML=cardHTML(card);document.body.appendChild(node);localizeRoot(node);
      const label=node.querySelector('.top b')?.textContent,key=node.querySelector('.card')?.dataset.cardName;
      if(label!==expected||displayedCardName(card)!==expected||shortCardName(card,language)!==expected||key!==card.n)failed.push({id:card.n,language,label,expected});node.remove();
@@ -99,26 +99,34 @@ const LEGACY_SAVE=JSON.parse(zlib.inflateSync(Buffer.from(captured[1],'base64'))
    }
    return {layouts:8};
   });
-  await check('Longest role-prefixed names fit beside skill controls and stay readable on Boss cards',async()=>{
+  await check('Longest Boss labels use standard card sizes and remain complete in details',async()=>{
    for(const[width,height]of[[320,568],[390,759],[844,390],[1366,768]])for(const language of ['zh-CN','en']){
     const key=language==='en'?'en':'zh',id=Object.keys(identities).sort((a,b)=>names[b][key].length-names[a][key].length)[0];
     await page.setViewportSize({width,height});
     const result=await page.evaluate(({id,language})=>{
      const saved={stage:G.st,p:G.p,e:G.e,hand:G.hand,sel:G.sel};
      try{
-      const normal=POOL.find(c=>c.n===id),gold=POOL.find(c=>c.baseName===id&&c.rarity==='rare');
-      G.st={...G.st,boss:id,n:id};G.p=[makeCard(normal),makeCard(gold),null,null,null];G.e=Array(5).fill(null);G.hand=[makeCard(normal),makeCard(gold)];G.sel=null;
+      const normal=POOL.find(c=>c.n===id),gold=POOL.find(c=>c.baseName===id&&c.rarity==='rare'),plain=POOL.find(c=>c.kind==='mob'&&c.rarity!=='rare');
+      G.st={...G.st,boss:id,n:id};G.p=[makeCard(plain),makeCard(normal),makeCard(gold),null,null];G.e=Array(5).fill(null);G.hand=[makeCard(plain),makeCard(normal),makeCard(gold)];G.sel=null;
       setGameLanguage(language);render();
       const bar=document.querySelector('.table-topbar').getBoundingClientRect(),name=document.querySelector('.boss-name').getBoundingClientRect(),button=document.querySelector('.boss-ability-trigger').getBoundingClientRect();
-      const titles=[...document.querySelectorAll('.hand .boss-card .top b,.player-board .boss-card .top b')].map(node=>({text:node.textContent,visibleHeight:node.clientHeight,textHeight:node.scrollHeight}));
-      const cards=[...document.querySelectorAll('.hand .boss-card,.player-board .boss-card')].map(node=>({bottom:node.getBoundingClientRect().bottom,statsBottom:node.querySelector('.st').getBoundingClientRect().bottom,artHeight:node.querySelector('.art').getBoundingClientRect().height}));
-      return {barBottom:bar.bottom,nameBottom:name.bottom,buttonBottom:button.bottom,titles,cards};
+      const zones=['.hand','.player-board'].map(selector=>[...document.querySelectorAll(selector+' .card')].map(node=>{const r=node.getBoundingClientRect();return {width:r.width,height:r.height,bottom:r.bottom,statsBottom:node.querySelector('.st').getBoundingClientRect().bottom}}));
+      const details=[normal,gold].map(card=>{
+       const expected=displayedCardName(card);showCardHold({card,location:'hand'});
+       const title=document.querySelector('.card-hold-head h2')?.textContent||'';closeCardHold();return {expected,title};
+      });
+      return {barBottom:bar.bottom,nameBottom:name.bottom,buttonBottom:button.bottom,zones,details};
      }finally{G.st=saved.stage;G.p=saved.p;G.e=saved.e;G.hand=saved.hand;G.sel=saved.sel;render()}
     },{id,language});
     assert.ok(result.nameBottom<=result.barBottom+1&&result.buttonBottom<=result.barBottom+1,`${width}/${language}: Boss name or skill overlaps life row`);
-    assert.equal(result.titles.length,4);
-    for(const title of result.titles)assert.ok(title.textHeight<=title.visibleHeight+1,`${width}/${language}: clipped ${title.text}`);
-    for(const card of result.cards)assert.ok(card.statsBottom<=card.bottom+1&&card.artHeight>=8,`${width}/${language}: card title crowds artwork or stats`);
+    for(const zone of result.zones){
+     assert.equal(zone.length,3);
+     for(const card of zone){
+      assert.ok(Math.abs(card.width-zone[0].width)<.2&&Math.abs(card.height-zone[0].height)<.2,`${width}/${language}: Boss or gold card differs from the normal card size`);
+      assert.ok(card.statsBottom<=card.bottom+1,`${width}/${language}: stats exceed the standard card`);
+     }
+    }
+    for(const detail of result.details)assert.equal(detail.title,detail.expected,`${width}/${language}: details omit the full Boss name`);
    }
    return {layouts:8};
   });

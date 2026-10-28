@@ -1,5 +1,5 @@
 {
-  "护盾": "Shield",
+  "护盾": " Shield ",
   "完整抵消下一次受到的伤害，随后护盾消失；未受到伤害时不消耗。未触发则本轮结束失效。": "Fully blocks the next instance of damage, then disappears. No damage means no consumption. Expires at the end of the round if unused.",
   "护灯·契式": "Lamplight Rite",
   "选择一张己方卡，获得护盾，完整抵消下一次受到的伤害。": "Give a friendly card a Shield, fully blocking the next instance of damage it receives.",
@@ -2609,7 +2609,6 @@
   "暂时": " temporarily ",
   "恢复": " restores ",
   "强化": " strengthens ",
-  "护盾": " Shield ",
   "护持": " ward ",
   "封存": " Sealed ",
   "不可献祭": "Cannot be sacrificed",
@@ -2633,5 +2632,17 @@
   "这里只查看说明，不改变当前选牌或战斗进程。": "Reading this panel does not change your selected card or advance the battle.",
   "目标变为0攻1血、无技能的余芯，覆盖玩家下一个完整行动回合；之后在Boss部署阶段恢复原牌及原有攻血状态，不回满生命，不触发入场效果。余芯死亡或被献祭，原牌本场不再恢复，也不触发原牌亡语；刚恢复的牌免疫一轮化灰。": "The target becomes an ability-free 0/1 Wick for the player’s next full action round. It then returns during Boss deployment with its previous Attack and Health. It is not fully healed and does not repeat entry effects. If the Wick dies or is sacrificed, the original does not return or trigger its death ability. Restored cards are immune to this transformation for one round.",
   "${boss}发动「${skill}」": "${boss} uses “${skill}”.",
-  "输入姓名，留空随机人名": "Your name, or leave blank for a random name"
+  "输入姓名，留空随机人名": "Your name, or leave blank for a random name",
+  "属性优势：对位卡牌攻击伤害+1": "Elemental advantage: +1 damage when attacking the opposing card",
+  "属性劣势：对位卡牌攻击伤害-1": "Elemental disadvantage: -1 damage when attacking the opposing card",
+  "属性相克与对位提示": "Elemental Counters and Lane Indicators",
+  "箭头表示左边的属性克制右边的属性：": "Each arrow means that the element on the left counters the element on the right:",
+  "卡牌攻击正对面的敌卡时，属性克制则伤害+1，被克制则伤害-1，最低为0。物理属性与其他属性均无克制关系。": "When a card attacks its opposing enemy card, elemental advantage adds 1 damage and disadvantage subtracts 1, to a minimum of 0. Physical has no elemental advantages or disadvantages.",
+  "例如：2攻火属性攻击血属性卡时造成3点伤害；2攻血属性攻击火属性卡时造成1点伤害。基础攻击力为0的卡不会因此发动攻击。": "For example, a 2-Attack Fire card deals 3 damage to a Blood card; a 2-Attack Blood card deals 1 damage to a Fire card. A card with 0 base Attack does not begin attacking because of an elemental counter.",
+  "牌桌右上角绿色向上箭头表示属性优势，红色向下箭头表示属性劣势；空位或无克制关系时不显示。提示随对位与临时属性变化更新，只比较当前属性，不计护盾、守护等其他效果。": "On the board, a green up arrow in the top-right corner means elemental advantage; a red down arrow means disadvantage. Empty lanes and neutral matchups have no arrow. Indicators update when opponents or temporary elements change. They compare current elements only, before Shields, Guard and other effects.",
+  "属性加减只用于卡牌之间的对位攻击；空位直击或飞行越过卡牌直击生命时不计算属性相克。": "Elemental damage changes apply only to card-versus-card attacks in a lane. Direct attacks on life, including Flying over a card, do not use elemental counters.",
+  "调查与同行者": "The Investigation and Companions",
+  "六位关键人物贯穿六处现场，每章由三人主导。小关卡奖励是收录的卡牌；每章结束只从本章三位主导人物中选一张。只有关键人物会成为同行者，其他对手不会因获得其卡牌而加入。重开调查保留收藏、牌组、同行者与重战解锁，每章仍有16场对局。": "Six key characters recur across the six sites, with three leading each chapter. Individual encounter rewards add cards to your collection; chapter-end rewards offer only that chapter’s three leads. Only key characters can become companions. Collecting another opponent’s card does not recruit them. Reopening the investigation keeps your collection, decks, companions and unlocked rematches. Each chapter still contains 16 matches.",
+  "每章通关第16关后，只从本章三位主导人物中选择一张。优先提供未拥有的金卡；已拥有或没有金卡版本时提供对应普通卡。": "After clearing encounter 16 of a chapter, choose one of its three lead characters. An unowned gold card is offered first; if it is already owned or no gold version exists, the corresponding normal card is offered.",
+  "共有${n}张鎏金卡，含全部96位轮回Boss与旧版收藏，攻防均高于对应普通版。普通通关奖励有5%概率出现当前Boss的鎏金，可从三张中任选一张。每章通关第16关后，只从本章三位主导人物中选择一张。优先提供未拥有的金卡；已拥有或没有金卡版本时提供对应普通卡。成长卡每次以自身攻击击杀敌方卡牌后攻击加1，直击生命或中毒击杀不触发。亡语在死亡和献祭时触发。鎏金灯蛛优先生成于原格与最近空格，位置不足则进入手牌；召唤物须存活到下一回合才能献祭。亡语召唤物不计入稀有收集卡。": "There are ${n} Gilded cards, including all 96 campaign Bosses and legacy collectibles, with higher Attack and Health than their normal versions. Ordinary victory rewards have a 5% chance to include the current Boss’s gold card among three choices. After clearing encounter 16 of a chapter, choose one of its three leads. Unowned gold versions are offered first; an already-owned or unavailable gold version is replaced by that character’s normal card. Growth adds 1 Attack only when a card kills another card with its own attack; direct damage, sacrifice and Poison do not trigger it. Death abilities trigger on death and sacrifice. Gilded Wick Spiders appear in their original lane or the nearest free lane, entering the hand if the board is full. Newly summoned cards must survive until the next round before sacrifice. Summoned tokens do not count toward the rare collection."
 }
