@@ -14,7 +14,7 @@ He gives you a missing-person file. You are the person reported missing, but the
 
 “Someone reported you missing. We cannot call those the same thing yet.” Noah flattens the file. “Find who sent it, then establish where you went.”
 
-The clock reads 03:17. Since the Ash Works fire, the town has been caught in this night. Roads lead back, memories lose pieces, but paper and recordings survive. Noah does not know how the anomaly began and will not offer guesses as answers.
+The clock reads 03:17. Noah points to the power failure recorded in his duty book: that was when the hands stopped.
 
 Someone taps the window. A young man waves a postal receipt until the broken-horned man beside him catches his wrist.
 
@@ -29,6 +29,8 @@ You pack the photograph and file. You do not need to learn the whole town at onc
 ## 1 · Fogtown
 
 ### Ask Who Actually Saw You
+
+Before you set out, Noah explains the town’s predicament. Since the Ash Works caught fire, the town has been trapped in this one night. Some roads bring you back where you started, and memories lose pieces. He does not know how it began; he only knows that paper and recordings are more reliable than memory.
 
 Noah goes with you to check the post office receiving copy. Finn is already at the counter. He says the clerk has buried your file beneath a pile of fees. Ask only whose letter it is, and the clerk can keep you waiting all night.
 

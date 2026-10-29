@@ -1264,3 +1264,69 @@ html[lang="en"] .game-shell .hand .card.boss-card.rare-card .top b{-webkit-line-
 .game-shell .board .card.rare-card>.rarity-mark{
  top:auto;bottom:2px;left:calc(50% - .6em);right:auto;
 }
+
+/* A lifted card leaves its place in the hand and never intercepts a drop. */
+.game-shell .hand>.card.card-is-lifted{
+ opacity:.24;transform:none;outline:1px dashed var(--candle);outline-offset:-2px;
+}
+body.card-lift-active,body.card-lift-active .game-shell .hand>.card,
+body.card-lift-active .game-shell .player-board>*{cursor:grabbing}
+body.card-lift-active .game-shell .player-board{touch-action:none}
+#lifted-card-layer.lifted-card-layer{
+ position:fixed;z-index:1900;display:block;margin:0;padding:0;
+ width:min(var(--lift-card-width,96px),calc(100vw - 16px));
+ height:min(var(--lift-card-height,134px),calc(100dvh - 16px));
+ pointer-events:none;user-select:none;-webkit-user-select:none;
+ overflow:visible;contain:layout style;isolation:isolate;
+}
+#lifted-card-layer.lifted-card-layer *{pointer-events:none}
+#lifted-card-layer.lifted-card-layer>.card{
+ --cw:var(--lift-card-width,96px);--ch:var(--lift-card-height,134px);
+ width:100%;height:100%;min-width:0;max-width:100%;min-height:0;max-height:100%;
+ box-sizing:border-box;margin:0;flex:none;padding:4px;font-size:13px;
+ transform:none;filter:brightness(1.07);outline:1px solid #ead7a888;
+ box-shadow:0 15px 24px #0009,0 4px 8px #0008,inset 0 0 0 1px #f8e7bb55;
+ transition:box-shadow .12s ease,outline-color .12s ease;
+}
+#lifted-card-layer>.card .top{min-width:0;align-items:flex-start;gap:3px}
+#lifted-card-layer>.card .top b{
+ min-width:0;display:-webkit-box;-webkit-box-orient:vertical;-webkit-line-clamp:2;
+ overflow:hidden;overflow-wrap:anywhere;font-size:.85em;line-height:1.15;
+}
+#lifted-card-layer>.card .top i{flex:none;font-size:.72em;line-height:1.1}
+#lifted-card-layer>.card .art{min-height:0;margin:2px 0}
+#lifted-card-layer>.card .art svg{max-width:100%;max-height:100%}
+#lifted-card-layer>.card .sg{min-height:0;max-height:2.3em;overflow:hidden;font-size:.65em;line-height:1.1;gap:1px}
+#lifted-card-layer>.card .sk{font-size:1em;padding:0 1px;white-space:nowrap}
+#lifted-card-layer>.card .st{flex:none;font-size:1.25em;line-height:1.1}
+#lifted-card-layer>.card>.element-matchup{
+ position:absolute;top:2px;right:2px;z-index:8;display:grid;place-items:center;
+ width:17px;height:20px;border:1px solid currentColor;border-radius:3px;
+ font:900 17px/1 Arial,sans-serif;text-shadow:0 1px 1px #000;box-shadow:0 1px 4px #0008;
+}
+#lifted-card-layer>.card>.element-matchup.is-advantage{color:#8ee27d;background:#18361d}
+#lifted-card-layer>.card>.element-matchup.is-disadvantage{color:#ff8880;background:#4d1e1b}
+#lifted-card-layer>.card.has-element-matchup .top{padding-right:19px}
+#lifted-card-layer>.card.rare-card>.rarity-mark{top:auto;bottom:2px;left:calc(50% - .6em);right:auto}
+#lifted-card-layer.has-drop-target:not(.is-blocked)>.card{
+ outline-color:#b8df9b;box-shadow:0 15px 24px #0009,0 0 0 2px #95c87888,0 0 15px #a5c87d33;
+}
+#lifted-card-layer.is-blocked>.card{outline-color:#d58d79}
+.game-shell .player-board>.card-drop-preview.is-drop-ready{
+ outline:3px solid #b8df9b!important;outline-offset:2px;
+ box-shadow:inset 0 0 16px #a5c87d33,0 0 12px #a5c87d55;
+}
+.game-shell .player-board>.card-drop-preview.is-drop-blocked{
+ outline:2px dashed #d58d79!important;outline-offset:2px;
+}
+.game-shell .enemy-board>.card-matchup-preview{outline:2px solid #b3c88d;outline-offset:2px}
+.game-shell .enemy-board>.card-matchup-preview>.element-matchup{box-shadow:0 0 0 1px #edf5d688,0 0 8px #d8edb455}
+@media(pointer:coarse){
+ #lifted-card-layer.is-touch>.card{font-size:11px;padding:3px}
+ #lifted-card-layer.is-touch>.card>.element-matchup{width:16px;height:18px;font-size:15px}
+ #lifted-card-layer.is-touch>.card.has-element-matchup .top{padding-right:18px}
+}
+@media(prefers-reduced-motion:reduce){
+ #lifted-card-layer.lifted-card-layer>.card{transition:none}
+ #lifted-card-layer>.card.rare-card .art::before,#lifted-card-layer>.card.rare-card .art::after{animation:none}
+}

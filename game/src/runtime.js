@@ -1568,7 +1568,7 @@ function win(){if(G.tutorial){G.busy=0;TUT.finished=true;render();return}if(type
 function lose(reason){if(G.tutorial){G.busy=0;TUT.finished=true;render();return}if(typeof isBossReplay==='function'&&isBossReplay()){finishBossReplay(false);return}if(OV==='dead')return;const k=G.lastHit||G.killer||{n:reason||'余火耗尽',s:'bones'};G.dc={n:pname+'余灰',a:Math.min(3,1+Math.floor(G.wins/4)),h:Math.min(5,2+Math.floor(G.wins/4)),c:G.wins>=4?2:1,s:k.s||'bones',x:G.kills>=12?'soul':G.wins>=2?'ember':'rekindle',d:1,by:reason||k.n,at:k.at||'暗'};G.dc.a0=G.dc.a;G.dc.h0=G.dc.h;recordPlayerDeathEcho();identityOnDeath(G.dc);G.busy=0;OV='dead';snd('die');render()}
 async function commit(i){
  if(G.busy||G.freezeChoice||G.sel==null)return;const c=G.hand[G.sel],sacs=[...G.sac];if(!c||frozenTurns(c)||sacs.length!==c.c||G.p[i]&&!G.sac.has(i)||sacs.some(j=>!canSacrificeCard('p',j)))return;
- G.busy=1;if(sacs.length){sacs.forEach(j=>{const node=el('p',j);if(node)burn(node)});snd('burn');await wait(250)}
+ G.busy=1;clearCardLift();if(sacs.length){sacs.forEach(j=>{const node=el('p',j);if(node)burn(node)});snd('burn');await wait(250)}
  G.hand.splice(G.sel,1);const deaths=[];sacs.forEach(j=>kill('p',j,null,'sacrifice',deaths));const placed=makeCard(c);placed.rk=c.rk||0;G.p[i]=placed;placed.t=G.turn;deaths.forEach(resolveDeath);G.sel=null;G.sac.clear();render();await drawIdle;await enterEffects('p',placed);bossOnPlayerDeploy(i,placed);G.busy=0;logBattle(`你在第${i+1}格召唤${c.n}`);snd('place');render();chk();
 }
 function deckCost(names){return names.reduce((n,name)=>n+(collectionCard(name)?.c||0),0)}
@@ -1580,7 +1580,7 @@ function pileHTML(side){
  const n=side==='p'?G.draw.length:G.ed.length,total=side==='p'?G.deck.length:G.st.dk.length,layers=Math.min(n,40),depth=Math.min(n*.55,22);
  return `<div class="deck-wrap">${side==='p'?'<button class="deck-access-pile" data-a="deckmanager" aria-label="查看并管理我的卡组">':''}<div class="deck-pile" id="deck-${side}" role="img" aria-label="${side==='p'?'我方':'敌方'}牌堆，剩余${n}张">${n?Array.from({length:layers},(_,i)=>`<div class="deck-layer" style="transform:translate(${i*depth/Math.max(1,layers-1)}px,${-i*depth/Math.max(1,layers-1)}px)"></div>`).join(''):'<span class="deck-empty">空</span>'}</div><div class="deck-info"><span class="deck-name">${side==='p'?'我方':'敌方'}牌堆</span><span class="deck-count"><b>${n}</b><small> / ${total}</small></span></div>${side==='p'?'<span class="deck-management-hint" aria-hidden="true">≡</span></button>':''}</div>`;
 }
-function rulesHTML(){return `<div class="rules-copy"><p class="drawer-eyebrow">THE RULES OF EMBERS</p><h2>落牌之前</h2><p>你与敌人各有7点生命、五个战斗格。攻击空位或飞越对手会直击生命，生命归零即落败。</p><button class="tutorial-home-link" data-a="tutorial">重看新手指引 · 界面与出牌</button><button class="tutorial-home-link" data-a="catalog">浏览全部卡牌图鉴</button><h3>卡组与备用</h3><p>出战上限36张，推荐24张；起始卡组至少12张。点牌堆图标查看卡组，按费用、功能、属性或名称排序。排序只改变显示，不改变抽牌顺序。默认初始卡组16张，推荐24张。奖励卡直接加入出战，达到36张上限后才提示整理；已满36张时新奖励放入备用，备用不参加抽牌。</p>${elementRulesHTML()}<h3>抽牌与献祭</h3><p>双方基础起手各5张，包含1张余灰，首回合无需再抽牌。每轮回首关掷币后，金币化为1张额外余灰交给后手：先手5张、后手6张。额外余灰不消耗牌库，仍需自行部署并存活到下一回合才能献祭。正式对战由空牌桌开场，双方自行部署；新部署的祭品须存活到下一回合才能献祭。之后每回合免费获得1张余灰，再选择抽1张卡组牌或再取余灰。费用●代表需要献祭的友军数量；新召唤的牌下回合才能献祭。场上余灰标明“新入场”或“可献祭”，敌我使用相同规则。</p><h3>永久收藏与死亡身份</h3><p>未获得的牌以问号背面封存，不能查看能力或自由编入；获得并实际加入出战后才永久解锁。备用中的新牌须先编入并保存。普通出战同名最多2张；金辉在出战与备用中合计最多1张，余灰不受同名限制。每轮16关内最多暂存1张死亡身份，第二次死亡可保留旧卡或替换新卡；重试自动携带，通关本轮16关后才永久归档并可自由组卡。</p><h3>死亡余灰的成长</h3><p>正式战斗的死亡次数在当前浏览器累计保存。每第3次死亡（第3、6、9次等）单独有33%概率生成比上一份死亡遗骸更强的身份；费用可为1、2或3费，成长存在上限。没有命中不会消耗或削弱已保留的身份。每轮仍最多暂存一张，第二次死亡可比较旧卡与新卡后保留或替换；通关16关后才永久归档，练习不计死亡。</p><h3>我方装备Boss技能</h3><p>与守关Boss同名的普通或金辉卡部署在我方场上后，可点击我方生命旁的技能按钮装备其专属主动技能；仅在手牌或卡组中不能装备。每回合最多装备一次，从第2回合开始启用。每次成功发动额外消耗一张未冻结的手牌余灰；发动后下一回合冷却，再下一回合才能再次发动，原技能的弃牌、生命等代价仍需另外支付。部署技能在我方部署阶段点击发动；攻击后技能先点击准备，在双方攻击结束后结算。效果中的友军、敌军与代价按我方视角计算。已装备技能可沿用至下回合，来源卡离场或暂时化灰后失效，不能靠换卡或换技能绕过次数限制。</p><h3>Boss主动技能与弃牌</h3><p>每位守关者使用与自身角色和技能搭配的专属卡组。Boss名字旁显示专属技能，点按或悬停阅读时机、代价与本回合状态。从第2回合开始，每次成功发动消耗一张未冻结的手牌余灰，随后跳过下一回合，再下一回合才能重用；没有目标或代价不足时，不扣余灰也不进入冷却，敌我一致。部署类在敌方部署时使用，攻击后类在双方攻击结算后使用。主动丢弃手牌不触发亡语、死亡抽牌或复燃，抽牌仍消耗有限牌堆。双方弃牌堆可在战斗记录中查看。</p><p>暂时余灰化会覆盖玩家下一次完整行动，之后恢复原卡当前攻血与成长，不回满血、不重复入场。余灰被杀或献祭后不再恢复，也不触发原卡亡语；刚恢复的卡有一轮再次变形免疫。</p><h3>金色稀有与亡语</h3><p>共有${POOL.filter(c=>c.rarity==='rare'&&!c.token).length}张金辉卡，含全部96位轮回Boss与旧版收藏，攻防均高于对应普通版。普通通关奖励有5%概率出现当前Boss的金辉，可从三张中任选一张。每个轮回通关第16关后，必定出现该作品三张不同Boss金辉卡，任选一张加入卡组。成长卡每次以自身攻击击杀敌方卡牌后攻击加1，直击生命或中毒击杀不触发。亡语在死亡和献祭时触发。金色小蜘蛛优先生成于原格与最近空格，位置不足则进入手牌；召唤物须存活到下一回合才能献祭。亡语召唤物不计入稀有收集卡。</p><h3>帕奇与冻结</h3><p>帕奇出场后，可选一张自己的手牌冻结。冻结本回合与下一回合，期间不能打出；第三回合开始自动解冻并减少1点献祭费用，最低0费。手牌上显示剩余回合。右键、Esc或“跳过”可放弃本次效果；已完成的部署不会撤回。冻结与减费仅在本次对战中有效。</p><h3>走位与先攻</h3><p>点选手牌，再选祭品与落点。选错时按鼠标右键或Esc，手机点击“取消”，即可清除选牌、祭品和位移选择。取消仅清除待确认选择，已完成的出牌或移动不会撤回。未选手牌时，点击带横移／换位的友军，再用左右按钮调整位置，每回合一次。换位后双方均不能再次移动；击退不追加攻击。</p><p>每轮回首关，先选金币正反，再点击金龙币投掷：猜中我方先手，否则Boss先手。金币伴随叮声和旋转声落定，再化成余灰交给后手。之后每位Boss的开场先手交替；同一场内逐回合交换先部署与先攻的一方。后手转先手时，Boss可能在回合切换前后连续部署；中央会显示新回合提示，战斗记录按回合分隔，这不代表新放下的余灰可在同回合献祭。双方都部署后才结算攻击，每张存活卡每回合最多攻击一次。守护可以拦截飞行；吸血和中毒只有造成伤害才生效。</p><h3>护盾与重战</h3><p>护盾完整抵消下一次受到的伤害，随后消失；没有造成伤害的攻击不消耗护盾。普通敌卡死亡不再因魂系关卡规则自动生成余灰，只有卡牌自身明确写出的能力才会留下遗骸；新生成的牌仍须等下一回合才能献祭。</p><p>首页和第一关可选择重战已经击败的单个Boss，未通关关卡锁定。重战使用最近保存的卡组，不覆盖主线存档，也不发通关奖励或累计死亡成长。</p><h3>轮回配乐</h3><p>每个轮回按第1–4、5–8、9–12、13–15关分段切换原创配乐，第16关另用最终Boss曲，共30首。顶部音乐按钮可独立开关，按钮说明显示当前曲名与关卡段；静音偏好保存在当前浏览器，切后台暂停、返回恢复。游戏内本地合成，无需额外下载音乐。</p><h3>六重轮回</h3><p>黑暗之魂Ⅰ → 黑暗之魂Ⅱ → 黑暗之魂Ⅲ → 血源诅咒 → 只狼 → 艾尔登法环。每轮16位不同守关者，共96关；难度与电脑决策逐轮提升。通关后沿用已获得的出战卡组与备用牌。晋阶和跨难度卡组保存在当前浏览器，回到首页可继续管理；主线在安全出牌节点及关卡结束后自动保存，重新载入会继续上次未完成的位置；未领取奖励保留。第36回合仍未分胜负时，按生命、场面战力裁决；完全同分玩家获胜。</p><p class="drawer-note">手牌较多时可左右滑动；手机长按卡牌查看介绍与完整技能，也可选牌后点“详情”。主线安全节点自动保存；新手与重战不覆盖主线存档。</p></div>`}
+function rulesHTML(){return `<div class="rules-copy"><p class="drawer-eyebrow">THE RULES OF EMBERS</p><h2>落牌之前</h2><p>你与敌人各有7点生命、五个战斗格。攻击空位或飞越对手会直击生命，生命归零即落败。</p><button class="tutorial-home-link" data-a="tutorial">重看新手指引 · 界面与出牌</button><button class="tutorial-home-link" data-a="catalog">浏览全部卡牌图鉴</button><h3>卡组与备用</h3><p>出战上限36张，推荐24张；起始卡组至少12张。点牌堆图标查看卡组，按费用、功能、属性或名称排序。排序只改变显示，不改变抽牌顺序。默认初始卡组16张，推荐24张。奖励卡直接加入出战，达到36张上限后才提示整理；已满36张时新奖励放入备用，备用不参加抽牌。</p>${elementRulesHTML()}<h3>拿起与落牌</h3><p>点击可打出的手牌将它拿起。电脑上移动鼠标预览落点，再点击我方格子落牌；手机上先点选手牌，再点击格子落牌，也可按住我方牌桌滑动预览，松手落牌。需要献祭时，先点选足够的成熟祭品。拿起的卡牌与对位敌卡右上角显示克制箭头，落牌后继续显示；空位或无克制关系时不显示。预览不会消耗手牌或祭品。再次点击所选手牌，或点击“取消”，可放回手牌；电脑也可按Esc或右键取消。</p><h3>抽牌与献祭</h3><p>双方基础起手各5张，包含1张余灰，首回合无需再抽牌。每轮回首关掷币后，金币化为1张额外余灰交给后手：先手5张、后手6张。额外余灰不消耗牌库，仍需自行部署并存活到下一回合才能献祭。正式对战由空牌桌开场，双方自行部署；新部署的祭品须存活到下一回合才能献祭。之后每回合免费获得1张余灰，再选择抽1张卡组牌或再取余灰。费用●代表需要献祭的友军数量；新召唤的牌下回合才能献祭。场上余灰标明“新入场”或“可献祭”，敌我使用相同规则。</p><h3>永久收藏与死亡身份</h3><p>未获得的牌以问号背面封存，不能查看能力或自由编入；获得并实际加入出战后才永久解锁。备用中的新牌须先编入并保存。普通出战同名最多2张；金辉在出战与备用中合计最多1张，余灰不受同名限制。每轮16关内最多暂存1张死亡身份，第二次死亡可保留旧卡或替换新卡；重试自动携带，通关本轮16关后才永久归档并可自由组卡。</p><h3>死亡余灰的成长</h3><p>正式战斗的死亡次数在当前浏览器累计保存。每第3次死亡（第3、6、9次等）单独有33%概率生成比上一份死亡遗骸更强的身份；费用可为1、2或3费，成长存在上限。没有命中不会消耗或削弱已保留的身份。每轮仍最多暂存一张，第二次死亡可比较旧卡与新卡后保留或替换；通关16关后才永久归档，练习不计死亡。</p><h3>我方装备Boss技能</h3><p>与守关Boss同名的普通或金辉卡部署在我方场上后，可点击我方生命旁的技能按钮装备其专属主动技能；仅在手牌或卡组中不能装备。每回合最多装备一次，从第2回合开始启用。每次成功发动额外消耗一张未冻结的手牌余灰；发动后下一回合冷却，再下一回合才能再次发动，原技能的弃牌、生命等代价仍需另外支付。部署技能在我方部署阶段点击发动；攻击后技能先点击准备，在双方攻击结束后结算。效果中的友军、敌军与代价按我方视角计算。已装备技能可沿用至下回合，来源卡离场或暂时化灰后失效，不能靠换卡或换技能绕过次数限制。</p><h3>Boss主动技能与弃牌</h3><p>每位守关者使用与自身角色和技能搭配的专属卡组。Boss名字旁显示专属技能，点按或悬停阅读时机、代价与本回合状态。从第2回合开始，每次成功发动消耗一张未冻结的手牌余灰，随后跳过下一回合，再下一回合才能重用；没有目标或代价不足时，不扣余灰也不进入冷却，敌我一致。部署类在敌方部署时使用，攻击后类在双方攻击结算后使用。主动丢弃手牌不触发亡语、死亡抽牌或复燃，抽牌仍消耗有限牌堆。双方弃牌堆可在战斗记录中查看。</p><p>暂时余灰化会覆盖玩家下一次完整行动，之后恢复原卡当前攻血与成长，不回满血、不重复入场。余灰被杀或献祭后不再恢复，也不触发原卡亡语；刚恢复的卡有一轮再次变形免疫。</p><h3>金色稀有与亡语</h3><p>共有${POOL.filter(c=>c.rarity==='rare'&&!c.token).length}张金辉卡，含全部96位轮回Boss与旧版收藏，攻防均高于对应普通版。普通通关奖励有5%概率出现当前Boss的金辉，可从三张中任选一张。每个轮回通关第16关后，必定出现该作品三张不同Boss金辉卡，任选一张加入卡组。成长卡每次以自身攻击击杀敌方卡牌后攻击加1，直击生命或中毒击杀不触发。亡语在死亡和献祭时触发。金色小蜘蛛优先生成于原格与最近空格，位置不足则进入手牌；召唤物须存活到下一回合才能献祭。亡语召唤物不计入稀有收集卡。</p><h3>帕奇与冻结</h3><p>帕奇出场后，可选一张自己的手牌冻结。冻结本回合与下一回合，期间不能打出；第三回合开始自动解冻并减少1点献祭费用，最低0费。手牌上显示剩余回合。右键、Esc或“跳过”可放弃本次效果；已完成的部署不会撤回。冻结与减费仅在本次对战中有效。</p><h3>走位与先攻</h3><p>点选手牌，再选祭品与落点。选错时按鼠标右键或Esc，手机点击“取消”，即可清除选牌、祭品和位移选择。取消仅清除待确认选择，已完成的出牌或移动不会撤回。未选手牌时，点击带横移／换位的友军，再用左右按钮调整位置，每回合一次。换位后双方均不能再次移动；击退不追加攻击。</p><p>每轮回首关，先选金币正反，再点击金龙币投掷：猜中我方先手，否则Boss先手。金币伴随叮声和旋转声落定，再化成余灰交给后手。之后每位Boss的开场先手交替；同一场内逐回合交换先部署与先攻的一方。后手转先手时，Boss可能在回合切换前后连续部署；中央会显示新回合提示，战斗记录按回合分隔，这不代表新放下的余灰可在同回合献祭。双方都部署后才结算攻击，每张存活卡每回合最多攻击一次。守护可以拦截飞行；吸血和中毒只有造成伤害才生效。</p><h3>护盾与重战</h3><p>护盾完整抵消下一次受到的伤害，随后消失；没有造成伤害的攻击不消耗护盾。普通敌卡死亡不再因魂系关卡规则自动生成余灰，只有卡牌自身明确写出的能力才会留下遗骸；新生成的牌仍须等下一回合才能献祭。</p><p>首页和第一关可选择重战已经击败的单个Boss，未通关关卡锁定。重战使用最近保存的卡组，不覆盖主线存档，也不发通关奖励或累计死亡成长。</p><h3>轮回配乐</h3><p>每个轮回按第1–4、5–8、9–12、13–15关分段切换原创配乐，第16关另用最终Boss曲，共30首。顶部音乐按钮可独立开关，按钮说明显示当前曲名与关卡段；静音偏好保存在当前浏览器，切后台暂停、返回恢复。游戏内本地合成，无需额外下载音乐。</p><h3>六重轮回</h3><p>黑暗之魂Ⅰ → 黑暗之魂Ⅱ → 黑暗之魂Ⅲ → 血源诅咒 → 只狼 → 艾尔登法环。每轮16位不同守关者，共96关；难度与电脑决策逐轮提升。通关后沿用已获得的出战卡组与备用牌。晋阶和跨难度卡组保存在当前浏览器，回到首页可继续管理；主线在安全出牌节点及关卡结束后自动保存，重新载入会继续上次未完成的位置；未领取奖励保留。第36回合仍未分胜负时，按生命、场面战力裁决；完全同分玩家获胜。</p><p class="drawer-note">手牌较多时可左右滑动；手机长按卡牌查看介绍与完整技能，也可选牌后点“详情”。主线安全节点自动保存；新手与重战不覆盖主线存档。</p></div>`}
 function selectedCard(){return G?.sel!=null?G.hand[G.sel]:G?.moveSel!=null?G.p[G.moveSel]:null}
 function drawerHTML(){
  let title='篝火手册',content=rulesHTML();
@@ -1712,7 +1712,8 @@ document.addEventListener('click',async event=>{
  if(action==='deck'&&G.mustDraw&&G.draw.length){takeCard('p');G.mustDraw=0;render();await drawIdle;render();return}
  if(action==='sq'&&G.mustDraw){takeCard('p',true);G.mustDraw=0;render();await drawIdle;render();return}
  if(G.mustDraw)return;
- if(action==='h'){G.sel=G.sel===i?null:i;G.moveSel=null;G.sac.clear();renderSelection();return}
+ if(['h','s','move'].includes(action)&&!G.tutorial&&G.phase!=='player-deploy')return;
+ if(action==='h'){G.sel=G.sel===i?null:i;G.moveSel=null;G.sac.clear();beginCardLift(event);renderSelection();return}
  if(action==='move'&&G.moveSel!=null){G.busy=1;await moveCard('p',G.moveSel,Number(t.dataset.d));G.busy=0;render();return}
  if(action==='s'){
  if(G.sel==null){G.moveSel=G.p[i]?i:null;renderSelection();return}
@@ -2908,8 +2909,8 @@ function addCampaignReward(reward){
 function finishCampaignRewards(cards){
  G.rewardClaimed=true;G.rw=[];G.rewardSelection=new Set();G.rewardFeedback='';G.newRewards=cards;G.newReward=cards[cards.length-1]||null;
  savePlayerDeck();
- if(G.deck.length<DECK_MAX&&typeof checkpointSave==='function')checkpointSave({transition:true});
- if(G.deck.length>=DECK_MAX){OV='camp';render();openDeckManager('run')}else nextStage();
+ if(typeof checkpointSave==='function')checkpointSave({transition:true});
+ nextStage();
 }
 function claimReward(i){
  if(!G||OV!=='win'||G.rewardClaimed||!Number.isInteger(i))return;
@@ -2919,7 +2920,7 @@ function claimReward(i){
 function confirmCampaignReward(){return false}
 function campaignRewardHTML(){
  if(!G)return '';const final=isCampaignFinalReward(),rare=G.rw.some(c=>c.rarity==='rare');
- return `<div class="ov modal-screen reward-screen ${final?'final-abyss-reward':''}"><span class="modal-kicker">${final?'A GOLDEN LEGACY':'THE FIRE ENDURES'}</span><h2 class="${rare?'rare-reward-title':''}">${final?(G.rewardGoldExhausted?'轮回礼赞 · 金辉已集齐':'轮回礼赞 · 金辉'+G.rw.length+'选一'):rare?'金辉降临 · 稀有奖励':'薪火仍在燃烧'}</h2>${bossFarewellHTML()}${identityCampaignHTML()}<p>${esc(G.st.n)} · 第${G.turn}回合获胜<br>生命 ${G.hp}/7 · 关间回复 ${RULES[difficulty].heal} 点</p><p class="rare-reward-note">${final?(G.rewardGoldExhausted?'本作金辉已全部获得，本次可选择普通卡补充卡组。':'本轮回已完成！从本作Boss剩余'+G.rw.length+'张未拥有金辉中，选择一张加入卡组。'):rare?'<strong>当前Boss的金辉奖励已出现</strong> · 三张中任选一张':'本次通关有5%概率出现当前Boss金辉 · 任选一张'}</p>${G.rewardFeedback?`<p class="deck-manager-feedback" role="status">${esc(G.rewardFeedback)}</p>`:''}<div class="row reward-row">${G.rw.map((c,i)=>cardHTML(c,'',`data-a="rw" data-i="${i}" tabindex="0" role="button" aria-label="${esc(c.n)}，选择这张奖励"`)).join('')}</div><p>点击一张卡牌领取。奖励加入出战；普通同名已达2张或出战满36张时进入备用。金辉每种仅1张，已拥有的不会重复抽到。卡组与备用会沿用至下一轮回。</p></div>`;
+ return `<div class="ov modal-screen reward-screen ${final?'final-abyss-reward':''}"><span class="modal-kicker">${final?'A GOLDEN LEGACY':'THE FIRE ENDURES'}</span><h2 class="${rare?'rare-reward-title':''}">${final?(G.rewardGoldExhausted?'轮回礼赞 · 金辉已集齐':'轮回礼赞 · 金辉'+G.rw.length+'选一'):rare?'金辉降临 · 稀有奖励':'薪火仍在燃烧'}</h2>${bossFarewellHTML()}${identityCampaignHTML()}<p>${esc(G.st.n)} · 第${G.turn}回合获胜<br>生命 ${G.hp}/7 · 关间回复 ${RULES[difficulty].heal} 点</p><p class="rare-reward-note">${final?(G.rewardGoldExhausted?'本作金辉已全部获得，本次可选择普通卡补充卡组。':'本轮回已完成！从本作Boss剩余'+G.rw.length+'张未拥有金辉中，选择一张加入卡组。'):rare?'<strong>当前Boss的金辉奖励已出现</strong> · 三张中任选一张':'本次通关有5%概率出现当前Boss金辉 · 任选一张'}</p>${G.rewardFeedback?`<p class="deck-manager-feedback" role="status">${esc(G.rewardFeedback)}</p>`:''}<p class="reward-continue-note">${final?'选择一张奖励，继续本章收尾。':'选择一张奖励，直接进入下一位Boss。'}</p><div class="row reward-row">${G.rw.map((c,i)=>cardHTML(c,'',`data-a="rw" data-i="${i}" tabindex="0" role="button" aria-label="${esc(c.n)}，选择这张奖励"`)).join('')}</div><p>点击一张卡牌领取。奖励加入出战；普通同名已达2张或出战满36张时进入备用。金辉每种仅1张，已拥有的不会重复抽到。卡组与备用会沿用至下一轮回。</p></div>`;
 }
 
 document.addEventListener('change',event=>{if(!DM)return;if(event.target.id==='dm-rarity'&&['all','rare','common'].includes(event.target.value)){DM.rarity=event.target.value;DM.page=0;DM.detail=null;render();return}if(event.target.id!=='dm-sort')return;if(!Object.hasOwn(DECK_SORTS,event.target.value))return;DM.sort=event.target.value;DM.page=0;DM.detail=null;render()});
@@ -3411,6 +3412,164 @@ document.addEventListener('keydown',event=>{
  const current=controls.indexOf(document.activeElement),next=event.shiftKey?(current<=0?controls.length-1:current-1):(current+1)%controls.length;
  controls[next]?.focus();
 },{capture:true});
+// Lifted cards are a transient presentation of the selected hand card. The board
+// and saved game are changed only by the existing click / sacrifice / commit path.
+let CARD_LIFT=null,cardLiftGesture=null,cardLiftTap=null,cardLiftDispatchPoint=null,cardLiftClickGuard=null,cardLiftFrame=0;
+let cardLiftPointer={x:0,y:0,type:'mouse'};
+function cardLiftAvailable(card){
+ return !!G&&OV===null&&!DM&&!HOLD_DETAIL&&!infoPanel&&!G.entrancePending&&G.sel!=null&&G.hand[G.sel]===card&&canPlayHandCard(card);
+}
+function cardLiftCanDrop(index){
+ const card=CARD_LIFT?.card;
+ return Number.isInteger(index)&&index>=0&&index<LANES&&cardLiftAvailable(card)&&(!G.tutorial||index===2&&['place','summon'].includes(TUT?.step))&&G.sac.size===card.c&&(!G.p[index]||G.sac.has(index))&&[...G.sac].every(i=>canSacrificeCard('p',i));
+}
+function cardLiftLaneAt(x,y){
+ const node=document.elementFromPoint(x,y)?.closest('.player-board [data-a="s"]');
+ return node&&document.querySelector('.game-shell')?.contains(node)?Number(node.dataset.i):null;
+}
+function restoreCardLiftPreview(){
+ document.querySelectorAll('.card-drop-preview').forEach(node=>node.classList.remove('card-drop-preview','is-drop-ready','is-drop-blocked'));
+ document.querySelectorAll('.card-matchup-preview').forEach(node=>node.classList.remove('card-matchup-preview'));
+ updateElementMatchups();
+}
+function clearCardLift(){
+ const hadPreview=CARD_LIFT?.lane!=null;
+ if(cardLiftFrame)cancelAnimationFrame(cardLiftFrame);cardLiftFrame=0;
+ if(cardLiftGesture){try{cardLiftGesture.node.releasePointerCapture(cardLiftGesture.id)}catch{}cardLiftGesture=null}
+ CARD_LIFT?.node?.remove();CARD_LIFT=null;
+ document.getElementById('lifted-card-layer')?.remove();
+ document.querySelectorAll('.card-is-lifted').forEach(node=>node.classList.remove('card-is-lifted'));
+ document.body.classList.remove('card-lift-active');
+ if(hadPreview)restoreCardLiftPreview();
+}
+function abortCardLift(){const active=!!CARD_LIFT;cardLiftTap=null;clearCardLift();if(active)cancelSelection()}
+function beginCardLift(event){
+ clearCardLift();
+ const card=G?.hand[G.sel];if(!cardLiftAvailable(card))return;
+ const source=document.querySelector(`.game-shell .hand [data-a="h"][data-i="${G.sel}"]`);if(!source)return;
+ const rect=source.getBoundingClientRect(),point=cardLiftDispatchPoint||(event.detail===0?{x:rect.left+rect.width/2,y:rect.top+rect.height/2,type:'mouse'}:{x:event.clientX,y:event.clientY,type:event.pointerType||cardLiftPointer.type});
+ CARD_LIFT={game:G,card,node:null,lane:null,x:point.x,y:point.y,type:point.type};
+ syncCardLift(true);
+}
+function syncCardLift(repaint=false){
+ const lift=CARD_LIFT;if(!lift)return;
+ if(lift.game!==G||!cardLiftAvailable(lift.card)){clearCardLift();return}
+ const source=document.querySelector(`.game-shell .hand [data-a="h"][data-i="${G.sel}"]`);
+ if(!source||document.querySelector('.game-shell')?.inert){clearCardLift();return}
+ document.querySelectorAll('.card-is-lifted').forEach(node=>{if(node!==source)node.classList.remove('card-is-lifted')});
+ source.classList.add('card-is-lifted');document.body.classList.add('card-lift-active');
+ if(!lift.node){
+  lift.node=document.createElement('div');lift.node.id='lifted-card-layer';lift.node.className='lifted-card-layer';lift.node.setAttribute('aria-hidden','true');document.body.append(lift.node);repaint=true;
+ }
+ const layer=lift.node,touch=['touch','pen'].includes(lift.type);
+ layer.classList.toggle('is-touch',touch);
+ if(repaint){
+  layer.innerHTML=cardHTML(lift.card);
+  layer.querySelectorAll('[id],[data-a],[tabindex],[data-tip]').forEach(node=>{for(const key of ['id','data-a','tabindex','data-tip'])node.removeAttribute(key)});
+  if(typeof localizeRoot==='function')localizeRoot(layer);
+ }
+ const rect=source.getBoundingClientRect(),width=Math.min(112,Math.max(touch?76:96,rect.width)),height=width*1.4;
+ layer.style.setProperty('--lift-card-width',width+'px');layer.style.setProperty('--lift-card-height',height+'px');
+ const viewport=window.visualViewport,left=viewport?.offsetLeft||0,top=viewport?.offsetTop||0,right=left+(viewport?.width||window.innerWidth),bottom=top+(viewport?.height||window.innerHeight);
+ layer.style.left=Math.max(left+6,Math.min(lift.x-width/2,right-width-6))+'px';
+ layer.style.top=Math.max(top+6,Math.min(lift.y-(touch?height+24:height*.72),bottom-height-6))+'px';
+ const lane=cardLiftLaneAt(lift.x,lift.y),opponent=lane==null?null:G.e[lane],valid=cardLiftCanDrop(lane);
+ const signature=[lane,valid,lift.card.at,opponent?.at,opponent?.n].join('|');
+ if(repaint||signature!==lift.preview){
+  restoreCardLiftPreview();lift.lane=lane;lift.preview=signature;
+  layer.dataset.lane=lane==null?'':String(lane);layer.dataset.valid=String(valid);
+  layer.classList.toggle('has-drop-target',lane!=null);layer.classList.toggle('is-blocked',lane!=null&&!valid);
+  const ghost=layer.querySelector('.card'),markup=elementMatchupIconHTML(lift.card,opponent);
+  ghost.querySelectorAll(':scope > .element-matchup').forEach(node=>node.remove());ghost.classList.toggle('has-element-matchup',!!markup);if(markup)ghost.insertAdjacentHTML('afterbegin',markup);
+  if(lane!=null){
+   document.getElementById('c-p-'+lane)?.classList.add('card-drop-preview',valid?'is-drop-ready':'is-drop-blocked');
+   const enemy=document.getElementById('c-e-'+lane);
+   if(opponent&&enemy){const response=elementMatchupIconHTML(opponent,lift.card);enemy.classList.add('card-matchup-preview');enemy.querySelectorAll(':scope > .element-matchup').forEach(node=>node.remove());enemy.classList.toggle('has-element-matchup',!!response);if(response)enemy.insertAdjacentHTML('afterbegin',response)}
+  }
+ }
+}
+function moveCardLift(event){
+ cardLiftPointer={x:event.clientX,y:event.clientY,type:event.pointerType||'mouse'};
+ if(!CARD_LIFT)return;
+ CARD_LIFT.x=event.clientX;CARD_LIFT.y=event.clientY;CARD_LIFT.type=event.pointerType||CARD_LIFT.type;
+ if(!cardLiftFrame)cardLiftFrame=requestAnimationFrame(()=>{cardLiftFrame=0;syncCardLift()});
+}
+// A selected touch card uses the board as a preview surface. Releasing performs
+// exactly one ordinary board click; scrolling and long-pressing the hand remain native.
+document.addEventListener('pointerdown',event=>{
+ cardLiftPointer={x:event.clientX,y:event.clientY,type:event.pointerType||'mouse'};
+ // A new physical press is not a delayed compatibility click from the last one.
+ cardLiftClickGuard=null;cardLiftTap=null;
+ if(event.isPrimary===false){abortCardLift();return}
+ if(!['touch','pen'].includes(event.pointerType))return;
+ const hand=event.target.closest('.game-shell .hand [data-a="h"]');
+ // After a board slide, browsers can also omit the next control's native click.
+ const control=CARD_LIFT&&event.target.closest('.game-shell button[data-a],.game-shell [data-language],.game-shell [data-a="enemyinfo"]');
+ const tapTarget=hand||control;
+ if(tapTarget){cardLiftTap={id:event.pointerId,node:tapTarget,game:G,x:event.clientX,y:event.clientY,started:performance.now()};return}
+ if(!CARD_LIFT)return;
+ const node=event.target.closest('.player-board [data-a="s"]');if(!node)return;
+ if(!cardLiftAvailable(CARD_LIFT.card)){clearCardLift();return}
+ cancelPendingCardHold();
+ cardLiftGesture={id:event.pointerId,node,game:G,card:CARD_LIFT.card};
+ try{node.setPointerCapture(event.pointerId)}catch{}
+ moveCardLift(event);syncCardLift();event.preventDefault();
+},{capture:true,passive:false});
+document.addEventListener('pointermove',event=>{
+ if(cardLiftTap?.id===event.pointerId&&Math.hypot(event.clientX-cardLiftTap.x,event.clientY-cardLiftTap.y)>10)cardLiftTap=null;
+ if(!CARD_LIFT)return;
+ if(['touch','pen'].includes(event.pointerType)&&cardLiftGesture?.id!==event.pointerId)return;
+ moveCardLift(event);if(cardLiftGesture?.id===event.pointerId)event.preventDefault();
+},{capture:true,passive:false});
+function dispatchCardLiftTap(node,event){
+ cardLiftClickGuard={id:event.pointerId,x:event.clientX,y:event.clientY,until:performance.now()+850};
+ cardLiftDispatchPoint={x:event.clientX,y:event.clientY,type:event.pointerType};
+ try{node.click()}finally{cardLiftDispatchPoint=null}
+}
+document.addEventListener('pointerup',event=>{
+ const tap=cardLiftTap;if(tap?.id===event.pointerId){
+  cardLiftTap=null;
+  if(tap.node.isConnected&&tap.game===G&&!G?.busy&&!drawRunning&&!DM&&!HOLD_DETAIL&&!infoPanel&&OV===null&&performance.now()-tap.started<500&&heldCardGesture?.pointerId!==event.pointerId&&Math.hypot(event.clientX-tap.x,event.clientY-tap.y)<=10){
+   event.preventDefault();dispatchCardLiftTap(tap.node,event);
+  }
+  return;
+ }
+ const gesture=cardLiftGesture;if(!gesture||gesture.id!==event.pointerId)return;
+ // Pointer capture can send a compatibility click to the starting lane even
+ // when the finger is released off the board. Suppress that click in all cases.
+ cardLiftClickGuard={id:event.pointerId,x:event.clientX,y:event.clientY,until:performance.now()+850};
+ moveCardLift(event);syncCardLift();cardLiftGesture=null;
+ try{gesture.node.releasePointerCapture(event.pointerId)}catch{}
+ event.preventDefault();
+ const lane=cardLiftLaneAt(event.clientX,event.clientY);
+ if(CARD_LIFT&&gesture.game===G&&gesture.card===CARD_LIFT.card&&cardLiftAvailable(gesture.card)&&lane!=null){
+  const node=document.getElementById('c-p-'+lane);if(node)dispatchCardLiftTap(node,event);
+ }
+},{capture:true,passive:false});
+document.addEventListener('pointercancel',event=>{
+ if(cardLiftTap?.id===event.pointerId)cardLiftTap=null;
+ if(cardLiftGesture?.id===event.pointerId)abortCardLift();
+},{capture:true,passive:true});
+document.addEventListener('click',event=>{
+ const guard=cardLiftClickGuard;if(!guard)return;
+ if(performance.now()>guard.until){cardLiftClickGuard=null;return}
+ const samePointer=event.pointerId>0?event.pointerId===guard.id:Math.hypot(event.clientX-guard.x,event.clientY-guard.y)<35;
+ if((event.isTrusted||event.detail>0)&&samePointer){
+  event.preventDefault();event.stopImmediatePropagation();cardLiftClickGuard=null;
+ }
+},{capture:true});
+document.addEventListener('contextmenu',event=>{if(CARD_LIFT){event.preventDefault();abortCardLift()}},{capture:true});
+document.addEventListener('visibilitychange',()=>{if(document.hidden)abortCardLift()});
+window.addEventListener('blur',abortCardLift);
+window.addEventListener('pagehide',clearCardLift);
+window.addEventListener('resize',()=>syncCardLift(true));
+window.visualViewport?.addEventListener('resize',()=>syncCardLift(true));
+document.addEventListener('scroll',()=>syncCardLift(),{capture:true,passive:true});
+const renderBeforeCardLift=render;
+render=function(){renderBeforeCardLift();syncCardLift(true)};
+const selectionBeforeCardLift=renderSelection;
+renderSelection=function(){selectionBeforeCardLift();syncCardLift(true)};
+
 // Revisit a cleared guardian without changing the live campaign or its save.
 const REPLAY_CLEAR_STORAGE='mz_boss_clears_v1';
 let REPLAY_MENU=null,REPLAY_SESSION=null;
@@ -3586,8 +3745,8 @@ function checkpointSave(options={}){
  if(!transition&&(G.busy||typeof drawRunning!=='undefined'&&drawRunning||!portfolio&&(typeof DM!=='undefined'&&DM||typeof HOLD_DETAIL!=='undefined'&&HOLD_DETAIL||typeof infoPanel!=='undefined'&&infoPanel)))return false;
  if(!transition&&!terminal&&(OV!==null||G.phase!=='player-deploy'))return false;
  try{
-  const entry=checkpointBaseEntry(),mode=transition&&G.deck.length<DECK_MAX&&G.lv<CAMPAIGNS[difficulty].length?'next':'state';
-  const overlay=transition?(G.deck.length>=DECK_MAX?'camp':G.lv>=CAMPAIGNS[difficulty].length?'clear':null):OV;
+  const entry=checkpointBaseEntry(),mode=transition&&G.lv<CAMPAIGNS[difficulty].length?'next':'state';
+  const overlay=transition?(G.lv>=CAMPAIGNS[difficulty].length?'clear':null):OV;
   const body={version:CHECKPOINT_VERSION,difficulty,lv:G.lv,overlay,mode,name:typeof pname==='string'?pname:'',identity:checkpointIdentityMark(),journeyCleared:journey.cleared,deckRevision:options.revision??checkpointLatestRevision(),entry:{hp:entry.hp,kills:entry.kills},graph:checkpointGraphEncode(G)};
   const signature=JSON.stringify(body);if(signature===checkpointLastBody)return true;
   const raw=JSON.stringify({...body,savedAt:Date.now()});if(raw.length>CHECKPOINT_MAX_BYTES)throw Error('quota');
@@ -3652,6 +3811,10 @@ function checkpointRestore(){
  try{
   if(saved.journeyCleared!==journey.cleared||JSON.stringify(saved.identity)!==JSON.stringify(checkpointIdentityMark()))throw Error('newer progress exists');
   const game=checkpointGraphDecode(saved.graph);if(!checkpointGameValid(game,saved))throw Error('invalid battle');
+  // Older full-deck rewards paused in camp; a claimed reward can continue safely.
+  if(saved.overlay==='camp'&&game.rewardClaimed&&!deckRunIssue(game.deck,game.reserve||[])){
+   const next=game.lv<CAMPAIGNS[saved.difficulty].length;saved.mode=next?'next':'state';saved.overlay=next?null:'clear';
+  }
   const latest=typeof getLatestSavedDeck==='function'?getLatestSavedDeck():null;
   if(latest?.revision>saved.deckRevision){checkpointLatestPortfolio(game,latest.deck,latest.reserve);if(saved.overlay===null&&saved.mode==='state')saved.mode='restart'}
   checkpointRestoring=true;

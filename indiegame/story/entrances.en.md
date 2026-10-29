@@ -6,6 +6,8 @@ By Will Wang. Contains every encounter entrance.
 
 ### 1 · Night Watch Noah · Start with the Last Stretch
 
+Night Watch Noah first explains the town’s predicament. Since the Ash Works caught fire, the town has been trapped in this one night. Some roads bring you back where you started, and memories lose pieces. He does not know how it began; he only knows that paper and recordings are more reliable than memory.
+
 Noah sets hot tea beside the file and shows you two unanswered fields: who reported you missing, and where you went afterward. Instead of taking the file away, he finds a street map.
 
 “I saw you return to the duty room. I did not see you disappear. For anything earlier, we need witnesses. Abel knows the roads by the bridge. Finn used to carry messages for the post office.”

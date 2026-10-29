@@ -75,7 +75,7 @@ const BASE=process.env.INDIE_TEST_URL||'http://127.0.0.1:8005/indiegame/index.ht
     claimReward(index);
     return {id,choices,beforeDeck,beforeReserve,deck:G.deck.map(c=>c.n),reserve:G.reserve.map(c=>c.n),copies:G.deck.filter(c=>c.n===id).length,friends:Object.keys(STORY.friends),overlay:OV};
    });
-   assert.equal(r.choices.length,3);assert.ok(r.choices.every(c=>!c.rare));assert.deepEqual(r.deck,r.beforeDeck);assert.deepEqual(r.reserve,[...r.beforeReserve,r.id]);assert.equal(r.copies,2);assert.deepEqual(r.friends,[r.id]);assert.equal(r.overlay,'camp');
+   assert.equal(r.choices.length,3);assert.ok(r.choices.every(c=>!c.rare));assert.deepEqual(r.deck,r.beforeDeck);assert.deepEqual(r.reserve,[...r.beforeReserve,r.id]);assert.equal(r.copies,2);assert.deepEqual(r.friends,[r.id]);assert.equal(r.overlay,'clear');
   });
   await check('Antagonist and other non-core awards never turn into helping companions',async()=>{
    const r=await page.evaluate(()=>{
