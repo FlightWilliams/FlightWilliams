@@ -16,7 +16,7 @@ const archetypes=[['苔庭铠卫·雅恩','nightwatch'],['炽砂修灯师·瑟�
    const rows=await page.evaluate(archetypes=>archetypes.map(([id,zh,en,role])=>({id,zh:shortCardName(id,'zh-CN'),en:shortCardName(id,'en'),role:CARD_ART_PROFILES[id].role,lore:CARD_STORIES[id],joins:COMPANION_DIALOGUE[id],svg:cardPortraitHTML(POOL.find(c=>c.n===id))})),archetypes);
    rows.forEach((row,i)=>{assert.equal(row.zh,archetypes[i][1]);assert.equal(row.en,archetypes[i][2]);assert.equal(row.role,archetypes[i][3]);assert.ok(row.lore.zh.length>25&&row.lore.en.length>50);assert.ok(row.joins.join&&row.joins.joinEn)});
    assert.equal(new Set(rows.map(row=>row.svg)).size,3);
-   assert.match(rows[0].lore.zh,/03:17/);assert.match(rows[1].lore.zh,/炉|封条/);assert.match(rows[2].lore.zh,/灯|回信/);
+   assert.match(rows[0].lore.zh,/03:17/);assert.match(rows[1].lore.zh,/灰厂|提灯|救援/);assert.match(rows[2].lore.zh,/灯|回信/);
   });
   await check('All 988 portraits are valid static SVGs, cache their output and leave gameplay randomness untouched',async()=>{
    const result=await page.evaluate(()=>{

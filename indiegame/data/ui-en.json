@@ -2650,5 +2650,9 @@
   "选择一张奖励，继续本章收尾。": "Choose a reward to continue to the chapter conclusion.",
   "选择一张奖励，直接进入下一位Boss。": "Choose a reward to proceed directly to the next Boss.",
   "提灯与螺旋周目": "The Lantern and Rising Cycles",
-  "每完成全部六章96关后，下一周目从雾镇重新开始。主角失去记忆，玩家对上一轮的认识以及已经获得的卡牌、收藏、牌组和同行约定保留。敌方非召唤卡（余芯除外）每增加一周目，生命增加1；攻击在第2、4、6周目等轮次各再增加1。第一周目的数值保持原样。场上新召唤的单位不获得周目加成。": "After all six chapters and 96 encounters, the next cycle starts in Fogtown. The protagonist loses their memory. Your knowledge of the previous cycle, acquired cards, collection, deck and companion promises remain. Enemy non-summoned cards, excluding Wicks, gain 1 HP for each additional cycle; ATK increases by another 1 in cycles 2, 4, 6 and so on. The first cycle keeps its original stats. Units summoned during battle receive no cycle bonus."
+  "每完成全部六章96关后，下一周目从雾镇重新开始。主角失去记忆，玩家对上一轮的认识以及已经获得的卡牌、收藏、牌组和同行约定保留。敌方非召唤卡（余芯除外）每增加一周目，生命增加1；攻击在第2、4、6周目等轮次各再增加1。第一周目的数值保持原样。场上新召唤的单位不获得周目加成。": "After all six chapters and 96 encounters, the next cycle starts in Fogtown. The protagonist loses their memory. Your knowledge of the previous cycle, acquired cards, collection, deck and companion promises remain. Enemy non-summoned cards, excluding Wicks, gain 1 HP for each additional cycle; ATK increases by another 1 in cycles 2, 4, 6 and so on. The first cycle keeps its original stats. Units summoned during battle receive no cycle bonus.",
+  "下方的<strong>7个火苗</strong>代表我方生命，每个亮起的火苗表示1点生命。受伤时对应火苗熄灭；生命归零就会落败。": "The <strong>7 flames</strong> below represent your life. Each lit flame is 1 life. Damage extinguishes the corresponding flames. At zero life, you lose.",
+  "下方的7个火苗代表我方生命，每个亮起的火苗表示1点生命。受伤时对应火苗熄灭；生命归零就会落败。": "The 7 flames below represent your life. Each lit flame is 1 life. Damage extinguishes the corresponding flames. At zero life, you lose.",
+  "提起灯火": "Raise the Lantern",
+  "七个火苗代表你的生命": "Seven flames represent your life"
 }
