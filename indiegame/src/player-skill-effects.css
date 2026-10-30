@@ -1,0 +1,17 @@
+/* Skill feedback sits outside the replaceable game DOM and never blocks input. */
+#player-skill-effects-layer{position:fixed;inset:0;z-index:2147482000;pointer-events:none;overflow:hidden;contain:layout style}
+.player-skill-delta{position:fixed;display:block;white-space:nowrap;padding:3px 6px;border:1px solid #c8ae70;border-radius:4px;background:#1b2118f2;color:#f4df9b;font:600 12px/1.25 Georgia,"Microsoft YaHei",sans-serif;letter-spacing:0;box-shadow:0 2px 7px #0007;transform:translate(-50%,-100%);transform-origin:50% 100%;animation:player-skill-delta-rise 1000ms ease-out both;pointer-events:none}
+.player-skill-delta.is-gain{color:#caf2ba;border-color:#7eae73;background:#172b1ff2}
+.player-skill-delta.is-loss{color:#ffd1bb;border-color:#b77c65;background:#351d19f2}
+.player-skill-number-pulse{position:relative;animation:player-skill-number-change 650ms ease-out both}
+.player-skill-number-gain{color:#235d2c!important;text-shadow:0 0 4px #e2ffc0}
+.player-skill-number-loss{color:#9a3028!important;text-shadow:0 0 4px #ffe4bc}
+.player-skill-effect-pulse{animation:player-skill-effect-change 650ms ease-out both}
+@keyframes player-skill-delta-rise{0%{opacity:0;transform:translate(-50%,-55%) scale(.94)}18%{opacity:1;transform:translate(-50%,-92%) scale(1.04)}72%{opacity:1}100%{opacity:0;transform:translate(-50%,calc(-100% - 20px)) scale(1)}}
+@keyframes player-skill-number-change{0%{transform:scale(1)}28%{transform:translateY(-1px) scale(1.35);filter:brightness(1.15)}65%{transform:scale(1.08)}100%{transform:scale(1);filter:none}}
+@keyframes player-skill-effect-change{0%,100%{filter:none}35%{filter:drop-shadow(0 0 4px #f0cf77);outline:1px solid #f0cf77;outline-offset:2px}}
+@media(max-width:480px){.player-skill-delta{font-size:11px;padding:3px 4px}}
+@media(prefers-reduced-motion:reduce){
+ .player-skill-delta{animation:none!important;opacity:1;transform:translate(-50%,-100%)}
+ .player-skill-number-pulse,.player-skill-effect-pulse{animation:none!important;filter:none;outline:1px solid #cfac60;outline-offset:2px}
+}

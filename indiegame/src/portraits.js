@@ -1,3 +1,65 @@
+// Faces use authored traits; fallback traits are deterministic and never use battle randomness.
+function portraitFaceTraits(profile,id){
+ let hash=(profile.seed||7)>>>0;for(const ch of String(id))hash=Math.imul(hash^ch.charCodeAt(0),16777619)>>>0;
+ const pick=(values,shift)=>values[(hash>>>shift)%values.length];
+ return {shape:pick(['oval','square','round','long','heart','broad'],0),age:pick(['young','adult','mature','elder'],4),expression:pick(['calm','smile','stern','worried','weary','confident','surprised','skeptical'],8),hair:pick(['cropped','swept','curly','wavy','bob','braided','receding','bald','long','tied','sidepart'],11),brows:pick(['straight','arched','heavy','asymmetric'],15),eyes:pick(['almond','narrow','round','downturned'],17),nose:pick(['straight','broad','button','hooked'],19),facialHair:profile.gender==='female'?'none':pick(['none','stubble','moustache','short-beard','full-beard'],21),mark:pick(['none','freckles','dimple','cheek-line','beauty-mark'],24),glasses:'none',...(profile.face||{})};
+}
+function portraitFaceFeatures(t,p){
+ const {path,line,circle,ink,paper,light,shade,mid}=p;
+ const wide=t.shape==='broad'||t.shape==='round',left=wide?32:34,right=wide?48:47;
+ let out='',browY=t.expression==='surprised'?23:25;
+ const eye=(x,side)=>{
+  if(t.eyes==='narrow'||t.expression==='weary')return line(`M${x-2.5} 29l2.5-1 2.5 1m-4 1.2h3`,ink,.9)+circle(x+.2,29,.65,ink);
+  if(t.eyes==='round')return `<ellipse cx="${x}" cy="29" rx="2.15" ry="1.8" fill="${light}" stroke="${ink}" stroke-width=".8"/>`+circle(x+.2,29,.85,ink);
+  if(t.eyes==='downturned')return path(`m${x-2.5} 29 2.5-1 2.7 2-2.7 .4Z`,light,ink,.75)+circle(x+.1,29.4,.7,ink);
+  return path(`m${x-2.4} 29 2.4-1.3 2.5 1.3-2.5 1.2Z`,light,ink,.75)+circle(x+(side?-.2:.2),29,.8,ink);
+ };
+ out+=eye(left,0)+eye(right,1);
+ let brows;const a=left-3,b=right-3;
+ if(t.expression==='worried')brows=`M${a} 26l5-3M${b} 23l5 3`;
+ else if(t.expression==='stern')brows=`M${a} 24l6 2M${b} 26l6-2`;
+ else if(t.expression==='skeptical')brows=`M${a} 26l6-1M${b} 22l6 1`;
+ else if(t.brows==='arched')brows=`M${a} ${browY+1}q3-3 6 0M${b} ${browY+1}q3-3 6 0`;
+ else if(t.brows==='asymmetric')brows=`M${a} ${browY}l6-1M${b} ${browY-1}l6 2`;
+ else brows=`M${a} ${browY}h6M${b} ${browY}h6`;
+ out+=line(brows,ink,t.brows==='heavy'?1.7:1.05);
+ const noses={straight:'M40 30 38 38l4 2',broad:'M39 30 36 38l3 2 6-1m-8-1h2m3 0h2',button:'M40 34l-2 4q3 3 6-1',hooked:'M41 29l-1 6 3 3-3 3-3-1'};
+ out+=line(noses[t.nose]||noses.straight,ink,.9);
+ const mouths={calm:'M35 44h10',smile:'M34 42q6 7 13 0m-10 6h6',stern:'M34 45l5-2 7 2m-10 3h8',worried:'M34 46q6-7 13 0',weary:'M34 45h11m-12-1-1 2m14-2 1 2',confident:'M34 44q7 5 14-3',skeptical:'M35 45l5-2 6 1'};
+ out+=t.expression==='surprised'?`<ellipse cx="41" cy="44" rx="2" ry="2.3" fill="${mid}" stroke="${ink}" stroke-width=".8"/>`:line(mouths[t.expression]||mouths.calm,ink,1);
+ if(t.age==='mature'||t.age==='elder')out+=line(`M${left-4} 32l-2 2M${right+4} 32l2 2M34 21h9`,ink,.6);
+ if(t.age==='elder')out+=line(`M33 18l11-1m-14 19 2 6m17-6-2 7m-15-8 4 1m10-1 4-1m-15 15h8`,ink,.65);
+ if(t.mark==='freckles')for(const [x,y]of [[30,35],[33,36],[29,37],[49,35],[52,36],[50,38]])out+=circle(x,y,.55,ink);
+ if(t.mark==='dimple')out+=line('M31 42l1 3m17-4-1 3',ink,.7);
+ if(t.mark==='cheek-line')out+=line('M29 36l4 3m18-3-3 3',ink,.7);
+ if(t.mark==='beauty-mark')out+=circle(48,40,.85,ink);
+ return out;
+}
+function portraitPersonFace(t,p){
+ const {path,line,circle,ink,paper,light,shade,mid}=p,gray=t.age==='elder'?paper:shade;
+ const heads={oval:'M27 25 29 17 39 12 50 16 54 26 52 39 46 48 39 50 31 44 27 35Z',square:'M25 25 28 16 40 12 52 17 55 28 53 43 47 49 33 49 26 41Z',round:'M25 25Q25 13 39 12 55 13 56 27 56 43 42 49 26 47 25 25Z',long:'M30 24 32 14 42 11 51 18 53 29 49 44 43 53 34 48 29 36Z',heart:'M26 25 29 16 39 12 51 15 55 26 51 39 41 51 30 40Z',broad:'M23 26 27 17 39 13 53 17 57 29 54 43 47 49 32 48 25 39Z'};
+ let back='',front='',detail='';
+ if(['long','braided','bob','wavy'].includes(t.hair))back=path(t.hair==='bob'?'M24 24l5-13 14-5 12 10 3 34-11 3H25Z':'M23 24 28 12 40 5 54 13 58 31l-2 27-9-5-8-17-9 20-9 4Z',gray);
+ if(t.hair==='tied')back=circle(56,19,6,gray)+path('m54 24 9 12-6 19-3-20Z',gray);
+ const hair={cropped:'M26 25 27 17 35 10 46 11 54 18 54 24l-8-4-7 1-7-2Z',swept:'M25 27 26 16 35 8 48 10 56 18l-2 10-5-10-13 11 3-10-8 5Z',curly:'M25 27q-6-6 0-11-1-8 8-7 4-7 11-2 9-3 10 6 7 3 2 13l-6-4-5-6-5 5-6-3-5 8Z',wavy:'M24 27q-4-9 5-15 8-10 19-4 13 5 9 20l-6-6-3-7-9 6-6-2-6 10Z',bob:'M25 25 27 15 34 8 48 9 54 17 55 25l-9-3-18 3Z',braided:'M25 26 27 16 36 8 47 10 55 19l-2 8-7-9-8-3-8 10Z',long:'M25 28 26 17 35 8 47 9 55 20v10l-6-11-9-4-9 11Z',tied:'M26 26 27 17 35 9 47 10 54 19 54 25l-8-7-8-3-7 9Z',sidepart:'M26 26 27 17 35 10 47 11 54 18 55 26l-8-8-10 3-5-2Z'};
+ if(t.hair==='bald')front=line('M32 18q8-5 15 0',shade,.7)+path('m26 25 2-8 2 12m23-4-3-7 2 12',gray);
+ else if(t.hair==='receding')front=path('M27 29 26 22l4-7 3 1-2 14Zm24 0-3-13 3-1 4 8v7Z',gray)+line('M35 16l8-1',shade,.7);
+ else front=path(hair[t.hair]||hair.cropped,gray);
+ if(t.hair==='cropped')detail+=line('m30 17 3-3m2 2 3-3m5 2 3-1m3 4 2 2',ink,.65);
+ if(['swept','sidepart','tied'].includes(t.hair))detail+=line('m34 16 7-5m-4 8 10-5m2 2 3 4',ink,.65);
+ if(t.hair==='curly')detail+=line('M28 18q-1-4 3-4m4-1q2-4 5 0m4-1q4-1 5 3m1 3 2 3',ink,.7);
+ if(t.hair==='wavy')detail+=line('M27 21q2-6 6-6m6-3q5-2 8 3m3 1 3 7',ink,.7);
+ if(['long','bob','braided'].includes(t.hair))detail+=line('M26 29l1 15m27-15-1 16',ink,.75);
+ if(t.hair==='braided')detail+=path('m25 37 5 1 1 20-3 5-4-7Zm29 0-5 1-1 20 3 5 4-7Z',gray)+line('m25 41 5 3m-5 3 5 3m-5 3 5 3m24-14-5 3m5 3-5 3m5 3-5 3',ink,.7);
+ let out=back+path(heads[t.shape]||heads.oval,paper)+path('m46 17 7 9-2 14-8 9-1-5 6-9Z',mid,'',0)+path('m27 27-3-2v6l4 5m26-9 3-2v6l-4 5',paper,ink,.8)+front+detail+portraitFaceFeatures(t,p);
+ const beard=t.age==='elder'?paper:shade;
+ if(t.facialHair==='stubble')out+=line('m31 43 1 2m2 2 1 2m3 0 1 2m4-1 1 2m4-4 1 2m2-5 1 2',ink,.7);
+ if(t.facialHair==='moustache')out+=path('M33 40q4-4 8 0 4-4 8 0l-4 3-4-2-4 2Z',beard);
+ if(t.facialHair==='short-beard'||t.facialHair==='full-beard')out+=path(t.facialHair==='full-beard'?'m29 38 5 4 7 2 7-3 5-5-1 12-6 9-6 3-8-7Z':'m29 39 6 5 6 1 9-5 2-4-1 10-8 8-9-4Z',beard)+line(t.facialHair==='full-beard'?'m33 45 4 7m4-5v9m6-11-3 8':'m34 46 3 3m6-2-1 4m6-7-2 4',ink,.7);
+ if(t.glasses==='round')out+=`<g fill="none" stroke="${ink}" stroke-width=".9"><ellipse cx="34" cy="29" rx="4.5" ry="3.5"/><ellipse cx="47" cy="29" rx="4.5" ry="3.5"/><path d="M38.5 29h4m-13 0-4-1m26 1 3-1"/></g>`;
+ if(t.glasses==='square')out+=`<g fill="none" stroke="${ink}" stroke-width=".9"><path d="m29 26 9-1 1 7-9 1Zm14-1 10 1-1 7-9-1Zm-4 3h4m-14 1-3-1m27 1 2-1"/></g>`;
+ return `<g data-portrait-feature="face" data-face-shape="${t.shape}" data-face-expression="${t.expression}" data-face-age="${t.age}" data-face-hair="${t.hair}">${out}</g>`;
+}
 // Original parchment-and-ink illustrations with the angular linework of game cards.
 // The art is deterministic and has no filters, animation or gameplay random calls.
 const CARD_PORTRAIT_CACHE=new Map();
@@ -10,7 +72,8 @@ function cardPortraitHTML(c){
  const kind=profile.portraitKind||profile.subject||(role?'person':animalFamilies.includes(f)?'animal':humanFamilies.includes(f)?'person':'object');
  const occupation=profile.occupation||({nightwatch:'watch',firewarden:'worker',lighthouse:'sailor',courier:'courier',roadworker:'worker',stationkeeper:'clerk'}[role])||({knight:'watch',giant:'worker',mage:'teacher',rogue:'courier',healer:'medic'}[f])||'clerk';
  const objectType=profile.objectType||({undead:'book',demon:'toolbox',alien:'radio',spirit:'lantern',flame:'lantern',hand:'gloves',mimic:'satchel',jar:'jar',blob:'medicine'}[f])||'book';
- const key=[id,kind,role,occupation,objectType,variant,label].join('|');if(CARD_PORTRAIT_CACHE.has(key))return CARD_PORTRAIT_CACHE.get(key);
+ const face=portraitFaceTraits(profile,id),faceKey=kind==='person'?JSON.stringify(face):'';
+ const key=[id,kind,role,occupation,objectType,variant,faceKey,label].join('|');if(CARD_PORTRAIT_CACHE.has(key))return CARD_PORTRAIT_CACHE.get(key);
  const ink='var(--portrait-ink,#493a25)',outline=ink,paper='var(--portrait-paper,#dbcaa1)',light='var(--portrait-light,#f4e0aa)',gold=light,mid='var(--portrait-mid,#b9a478)',shade='var(--portrait-shade,#9b865c)',accent='var(--portrait-accent,#9b603a)';
  const coat=seed%2?shade:mid,skin=paper,hair=seed%3?shade:mid;
  const path=(d,fill=paper,stroke=ink,width=1.1)=>`<path d="${d}" fill="${fill}"${stroke?` stroke="${stroke}" stroke-width="${width}"`:''}/>`;
@@ -29,14 +92,14 @@ function cardPortraitHTML(c){
   backdrop+=path('M8 59 19 51l16 5 19-7 18 10v15H8Z',mid,'',0)+line('M9 68h14m5 4h17m8-4h17',shade,.8);
   // Branch shoulders, a bark face and root feet make the standing tree person legible.
   subject=path('M27 40 21 39 17 29l-8-5 1-5 10 4 6 10 6 2m21 5 7-4 1-15 8-7 3 3-5 8 1 16-11 8',shade)+path('M31 35 28 47l3 13-6 9-10 4 12 1 10-7 6 7 15-1-10-6-1-10 6-13-5-10Z',mid)+path('M29 34 27 22l5-12 7 6 8-5 7 14-3 15-12 7Z',paper);
-  subject+=path('m30 22 4-10 4 5 7-4 7 12-3 12-7 7-1-9 4-8Z',mid,'',0)+line('m33 25 5 1m5 0 5-1m-8 2-2 7 5 1m-8 4 9-1M34 45l3 9-3 8m10-15-3 10 3 8',ink,.9)+eye(35,29)+eye(46,29);
+  subject+=path('m30 22 4-10 4 5 7-4 7 12-3 12-7 7-1-9 4-8Z',mid,'',0)+line('M34 45l3 9-3 8m10-15-3 10 3 8',ink,.9)+`<g data-portrait-feature="face" data-face-expression="${face.expression}" transform="translate(6 3) scale(.85)">${portraitFaceFeatures(face,{path,line,circle,ink,paper,light,shade,mid})}</g>`;
   subject+=line('M30 17 20 12l-4-7m5 8-10-2m42 11 7-12 8-3m-9 5 5 2m-42 24-9 4m48-4 8 6',ink,1.7)+path('m17 18-7-3 3-7 7 4Zm45-2 4-9 7 4-4 8Z',shade)+hatch('m31 48 4 2m-4 4 3 2m12-14 3 3m-17-25 2 3m-2 12 3 2m10 20 3 2m-19 13 5-3m13 2 5 2');
  }else if(variant==='mushroomfolk'){
   backdrop+=path('m8 67 18-5 24 2 23-5v15H8Z',mid,'',0)+line('M12 71h14m29-3h12',shade,.8);
   // One broad cap over a face, plus two arms and legs: this is a mushroom person.
   subject=path('m29 42-7 2-8 12 4 6 5-4 6-9m22-7 8 4 9 11-4 5-7-5-5-8',mid)+path('M29 35h22l3 23-7 8 2 8H39l-2-12-4 12H23l5-13-2-12Z',paper)+path('m42 37 9-1 3 21-7 9 2 8h-8l-3-12 7-8Z',mid,'',0);
   subject+=path('M11 32 15 21l11-10 14-5 15 5 11 11 5 12-17 6H26Z',shade)+path('m15 28 12-14 13-4 14 5 12 13-15 5H28Z',mid)+path('M12 32h58l-16 9H27Z',paper)+line('m19 34 10 4m-3-4 9 5m0-5 4 5m7-5-3 5m13-5-7 5m15-5-10 4',ink,.65);
-  subject+=path('m26 18 6-2 3 4-5 3-5-1Zm19-4 5 1 2 4-6 2-3-3Zm12 9 4 2-2 4-5-1Z',paper)+eye(34,46)+eye(46,46)+line('m40 47-1 5 3 1m-7 4h10',ink,.85)+hatch('m28 44 2 5m-1 5 2 3m17-12 2 6m-21 11 3-3m11 7 3 2m-29-13 3 2m39-3 3 2');
+  subject+=path('m26 18 6-2 3 4-5 3-5-1Zm19-4 5 1 2 4-6 2-3-3Zm12 9 4 2-2 4-5-1Z',paper)+`<g data-portrait-feature="face" data-face-expression="${face.expression}" transform="translate(4 20) scale(.9)">${portraitFaceFeatures(face,{path,line,circle,ink,paper,light,shade,mid})}</g>`+hatch('m28 44 2 5m-1 5 2 3m17-12 2 6m-21 11 3-3m11 7 3 2m-29-13 3 2m39-3 3 2');
  }else if(variant==='door'){
   backdrop+=path('M9 69V17l10-8h42l10 8v52Z',mid,'',0)+line('M11 25h7m-7 11h7m-7 12h7m46-23h6m-6 11h6m-6 12h6',shade,.8);
   // Door jamb, a partly open solid panel and a narrow dark gap, with an ordinary knob.
@@ -48,23 +111,14 @@ function cardPortraitHTML(c){
   subject+=path('m51 29 5-10 8-1 7 9-1 15-6 12-9-3-5-10Z',mid)+path('m51 28-9 1 2 11 6 3 5-7m11-8 8 1-1 10-5 3-4-6',shade)+path('m54 22 4-6 7 1 5 6-4 5-8-1Z',paper)+path('m57 40 9 1 1 10-5 5-7-6Z',shade)+eye(59,34)+line('m58 48 6 1m-2 2-1 3M20 65h6m19 0h6m8 1h6',ink,.9)+hatch('m18 36 5-4 5 3m0 5 6-5 6 4m-22 5 5-3 4 3m8 3 5-5 7 3m-18 7 5-4 5 2m-8-23 5 3m9-2 5 4m-23 35h6m10 0h6');
  }else if(kind==='person'){
   backdrop+=path('M8 66V20l15-9h39l10 9v46Z',mid,'',0)+path('M10 64V21l18-8h15L22 35v29Z',paper,'',0)+line('M14 56V25l12-7m37 39V21l-9-5',shade,.8)+hatch('M12 39l7-3m-7 8 7-3m-7 8 7-3m45-16 5 4m-5 1 5 4m-5 1 5 4');
-  const broad=role==='roadworker'||f==='giant'?4:0,female=profile.gender==='female'||['firewarden','stationkeeper'].includes(role),older=['nightwatch','lighthouse'].includes(role),jaw=seed%3;
+  const broad=role==='roadworker'||f==='giant'?4:0;
   const coatColor=role==='courier'?mid:role==='firewarden'||role==='roadworker'?accent:shade;
   // Adult proportions: smaller eyes, a defined jaw, longer neck and broad shoulders.
   subject+=path(`M${9-broad} 78 14 62 28 54 35 51h10l10 4 12 8 ${4+broad} 15Z`,coatColor)+path('m28 55 8-4h8l10 5-4 22H30Z',mid);
   subject+=path('m35 40-1 13 6 8 7-8-2-15Z',paper)+path('m40 45 5-5 2 13-6 6Z',mid,'',0);
-  if(female)subject+=path('M25 45V22l5-12 12-4 12 8 4 17-2 25-8-4H30l-7 5Z',shade);
-  else subject+=path('M27 30 26 20l6-12 13-2 10 10 1 15Z',older?mid:shade);
-  subject+=path(`M27 25 31 16 41 12 51 18 54 29 51 40 ${42+jaw} 48 ${34-jaw} 44 28 36Z`,paper);
-  subject+=path(`M43 14 51 18 54 29 51 40 ${42+jaw} 48 40 43 46 38 47 28Z`,mid,'',0)+path('m28 27-3-2-1 5 3 5m26-8 3-2 1 5-3 5',paper,ink,.85);
-  subject+=path(female?'M27 28 28 18l6-8 11-1 8 9 1 9-8-7-8-4-6 8Z':'M27 26 27 19l7-10 11-1 9 9v10l-6-9-9 4-6-3Z',older?mid:shade);
-  if(female)subject+=path('m27 23-2 16 3 10 4-3-2-14m23-10 3 15-2 15-5-5 3-11',shade);
-  subject+=eye(34,29)+eye(47,29)+line('m30 26 7-1m7 0 7 2',ink,1.1)+line('m41 29-3 9 5 1m-8 4 9-1m-7 4 5-1',ink,.85)+hatch('m29 34 3 2m-2 1 2 1m15 3 3-2m-4 5 3-2',.4);
-  if(older)subject+=line('m30 23 6-1m8 0 5 1m-19 9-2 2m23-2 2 2',ink,.65);
-  if(role==='lighthouse')subject+=path('m29 37 4 5 6 1 6-1 6-5-1 8-9 9-10-7Z',mid)+line('m33 44 4 5m5-4-1 5m6-8-2 5',ink,.65);
+  subject+=portraitPersonFace(variant==='blindfolded'?{...face,glasses:'none'}:face,{path,line,circle,ink,paper,light,shade,mid});
   // Lapels and pen hatching replace the former soft, smiling storybook silhouettes.
   subject+=path('m33 52 7 9-9 7-7-12Zm14 0-7 9 9 7 7-12Z',paper)+line('M40 61v17m-20-12-5 12m45-12 5 12',ink,1.15)+hatch('m14 67 8-6m-9 10 8-6m-9 10 8-6m36-6 8 7m-8-3 8 7m-34-1 6 3m17-3 6-3');
-  if(occupation==='teacher'||occupation==='clerk'||role==='stationkeeper')subject+=`<g fill="none" stroke="${ink}" stroke-width=".8"><path d="m29 27 9-1 1 6-8 1Zm15-1 9 1-2 6-8-1Zm-5 2h4m-14 1-3-1m27 1 2-1"/></g>`;
   if(occupation==='watch'||role==='nightwatch')subject+=path('M24 23v-5l9-8 15 1 9 9v3Z',shade)+path('m23 23 17-3 18 4-3 4-15-2-15 1Z',mid)+path('m38 13 5 1-1 5h-4Z',light)+path('m24 58 7-1-1 8-4 2-4-4Z',light);
   if(role==='roadworker'||occupation==='worker'&&role!=='firewarden'){
    if(variant!=='single-horn')subject+=path('M24 23 28 14l11-5 12 6 6 9Z',mid)+line('M23 25h35m-18-15v12',ink,1.6);

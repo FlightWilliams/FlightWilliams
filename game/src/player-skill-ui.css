@@ -1,0 +1,62 @@
+/* Keep the equipped action readable beside player health on every table. */
+.game-shell .player-life .life-title{gap:5px;min-width:0}
+.game-shell .player-life .life-title>.player-name{flex:1 1 auto;min-width:0}
+.game-shell .player-life .player-boss-skill-trigger{
+ display:inline-flex;align-items:center;justify-content:center;gap:4px;flex:0 0 auto;
+ width:auto;min-width:82px;max-width:206px;height:28px;min-height:28px;padding:3px 7px;
+ font-size:11px;line-height:1.2;white-space:nowrap;letter-spacing:0;
+}
+.game-shell .player-life .player-boss-skill-trigger::after{content:none}
+.game-shell .player-life .player-boss-skill-trigger>.player-boss-skill-label{
+ display:inline;flex:0 0 auto;max-width:none;overflow:visible;text-overflow:clip;white-space:nowrap;
+}
+.game-shell .player-life .player-boss-skill-trigger>.player-skill-icon{display:inline;font-size:11px}
+.game-shell .player-life .player-boss-skill-trigger small{display:inline-block;flex:0 1 auto;min-width:0;max-width:80px;overflow:hidden;text-overflow:ellipsis;font-size:8px;line-height:1.2}
+.game-shell .player-life .player-boss-skill-trigger[data-skill-equipped="true"]{border-color:#c5a35d;color:#f3d38e}
+.game-shell .player-life .player-boss-skill-trigger[aria-expanded="true"]{border-color:#f4d28c;box-shadow:0 0 0 1px #e5bd6e66,inset 0 0 10px #c79a3822}
+.player-boss-skill-trigger:focus-visible,.player-boss-skill-popover button:focus-visible,.player-boss-skill-popover summary:focus-visible{outline:2px solid #f6dc9d;outline-offset:2px}
+.player-boss-skill-popover{max-width:calc(100vw - 16px);max-height:calc(100dvh - 16px)}
+.player-boss-skill-popover.is-effect-hint{width:340px;border-radius:7px}
+.player-boss-skill-popover.is-effect-hint header{padding:10px 12px 8px;gap:8px}
+.player-boss-skill-popover.is-effect-hint header small{font-size:9px;letter-spacing:.04em}
+.player-boss-skill-popover.is-effect-hint h2{font-size:18px;line-height:1.3;overflow-wrap:anywhere}
+.player-boss-skill-popover.is-effect-hint .player-boss-skill-scroll{padding:10px 12px 12px}
+.player-boss-skill-popover .player-skill-effect-copy{margin-bottom:8px}
+.player-boss-skill-popover .player-skill-effect-copy>p{font-size:13px;line-height:1.7;color:#ead8b0;margin-bottom:8px}
+.player-boss-skill-popover .player-skill-effect-copy dl{font-size:11px;margin:7px 0 0}
+.player-boss-skill-popover .player-skill-effect-copy dl>div{grid-template-columns:52px minmax(0,1fr);gap:7px;margin:4px 0}
+.player-boss-skill-popover .player-skill-effect-copy dt{overflow-wrap:anywhere}
+.player-boss-skill-popover .player-skill-status{padding:6px 8px;margin:8px 0;color:#efd08f;border:1px solid #b38b4655;border-radius:4px;background:#a5792520;font-size:11px;line-height:1.5}
+.player-boss-skill-popover .player-skill-action-row{display:flex;align-items:stretch;gap:8px;margin-top:10px;flex-wrap:wrap}
+.player-boss-skill-popover .player-skill-action-row>button{flex:1 1 110px;min-height:40px;min-width:0;padding:8px 9px;font-size:12px;white-space:normal;line-height:1.35}
+.player-boss-skill-popover .player-skill-action-row>button.pri{flex-grow:1.4}
+.player-boss-skill-popover header>button{min-height:36px;min-width:40px;padding:5px 8px}
+.player-boss-skill-popover .player-boss-skill-options article>button{min-height:40px;min-width:52px}
+@media(max-width:760px) and (orientation:portrait){
+ .game-shell .player-life .life-title{gap:4px}
+ .game-shell .player-life .player-boss-skill-trigger{min-width:78px;max-width:98px;height:27px;min-height:27px;padding:3px 5px;font-size:10px;gap:3px}
+ .game-shell .player-life .player-boss-skill-trigger small{display:none}
+ .game-shell .player-life .player-boss-skill-trigger>.player-skill-icon{font-size:10px}
+}
+@media(max-width:360px) and (orientation:portrait){
+ .game-shell .player-life .life-title{gap:3px}
+ .game-shell .player-life .player-boss-skill-trigger{min-width:76px;max-width:95px;height:25px;min-height:25px;padding:3px 4px;font-size:10px}
+ .game-shell .player-life .player-boss-skill-trigger>.player-skill-icon{display:none}
+}
+@media(pointer:coarse){
+ .player-boss-skill-popover .player-skill-action-row>button,.player-boss-skill-popover header>button,.player-boss-skill-popover .player-boss-skill-options article>button{min-height:44px}
+}
+@media(max-height:520px) and (min-aspect-ratio:1.25/1){
+ .game-shell .side-hud>.player-life{height:64px;min-height:64px}
+ .game-shell .player-life .life-title{display:grid;grid-template-columns:minmax(0,1fr) auto;grid-template-rows:11px 24px;gap:1px 3px;min-height:36px;height:36px;padding-left:0;align-items:center}
+ .game-shell .player-life .life-title>.player-name{grid-column:1;grid-row:1;font-size:9px}
+ .game-shell .player-life .life-title>b{grid-column:2;grid-row:1;font-size:10px}
+ .game-shell .player-life .life-title>b small{font-size:7px}
+ .game-shell .player-life .player-boss-skill-trigger{grid-column:1/-1;grid-row:2;width:100%;min-width:0;max-width:none;min-height:24px;height:24px;padding:2px 3px;font-size:9px;gap:2px}
+ .game-shell .player-life .player-boss-skill-trigger>.player-skill-icon,.game-shell .player-life .player-boss-skill-trigger small{display:none}
+ .game-shell .player-life .candles{padding-top:11px;padding-bottom:0}
+ .player-boss-skill-popover.is-effect-hint header{padding:6px 10px}
+ .player-boss-skill-popover.is-effect-hint .player-boss-skill-scroll{padding:8px 10px 10px}
+ .player-boss-skill-popover .player-skill-effect-copy>p{font-size:12px;line-height:1.55}
+ .player-boss-skill-popover .player-skill-action-row{margin-top:8px}
+}

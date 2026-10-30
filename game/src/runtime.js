@@ -1580,7 +1580,7 @@ function pileHTML(side){
  const n=side==='p'?G.draw.length:G.ed.length,total=side==='p'?G.deck.length:G.st.dk.length,layers=Math.min(n,40),depth=Math.min(n*.55,22);
  return `<div class="deck-wrap">${side==='p'?'<button class="deck-access-pile" data-a="deckmanager" aria-label="查看并管理我的卡组">':''}<div class="deck-pile" id="deck-${side}" role="img" aria-label="${side==='p'?'我方':'敌方'}牌堆，剩余${n}张">${n?Array.from({length:layers},(_,i)=>`<div class="deck-layer" style="transform:translate(${i*depth/Math.max(1,layers-1)}px,${-i*depth/Math.max(1,layers-1)}px)"></div>`).join(''):'<span class="deck-empty">空</span>'}</div><div class="deck-info"><span class="deck-name">${side==='p'?'我方':'敌方'}牌堆</span><span class="deck-count"><b>${n}</b><small> / ${total}</small></span></div>${side==='p'?'<span class="deck-management-hint" aria-hidden="true">≡</span></button>':''}</div>`;
 }
-function rulesHTML(){return `<div class="rules-copy"><p class="drawer-eyebrow">THE RULES OF EMBERS</p><h2>落牌之前</h2><p>你与敌人各有7点生命、五个战斗格。攻击空位或飞越对手会直击生命，生命归零即落败。</p><button class="tutorial-home-link" data-a="tutorial">重看新手指引 · 界面与出牌</button><button class="tutorial-home-link" data-a="catalog">浏览全部卡牌图鉴</button><h3>卡组与备用</h3><p>出战上限36张，推荐24张；起始卡组至少12张。点牌堆图标查看卡组，按费用、功能、属性或名称排序。排序只改变显示，不改变抽牌顺序。默认初始卡组16张，推荐24张。奖励卡直接加入出战，达到36张上限后才提示整理；已满36张时新奖励放入备用，备用不参加抽牌。</p>${elementRulesHTML()}<h3>拿起与落牌</h3><p>点击可打出的手牌将它拿起。电脑上移动鼠标预览落点，再点击我方格子落牌；手机上先点选手牌，再点击格子落牌，也可按住我方牌桌滑动预览，松手落牌。需要献祭时，先点选足够的成熟祭品。拿起的卡牌与对位敌卡右上角显示克制箭头，落牌后继续显示；空位或无克制关系时不显示。预览不会消耗手牌或祭品。再次点击所选手牌，或点击“取消”，可放回手牌；电脑也可按Esc或右键取消。</p><h3>抽牌与献祭</h3><p>双方基础起手各5张，包含1张余灰，首回合无需再抽牌。每轮回首关掷币后，金币化为1张额外余灰交给后手：先手5张、后手6张。额外余灰不消耗牌库，仍需自行部署并存活到下一回合才能献祭。正式对战由空牌桌开场，双方自行部署；新部署的祭品须存活到下一回合才能献祭。之后每回合免费获得1张余灰，再选择抽1张卡组牌或再取余灰。费用●代表需要献祭的友军数量；新召唤的牌下回合才能献祭。场上余灰标明“新入场”或“可献祭”，敌我使用相同规则。</p><h3>永久收藏与死亡身份</h3><p>未获得的牌以问号背面封存，不能查看能力或自由编入；获得并实际加入出战后才永久解锁。备用中的新牌须先编入并保存。普通出战同名最多2张；金辉在出战与备用中合计最多1张，余灰不受同名限制。每轮16关内最多暂存1张死亡身份，第二次死亡可保留旧卡或替换新卡；重试自动携带，通关本轮16关后才永久归档并可自由组卡。</p><h3>死亡余灰的成长</h3><p>正式战斗的死亡次数在当前浏览器累计保存。每第3次死亡（第3、6、9次等）单独有33%概率生成比上一份死亡遗骸更强的身份；费用可为1、2或3费，成长存在上限。没有命中不会消耗或削弱已保留的身份。每轮仍最多暂存一张，第二次死亡可比较旧卡与新卡后保留或替换；通关16关后才永久归档，练习不计死亡。</p><h3>我方装备Boss技能</h3><p>与守关Boss同名的普通或金辉卡部署在我方场上后，可点击我方生命旁的技能按钮装备其专属主动技能；仅在手牌或卡组中不能装备。每回合最多装备一次，从第2回合开始启用。每次成功发动额外消耗一张未冻结的手牌余灰；发动后下一回合冷却，再下一回合才能再次发动，原技能的弃牌、生命等代价仍需另外支付。部署技能在我方部署阶段点击发动；攻击后技能先点击准备，在双方攻击结束后结算。效果中的友军、敌军与代价按我方视角计算。已装备技能可沿用至下回合，来源卡离场或暂时化灰后失效，不能靠换卡或换技能绕过次数限制。</p><h3>Boss主动技能与弃牌</h3><p>每位守关者使用与自身角色和技能搭配的专属卡组。Boss名字旁显示专属技能，点按或悬停阅读时机、代价与本回合状态。从第2回合开始，每次成功发动消耗一张未冻结的手牌余灰，随后跳过下一回合，再下一回合才能重用；没有目标或代价不足时，不扣余灰也不进入冷却，敌我一致。部署类在敌方部署时使用，攻击后类在双方攻击结算后使用。主动丢弃手牌不触发亡语、死亡抽牌或复燃，抽牌仍消耗有限牌堆。双方弃牌堆可在战斗记录中查看。</p><p>暂时余灰化会覆盖玩家下一次完整行动，之后恢复原卡当前攻血与成长，不回满血、不重复入场。余灰被杀或献祭后不再恢复，也不触发原卡亡语；刚恢复的卡有一轮再次变形免疫。</p><h3>金色稀有与亡语</h3><p>共有${POOL.filter(c=>c.rarity==='rare'&&!c.token).length}张金辉卡，含全部96位轮回Boss与旧版收藏，攻防均高于对应普通版。普通通关奖励有5%概率出现当前Boss的金辉，可从三张中任选一张。每个轮回通关第16关后，必定出现该作品三张不同Boss金辉卡，任选一张加入卡组。成长卡每次以自身攻击击杀敌方卡牌后攻击加1，直击生命或中毒击杀不触发。亡语在死亡和献祭时触发。金色小蜘蛛优先生成于原格与最近空格，位置不足则进入手牌；召唤物须存活到下一回合才能献祭。亡语召唤物不计入稀有收集卡。</p><h3>帕奇与冻结</h3><p>帕奇出场后，可选一张自己的手牌冻结。冻结本回合与下一回合，期间不能打出；第三回合开始自动解冻并减少1点献祭费用，最低0费。手牌上显示剩余回合。右键、Esc或“跳过”可放弃本次效果；已完成的部署不会撤回。冻结与减费仅在本次对战中有效。</p><h3>走位与先攻</h3><p>点选手牌，再选祭品与落点。选错时按鼠标右键或Esc，手机点击“取消”，即可清除选牌、祭品和位移选择。取消仅清除待确认选择，已完成的出牌或移动不会撤回。未选手牌时，点击带横移／换位的友军，再用左右按钮调整位置，每回合一次。换位后双方均不能再次移动；击退不追加攻击。</p><p>每轮回首关，先选金币正反，再点击金龙币投掷：猜中我方先手，否则Boss先手。金币伴随叮声和旋转声落定，再化成余灰交给后手。之后每位Boss的开场先手交替；同一场内逐回合交换先部署与先攻的一方。后手转先手时，Boss可能在回合切换前后连续部署；中央会显示新回合提示，战斗记录按回合分隔，这不代表新放下的余灰可在同回合献祭。双方都部署后才结算攻击，每张存活卡每回合最多攻击一次。守护可以拦截飞行；吸血和中毒只有造成伤害才生效。</p><h3>护盾与重战</h3><p>护盾完整抵消下一次受到的伤害，随后消失；没有造成伤害的攻击不消耗护盾。普通敌卡死亡不再因魂系关卡规则自动生成余灰，只有卡牌自身明确写出的能力才会留下遗骸；新生成的牌仍须等下一回合才能献祭。</p><p>首页和第一关可选择重战已经击败的单个Boss，未通关关卡锁定。重战使用最近保存的卡组，不覆盖主线存档，也不发通关奖励或累计死亡成长。</p><h3>轮回配乐</h3><p>每个轮回按第1–4、5–8、9–12、13–15关分段切换原创配乐，第16关另用最终Boss曲，共30首。顶部音乐按钮可独立开关，按钮说明显示当前曲名与关卡段；静音偏好保存在当前浏览器，切后台暂停、返回恢复。游戏内本地合成，无需额外下载音乐。</p><h3>六重轮回</h3><p>黑暗之魂Ⅰ → 黑暗之魂Ⅱ → 黑暗之魂Ⅲ → 血源诅咒 → 只狼 → 艾尔登法环。每轮16位不同守关者，共96关；难度与电脑决策逐轮提升。通关后沿用已获得的出战卡组与备用牌。晋阶和跨难度卡组保存在当前浏览器，回到首页可继续管理；主线在安全出牌节点及关卡结束后自动保存，重新载入会继续上次未完成的位置；未领取奖励保留。第36回合仍未分胜负时，按生命、场面战力裁决；完全同分玩家获胜。</p><p class="drawer-note">手牌较多时可左右滑动；手机长按卡牌查看介绍与完整技能，也可选牌后点“详情”。主线安全节点自动保存；新手与重战不覆盖主线存档。</p></div>`}
+function rulesHTML(){return `<div class="rules-copy"><p class="drawer-eyebrow">THE RULES OF EMBERS</p><h2>落牌之前</h2><p>你与敌人各有7点生命、五个战斗格。攻击空位或飞越对手会直击生命，生命归零即落败。</p><button class="tutorial-home-link" data-a="tutorial">重看新手指引 · 界面与出牌</button><button class="tutorial-home-link" data-a="catalog">浏览全部卡牌图鉴</button><h3>卡组与备用</h3><p>出战上限36张，推荐24张；起始卡组至少12张。点牌堆图标查看卡组，按费用、功能、属性或名称排序。排序只改变显示，不改变抽牌顺序。默认初始卡组16张，推荐24张。奖励卡直接加入出战，达到36张上限后才提示整理；已满36张时新奖励放入备用，备用不参加抽牌。</p>${elementRulesHTML()}<h3>拿起与落牌</h3><p>点击可打出的手牌将它拿起。电脑上移动鼠标预览落点，再点击我方格子落牌；手机上先点选手牌，再点击格子落牌，也可按住我方牌桌滑动预览，松手落牌。需要献祭时，先点选足够的成熟祭品。拿起的卡牌与对位敌卡右上角显示克制箭头，落牌后继续显示；空位或无克制关系时不显示。预览不会消耗手牌或祭品。再次点击所选手牌，或点击“取消”，可放回手牌；电脑也可按Esc或右键取消。</p><h3>抽牌与献祭</h3><p>双方基础起手各5张，包含1张余灰，首回合无需再抽牌。每轮回首关掷币后，金币化为1张额外余灰交给后手：先手5张、后手6张。额外余灰不消耗牌库，仍需自行部署并存活到下一回合才能献祭。正式对战由空牌桌开场，双方自行部署；新部署的祭品须存活到下一回合才能献祭。之后每回合免费获得1张余灰，再选择抽1张卡组牌或再取余灰。费用●代表需要献祭的友军数量；新召唤的牌下回合才能献祭。场上余灰标明“新入场”或“可献祭”，敌我使用相同规则。</p><h3>永久收藏与死亡身份</h3><p>未获得的牌以问号背面封存，不能查看能力或自由编入；获得并实际加入出战后才永久解锁。备用中的新牌须先编入并保存。普通出战同名最多2张；金辉在出战与备用中合计最多1张，余灰不受同名限制。每轮16关内最多暂存1张死亡身份，第二次死亡可保留旧卡或替换新卡；重试自动携带，通关本轮16关后才永久归档并可自由组卡。</p><h3>死亡余灰的成长</h3><p>正式战斗的死亡次数在当前浏览器累计保存。每第3次死亡（第3、6、9次等）单独有33%概率生成比上一份死亡遗骸更强的身份；费用可为1、2或3费，成长存在上限。没有命中不会消耗或削弱已保留的身份。每轮仍最多暂存一张，第二次死亡可比较旧卡与新卡后保留或替换；通关16关后才永久归档，练习不计死亡。</p><h3>我方装备Boss技能</h3><p>与守关Boss同名的普通或金辉卡部署在我方场上后，可点击我方生命旁的技能按钮装备其专属主动技能；仅在手牌或卡组中不能装备。每回合最多装备一次，从第2回合开始启用。每次成功发动额外消耗一张未冻结的手牌余灰；发动后下一回合冷却，再下一回合才能再次发动，原技能的弃牌、生命等代价仍需另外支付。部署技能在我方部署阶段点击发动；攻击后技能先点击准备，在双方攻击结束后结算。效果中的友军、敌军与代价按我方视角计算。已装备技能可沿用至下回合，来源卡离场或暂时化灰后失效，不能靠换卡或换技能绕过次数限制。</p>${playerSkillInteractionRuleHTML()}<h3>Boss主动技能与弃牌</h3><p>每位守关者使用与自身角色和技能搭配的专属卡组。Boss名字旁显示专属技能，点按或悬停阅读时机、代价与本回合状态。从第2回合开始，每次成功发动消耗一张未冻结的手牌余灰，随后跳过下一回合，再下一回合才能重用；没有目标或代价不足时，不扣余灰也不进入冷却，敌我一致。部署类在敌方部署时使用，攻击后类在双方攻击结算后使用。主动丢弃手牌不触发亡语、死亡抽牌或复燃，抽牌仍消耗有限牌堆。双方弃牌堆可在战斗记录中查看。</p><p>暂时余灰化会覆盖玩家下一次完整行动，之后恢复原卡当前攻血与成长，不回满血、不重复入场。余灰被杀或献祭后不再恢复，也不触发原卡亡语；刚恢复的卡有一轮再次变形免疫。</p><h3>金色稀有与亡语</h3><p>共有${POOL.filter(c=>c.rarity==='rare'&&!c.token).length}张金辉卡，含全部96位轮回Boss与旧版收藏，攻防均高于对应普通版。普通通关奖励有5%概率出现当前Boss的金辉，可从三张中任选一张。每个轮回通关第16关后，必定出现该作品三张不同Boss金辉卡，任选一张加入卡组。成长卡每次以自身攻击击杀敌方卡牌后攻击加1，直击生命或中毒击杀不触发。亡语在死亡和献祭时触发。金色小蜘蛛优先生成于原格与最近空格，位置不足则进入手牌；召唤物须存活到下一回合才能献祭。亡语召唤物不计入稀有收集卡。</p><h3>帕奇与冻结</h3><p>帕奇出场后，可选一张自己的手牌冻结。冻结本回合与下一回合，期间不能打出；第三回合开始自动解冻并减少1点献祭费用，最低0费。手牌上显示剩余回合。右键、Esc或“跳过”可放弃本次效果；已完成的部署不会撤回。冻结与减费仅在本次对战中有效。</p><h3>走位与先攻</h3><p>点选手牌，再选祭品与落点。选错时按鼠标右键或Esc，手机点击“取消”，即可清除选牌、祭品和位移选择。取消仅清除待确认选择，已完成的出牌或移动不会撤回。未选手牌时，点击带横移／换位的友军，再用左右按钮调整位置，每回合一次。换位后双方均不能再次移动；击退不追加攻击。</p><p>每轮回首关，先选金币正反，再点击金龙币投掷：猜中我方先手，否则Boss先手。金币伴随叮声和旋转声落定，再化成余灰交给后手。之后每位Boss的开场先手交替；同一场内逐回合交换先部署与先攻的一方。后手转先手时，Boss可能在回合切换前后连续部署；中央会显示新回合提示，战斗记录按回合分隔，这不代表新放下的余灰可在同回合献祭。双方都部署后才结算攻击，每张存活卡每回合最多攻击一次。守护可以拦截飞行；吸血和中毒只有造成伤害才生效。</p><h3>护盾与重战</h3><p>护盾完整抵消下一次受到的伤害，随后消失；没有造成伤害的攻击不消耗护盾。普通敌卡死亡不再因魂系关卡规则自动生成余灰，只有卡牌自身明确写出的能力才会留下遗骸；新生成的牌仍须等下一回合才能献祭。</p><p>首页和第一关可选择重战已经击败的单个Boss，未通关关卡锁定。重战使用最近保存的卡组，不覆盖主线存档，也不发通关奖励或累计死亡成长。</p><h3>轮回配乐</h3><p>每个轮回按第1–4、5–8、9–12、13–15关分段切换原创配乐，第16关另用最终Boss曲，共30首。顶部音乐按钮可独立开关，按钮说明显示当前曲名与关卡段；静音偏好保存在当前浏览器，切后台暂停、返回恢复。游戏内本地合成，无需额外下载音乐。</p><h3>六重轮回</h3><p>黑暗之魂Ⅰ → 黑暗之魂Ⅱ → 黑暗之魂Ⅲ → 血源诅咒 → 只狼 → 艾尔登法环。每轮16位不同守关者，共96关；难度与电脑决策逐轮提升。通关后沿用已获得的出战卡组与备用牌。晋阶和跨难度卡组保存在当前浏览器，回到首页可继续管理；主线在安全出牌节点及关卡结束后自动保存，重新载入会继续上次未完成的位置；未领取奖励保留。第36回合仍未分胜负时，按生命、场面战力裁决；完全同分玩家获胜。</p><p class="drawer-note">手牌较多时可左右滑动；手机长按卡牌查看介绍与完整技能，也可选牌后点“详情”。主线安全节点自动保存；新手与重战不覆盖主线存档。</p></div>`}
 function selectedCard(){return G?.sel!=null?G.hand[G.sel]:G?.moveSel!=null?G.p[G.moveSel]:null}
 function drawerHTML(){
  let title='篝火手册',content=rulesHTML();
@@ -2224,13 +2224,15 @@ function equipPlayerBossSkill(index){
  const state=playerBossSkillState();if(!state||!playerBossSkillCanAct()||state.equipTurn===G.turn||!Number.isInteger(index))return false;
  const card=G.p[index],ability=playerBossSkillForCard(card);if(!ability||card.h<=0)return false;
  state.source=card;state.equippedBoss=ability.boss;state.equipTurn=G.turn;state.armed=false;state.feedback=`已装备「${ability.name}」，本回合不能改装其他技能。`;
- logBattle(`我方从第${index+1}格${card.n}装备「${ability.name}」`);return true;
+ logBattle(`我方从第${index+1}格${card.n}装备「${ability.name}」`);closePlayerBossSkillPopover(false);return true;
 }
 function playerBossSkillEquippedAbility(){const state=playerBossSkillState();return state?.source?playerBossSkillForCard(state.source):null}
 function playerBossSkillClearSelection(){G.sel=null;G.moveSel=null;G.sac?.clear()}
 function applyPlayerBossAbility(ability,state){
+ const visualBefore=typeof capturePlayerSkillVisualState==='function'?capturePlayerSkillVisualState():null;
  const applied=bossExecutePaidAbility('p',state,ability,state.source);
- if(applied){playerBossSkillClearSelection();state.turnUsed=G.turn;state.usedCount++;state.history.push({turn:G.turn,boss:ability.boss,name:ability.name,phase:ability.timing});state.feedback=`已发动「${ability.name}」。`;logBattle(`我方发动${ability.boss}的「${ability.name}」`)}
+ if(applied&&typeof queuePlayerSkillVisualChanges==='function')queuePlayerSkillVisualChanges(visualBefore,ability);
+ if(applied){closePlayerBossSkillPopover(false);playerBossSkillClearSelection();state.turnUsed=G.turn;state.usedCount++;state.history.push({turn:G.turn,boss:ability.boss,name:ability.name,phase:ability.timing});state.feedback=`已发动「${ability.name}」。`;logBattle(`我方发动${ability.boss}的「${ability.name}」`)}
  else state.feedback=!bossSkillReady(state)?'技能冷却中，须休息一个完整回合。':bossSkillAshIndex('p')<0?'缺少1张可用手牌余灰；本次未发动。':'当前没有合法目标或其他代价不足；余灰已保留，本次未发动。';
  return applied;
 }
@@ -2239,7 +2241,7 @@ function usePlayerBossSkill(){
  if(!state||!ability||!playerBossSkillCanAct()||!bossSkillReady(state)||bossSkillAshIndex('p')<0||state.armed)return false;
  if(ability.timing==='after_attack'){
   playerBossSkillClearSelection();state.armed=true;state.armedTurn=G.turn;state.feedback=`已准备「${ability.name}」，请留1张手牌余灰；攻击结束后满足条件才支付并发动。`;
-  logBattle(`我方准备「${ability.name}」，等待攻击结束`);return true;
+  logBattle(`我方准备「${ability.name}」，等待攻击结束`);closePlayerBossSkillPopover(false);return true;
  }
  return applyPlayerBossAbility(ability,state);
 }
@@ -2258,60 +2260,11 @@ function playerBossSkillStatus(){
  if(state.source)return '可发动';
  return playerBossSkillOptions().length?'可装备':'需Boss卡在场';
 }
-function playerBossSkillButtonHTML(){
- if(!G)return '';
- const ability=G.tutorial?null:playerBossSkillEquippedAbility(),label=ability?.name||'装备战技',status=playerBossSkillStatus();
- return `<button type="button" class="player-boss-skill-trigger" data-player-boss-skill="open" aria-haspopup="dialog" aria-expanded="${!!PLAYER_BOSS_SKILL_UI}" aria-controls="player-boss-skill-panel" aria-label="我方Boss技能：${esc(label)}；${esc(status)}" ${G.tutorial?'disabled':''}><span aria-hidden="true">◇</span><span class="player-boss-skill-label">${esc(label)}</span><small>${esc(status)}</small></button>`;
+__PLAYER_SKILL_UI_SOURCE__
+function playerSkillInteractionRuleHTML(){
+ const en=typeof gameLanguage!=='undefined'&&gameLanguage==='en';
+ return '<p>'+(en?'Equipping closes the explanation and changes the button to Activate Skill. Hover on desktop or tap on a phone to read the effect, then confirm with Activate Skill in the hint. Changes to card numbers show their actual increase or decrease; powers resolved after attacks show their changes when they resolve.':'装备战技后，说明自动收起，按钮改为“发动战技”。电脑悬停或手机点按可查看效果，再点击提示中的“发动战技”确认。卡牌数值变化会显示实际增减；攻击后结算的战技在生效时显示变化。')+'</p>';
 }
-function playerBossSkillDescription(ability){
- if(!ability)return '';
- // Encounter text uses the enemy Boss's viewpoint. Make the card owner's viewpoint explicit.
- const text=ability.description.replace(/玩家/g,'对手').replace(/Boss/g,'我方').replace(/敌方/g,'对方');
- return `<p>${esc(text)}</p><dl><div><dt>时机</dt><dd>${ability.timing==='after_attack'?'点击准备后，在本回合攻击结束时判定并支付余灰。':'自己的部署阶段点击发动。'}</dd></div><div><dt>冷却</dt><dd>成功发动后休息下一完整回合，第2个回合才可再次发动；换装不重置冷却。</dd></div><div><dt>代价</dt><dd>固定消耗1张未被冻结的手牌余灰；${esc((ability.costText||'其余代价与对应Boss技能相同。').replace(/无额外代价。/g,'没有其他代价。').replace(/Boss/g,'己方').replace(/敌方/g,'对方'))}需要弃牌等代价时另行支付。</dd></div></dl>`;
-}
-function playerBossSkillPanelHTML(){
- const state=playerBossSkillState(),ability=playerBossSkillEquippedAbility(),canAct=playerBossSkillCanAct(),options=playerBossSkillOptions(),ready=bossSkillReady(state),hasAsh=bossSkillAshIndex('p')>=0;
- return `<header><div><small>借来守关者的力量</small><h2 id="player-boss-skill-title">我方Boss技能</h2></div><button type="button" data-player-boss-skill="close" aria-label="关闭我方Boss技能">关闭 ×</button></header><div class="player-boss-skill-scroll"><p class="player-boss-skill-rule">普通或金辉的同名Boss卡在场，就能装备对应主动技能。第2回合起，每回合最多装备一次；每次发动消耗1张手牌余灰，并休息下一完整回合。装备保留到下回合，来源离场或化灰则失效。</p><section class="player-boss-skill-equipped"><h3>${ability?esc(ability.boss)+' · '+esc(ability.name):'尚未装备'}</h3>${ability?playerBossSkillDescription(ability):'<p>先把拥有主动技能的Boss卡部署到己方战场。</p>'}${ability?`<button class="pri" type="button" data-player-boss-skill="use" ${canAct&&ready&&hasAsh&&!state.armed?'':'disabled'}>${state.armed?'已准备 · 等待攻击结束':state.turnUsed===G.turn?'本回合已使用':!ready?'冷却中 · 本回合休息':!hasAsh?'缺少手牌余灰':ability.timing==='after_attack'?'准备技能':'发动技能'}</button>`:''}</section><p class="player-boss-skill-feedback" role="status">${esc(state.feedback||playerBossSkillStatus())}</p><h3 class="player-boss-skill-options-title">场上可装备的Boss</h3><div class="player-boss-skill-options">${options.map(({card,index,ability:cfg})=>`<article><div><b>${esc(card.n)}</b><small>第${index+1}格 · ${esc(cfg.name)}${state.source===card?' · 当前装备':''}</small></div><button type="button" data-player-boss-skill="equip" data-player-skill-lane="${index}" ${canAct&&state.equipTurn!==G.turn?'':'disabled'}>装备</button><details><summary>技能效果与代价</summary>${playerBossSkillDescription(cfg)}</details></article>`).join('')||'<p>目前没有可提供主动技能的Boss卡。</p>'}</div><p class="player-boss-skill-note">技能中的“己方”指你，“对手”指电脑。手牌余灰固定消耗，不触发献祭或亡语；弃牌、场上献祭和生命等原技能代价另由你支付，抽牌消耗自己的有限牌库。普通卡的印刷技能照常生效。</p></div>`;
-}
-function positionPlayerBossSkillPopover(){
- if(!PLAYER_BOSS_SKILL_UI)return;
- const panel=document.getElementById('player-boss-skill-panel'),trigger=document.querySelector('.player-boss-skill-trigger');if(!panel||!trigger)return;
- const view=window.visualViewport,w=view?.width||innerWidth,h=view?.height||innerHeight,ox=view?.offsetLeft||0,oy=view?.offsetTop||0,r=trigger.getBoundingClientRect();
- panel.style.maxWidth=Math.max(240,w-16)+'px';panel.style.maxHeight=Math.max(140,h-16)+'px';
- const size=panel.getBoundingClientRect(),left=Math.max(ox+8,Math.min(r.left,ox+w-size.width-8)),above=r.top-size.height-6,top=above>=oy+8?above:Math.max(oy+8,Math.min(r.bottom+6,oy+h-size.height-8));panel.style.left=left+'px';panel.style.top=top+'px';
-}
-function refreshPlayerBossSkillPopover(){
- const ui=PLAYER_BOSS_SKILL_UI;if(!ui)return;
- if(!G||ui.game!==G||OV!==null||G.tutorial||(typeof DM!=='undefined'&&DM)||(typeof HOLD_DETAIL!=='undefined'&&HOLD_DETAIL)||(typeof infoPanel!=='undefined'&&infoPanel)){closePlayerBossSkillPopover(false);return}
- const panel=document.getElementById('player-boss-skill-panel');if(!panel)return;
- const html=playerBossSkillPanelHTML();if(panel._playerSkillMarkup!==html){const scroll=panel.querySelector('.player-boss-skill-scroll')?.scrollTop||0;panel.innerHTML=html;panel._playerSkillMarkup=html;panel.querySelector('.player-boss-skill-scroll').scrollTop=scroll}
- const trigger=document.querySelector('.player-boss-skill-trigger');trigger?.setAttribute('aria-expanded','true');positionPlayerBossSkillPopover();
-}
-function openPlayerBossSkillPopover(){
- if(!G||G.tutorial||OV!==null)return;
- if(PLAYER_BOSS_SKILL_UI){refreshPlayerBossSkillPopover();return}
- if(typeof closeBossAbilityPopover==='function')closeBossAbilityPopover(false);
- const panel=document.createElement('section');panel.id='player-boss-skill-panel';panel.className='player-boss-skill-popover';panel.setAttribute('role','dialog');panel.setAttribute('aria-labelledby','player-boss-skill-title');
- PLAYER_BOSS_SKILL_UI={game:G};document.body.appendChild(panel);refreshPlayerBossSkillPopover();playerBossSkillUITimer=setInterval(refreshPlayerBossSkillPopover,250);
- panel.querySelector('[data-player-boss-skill="close"]')?.focus({preventScroll:true});
-}
-function closePlayerBossSkillPopover(restoreFocus=true){
- const active=PLAYER_BOSS_SKILL_UI;PLAYER_BOSS_SKILL_UI=null;clearInterval(playerBossSkillUITimer);playerBossSkillUITimer=0;
- if(typeof document==='undefined')return;document.getElementById('player-boss-skill-panel')?.remove();const trigger=document.querySelector('.player-boss-skill-trigger');trigger?.setAttribute('aria-expanded','false');if(active&&restoreFocus)trigger?.focus({preventScroll:true});
-}
-document.addEventListener('click',event=>{
- const button=event.target.closest('[data-player-boss-skill]');if(!button)return;
- event.preventDefault();event.stopImmediatePropagation();const action=button.dataset.playerBossSkill;
- if(action==='close'){closePlayerBossSkillPopover();return}if(action==='open'){openPlayerBossSkillPopover();return}
- if(action==='equip')equipPlayerBossSkill(Number(button.dataset.playerSkillLane));
- if(action==='use'){usePlayerBossSkill();if(typeof chk==='function')chk()}
- if(typeof render==='function')render();refreshPlayerBossSkillPopover();
-},true);
-document.addEventListener('pointerdown',event=>{if(!PLAYER_BOSS_SKILL_UI||event.button!==0||event.target.closest('.player-boss-skill-popover,.player-boss-skill-trigger'))return;closePlayerBossSkillPopover(false)},true);
-document.addEventListener('contextmenu',event=>{if(!PLAYER_BOSS_SKILL_UI)return;event.preventDefault();event.stopImmediatePropagation();closePlayerBossSkillPopover()},true);
-document.addEventListener('keydown',event=>{if(!PLAYER_BOSS_SKILL_UI||event.key!=='Escape')return;event.preventDefault();event.stopImmediatePropagation();closePlayerBossSkillPopover()},true);
-document.addEventListener('visibilitychange',()=>{if(document.hidden)closePlayerBossSkillPopover(false)});
-window.addEventListener('resize',positionPlayerBossSkillPopover);window.visualViewport?.addEventListener('resize',positionPlayerBossSkillPopover);window.visualViewport?.addEventListener('scroll',positionPlayerBossSkillPopover);
 // A card becomes permanent knowledge only after it has entered the player's deck.
 const COLLECTION_STORAGE='mz_collection_v1';
 let collectedNames=new Set(),permanentIdentities=new Map(),collectionInitialized=false;
@@ -3844,6 +3797,7 @@ if(typeof window!=='undefined')window.addEventListener('pagehide',()=>checkpoint
 
 __I18N_DATA__
 __I18N_SOURCE__
+__PLAYER_SKILL_EFFECTS_SOURCE__
 initializeCollection();initializeIdentity();
 checkpointRestore();
 render();

@@ -6,7 +6,7 @@
   "bossEntrances": 96,
   "musicTracks": 30,
   "sounds": "assets/sounds.9dd4337a50d2.js",
-  "script": "assets/pact.d074fb978cd8.js",
-  "style": "assets/table.98a856472235.css",
-  "scriptSha256": "d074fb978cd8382e22ba0d927b3291d283de7e05c87f0b9c434e119fc540d564"
+  "script": "assets/pact.9f0610d1cfa6.js",
+  "style": "assets/table.46b08f8f1299.css",
+  "scriptSha256": "9f0610d1cfa61b29e09e0eebafaeb8c16b7d2e79626b327a5a77d0efe32a0e6c"
 }

@@ -11,8 +11,10 @@ def fingerprint(stem,extension,text):
 cards=json.loads(read('data/cards-en.json'));strings=json.loads(read('data/ui-en.json'));assert len(cards)==988
 locale_data='const I18N_CARDS='+json.dumps(cards,ensure_ascii=False,separators=(',',':'))+';\nconst I18N_STRINGS='+json.dumps(strings,ensure_ascii=False,separators=(',',':'))+';\n'
 runtime=read('src/runtime.js').replace('__I18N_DATA__',locale_data).replace('__I18N_SOURCE__',read('src/i18n.js'))
-assert '__I18N_'not in runtime
-script=fingerprint('game','js',runtime);style=fingerprint('game','css',read('src/table.css'))
+for token,file in [('__PLAYER_SKILL_UI_SOURCE__','src/player-skill-ui.js'),('__PLAYER_SKILL_EFFECTS_SOURCE__','src/player-skill-effects.js')]:runtime=runtime.replace(token,read(file))
+assert not re.search(r'__(?:I18N_|PLAYER_SKILL_)',runtime),'Unresolved build token'
+styles='\n'.join(read(name)for name in ['src/table.css','src/player-skill-ui.css','src/player-skill-effects.css'])
+script=fingerprint('game','js',runtime);style=fingerprint('game','css',styles)
 index=read('src/index.template.html').replace('__VERSION__',VERSION).replace('__CORE__',script).replace('__CSS__',style)
 (ROOT/'index.html').write_text(index,encoding='utf-8')
 # The separate download embeds the same program, image sources and recordings.
@@ -22,7 +24,7 @@ for path in MEDIA:
  mime='image/gif'if path.endswith('.gif')else'image/png'
  offline=offline.replace(path,'data:'+mime+';base64,'+base64.b64encode((ROOT/path).read_bytes()).decode())
 inline_credits='\n'.join(line.rstrip()for line in read('CREDITS.txt').splitlines())
-single='<!doctype html><html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"><meta name="game-version" content="'+VERSION+'"><title>薪火牌 · Will Wang</title><style>'+read('src/table.css')+'</style></head><body><div id="app"></div><div id="tip"></div><script>'+offline+'</script><script type="text/plain" id="game-credits">'+inline_credits.replace('</script','<\\/script')+'</script></body></html>'
+single='<!doctype html><html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"><meta name="game-version" content="'+VERSION+'"><title>薪火牌 · Will Wang</title><style>'+styles+'</style></head><body><div id="app"></div><div id="tip"></div><script>'+offline+'</script><script type="text/plain" id="game-credits">'+inline_credits.replace('</script','<\\/script')+'</script></body></html>'
 (ROOT/'standalone.html').write_text(single,encoding='utf-8')
 files=['index.html',script,style,SOUNDS,*MEDIA,'CREDITS.txt','_headers','发布说明.txt']
 with zipfile.ZipFile(ROOT/'xinhuo-web.zip','w',zipfile.ZIP_DEFLATED)as z:
