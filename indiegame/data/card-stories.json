@@ -8,8 +8,8 @@
     "en": "Sheets of scale remain beneath the bridge. The largest is wider than the missing car’s door. Water can still be heard in the duty room after the rain stops."
   },
   "苔庭裂角客领誓·诺珀": {
-    "zh": "额骨撑破了旧帽子的边缘，证件上仍写着一个普通职业。雨停以后，值班室里仍能听到水声。",
-    "en": "The forehead has split the old cap. The identity card still lists an ordinary occupation. Water can still be heard in the duty room after the rain stops."
+    "zh": "旧帽子的边缘被雨水打湿，证件上写着他在镇上的职业。雨停以后，值班室里仍能听到水声。",
+    "en": "Rain has soaked the brim of his old cap. His identity card lists his work in town. Water can still be heard in the duty room after the rain stops."
   },
   "苔庭灯议长·洛珀": {
     "zh": "他用示波器听取墙内的声音，波形偶尔排成一行可读的字。雨停以后，值班室里仍能听到水声。",
@@ -28,8 +28,8 @@
     "en": "The marks on the doorframe rise each year. The landlord insists the tenant has never grown. Water can still be heard in the duty room after the rain stops."
   },
   "苔庭裂角客领誓·岑珀": {
-    "zh": "它的影子有两种轮廓，轮到报姓名时，只有其中一个动嘴。雨停以后，值班室里仍能听到水声。",
-    "en": "Its shadow has two outlines. Only one mouth moves when it gives a name. Water can still be heard in the duty room after the rain stops."
+    "zh": "他核对着两份内容不同的口供，轮到报姓名时，先翻出自己的证件。雨停以后，值班室里仍能听到水声。",
+    "en": "He checks two conflicting statements. Asked for his name, he takes out his identity card first. Water can still be heard in the duty room after the rain stops."
   },
   "苔庭地缝蠕虫领誓·塔珀": {
     "zh": "虫身里能看见吞下的纸条，上面的字朝着相反方向缓慢爬动。雨停以后，值班室里仍能听到水声。",
@@ -44,8 +44,8 @@
     "en": "The pack’s tracks divide at the crossing. At the scene, every trail passes through the same photograph. Water can still be heard in the duty room after the rain stops."
   },
   "苔庭灯议长·佩珀": {
-    "zh": "他记得你的脸，却坚持你们第一次见面是在明天的停尸房。雨停以后，值班室里仍能听到水声。",
-    "en": "He remembers your face. He insists you first met tomorrow, in the morgue. Water can still be heard in the duty room after the rain stops."
+    "zh": "他记得你的脸，却坚持你们第一次见面是在明天的候诊室。雨停以后，值班室里仍能听到水声。",
+    "en": "He remembers your face. He insists you first met tomorrow, in the waiting room. Water can still be heard in the duty room after the rain stops."
   },
   "苔庭灯议长·泽珀": {
     "zh": "她在空白磁带上做记号，说录音是从擦掉的部分开始的。雨停以后，值班室里仍能听到水声。",
@@ -72,8 +72,8 @@
     "en": "The chair it sat on remains intact. The foundation looks as if something pressed it an inch lower. Water can still be heard in the duty room after the rain stops."
   },
   "苔庭缄骨客·维恩": {
-    "zh": "尸检记录写着肺部没有空气，他却能一口气讲完那晚的事。雨停以后，值班室里仍能听到水声。",
-    "en": "The autopsy lists no air in his lungs. He tells the whole night’s story without pausing for breath. Water can still be heard in the duty room after the rain stops."
+    "zh": "救护记录记着他因浓烟咳嗽不止，他仍坚持讲清当晚撤离的路线。雨停以后，值班室里仍能听到水声。",
+    "en": "The medical log records a cough from the smoke. He still insists on describing the evacuation route clearly. Water can still be heard in the duty room after the rain stops."
   },
   "苔庭观灯师·希恩": {
     "zh": "他的测绘纸只画房间内侧，折起之后，外面便多出一扇门。雨停以后，值班室里仍能听到水声。",
@@ -136,12 +136,12 @@
     "en": "It coils around a stopped watch. The hands keep moving with the scales. Water can still be heard in the duty room after the rain stops."
   },
   "苔庭缄骨客·伊拉": {
-    "zh": "封棺时少了一颗钉子，后来在他的外衣口袋里找到了。雨停以后，值班室里仍能听到水声。",
-    "en": "A nail was missing when the coffin was sealed. It was later found in his coat pocket. Water can still be heard in the duty room after the rain stops."
+    "zh": "封木箱时少了一颗钉子，后来在他的外衣口袋里找到了。雨停以后，值班室里仍能听到水声。",
+    "en": "A nail was missing when the wooden crate was sealed. It was later found in his coat pocket. Water can still be heard in the duty room after the rain stops."
   },
   "苔庭缄骨客·欧拉": {
-    "zh": "它的牙齿已经不齐，录音里的齿音却清楚得像贴着话筒。雨停以后，值班室里仍能听到水声。",
-    "en": "Its teeth are incomplete. The sibilants on the tape sound as if its mouth is pressed to the microphone. Water can still be heard in the duty room after the rain stops."
+    "zh": "他的声音有些沙哑，仍把每个地名对着录音机说得很清楚。雨停以后，值班室里仍能听到水声。",
+    "en": "His voice is hoarse, but he carefully speaks every place name into the recorder. Water can still be heard in the duty room after the rain stops."
   },
   "苔庭巡灯使·乌拉": {
     "zh": "他来报失踪，拿出的照片是自己，背面写着尚未发生的事。雨停以后，值班室里仍能听到水声。",
@@ -164,20 +164,20 @@
     "en": "She marks a blank tape. She says the recording begins in the part that was erased. Every resident insists there was no fog that night."
   },
   "苔庭琉纹缄骨客": {
-    "zh": "他记得被埋在哪里，却总把回家的路说成另一座墓的地址。雨停以后，值班室里仍能听到水声。",
-    "en": "He remembers where he was buried. His directions home always end at another grave. Water can still be heard in the duty room after the rain stops."
+    "zh": "他记得救援点在哪里，却总把回家的路说成旧街区的地址。雨停以后，值班室里仍能听到水声。",
+    "en": "He remembers the aid station, but his directions home still lead to the old district. Water can still be heard in the duty room after the rain stops."
   },
   "苔庭风蚀缄骨客": {
-    "zh": "这具身体的旧伤都合上了，缝线却在向皮肤外缓慢生长。雨停以后，值班室里仍能听到水声。",
-    "en": "The body’s old wounds have closed. The sutures are slowly growing out through the skin. Water can still be heard in the duty room after the rain stops."
+    "zh": "他外衣上的旧破口已经补好，缝线的颜色与撤离点留下的布条相同。雨停以后，值班室里仍能听到水声。",
+    "en": "The tears in his coat have been mended. The thread matches the cloth left at the evacuation point. Water can still be heard in the duty room after the rain stops."
   },
   "苔庭静棱缄骨客": {
     "zh": "它不追赶活人，只会跟着那些已经登记过死亡的姓名走。雨停以后，值班室里仍能听到水声。",
     "en": "It does not pursue the living. It follows names that have already been entered in the death register. Water can still be heard in the duty room after the rain stops."
   },
   "苔庭绒雾缄骨客": {
-    "zh": "尸检记录写着肺部没有空气，他却能一口气讲完那晚的事。镇上的住户都说那晚没有起雾。",
-    "en": "The autopsy lists no air in his lungs. He tells the whole night’s story without pausing for breath. Every resident insists there was no fog that night."
+    "zh": "救护记录记着他因浓烟咳嗽不止，他仍坚持讲清当晚撤离的路线。镇上的住户都说那晚没有起雾。",
+    "en": "The medical log records a cough from the smoke. He still insists on describing the evacuation route clearly. Every resident insists there was no fog that night."
   },
   "苔庭微烛潜印客": {
     "zh": "她会替人藏起证词，但每份副本都在最不该出现的地方找到。雨停以后，值班室里仍能听到水声。",
@@ -196,16 +196,16 @@
     "en": "The keys it steals are rusted. The sound from its hole is always a new lock opening. Water can still be heard in the duty room after the rain stops."
   },
   "苔庭苔痕砂脊蜥": {
-    "zh": "蜥蜴的尾巴留在证物盘里，身体却每天回来替它换一个位置。雨停以后，值班室里仍能听到水声。",
-    "en": "The lizard’s tail lies in an evidence tray. Its body returns each day to move it. Water can still be heard in the duty room after the rain stops."
+    "zh": "蜥蜴藏在路边的暖石下，细长的尾巴扫过积灰，露出一块路标。雨停以后，值班室里仍能听到水声。",
+    "en": "The lizard shelters beneath a warm roadside stone. Its long tail brushes dust from a road marker. Water can still be heard in the duty room after the rain stops."
   },
   "苔庭苔痕露囊蛙": {
     "zh": "蛙卵里浮着细小的黑点，放大后看起来像一排站着的人。雨停以后，值班室里仍能听到水声。",
     "en": "Dark specks float inside the frogspawn. Enlarged, they resemble a line of standing people. Water can still be heard in the duty room after the rain stops."
   },
   "苔庭苔痕凝光泥团": {
-    "zh": "它在地上留下湿润的轮廓，像一个人曾经在这里躺了很久。雨停以后，值班室里仍能听到水声。",
-    "en": "Its damp outline remains on the floor, as if a person lay there for a long time. Water can still be heard in the duty room after the rain stops."
+    "zh": "湿泥在地上留下清楚的推车轮印，方向通往撤离时使用的侧门。雨停以后，值班室里仍能听到水声。",
+    "en": "Cart tracks mark the damp clay, leading to the side door used during the evacuation. Water can still be heard in the duty room after the rain stops."
   },
   "苔庭铜缄枝灯树灵": {
     "zh": "叶脉像一张熟悉的街区图，缺的那条巷子从来没有人走出来。雨停以后，值班室里仍能听到水声。",
@@ -244,24 +244,24 @@
     "en": "He admits leaving his post. He will not say who signed the log for the rest of the night. Water can still be heard in the duty room after the rain stops."
   },
   "苔庭夜航缄骨客": {
-    "zh": "封棺时少了一颗钉子，后来在他的外衣口袋里找到了。镇上的住户都说那晚没有起雾。",
-    "en": "A nail was missing when the coffin was sealed. It was later found in his coat pocket. Every resident insists there was no fog that night."
+    "zh": "封木箱时少了一颗钉子，后来在他的外衣口袋里找到了。镇上的住户都说那晚没有起雾。",
+    "en": "A nail was missing when the wooden crate was sealed. It was later found in his coat pocket. Every resident insists there was no fog that night."
   },
   "苔庭流砂缄骨客": {
-    "zh": "它的牙齿已经不齐，录音里的齿音却清楚得像贴着话筒。镇上的住户都说那晚没有起雾。",
-    "en": "Its teeth are incomplete. The sibilants on the tape sound as if its mouth is pressed to the microphone. Every resident insists there was no fog that night."
+    "zh": "他的声音有些沙哑，仍把每个地名对着录音机说得很清楚。镇上的住户都说那晚没有起雾。",
+    "en": "His voice is hoarse, but he carefully speaks every place name into the recorder. Every resident insists there was no fog that night."
   },
   "苔庭夜航观灯师": {
     "zh": "他的测绘纸只画房间内侧，折起之后，外面便多出一扇门。镇上的住户都说那晚没有起雾。",
     "en": "His survey shows only the inside of the room. Folded shut, it leaves an extra door outside. Every resident insists there was no fog that night."
   },
   "苔庭镜纹缄骨客": {
-    "zh": "他记得被埋在哪里，却总把回家的路说成另一座墓的地址。镇上的住户都说那晚没有起雾。",
-    "en": "He remembers where he was buried. His directions home always end at another grave. Every resident insists there was no fog that night."
+    "zh": "他记得救援点在哪里，却总把回家的路说成旧街区的地址。镇上的住户都说那晚没有起雾。",
+    "en": "He remembers the aid station, but his directions home still lead to the old district. Every resident insists there was no fog that night."
   },
   "苔庭远路缄骨客": {
-    "zh": "这具身体的旧伤都合上了，缝线却在向皮肤外缓慢生长。镇上的住户都说那晚没有起雾。",
-    "en": "The body’s old wounds have closed. The sutures are slowly growing out through the skin. Every resident insists there was no fog that night."
+    "zh": "他外衣上的旧破口已经补好，缝线的颜色与撤离点留下的布条相同。镇上的住户都说那晚没有起雾。",
+    "en": "The tears in his coat have been mended. The thread matches the cloth left at the evacuation point. Every resident insists there was no fog that night."
   },
   "苔庭回声环藤蛇": {
     "zh": "水管里传来吐信声，维修图上却没有画出这条管道。雨停以后，值班室里仍能听到水声。",
@@ -356,8 +356,8 @@
     "en": "He copies static into a notebook. By morning, every misspelling has become a person’s name. Every resident insists there was no fog that night."
   },
   "苔庭鸣枝缄骨客": {
-    "zh": "尸检记录写着肺部没有空气，他却能一口气讲完那晚的事。调查员把它记进了第二份失踪记录。",
-    "en": "The autopsy lists no air in his lungs. He tells the whole night’s story without pausing for breath. The investigator entered it in the second missing-person report."
+    "zh": "救护记录记着他因浓烟咳嗽不止，他仍坚持讲清当晚撤离的路线。调查员把它记进了第二份失踪记录。",
+    "en": "The medical log records a cough from the smoke. He still insists on describing the evacuation route clearly. The investigator entered it in the second missing-person report."
   },
   "苔庭藤印铠卫": {
     "zh": "护面里传出另一个人的呼吸，他说执勤表上的姓名已经划掉了。镇上的住户都说那晚没有起雾。",
@@ -440,8 +440,8 @@
     "en": "Its folded wings cover the moon. No additional shadow appears on the water. A whole Wednesday is missing from the bell tower’s duty book."
   },
   "铜钟缄骨客领誓·莱温": {
-    "zh": "尸检记录写着肺部没有空气，他却能一口气讲完那晚的事。钟楼的值班册少了整整一页星期三。",
-    "en": "The autopsy lists no air in his lungs. He tells the whole night’s story without pausing for breath. A whole Wednesday is missing from the bell tower’s duty book."
+    "zh": "救护记录记着他因浓烟咳嗽不止，他仍坚持讲清当晚撤离的路线。钟楼的值班册少了整整一页星期三。",
+    "en": "The medical log records a cough from the smoke. He still insists on describing the evacuation route clearly. A whole Wednesday is missing from the bell tower’s duty book."
   },
   "铜钟浮辉使领誓·岑温": {
     "zh": "门禁只记下了一个人的重量，监控里却有两个影子走进来。钟楼的值班册少了整整一页星期三。",
@@ -456,12 +456,12 @@
     "en": "She marks a blank tape. She says the recording begins in the part that was erased. A whole Wednesday is missing from the bell tower’s duty book."
   },
   "铜钟灯议长·伦温": {
-    "zh": "他记得你的脸，却坚持你们第一次见面是在明天的停尸房。钟楼的值班册少了整整一页星期三。",
-    "en": "He remembers your face. He insists you first met tomorrow, in the morgue. A whole Wednesday is missing from the bell tower’s duty book."
+    "zh": "他记得你的脸，却坚持你们第一次见面是在明天的候诊室。钟楼的值班册少了整整一页星期三。",
+    "en": "He remembers your face. He insists you first met tomorrow, in the waiting room. A whole Wednesday is missing from the bell tower’s duty book."
   },
   "铜钟裂角客领誓·图温": {
-    "zh": "额骨撑破了旧帽子的边缘，证件上仍写着一个普通职业。钟楼的值班册少了整整一页星期三。",
-    "en": "The forehead has split the old cap. The identity card still lists an ordinary occupation. A whole Wednesday is missing from the bell tower’s duty book."
+    "zh": "旧帽子的边缘被雨水打湿，证件上写着他在镇上的职业。钟楼的值班册少了整整一页星期三。",
+    "en": "Rain has soaked the brim of his old cap. His identity card lists his work in town. A whole Wednesday is missing from the bell tower’s duty book."
   },
   "铜钟镜瞳山猫领誓·芮温": {
     "zh": "猫从不碰那只纸箱，夜里却会向箱内一个看不见的东西让路。钟楼的值班册少了整整一页星期三。",
@@ -576,16 +576,16 @@
     "en": "It stands beside the erased name, as though waiting for someone to finish the final stroke. A whole Wednesday is missing from the bell tower’s duty book."
   },
   "铜钟琉纹缄骨客": {
-    "zh": "封棺时少了一颗钉子，后来在他的外衣口袋里找到了。钟楼的值班册少了整整一页星期三。",
-    "en": "A nail was missing when the coffin was sealed. It was later found in his coat pocket. A whole Wednesday is missing from the bell tower’s duty book."
+    "zh": "封木箱时少了一颗钉子，后来在他的外衣口袋里找到了。钟楼的值班册少了整整一页星期三。",
+    "en": "A nail was missing when the wooden crate was sealed. It was later found in his coat pocket. A whole Wednesday is missing from the bell tower’s duty book."
   },
   "铜钟银露铠卫": {
     "zh": "护面里传出另一个人的呼吸，他说执勤表上的姓名已经划掉了。街上所有手表都比钟声慢一次呼吸。",
     "en": "Someone else breathes inside the visor. He says his name has been struck from the duty roster. Every watch on the street is a breath behind the bell."
   },
   "铜钟苔痕砂脊蜥": {
-    "zh": "蜥蜴的尾巴留在证物盘里，身体却每天回来替它换一个位置。钟楼的值班册少了整整一页星期三。",
-    "en": "The lizard’s tail lies in an evidence tray. Its body returns each day to move it. A whole Wednesday is missing from the bell tower’s duty book."
+    "zh": "蜥蜴藏在路边的暖石下，细长的尾巴扫过积灰，露出一块路标。钟楼的值班册少了整整一页星期三。",
+    "en": "The lizard shelters beneath a warm roadside stone. Its long tail brushes dust from a road marker. A whole Wednesday is missing from the bell tower’s duty book."
   },
   "铜钟藤印铠卫": {
     "zh": "他把盾放在椅背上，凹痕朝着室内，像是防备里面的人。街上所有手表都比钟声慢一次呼吸。",
@@ -612,20 +612,20 @@
     "en": "The patrol boots stay clean. Mud caught in the soles comes from a river that was filled in. Every watch on the street is a breath behind the bell."
   },
   "铜钟风蚀缄骨客": {
-    "zh": "它的牙齿已经不齐，录音里的齿音却清楚得像贴着话筒。钟楼的值班册少了整整一页星期三。",
-    "en": "Its teeth are incomplete. The sibilants on the tape sound as if its mouth is pressed to the microphone. A whole Wednesday is missing from the bell tower’s duty book."
+    "zh": "他的声音有些沙哑，仍把每个地名对着录音机说得很清楚。钟楼的值班册少了整整一页星期三。",
+    "en": "His voice is hoarse, but he carefully speaks every place name into the recorder. A whole Wednesday is missing from the bell tower’s duty book."
   },
   "铜钟铜缄苔痕铠卫": {
     "zh": "他的证件照闭着眼，见到你之后，照片里的眼睛才睁开。街上所有手表都比钟声慢一次呼吸。",
     "en": "His identification photograph has its eyes shut. They open after he meets you. Every watch on the street is a breath behind the bell."
   },
   "铜钟静棱缄骨客": {
-    "zh": "他记得被埋在哪里，却总把回家的路说成另一座墓的地址。钟楼的值班册少了整整一页星期三。",
-    "en": "He remembers where he was buried. His directions home always end at another grave. A whole Wednesday is missing from the bell tower’s duty book."
+    "zh": "他记得救援点在哪里，却总把回家的路说成旧街区的地址。钟楼的值班册少了整整一页星期三。",
+    "en": "He remembers the aid station, but his directions home still lead to the old district. A whole Wednesday is missing from the bell tower’s duty book."
   },
   "铜钟绒雾缄骨客": {
-    "zh": "这具身体的旧伤都合上了，缝线却在向皮肤外缓慢生长。钟楼的值班册少了整整一页星期三。",
-    "en": "The body’s old wounds have closed. The sutures are slowly growing out through the skin. A whole Wednesday is missing from the bell tower’s duty book."
+    "zh": "他外衣上的旧破口已经补好，缝线的颜色与撤离点留下的布条相同。钟楼的值班册少了整整一页星期三。",
+    "en": "The tears in his coat have been mended. The thread matches the cloth left at the evacuation point. A whole Wednesday is missing from the bell tower’s duty book."
   },
   "铜钟夜航缄骨客": {
     "zh": "它不追赶活人，只会跟着那些已经登记过死亡的姓名走。钟楼的值班册少了整整一页星期三。",
@@ -648,7 +648,7 @@
     "en": "She recites numbers nobody answers. Lights come on one by one in houses without power. Every watch on the street is a breath behind the bell."
   },
   "铜钟苔痕甲灯虫": {
-    "zh": "虫翅沾着洗印药水，飞行时在灯下抖出一小串褪色的人脸。钟楼的值班册少了整整一页星期三。",
+    "zh": "虫翅沾着洗印药水，飞行时在灯下抖落几片褪色的相纸。钟楼的值班册少了整整一页星期三。",
     "en": "Photographic chemicals stain its wings. Faces shake loose beneath the lamp when it flies. A whole Wednesday is missing from the bell tower’s duty book."
   },
   "铜钟回声线尾鼠": {
@@ -724,8 +724,8 @@
     "en": "The meter has no power supply. He asks you not to look outside when its needle stops. Every watch on the street is a breath behind the bell."
   },
   "铜钟流砂缄骨客": {
-    "zh": "尸检记录写着肺部没有空气，他却能一口气讲完那晚的事。街上所有手表都比钟声慢一次呼吸。",
-    "en": "The autopsy lists no air in his lungs. He tells the whole night’s story without pausing for breath. Every watch on the street is a breath behind the bell."
+    "zh": "救护记录记着他因浓烟咳嗽不止，他仍坚持讲清当晚撤离的路线。街上所有手表都比钟声慢一次呼吸。",
+    "en": "The medical log records a cough from the smoke. He still insists on describing the evacuation route clearly. Every watch on the street is a breath behind the bell."
   },
   "铜钟铜缄流砂铠卫": {
     "zh": "他把盾放在椅背上，凹痕朝着室内，像是防备里面的人。修表匠不肯说明多出的那根指针。",
@@ -772,12 +772,12 @@
     "en": "Roots inside the wall coil around old wiring. They stay warm after the power is cut. The time clock at the Ash Works prints tomorrow’s date."
   },
   "炽砂裂角客领誓·洛弥": {
-    "zh": "额骨撑破了旧帽子的边缘，证件上仍写着一个普通职业。灰厂的打卡钟打印着明天的日期。",
-    "en": "The forehead has split the old cap. The identity card still lists an ordinary occupation. The time clock at the Ash Works prints tomorrow’s date."
+    "zh": "旧帽子的边缘被雨水打湿，证件上写着他在镇上的职业。灰厂的打卡钟打印着明天的日期。",
+    "en": "Rain has soaked the brim of his old cap. His identity card lists his work in town. The time clock at the Ash Works prints tomorrow’s date."
   },
   "炽砂凝光泥团领誓·岚弥": {
-    "zh": "它在地上留下湿润的轮廓，像一个人曾经在这里躺了很久。灰厂的打卡钟打印着明天的日期。",
-    "en": "Its damp outline remains on the floor, as if a person lay there for a long time. The time clock at the Ash Works prints tomorrow’s date."
+    "zh": "湿泥在地上留下清楚的推车轮印，方向通往撤离时使用的侧门。灰厂的打卡钟打印着明天的日期。",
+    "en": "Cart tracks mark the damp clay, leading to the side door used during the evacuation. The time clock at the Ash Works prints tomorrow’s date."
   },
   "炽砂晶棘蜥龙领誓·岑弥": {
     "zh": "桥下留下成片的鳞屑，最大的一片比失踪车辆的车门还宽。灰厂的打卡钟打印着明天的日期。",
@@ -808,8 +808,8 @@
     "en": "The marks on the doorframe rise each year. The landlord insists the tenant has never grown. The time clock at the Ash Works prints tomorrow’s date."
   },
   "炽砂裂角客领誓·乌罗": {
-    "zh": "它的影子有两种轮廓，轮到报姓名时，只有其中一个动嘴。灰厂的打卡钟打印着明天的日期。",
-    "en": "Its shadow has two outlines. Only one mouth moves when it gives a name. The time clock at the Ash Works prints tomorrow’s date."
+    "zh": "他核对着两份内容不同的口供，轮到报姓名时，先翻出自己的证件。灰厂的打卡钟打印着明天的日期。",
+    "en": "He checks two conflicting statements. Asked for his name, he takes out his identity card first. The time clock at the Ash Works prints tomorrow’s date."
   },
   "炽砂铠卫领誓·依罗": {
     "zh": "巡逻靴始终干净，鞋底夹着的泥却来自一条已经填平的河。灰厂的打卡钟打印着明天的日期。",
@@ -824,20 +824,20 @@
     "en": "His identification photograph has its eyes shut. They open after he meets you. The time clock at the Ash Works prints tomorrow’s date."
   },
   "炽砂巡灯使·希罗": {
-    "zh": "他记得你的脸，却坚持你们第一次见面是在明天的停尸房。灰厂的打卡钟打印着明天的日期。",
-    "en": "He remembers your face. He insists you first met tomorrow, in the morgue. The time clock at the Ash Works prints tomorrow’s date."
+    "zh": "他记得你的脸，却坚持你们第一次见面是在明天的候诊室。灰厂的打卡钟打印着明天的日期。",
+    "en": "He remembers your face. He insists you first met tomorrow, in the waiting room. The time clock at the Ash Works prints tomorrow’s date."
   },
   "炽砂巡灯使·洛罗": {
     "zh": "她把口供念得很慢，每到自己的名字，窗外就响起刹车声。灰厂的打卡钟打印着明天的日期。",
     "en": "She reads her statement slowly. Tires screech outside whenever she reaches her name. The time clock at the Ash Works prints tomorrow’s date."
   },
   "炽砂缄骨客·米罗": {
-    "zh": "尸检记录写着肺部没有空气，他却能一口气讲完那晚的事。灰厂的打卡钟打印着明天的日期。",
-    "en": "The autopsy lists no air in his lungs. He tells the whole night’s story without pausing for breath. The time clock at the Ash Works prints tomorrow’s date."
+    "zh": "救护记录记着他因浓烟咳嗽不止，他仍坚持讲清当晚撤离的路线。灰厂的打卡钟打印着明天的日期。",
+    "en": "The medical log records a cough from the smoke. He still insists on describing the evacuation route clearly. The time clock at the Ash Works prints tomorrow’s date."
   },
   "炽砂缄骨客·岚罗": {
-    "zh": "封棺时少了一颗钉子，后来在他的外衣口袋里找到了。灰厂的打卡钟打印着明天的日期。",
-    "en": "A nail was missing when the coffin was sealed. It was later found in his coat pocket. The time clock at the Ash Works prints tomorrow’s date."
+    "zh": "封木箱时少了一颗钉子，后来在他的外衣口袋里找到了。灰厂的打卡钟打印着明天的日期。",
+    "en": "A nail was missing when the wooden crate was sealed. It was later found in his coat pocket. The time clock at the Ash Works prints tomorrow’s date."
   },
   "炽砂潜印客·索罗": {
     "zh": "锁没有被撬开的痕迹，屋里却多出一件尺寸合适的雨衣。灰厂的打卡钟打印着明天的日期。",
@@ -912,8 +912,8 @@
     "en": "She knows every scar. She cannot say which consultation produced the notes. The time clock at the Ash Works prints tomorrow’s date."
   },
   "炽砂潜印客·瑟安": {
-    "zh": "她的口袋里没有钥匙，所有钥匙的编号却记在皮肤下面。灰厂的打卡钟打印着明天的日期。",
-    "en": "There are no keys in her pockets. Their numbers can be read beneath her skin. The time clock at the Ash Works prints tomorrow’s date."
+    "zh": "她的口袋里没有钥匙，所有钥匙的编号都记在随身的布本上。灰厂的打卡钟打印着明天的日期。",
+    "en": "There are no keys in her pockets. Their numbers are written in her clothbound notebook. The time clock at the Ash Works prints tomorrow’s date."
   },
   "炽砂铠卫·维安": {
     "zh": "护面里传出另一个人的呼吸，他说执勤表上的姓名已经划掉了。炉子停了，排班表却还在增加人名。",
@@ -932,12 +932,12 @@
     "en": "The guard never removes his gloves. The returned keys bear a fresh fingerprint each time. The furnaces have stopped. Names keep appearing on the shift sheet."
   },
   "炽砂微烛缄骨客": {
-    "zh": "它的牙齿已经不齐，录音里的齿音却清楚得像贴着话筒。灰厂的打卡钟打印着明天的日期。",
-    "en": "Its teeth are incomplete. The sibilants on the tape sound as if its mouth is pressed to the microphone. The time clock at the Ash Works prints tomorrow’s date."
+    "zh": "他的声音有些沙哑，仍把每个地名对着录音机说得很清楚。灰厂的打卡钟打印着明天的日期。",
+    "en": "His voice is hoarse, but he carefully speaks every place name into the recorder. The time clock at the Ash Works prints tomorrow’s date."
   },
   "炽砂琉纹缄骨客": {
-    "zh": "他记得被埋在哪里，却总把回家的路说成另一座墓的地址。灰厂的打卡钟打印着明天的日期。",
-    "en": "He remembers where he was buried. His directions home always end at another grave. The time clock at the Ash Works prints tomorrow’s date."
+    "zh": "他记得救援点在哪里，却总把回家的路说成旧街区的地址。灰厂的打卡钟打印着明天的日期。",
+    "en": "He remembers the aid station, but his directions home still lead to the old district. The time clock at the Ash Works prints tomorrow’s date."
   },
   "炽砂苔痕环藤蛇": {
     "zh": "蛇蜕从锁孔里拖出来，里面还包着一张没有签名的借条。灰厂的打卡钟打印着明天的日期。",
@@ -972,8 +972,8 @@
     "en": "The medicine has expired. A label inside the bottle gives next week’s weather. The time clock at the Ash Works prints tomorrow’s date."
   },
   "炽砂风蚀缄骨客": {
-    "zh": "这具身体的旧伤都合上了，缝线却在向皮肤外缓慢生长。灰厂的打卡钟打印着明天的日期。",
-    "en": "The body’s old wounds have closed. The sutures are slowly growing out through the skin. The time clock at the Ash Works prints tomorrow’s date."
+    "zh": "他外衣上的旧破口已经补好，缝线的颜色与撤离点留下的布条相同。灰厂的打卡钟打印着明天的日期。",
+    "en": "The tears in his coat have been mended. The thread matches the cloth left at the evacuation point. The time clock at the Ash Works prints tomorrow’s date."
   },
   "炽砂静棱缄骨客": {
     "zh": "它不追赶活人，只会跟着那些已经登记过死亡的姓名走。灰厂的打卡钟打印着明天的日期。",
@@ -984,12 +984,12 @@
     "en": "He will not cross the line of salt. Between blinks, the grains rearrange themselves outside the door. The time clock at the Ash Works prints tomorrow’s date."
   },
   "炽砂绒雾缄骨客": {
-    "zh": "尸检记录写着肺部没有空气，他却能一口气讲完那晚的事。炉子停了，排班表却还在增加人名。",
-    "en": "The autopsy lists no air in his lungs. He tells the whole night’s story without pausing for breath. The furnaces have stopped. Names keep appearing on the shift sheet."
+    "zh": "救护记录记着他因浓烟咳嗽不止，他仍坚持讲清当晚撤离的路线。炉子停了，排班表却还在增加人名。",
+    "en": "The medical log records a cough from the smoke. He still insists on describing the evacuation route clearly. The furnaces have stopped. Names keep appearing on the shift sheet."
   },
   "炽砂夜航缄骨客": {
-    "zh": "封棺时少了一颗钉子，后来在他的外衣口袋里找到了。炉子停了，排班表却还在增加人名。",
-    "en": "A nail was missing when the coffin was sealed. It was later found in his coat pocket. The furnaces have stopped. Names keep appearing on the shift sheet."
+    "zh": "封木箱时少了一颗钉子，后来在他的外衣口袋里找到了。炉子停了，排班表却还在增加人名。",
+    "en": "A nail was missing when the wooden crate was sealed. It was later found in his coat pocket. The furnaces have stopped. Names keep appearing on the shift sheet."
   },
   "炽砂苔痕掠风鸟": {
     "zh": "这只鸟学会了电话的铃声，来电记录却总是在它叫过后才出现。灰厂的打卡钟打印着明天的日期。",
@@ -1012,8 +1012,8 @@
     "en": "He admits leaving his post. He will not say who signed the log for the rest of the night. The furnaces have stopped. Names keep appearing on the shift sheet."
   },
   "炽砂苔痕砂脊蜥": {
-    "zh": "蜥蜴的尾巴留在证物盘里，身体却每天回来替它换一个位置。灰厂的打卡钟打印着明天的日期。",
-    "en": "The lizard’s tail lies in an evidence tray. Its body returns each day to move it. The time clock at the Ash Works prints tomorrow’s date."
+    "zh": "蜥蜴藏在路边的暖石下，细长的尾巴扫过积灰，露出一块路标。灰厂的打卡钟打印着明天的日期。",
+    "en": "The lizard shelters beneath a warm roadside stone. Its long tail brushes dust from a road marker. The time clock at the Ash Works prints tomorrow’s date."
   },
   "炽砂铜缄砂脊蜥": {
     "zh": "鳞片下映出缓慢转动的刻度，靠近时才发现刻度写着人名。灰厂的打卡钟打印着明天的日期。",
@@ -1032,24 +1032,24 @@
     "en": "The chair it sat on remains intact. The foundation looks as if something pressed it an inch lower. The time clock at the Ash Works prints tomorrow’s date."
   },
   "炽砂流砂缄骨客": {
-    "zh": "它的牙齿已经不齐，录音里的齿音却清楚得像贴着话筒。炉子停了，排班表却还在增加人名。",
-    "en": "Its teeth are incomplete. The sibilants on the tape sound as if its mouth is pressed to the microphone. The furnaces have stopped. Names keep appearing on the shift sheet."
+    "zh": "他的声音有些沙哑，仍把每个地名对着录音机说得很清楚。炉子停了，排班表却还在增加人名。",
+    "en": "His voice is hoarse, but he carefully speaks every place name into the recorder. The furnaces have stopped. Names keep appearing on the shift sheet."
   },
   "炽砂苔痕匣中客": {
-    "zh": "这只箱子贴着失物招领的标签，里面的牙齿却都刻着领取日期。灰厂的打卡钟打印着明天的日期。",
-    "en": "The box bears a lost-property label. Every tooth inside is marked with a collection date. The time clock at the Ash Works prints tomorrow’s date."
+    "zh": "这只箱子贴着失物招领的标签，里面的钥匙都挂着写有领取日期的纸签。灰厂的打卡钟打印着明天的日期。",
+    "en": "The box bears a lost-property label. Each key inside has a paper tag bearing its collection date. The time clock at the Ash Works prints tomorrow’s date."
   },
   "炽砂镜纹缄骨客": {
-    "zh": "他记得被埋在哪里，却总把回家的路说成另一座墓的地址。炉子停了，排班表却还在增加人名。",
-    "en": "He remembers where he was buried. His directions home always end at another grave. The furnaces have stopped. Names keep appearing on the shift sheet."
+    "zh": "他记得救援点在哪里，却总把回家的路说成旧街区的地址。炉子停了，排班表却还在增加人名。",
+    "en": "He remembers the aid station, but his directions home still lead to the old district. The furnaces have stopped. Names keep appearing on the shift sheet."
   },
   "炽砂铜缄流砂铠卫": {
     "zh": "他检查每个人的通行证，轮到自己时，指尖总会停很久。炉子停了，排班表却还在增加人名。",
     "en": "He checks every pass. When he reaches his own, his fingers remain still for a long time. The furnaces have stopped. Names keep appearing on the shift sheet."
   },
   "炽砂远路缄骨客": {
-    "zh": "这具身体的旧伤都合上了，缝线却在向皮肤外缓慢生长。炉子停了，排班表却还在增加人名。",
-    "en": "The body’s old wounds have closed. The sutures are slowly growing out through the skin. The furnaces have stopped. Names keep appearing on the shift sheet."
+    "zh": "他外衣上的旧破口已经补好，缝线的颜色与撤离点留下的布条相同。炉子停了，排班表却还在增加人名。",
+    "en": "The tears in his coat have been mended. The thread matches the cloth left at the evacuation point. The furnaces have stopped. Names keep appearing on the shift sheet."
   },
   "炽砂石封缄骨客": {
     "zh": "它不追赶活人，只会跟着那些已经登记过死亡的姓名走。炉子停了，排班表却还在增加人名。",
@@ -1088,8 +1088,8 @@
     "en": "The guard never removes his gloves. The returned keys bear a fresh fingerprint each time. Only the penultimate page of the machine’s manual remains."
   },
   "炽砂鸣枝缄骨客": {
-    "zh": "尸检记录写着肺部没有空气，他却能一口气讲完那晚的事。那台机器的说明书只有倒数第二页。",
-    "en": "The autopsy lists no air in his lungs. He tells the whole night’s story without pausing for breath. Only the penultimate page of the machine’s manual remains."
+    "zh": "救护记录记着他因浓烟咳嗽不止，他仍坚持讲清当晚撤离的路线。那台机器的说明书只有倒数第二页。",
+    "en": "The medical log records a cough from the smoke. He still insists on describing the evacuation route clearly. Only the penultimate page of the machine’s manual remains."
   },
   "炽砂回声巡影狼": {
     "zh": "这头狼只对着空座位露齿，座位上的安全带却一直系着。灰厂的打卡钟打印着明天的日期。",
@@ -1108,8 +1108,8 @@
     "en": "It has sawn its horns short. At night, fresh scrapes still appear high on the doorframe. The time clock at the Ash Works prints tomorrow’s date."
   },
   "炽砂苔痕石指傀儡": {
-    "zh": "这只手保留着完整的指纹，却没有任何一枚指甲长在正面。灰厂的打卡钟打印着明天的日期。",
-    "en": "The hand retains every fingerprint. None of its nails grows on the front. The time clock at the Ash Works prints tomorrow’s date."
+    "zh": "这副旧手套的掌心已经磨白，袖口的编号与工房领用册相同。灰厂的打卡钟打印着明天的日期。",
+    "en": "The old gloves have worn palms. Their cuff numbers match the workshop issue book. The time clock at the Ash Works prints tomorrow’s date."
   },
   "炽砂铜缄环藤蛇": {
     "zh": "它盘着一只早已停走的表，表针却一直跟着鳞片慢慢移动。灰厂的打卡钟打印着明天的日期。",
@@ -1124,8 +1124,8 @@
     "en": "A shed snakeskin trails from the keyhole, wrapped around an unsigned note of debt. The furnaces have stopped. Names keep appearing on the shift sheet."
   },
   "炽砂回声砂脊蜥": {
-    "zh": "蜥蜴的尾巴留在证物盘里，身体却每天回来替它换一个位置。炉子停了，排班表却还在增加人名。",
-    "en": "The lizard’s tail lies in an evidence tray. Its body returns each day to move it. The furnaces have stopped. Names keep appearing on the shift sheet."
+    "zh": "蜥蜴藏在路边的暖石下，细长的尾巴扫过积灰，露出一块路标。炉子停了，排班表却还在增加人名。",
+    "en": "The lizard shelters beneath a warm roadside stone. Its long tail brushes dust from a road marker. The furnaces have stopped. Names keep appearing on the shift sheet."
   },
   "炽砂铜缄鸣枝铠卫": {
     "zh": "巡逻靴始终干净，鞋底夹着的泥却来自一条已经填平的河。那台机器的说明书只有倒数第二页。",
@@ -1164,7 +1164,7 @@
     "en": "He admits leaving his post. He will not say who signed the log for the rest of the night. Only the penultimate page of the machine’s manual remains."
   },
   "炽砂苔痕甲灯虫": {
-    "zh": "虫翅沾着洗印药水，飞行时在灯下抖出一小串褪色的人脸。灰厂的打卡钟打印着明天的日期。",
+    "zh": "虫翅沾着洗印药水，飞行时在灯下抖落几片褪色的相纸。灰厂的打卡钟打印着明天的日期。",
     "en": "Photographic chemicals stain its wings. Faces shake loose beneath the lamp when it flies. The time clock at the Ash Works prints tomorrow’s date."
   },
   "炽砂绒雾修灯师": {
@@ -1180,8 +1180,8 @@
     "en": "Dark specks float inside the frogspawn. Enlarged, they resemble a line of standing people. The time clock at the Ash Works prints tomorrow’s date."
   },
   "炽砂暖灰缄骨客": {
-    "zh": "封棺时少了一颗钉子，后来在他的外衣口袋里找到了。那台机器的说明书只有倒数第二页。",
-    "en": "A nail was missing when the coffin was sealed. It was later found in his coat pocket. Only the penultimate page of the machine’s manual remains."
+    "zh": "封木箱时少了一颗钉子，后来在他的外衣口袋里找到了。那台机器的说明书只有倒数第二页。",
+    "en": "A nail was missing when the wooden crate was sealed. It was later found in his coat pocket. Only the penultimate page of the machine’s manual remains."
   },
   "炽砂微烛峰脊巨灵": {
     "zh": "他只需伸手就能碰到屋顶，却低头说自己被关在很小的地方。灰厂的打卡钟打印着明天的日期。",
@@ -1192,8 +1192,8 @@
     "en": "He rests his shield against the chair, dents facing inward, as if the room needs containing. Every resident insists there was no fog that night."
   },
   "铜钟缄骨客·索安": {
-    "zh": "封棺时少了一颗钉子，后来在他的外衣口袋里找到了。街上所有手表都比钟声慢一次呼吸。",
-    "en": "A nail was missing when the coffin was sealed. It was later found in his coat pocket. Every watch on the street is a breath behind the bell."
+    "zh": "封木箱时少了一颗钉子，后来在他的外衣口袋里找到了。街上所有手表都比钟声慢一次呼吸。",
+    "en": "A nail was missing when the wooden crate was sealed. It was later found in his coat pocket. Every watch on the street is a breath behind the bell."
   },
   "炽砂回声苔痕铠卫": {
     "zh": "值勤腰带少了一样东西，空出来的位置比枪套还要重。那台机器的说明书只有倒数第二页。",
@@ -1204,8 +1204,8 @@
     "en": "He checks every pass. When he reaches his own, his fingers remain still for a long time. Only the penultimate page of the machine’s manual remains."
   },
   "砂镜凝光泥团领誓·岑安": {
-    "zh": "它在地上留下湿润的轮廓，像一个人曾经在这里躺了很久。档案室保存着这份证词的另一种结局。",
-    "en": "Its damp outline remains on the floor, as if a person lay there for a long time. The archive holds another ending to the same statement."
+    "zh": "湿泥在地上留下清楚的推车轮印，方向通往撤离时使用的侧门。档案室保存着这份证词的另一种结局。",
+    "en": "Cart tracks mark the damp clay, leading to the side door used during the evacuation. The archive holds another ending to the same statement."
   },
   "砂镜铠卫领誓·塔安": {
     "zh": "阿奇，档案称“复卷守备”。护面里传出另一个人的呼吸，他说执勤表上的姓名已经划掉了。档案室保存着这份证词的另一种结局。",
@@ -1216,16 +1216,16 @@
     "en": "Walter, filed as Oldseal Keeper. He rests his shield against the chair, dents facing inward, as if the room needs containing. The archive holds another ending to the same statement."
   },
   "砂镜裂角客领誓·伦安": {
-    "zh": "额骨撑破了旧帽子的边缘，证件上仍写着一个普通职业。档案室保存着这份证词的另一种结局。",
-    "en": "The forehead has split the old cap. The identity card still lists an ordinary occupation. The archive holds another ending to the same statement."
+    "zh": "旧帽子的边缘被雨水打湿，证件上写着他在镇上的职业。档案室保存着这份证词的另一种结局。",
+    "en": "Rain has soaked the brim of his old cap. His identity card lists his work in town. The archive holds another ending to the same statement."
   },
   "砂镜峰脊巨灵领誓·佩安": {
     "zh": "门框上的刻痕一年比一年高，房主却坚持房客从未长大。档案室保存着这份证词的另一种结局。",
     "en": "The marks on the doorframe rise each year. The landlord insists the tenant has never grown. The archive holds another ending to the same statement."
   },
   "砂镜裂角客领誓·泽安": {
-    "zh": "它的影子有两种轮廓，轮到报姓名时，只有其中一个动嘴。档案室保存着这份证词的另一种结局。",
-    "en": "Its shadow has two outlines. Only one mouth moves when it gives a name. The archive holds another ending to the same statement."
+    "zh": "他核对着两份内容不同的口供，轮到报姓名时，先翻出自己的证件。档案室保存着这份证词的另一种结局。",
+    "en": "He checks two conflicting statements. Asked for his name, he takes out his identity card first. The archive holds another ending to the same statement."
   },
   "砂镜铠卫领誓·图安": {
     "zh": "这名警卫从不摘手套，交回的钥匙却每次都带着新的指纹。档案室保存着这份证词的另一种结局。",
@@ -1300,8 +1300,8 @@
     "en": "His identification photograph has its eyes shut. They open after he meets you. The archive holds another ending to the same statement."
   },
   "砂镜巡灯使·岑瑟": {
-    "zh": "他记得你的脸，却坚持你们第一次见面是在明天的停尸房。档案室保存着这份证词的另一种结局。",
-    "en": "He remembers your face. He insists you first met tomorrow, in the morgue. The archive holds another ending to the same statement."
+    "zh": "他记得你的脸，却坚持你们第一次见面是在明天的候诊室。档案室保存着这份证词的另一种结局。",
+    "en": "He remembers your face. He insists you first met tomorrow, in the waiting room. The archive holds another ending to the same statement."
   },
   "砂镜巡灯使·塔瑟": {
     "zh": "她把口供念得很慢，每到自己的名字，窗外就响起刹车声。档案室保存着这份证词的另一种结局。",
@@ -1400,8 +1400,8 @@
     "en": "He checks every pass. When he reaches his own, his fingers remain still for a long time. The archive holds another ending to the same statement."
   },
   "砂镜苔痕缄骨客": {
-    "zh": "尸检记录写着肺部没有空气，他却能一口气讲完那晚的事。档案室保存着这份证词的另一种结局。",
-    "en": "The autopsy lists no air in his lungs. He tells the whole night’s story without pausing for breath. The archive holds another ending to the same statement."
+    "zh": "救护记录记着他因浓烟咳嗽不止，他仍坚持讲清当晚撤离的路线。档案室保存着这份证词的另一种结局。",
+    "en": "The medical log records a cough from the smoke. He still insists on describing the evacuation route clearly. The archive holds another ending to the same statement."
   },
   "砂镜苔痕棱耳猎犬": {
     "zh": "狗把鼻尖贴在空白相片上，随后一直等在没有门的那面墙前。档案室保存着这份证词的另一种结局。",
@@ -1412,15 +1412,15 @@
     "en": "He will not sign the statement. Familiar handwriting slowly appears at the foot of the page. The archive holds another ending to the same statement."
   },
   "砂镜铜缄缄骨客": {
-    "zh": "封棺时少了一颗钉子，后来在他的外衣口袋里找到了。档案室保存着这份证词的另一种结局。",
-    "en": "A nail was missing when the coffin was sealed. It was later found in his coat pocket. The archive holds another ending to the same statement."
+    "zh": "封木箱时少了一颗钉子，后来在他的外衣口袋里找到了。档案室保存着这份证词的另一种结局。",
+    "en": "A nail was missing when the wooden crate was sealed. It was later found in his coat pocket. The archive holds another ending to the same statement."
   },
   "砂镜回声缄骨客": {
-    "zh": "它的牙齿已经不齐，录音里的齿音却清楚得像贴着话筒。档案室保存着这份证词的另一种结局。",
-    "en": "Its teeth are incomplete. The sibilants on the tape sound as if its mouth is pressed to the microphone. The archive holds another ending to the same statement."
+    "zh": "他的声音有些沙哑，仍把每个地名对着录音机说得很清楚。档案室保存着这份证词的另一种结局。",
+    "en": "His voice is hoarse, but he carefully speaks every place name into the recorder. The archive holds another ending to the same statement."
   },
   "砂镜苔痕甲灯虫": {
-    "zh": "虫翅沾着洗印药水，飞行时在灯下抖出一小串褪色的人脸。档案室保存着这份证词的另一种结局。",
+    "zh": "虫翅沾着洗印药水，飞行时在灯下抖落几片褪色的相纸。档案室保存着这份证词的另一种结局。",
     "en": "Photographic chemicals stain its wings. Faces shake loose beneath the lamp when it flies. The archive holds another ending to the same statement."
   },
   "砂镜回声凝光泥团": {
@@ -1428,8 +1428,8 @@
     "en": "The evidence box is not leaking. The mass inside keeps growing, lifting the label at its edges. The archive holds another ending to the same statement."
   },
   "砂镜苔痕砂脊蜥": {
-    "zh": "蜥蜴的尾巴留在证物盘里，身体却每天回来替它换一个位置。档案室保存着这份证词的另一种结局。",
-    "en": "The lizard’s tail lies in an evidence tray. Its body returns each day to move it. The archive holds another ending to the same statement."
+    "zh": "蜥蜴藏在路边的暖石下，细长的尾巴扫过积灰，露出一块路标。档案室保存着这份证词的另一种结局。",
+    "en": "The lizard shelters beneath a warm roadside stone. Its long tail brushes dust from a road marker. The archive holds another ending to the same statement."
   },
   "砂镜铜缄地缝蠕虫": {
     "zh": "它沿着地缝前行，身后露出的砖面比房屋本身更陈旧。档案室保存着这份证词的另一种结局。",
@@ -1448,8 +1448,8 @@
     "en": "It swims past a submerged window. The reflection shows a dry corridor. The archive holds another ending to the same statement."
   },
   "砂镜微烛缄骨客": {
-    "zh": "他记得被埋在哪里，却总把回家的路说成另一座墓的地址。档案室保存着这份证词的另一种结局。",
-    "en": "He remembers where he was buried. His directions home always end at another grave. The archive holds another ending to the same statement."
+    "zh": "他记得救援点在哪里，却总把回家的路说成旧街区的地址。档案室保存着这份证词的另一种结局。",
+    "en": "He remembers the aid station, but his directions home still lead to the old district. The archive holds another ending to the same statement."
   },
   "砂镜苔痕苔脊软虫": {
     "zh": "它爬过的纸张没有湿，字迹却全都移到了纸的背面。档案室保存着这份证词的另一种结局。",
@@ -1476,16 +1476,16 @@
     "en": "He avoids paths with footprints. At the next corner he still finds his own back. The archive holds another ending to the same statement."
   },
   "砂镜琉纹缄骨客": {
-    "zh": "这具身体的旧伤都合上了，缝线却在向皮肤外缓慢生长。档案室保存着这份证词的另一种结局。",
-    "en": "The body’s old wounds have closed. The sutures are slowly growing out through the skin. The archive holds another ending to the same statement."
+    "zh": "他外衣上的旧破口已经补好，缝线的颜色与撤离点留下的布条相同。档案室保存着这份证词的另一种结局。",
+    "en": "The tears in his coat have been mended. The thread matches the cloth left at the evacuation point. The archive holds another ending to the same statement."
   },
   "砂镜风蚀缄骨客": {
     "zh": "它不追赶活人，只会跟着那些已经登记过死亡的姓名走。档案室保存着这份证词的另一种结局。",
     "en": "It does not pursue the living. It follows names that have already been entered in the death register. The archive holds another ending to the same statement."
   },
   "砂镜静棱缄骨客": {
-    "zh": "尸检记录写着肺部没有空气，他却能一口气讲完那晚的事。空出的案卷位置已经积了很厚的灰。",
-    "en": "The autopsy lists no air in his lungs. He tells the whole night’s story without pausing for breath. Thick dust fills the space where the file should be."
+    "zh": "救护记录记着他因浓烟咳嗽不止，他仍坚持讲清当晚撤离的路线。空出的案卷位置已经积了很厚的灰。",
+    "en": "The medical log records a cough from the smoke. He still insists on describing the evacuation route clearly. Thick dust fills the space where the file should be."
   },
   "砂镜微烛峰脊巨灵": {
     "zh": "这名搬运工搬得动整台锅炉，却从不碰那只没有上锁的箱子。档案室保存着这份证词的另一种结局。",
@@ -1512,8 +1512,8 @@
     "en": "Heavy claws scrape overhead. Dust rises from inside the roof and drifts outward. The archive holds another ending to the same statement."
   },
   "暮潮缄骨客领誓·芮尘": {
-    "zh": "尸检记录写着肺部没有空气，他却能一口气讲完那晚的事。沉港的潮位表在低潮处画着一道门。",
-    "en": "The autopsy lists no air in his lungs. He tells the whole night’s story without pausing for breath. A door is drawn at low tide on the Sunken Harbor chart."
+    "zh": "救护记录记着他因浓烟咳嗽不止，他仍坚持讲清当晚撤离的路线。沉港的潮位表在低潮处画着一道门。",
+    "en": "The medical log records a cough from the smoke. He still insists on describing the evacuation route clearly. A door is drawn at low tide on the Sunken Harbor chart."
   },
   "暮潮折面星客领誓·伊汀": {
     "zh": "它照着录音学会了敲门，敲击之间却没有留给人开门的时间。沉港的潮位表在低潮处画着一道门。",
@@ -1528,8 +1528,8 @@
     "en": "It carefully imitates breathing. When you hold yours, the whole room becomes quiet. A door is drawn at low tide on the Sunken Harbor chart."
   },
   "暮潮灯议长·洛汀": {
-    "zh": "他记得你的脸，却坚持你们第一次见面是在明天的停尸房。沉港的潮位表在低潮处画着一道门。",
-    "en": "He remembers your face. He insists you first met tomorrow, in the morgue. A door is drawn at low tide on the Sunken Harbor chart."
+    "zh": "他记得你的脸，却坚持你们第一次见面是在明天的候诊室。沉港的潮位表在低潮处画着一道门。",
+    "en": "He remembers your face. He insists you first met tomorrow, in the waiting room. A door is drawn at low tide on the Sunken Harbor chart."
   },
   "暮潮灯议长·米汀": {
     "zh": "她把口供念得很慢，每到自己的名字，窗外就响起刹车声。沉港的潮位表在低潮处画着一道门。",
@@ -1544,8 +1544,8 @@
     "en": "The marks on the doorframe rise each year. The landlord insists the tenant has never grown. A door is drawn at low tide on the Sunken Harbor chart."
   },
   "暮潮裂角客领誓·莱汀": {
-    "zh": "额骨撑破了旧帽子的边缘，证件上仍写着一个普通职业。沉港的潮位表在低潮处画着一道门。",
-    "en": "The forehead has split the old cap. The identity card still lists an ordinary occupation. A door is drawn at low tide on the Sunken Harbor chart."
+    "zh": "旧帽子的边缘被雨水打湿，证件上写着他在镇上的职业。沉港的潮位表在低潮处画着一道门。",
+    "en": "Rain has soaked the brim of his old cap. His identity card lists his work in town. A door is drawn at low tide on the Sunken Harbor chart."
   },
   "暮潮地缝蠕虫领誓·岑汀": {
     "zh": "虫身里能看见吞下的纸条，上面的字朝着相反方向缓慢爬动。沉港的潮位表在低潮处画着一道门。",
@@ -1556,16 +1556,16 @@
     "en": "The dog presses its nose to a blank photograph, then waits beside the wall without a door. A door is drawn at low tide on the Sunken Harbor chart."
   },
   "暮潮缄骨客领誓·莫汀": {
-    "zh": "封棺时少了一颗钉子，后来在他的外衣口袋里找到了。沉港的潮位表在低潮处画着一道门。",
-    "en": "A nail was missing when the coffin was sealed. It was later found in his coat pocket. A door is drawn at low tide on the Sunken Harbor chart."
+    "zh": "封木箱时少了一颗钉子，后来在他的外衣口袋里找到了。沉港的潮位表在低潮处画着一道门。",
+    "en": "A nail was missing when the wooden crate was sealed. It was later found in his coat pocket. A door is drawn at low tide on the Sunken Harbor chart."
   },
   "暮潮灯议长·伦汀": {
     "zh": "这名乘客一直握着空票夹，说目的地写在车站的另一面。沉港的潮位表在低潮处画着一道门。",
     "en": "The passenger holds an empty ticket wallet. He says the destination is on the other side of the station. A door is drawn at low tide on the Sunken Harbor chart."
   },
   "暮潮裂角客领誓·佩汀": {
-    "zh": "它的影子有两种轮廓，轮到报姓名时，只有其中一个动嘴。沉港的潮位表在低潮处画着一道门。",
-    "en": "Its shadow has two outlines. Only one mouth moves when it gives a name. A door is drawn at low tide on the Sunken Harbor chart."
+    "zh": "他核对着两份内容不同的口供，轮到报姓名时，先翻出自己的证件。沉港的潮位表在低潮处画着一道门。",
+    "en": "He checks two conflicting statements. Asked for his name, he takes out his identity card first. A door is drawn at low tide on the Sunken Harbor chart."
   },
   "暮潮琉纹折面星客": {
     "zh": "对方知道姓名该有几个字，却总把最后一笔写到纸的另一面。沉港的潮位表在低潮处画着一道门。",
@@ -1640,8 +1640,8 @@
     "en": "He avoids paths with footprints. At the next corner he still finds his own back. A door is drawn at low tide on the Sunken Harbor chart."
   },
   "暮潮潜印客·索芙": {
-    "zh": "她的口袋里没有钥匙，所有钥匙的编号却记在皮肤下面。沉港的潮位表在低潮处画着一道门。",
-    "en": "There are no keys in her pockets. Their numbers can be read beneath her skin. A door is drawn at low tide on the Sunken Harbor chart."
+    "zh": "她的口袋里没有钥匙，所有钥匙的编号都记在随身的布本上。沉港的潮位表在低潮处画着一道门。",
+    "en": "There are no keys in her pockets. Their numbers are written in her clothbound notebook. A door is drawn at low tide on the Sunken Harbor chart."
   },
   "暮潮折面星客·莱芙": {
     "zh": "它照着录音学会了敲门，敲击之间却没有留给人开门的时间。码头上的湿脚印始终没有上岸。",
@@ -1664,16 +1664,16 @@
     "en": "The lock shows no damage. A raincoat in exactly the right size has appeared inside. The wet footprints on the pier never reach land."
   },
   "暮潮微烛缄骨客": {
-    "zh": "它的牙齿已经不齐，录音里的齿音却清楚得像贴着话筒。沉港的潮位表在低潮处画着一道门。",
-    "en": "Its teeth are incomplete. The sibilants on the tape sound as if its mouth is pressed to the microphone. A door is drawn at low tide on the Sunken Harbor chart."
+    "zh": "他的声音有些沙哑，仍把每个地名对着录音机说得很清楚。沉港的潮位表在低潮处画着一道门。",
+    "en": "His voice is hoarse, but he carefully speaks every place name into the recorder. A door is drawn at low tide on the Sunken Harbor chart."
   },
   "暮潮铜缄铠卫": {
     "zh": "他把盾放在椅背上，凹痕朝着室内，像是防备里面的人。沉港的潮位表在低潮处画着一道门。",
     "en": "He rests his shield against the chair, dents facing inward, as if the room needs containing. A door is drawn at low tide on the Sunken Harbor chart."
   },
   "暮潮琉纹缄骨客": {
-    "zh": "他记得被埋在哪里，却总把回家的路说成另一座墓的地址。沉港的潮位表在低潮处画着一道门。",
-    "en": "He remembers where he was buried. His directions home always end at another grave. A door is drawn at low tide on the Sunken Harbor chart."
+    "zh": "他记得救援点在哪里，却总把回家的路说成旧街区的地址。沉港的潮位表在低潮处画着一道门。",
+    "en": "He remembers the aid station, but his directions home still lead to the old district. A door is drawn at low tide on the Sunken Harbor chart."
   },
   "暮潮铜缄棱耳猎犬": {
     "zh": "它认得巡逻车的声音，却总比车上的无线电早一步转身。沉港的潮位表在低潮处画着一道门。",
@@ -1688,16 +1688,16 @@
     "en": "The rat trims the file’s edges neatly. It never touches the column containing names. A door is drawn at low tide on the Sunken Harbor chart."
   },
   "暮潮雾羽巡灯使": {
-    "zh": "他记得你的脸，却坚持你们第一次见面是在明天的停尸房。码头上的湿脚印始终没有上岸。",
-    "en": "He remembers your face. He insists you first met tomorrow, in the morgue. The wet footprints on the pier never reach land."
+    "zh": "他记得你的脸，却坚持你们第一次见面是在明天的候诊室。码头上的湿脚印始终没有上岸。",
+    "en": "He remembers your face. He insists you first met tomorrow, in the waiting room. The wet footprints on the pier never reach land."
   },
   "暮潮静棱折面星客": {
     "zh": "照片中的五官都在正确位置，合在一起却无法让人记住。码头上的湿脚印始终没有上岸。",
     "en": "Every feature occupies the right place in the photograph. Together, they cannot be remembered. The wet footprints on the pier never reach land."
   },
   "暮潮风蚀缄骨客": {
-    "zh": "这具身体的旧伤都合上了，缝线却在向皮肤外缓慢生长。沉港的潮位表在低潮处画着一道门。",
-    "en": "The body’s old wounds have closed. The sutures are slowly growing out through the skin. A door is drawn at low tide on the Sunken Harbor chart."
+    "zh": "他外衣上的旧破口已经补好，缝线的颜色与撤离点留下的布条相同。沉港的潮位表在低潮处画着一道门。",
+    "en": "The tears in his coat have been mended. The thread matches the cloth left at the evacuation point. A door is drawn at low tide on the Sunken Harbor chart."
   },
   "暮潮苔痕巡影狼": {
     "zh": "狼群的脚印在路口分开，回到现场时却全都穿过同一张照片。沉港的潮位表在低潮处画着一道门。",
@@ -1708,7 +1708,7 @@
     "en": "It carefully imitates breathing. When you hold yours, the whole room becomes quiet. The wet footprints on the pier never reach land."
   },
   "暮潮苔痕甲灯虫": {
-    "zh": "虫翅沾着洗印药水，飞行时在灯下抖出一小串褪色的人脸。沉港的潮位表在低潮处画着一道门。",
+    "zh": "虫翅沾着洗印药水，飞行时在灯下抖落几片褪色的相纸。沉港的潮位表在低潮处画着一道门。",
     "en": "Photographic chemicals stain its wings. Faces shake loose beneath the lamp when it flies. A door is drawn at low tide on the Sunken Harbor chart."
   },
   "暮潮苔痕环藤蛇": {
@@ -1772,8 +1772,8 @@
     "en": "The fish surfaces only when a name is spoken. Death has not changed the habit. A door is drawn at low tide on the Sunken Harbor chart."
   },
   "暮潮苔痕凝光泥团": {
-    "zh": "它在地上留下湿润的轮廓，像一个人曾经在这里躺了很久。沉港的潮位表在低潮处画着一道门。",
-    "en": "Its damp outline remains on the floor, as if a person lay there for a long time. A door is drawn at low tide on the Sunken Harbor chart."
+    "zh": "湿泥在地上留下清楚的推车轮印，方向通往撤离时使用的侧门。沉港的潮位表在低潮处画着一道门。",
+    "en": "Cart tracks mark the damp clay, leading to the side door used during the evacuation. A door is drawn at low tide on the Sunken Harbor chart."
   },
   "暮潮微烛裂角客": {
     "zh": "他不肯越过地面的盐线，盐粒却在你眨眼时排到了门外。沉港的潮位表在低潮处画着一道门。",
@@ -1832,8 +1832,8 @@
     "en": "He promises to hold the door. Asked what is inside, he looks behind you before answering. A second snowfall continues behind the station window."
   },
   "霜枝巡灯使·莫诺": {
-    "zh": "他记得你的脸，却坚持你们第一次见面是在明天的停尸房。雪站的玻璃后面还落着另一场雪。",
-    "en": "He remembers your face. He insists you first met tomorrow, in the morgue. A second snowfall continues behind the station window."
+    "zh": "他记得你的脸，却坚持你们第一次见面是在明天的候诊室。雪站的玻璃后面还落着另一场雪。",
+    "en": "He remembers your face. He insists you first met tomorrow, in the waiting room. A second snowfall continues behind the station window."
   },
   "霜枝巡灯使·伦诺": {
     "zh": "她把口供念得很慢，每到自己的名字，窗外就响起刹车声。雪站的玻璃后面还落着另一场雪。",
@@ -1872,8 +1872,8 @@
     "en": "He avoids paths with footprints. At the next corner he still finds his own back. A second snowfall continues behind the station window."
   },
   "霜枝绒雾潜印客": {
-    "zh": "她的口袋里没有钥匙，所有钥匙的编号却记在皮肤下面。雪站的玻璃后面还落着另一场雪。",
-    "en": "There are no keys in her pockets. Their numbers can be read beneath her skin. A second snowfall continues behind the station window."
+    "zh": "她的口袋里没有钥匙，所有钥匙的编号都记在随身的布本上。雪站的玻璃后面还落着另一场雪。",
+    "en": "There are no keys in her pockets. Their numbers are written in her clothbound notebook. A second snowfall continues behind the station window."
   },
   "霜枝潜印客·艾烙": {
     "zh": "他总在你转头前离开，留下的椅子却比刚坐下时更冷。雪站的玻璃后面还落着另一场雪。",
@@ -1988,8 +1988,8 @@
     "en": "He avoids paths with footprints. At the next corner he still finds his own back. The waiting passengers leave no weight in the snow."
   },
   "霜枝鸣枝潜印客": {
-    "zh": "她的口袋里没有钥匙，所有钥匙的编号却记在皮肤下面。等车的人始终没有在地上留下重量。",
-    "en": "There are no keys in her pockets. Their numbers can be read beneath her skin. The waiting passengers leave no weight in the snow."
+    "zh": "她的口袋里没有钥匙，所有钥匙的编号都记在随身的布本上。等车的人始终没有在地上留下重量。",
+    "en": "There are no keys in her pockets. Their numbers are written in her clothbound notebook. The waiting passengers leave no weight in the snow."
   },
   "霜枝弧光铠卫": {
     "zh": "外套里面缝着许多旧徽章，最靠近心口的一枚没有编号。等车的人始终没有在地上留下重量。",
@@ -2008,16 +2008,16 @@
     "en": "He promises to hold the door. Asked what is inside, he looks behind you before answering. The waiting passengers leave no weight in the snow."
   },
   "霜枝苔痕缄骨客": {
-    "zh": "尸检记录写着肺部没有空气，他却能一口气讲完那晚的事。雪站的玻璃后面还落着另一场雪。",
-    "en": "The autopsy lists no air in his lungs. He tells the whole night’s story without pausing for breath. A second snowfall continues behind the station window."
+    "zh": "救护记录记着他因浓烟咳嗽不止，他仍坚持讲清当晚撤离的路线。雪站的玻璃后面还落着另一场雪。",
+    "en": "The medical log records a cough from the smoke. He still insists on describing the evacuation route clearly. A second snowfall continues behind the station window."
   },
   "霜枝铜缄折面星客": {
     "zh": "照片中的五官都在正确位置，合在一起却无法让人记住。雪站的玻璃后面还落着另一场雪。",
     "en": "Every feature occupies the right place in the photograph. Together, they cannot be remembered. A second snowfall continues behind the station window."
   },
   "霜枝苔痕砂脊蜥": {
-    "zh": "蜥蜴的尾巴留在证物盘里，身体却每天回来替它换一个位置。雪站的玻璃后面还落着另一场雪。",
-    "en": "The lizard’s tail lies in an evidence tray. Its body returns each day to move it. A second snowfall continues behind the station window."
+    "zh": "蜥蜴藏在路边的暖石下，细长的尾巴扫过积灰，露出一块路标。雪站的玻璃后面还落着另一场雪。",
+    "en": "The lizard shelters beneath a warm roadside stone. Its long tail brushes dust from a road marker. A second snowfall continues behind the station window."
   },
   "霜枝暖灰潜印客": {
     "zh": "他总在你转头前离开，留下的椅子却比刚坐下时更冷。等车的人始终没有在地上留下重量。",
@@ -2072,24 +2072,24 @@
     "en": "The chair it sat on remains intact. The foundation looks as if something pressed it an inch lower. A second snowfall continues behind the station window."
   },
   "霜枝铜缄缄骨客": {
-    "zh": "封棺时少了一颗钉子，后来在他的外衣口袋里找到了。雪站的玻璃后面还落着另一场雪。",
-    "en": "A nail was missing when the coffin was sealed. It was later found in his coat pocket. A second snowfall continues behind the station window."
+    "zh": "封木箱时少了一颗钉子，后来在他的外衣口袋里找到了。雪站的玻璃后面还落着另一场雪。",
+    "en": "A nail was missing when the wooden crate was sealed. It was later found in his coat pocket. A second snowfall continues behind the station window."
   },
   "霜枝浮辉使·伦烙": {
     "zh": "有人试着给它拍照，洗出的纸上只有一块始终不干的水迹。雪站的玻璃后面还落着另一场雪。",
     "en": "Someone tried to photograph it. The print holds only a patch of water that never dries. A second snowfall continues behind the station window."
   },
   "星铸灯议长·依玟": {
-    "zh": "他记得你的脸，却坚持你们第一次见面是在明天的停尸房。白室的门牌从里面看也是同一个号码。",
-    "en": "He remembers your face. He insists you first met tomorrow, in the morgue. The White Room’s door bears the same number on the inside."
+    "zh": "他记得你的脸，却坚持你们第一次见面是在明天的候诊室。白室的门牌从里面看也是同一个号码。",
+    "en": "He remembers your face. He insists you first met tomorrow, in the waiting room. The White Room’s door bears the same number on the inside."
   },
   "星铸修灯师·希玟": {
     "zh": "她给伤口换上新的绷带，拆下来的旧布里却没有一点血。白室的门牌从里面看也是同一个号码。",
     "en": "She changes the dressing. There is no blood anywhere in the cloth she removes. The White Room’s door bears the same number on the inside."
   },
   "星铸裂角客领誓·岚玟": {
-    "zh": "额骨撑破了旧帽子的边缘，证件上仍写着一个普通职业。白室的门牌从里面看也是同一个号码。",
-    "en": "The forehead has split the old cap. The identity card still lists an ordinary occupation. The White Room’s door bears the same number on the inside."
+    "zh": "旧帽子的边缘被雨水打湿，证件上写着他在镇上的职业。白室的门牌从里面看也是同一个号码。",
+    "en": "Rain has soaked the brim of his old cap. His identity card lists his work in town. The White Room’s door bears the same number on the inside."
   },
   "星铸灯议长·索玟": {
     "zh": "她把口供念得很慢，每到自己的名字，窗外就响起刹车声。白室的门牌从里面看也是同一个号码。",
@@ -2188,12 +2188,12 @@
     "en": "He is not lying. On the recording, his answers arrive a fraction before your questions. The White Room’s door bears the same number on the inside."
   },
   "星铸凝光泥团领誓·索斐": {
-    "zh": "它在地上留下湿润的轮廓，像一个人曾经在这里躺了很久。白室的门牌从里面看也是同一个号码。",
-    "en": "Its damp outline remains on the floor, as if a person lay there for a long time. The White Room’s door bears the same number on the inside."
+    "zh": "湿泥在地上留下清楚的推车轮印，方向通往撤离时使用的侧门。白室的门牌从里面看也是同一个号码。",
+    "en": "Cart tracks mark the damp clay, leading to the side door used during the evacuation. The White Room’s door bears the same number on the inside."
   },
   "星铸裂角客领誓·莱斐": {
-    "zh": "它的影子有两种轮廓，轮到报姓名时，只有其中一个动嘴。白室的门牌从里面看也是同一个号码。",
-    "en": "Its shadow has two outlines. Only one mouth moves when it gives a name. The White Room’s door bears the same number on the inside."
+    "zh": "他核对着两份内容不同的口供，轮到报姓名时，先翻出自己的证件。白室的门牌从里面看也是同一个号码。",
+    "en": "He checks two conflicting statements. Asked for his name, he takes out his identity card first. The White Room’s door bears the same number on the inside."
   },
   "星铸裂角客领誓·岑斐": {
     "zh": "他不肯越过地面的盐线，盐粒却在你眨眼时排到了门外。白室的门牌从里面看也是同一个号码。",
@@ -2252,8 +2252,8 @@
     "en": "She carries two return tickets. Water has washed the other passenger’s name away. The White Room’s door bears the same number on the inside."
   },
   "星铸灯议长·诺霖": {
-    "zh": "他记得你的脸，却坚持你们第一次见面是在明天的停尸房。这份记录一直缺少负责调查的人。",
-    "en": "He remembers your face. He insists you first met tomorrow, in the morgue. The investigator’s name is missing from the record."
+    "zh": "他记得你的脸，却坚持你们第一次见面是在明天的候诊室。这份记录一直缺少负责调查的人。",
+    "en": "He remembers your face. He insists you first met tomorrow, in the waiting room. The investigator’s name is missing from the record."
   },
   "星铸灯议长·瑟霖": {
     "zh": "她把口供念得很慢，每到自己的名字，窗外就响起刹车声。这份记录一直缺少负责调查的人。",
@@ -2276,7 +2276,7 @@
     "en": "He comes to report a disappearance. The photograph is his own, with events that have not happened written on the back. The investigator’s name is missing from the record."
   },
   "星铸甲灯虫领誓·岚霖": {
-    "zh": "虫翅沾着洗印药水，飞行时在灯下抖出一小串褪色的人脸。白室的门牌从里面看也是同一个号码。",
+    "zh": "虫翅沾着洗印药水，飞行时在灯下抖落几片褪色的相纸。白室的门牌从里面看也是同一个号码。",
     "en": "Photographic chemicals stain its wings. Faces shake loose beneath the lamp when it flies. The White Room’s door bears the same number on the inside."
   },
   "星铸甲灯虫领誓·索霖": {
@@ -2392,12 +2392,12 @@
     "en": "It has sawn its horns short. At night, fresh scrapes still appear high on the doorframe. The White Room’s door bears the same number on the inside."
   },
   "星铸夜航裂角客": {
-    "zh": "额骨撑破了旧帽子的边缘，证件上仍写着一个普通职业。这份记录一直缺少负责调查的人。",
-    "en": "The forehead has split the old cap. The identity card still lists an ordinary occupation. The investigator’s name is missing from the record."
+    "zh": "旧帽子的边缘被雨水打湿，证件上写着他在镇上的职业。这份记录一直缺少负责调查的人。",
+    "en": "Rain has soaked the brim of his old cap. His identity card lists his work in town. The investigator’s name is missing from the record."
   },
   "星铸流砂裂角客": {
-    "zh": "它的影子有两种轮廓，轮到报姓名时，只有其中一个动嘴。这份记录一直缺少负责调查的人。",
-    "en": "Its shadow has two outlines. Only one mouth moves when it gives a name. The investigator’s name is missing from the record."
+    "zh": "他核对着两份内容不同的口供，轮到报姓名时，先翻出自己的证件。这份记录一直缺少负责调查的人。",
+    "en": "He checks two conflicting statements. Asked for his name, he takes out his identity card first. The investigator’s name is missing from the record."
   },
   "星铸镜纹裂角客": {
     "zh": "他不肯越过地面的盐线，盐粒却在你眨眼时排到了门外。这份记录一直缺少负责调查的人。",
@@ -2416,20 +2416,20 @@
     "en": "The access sensor recorded one person’s weight. Two shadows enter on the camera feed. The White Room’s door bears the same number on the inside."
   },
   "星铸苔痕缄骨客": {
-    "zh": "尸检记录写着肺部没有空气，他却能一口气讲完那晚的事。白室的门牌从里面看也是同一个号码。",
-    "en": "The autopsy lists no air in his lungs. He tells the whole night’s story without pausing for breath. The White Room’s door bears the same number on the inside."
+    "zh": "救护记录记着他因浓烟咳嗽不止，他仍坚持讲清当晚撤离的路线。白室的门牌从里面看也是同一个号码。",
+    "en": "The medical log records a cough from the smoke. He still insists on describing the evacuation route clearly. The White Room’s door bears the same number on the inside."
   },
   "星铸铜缄缄骨客": {
-    "zh": "封棺时少了一颗钉子，后来在他的外衣口袋里找到了。白室的门牌从里面看也是同一个号码。",
-    "en": "A nail was missing when the coffin was sealed. It was later found in his coat pocket. The White Room’s door bears the same number on the inside."
+    "zh": "封木箱时少了一颗钉子，后来在他的外衣口袋里找到了。白室的门牌从里面看也是同一个号码。",
+    "en": "A nail was missing when the wooden crate was sealed. It was later found in his coat pocket. The White Room’s door bears the same number on the inside."
   },
   "星铸石封裂角客": {
     "zh": "它把自己的角锯短了，夜里仍会在门框上留下高处的擦痕。这份记录一直缺少负责调查的人。",
     "en": "It has sawn its horns short. At night, fresh scrapes still appear high on the doorframe. The investigator’s name is missing from the record."
   },
   "星铸鸣枝裂角客": {
-    "zh": "额骨撑破了旧帽子的边缘，证件上仍写着一个普通职业。纸上有你尚未说出口的一句回答。",
-    "en": "The forehead has split the old cap. The identity card still lists an ordinary occupation. The page contains an answer you have not spoken yet."
+    "zh": "旧帽子的边缘被雨水打湿，证件上写着他在镇上的职业。纸上有你尚未说出口的一句回答。",
+    "en": "Rain has soaked the brim of his old cap. His identity card lists his work in town. The page contains an answer you have not spoken yet."
   },
   "星铸回声掠风鸟": {
     "zh": "它每晚带回一枚纽扣，最后一枚正好补齐了失踪者的外衣。白室的门牌从里面看也是同一个号码。",
@@ -2480,8 +2480,8 @@
     "en": "It stands beside the erased name, as though waiting for someone to finish the final stroke. The White Room’s door bears the same number on the inside."
   },
   "星铸暖灰裂角客": {
-    "zh": "它的影子有两种轮廓，轮到报姓名时，只有其中一个动嘴。纸上有你尚未说出口的一句回答。",
-    "en": "Its shadow has two outlines. Only one mouth moves when it gives a name. The page contains an answer you have not spoken yet."
+    "zh": "他核对着两份内容不同的口供，轮到报姓名时，先翻出自己的证件。纸上有你尚未说出口的一句回答。",
+    "en": "He checks two conflicting statements. Asked for his name, he takes out his identity card first. The page contains an answer you have not spoken yet."
   },
   "星铸铜缄流墨触灵": {
     "zh": "触腕从水箱后侧伸出，维修人员却找不到那里有任何开口。白室的门牌从里面看也是同一个号码。",
@@ -2496,8 +2496,8 @@
     "en": "He sorts the receipts by date. The oldest still carries the warmth of your hand. The investigator’s name is missing from the record."
   },
   "星铸苔痕石指傀儡": {
-    "zh": "这只手保留着完整的指纹，却没有任何一枚指甲长在正面。白室的门牌从里面看也是同一个号码。",
-    "en": "The hand retains every fingerprint. None of its nails grows on the front. The White Room’s door bears the same number on the inside."
+    "zh": "这副旧手套的掌心已经磨白，袖口的编号与工房领用册相同。白室的门牌从里面看也是同一个号码。",
+    "en": "The old gloves have worn palms. Their cuff numbers match the workshop issue book. The White Room’s door bears the same number on the inside."
   },
   "星铸铜缄露囊蛙": {
     "zh": "它在排水口叫了一夜，邻居却都说那是有人试图说话。白室的门牌从里面看也是同一个号码。",
@@ -2516,8 +2516,8 @@
     "en": "It knows the patrol car’s sound. It turns before the radio reports the car’s arrival. The White Room’s door bears the same number on the inside."
   },
   "星铸回声缄骨客": {
-    "zh": "它的牙齿已经不齐，录音里的齿音却清楚得像贴着话筒。白室的门牌从里面看也是同一个号码。",
-    "en": "Its teeth are incomplete. The sibilants on the tape sound as if its mouth is pressed to the microphone. The White Room’s door bears the same number on the inside."
+    "zh": "他的声音有些沙哑，仍把每个地名对着录音机说得很清楚。白室的门牌从里面看也是同一个号码。",
+    "en": "His voice is hoarse, but he carefully speaks every place name into the recorder. The White Room’s door bears the same number on the inside."
   },
   "星铸铜缄线尾鼠": {
     "zh": "它叼走的钥匙都生着旧锈，鼠洞里却总传出开新锁的声音。白室的门牌从里面看也是同一个号码。",
@@ -2592,8 +2592,8 @@
     "en": "He copies static into a notebook. By morning, every misspelling has become a person’s name. The White Room’s door bears the same number on the inside."
   },
   "星铸微烛凝光泥团": {
-    "zh": "它在地上留下湿润的轮廓，像一个人曾经在这里躺了很久。这份记录一直缺少负责调查的人。",
-    "en": "Its damp outline remains on the floor, as if a person lay there for a long time. The investigator’s name is missing from the record."
+    "zh": "湿泥在地上留下清楚的推车轮印，方向通往撤离时使用的侧门。这份记录一直缺少负责调查的人。",
+    "en": "Cart tracks mark the damp clay, leading to the side door used during the evacuation. The investigator’s name is missing from the record."
   },
   "星铸铜缄环藤蛇": {
     "zh": "蛇蜕从锁孔里拖出来，里面还包着一张没有签名的借条。白室的门牌从里面看也是同一个号码。",
@@ -2660,16 +2660,16 @@
     "en": "She carries two return tickets. Water has washed the other passenger’s name away. The investigator’s name is missing from the record."
   },
   "星铸巡灯使·图沐": {
-    "zh": "他记得你的脸，却坚持你们第一次见面是在明天的停尸房。纸上有你尚未说出口的一句回答。",
-    "en": "He remembers your face. He insists you first met tomorrow, in the morgue. The page contains an answer you have not spoken yet."
+    "zh": "他记得你的脸，却坚持你们第一次见面是在明天的候诊室。纸上有你尚未说出口的一句回答。",
+    "en": "He remembers your face. He insists you first met tomorrow, in the waiting room. The page contains an answer you have not spoken yet."
   },
   "星铸攀钟猿·芮沐": {
     "zh": "它照着监控学会了举手，镜头停转后仍举着一张不存在的证件。白室的门牌从里面看也是同一个号码。",
     "en": "It learned to raise its hand from the camera feed. When the feed stops, it keeps holding up an absent identity card. The White Room’s door bears the same number on the inside."
   },
   "星铸潜印客·阿洛": {
-    "zh": "她的口袋里没有钥匙，所有钥匙的编号却记在皮肤下面。白室的门牌从里面看也是同一个号码。",
-    "en": "There are no keys in her pockets. Their numbers can be read beneath her skin. The White Room’s door bears the same number on the inside."
+    "zh": "她的口袋里没有钥匙，所有钥匙的编号都记在随身的布本上。白室的门牌从里面看也是同一个号码。",
+    "en": "There are no keys in her pockets. Their numbers are written in her clothbound notebook. The White Room’s door bears the same number on the inside."
   },
   "星铸巡灯使·艾洛": {
     "zh": "她把口供念得很慢，每到自己的名字，窗外就响起刹车声。纸上有你尚未说出口的一句回答。",
@@ -2744,8 +2744,8 @@
     "en": "The medicine has expired. A label inside the bottle gives next week’s weather. The White Room’s door bears the same number on the inside."
   },
   "星铸缄骨客·伦洛": {
-    "zh": "他记得被埋在哪里，却总把回家的路说成另一座墓的地址。白室的门牌从里面看也是同一个号码。",
-    "en": "He remembers where he was buried. His directions home always end at another grave. The White Room’s door bears the same number on the inside."
+    "zh": "他记得救援点在哪里，却总把回家的路说成旧街区的地址。白室的门牌从里面看也是同一个号码。",
+    "en": "He remembers the aid station, but his directions home still lead to the old district. The White Room’s door bears the same number on the inside."
   },
   "星铸修灯师·佩洛": {
     "zh": "他让你握住一盏检查灯，自己的影子却留在手术台上不动。白室的门牌从里面看也是同一个号码。",
@@ -2764,8 +2764,8 @@
     "en": "She marks a blank tape. She says the recording begins in the part that was erased. The page contains an answer you have not spoken yet."
   },
   "星铸缄骨客·阿岚": {
-    "zh": "这具身体的旧伤都合上了，缝线却在向皮肤外缓慢生长。白室的门牌从里面看也是同一个号码。",
-    "en": "The body’s old wounds have closed. The sutures are slowly growing out through the skin. The White Room’s door bears the same number on the inside."
+    "zh": "他外衣上的旧破口已经补好，缝线的颜色与撤离点留下的布条相同。白室的门牌从里面看也是同一个号码。",
+    "en": "The tears in his coat have been mended. The thread matches the cloth left at the evacuation point. The White Room’s door bears the same number on the inside."
   },
   "星铸巡灯使·艾岚": {
     "zh": "她拒绝进入镜头，只愿站在照片已经被裁掉的那个位置。纸上有你尚未说出口的一句回答。",
@@ -2820,8 +2820,8 @@
     "en": "A return address is written under the jar. The postman refuses to enter the building after reading it. The White Room’s door bears the same number on the inside."
   },
   "折光灯议长·索岚": {
-    "zh": "罗杰，档案称“光孔搬运工”。他记得你的脸，却坚持你们第一次见面是在明天的停尸房。负片室里的红灯从来没有真正亮过。",
-    "en": "Roger, filed as Pinhole Porter. He remembers your face. He insists you first met tomorrow, in the morgue. The red lamp in the negative room has never actually lit."
+    "zh": "罗杰，档案称“光孔搬运工”。他记得你的脸，却坚持你们第一次见面是在明天的候诊室。负片室里的红灯从来没有真正亮过。",
+    "en": "Roger, filed as Pinhole Porter. He remembers your face. He insists you first met tomorrow, in the waiting room. The red lamp in the negative room has never actually lit."
   },
   "折光晶棘蜥龙领誓·莱岚": {
     "zh": "科拉，档案称“镜蚀长龙”。桥下留下成片的鳞屑，最大的一片比失踪车辆的车门还宽。负片室里的红灯从来没有真正亮过。",
@@ -2844,8 +2844,8 @@
     "en": "The scorpion holds its sting above the seal. Whatever is inside has fallen silent. The red lamp in the negative room has never actually lit."
   },
   "折光石指傀儡领誓·佩岚": {
-    "zh": "这只手保留着完整的指纹，却没有任何一枚指甲长在正面。负片室里的红灯从来没有真正亮过。",
-    "en": "The hand retains every fingerprint. None of its nails grows on the front. The red lamp in the negative room has never actually lit."
+    "zh": "这副旧手套的掌心已经磨白，袖口的编号与工房领用册相同。负片室里的红灯从来没有真正亮过。",
+    "en": "The old gloves have worn palms. Their cuff numbers match the workshop issue book. The red lamp in the negative room has never actually lit."
   },
   "折光铠卫领誓·泽岚": {
     "zh": "他把盾放在椅背上，凹痕朝着室内，像是防备里面的人。负片室里的红灯从来没有真正亮过。",
@@ -2876,8 +2876,8 @@
     "en": "Heavy claws scrape overhead. Dust rises from inside the roof and drifts outward. The red lamp in the negative room has never actually lit."
   },
   "折光磐颚河兽领誓·乌泽": {
-    "zh": "它张口时露出一颗陌生的门牙，牙根上还绕着医院拆下的细线。负片室里的红灯从来没有真正亮过。",
-    "en": "An unfamiliar incisor shows when it opens its mouth. Hospital suture still circles the root. The red lamp in the negative room has never actually lit."
+    "zh": "它低头咬住岸边的水草，厚实的口鼻上还沾着细小的泥点。负片室里的红灯从来没有真正亮过。",
+    "en": "It lowers its broad muzzle to eat the river grass, specks of mud still clinging to its nose. The red lamp in the negative room has never actually lit."
   },
   "折光铠卫领誓·依泽": {
     "zh": "外套里面缝着许多旧徽章，最靠近心口的一枚没有编号。负片室里的红灯从来没有真正亮过。",
@@ -2928,23 +2928,23 @@
     "en": "Something is missing from the duty belt. The empty space weighs more than the holster. The red lamp in the negative room has never actually lit."
   },
   "折光苔痕裂角客": {
-    "zh": "额骨撑破了旧帽子的边缘，证件上仍写着一个普通职业。负片室里的红灯从来没有真正亮过。",
-    "en": "The forehead has split the old cap. The identity card still lists an ordinary occupation. The red lamp in the negative room has never actually lit."
+    "zh": "旧帽子的边缘被雨水打湿，证件上写着他在镇上的职业。负片室里的红灯从来没有真正亮过。",
+    "en": "Rain has soaked the brim of his old cap. His identity card lists his work in town. The red lamp in the negative room has never actually lit."
   },
   "折光铜缄观灯师": {
     "zh": "她在空白磁带上做记号，说录音是从擦掉的部分开始的。负片室里的红灯从来没有真正亮过。",
     "en": "She marks a blank tape. She says the recording begins in the part that was erased. The red lamp in the negative room has never actually lit."
   },
   "折光铜缄裂角客": {
-    "zh": "它的影子有两种轮廓，轮到报姓名时，只有其中一个动嘴。负片室里的红灯从来没有真正亮过。",
-    "en": "Its shadow has two outlines. Only one mouth moves when it gives a name. The red lamp in the negative room has never actually lit."
+    "zh": "他核对着两份内容不同的口供，轮到报姓名时，先翻出自己的证件。负片室里的红灯从来没有真正亮过。",
+    "en": "He checks two conflicting statements. Asked for his name, he takes out his identity card first. The red lamp in the negative room has never actually lit."
   },
   "折光铜缄枝灯树灵": {
     "zh": "叶脉像一张熟悉的街区图，缺的那条巷子从来没有人走出来。负片室里的红灯从来没有真正亮过。",
     "en": "The leaf veins resemble a familiar street map. Nobody has ever returned from the missing lane. The red lamp in the negative room has never actually lit."
   },
   "折光苔痕甲灯虫": {
-    "zh": "虫翅沾着洗印药水，飞行时在灯下抖出一小串褪色的人脸。负片室里的红灯从来没有真正亮过。",
+    "zh": "虫翅沾着洗印药水，飞行时在灯下抖落几片褪色的相纸。负片室里的红灯从来没有真正亮过。",
     "en": "Photographic chemicals stain its wings. Faces shake loose beneath the lamp when it flies. The red lamp in the negative room has never actually lit."
   },
   "折光铜缄钩针蝎": {
@@ -3048,16 +3048,16 @@
     "en": "He will not sign the statement. Familiar handwriting slowly appears at the foot of the page. The red lamp in the negative room has never actually lit."
   },
   "苔庭暖灰缄骨客": {
-    "zh": "封棺时少了一颗钉子，后来在他的外衣口袋里找到了。调查员把它记进了第二份失踪记录。",
-    "en": "A nail was missing when the coffin was sealed. It was later found in his coat pocket. The investigator entered it in the second missing-person report."
+    "zh": "封木箱时少了一颗钉子，后来在他的外衣口袋里找到了。调查员把它记进了第二份失踪记录。",
+    "en": "A nail was missing when the wooden crate was sealed. It was later found in his coat pocket. The investigator entered it in the second missing-person report."
   },
   "苔庭铜缄掠风鸟": {
     "zh": "鸦羽粘在没有开启过的窗缝，羽轴上刻着很小的门牌号码。雨停以后，值班室里仍能听到水声。",
     "en": "Raven feathers cling to a window that has never opened. Tiny street numbers mark their shafts. Water can still be heard in the duty room after the rain stops."
   },
   "苔庭悬灯缄骨客": {
-    "zh": "它的牙齿已经不齐，录音里的齿音却清楚得像贴着话筒。调查员把它记进了第二份失踪记录。",
-    "en": "Its teeth are incomplete. The sibilants on the tape sound as if its mouth is pressed to the microphone. The investigator entered it in the second missing-person report."
+    "zh": "他的声音有些沙哑，仍把每个地名对着录音机说得很清楚。调查员把它记进了第二份失踪记录。",
+    "en": "His voice is hoarse, but he carefully speaks every place name into the recorder. The investigator entered it in the second missing-person report."
   },
   "砂镜铠卫·乌翎": {
     "zh": "这名警卫从不摘手套，交回的钥匙却每次都带着新的指纹。空出的案卷位置已经积了很厚的灰。",
@@ -3084,8 +3084,8 @@
     "en": "Two addresses are engraved inside the collar. One has no position on the map. A door is drawn at low tide on the Sunken Harbor chart."
   },
   "苔庭银露缄骨客": {
-    "zh": "他记得被埋在哪里，却总把回家的路说成另一座墓的地址。调查员把它记进了第二份失踪记录。",
-    "en": "He remembers where he was buried. His directions home always end at another grave. The investigator entered it in the second missing-person report."
+    "zh": "他记得救援点在哪里，却总把回家的路说成旧街区的地址。调查员把它记进了第二份失踪记录。",
+    "en": "He remembers the aid station, but his directions home still lead to the old district. The investigator entered it in the second missing-person report."
   },
   "暮潮流砂潜印客": {
     "zh": "她会替人藏起证词，但每份副本都在最不该出现的地方找到。码头上的湿脚印始终没有上岸。",
@@ -3100,8 +3100,8 @@
     "en": "Every feature occupies the right place in the photograph. Together, they cannot be remembered. The return date on the ticket is a week before departure."
   },
   "苔庭缄骨客·维翎": {
-    "zh": "这具身体的旧伤都合上了，缝线却在向皮肤外缓慢生长。调查员把它记进了第二份失踪记录。",
-    "en": "The body’s old wounds have closed. The sutures are slowly growing out through the skin. The investigator entered it in the second missing-person report."
+    "zh": "他外衣上的旧破口已经补好，缝线的颜色与撤离点留下的布条相同。调查员把它记进了第二份失踪记录。",
+    "en": "The tears in his coat have been mended. The thread matches the cloth left at the evacuation point. The investigator entered it in the second missing-person report."
   },
   "苔庭回声地缝蠕虫": {
     "zh": "录音里有细小的啃咬声，停下播放，桌下仍能听见。雨停以后，值班室里仍能听到水声。",
@@ -3116,8 +3116,8 @@
     "en": "Someone tried to photograph it. The print holds only a patch of water that never dries. The archive holds another ending to the same statement."
   },
   "砂镜绒雾缄骨客": {
-    "zh": "封棺时少了一颗钉子，后来在他的外衣口袋里找到了。空出的案卷位置已经积了很厚的灰。",
-    "en": "A nail was missing when the coffin was sealed. It was later found in his coat pocket. Thick dust fills the space where the file should be."
+    "zh": "封木箱时少了一颗钉子，后来在他的外衣口袋里找到了。空出的案卷位置已经积了很厚的灰。",
+    "en": "A nail was missing when the wooden crate was sealed. It was later found in his coat pocket. Thick dust fills the space where the file should be."
   },
   "霜枝铜缄静棱铠卫": {
     "zh": "护面里传出另一个人的呼吸，他说执勤表上的姓名已经划掉了。站台的旧广播每天都把你的名字念错。",
@@ -3152,8 +3152,8 @@
     "en": "Oscar, filed as Wordless Chemist. She changes the dressing. There is no blood anywhere in the cloth she removes. The gilt copy is clearer. It preserves a little more of the background than the original."
   },
   "鎏金·折光灯议长·索岚": {
-    "zh": "罗杰，档案称“光孔搬运工”。他记得你的脸，却坚持你们第一次见面是在明天的停尸房。旧印章压在金箔上，印出的日期比记忆早了一天。",
-    "en": "Roger, filed as Pinhole Porter. He remembers your face. He insists you first met tomorrow, in the morgue. The old stamp presses into gold foil. Its date is a day earlier than remembered."
+    "zh": "罗杰，档案称“光孔搬运工”。他记得你的脸，却坚持你们第一次见面是在明天的候诊室。旧印章压在金箔上，印出的日期比记忆早了一天。",
+    "en": "Roger, filed as Pinhole Porter. He remembers your face. He insists you first met tomorrow, in the waiting room. The old stamp presses into gold foil. Its date is a day earlier than remembered."
   },
   "鎏金·折光镜瞳山猫领誓·塔岚": {
     "zh": "皮普，档案称“倒瞳猫”。猫从不碰那只纸箱，夜里却会向箱内一个看不见的东西让路。金边下压着一根细线，另一端留在上次离开的地方。",
@@ -3248,12 +3248,12 @@
     "en": "Mabel, filed as Well Spider. The web holds no prey, only house numbers cut from their doors. A warning on the back is signed with your former address."
   },
   "苔庭峰脊巨灵领誓·瑟珀": {
-    "zh": "雨果，档案称“搬尸人”。他比值班室的门框还高，进门时却不用弯腰。你量了两遍，少掉的那段长度都在自己这边。",
-    "en": "Hugo, filed as Body Porter. He is taller than the duty-room doorway, yet enters without stooping. You measure twice. Each time the missing length comes from your side."
+    "zh": "雨果，档案称“搬运工”。他比值班室的门框还高，进门时却不用弯腰。你量了两遍，少掉的那段长度都在自己这边。",
+    "en": "Hugo, filed as Porter. He is taller than the duty-room doorway, yet enters without stooping. You measure twice. Each time the missing length comes from your side."
   },
   "鎏金·苔庭峰脊巨灵领誓·瑟珀": {
-    "zh": "雨果，档案称“搬尸人”。他比值班室的门框还高，进门时却不用弯腰。交接栏只有一个签名，墨迹分成了不同的年份。",
-    "en": "Hugo, filed as Body Porter. He is taller than the duty-room doorway, yet enters without stooping. The handover field has one signature, written in inks from different years."
+    "zh": "雨果，档案称“搬运工”。他比值班室的门框还高，进门时却不用弯腰。交接栏只有一个签名，墨迹分成了不同的年份。",
+    "en": "Hugo, filed as Porter. He is taller than the duty-room doorway, yet enters without stooping. The handover field has one signature, written in inks from different years."
   },
   "苔庭铠卫领誓·维珀": {
     "zh": "里昂，档案称“无证者”。他的手电每隔片刻就会闪一下，收音机同时停声。维修记录说两件东西从未装过电池。",
@@ -3272,12 +3272,12 @@
     "en": "Reed, filed as Bridge Guard. He knocks only at the middle door. The second examination lists the stain as another witness."
   },
   "苔庭缄骨客领誓·米珀": {
-    "zh": "阿莫斯，档案称“掘墓人”。焚化登记上划掉了他的名字，骨灰袋却每天多一个。最新那袋很轻，里面有鞋底留下的灰。",
-    "en": "Amos, filed as Gravedigger. His name has been crossed out in the cremation register, but another ash bag appears each day. The newest is light. It holds dust from a shoe sole."
+    "zh": "阿莫斯，档案称“掘土人”。修路登记上划掉了他的名字，工具棚里却每天多一只沙袋。最新那袋很轻，里面夹着一张标有撤离方向的纸。",
+    "en": "Amos, filed as Groundsman. His name is crossed out of the roadwork register, but another sandbag appears in the tool shed each day. The newest is light. It holds a note showing the evacuation route."
   },
   "鎏金·苔庭缄骨客领誓·米珀": {
-    "zh": "阿莫斯，档案称“掘墓人”。焚化登记上划掉了他的名字，骨灰袋却每天多一个。时间戳已经褪色，停顿的长度却和上次完全一样。",
-    "en": "Amos, filed as Gravedigger. His name has been crossed out in the cremation register, but another ash bag appears each day. The timestamp has faded, but the pause lasts exactly as long as before."
+    "zh": "阿莫斯，档案称“掘土人”。修路登记上划掉了他的名字，工具棚里却每天多一只沙袋。时间戳已经褪色，停顿的长度却和上次完全一样。",
+    "en": "Amos, filed as Groundsman. His name is crossed out of the roadwork register, but another sandbag appears in the tool shed each day. The timestamp has faded, but the pause lasts exactly as long as before."
   },
   "苔庭铠卫领誓·阿恩": {
     "zh": "赛斯，档案称“誓证人”。他把枪放在桌上，整夜没有碰过。天亮后枪口仍然温热，墙上的新刻痕比昨天多了一道。",
@@ -3344,12 +3344,12 @@
     "en": "Ada, filed as Ledger Clerk. The Bookkeeper polishes the abacus beads while pouring your tea. “On credit. Settle outside.” In the ledger, a charge for breakfast is written in a familiar hand. You have not eaten it yet. Whoever owes it has already paid three times."
   },
   "铜钟缄骨客领誓·岑拉": {
-    "zh": "莫里斯，档案称“守尸人”。钟楼地下收着一辆没有座位的小车，轮轴内缠着细骨。它行过的轨道，总比图纸多转一圈。",
-    "en": "Morris, filed as Mortuary Guard. A small cart without a seat is kept beneath the tower. Thin bones wind around its axle. Its track always makes one more turn than the plan shows."
+    "zh": "莫里斯，档案称“看守人”。钟楼地下收着一辆没有座位的小车，轮轴内缠着旧绳。它行过的轨道，总比图纸多转一圈。",
+    "en": "Morris, filed as Caretaker. A small cart without a seat is kept beneath the tower. Old rope winds around its axle. Its track always makes one more turn than the plan shows."
   },
   "鎏金·铜钟缄骨客领誓·岑拉": {
-    "zh": "莫里斯，档案称“守尸人”。钟楼地下收着一辆没有座位的小车，轮轴内缠着细骨。录音中多了一次呼吸，恰好填满你沉默的地方。",
-    "en": "Morris, filed as Mortuary Guard. A small cart without a seat is kept beneath the tower. An extra breath on the tape exactly fills your silence."
+    "zh": "莫里斯，档案称“看守人”。钟楼地下收着一辆没有座位的小车，轮轴内缠着旧绳。录音中多了一次呼吸，恰好填满你沉默的地方。",
+    "en": "Morris, filed as Caretaker. A small cart without a seat is kept beneath the tower. An extra breath on the tape exactly fills your silence."
   },
   "铜钟环藤蛇领誓·伦拉": {
     "zh": "巴兹尔，档案称“盘钟蛇”。蛇蜕被装进医务盒，里面的药瓶却都贴着人名。负责保管的人说，吞下去才知道谁还活着。",
@@ -3384,8 +3384,8 @@
     "en": "Greta, filed as Clock Spider. Its egg sac is hidden in a stopped clock. The handover field has one signature, written in inks from different years."
   },
   "铜钟缄骨客领誓·欧温": {
-    "zh": "伊万，档案称“不眠者”。他身上的缝合线与旧钟绳是同一种纤维。伤口闭合后，钟楼里就会有一架钟重新开始计时。",
-    "en": "Ivan, filed as The Sleepless. The thread in his stitches is the same fiber as the old bell ropes. Whenever a wound closes, another clock in the tower begins keeping time."
+    "zh": "伊万，档案称“不眠者”。他外衣的补线与旧钟绳是同一种纤维。查过交接册后，他才将修好的钟重新上弦。",
+    "en": "Ivan, filed as The Sleepless. The mending thread in his coat matches the old bell ropes. He checks the handover book before winding the repaired clock."
   },
   "鎏金·铜钟缄骨客领誓·欧温": {
     "zh": "伊万，档案称“不眠者”。他身上的缝合线与旧钟绳是同一种纤维。你听见他重复证词，这次多了一个不存在的房间。",
@@ -3400,8 +3400,8 @@
     "en": "Boris, filed as Bristle Guard. Two people appear in the mirrored shield, though only he stands outside it. The second examination lists the stain as another witness."
   },
   "铜钟缄骨客领誓·洛温": {
-    "zh": "莉娜，档案称“饮露人”。他说自己不需要进食，证物袋里的牙齿却每天少一颗。最新的检验报告上，多了你的牙模。",
-    "en": "Lena, filed as Dew Drinker. He says he does not eat. A tooth disappears from the evidence bag each day. The newest examination report includes a mold of your teeth."
+    "zh": "莉娜，档案称“饮露人”。她把热水留给刚撤离的工人，自己只喝杯底的一点。杯旁压着一张写有姓名的交接单。",
+    "en": "Lena, filed as Dew Drinker. She saves the hot water for the evacuated workers and drinks only what is left. A named handover slip rests beside the cup."
   },
   "鎏金·铜钟缄骨客领誓·洛温": {
     "zh": "莉娜，档案称“饮露人”。他说自己不需要进食，证物袋里的牙齿却每天少一颗。时间戳已经褪色，停顿的长度却和上次完全一样。",
@@ -3480,12 +3480,12 @@
     "en": "Anton, filed as Shift Return. He feeds a used work pass into the furnace and takes a new one from the far end. An extra breath on the tape exactly fills your silence."
   },
   "炽砂缄骨客领誓·希弥": {
-    "zh": "托比亚斯，档案称“拾骨人”。车间里一共三排空座，只有最外侧两排留下抓痕。他说最后下班的人，从来不坐中间。",
-    "en": "Tobias, filed as Bone Collector. There are three rows of empty seats in the workshop. Only the outer rows bear scratches. He says the last people to leave never sit in the middle."
+    "zh": "托比亚斯，档案称“拾荒人”。车间里一共三排空座，只有最外侧两排留下抓痕。他说最后下班的人，要把中间的通道留给担架。",
+    "en": "Tobias, filed as Salvager. There are three rows of empty seats in the workshop. Only the outer rows bear scratches. He says the last shift kept the middle aisle clear for stretchers."
   },
   "鎏金·炽砂缄骨客领誓·希弥": {
-    "zh": "托比亚斯，档案称“拾骨人”。车间里一共三排空座，只有最外侧两排留下抓痕。你发现修补过的地方，正好绕开了照片里的自己。",
-    "en": "Tobias, filed as Bone Collector. There are three rows of empty seats in the workshop. The repaired area passes carefully around your own figure in the photograph."
+    "zh": "托比亚斯，档案称“拾荒人”。车间里一共三排空座，只有最外侧两排留下抓痕。你发现修补过的地方，正好绕开了照片里的自己。",
+    "en": "Tobias, filed as Salvager. There are three rows of empty seats in the workshop. The repaired area passes carefully around your own figure in the photograph."
   },
   "炽砂灯议长·米弥": {
     "zh": "伊妮德，档案称“洗片师”。洗片师把夹子挪远，给你腾出一块干净台面。醋味钻进鼻子，红灯下，水滴落得很慢。“先别认人。”他把照片翻过去。纸背已经写好合影名单，最下面一行，墨还没干。",
@@ -3592,12 +3592,12 @@
     "en": "Luca, filed as Tide Maw. The salt on his clothes forms small teeth. The pencil marks on the back predate the statement by a full day."
   },
   "暮潮星枝鹿领誓·伦尘": {
-    "zh": "奥林，档案称“浮尸鹿”。鹿蹄陷过的地方留不住海水，像几口安静的井。救援名单贴在井边，没有一个名字被风吹动。",
-    "en": "Orin, filed as Drift Deer. Seawater will not stay in the deer's hoofprints. They resemble small, quiet wells. A rescue list beside them does not move in the wind."
+    "zh": "奥林，档案称“渡口鹿”。鹿蹄陷过的地方留不住海水，像几口安静的井。救援名单贴在井边，没有一个名字被风吹动。",
+    "en": "Orin, filed as Ferry Deer. Seawater will not stay in the deer's hoofprints. They resemble small, quiet wells. A rescue list beside them does not move in the wind."
   },
   "鎏金·暮潮星枝鹿领誓·伦尘": {
-    "zh": "奥林，档案称“浮尸鹿”。鹿蹄陷过的地方留不住海水，像几口安静的井。封存后留下的指纹，不属于任何到过这里的人。",
-    "en": "Orin, filed as Drift Deer. Seawater will not stay in the deer's hoofprints. The prints left after sealing belong to nobody who has been here."
+    "zh": "奥林，档案称“渡口鹿”。鹿蹄陷过的地方留不住海水，像几口安静的井。封存后留下的指纹，不属于任何到过这里的人。",
+    "en": "Orin, filed as Ferry Deer. Seawater will not stay in the deer's hoofprints. The prints left after sealing belong to nobody who has been here."
   },
   "暮潮灯议长·佩尘": {
     "zh": "哈兰，档案称“旧船长”。旧船长晾干帽子，先拍出盐，再端端正正戴回去。他在桌上给你画航线，铅笔短得只够两根指头捏。“别嫌船小。”他说。纸上那条船的影子，正慢慢沉过你放杯子的地方。",
@@ -3616,20 +3616,20 @@
     "en": "Nico, filed as Card Dealer. He replaces a tape with a strip of sea-snake skin. The repaired area passes carefully around your own figure in the photograph."
   },
   "暮潮织光蛛领誓·图尘": {
-    "zh": "玛塔，档案称“海底蛛”。巨蛛把救生圈包得严严实实，圈里的人形已经没有呼吸。岸上仍有人坚持，那是最近一次获救者。",
-    "en": "Marta, filed as Deep Spider. The great spider has sealed a lifebuoy in silk. The human outline inside no longer breathes. Someone ashore insists it is the latest rescue."
+    "zh": "玛塔，档案称“海底蛛”。巨蛛在码头的旧救生圈上结网，圈边还系着最后一班船留下的缆绳。岸上的救援牌记着当晚获救者的姓名。",
+    "en": "Marta, filed as Deep Spider. The great spider spins across an old life ring on the pier. A rope from the last boat is still tied to it. The rescue board ashore records the survivors’ names."
   },
   "鎏金·暮潮织光蛛领誓·图尘": {
     "zh": "玛塔，档案称“海底蛛”。巨蛛把救生圈包得严严实实，圈里的人形已经没有呼吸。被删去的那一行，在你合上纸张后重新出现。",
     "en": "Marta, filed as Deep Spider. The great spider has sealed a lifebuoy in silk. The deleted line returns after you fold the sheet."
   },
   "暮潮缄骨客领誓·阿汀": {
-    "zh": "康拉德，档案称“舱底客”。他看过每一具打捞上来的尸体，却从不在记录上写死因。最后一页写着，下一具会自己上岸。",
-    "en": "Conrad, filed as Bilge Guest. He examines every recovered body but never writes a cause of death. The last page says the next one will come ashore by itself."
+    "zh": "康拉德，档案称“舱底客”。他核对打捞上来的每件行李，把认领人的名字逐项写进记录。最后一页标着送往雪站的批次和时间。",
+    "en": "Conrad, filed as Bilge Guest. He checks every recovered bag and records the name of the person claiming it. The last page lists a shipment time for Snow Station."
   },
   "鎏金·暮潮缄骨客领誓·阿汀": {
-    "zh": "康拉德，档案称“舱底客”。他看过每一具打捞上来的尸体，却从不在记录上写死因。背面写着一段提醒，落款却用了你的旧住址。",
-    "en": "Conrad, filed as Bilge Guest. He examines every recovered body but never writes a cause of death. A warning on the back is signed with your former address."
+    "zh": "康拉德，档案称“舱底客”。他核对打捞上来的每件行李，把认领人的名字逐项写进记录。背面写着一段提醒，落款却用了你的旧住址。",
+    "en": "Conrad, filed as Bilge Guest. He checks every recovered bag and records the name of the person claiming it. A warning on the back is signed with your former address."
   },
   "暮潮灯议长·艾汀": {
     "zh": "灯塔守护者伊莱看过你在末班船上举灯，替船工照清担架的系带。他将座位表翻到背面，指着帮工记录：“让出座位，不等于离开船。”他擦净交接编号，让你带着提灯和这份副本去找雪站的签收。",
@@ -3696,8 +3696,8 @@
     "en": "Nolan, filed as Tide Listener. Words are cut into the stern, but he will not light them for you. You find another closing sheet. Its staple holds no paper."
   },
   "霜枝铜缄裂角客": {
-    "zh": "埃里克，档案称“雪角”。他把雪站外的人影往灯下拖，拖到的却只有一件外套。外套内侧印着整齐的肋骨痕，仍在缓慢起伏。",
-    "en": "Erik, filed as Snow Horn. He drags the shape outside the station toward the light. Only a coat arrives. Neat rib marks inside it still rise and fall."
+    "zh": "埃里克，档案称“雪角”。他把雪站外的人影往灯下拖，拖到的却只有一件外套。外套内侧缝着姓名布签，袖口还夹着一张雪站回执。",
+    "en": "Erik, filed as Snow Horn. He drags the shape outside the station toward the light. Only a coat arrives. A name tag is sewn inside, with a Snow Station receipt caught in the cuff."
   },
   "鎏金·霜枝铜缄裂角客": {
     "zh": "埃里克，档案称“雪角”。他把雪站外的人影往灯下拖，拖到的却只有一件外套。复印件上多出一行字，写的是你尚未问出口的问题。",
@@ -3736,20 +3736,20 @@
     "en": "Ansel, filed as Ice Watch. He joins two wires in the torch. An extra breath on the tape exactly fills your silence."
   },
   "霜枝攀钟猿领誓·阿诺": {
-    "zh": "阿洛，档案称“白猿”。猿笼上的观察窗结了霜，霜下是一张完整的人脸。看护员让你等解冻再来，随后撕掉了预约单。",
-    "en": "Arlo, filed as White Ape. The observation pane on the ape enclosure has frozen over a complete human face. The attendant tells you to return after the thaw, then tears up the appointment."
+    "zh": "阿洛，档案称“白猿”。猿笼上的观察窗结了霜，霜下能看见白猿厚实的毛发和安静的眼睛。看护员让你等解冻再来，随后撕掉了预约单。",
+    "en": "Arlo, filed as White Ape. Frost covers the observation pane on the ape enclosure. The ape’s thick fur and calm eyes are visible behind it. The attendant tells you to return after the thaw, then tears up the appointment."
   },
   "鎏金·霜枝攀钟猿领誓·阿诺": {
-    "zh": "阿洛，档案称“白猿”。猿笼上的观察窗结了霜，霜下是一张完整的人脸。你发现修补过的地方，正好绕开了照片里的自己。",
-    "en": "Arlo, filed as White Ape. The observation pane on the ape enclosure has frozen over a complete human face. The repaired area passes carefully around your own figure in the photograph."
+    "zh": "阿洛，档案称“白猿”。猿笼上的观察窗结了霜，霜下能看见白猿厚实的毛发和安静的眼睛。你发现修补过的地方，正好绕开了照片里的自己。",
+    "en": "Arlo, filed as White Ape. Frost covers the observation pane on the ape enclosure. The ape’s thick fur and calm eyes are visible behind it. The repaired area passes carefully around your own figure in the photograph."
   },
   "霜枝攀钟猿领誓·艾诺": {
-    "zh": "乌尔里克，档案称“断臂猿”。解剖报告说它已经没有头，笼内的食盆却仍然移动。监控拍到一只手，把饭送到画面以外。",
-    "en": "Ulric, filed as One-Arm Ape. The autopsy says it has no head. The food bowl still moves in its cage. A camera records a hand carrying the meal beyond the frame."
+    "zh": "乌尔里克，档案称“断臂猿”。兽医报告记着它的旧伤，饲养员仍按时为它准备食物。监控拍到一只手，把饭送到画面以外。",
+    "en": "Ulric, filed as One-Arm Ape. The veterinary report notes its old injury. Its keeper still prepares each meal on time. A camera records a hand carrying the meal beyond the frame."
   },
   "鎏金·霜枝攀钟猿领誓·艾诺": {
-    "zh": "乌尔里克，档案称“断臂猿”。解剖报告说它已经没有头，笼内的食盆却仍然移动。被删去的那一行，在你合上纸张后重新出现。",
-    "en": "Ulric, filed as One-Arm Ape. The autopsy says it has no head. The deleted line returns after you fold the sheet."
+    "zh": "乌尔里克，档案称“断臂猿”。兽医报告记着它的旧伤，饲养员仍按时为它准备食物。被删去的那一行，在你合上纸张后重新出现。",
+    "en": "Ulric, filed as One-Arm Ape. The veterinary report notes its old injury. The deleted line returns after you fold the sheet."
   },
   "霜枝攀钟猿领誓·伊诺": {
     "zh": "内斯托，档案称“老雪猿”。两只猿影在雪墙上轮流出现，笼里始终只有一只。每次清点完，饲养员都要重写自己的年龄。",
@@ -3880,8 +3880,8 @@
     "en": "Alton, filed as Faceless Guard. His pass clicks in the white light. The deleted line returns after you fold the sheet."
   },
   "星铸裂角客领誓·伊玟": {
-    "zh": "达拉，档案称“裂夜客”。他口述的每一个停顿都被单独装袋，袋内慢慢生出水雾。负责封存的人说，那些袋子以前放过肺。",
-    "en": "Dara, filed as Night Split. Each pause in his statement has been bagged separately. Mist gathers inside. The custodian says the bags once contained lungs."
+    "zh": "达拉，档案称“裂夜客”。他口述的每一个停顿都被单独装袋，袋内慢慢生出水雾。负责封存的人说，那些袋子以前装过录音机。",
+    "en": "Dara, filed as Night Split. Each pause in his statement has been bagged separately. Mist gathers inside. The custodian says the bags once contained recorders."
   },
   "鎏金·星铸裂角客领誓·伊玟": {
     "zh": "达拉，档案称“裂夜客”。他口述的每一个停顿都被单独装袋，袋内慢慢生出水雾。背面写着一段提醒，落款却用了你的旧住址。",

@@ -2,7 +2,11 @@
 const CARD_DISPLAY_NAMES=__DATA_CARD_NAMES__;
 const TOKEN_DISPLAY_NAMES={
  '鎏金灯蛛':{zh:'灯蛛',en:'Wick Spider'},
- '鎏金余芯':{zh:'余芯',en:'Wick'}
+ '鎏金余芯':{zh:'余芯',en:'Wick'},
+ '碎灯偶':{zh:'提灯助手',en:'Lantern Helper'},
+ '骸骨仆从':{zh:'提灯助手',en:'Lantern Helper'},
+ '骸骨车轮':{zh:'旧木车轮',en:'Wooden Cartwheel'},
+ '墓地伏影':{zh:'港口伏影',en:'Harbor Watcher'}
 };
 const CARD_STORIES=__DATA_CARD_STORIES__;
 const LOOP_STORY=__DATA_LOOP_STORY__;
@@ -122,6 +126,7 @@ for(const world of Object.keys(LOOP_STORY.chapters)){
  const label=LOOP_STORY.chapters[world].name;I18N_STRINGS[GAME_META[world][0]]=label.en;I18N_STRINGS[label.zh]=label.en;storyNameDictionary[GAME_META[world][0]]=label.zh;
 }
 const HORROR_UI_ALIASES={
+ '遗骸':{zh:'遗影',en:'Echo'},
  '继续调查':{zh:'继续调查',en:'Continue the Investigation'},'问询记录':{zh:'问询记录',en:'Interview Record'},'档案附注':{zh:'档案附注',en:'File Note'},'案卷记录':{zh:'案卷记录',en:'Case Record'},
  '行灯者姓名':{zh:'调查者姓名',en:'Investigator’s Name'},'燃烧的剑与灯台':{zh:'值班室的守夜灯',en:'The duty room night lamp'},
  '旅途手记':{zh:'调查手记',en:'Case Notes'},'灯台手册':{zh:'调查手册',en:'Field Manual'},'回到灯台':{zh:'返回值班室',en:'Return to the Duty Room'},'灯台':{zh:'值班室',en:'Duty Room'},'不灭灯台':{zh:'守夜灯',en:'Night Lamp'},

@@ -13,10 +13,10 @@
 | 6 | Owen | Old Guard | Borrowed Light | A wounded friendly non-fodder card heals 1 Health and becomes Light this round. |
 | 7 | Ira | Mourning Moth | Trimmed Edges | Discard a hand card. Deal 1 damage each to the player's leftmost and rightmost field cards. If there is only one, hit it once. |
 | 8 | Mabel | Well Spider | Ember Web | Discard a hand card to leave an ember in an empty player lane. The next player card deployed there takes 1 damage. Only one ember may exist, lasting until the end of the next round. |
-| 9 | Hugo | Body Porter | Hold the Lid | The player's highest-Health attacker cannot move this round and its first attack deals 1 less damage. |
+| 9 | Hugo | Porter | Hold the Lid | The player's highest-Health attacker cannot move this round and its first attack deals 1 less damage. |
 | 10 | Leon | No Witness | Broken Circuit | A friendly attacker becomes Lightning this round. Its first attack on a card deals 1 additional Lightning damage, which can be reflected by Parry. |
 | 11 | Reed | Bridge Guard | Bridge Center | Deal 1 damage to the player field card nearest the center. Break ties at random. |
-| 12 | Amos | Gravedigger | Turned Earth | Consume an ordinary card costing 1 or less from your discard pile to summon a 1/1 Mireglass Lantern-Hung Bonebound into an empty lane. |
+| 12 | Amos | Groundsman | Turned Earth | Consume an ordinary card costing 1 or less from your discard pile to summon a 1/1 Lantern Helper into an empty lane. |
 | 13 | Seth | Sworn Witness | Held Signature | A chosen friendly card cannot attack this round. If it survives until the next round, it gains 1 Attack for that round. |
 | 14 | Ezra | Mist Drake | Cooling Mist | Discard a hand card. A player attacker loses 1 Attack this round and takes 1 additional damage from the first Fire attack that hits it this round. |
 | 15 | Cole | Ash Guest | Ash Wash | Discard a hand card to temporarily turn a random player field card into Wick. |
@@ -30,7 +30,7 @@
 | 2 | Kurt | Iron Mask | Shift Change | Move a friendly card into an adjacent empty lane. If it moves, it gains 1 Attack this round. |
 | 3 | Emil | Hollow Man | Empty Uniform | Discard a hand card to summon a 0/2 Dusktide Echoing Ridge Colossus's Shield Shade with Guard into an empty lane. It cannot be sacrificed and vanishes at round end. |
 | 4 | Ada | Ledger Clerk | Black Ledger | A friendly non-fodder card becomes Dark this round and gains a Shield. |
-| 5 | Morris | Mortuary Guard | Set the Bier Rolling | Consume a friendly discarded card to summon a 1/1 Bonewheel with Push into an empty lane. It cannot be sacrificed. |
+| 5 | Morris | Caretaker | Set the Cart Rolling | Consume a friendly discarded card to summon a 1/1 Wooden Cartwheel with Push into an empty lane. It cannot be sacrificed. |
 | 6 | Basil | Bell Serpent | Bitter Medicine | Discard a hand card to Poison an unpoisoned player card for 1 round and heal the Boss for 1 life. Poison deals 1 damage at the end of this round. |
 | 7 | Lars | Stove Guest | Borrowed Fire | A friendly card becomes Fire this round. Its first attack on a card deals 1 additional Fire damage, then it takes 1 damage at round end. |
 | 8 | Felix | Clock Breaker | Take Apart the Chime | Discard a hand card. Deal 1 Fire damage to every player card in the center three lanes. |
@@ -52,7 +52,7 @@
 | 3 | Enoch | Smoke Caller | Shift in the Glass | Discard a hand card to summon a 1/1 Magic Crystal Double into an empty lane. It cannot be sacrificed and vanishes at round end. |
 | 4 | Edwin | Ash Doctor | Bedside Meeting | If at least three friendly cards are on the field, heal the Boss for 1 life, up to 7. |
 | 5 | Anton | Shift Return | Makeup Shift | Sacrifice a mature Wick or an ordinary, ability-free 0/1 fodder card. Another friendly attacker heals 1 Health and gains 1 Attack this round. This power will not sacrifice a valuable attacker. |
-| 6 | Tobias | Bone Collector | End Seats | If the player has at least three field cards, discard a hand card to deal 1 Dark damage each to the player's leftmost and rightmost cards. |
+| 6 | Tobias | Salvager | End Seats | If the player has at least three field cards, discard a hand card to deal 1 Dark damage each to the player's leftmost and rightmost cards. |
 | 7 | Enid | Film Washer | Second Print | Discard a hand card to create a 1/1 Shadow Double in an empty lane. It cannot be sacrificed and vanishes at the end of this round. |
 | 8 | Horace | Furnace Porter | Carry the Furnace | Discard a hand card. A friendly attacker with at least 2 Health gains 1 Attack this round and takes 1 damage after attacking. Also deal 1 damage to the player's highest-Health card. |
 | 9 | Roland | Smoke Guard | Around the Flame | Move a friendly card into an adjacent empty lane. If successful, it becomes Fire this round and its first attack on a card deals 1 additional Fire damage. |
@@ -71,8 +71,8 @@
 | 1 | Milo | Backtide Deer | Salt in the Cut | A wounded friendly card gains 1 Attack this round. If it kills an enemy card this round, it also heals itself for 1 Health. |
 | 2 | Jude | Cardsharp | Life on Credit | A friendly card gains 1 Attack this round, then takes 1 damage after attacking. |
 | 3 | Luca | Tide Maw | Brine Kiss | Discard a hand card. A wounded friendly attacker gains Lifesteal and Poison this round. It must still attack its opposing lane. |
-| 4 | Orin | Drift Deer | Returning Tide | Heal a wounded friendly non-fodder card for 1 Health and heal the Boss for 1 life. |
-| 5 | Harlan | Old Captain | Old Anchor | Consume a friendly discarded card to summon a 0/2 Graveyard Shade with Guard into an empty lane. It cannot be sacrificed and vanishes at round end. |
+| 4 | Orin | Ferry Deer | Returning Tide | Heal a wounded friendly non-fodder card for 1 Health and heal the Boss for 1 life. |
+| 5 | Harlan | Old Captain | Old Anchor | Consume a friendly discarded card to summon a 0/2 Harbor Watcher with Guard into an empty lane. It cannot be sacrificed and vanishes at round end. |
 | 6 | Nico | Card Dealer | Tape Switch | Discard a hand card to summon a 1/1 Serpent Shade with Poison into an empty lane. It cannot be sacrificed and vanishes at round end. |
 | 7 | Marta | Deep Spider | Sealed Cocoon | Give a friendly card a Shield, but it cannot attack this round. Prefer cards with low Attack. |
 | 8 | Conrad | Bilge Guest | Cabin Roll Call | If a friendly card died this round, deal 1 damage to the player's field card with the least remaining Health. |
@@ -95,7 +95,7 @@
 | 4 | Marek | Flying Knife | Left Behind | Return a friendly card to hand, leaving a 0/1 Illusion in its lane. The Illusion cannot be sacrificed and vanishes at round end. Returning to hand does not trigger Deathrattle. |
 | 5 | Ansel | Ice Watch | Crossed Wire | A chosen friendly card's first attack on a card this round deals 1 additional Lightning damage. If the target has Parry, that additional damage is reflected to the attacker. |
 | 6 | Arlo | White Ape | Frosted Pane | Freeze a random nonzero-cost card in the player's hand through their next action. It then thaws without a cost reduction and cannot be frozen by this type of power again during the round it thaws. |
-| 7 | Ulric | One-Arm Ape | Bone Set | Return a discarded card costing 2 or less to hand. It has only 1 Health when deployed again. Each card can be revived this way only once per battle. |
+| 7 | Ulric | One-Arm Ape | Refit | Return a discarded card costing 2 or less to hand. It has only 1 Health when deployed again. Each card can be revived this way only once per battle. |
 | 8 | Nestor | Old Snow Ape | Old Companion | Consume a friendly discarded card to summon a 1/1 Ape Companion Afterimage with Push into an empty lane. It cannot be sacrificed and vanishes at round end. |
 | 9 | Alma | Frozen Sentry | Interleaved | A friendly non-fodder card becomes Magic this round and gains a Shield. |
 | 10 | Soren | Hidden Name | Molded Words | Discard a hand card. An unpoisoned player card is Poisoned for 1 round and cannot move this round. Poison deals 1 damage at round end. |

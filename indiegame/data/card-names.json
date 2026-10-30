@@ -32,8 +32,8 @@
     "en": "Last Fiend"
   },
   "苔庭峰脊巨灵领誓·瑟珀": {
-    "zh": "搬尸人雨果",
-    "en": "Body Porter Hugo"
+    "zh": "搬运工雨果",
+    "en": "Porter Hugo"
   },
   "苔庭铠卫领誓·维珀": {
     "zh": "无证者里昂",
@@ -48,8 +48,8 @@
     "en": "Backward Scribe"
   },
   "苔庭缄骨客领誓·米珀": {
-    "zh": "掘墓人阿莫斯",
-    "en": "Gravedigger Amos"
+    "zh": "掘土人阿莫斯",
+    "en": "Groundsman Amos"
   },
   "苔庭晶棘蜥龙领誓·岚珀": {
     "zh": "失温龙",
@@ -228,16 +228,16 @@
     "en": "Pale Surveyor"
   },
   "苔庭琉纹缄骨客": {
-    "zh": "门缝空皮",
-    "en": "Crack Husk"
+    "zh": "门缝过客",
+    "en": "Crack Wayfarer"
   },
   "苔庭风蚀缄骨客": {
-    "zh": "低声空皮",
-    "en": "Hushed Husk"
+    "zh": "低声过客",
+    "en": "Hushed Wayfarer"
   },
   "苔庭静棱缄骨客": {
-    "zh": "斜灯空皮",
-    "en": "Slant Husk"
+    "zh": "斜灯过客",
+    "en": "Slant Wayfarer"
   },
   "苔庭绒雾缄骨客": {
     "zh": "独行失踪者",
@@ -268,8 +268,8 @@
     "en": "Rain Frog"
   },
   "苔庭苔痕凝光泥团": {
-    "zh": "门缝肉块",
-    "en": "Crack Mass"
+    "zh": "门缝泥团",
+    "en": "Crack Clay"
   },
   "苔庭铜缄枝灯树灵": {
     "zh": "野径树根",
@@ -312,16 +312,16 @@
     "en": "Drowned Missing"
   },
   "苔庭流砂缄骨客": {
-    "zh": "枯叶白骨",
-    "en": "Deadleaf Bones"
+    "zh": "枯叶行客",
+    "en": "Leafroad Traveler"
   },
   "苔庭夜航观灯师": {
     "zh": "失温播音人",
     "en": "Cold Speaker"
   },
   "苔庭镜纹缄骨客": {
-    "zh": "漏雨白骨",
-    "en": "Rain Bones"
+    "zh": "漏雨旅人",
+    "en": "Raincoat Traveler"
   },
   "苔庭远路缄骨客": {
     "zh": "雨夜失踪者",
@@ -420,8 +420,8 @@
     "en": "Pale Recorder"
   },
   "苔庭鸣枝缄骨客": {
-    "zh": "退色白骨",
-    "en": "Faded Bones"
+    "zh": "褪衣行客",
+    "en": "Fadedcoat Traveler"
   },
   "苔庭藤印铠卫": {
     "zh": "闭眼巡守",
@@ -460,8 +460,8 @@
     "en": "Ledger Clerk Ada"
   },
   "铜钟缄骨客领誓·岑拉": {
-    "zh": "守尸人莫里斯",
-    "en": "Mortuary Guard Morris"
+    "zh": "看守人莫里斯",
+    "en": "Caretaker Morris"
   },
   "铜钟踏铃驹领誓·塔拉": {
     "zh": "敲门马",
@@ -552,8 +552,8 @@
     "en": "Black Wyrm"
   },
   "铜钟缄骨客领誓·莱温": {
-    "zh": "缝隙尸人",
-    "en": "Narrow Corpse"
+    "zh": "缝隙路人",
+    "en": "Narrowlane Passerby"
   },
   "铜钟浮辉使领誓·岑温": {
     "zh": "锈斑梦影",
@@ -700,8 +700,8 @@
     "en": "Stopped Trace"
   },
   "铜钟琉纹缄骨客": {
-    "zh": "漏刻白骨",
-    "en": "Clocked Bones"
+    "zh": "漏刻钟匠",
+    "en": "Waterclock Maker"
   },
   "铜钟银露铠卫": {
     "zh": "锈斑门卫",
@@ -736,8 +736,8 @@
     "en": "Tardy Watchman"
   },
   "铜钟风蚀缄骨客": {
-    "zh": "黑铃空皮",
-    "en": "Black Husk"
+    "zh": "黑铃过客",
+    "en": "Black Wayfarer"
   },
   "铜钟铜缄苔痕铠卫": {
     "zh": "错层门卫",
@@ -748,12 +748,12 @@
     "en": "Rust Returned"
   },
   "铜钟绒雾缄骨客": {
-    "zh": "钟下尸人",
-    "en": "Belfry Corpse"
+    "zh": "钟下路人",
+    "en": "Belfry Passerby"
   },
   "铜钟夜航缄骨客": {
-    "zh": "钟下白骨",
-    "en": "Belfry Bones"
+    "zh": "钟下修匠",
+    "en": "Belfry Repairer"
   },
   "铜钟远路巡灯使": {
     "zh": "错层换班人",
@@ -848,8 +848,8 @@
     "en": "Rust Speaker"
   },
   "铜钟流砂缄骨客": {
-    "zh": "无刻白骨",
-    "en": "Timeless Bones"
+    "zh": "无刻表匠",
+    "en": "Unmarked Watchmaker"
   },
   "铜钟铜缄流砂铠卫": {
     "zh": "假面执勤者",
@@ -916,8 +916,8 @@
     "en": "Shift Return Anton"
   },
   "炽砂缄骨客领誓·希弥": {
-    "zh": "拾骨人托比亚斯",
-    "en": "Bone Collector Tobias"
+    "zh": "拾荒人托比亚斯",
+    "en": "Salvager Tobias"
   },
   "炽砂裂角客领誓·洛弥": {
     "zh": "余热罅客",
@@ -928,8 +928,8 @@
     "en": "Film Washer Enid"
   },
   "炽砂凝光泥团领誓·岚弥": {
-    "zh": "沥青肉块",
-    "en": "Tar Mass"
+    "zh": "沥青泥团",
+    "en": "Tar Clay"
   },
   "炽砂峰脊巨灵领誓·索弥": {
     "zh": "扛炉人霍勒斯",
@@ -1024,8 +1024,8 @@
     "en": "Night Returned"
   },
   "炽砂缄骨客·岚罗": {
-    "zh": "焦边尸人",
-    "en": "Singed Corpse"
+    "zh": "焦边路人",
+    "en": "Singedcoat Passerby"
   },
   "炽砂潜印客·索罗": {
     "zh": "焦边潜行人",
@@ -1120,12 +1120,12 @@
     "en": "Debtor Guard"
   },
   "炽砂微烛缄骨客": {
-    "zh": "复写白骨",
-    "en": "Carbon Bones"
+    "zh": "复写工人",
+    "en": "Carboncopy Worker"
   },
   "炽砂琉纹缄骨客": {
-    "zh": "空炉尸人",
-    "en": "Hollow Corpse"
+    "zh": "空炉路人",
+    "en": "Idleforge Passerby"
   },
   "炽砂苔痕环藤蛇": {
     "zh": "烟垢蛇",
@@ -1164,8 +1164,8 @@
     "en": "Oil Missing"
   },
   "炽砂静棱缄骨客": {
-    "zh": "墙灰空皮",
-    "en": "Plaster Husk"
+    "zh": "墙灰过客",
+    "en": "Plaster Wayfarer"
   },
   "炽砂回声裂角客": {
     "zh": "红灰角客",
@@ -1176,8 +1176,8 @@
     "en": "Meter Returned"
   },
   "炽砂夜航缄骨客": {
-    "zh": "熄火空皮",
-    "en": "Banked Husk"
+    "zh": "熄火过客",
+    "en": "Banked Wayfarer"
   },
   "炽砂苔痕掠风鸟": {
     "zh": "黑油夜鸟",
@@ -1228,8 +1228,8 @@
     "en": "Smoke Mimic"
   },
   "炽砂镜纹缄骨客": {
-    "zh": "熄火白骨",
-    "en": "Banked Bones"
+    "zh": "熄火炉工",
+    "en": "Bankedforge Worker"
   },
   "炽砂铜缄流砂铠卫": {
     "zh": "焚痕看守",
@@ -1240,8 +1240,8 @@
     "en": "Unpaid Returned"
   },
   "炽砂石封缄骨客": {
-    "zh": "欠条空皮",
-    "en": "Debtor Husk"
+    "zh": "欠条过客",
+    "en": "Debtor Wayfarer"
   },
   "炽砂苔痕铜壳蟹": {
     "zh": "灰衣蟹",
@@ -1296,8 +1296,8 @@
     "en": "Banked Horn"
   },
   "炽砂苔痕石指傀儡": {
-    "zh": "盲印断手",
-    "en": "Blindink Hand"
+    "zh": "盲印手套",
+    "en": "Blindink Gloves"
   },
   "炽砂铜缄环藤蛇": {
     "zh": "墙灰蛇",
@@ -1368,8 +1368,8 @@
     "en": "Behind Frog"
   },
   "炽砂暖灰缄骨客": {
-    "zh": "炉后尸人",
-    "en": "Behind Corpse"
+    "zh": "炉后路人",
+    "en": "Furnace Passerby"
   },
   "炽砂微烛峰脊巨灵": {
     "zh": "墙灰巨人",
@@ -1380,8 +1380,8 @@
     "en": "Pale Sentry"
   },
   "铜钟缄骨客·索安": {
-    "zh": "绞索空皮",
-    "en": "Noose Husk"
+    "zh": "绞索过客",
+    "en": "Noose Wayfarer"
   },
   "炽砂回声苔痕铠卫": {
     "zh": "沥青守备",
@@ -1588,8 +1588,8 @@
     "en": "Case Keeper"
   },
   "砂镜苔痕缄骨客": {
-    "zh": "页边尸人",
-    "en": "Margin Corpse"
+    "zh": "页边路人",
+    "en": "Margin Passerby"
   },
   "砂镜苔痕棱耳猎犬": {
     "zh": "压纸犬",
@@ -1600,20 +1600,20 @@
     "en": "Taped Lampman"
   },
   "砂镜铜缄缄骨客": {
-    "zh": "封条空皮",
-    "en": "Taped Husk"
+    "zh": "封条过客",
+    "en": "Taped Wayfarer"
   },
   "砂镜回声缄骨客": {
-    "zh": "褪墨白骨",
-    "en": "Faintink Bones"
+    "zh": "褪墨抄手",
+    "en": "Faintink Copyist"
   },
   "砂镜苔痕甲灯虫": {
     "zh": "霉页甲虫",
     "en": "Molded Beetle"
   },
   "砂镜回声凝光泥团": {
-    "zh": "压纸肉块",
-    "en": "Pressed Mass"
+    "zh": "压纸泥团",
+    "en": "Pressed Clay"
   },
   "砂镜苔痕砂脊蜥": {
     "zh": "霉页蜥",
@@ -1636,8 +1636,8 @@
     "en": "Footnote Fish"
   },
   "砂镜微烛缄骨客": {
-    "zh": "旧案空皮",
-    "en": "Oldcase Husk"
+    "zh": "旧案过客",
+    "en": "Oldcase Wayfarer"
   },
   "砂镜苔痕苔脊软虫": {
     "zh": "错柜蛞蝓",
@@ -1664,16 +1664,16 @@
     "en": "Margin Walker"
   },
   "砂镜琉纹缄骨客": {
-    "zh": "空匣尸人",
-    "en": "Case Corpse"
+    "zh": "空匣路人",
+    "en": "Emptycase Passerby"
   },
   "砂镜风蚀缄骨客": {
     "zh": "旧印返客",
     "en": "Oldseal Returned"
   },
   "砂镜静棱缄骨客": {
-    "zh": "冷章尸人",
-    "en": "Coldseal Corpse"
+    "zh": "冷章路人",
+    "en": "Coldseal Passerby"
   },
   "砂镜微烛峰脊巨灵": {
     "zh": "副档搬石者",
@@ -1716,8 +1716,8 @@
     "en": "Tide Maw Luca"
   },
   "暮潮星枝鹿领誓·伦尘": {
-    "zh": "浮尸鹿奥林",
-    "en": "Drift Deer Orin"
+    "zh": "渡口鹿奥林",
+    "en": "Ferry Deer Orin"
   },
   "暮潮灯议长·佩尘": {
     "zh": "旧船长哈兰",
@@ -1788,16 +1788,16 @@
     "en": "Lee Courier"
   },
   "暮潮灯议长·岚汀": {
-    "zh": "湿骨抄写员",
-    "en": "Wetbone Scribe"
+    "zh": "湿衣抄写员",
+    "en": "Wetcoat Scribe"
   },
   "暮潮峰脊巨灵领誓·索汀": {
     "zh": "船尾扛梁人",
     "en": "Stern Hauler"
   },
   "暮潮裂角客领誓·莱汀": {
-    "zh": "湿骨窟客",
-    "en": "Wetbone Figure"
+    "zh": "湿衣窟客",
+    "en": "Wetcoat Visitor"
   },
   "暮潮地缝蠕虫领誓·岑汀": {
     "zh": "哨口虫",
@@ -1828,8 +1828,8 @@
     "en": "Salt Doctor"
   },
   "暮潮巡灯使·图汀": {
-    "zh": "湿骨目击者",
-    "en": "Wetbone Witness"
+    "zh": "湿衣目击者",
+    "en": "Wetcoat Witness"
   },
   "暮潮巡灯使·芮汀": {
     "zh": "破锚司灯人",
@@ -1924,8 +1924,8 @@
     "en": "Adrift Patrol"
   },
   "暮潮琉纹缄骨客": {
-    "zh": "黑港尸人",
-    "en": "Black Corpse"
+    "zh": "黑港路人",
+    "en": "Blackharbor Passerby"
   },
   "暮潮铜缄棱耳猎犬": {
     "zh": "绿苔犬",
@@ -1948,12 +1948,12 @@
     "en": "Salt Gazer"
   },
   "暮潮风蚀缄骨客": {
-    "zh": "船尾尸人",
-    "en": "Stern Corpse"
+    "zh": "船尾路人",
+    "en": "Stern Passerby"
   },
   "暮潮苔痕巡影狼": {
-    "zh": "湿骨狼",
-    "en": "Wetbone Wolf"
+    "zh": "湿毛狼",
+    "en": "Wetfur Wolf"
   },
   "暮潮绒雾折面星客": {
     "zh": "无桨凝视者",
@@ -1992,8 +1992,8 @@
     "en": "Black Wolf"
   },
   "暮潮铜缄观灯师": {
-    "zh": "湿骨播音人",
-    "en": "Wetbone Speaker"
+    "zh": "湿衣播音人",
+    "en": "Wetcoat Broadcaster"
   },
   "暮潮夜航折面星客": {
     "zh": "漂流异相",
@@ -2272,8 +2272,8 @@
     "en": "Icebough Warden"
   },
   "霜枝窑心偶·岑烙": {
-    "zh": "断线骨瓮",
-    "en": "Cutline Urn"
+    "zh": "断线陶瓮",
+    "en": "Cutline Jar"
   },
   "霜枝窑心偶·塔烙": {
     "zh": "雪下封罐",
@@ -2324,8 +2324,8 @@
     "en": "Iced Keeper"
   },
   "霜枝苔痕缄骨客": {
-    "zh": "黑雪白骨",
-    "en": "Black Bones"
+    "zh": "黑雪旅人",
+    "en": "Black-Snow Traveler"
   },
   "霜枝铜缄折面星客": {
     "zh": "旧印异相",
@@ -2388,8 +2388,8 @@
     "en": "Mutehorn Colossus"
   },
   "霜枝铜缄缄骨客": {
-    "zh": "雪下尸人",
-    "en": "Buried Corpse"
+    "zh": "雪下路人",
+    "en": "Snowbound Passerby"
   },
   "霜枝浮辉使·伦烙": {
     "zh": "雪下残响",
@@ -2796,8 +2796,8 @@
     "en": "Deleted Echo"
   },
   "星铸苔痕缄骨客": {
-    "zh": "白室白骨",
-    "en": "White Bones"
+    "zh": "白室访客",
+    "en": "White Room Visitor"
   },
   "星铸铜缄缄骨客": {
     "zh": "负片返客",
@@ -2844,8 +2844,8 @@
     "en": "Typo Crab"
   },
   "星铸铜缄凝光泥团": {
-    "zh": "删行肉块",
-    "en": "Deleted Mass"
+    "zh": "删行泥团",
+    "en": "Deleted Clay"
   },
   "星铸苔痕流墨触灵": {
     "zh": "门后触足",
@@ -2876,8 +2876,8 @@
     "en": "Faceless Notary"
   },
   "星铸苔痕石指傀儡": {
-    "zh": "负片残掌",
-    "en": "Negative Palm"
+    "zh": "负片手套",
+    "en": "Negative Gloves"
   },
   "星铸铜缄露囊蛙": {
     "zh": "暗片蛙",
@@ -2972,8 +2972,8 @@
     "en": "Offprint Surveyor"
   },
   "星铸微烛凝光泥团": {
-    "zh": "抹痕肉块",
-    "en": "Erased Mass"
+    "zh": "抹痕泥团",
+    "en": "Erased Clay"
   },
   "星铸铜缄环藤蛇": {
     "zh": "缺席蛇",
@@ -3020,8 +3020,8 @@
     "en": "Double Porter"
   },
   "星铸窑心偶·塔沐": {
-    "zh": "反光骨瓮",
-    "en": "Glare Urn"
+    "zh": "反光陶瓮",
+    "en": "Glare Jar"
   },
   "星铸窑心偶·莫沐": {
     "zh": "伪证封罐",
@@ -3144,8 +3144,8 @@
     "en": "Blank Surveyor"
   },
   "星铸缄骨客·阿岚": {
-    "zh": "署印空皮",
-    "en": "Signed Husk"
+    "zh": "署印过客",
+    "en": "Signed Wayfarer"
   },
   "星铸巡灯使·艾岚": {
     "zh": "返照租客",
@@ -3224,8 +3224,8 @@
     "en": "Backeye Scorpion"
   },
   "折光石指傀儡领誓·佩岚": {
-    "zh": "无形断手",
-    "en": "Unseen Hand"
+    "zh": "无形手套",
+    "en": "Unseen Gloves"
   },
   "折光铠卫领誓·泽岚": {
     "zh": "空膜执勤者",
@@ -3428,16 +3428,16 @@
     "en": "Exposed Relief"
   },
   "苔庭暖灰缄骨客": {
-    "zh": "林边尸人",
-    "en": "Wood Corpse"
+    "zh": "林边路人",
+    "en": "Woodside Passerby"
   },
   "苔庭铜缄掠风鸟": {
     "zh": "返乡鸦",
     "en": "Homeward Crow"
   },
   "苔庭悬灯缄骨客": {
-    "zh": "雨夜空皮",
-    "en": "Wet Husk"
+    "zh": "雨夜过客",
+    "en": "Wet Wayfarer"
   },
   "砂镜铠卫·乌翎": {
     "zh": "档后守备",
@@ -3464,8 +3464,8 @@
     "en": "Briny Hound"
   },
   "苔庭银露缄骨客": {
-    "zh": "枯叶尸人",
-    "en": "Deadleaf Corpse"
+    "zh": "枯叶路人",
+    "en": "Deadleaf Passerby"
   },
   "铜钟铠卫领誓·瑟翎": {
     "zh": "铁面人库尔特",
@@ -3484,24 +3484,24 @@
     "en": "Stern Gazer"
   },
   "苔庭缄骨客·维翎": {
-    "zh": "落水空皮",
-    "en": "Drowned Husk"
+    "zh": "落水过客",
+    "en": "Drowned Wayfarer"
   },
   "苔庭回声地缝蠕虫": {
     "zh": "空屋虫",
     "en": "Empty Worm"
   },
   "苔庭雾羽缄骨客": {
-    "zh": "落水白骨",
-    "en": "Drowned Bones"
+    "zh": "落水旅人",
+    "en": "Soaked Traveler"
   },
   "砂镜回声浮辉使": {
     "zh": "旧案残响",
     "en": "Oldcase Echo"
   },
   "砂镜绒雾缄骨客": {
-    "zh": "封档白骨",
-    "en": "Archive Bones"
+    "zh": "封档文员",
+    "en": "Sealed-File Clerk"
   },
   "霜枝铜缄静棱铠卫": {
     "zh": "雪孔执勤者",
@@ -3548,8 +3548,8 @@
     "en": "Letter Keeper Niles"
   },
   "鎏金·苔庭缄骨客领誓·米珀": {
-    "zh": "掘墓人阿莫斯",
-    "en": "Gravedigger Amos"
+    "zh": "掘土人阿莫斯",
+    "en": "Groundsman Amos"
   },
   "鎏金·暮潮灯议长·乌汀": {
     "zh": "换舷人达蒙",
@@ -3736,8 +3736,8 @@
     "en": "Well Spider Mabel"
   },
   "鎏金·苔庭峰脊巨灵领誓·瑟珀": {
-    "zh": "搬尸人雨果",
-    "en": "Body Porter Hugo"
+    "zh": "搬运工雨果",
+    "en": "Porter Hugo"
   },
   "鎏金·苔庭铠卫领誓·维珀": {
     "zh": "无证者里昂",
@@ -3764,8 +3764,8 @@
     "en": "Ledger Clerk Ada"
   },
   "鎏金·铜钟缄骨客领誓·岑拉": {
-    "zh": "守尸人莫里斯",
-    "en": "Mortuary Guard Morris"
+    "zh": "看守人莫里斯",
+    "en": "Caretaker Morris"
   },
   "鎏金·铜钟环藤蛇领誓·伦拉": {
     "zh": "盘钟蛇巴兹尔",
@@ -3804,8 +3804,8 @@
     "en": "Ash Doctor Edwin"
   },
   "鎏金·炽砂缄骨客领誓·希弥": {
-    "zh": "拾骨人托比亚斯",
-    "en": "Bone Collector Tobias"
+    "zh": "拾荒人托比亚斯",
+    "en": "Salvager Tobias"
   },
   "鎏金·炽砂峰脊巨灵领誓·索弥": {
     "zh": "扛炉人霍勒斯",
@@ -3836,8 +3836,8 @@
     "en": "Tide Maw Luca"
   },
   "鎏金·暮潮星枝鹿领誓·伦尘": {
-    "zh": "浮尸鹿奥林",
-    "en": "Drift Deer Orin"
+    "zh": "渡口鹿奥林",
+    "en": "Ferry Deer Orin"
   },
   "鎏金·暮潮灯议长·佩尘": {
     "zh": "旧船长哈兰",

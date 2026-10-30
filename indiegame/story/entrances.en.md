@@ -16,7 +16,7 @@ You ask about the people wrapped in blankets in the photograph. Noah marks the b
 
 ### 2 · Broken Horn Abel · Place the Photograph on the Map
 
-Abel measures the railing in the photograph and turns the map toward the window. “This road leads to the evacuation transfer point, not the cemetery.”
+Abel measures the railing in the photograph and turns the map toward the window. “This road leads to the evacuation transfer point, not the wasteland outside town.”
 
 You will check the traffic recorded along it. The photograph offers a location, not yet an answer about who was hurt or who returned.
 
@@ -76,9 +76,9 @@ Abel marks the railing and tracks on the map. The same bridge serves the harbor 
 
 “First find out why you came back.” You connect the marks to the duty room. The investigation now has a route you can actually follow.
 
-### 12 · Night Watch Noah · An Empty Field Is Not a Grave
+### 12 · Night Watch Noah · An Empty Field Is Not a Verdict
 
-A cemetery keeper points at the blank “Found” field and insists you leave your name and stop searching. Noah asks what he actually witnessed.
+A groundskeeper points at the blank “Found” field and insists you leave your name and stop searching. Noah asks what he actually witnessed.
 
 There is no answer. An unfinished field is no reason to accept the ending he assigns you. You retain the verified record of your return.
 
@@ -136,11 +136,11 @@ The ledger keeper demands payment to explain why your name appears. Finn points 
 
 The price list disappears. You return to the useful question: how the connection relates to the power failure.
 
-### 5 · Night Watch Noah · A Word Missing from the Summary
+### 5 · Night Watch Noah · A Purpose Missing from the Summary
 
-Noah finds the full purpose on the transport slip: injured passengers. A shortened copy says only “transport,” which made you imagine bodies.
+Noah finds the full purpose on the transport slip: injured passengers. A shortened copy says only “transport,” which made you assume it concerned discarded equipment.
 
-He keeps both versions. An omitted word cannot decide everyone’s fate; you still need the call arranging the evacuation.
+He keeps both versions. An omitted purpose cannot decide everyone’s fate; you still need the call arranging the evacuation.
 
 ### 6 · Broken Horn Abel · Where the Emergency Supplies Went
 
@@ -248,7 +248,7 @@ Your name is absent from the shift issue sheet but present at the rescue entranc
 
 ### 6 · Ellie's Echo · Count the People Leaving
 
-Ellie's Echo unfolds the evacuation sheet: people walking, needing assistance or needing stretchers. Each category concerns rescue, not remains.
+Ellie's Echo unfolds the evacuation sheet: people walking, needing assistance or needing stretchers. Each category records the help the injured people need.
 
 She asks you to check the handover out of the works. A count inside the door still needs someone to establish who led them outside.
 

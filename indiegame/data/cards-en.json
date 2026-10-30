@@ -28,12 +28,12 @@
     "lore": "Yaper, Mireglass Gleamweaver Oathkeeper keeps an unfulfilled lamp pact among the mist-lit causeways. Its ridged armor retaliates for 1 damage when attacked by a card."
   },
   "苔庭裂角客领誓·诺珀": {
-    "name": "Noper, Mireglass Riftborn Oathkeeper",
-    "lore": "Noper, Mireglass Riftborn Oathkeeper keeps an unfulfilled lamp pact among the mist-lit causeways. After a damaging strike, it pushes a surviving target into an adjacent empty lane without an extra attack."
+    "name": "Last Fiend",
+    "lore": "Rain has soaked the brim of his old cap. His identity card lists his work in town. Water can still be heard in the duty room after the rain stops."
   },
   "苔庭峰脊巨灵领誓·瑟珀": {
-    "name": "Seper, Mireglass Ridge Colossus Oathkeeper",
-    "lore": "Seper, Mireglass Ridge Colossus Oathkeeper keeps an unfulfilled lamp pact among the mist-lit causeways. It intercepts flying units and reduces incoming card-attack damage by 1. After a damaging strike, it pushes a surviving target into an adjacent empty lane without an extra attack."
+    "name": "Porter Hugo",
+    "lore": "Hugo, filed as Porter. He is taller than the duty-room doorway, yet enters without stooping. You measure twice. Each time the missing length comes from your side."
   },
   "苔庭铠卫领誓·维珀": {
     "name": "Veper, Mireglass Warden Oathkeeper",
@@ -48,8 +48,8 @@
     "lore": "Loper, Mireglass Lamp Regent keeps an unfulfilled lamp pact among the mist-lit causeways. Without an extra sigil, it holds its opposing lane through attack and resilience alone."
   },
   "苔庭缄骨客领誓·米珀": {
-    "name": "Miper, Mireglass Bonebound Oathkeeper",
-    "lore": "Miper, Mireglass Bonebound Oathkeeper keeps an unfulfilled lamp pact among the mist-lit causeways. Its broken shell leaves a 1/1 Broken-Lamp Construct, available for sacrifice next round. On death or sacrifice, summon a 1/1 Gilded Wick."
+    "name": "Groundsman Amos",
+    "lore": "Amos, filed as Groundsman. His name is crossed out of the roadwork register, but another sandbag appears in the tool shed each day. The newest is light. It holds a note showing the evacuation route."
   },
   "苔庭晶棘蜥龙领誓·岚珀": {
     "name": "Lanper, Mireglass Crystal Drake Oathkeeper",
@@ -64,8 +64,8 @@
     "lore": "Leper, Mireglass Ridge Colossus Oathkeeper keeps an unfulfilled lamp pact among the mist-lit causeways. After a damaging strike, it pushes a surviving target into an adjacent empty lane without an extra attack."
   },
   "苔庭裂角客领誓·岑珀": {
-    "name": "Cenper, Mireglass Riftborn Oathkeeper",
-    "lore": "Cenper, Mireglass Riftborn Oathkeeper keeps an unfulfilled lamp pact among the mist-lit causeways. Without an extra sigil, it holds its opposing lane through attack and resilience alone."
+    "name": "Empty Fiend",
+    "lore": "He checks two conflicting statements. Asked for his name, he takes out his identity card first. Water can still be heard in the duty room after the rain stops."
   },
   "苔庭地缝蠕虫领誓·塔珀": {
     "name": "Taper, Mireglass Burrowcoil Oathkeeper",
@@ -80,8 +80,8 @@
     "lore": "Renper, Mireglass Shade Wolf Oathkeeper keeps an unfulfilled lamp pact among the mist-lit causeways. It can move once per round to an adjacent empty lane."
   },
   "苔庭灯议长·佩珀": {
-    "name": "Peper, Mireglass Lamp Regent",
-    "lore": "Peper, Mireglass Lamp Regent keeps an unfulfilled lamp pact among the mist-lit causeways. It can move once per round to an adjacent empty lane."
+    "name": "Drowned Witness",
+    "lore": "He remembers your face. He insists you first met tomorrow, in the waiting room. Water can still be heard in the duty room after the rain stops."
   },
   "苔庭灯议长·泽珀": {
     "name": "Zeper, Mireglass Lamp Regent",
@@ -132,8 +132,8 @@
     "lore": "Seen, Mireglass Ridge Colossus keeps an unfulfilled lamp pact among the mist-lit causeways. On entry, draw 1 cards from your finite deck."
   },
   "苔庭缄骨客·维恩": {
-    "name": "Veen, Mireglass Bonebound",
-    "lore": "Veen, Mireglass Bonebound keeps an unfulfilled lamp pact among the mist-lit causeways. On entry, draw 1 cards from your finite deck."
+    "name": "Drowned Returned",
+    "lore": "The medical log records a cough from the smoke. He still insists on describing the evacuation route clearly. Water can still be heard in the duty room after the rain stops."
   },
   "苔庭观灯师·希恩": {
     "name": "Shien, Mireglass Luminary",
@@ -200,12 +200,12 @@
     "lore": "Era, Mireglass Vine Coil keeps an unfulfilled lamp pact among the mist-lit causeways. Without an extra sigil, it holds its opposing lane through attack and resilience alone."
   },
   "苔庭缄骨客·伊拉": {
-    "name": "Ira, Mireglass Bonebound",
-    "lore": "Ira, Mireglass Bonebound keeps an unfulfilled lamp pact among the mist-lit causeways. On entry, draw 1 cards from your finite deck."
+    "name": "Wild Missing",
+    "lore": "A nail was missing when the wooden crate was sealed. It was later found in his coat pocket. Water can still be heard in the duty room after the rain stops."
   },
   "苔庭缄骨客·欧拉": {
-    "name": "Ora, Mireglass Bonebound",
-    "lore": "Ora, Mireglass Bonebound keeps an unfulfilled lamp pact among the mist-lit causeways. On entry, draw 1 cards from your finite deck."
+    "name": "Slant Missing",
+    "lore": "His voice is hoarse, but he carefully speaks every place name into the recorder. Water can still be heard in the duty room after the rain stops."
   },
   "苔庭巡灯使·乌拉": {
     "name": "Ura, Mireglass Wayfarer",
@@ -228,20 +228,20 @@
     "lore": "Sera, Mireglass Luminary keeps an unfulfilled lamp pact among the mist-lit causeways. Without an extra sigil, it holds its opposing lane through attack and resilience alone."
   },
   "苔庭琉纹缄骨客": {
-    "name": "Mireglass Glassmarked Bonebound",
-    "lore": "Mireglass Glassmarked Bonebound keeps an unfulfilled lamp pact among the mist-lit causeways. Without an extra sigil, it holds its opposing lane through attack and resilience alone."
+    "name": "Crack Wayfarer",
+    "lore": "He remembers the aid station, but his directions home still lead to the old district. Water can still be heard in the duty room after the rain stops."
   },
   "苔庭风蚀缄骨客": {
-    "name": "Mireglass Windworn Bonebound",
-    "lore": "Mireglass Windworn Bonebound keeps an unfulfilled lamp pact among the mist-lit causeways. It intercepts flying units and reduces incoming card-attack damage by 1."
+    "name": "Hushed Wayfarer",
+    "lore": "The tears in his coat have been mended. The thread matches the cloth left at the evacuation point. Water can still be heard in the duty room after the rain stops."
   },
   "苔庭静棱缄骨客": {
-    "name": "Mireglass Still-Faceted Bonebound",
-    "lore": "Mireglass Still-Faceted Bonebound keeps an unfulfilled lamp pact among the mist-lit causeways. Without an extra sigil, it holds its opposing lane through attack and resilience alone."
+    "name": "Slant Wayfarer",
+    "lore": "It does not pursue the living. It follows names that have already been entered in the death register. Water can still be heard in the duty room after the rain stops."
   },
   "苔庭绒雾缄骨客": {
-    "name": "Mireglass Velvetmist Bonebound",
-    "lore": "Mireglass Velvetmist Bonebound keeps an unfulfilled lamp pact among the mist-lit causeways. Without an extra sigil, it holds its opposing lane through attack and resilience alone."
+    "name": "Lone Missing",
+    "lore": "The medical log records a cough from the smoke. He still insists on describing the evacuation route clearly. Every resident insists there was no fog that night."
   },
   "苔庭微烛潜印客": {
     "name": "Mireglass Candlelit Sealrunner",
@@ -260,16 +260,16 @@
     "lore": "Mireglass Brass-Sealed Threadtail Rat keeps an unfulfilled lamp pact among the mist-lit causeways. Without an extra sigil, it holds its opposing lane through attack and resilience alone."
   },
   "苔庭苔痕砂脊蜥": {
-    "name": "Mireglass Mossmarked Sandridge Lizard",
-    "lore": "Mireglass Mossmarked Sandridge Lizard keeps an unfulfilled lamp pact among the mist-lit causeways. It can move once per round to an adjacent empty lane."
+    "name": "Empty Lizard",
+    "lore": "The lizard shelters beneath a warm roadside stone. Its long tail brushes dust from a road marker. Water can still be heard in the duty room after the rain stops."
   },
   "苔庭苔痕露囊蛙": {
     "name": "Mireglass Mossmarked Dewthroat Frog",
     "lore": "Mireglass Mossmarked Dewthroat Frog keeps an unfulfilled lamp pact among the mist-lit causeways. A damaging strike poisons its target for two rounds, losing 1 health each round."
   },
   "苔庭苔痕凝光泥团": {
-    "name": "Mireglass Mossmarked Gleam Slime",
-    "lore": "Mireglass Mossmarked Gleam Slime keeps an unfulfilled lamp pact among the mist-lit causeways. It intercepts flying units and reduces incoming card-attack damage by 1."
+    "name": "Crack Clay",
+    "lore": "Cart tracks mark the damp clay, leading to the side door used during the evacuation. Water can still be heard in the duty room after the rain stops."
   },
   "苔庭铜缄枝灯树灵": {
     "name": "Mireglass Brass-Sealed Boughlight",
@@ -308,24 +308,24 @@
     "lore": "Mireglass Warm-Cinder Warden keeps an unfulfilled lamp pact among the mist-lit causeways. Without an extra sigil, it holds its opposing lane through attack and resilience alone."
   },
   "苔庭夜航缄骨客": {
-    "name": "Mireglass Nightbound Bonebound",
-    "lore": "Mireglass Nightbound Bonebound keeps an unfulfilled lamp pact among the mist-lit causeways. Its broken shell leaves a 1/1 Broken-Lamp Construct, available for sacrifice next round."
+    "name": "Drowned Missing",
+    "lore": "A nail was missing when the wooden crate was sealed. It was later found in his coat pocket. Every resident insists there was no fog that night."
   },
   "苔庭流砂缄骨客": {
-    "name": "Mireglass Sandswept Bonebound",
-    "lore": "Mireglass Sandswept Bonebound keeps an unfulfilled lamp pact among the mist-lit causeways. Its ridged armor retaliates for 1 damage when attacked by a card. It can move once per round to an adjacent empty lane."
+    "name": "Leafroad Traveler",
+    "lore": "His voice is hoarse, but he carefully speaks every place name into the recorder. Every resident insists there was no fog that night."
   },
   "苔庭夜航观灯师": {
     "name": "Mireglass Nightbound Luminary",
     "lore": "Mireglass Nightbound Luminary keeps an unfulfilled lamp pact among the mist-lit causeways. Its broken shell leaves a 1/1 Broken-Lamp Construct, available for sacrifice next round."
   },
   "苔庭镜纹缄骨客": {
-    "name": "Mireglass Mirror-Etched Bonebound",
-    "lore": "Mireglass Mirror-Etched Bonebound keeps an unfulfilled lamp pact among the mist-lit causeways. Its broken shell leaves a 1/1 Broken-Lamp Construct, available for sacrifice next round."
+    "name": "Raincoat Traveler",
+    "lore": "He remembers the aid station, but his directions home still lead to the old district. Every resident insists there was no fog that night."
   },
   "苔庭远路缄骨客": {
-    "name": "Mireglass Far-Road Bonebound",
-    "lore": "Mireglass Far-Road Bonebound keeps an unfulfilled lamp pact among the mist-lit causeways. It can move once per round to an adjacent empty lane."
+    "name": "Wet Missing",
+    "lore": "The tears in his coat have been mended. The thread matches the cloth left at the evacuation point. Every resident insists there was no fog that night."
   },
   "苔庭回声环藤蛇": {
     "name": "Mireglass Echoing Vine Coil",
@@ -420,8 +420,8 @@
     "lore": "Mireglass Mirror-Etched Luminary keeps an unfulfilled lamp pact among the mist-lit causeways. Without an extra sigil, it holds its opposing lane through attack and resilience alone."
   },
   "苔庭鸣枝缄骨客": {
-    "name": "Mireglass Chimebough Bonebound",
-    "lore": "Mireglass Chimebough Bonebound keeps an unfulfilled lamp pact among the mist-lit causeways. After a damaging strike, it pushes a surviving target into an adjacent empty lane without an extra attack."
+    "name": "Fadedcoat Traveler",
+    "lore": "The medical log records a cough from the smoke. He still insists on describing the evacuation route clearly. The investigator entered it in the second missing-person report."
   },
   "苔庭藤印铠卫": {
     "name": "Mireglass Vinesealed Warden",
@@ -460,8 +460,8 @@
     "lore": "Lera, Brassbell Lamp Regent keeps an unfulfilled lamp pact among the hanging bell streets. It can move once per round to an adjacent empty lane."
   },
   "铜钟缄骨客领誓·岑拉": {
-    "name": "Cenra, Brassbell Bonebound Oathkeeper",
-    "lore": "Cenra, Brassbell Bonebound Oathkeeper keeps an unfulfilled lamp pact among the hanging bell streets. Its broken shell leaves a 1/1 Broken-Lamp Construct, available for sacrifice next round."
+    "name": "Caretaker Morris",
+    "lore": "Morris, filed as Caretaker. A small cart without a seat is kept beneath the tower. Old rope winds around its axle. Its track always makes one more turn than the plan shows."
   },
   "铜钟踏铃驹领誓·塔拉": {
     "name": "Tara, Brassbell Bellstep Courser Oathkeeper",
@@ -504,8 +504,8 @@
     "lore": "Iwen, Brassbell Threadtail Rat Oathkeeper keeps an unfulfilled lamp pact among the hanging bell streets. After a damaging strike, it pushes a surviving target into an adjacent empty lane without an extra attack."
   },
   "铜钟缄骨客领誓·欧温": {
-    "name": "Owen, Brassbell Bonebound Oathkeeper",
-    "lore": "Owen, Brassbell Bonebound Oathkeeper keeps an unfulfilled lamp pact among the hanging bell streets. It restores 1 health at the end of each round, up to its maximum."
+    "name": "The Sleepless Ivan",
+    "lore": "Ivan, filed as The Sleepless. The mending thread in his coat matches the old bell ropes. He checks the handover book before winding the repaired clock."
   },
   "铜钟铠卫领誓·乌温": {
     "name": "Uwen, Brassbell Warden Oathkeeper",
@@ -536,8 +536,8 @@
     "lore": "Shiwen, Brassbell Warden Oathkeeper keeps an unfulfilled lamp pact among the hanging bell streets. It can move once per round to an adjacent empty lane."
   },
   "铜钟缄骨客领誓·洛温": {
-    "name": "Lowen, Brassbell Bonebound Oathkeeper",
-    "lore": "Lowen, Brassbell Bonebound Oathkeeper keeps an unfulfilled lamp pact among the hanging bell streets. After damaging an enemy card, it restores 1 health, up to its maximum."
+    "name": "Dew Drinker Lena",
+    "lore": "Lena, filed as Dew Drinker. She saves the hot water for the evacuated workers and drinks only what is left. A named handover slip rests beside the cup."
   },
   "铜钟铠卫领誓·米温": {
     "name": "Miwen, Brassbell Warden Oathkeeper",
@@ -552,8 +552,8 @@
     "lore": "Sowen, Brassbell Crystal Drake Oathkeeper keeps an unfulfilled lamp pact among the hanging bell streets. It flies over the opposing card to strike enemy life directly; Guard units intercept it."
   },
   "铜钟缄骨客领誓·莱温": {
-    "name": "Lewen, Brassbell Bonebound Oathkeeper",
-    "lore": "Lewen, Brassbell Bonebound Oathkeeper keeps an unfulfilled lamp pact among the hanging bell streets. It intercepts flying units and reduces incoming card-attack damage by 1."
+    "name": "Narrowlane Passerby",
+    "lore": "The medical log records a cough from the smoke. He still insists on describing the evacuation route clearly. A whole Wednesday is missing from the bell tower’s duty book."
   },
   "铜钟浮辉使领誓·岑温": {
     "name": "Cenwen, Brassbell Gleam Wisp Oathkeeper",
@@ -568,8 +568,8 @@
     "lore": "Mowen, Brassbell Lamp Regent keeps an unfulfilled lamp pact among the hanging bell streets. Its broken shell leaves a 1/1 Broken-Lamp Construct, available for sacrifice next round."
   },
   "铜钟灯议长·伦温": {
-    "name": "Renwen, Brassbell Lamp Regent",
-    "lore": "Renwen, Brassbell Lamp Regent keeps an unfulfilled lamp pact among the hanging bell streets. Once per round, it can move to an adjacent empty lane or swap with a neighboring ally."
+    "name": "Knocking Porter",
+    "lore": "He remembers your face. He insists you first met tomorrow, in the waiting room. A whole Wednesday is missing from the bell tower’s duty book."
   },
   "铜钟铠卫领誓·佩温": {
     "name": "Pewen, Brassbell Warden Oathkeeper",
@@ -580,8 +580,8 @@
     "lore": "Zewen, Brassbell Warden Oathkeeper keeps an unfulfilled lamp pact among the hanging bell streets. It parries attacks of at most 1 damage and retaliates for 1. It can move once per round to an adjacent empty lane."
   },
   "铜钟裂角客领誓·图温": {
-    "name": "Tuwen, Brassbell Riftborn Oathkeeper",
-    "lore": "Tuwen, Brassbell Riftborn Oathkeeper keeps an unfulfilled lamp pact among the hanging bell streets. It intercepts flying units and reduces incoming card-attack damage by 1."
+    "name": "Echo Stray",
+    "lore": "Rain has soaked the brim of his old cap. His identity card lists his work in town. A whole Wednesday is missing from the bell tower’s duty book."
   },
   "铜钟镜瞳山猫领誓·芮温": {
     "name": "Raewen, Brassbell Glass Lynx Oathkeeper",
@@ -700,16 +700,16 @@
     "lore": "Omi, Brassbell Gleam Wisp keeps an unfulfilled lamp pact among the hanging bell streets. Without an extra sigil, it holds its opposing lane through attack and resilience alone."
   },
   "铜钟琉纹缄骨客": {
-    "name": "Brassbell Glassmarked Bonebound",
-    "lore": "Brassbell Glassmarked Bonebound keeps an unfulfilled lamp pact among the hanging bell streets. Without an extra sigil, it holds its opposing lane through attack and resilience alone."
+    "name": "Waterclock Maker",
+    "lore": "A nail was missing when the wooden crate was sealed. It was later found in his coat pocket. A whole Wednesday is missing from the bell tower’s duty book."
   },
   "铜钟银露铠卫": {
     "name": "Brassbell Silverdew Warden",
     "lore": "Brassbell Silverdew Warden keeps an unfulfilled lamp pact among the hanging bell streets. It intercepts flying units and reduces incoming card-attack damage by 1."
   },
   "铜钟苔痕砂脊蜥": {
-    "name": "Brassbell Mossmarked Sandridge Lizard",
-    "lore": "Brassbell Mossmarked Sandridge Lizard keeps an unfulfilled lamp pact among the hanging bell streets. Without an extra sigil, it holds its opposing lane through attack and resilience alone."
+    "name": "Absent Lizard",
+    "lore": "The lizard shelters beneath a warm roadside stone. Its long tail brushes dust from a road marker. A whole Wednesday is missing from the bell tower’s duty book."
   },
   "铜钟藤印铠卫": {
     "name": "Brassbell Vinesealed Warden",
@@ -736,24 +736,24 @@
     "lore": "Brassbell Arclit Warden keeps an unfulfilled lamp pact among the hanging bell streets. It intercepts flying units and reduces incoming card-attack damage by 1."
   },
   "铜钟风蚀缄骨客": {
-    "name": "Brassbell Windworn Bonebound",
-    "lore": "Brassbell Windworn Bonebound keeps an unfulfilled lamp pact among the hanging bell streets. Without an extra sigil, it holds its opposing lane through attack and resilience alone."
+    "name": "Black Wayfarer",
+    "lore": "His voice is hoarse, but he carefully speaks every place name into the recorder. A whole Wednesday is missing from the bell tower’s duty book."
   },
   "铜钟铜缄苔痕铠卫": {
     "name": "Brassbell Brass-Sealed Mossmarked Warden",
     "lore": "Brassbell Brass-Sealed Mossmarked Warden keeps an unfulfilled lamp pact among the hanging bell streets. After a damaging strike, it pushes a surviving target into an adjacent empty lane without an extra attack."
   },
   "铜钟静棱缄骨客": {
-    "name": "Brassbell Still-Faceted Bonebound",
-    "lore": "Brassbell Still-Faceted Bonebound keeps an unfulfilled lamp pact among the hanging bell streets. Its broken shell leaves a 1/1 Broken-Lamp Construct, available for sacrifice next round."
+    "name": "Rust Returned",
+    "lore": "He remembers the aid station, but his directions home still lead to the old district. A whole Wednesday is missing from the bell tower’s duty book."
   },
   "铜钟绒雾缄骨客": {
-    "name": "Brassbell Velvetmist Bonebound",
-    "lore": "Brassbell Velvetmist Bonebound keeps an unfulfilled lamp pact among the hanging bell streets. Its broken shell leaves a 1/1 Broken-Lamp Construct, available for sacrifice next round."
+    "name": "Belfry Passerby",
+    "lore": "The tears in his coat have been mended. The thread matches the cloth left at the evacuation point. A whole Wednesday is missing from the bell tower’s duty book."
   },
   "铜钟夜航缄骨客": {
-    "name": "Brassbell Nightbound Bonebound",
-    "lore": "Brassbell Nightbound Bonebound keeps an unfulfilled lamp pact among the hanging bell streets. Its ridged armor retaliates for 1 damage when attacked by a card. It can move once per round to an adjacent empty lane."
+    "name": "Belfry Repairer",
+    "lore": "It does not pursue the living. It follows names that have already been entered in the death register. A whole Wednesday is missing from the bell tower’s duty book."
   },
   "铜钟远路巡灯使": {
     "name": "Brassbell Far-Road Wayfarer",
@@ -772,8 +772,8 @@
     "lore": "Brassbell Sandswept Luminary keeps an unfulfilled lamp pact among the hanging bell streets. Without an extra sigil, it holds its opposing lane through attack and resilience alone."
   },
   "铜钟苔痕甲灯虫": {
-    "name": "Brassbell Mossmarked Lantern Beetle",
-    "lore": "Brassbell Mossmarked Lantern Beetle keeps an unfulfilled lamp pact among the hanging bell streets. A damaging strike poisons its target for two rounds, losing 1 health each round."
+    "name": "Pendulum Beetle",
+    "lore": "Photographic chemicals stain its wings. Faces shake loose beneath the lamp when it flies. A whole Wednesday is missing from the bell tower’s duty book."
   },
   "铜钟回声线尾鼠": {
     "name": "Brassbell Echoing Threadtail Rat",
@@ -848,8 +848,8 @@
     "lore": "Brassbell Far-Road Luminary keeps an unfulfilled lamp pact among the hanging bell streets. Without an extra sigil, it holds its opposing lane through attack and resilience alone."
   },
   "铜钟流砂缄骨客": {
-    "name": "Brassbell Sandswept Bonebound",
-    "lore": "Brassbell Sandswept Bonebound keeps an unfulfilled lamp pact among the hanging bell streets. It intercepts flying units and reduces incoming card-attack damage by 1."
+    "name": "Unmarked Watchmaker",
+    "lore": "The medical log records a cough from the smoke. He still insists on describing the evacuation route clearly. Every watch on the street is a breath behind the bell."
   },
   "铜钟铜缄流砂铠卫": {
     "name": "Brassbell Brass-Sealed Sandswept Warden",
@@ -916,20 +916,20 @@
     "lore": "Vemi, Cinderglass Warden Oathkeeper keeps an unfulfilled lamp pact among the red-sand workshops. It parries attacks of at most 1 damage and retaliates for 1. It can move once per round to an adjacent empty lane. On its first departure each battle, it returns to hand with its initial attack and health."
   },
   "炽砂缄骨客领誓·希弥": {
-    "name": "Shimi, Cinderglass Bonebound Oathkeeper",
-    "lore": "Shimi, Cinderglass Bonebound Oathkeeper keeps an unfulfilled lamp pact among the red-sand workshops. Its broken shell leaves a 1/1 Broken-Lamp Construct, available for sacrifice next round."
+    "name": "Salvager Tobias",
+    "lore": "Tobias, filed as Salvager. There are three rows of empty seats in the workshop. Only the outer rows bear scratches. He says the last shift kept the middle aisle clear for stretchers."
   },
   "炽砂裂角客领誓·洛弥": {
-    "name": "Lomi, Cinderglass Riftborn Oathkeeper",
-    "lore": "Lomi, Cinderglass Riftborn Oathkeeper keeps an unfulfilled lamp pact among the red-sand workshops. After a damaging strike, it pushes a surviving target into an adjacent empty lane without an extra attack."
+    "name": "Ember Fiend",
+    "lore": "Rain has soaked the brim of his old cap. His identity card lists his work in town. The time clock at the Ash Works prints tomorrow’s date."
   },
   "炽砂灯议长·米弥": {
     "name": "Mimi, Cinderglass Lamp Regent",
     "lore": "Mimi, Cinderglass Lamp Regent keeps an unfulfilled lamp pact among the red-sand workshops. It parries attacks of at most 1 damage and retaliates for 1. On death or sacrifice, draw two cards from the finite deck. Once per round, it can move to an adjacent empty lane or swap with a neighboring ally."
   },
   "炽砂凝光泥团领誓·岚弥": {
-    "name": "Lanmi, Cinderglass Gleam Slime Oathkeeper",
-    "lore": "Lanmi, Cinderglass Gleam Slime Oathkeeper keeps an unfulfilled lamp pact among the red-sand workshops. After damaging an enemy card, it restores 1 health, up to its maximum."
+    "name": "Tar Clay",
+    "lore": "Cart tracks mark the damp clay, leading to the side door used during the evacuation. The time clock at the Ash Works prints tomorrow’s date."
   },
   "炽砂峰脊巨灵领誓·索弥": {
     "name": "Somi, Cinderglass Ridge Colossus Oathkeeper",
@@ -988,8 +988,8 @@
     "lore": "Oro, Cinderglass Ridge Colossus Oathkeeper keeps an unfulfilled lamp pact among the red-sand workshops. After a damaging strike, it pushes a surviving target into an adjacent empty lane without an extra attack."
   },
   "炽砂裂角客领誓·乌罗": {
-    "name": "Uro, Cinderglass Riftborn Oathkeeper",
-    "lore": "Uro, Cinderglass Riftborn Oathkeeper keeps an unfulfilled lamp pact among the red-sand workshops. It flies over the opposing card to strike enemy life directly; Guard units intercept it."
+    "name": "Hollow Fiend",
+    "lore": "He checks two conflicting statements. Asked for his name, he takes out his identity card first. The time clock at the Ash Works prints tomorrow’s date."
   },
   "炽砂铠卫领誓·依罗": {
     "name": "Aero, Cinderglass Warden Oathkeeper",
@@ -1012,20 +1012,20 @@
     "lore": "Vero, Cinderglass Warden keeps an unfulfilled lamp pact among the red-sand workshops. It intercepts flying units and reduces incoming card-attack damage by 1."
   },
   "炽砂巡灯使·希罗": {
-    "name": "Shiro, Cinderglass Wayfarer",
-    "lore": "Shiro, Cinderglass Wayfarer keeps an unfulfilled lamp pact among the red-sand workshops. On entry, draw 1 cards from your finite deck."
+    "name": "Blindink Lampman",
+    "lore": "He remembers your face. He insists you first met tomorrow, in the waiting room. The time clock at the Ash Works prints tomorrow’s date."
   },
   "炽砂巡灯使·洛罗": {
     "name": "Loro, Cinderglass Wayfarer",
     "lore": "Loro, Cinderglass Wayfarer keeps an unfulfilled lamp pact among the red-sand workshops. On entry, draw 1 cards from your finite deck."
   },
   "炽砂缄骨客·米罗": {
-    "name": "Miro, Cinderglass Bonebound",
-    "lore": "Miro, Cinderglass Bonebound keeps an unfulfilled lamp pact among the red-sand workshops. Without an extra sigil, it holds its opposing lane through attack and resilience alone."
+    "name": "Night Returned",
+    "lore": "The medical log records a cough from the smoke. He still insists on describing the evacuation route clearly. The time clock at the Ash Works prints tomorrow’s date."
   },
   "炽砂缄骨客·岚罗": {
-    "name": "Lanro, Cinderglass Bonebound",
-    "lore": "Lanro, Cinderglass Bonebound keeps an unfulfilled lamp pact among the red-sand workshops. Without an extra sigil, it holds its opposing lane through attack and resilience alone."
+    "name": "Singedcoat Passerby",
+    "lore": "A nail was missing when the wooden crate was sealed. It was later found in his coat pocket. The time clock at the Ash Works prints tomorrow’s date."
   },
   "炽砂潜印客·索罗": {
     "name": "Soro, Cinderglass Sealrunner",
@@ -1100,8 +1100,8 @@
     "lore": "Noan, Cinderglass Lamplighter keeps an unfulfilled lamp pact among the red-sand workshops. On entry, restore 1 life to your side, up to 7. It can move once per round to an adjacent empty lane."
   },
   "炽砂潜印客·瑟安": {
-    "name": "Sean, Cinderglass Sealrunner",
-    "lore": "Sean, Cinderglass Sealrunner keeps an unfulfilled lamp pact among the red-sand workshops. It can move once per round to an adjacent empty lane."
+    "name": "Backlit Prowler",
+    "lore": "There are no keys in her pockets. Their numbers are written in her clothbound notebook. The time clock at the Ash Works prints tomorrow’s date."
   },
   "炽砂铠卫·维安": {
     "name": "Vean, Cinderglass Warden",
@@ -1120,12 +1120,12 @@
     "lore": "Mian, Cinderglass Warden keeps an unfulfilled lamp pact among the red-sand workshops. It intercepts flying units and reduces incoming card-attack damage by 1."
   },
   "炽砂微烛缄骨客": {
-    "name": "Cinderglass Candlelit Bonebound",
-    "lore": "Cinderglass Candlelit Bonebound keeps an unfulfilled lamp pact among the red-sand workshops. Without an extra sigil, it holds its opposing lane through attack and resilience alone."
+    "name": "Carboncopy Worker",
+    "lore": "His voice is hoarse, but he carefully speaks every place name into the recorder. The time clock at the Ash Works prints tomorrow’s date."
   },
   "炽砂琉纹缄骨客": {
-    "name": "Cinderglass Glassmarked Bonebound",
-    "lore": "Cinderglass Glassmarked Bonebound keeps an unfulfilled lamp pact among the red-sand workshops. Without an extra sigil, it holds its opposing lane through attack and resilience alone."
+    "name": "Idleforge Passerby",
+    "lore": "He remembers the aid station, but his directions home still lead to the old district. The time clock at the Ash Works prints tomorrow’s date."
   },
   "炽砂苔痕环藤蛇": {
     "name": "Cinderglass Mossmarked Vine Coil",
@@ -1160,24 +1160,24 @@
     "lore": "Cinderglass Glassmarked Lamplighter keeps an unfulfilled lamp pact among the red-sand workshops. It intercepts flying units and reduces incoming card-attack damage by 1."
   },
   "炽砂风蚀缄骨客": {
-    "name": "Cinderglass Windworn Bonebound",
-    "lore": "Cinderglass Windworn Bonebound keeps an unfulfilled lamp pact among the red-sand workshops. Without an extra sigil, it holds its opposing lane through attack and resilience alone."
+    "name": "Oil Missing",
+    "lore": "The tears in his coat have been mended. The thread matches the cloth left at the evacuation point. The time clock at the Ash Works prints tomorrow’s date."
   },
   "炽砂静棱缄骨客": {
-    "name": "Cinderglass Still-Faceted Bonebound",
-    "lore": "Cinderglass Still-Faceted Bonebound keeps an unfulfilled lamp pact among the red-sand workshops. Without an extra sigil, it holds its opposing lane through attack and resilience alone."
+    "name": "Plaster Wayfarer",
+    "lore": "It does not pursue the living. It follows names that have already been entered in the death register. The time clock at the Ash Works prints tomorrow’s date."
   },
   "炽砂回声裂角客": {
     "name": "Cinderglass Echoing Riftborn",
     "lore": "Cinderglass Echoing Riftborn keeps an unfulfilled lamp pact among the red-sand workshops. It can move once per round to an adjacent empty lane."
   },
   "炽砂绒雾缄骨客": {
-    "name": "Cinderglass Velvetmist Bonebound",
-    "lore": "Cinderglass Velvetmist Bonebound keeps an unfulfilled lamp pact among the red-sand workshops. After a damaging strike, it pushes a surviving target into an adjacent empty lane without an extra attack."
+    "name": "Meter Returned",
+    "lore": "The medical log records a cough from the smoke. He still insists on describing the evacuation route clearly. The furnaces have stopped. Names keep appearing on the shift sheet."
   },
   "炽砂夜航缄骨客": {
-    "name": "Cinderglass Nightbound Bonebound",
-    "lore": "Cinderglass Nightbound Bonebound keeps an unfulfilled lamp pact among the red-sand workshops. Without an extra sigil, it holds its opposing lane through attack and resilience alone."
+    "name": "Banked Wayfarer",
+    "lore": "A nail was missing when the wooden crate was sealed. It was later found in his coat pocket. The furnaces have stopped. Names keep appearing on the shift sheet."
   },
   "炽砂苔痕掠风鸟": {
     "name": "Cinderglass Mossmarked Galeswift",
@@ -1200,8 +1200,8 @@
     "lore": "Cinderglass Brass-Sealed Velvetmist Warden keeps an unfulfilled lamp pact among the red-sand workshops. After a damaging strike, it pushes a surviving target into an adjacent empty lane without an extra attack."
   },
   "炽砂苔痕砂脊蜥": {
-    "name": "Cinderglass Mossmarked Sandridge Lizard",
-    "lore": "Cinderglass Mossmarked Sandridge Lizard keeps an unfulfilled lamp pact among the red-sand workshops. It can move once per round to an adjacent empty lane."
+    "name": "Smoke Lizard",
+    "lore": "The lizard shelters beneath a warm roadside stone. Its long tail brushes dust from a road marker. The time clock at the Ash Works prints tomorrow’s date."
   },
   "炽砂铜缄砂脊蜥": {
     "name": "Cinderglass Brass-Sealed Sandridge Lizard",
@@ -1220,28 +1220,28 @@
     "lore": "Cinderglass Echoing Ridge Colossus keeps an unfulfilled lamp pact among the red-sand workshops. After a damaging strike, it pushes a surviving target into an adjacent empty lane without an extra attack."
   },
   "炽砂流砂缄骨客": {
-    "name": "Cinderglass Sandswept Bonebound",
-    "lore": "Cinderglass Sandswept Bonebound keeps an unfulfilled lamp pact among the red-sand workshops. After damaging an enemy card, it restores 1 health, up to its maximum."
+    "name": "Lowfire Missing",
+    "lore": "His voice is hoarse, but he carefully speaks every place name into the recorder. The furnaces have stopped. Names keep appearing on the shift sheet."
   },
   "炽砂苔痕匣中客": {
-    "name": "Cinderglass Mossmarked Cofferkin",
-    "lore": "Cinderglass Mossmarked Cofferkin keeps an unfulfilled lamp pact among the red-sand workshops. After damaging an enemy card, it restores 1 health, up to its maximum."
+    "name": "Smoke Mimic",
+    "lore": "The box bears a lost-property label. Each key inside has a paper tag bearing its collection date. The time clock at the Ash Works prints tomorrow’s date."
   },
   "炽砂镜纹缄骨客": {
-    "name": "Cinderglass Mirror-Etched Bonebound",
-    "lore": "Cinderglass Mirror-Etched Bonebound keeps an unfulfilled lamp pact among the red-sand workshops. Its broken shell leaves a 1/1 Broken-Lamp Construct, available for sacrifice next round."
+    "name": "Bankedforge Worker",
+    "lore": "He remembers the aid station, but his directions home still lead to the old district. The furnaces have stopped. Names keep appearing on the shift sheet."
   },
   "炽砂铜缄流砂铠卫": {
     "name": "Cinderglass Brass-Sealed Sandswept Warden",
     "lore": "Cinderglass Brass-Sealed Sandswept Warden keeps an unfulfilled lamp pact among the red-sand workshops. Its broken shell leaves a 1/1 Broken-Lamp Construct, available for sacrifice next round. It can move once per round to an adjacent empty lane."
   },
   "炽砂远路缄骨客": {
-    "name": "Cinderglass Far-Road Bonebound",
-    "lore": "Cinderglass Far-Road Bonebound keeps an unfulfilled lamp pact among the red-sand workshops. Its broken shell leaves a 1/1 Broken-Lamp Construct, available for sacrifice next round."
+    "name": "Unpaid Returned",
+    "lore": "The tears in his coat have been mended. The thread matches the cloth left at the evacuation point. The furnaces have stopped. Names keep appearing on the shift sheet."
   },
   "炽砂石封缄骨客": {
-    "name": "Cinderglass Stone-Sealed Bonebound",
-    "lore": "Cinderglass Stone-Sealed Bonebound keeps an unfulfilled lamp pact among the red-sand workshops. Its ridged armor retaliates for 1 damage when attacked by a card. It can move once per round to an adjacent empty lane."
+    "name": "Debtor Wayfarer",
+    "lore": "It does not pursue the living. It follows names that have already been entered in the death register. The furnaces have stopped. Names keep appearing on the shift sheet."
   },
   "炽砂苔痕铜壳蟹": {
     "name": "Cinderglass Mossmarked Brass Crab",
@@ -1276,8 +1276,8 @@
     "lore": "Cinderglass Brass-Sealed Stone-Sealed Warden keeps an unfulfilled lamp pact among the red-sand workshops. Without an extra sigil, it holds its opposing lane through attack and resilience alone."
   },
   "炽砂鸣枝缄骨客": {
-    "name": "Cinderglass Chimebough Bonebound",
-    "lore": "Cinderglass Chimebough Bonebound keeps an unfulfilled lamp pact among the red-sand workshops. It can move once per round to an adjacent empty lane."
+    "name": "Soot Missing",
+    "lore": "The medical log records a cough from the smoke. He still insists on describing the evacuation route clearly. Only the penultimate page of the machine’s manual remains."
   },
   "炽砂回声巡影狼": {
     "name": "Cinderglass Echoing Shade Wolf",
@@ -1296,8 +1296,8 @@
     "lore": "Cinderglass Glassmarked Riftborn keeps an unfulfilled lamp pact among the red-sand workshops. It flies over the opposing card to strike enemy life directly; Guard units intercept it."
   },
   "炽砂苔痕石指傀儡": {
-    "name": "Cinderglass Mossmarked Stonefinger",
-    "lore": "Cinderglass Mossmarked Stonefinger keeps an unfulfilled lamp pact among the red-sand workshops. After damaging an enemy card, it restores 1 health, up to its maximum."
+    "name": "Blindink Gloves",
+    "lore": "The old gloves have worn palms. Their cuff numbers match the workshop issue book. The time clock at the Ash Works prints tomorrow’s date."
   },
   "炽砂铜缄环藤蛇": {
     "name": "Cinderglass Brass-Sealed Vine Coil",
@@ -1312,8 +1312,8 @@
     "lore": "Cinderglass Candlelit Vine Coil keeps an unfulfilled lamp pact among the red-sand workshops. Without an extra sigil, it holds its opposing lane through attack and resilience alone."
   },
   "炽砂回声砂脊蜥": {
-    "name": "Cinderglass Echoing Sandridge Lizard",
-    "lore": "Cinderglass Echoing Sandridge Lizard keeps an unfulfilled lamp pact among the red-sand workshops. It intercepts flying units and reduces incoming card-attack damage by 1. It can move once per round to an adjacent empty lane."
+    "name": "Pipe Lizard",
+    "lore": "The lizard shelters beneath a warm roadside stone. Its long tail brushes dust from a road marker. The furnaces have stopped. Names keep appearing on the shift sheet."
   },
   "炽砂铜缄鸣枝铠卫": {
     "name": "Cinderglass Brass-Sealed Chimebough Warden",
@@ -1352,8 +1352,8 @@
     "lore": "Cinderglass Brass-Sealed Arclit Warden keeps an unfulfilled lamp pact among the red-sand workshops. It intercepts flying units and reduces incoming card-attack damage by 1."
   },
   "炽砂苔痕甲灯虫": {
-    "name": "Cinderglass Mossmarked Lantern Beetle",
-    "lore": "Cinderglass Mossmarked Lantern Beetle keeps an unfulfilled lamp pact among the red-sand workshops. Without an extra sigil, it holds its opposing lane through attack and resilience alone."
+    "name": "Ember Beetle",
+    "lore": "Photographic chemicals stain its wings. Faces shake loose beneath the lamp when it flies. The time clock at the Ash Works prints tomorrow’s date."
   },
   "炽砂绒雾修灯师": {
     "name": "Cinderglass Velvetmist Lamplighter",
@@ -1368,8 +1368,8 @@
     "lore": "Cinderglass Mossmarked Dewthroat Frog keeps an unfulfilled lamp pact among the red-sand workshops. A damaging strike poisons its target for two rounds, losing 1 health each round."
   },
   "炽砂暖灰缄骨客": {
-    "name": "Cinderglass Warm-Cinder Bonebound",
-    "lore": "Cinderglass Warm-Cinder Bonebound keeps an unfulfilled lamp pact among the red-sand workshops. It intercepts flying units and reduces incoming card-attack damage by 1."
+    "name": "Furnace Passerby",
+    "lore": "A nail was missing when the wooden crate was sealed. It was later found in his coat pocket. Only the penultimate page of the machine’s manual remains."
   },
   "炽砂微烛峰脊巨灵": {
     "name": "Cinderglass Candlelit Ridge Colossus",
@@ -1380,8 +1380,8 @@
     "lore": "Lanan, Mireglass Warden keeps an unfulfilled lamp pact among the mist-lit causeways. Its base attack is normally 0, becoming 3 only against a living opposing card with 0 attack; an empty lane does not trigger it. On entry, restore 1 life to your side, up to 7. Once per round, it can move to an adjacent empty lane or swap with a neighboring ally."
   },
   "铜钟缄骨客·索安": {
-    "name": "Soan, Brassbell Bonebound",
-    "lore": "Soan, Brassbell Bonebound keeps an unfulfilled lamp pact among the hanging bell streets. On entry, draw 1 cards from your finite deck."
+    "name": "Noose Wayfarer",
+    "lore": "A nail was missing when the wooden crate was sealed. It was later found in his coat pocket. Every watch on the street is a breath behind the bell."
   },
   "炽砂回声苔痕铠卫": {
     "name": "Cinderglass Echoing Mossmarked Warden",
@@ -1392,8 +1392,8 @@
     "lore": "Lean, Cinderglass Warden keeps an unfulfilled lamp pact among the red-sand workshops. It intercepts flying units and reduces incoming card-attack damage by 1."
   },
   "砂镜凝光泥团领誓·岑安": {
-    "name": "Cenan, Sandmirror Gleam Slime Oathkeeper",
-    "lore": "Cenan, Sandmirror Gleam Slime Oathkeeper keeps an unfulfilled lamp pact among the echoing crystal shafts. It intercepts flying units and reduces incoming card-attack damage by 1."
+    "name": "Margin Sludge",
+    "lore": "Cart tracks mark the damp clay, leading to the side door used during the evacuation. The archive holds another ending to the same statement."
   },
   "砂镜铠卫领誓·塔安": {
     "name": "Taan, Sandmirror Warden Oathkeeper",
@@ -1404,16 +1404,16 @@
     "lore": "Moan, Sandmirror Warden Oathkeeper keeps an unfulfilled lamp pact among the echoing crystal shafts. When its own attack kills a card, it permanently gains 1 attack for this battle. After a damaging strike, it pushes a surviving target into an adjacent empty lane without an extra attack."
   },
   "砂镜裂角客领誓·伦安": {
-    "name": "Renan, Sandmirror Riftborn Oathkeeper",
-    "lore": "Renan, Sandmirror Riftborn Oathkeeper keeps an unfulfilled lamp pact among the echoing crystal shafts. After a damaging strike, it pushes a surviving target into an adjacent empty lane without an extra attack."
+    "name": "Footnote Figure",
+    "lore": "Rain has soaked the brim of his old cap. His identity card lists his work in town. The archive holds another ending to the same statement."
   },
   "砂镜峰脊巨灵领誓·佩安": {
     "name": "Pean, Sandmirror Ridge Colossus Oathkeeper",
     "lore": "Pean, Sandmirror Ridge Colossus Oathkeeper keeps an unfulfilled lamp pact among the echoing crystal shafts. It can move once per round to an adjacent empty lane."
   },
   "砂镜裂角客领誓·泽安": {
-    "name": "Zean, Sandmirror Riftborn Oathkeeper",
-    "lore": "Zean, Sandmirror Riftborn Oathkeeper keeps an unfulfilled lamp pact among the echoing crystal shafts. It flies over the opposing card to strike enemy life directly; Guard units intercept it. It can move once per round to an adjacent empty lane."
+    "name": "Refolded Figure",
+    "lore": "He checks two conflicting statements. Asked for his name, he takes out his identity card first. The archive holds another ending to the same statement."
   },
   "砂镜铠卫领誓·图安": {
     "name": "Tuan, Sandmirror Warden Oathkeeper",
@@ -1488,8 +1488,8 @@
     "lore": "Leser, Sandmirror Warden keeps an unfulfilled lamp pact among the echoing crystal shafts. It intercepts flying units and reduces incoming card-attack damage by 1."
   },
   "砂镜巡灯使·岑瑟": {
-    "name": "Censer, Sandmirror Wayfarer",
-    "lore": "Censer, Sandmirror Wayfarer keeps an unfulfilled lamp pact among the echoing crystal shafts. On entry, draw 1 cards from your finite deck."
+    "name": "Niche Notary",
+    "lore": "He remembers your face. He insists you first met tomorrow, in the waiting room. The archive holds another ending to the same statement."
   },
   "砂镜巡灯使·塔瑟": {
     "name": "Taser, Sandmirror Wayfarer",
@@ -1588,8 +1588,8 @@
     "lore": "Sandmirror Far-Road Warden keeps an unfulfilled lamp pact among the echoing crystal shafts. It can move once per round to an adjacent empty lane."
   },
   "砂镜苔痕缄骨客": {
-    "name": "Sandmirror Mossmarked Bonebound",
-    "lore": "Sandmirror Mossmarked Bonebound keeps an unfulfilled lamp pact among the echoing crystal shafts. On death or sacrifice, draw 1 cards from your finite deck."
+    "name": "Margin Passerby",
+    "lore": "The medical log records a cough from the smoke. He still insists on describing the evacuation route clearly. The archive holds another ending to the same statement."
   },
   "砂镜苔痕棱耳猎犬": {
     "name": "Sandmirror Mossmarked Prism Hound",
@@ -1600,24 +1600,24 @@
     "lore": "Sandmirror Mirror-Etched Wayfarer keeps an unfulfilled lamp pact among the echoing crystal shafts. It intercepts flying units and reduces incoming card-attack damage by 1."
   },
   "砂镜铜缄缄骨客": {
-    "name": "Sandmirror Brass-Sealed Bonebound",
-    "lore": "Sandmirror Brass-Sealed Bonebound keeps an unfulfilled lamp pact among the echoing crystal shafts. On death or sacrifice, draw 1 cards from your finite deck."
+    "name": "Taped Wayfarer",
+    "lore": "A nail was missing when the wooden crate was sealed. It was later found in his coat pocket. The archive holds another ending to the same statement."
   },
   "砂镜回声缄骨客": {
-    "name": "Sandmirror Echoing Bonebound",
-    "lore": "Sandmirror Echoing Bonebound keeps an unfulfilled lamp pact among the echoing crystal shafts. Its broken shell leaves a 1/1 Broken-Lamp Construct, available for sacrifice next round."
+    "name": "Faintink Copyist",
+    "lore": "His voice is hoarse, but he carefully speaks every place name into the recorder. The archive holds another ending to the same statement."
   },
   "砂镜苔痕甲灯虫": {
-    "name": "Sandmirror Mossmarked Lantern Beetle",
-    "lore": "Sandmirror Mossmarked Lantern Beetle keeps an unfulfilled lamp pact among the echoing crystal shafts. Its ridged armor retaliates for 1 damage when attacked by a card."
+    "name": "Molded Beetle",
+    "lore": "Photographic chemicals stain its wings. Faces shake loose beneath the lamp when it flies. The archive holds another ending to the same statement."
   },
   "砂镜回声凝光泥团": {
-    "name": "Sandmirror Echoing Gleam Slime",
-    "lore": "Sandmirror Echoing Gleam Slime keeps an unfulfilled lamp pact among the echoing crystal shafts. It intercepts flying units and reduces incoming card-attack damage by 1."
+    "name": "Pressed Clay",
+    "lore": "The evidence box is not leaking. The mass inside keeps growing, lifting the label at its edges. The archive holds another ending to the same statement."
   },
   "砂镜苔痕砂脊蜥": {
-    "name": "Sandmirror Mossmarked Sandridge Lizard",
-    "lore": "Sandmirror Mossmarked Sandridge Lizard keeps an unfulfilled lamp pact among the echoing crystal shafts. Its ridged armor retaliates for 1 damage when attacked by a card."
+    "name": "Molded Lizard",
+    "lore": "The lizard shelters beneath a warm roadside stone. Its long tail brushes dust from a road marker. The archive holds another ending to the same statement."
   },
   "砂镜铜缄地缝蠕虫": {
     "name": "Sandmirror Brass-Sealed Burrowcoil",
@@ -1636,8 +1636,8 @@
     "lore": "Sandmirror Brass-Sealed Tidefin keeps an unfulfilled lamp pact among the echoing crystal shafts. It flies over the opposing card to strike enemy life directly; Guard units intercept it."
   },
   "砂镜微烛缄骨客": {
-    "name": "Sandmirror Candlelit Bonebound",
-    "lore": "Sandmirror Candlelit Bonebound keeps an unfulfilled lamp pact among the echoing crystal shafts. A damaging strike poisons its target for two rounds, losing 1 health each round."
+    "name": "Oldcase Wayfarer",
+    "lore": "He remembers the aid station, but his directions home still lead to the old district. The archive holds another ending to the same statement."
   },
   "砂镜苔痕苔脊软虫": {
     "name": "Sandmirror Mossmarked Mossback Slug",
@@ -1664,16 +1664,16 @@
     "lore": "Sandmirror Candlelit Sealrunner keeps an unfulfilled lamp pact among the echoing crystal shafts. It can move once per round to an adjacent empty lane."
   },
   "砂镜琉纹缄骨客": {
-    "name": "Sandmirror Glassmarked Bonebound",
-    "lore": "Sandmirror Glassmarked Bonebound keeps an unfulfilled lamp pact among the echoing crystal shafts. Its broken shell leaves a 1/1 Broken-Lamp Construct, available for sacrifice next round. It can move once per round to an adjacent empty lane."
+    "name": "Emptycase Passerby",
+    "lore": "The tears in his coat have been mended. The thread matches the cloth left at the evacuation point. The archive holds another ending to the same statement."
   },
   "砂镜风蚀缄骨客": {
     "name": "Sandmirror Windworn Bonebound",
     "lore": "Sandmirror Windworn Bonebound keeps an unfulfilled lamp pact among the echoing crystal shafts. Its broken shell leaves a 1/1 Broken-Lamp Construct, available for sacrifice next round. After a damaging strike, it pushes a surviving target into an adjacent empty lane without an extra attack."
   },
   "砂镜静棱缄骨客": {
-    "name": "Sandmirror Still-Faceted Bonebound",
-    "lore": "Sandmirror Still-Faceted Bonebound keeps an unfulfilled lamp pact among the echoing crystal shafts. It parries attacks of at most 1 damage and retaliates for 1. It can move once per round to an adjacent empty lane."
+    "name": "Coldseal Passerby",
+    "lore": "The medical log records a cough from the smoke. He still insists on describing the evacuation route clearly. Thick dust fills the space where the file should be."
   },
   "砂镜微烛峰脊巨灵": {
     "name": "Sandmirror Candlelit Ridge Colossus",
@@ -1716,8 +1716,8 @@
     "lore": "Moden, Dusktide Riftborn Oathkeeper keeps an unfulfilled lamp pact among the night-tide quays. A damaging strike poisons its target for two rounds, losing 1 health each round. It can move once per round to an adjacent empty lane."
   },
   "暮潮星枝鹿领誓·伦尘": {
-    "name": "Renden, Dusktide Starbough Stag Oathkeeper",
-    "lore": "Renden, Dusktide Starbough Stag Oathkeeper keeps an unfulfilled lamp pact among the night-tide quays. It restores 1 health at the end of each round, up to its maximum."
+    "name": "Ferry Deer Orin",
+    "lore": "Orin, filed as Ferry Deer. Seawater will not stay in the deer's hoofprints. They resemble small, quiet wells. A rescue list beside them does not move in the wind."
   },
   "暮潮灯议长·佩尘": {
     "name": "Peden, Dusktide Lamp Regent",
@@ -1728,16 +1728,16 @@
     "lore": "Zeden, Dusktide Sealrunner Oathkeeper keeps an unfulfilled lamp pact among the night-tide quays. It parries attacks of at most 1 damage and retaliates for 1. Once per round, it can move to an adjacent empty lane or swap with a neighboring ally."
   },
   "暮潮织光蛛领誓·图尘": {
-    "name": "Tuden, Dusktide Gleamweaver Oathkeeper",
-    "lore": "Tuden, Dusktide Gleamweaver Oathkeeper keeps an unfulfilled lamp pact among the night-tide quays. It intercepts flying units and reduces incoming card-attack damage by 1."
+    "name": "Deep Spider Marta",
+    "lore": "Marta, filed as Deep Spider. The great spider spins across an old life ring on the pier. A rope from the last boat is still tied to it. The rescue board ashore records the survivors’ names."
   },
   "暮潮缄骨客领誓·芮尘": {
-    "name": "Raeden, Dusktide Bonebound Oathkeeper",
-    "lore": "Raeden, Dusktide Bonebound Oathkeeper keeps an unfulfilled lamp pact among the night-tide quays. Its ridged armor retaliates for 1 damage when attacked by a card. It can move once per round to an adjacent empty lane."
+    "name": "Shore Missing",
+    "lore": "The medical log records a cough from the smoke. He still insists on describing the evacuation route clearly. A door is drawn at low tide on the Sunken Harbor chart."
   },
   "暮潮缄骨客领誓·阿汀": {
-    "name": "Atin, Dusktide Bonebound Oathkeeper",
-    "lore": "Atin, Dusktide Bonebound Oathkeeper keeps an unfulfilled lamp pact among the night-tide quays. It restores 1 health at the end of each round, up to its maximum."
+    "name": "Bilge Guest Conrad",
+    "lore": "Conrad, filed as Bilge Guest. He checks every recovered bag and records the name of the person claiming it. The last page lists a shipment time for Snow Station."
   },
   "暮潮灯议长·艾汀": {
     "name": "Etin, Dusktide Lamp Regent",
@@ -1780,24 +1780,24 @@
     "lore": "Shitin, Dusktide Lamp Regent keeps an unfulfilled lamp pact among the night-tide quays. It parries attacks of at most 1 damage and retaliates for 1. After a damaging strike, it pushes a surviving target into an adjacent empty lane without an extra attack."
   },
   "暮潮灯议长·洛汀": {
-    "name": "Lotin, Dusktide Lamp Regent",
-    "lore": "Lotin, Dusktide Lamp Regent keeps an unfulfilled lamp pact among the night-tide quays. Once per round, it can move to an adjacent empty lane or swap with a neighboring ally."
+    "name": "Unmanned Clerk",
+    "lore": "He remembers your face. He insists you first met tomorrow, in the waiting room. A door is drawn at low tide on the Sunken Harbor chart."
   },
   "暮潮灯议长·米汀": {
     "name": "Mitin, Dusktide Lamp Regent",
     "lore": "Mitin, Dusktide Lamp Regent keeps an unfulfilled lamp pact among the night-tide quays. It parries attacks of at most 1 damage and retaliates for 1. It can move once per round to an adjacent empty lane."
   },
   "暮潮灯议长·岚汀": {
-    "name": "Lantin, Dusktide Lamp Regent",
-    "lore": "Lantin, Dusktide Lamp Regent keeps an unfulfilled lamp pact among the night-tide quays. It can move once per round to an adjacent empty lane."
+    "name": "Wetcoat Scribe",
+    "lore": "He listens to the wall through an oscilloscope. Sometimes the waveform arranges itself into readable words. A door is drawn at low tide on the Sunken Harbor chart."
   },
   "暮潮峰脊巨灵领誓·索汀": {
     "name": "Sotin, Dusktide Ridge Colossus Oathkeeper",
     "lore": "Sotin, Dusktide Ridge Colossus Oathkeeper keeps an unfulfilled lamp pact among the night-tide quays. It intercepts flying units and reduces incoming card-attack damage by 1. After a damaging strike, it pushes a surviving target into an adjacent empty lane without an extra attack."
   },
   "暮潮裂角客领誓·莱汀": {
-    "name": "Letin, Dusktide Riftborn Oathkeeper",
-    "lore": "Letin, Dusktide Riftborn Oathkeeper keeps an unfulfilled lamp pact among the night-tide quays. After damaging an enemy card, it restores 1 health, up to its maximum. After a damaging strike, it pushes a surviving target into an adjacent empty lane without an extra attack."
+    "name": "Wetcoat Visitor",
+    "lore": "Rain has soaked the brim of his old cap. His identity card lists his work in town. A door is drawn at low tide on the Sunken Harbor chart."
   },
   "暮潮地缝蠕虫领誓·岑汀": {
     "name": "Centin, Dusktide Burrowcoil Oathkeeper",
@@ -1808,16 +1808,16 @@
     "lore": "Tatin, Dusktide Prism Hound Oathkeeper keeps an unfulfilled lamp pact among the night-tide quays. It intercepts flying units and reduces incoming card-attack damage by 1. After a damaging strike, it pushes a surviving target into an adjacent empty lane without an extra attack."
   },
   "暮潮缄骨客领誓·莫汀": {
-    "name": "Motin, Dusktide Bonebound Oathkeeper",
-    "lore": "Motin, Dusktide Bonebound Oathkeeper keeps an unfulfilled lamp pact among the night-tide quays. Its ridged armor retaliates for 1 damage when attacked by a card. It can move once per round to an adjacent empty lane."
+    "name": "Sail Missing",
+    "lore": "A nail was missing when the wooden crate was sealed. It was later found in his coat pocket. A door is drawn at low tide on the Sunken Harbor chart."
   },
   "暮潮灯议长·伦汀": {
     "name": "Rentin, Dusktide Lamp Regent",
     "lore": "Rentin, Dusktide Lamp Regent keeps an unfulfilled lamp pact among the night-tide quays. On entry, draw 1 cards from your finite deck."
   },
   "暮潮裂角客领誓·佩汀": {
-    "name": "Petin, Dusktide Riftborn Oathkeeper",
-    "lore": "Petin, Dusktide Riftborn Oathkeeper keeps an unfulfilled lamp pact among the night-tide quays. It intercepts flying units and reduces incoming card-attack damage by 1."
+    "name": "Seaborne Figure",
+    "lore": "He checks two conflicting statements. Asked for his name, he takes out his identity card first. A door is drawn at low tide on the Sunken Harbor chart."
   },
   "暮潮琉纹折面星客": {
     "name": "Dusktide Glassmarked Facetborn",
@@ -1828,8 +1828,8 @@
     "lore": "Zetin, Dusktide Lamplighter keeps an unfulfilled lamp pact among the night-tide quays. On entry, restore 1 life to your side, up to 7."
   },
   "暮潮巡灯使·图汀": {
-    "name": "Tutin, Dusktide Wayfarer",
-    "lore": "Tutin, Dusktide Wayfarer keeps an unfulfilled lamp pact among the night-tide quays. On entry, restore 1 life to your side, up to 7."
+    "name": "Wetcoat Witness",
+    "lore": "He comes to report a disappearance. The photograph is his own, with events that have not happened written on the back. A door is drawn at low tide on the Sunken Harbor chart."
   },
   "暮潮巡灯使·芮汀": {
     "name": "Raetin, Dusktide Wayfarer",
@@ -1892,8 +1892,8 @@
     "lore": "Lanfe, Dusktide Sealrunner keeps an unfulfilled lamp pact among the night-tide quays. It can move once per round to an adjacent empty lane."
   },
   "暮潮潜印客·索芙": {
-    "name": "Sofe, Dusktide Sealrunner",
-    "lore": "Sofe, Dusktide Sealrunner keeps an unfulfilled lamp pact among the night-tide quays. It parries attacks of at most 1 damage and retaliates for 1."
+    "name": "Salt Listener",
+    "lore": "There are no keys in her pockets. Their numbers are written in her clothbound notebook. A door is drawn at low tide on the Sunken Harbor chart."
   },
   "暮潮折面星客·莱芙": {
     "name": "Lefe, Dusktide Facetborn",
@@ -1916,16 +1916,16 @@
     "lore": "Renfe, Dusktide Sealrunner keeps an unfulfilled lamp pact among the night-tide quays. After a damaging strike, it pushes a surviving target into an adjacent empty lane without an extra attack."
   },
   "暮潮微烛缄骨客": {
-    "name": "Dusktide Candlelit Bonebound",
-    "lore": "Dusktide Candlelit Bonebound keeps an unfulfilled lamp pact among the night-tide quays. Without an extra sigil, it holds its opposing lane through attack and resilience alone."
+    "name": "Upwell Returned",
+    "lore": "His voice is hoarse, but he carefully speaks every place name into the recorder. A door is drawn at low tide on the Sunken Harbor chart."
   },
   "暮潮铜缄铠卫": {
     "name": "Dusktide Brass-Sealed Warden",
     "lore": "Dusktide Brass-Sealed Warden keeps an unfulfilled lamp pact among the night-tide quays. Without an extra sigil, it holds its opposing lane through attack and resilience alone."
   },
   "暮潮琉纹缄骨客": {
-    "name": "Dusktide Glassmarked Bonebound",
-    "lore": "Dusktide Glassmarked Bonebound keeps an unfulfilled lamp pact among the night-tide quays. Without an extra sigil, it holds its opposing lane through attack and resilience alone."
+    "name": "Blackharbor Passerby",
+    "lore": "He remembers the aid station, but his directions home still lead to the old district. A door is drawn at low tide on the Sunken Harbor chart."
   },
   "暮潮铜缄棱耳猎犬": {
     "name": "Dusktide Brass-Sealed Prism Hound",
@@ -1940,28 +1940,28 @@
     "lore": "Dusktide Mossmarked Threadtail Rat keeps an unfulfilled lamp pact among the night-tide quays. Without an extra sigil, it holds its opposing lane through attack and resilience alone."
   },
   "暮潮雾羽巡灯使": {
-    "name": "Dusktide Mistfeather Wayfarer",
-    "lore": "Dusktide Mistfeather Wayfarer keeps an unfulfilled lamp pact among the night-tide quays. Without an extra sigil, it holds its opposing lane through attack and resilience alone."
+    "name": "Anchor Notary",
+    "lore": "He remembers your face. He insists you first met tomorrow, in the waiting room. The wet footprints on the pier never reach land."
   },
   "暮潮静棱折面星客": {
     "name": "Dusktide Still-Faceted Facetborn",
     "lore": "Dusktide Still-Faceted Facetborn keeps an unfulfilled lamp pact among the night-tide quays. Without an extra sigil, it holds its opposing lane through attack and resilience alone."
   },
   "暮潮风蚀缄骨客": {
-    "name": "Dusktide Windworn Bonebound",
-    "lore": "Dusktide Windworn Bonebound keeps an unfulfilled lamp pact among the night-tide quays. Without an extra sigil, it holds its opposing lane through attack and resilience alone."
+    "name": "Stern Passerby",
+    "lore": "The tears in his coat have been mended. The thread matches the cloth left at the evacuation point. A door is drawn at low tide on the Sunken Harbor chart."
   },
   "暮潮苔痕巡影狼": {
-    "name": "Dusktide Mossmarked Shade Wolf",
-    "lore": "Dusktide Mossmarked Shade Wolf keeps an unfulfilled lamp pact among the night-tide quays. After damaging an enemy card, it restores 1 health, up to its maximum. It can move once per round to an adjacent empty lane."
+    "name": "Wetfur Wolf",
+    "lore": "The pack’s tracks divide at the crossing. At the scene, every trail passes through the same photograph. A door is drawn at low tide on the Sunken Harbor chart."
   },
   "暮潮绒雾折面星客": {
     "name": "Dusktide Velvetmist Facetborn",
     "lore": "Dusktide Velvetmist Facetborn keeps an unfulfilled lamp pact among the night-tide quays. Without an extra sigil, it holds its opposing lane through attack and resilience alone."
   },
   "暮潮苔痕甲灯虫": {
-    "name": "Dusktide Mossmarked Lantern Beetle",
-    "lore": "Dusktide Mossmarked Lantern Beetle keeps an unfulfilled lamp pact among the night-tide quays. Its ridged armor retaliates for 1 damage when attacked by a card."
+    "name": "Anchor Beetle",
+    "lore": "Photographic chemicals stain its wings. Faces shake loose beneath the lamp when it flies. A door is drawn at low tide on the Sunken Harbor chart."
   },
   "暮潮苔痕环藤蛇": {
     "name": "Dusktide Mossmarked Vine Coil",
@@ -1992,8 +1992,8 @@
     "lore": "Dusktide Brass-Sealed Shade Wolf keeps an unfulfilled lamp pact among the night-tide quays. After damaging an enemy card, it restores 1 health, up to its maximum. It can move once per round to an adjacent empty lane."
   },
   "暮潮铜缄观灯师": {
-    "name": "Dusktide Brass-Sealed Luminary",
-    "lore": "Dusktide Brass-Sealed Luminary keeps an unfulfilled lamp pact among the night-tide quays. On entry, draw 1 cards from your finite deck."
+    "name": "Wetcoat Broadcaster",
+    "lore": "She marks a blank tape. She says the recording begins in the part that was erased. A door is drawn at low tide on the Sunken Harbor chart."
   },
   "暮潮夜航折面星客": {
     "name": "Dusktide Nightbound Facetborn",
@@ -2024,8 +2024,8 @@
     "lore": "Dusktide Echoing Tidefin keeps an unfulfilled lamp pact among the night-tide quays. Without an extra sigil, it holds its opposing lane through attack and resilience alone."
   },
   "暮潮苔痕凝光泥团": {
-    "name": "Dusktide Mossmarked Gleam Slime",
-    "lore": "Dusktide Mossmarked Gleam Slime keeps an unfulfilled lamp pact among the night-tide quays. It restores 1 health at the end of each round, up to its maximum."
+    "name": "Briny Sludge",
+    "lore": "Cart tracks mark the damp clay, leading to the side door used during the evacuation. A door is drawn at low tide on the Sunken Harbor chart."
   },
   "暮潮微烛裂角客": {
     "name": "Dusktide Candlelit Riftborn",
@@ -2068,12 +2068,12 @@
     "lore": "Raefe, Frostbough Warden Oathkeeper keeps an unfulfilled lamp pact among the frost-laced bridges. It parries attacks of at most 1 damage and retaliates for 1. On entry, draw 1 cards from your finite deck. After a damaging strike, it pushes a surviving target into an adjacent empty lane without an extra attack."
   },
   "霜枝攀钟猿领誓·阿诺": {
-    "name": "Anor, Frostbough Bellclimber Oathkeeper",
-    "lore": "Anor, Frostbough Bellclimber Oathkeeper keeps an unfulfilled lamp pact among the frost-laced bridges. It can move once per round to an adjacent empty lane."
+    "name": "White Ape Arlo",
+    "lore": "Arlo, filed as White Ape. Frost covers the observation pane on the ape enclosure. The ape’s thick fur and calm eyes are visible behind it. The attendant tells you to return after the thaw, then tears up the appointment."
   },
   "霜枝攀钟猿领誓·艾诺": {
-    "name": "Enor, Frostbough Bellclimber Oathkeeper",
-    "lore": "Enor, Frostbough Bellclimber Oathkeeper keeps an unfulfilled lamp pact among the frost-laced bridges. After a damaging strike, it pushes a surviving target into an adjacent empty lane without an extra attack. On its first departure each battle, it returns to hand with its initial attack and health."
+    "name": "One-Arm Ape Ulric",
+    "lore": "Ulric, filed as One-Arm Ape. The veterinary report notes its old injury. Its keeper still prepares each meal on time. A camera records a hand carrying the meal beyond the frame."
   },
   "霜枝攀钟猿领誓·伊诺": {
     "name": "Inor, Frostbough Bellclimber Oathkeeper",
@@ -2140,12 +2140,12 @@
     "lore": "Tanor, Frostbough Warden keeps an unfulfilled lamp pact among the frost-laced bridges. It parries attacks of at most 1 damage and retaliates for 1."
   },
   "霜枝铜缄裂角客": {
-    "name": "Frostbough Brass-Sealed Riftborn",
-    "lore": "Frostbough Brass-Sealed Riftborn keeps an unfulfilled lamp pact among the frost-laced bridges. It intercepts flying units and reduces incoming card-attack damage by 1. After a damaging strike, it pushes a surviving target into an adjacent empty lane without an extra attack."
+    "name": "Snow Horn Erik",
+    "lore": "Erik, filed as Snow Horn. He drags the shape outside the station toward the light. Only a coat arrives. A name tag is sewn inside, with a Snow Station receipt caught in the cuff."
   },
   "霜枝巡灯使·莫诺": {
-    "name": "Monor, Frostbough Wayfarer",
-    "lore": "Monor, Frostbough Wayfarer keeps an unfulfilled lamp pact among the frost-laced bridges. A damaging strike poisons its target for two rounds, losing 1 health each round. After a damaging strike, it pushes a surviving target into an adjacent empty lane without an extra attack."
+    "name": "Track Relief",
+    "lore": "He remembers your face. He insists you first met tomorrow, in the waiting room. A second snowfall continues behind the station window."
   },
   "霜枝巡灯使·伦诺": {
     "name": "Rennor, Frostbough Wayfarer",
@@ -2188,8 +2188,8 @@
     "lore": "Frostbough Still-Faceted Sealrunner keeps an unfulfilled lamp pact among the frost-laced bridges. It parries attacks of at most 1 damage and retaliates for 1. It can move once per round to an adjacent empty lane."
   },
   "霜枝绒雾潜印客": {
-    "name": "Frostbough Velvetmist Sealrunner",
-    "lore": "Frostbough Velvetmist Sealrunner keeps an unfulfilled lamp pact among the frost-laced bridges. A damaging strike poisons its target for two rounds, losing 1 health each round. It can move once per round to an adjacent empty lane."
+    "name": "Icebough Listener",
+    "lore": "There are no keys in her pockets. Their numbers are written in her clothbound notebook. A second snowfall continues behind the station window."
   },
   "霜枝潜印客·艾烙": {
     "name": "Erek, Frostbough Sealrunner",
@@ -2272,8 +2272,8 @@
     "lore": "Lerek, Frostbough Warden keeps an unfulfilled lamp pact among the frost-laced bridges. It restores 1 health at the end of each round, up to its maximum."
   },
   "霜枝窑心偶·岑烙": {
-    "name": "Cenrek, Frostbough Kilnheart Construct",
-    "lore": "Cenrek, Frostbough Kilnheart Construct keeps an unfulfilled lamp pact among the frost-laced bridges. On entry, draw 1 cards from your finite deck."
+    "name": "Cutline Jar",
+    "lore": "No stamped papers remain in the jar. An unbroken ring of fingerprints surrounds its mouth. A second snowfall continues behind the station window."
   },
   "霜枝窑心偶·塔烙": {
     "name": "Tarek, Frostbough Kilnheart Construct",
@@ -2304,8 +2304,8 @@
     "lore": "Frostbough Stone-Sealed Sealrunner keeps an unfulfilled lamp pact among the frost-laced bridges. Without an extra sigil, it holds its opposing lane through attack and resilience alone."
   },
   "霜枝鸣枝潜印客": {
-    "name": "Frostbough Chimebough Sealrunner",
-    "lore": "Frostbough Chimebough Sealrunner keeps an unfulfilled lamp pact among the frost-laced bridges. Without an extra sigil, it holds its opposing lane through attack and resilience alone."
+    "name": "White Tail",
+    "lore": "There are no keys in her pockets. Their numbers are written in her clothbound notebook. The waiting passengers leave no weight in the snow."
   },
   "霜枝弧光铠卫": {
     "name": "Frostbough Arclit Warden",
@@ -2324,16 +2324,16 @@
     "lore": "Frostbough Brass-Sealed Mossmarked Warden keeps an unfulfilled lamp pact among the frost-laced bridges. Without an extra sigil, it holds its opposing lane through attack and resilience alone."
   },
   "霜枝苔痕缄骨客": {
-    "name": "Frostbough Mossmarked Bonebound",
-    "lore": "Frostbough Mossmarked Bonebound keeps an unfulfilled lamp pact among the frost-laced bridges. Without an extra sigil, it holds its opposing lane through attack and resilience alone."
+    "name": "Black-Snow Traveler",
+    "lore": "The medical log records a cough from the smoke. He still insists on describing the evacuation route clearly. A second snowfall continues behind the station window."
   },
   "霜枝铜缄折面星客": {
     "name": "Frostbough Brass-Sealed Facetborn",
     "lore": "Frostbough Brass-Sealed Facetborn keeps an unfulfilled lamp pact among the frost-laced bridges. Without an extra sigil, it holds its opposing lane through attack and resilience alone."
   },
   "霜枝苔痕砂脊蜥": {
-    "name": "Frostbough Mossmarked Sandridge Lizard",
-    "lore": "Frostbough Mossmarked Sandridge Lizard keeps an unfulfilled lamp pact among the frost-laced bridges. A damaging strike poisons its target for two rounds, losing 1 health each round."
+    "name": "Oldprint Lizard",
+    "lore": "The lizard shelters beneath a warm roadside stone. Its long tail brushes dust from a road marker. A second snowfall continues behind the station window."
   },
   "霜枝暖灰潜印客": {
     "name": "Frostbough Warm-Cinder Sealrunner",
@@ -2388,8 +2388,8 @@
     "lore": "Frostbough Brass-Sealed Ridge Colossus keeps an unfulfilled lamp pact among the frost-laced bridges. It intercepts flying units and reduces incoming card-attack damage by 1. After a damaging strike, it pushes a surviving target into an adjacent empty lane without an extra attack."
   },
   "霜枝铜缄缄骨客": {
-    "name": "Frostbough Brass-Sealed Bonebound",
-    "lore": "Frostbough Brass-Sealed Bonebound keeps an unfulfilled lamp pact among the frost-laced bridges. Without an extra sigil, it holds its opposing lane through attack and resilience alone."
+    "name": "Snowbound Passerby",
+    "lore": "A nail was missing when the wooden crate was sealed. It was later found in his coat pocket. A second snowfall continues behind the station window."
   },
   "霜枝浮辉使·伦烙": {
     "name": "Renrek, Frostbough Gleam Wisp",
@@ -2420,8 +2420,8 @@
     "lore": "Evin, Starforged Riftborn Oathkeeper keeps an unfulfilled lamp pact among the floating observatories. After damaging an enemy card, it restores 1 health, up to its maximum."
   },
   "星铸裂角客领誓·伊玟": {
-    "name": "Ivin, Starforged Riftborn Oathkeeper",
-    "lore": "Ivin, Starforged Riftborn Oathkeeper keeps an unfulfilled lamp pact among the floating observatories. It parries attacks of at most 1 damage and retaliates for 1. It can move once per round to an adjacent empty lane."
+    "name": "Night Split Dara",
+    "lore": "Dara, filed as Night Split. Each pause in his statement has been bagged separately. Mist gathers inside. The custodian says the bags once contained recorders."
   },
   "星铸峰脊巨灵领誓·欧玟": {
     "name": "Ovin, Starforged Ridge Colossus Oathkeeper",
@@ -2432,8 +2432,8 @@
     "lore": "Uvin, Starforged Shade Wolf Oathkeeper keeps an unfulfilled lamp pact among the floating observatories. It can move once per round to an adjacent empty lane."
   },
   "星铸灯议长·依玟": {
-    "name": "Aevin, Starforged Lamp Regent",
-    "lore": "Aevin, Starforged Lamp Regent keeps an unfulfilled lamp pact among the floating observatories. It intercepts flying units and reduces incoming card-attack damage by 1. After a damaging strike, it pushes a surviving target into an adjacent empty lane without an extra attack."
+    "name": "Erased Lodger",
+    "lore": "He remembers your face. He insists you first met tomorrow, in the waiting room. The White Room’s door bears the same number on the inside."
   },
   "星铸灯议长·雅玟": {
     "name": "Yavin, Starforged Lamp Regent",
@@ -2464,8 +2464,8 @@
     "lore": "Mivin, Starforged Warden Oathkeeper keeps an unfulfilled lamp pact among the floating observatories. It intercepts flying units and reduces incoming card-attack damage by 1. After a damaging strike, it pushes a surviving target into an adjacent empty lane without an extra attack."
   },
   "星铸裂角客领誓·岚玟": {
-    "name": "Lanvin, Starforged Riftborn Oathkeeper",
-    "lore": "Lanvin, Starforged Riftborn Oathkeeper keeps an unfulfilled lamp pact among the floating observatories. After damaging an enemy card, it restores 1 health, up to its maximum."
+    "name": "Darkfilm Fiend",
+    "lore": "Rain has soaked the brim of his old cap. His identity card lists his work in town. The White Room’s door bears the same number on the inside."
   },
   "星铸灯议长·索玟": {
     "name": "Sovin, Starforged Lamp Regent",
@@ -2564,12 +2564,12 @@
     "lore": "Lanfei, Starforged Lamp Regent keeps an unfulfilled lamp pact among the floating observatories. It intercepts flying units and reduces incoming card-attack damage by 1."
   },
   "星铸凝光泥团领誓·索斐": {
-    "name": "Sofei, Starforged Gleam Slime Oathkeeper",
-    "lore": "Sofei, Starforged Gleam Slime Oathkeeper keeps an unfulfilled lamp pact among the floating observatories. It restores 1 health at the end of each round, up to its maximum. On death or sacrifice, draw 1 cards from your finite deck. Once per round, it can move to an adjacent empty lane or swap with a neighboring ally."
+    "name": "Blank Sludge",
+    "lore": "Cart tracks mark the damp clay, leading to the side door used during the evacuation. The White Room’s door bears the same number on the inside."
   },
   "星铸裂角客领誓·莱斐": {
-    "name": "Lefei, Starforged Riftborn Oathkeeper",
-    "lore": "Lefei, Starforged Riftborn Oathkeeper keeps an unfulfilled lamp pact among the floating observatories. It intercepts flying units and reduces incoming card-attack damage by 1. After a damaging strike, it pushes a surviving target into an adjacent empty lane without an extra attack."
+    "name": "Blank Stray",
+    "lore": "He checks two conflicting statements. Asked for his name, he takes out his identity card first. The White Room’s door bears the same number on the inside."
   },
   "星铸裂角客领誓·岑斐": {
     "name": "Cenfei, Starforged Riftborn Oathkeeper",
@@ -2632,8 +2632,8 @@
     "lore": "Yarin, Starforged Lamp Regent keeps an unfulfilled lamp pact among the floating observatories. It restores 1 health at the end of each round, up to its maximum."
   },
   "星铸灯议长·诺霖": {
-    "name": "Norin, Starforged Lamp Regent",
-    "lore": "Norin, Starforged Lamp Regent keeps an unfulfilled lamp pact among the floating observatories. It intercepts flying units and reduces incoming card-attack damage by 1."
+    "name": "Typo Notary",
+    "lore": "He remembers your face. He insists you first met tomorrow, in the waiting room. The investigator’s name is missing from the record."
   },
   "星铸灯议长·瑟霖": {
     "name": "Serin, Starforged Lamp Regent",
@@ -2656,8 +2656,8 @@
     "lore": "Mirin, Starforged Lamp Regent keeps an unfulfilled lamp pact among the floating observatories. It intercepts flying units and reduces incoming card-attack damage by 1. After a damaging strike, it pushes a surviving target into an adjacent empty lane without an extra attack."
   },
   "星铸甲灯虫领誓·岚霖": {
-    "name": "Lanrin, Starforged Lantern Beetle Oathkeeper",
-    "lore": "Lanrin, Starforged Lantern Beetle Oathkeeper keeps an unfulfilled lamp pact among the floating observatories. It flies over the opposing card to strike enemy life directly; Guard units intercept it."
+    "name": "Prism Beetle",
+    "lore": "Photographic chemicals stain its wings. Faces shake loose beneath the lamp when it flies. The White Room’s door bears the same number on the inside."
   },
   "星铸甲灯虫领誓·索霖": {
     "name": "Sorin, Starforged Lantern Beetle Oathkeeper",
@@ -2772,12 +2772,12 @@
     "lore": "Starforged Velvetmist Riftborn keeps an unfulfilled lamp pact among the floating observatories. It can move once per round to an adjacent empty lane."
   },
   "星铸夜航裂角客": {
-    "name": "Starforged Nightbound Riftborn",
-    "lore": "Starforged Nightbound Riftborn keeps an unfulfilled lamp pact among the floating observatories. It intercepts flying units and reduces incoming card-attack damage by 1."
+    "name": "Unframed Figure",
+    "lore": "Rain has soaked the brim of his old cap. His identity card lists his work in town. The investigator’s name is missing from the record."
   },
   "星铸流砂裂角客": {
-    "name": "Starforged Sandswept Riftborn",
-    "lore": "Starforged Sandswept Riftborn keeps an unfulfilled lamp pact among the floating observatories. It can move once per round to an adjacent empty lane."
+    "name": "Blurred Fiend",
+    "lore": "He checks two conflicting statements. Asked for his name, he takes out his identity card first. The investigator’s name is missing from the record."
   },
   "星铸镜纹裂角客": {
     "name": "Starforged Mirror-Etched Riftborn",
@@ -2796,20 +2796,20 @@
     "lore": "Starforged Mossmarked Gleam Wisp keeps an unfulfilled lamp pact among the floating observatories. Its broken shell leaves a 1/1 Broken-Lamp Construct, available for sacrifice next round."
   },
   "星铸苔痕缄骨客": {
-    "name": "Starforged Mossmarked Bonebound",
-    "lore": "Starforged Mossmarked Bonebound keeps an unfulfilled lamp pact among the floating observatories. Its broken shell leaves a 1/1 Broken-Lamp Construct, available for sacrifice next round."
+    "name": "White Room Visitor",
+    "lore": "The medical log records a cough from the smoke. He still insists on describing the evacuation route clearly. The White Room’s door bears the same number on the inside."
   },
   "星铸铜缄缄骨客": {
-    "name": "Starforged Brass-Sealed Bonebound",
-    "lore": "Starforged Brass-Sealed Bonebound keeps an unfulfilled lamp pact among the floating observatories. Its broken shell leaves a 1/1 Broken-Lamp Construct, available for sacrifice next round. It can move once per round to an adjacent empty lane."
+    "name": "Negative Returned",
+    "lore": "A nail was missing when the wooden crate was sealed. It was later found in his coat pocket. The White Room’s door bears the same number on the inside."
   },
   "星铸石封裂角客": {
     "name": "Starforged Stone-Sealed Riftborn",
     "lore": "Starforged Stone-Sealed Riftborn keeps an unfulfilled lamp pact among the floating observatories. It can move once per round to an adjacent empty lane."
   },
   "星铸鸣枝裂角客": {
-    "name": "Starforged Chimebough Riftborn",
-    "lore": "Starforged Chimebough Riftborn keeps an unfulfilled lamp pact among the floating observatories. It intercepts flying units and reduces incoming card-attack damage by 1."
+    "name": "Typo Horn",
+    "lore": "Rain has soaked the brim of his old cap. His identity card lists his work in town. The page contains an answer you have not spoken yet."
   },
   "星铸回声掠风鸟": {
     "name": "Starforged Echoing Galeswift",
@@ -2844,8 +2844,8 @@
     "lore": "Starforged Brass-Sealed Brass Crab keeps an unfulfilled lamp pact among the floating observatories. It intercepts flying units and reduces incoming card-attack damage by 1."
   },
   "星铸铜缄凝光泥团": {
-    "name": "Starforged Brass-Sealed Gleam Slime",
-    "lore": "Starforged Brass-Sealed Gleam Slime keeps an unfulfilled lamp pact among the floating observatories. A damaging strike poisons its target for two rounds, losing 1 health each round."
+    "name": "Deleted Clay",
+    "lore": "The substance behind the glass rises and falls with the questions. Nobody records its answers. The White Room’s door bears the same number on the inside."
   },
   "星铸苔痕流墨触灵": {
     "name": "Starforged Mossmarked Inkcoil",
@@ -2860,8 +2860,8 @@
     "lore": "Starforged Brass-Sealed Gleam Wisp keeps an unfulfilled lamp pact among the floating observatories. It flies over the opposing card to strike enemy life directly; Guard units intercept it."
   },
   "星铸暖灰裂角客": {
-    "name": "Starforged Warm-Cinder Riftborn",
-    "lore": "Starforged Warm-Cinder Riftborn keeps an unfulfilled lamp pact among the floating observatories. It can move once per round to an adjacent empty lane."
+    "name": "White Fiend",
+    "lore": "He checks two conflicting statements. Asked for his name, he takes out his identity card first. The page contains an answer you have not spoken yet."
   },
   "星铸铜缄流墨触灵": {
     "name": "Starforged Brass-Sealed Inkcoil",
@@ -2876,8 +2876,8 @@
     "lore": "Starforged Brass-Sealed Echoing Wayfarer keeps an unfulfilled lamp pact among the floating observatories. It intercepts flying units and reduces incoming card-attack damage by 1."
   },
   "星铸苔痕石指傀儡": {
-    "name": "Starforged Mossmarked Stonefinger",
-    "lore": "Starforged Mossmarked Stonefinger keeps an unfulfilled lamp pact among the floating observatories. Its ridged armor retaliates for 1 damage when attacked by a card."
+    "name": "Negative Gloves",
+    "lore": "The old gloves have worn palms. Their cuff numbers match the workshop issue book. The White Room’s door bears the same number on the inside."
   },
   "星铸铜缄露囊蛙": {
     "name": "Starforged Brass-Sealed Dewthroat Frog",
@@ -2896,8 +2896,8 @@
     "lore": "Starforged Brass-Sealed Prism Hound keeps an unfulfilled lamp pact among the floating observatories. A damaging strike poisons its target for two rounds, losing 1 health each round. It can move once per round to an adjacent empty lane."
   },
   "星铸回声缄骨客": {
-    "name": "Starforged Echoing Bonebound",
-    "lore": "Starforged Echoing Bonebound keeps an unfulfilled lamp pact among the floating observatories. Without an extra sigil, it holds its opposing lane through attack and resilience alone."
+    "name": "Folded Returned",
+    "lore": "His voice is hoarse, but he carefully speaks every place name into the recorder. The White Room’s door bears the same number on the inside."
   },
   "星铸铜缄线尾鼠": {
     "name": "Starforged Brass-Sealed Threadtail Rat",
@@ -2972,8 +2972,8 @@
     "lore": "Starforged Windworn Luminary keeps an unfulfilled lamp pact among the floating observatories. Without an extra sigil, it holds its opposing lane through attack and resilience alone."
   },
   "星铸微烛凝光泥团": {
-    "name": "Starforged Candlelit Gleam Slime",
-    "lore": "Starforged Candlelit Gleam Slime keeps an unfulfilled lamp pact among the floating observatories. It restores 1 health at the end of each round, up to its maximum."
+    "name": "Erased Clay",
+    "lore": "Cart tracks mark the damp clay, leading to the side door used during the evacuation. The investigator’s name is missing from the record."
   },
   "星铸铜缄环藤蛇": {
     "name": "Starforged Brass-Sealed Vine Coil",
@@ -3020,8 +3020,8 @@
     "lore": "Cenmu, Starforged Wayfarer keeps an unfulfilled lamp pact among the floating observatories. It restores 1 health at the end of each round, up to its maximum."
   },
   "星铸窑心偶·塔沐": {
-    "name": "Tamu, Starforged Kilnheart Construct",
-    "lore": "Tamu, Starforged Kilnheart Construct keeps an unfulfilled lamp pact among the floating observatories. It intercepts flying units and reduces incoming card-attack damage by 1. After a damaging strike, it pushes a surviving target into an adjacent empty lane without an extra attack."
+    "name": "Glare Jar",
+    "lore": "No stamped papers remain in the jar. An unbroken ring of fingerprints surrounds its mouth. The White Room’s door bears the same number on the inside."
   },
   "星铸窑心偶·莫沐": {
     "name": "Momu, Starforged Kilnheart Construct",
@@ -3040,16 +3040,16 @@
     "lore": "Zemu, Starforged Wayfarer keeps an unfulfilled lamp pact among the floating observatories. Without an extra sigil, it holds its opposing lane through attack and resilience alone."
   },
   "星铸巡灯使·图沐": {
-    "name": "Tumu, Starforged Wayfarer",
-    "lore": "Tumu, Starforged Wayfarer keeps an unfulfilled lamp pact among the floating observatories. Without an extra sigil, it holds its opposing lane through attack and resilience alone."
+    "name": "Missing Notary",
+    "lore": "He remembers your face. He insists you first met tomorrow, in the waiting room. The page contains an answer you have not spoken yet."
   },
   "星铸攀钟猿·芮沐": {
     "name": "Raemu, Starforged Bellclimber",
     "lore": "Raemu, Starforged Bellclimber keeps an unfulfilled lamp pact among the floating observatories. On entry, draw 1 cards from your finite deck."
   },
   "星铸潜印客·阿洛": {
-    "name": "Alor, Starforged Sealrunner",
-    "lore": "Alor, Starforged Sealrunner keeps an unfulfilled lamp pact among the floating observatories. It can move once per round to an adjacent empty lane."
+    "name": "Glare Walker",
+    "lore": "There are no keys in her pockets. Their numbers are written in her clothbound notebook. The White Room’s door bears the same number on the inside."
   },
   "星铸巡灯使·艾洛": {
     "name": "Elor, Starforged Wayfarer",
@@ -3124,8 +3124,8 @@
     "lore": "Molor, Starforged Lamplighter keeps an unfulfilled lamp pact among the floating observatories. It restores 1 health at the end of each round, up to its maximum."
   },
   "星铸缄骨客·伦洛": {
-    "name": "Renlor, Starforged Bonebound",
-    "lore": "Renlor, Starforged Bonebound keeps an unfulfilled lamp pact among the floating observatories. It intercepts flying units and reduces incoming card-attack damage by 1."
+    "name": "Signed Missing",
+    "lore": "He remembers the aid station, but his directions home still lead to the old district. The White Room’s door bears the same number on the inside."
   },
   "星铸修灯师·佩洛": {
     "name": "Pelor, Starforged Lamplighter",
@@ -3144,8 +3144,8 @@
     "lore": "Raelor, Starforged Luminary keeps an unfulfilled lamp pact among the floating observatories. Without an extra sigil, it holds its opposing lane through attack and resilience alone."
   },
   "星铸缄骨客·阿岚": {
-    "name": "Alan, Starforged Bonebound",
-    "lore": "Alan, Starforged Bonebound keeps an unfulfilled lamp pact among the floating observatories. After damaging an enemy card, it restores 1 health, up to its maximum."
+    "name": "Signed Wayfarer",
+    "lore": "The tears in his coat have been mended. The thread matches the cloth left at the evacuation point. The White Room’s door bears the same number on the inside."
   },
   "星铸巡灯使·艾岚": {
     "name": "Elan, Starforged Wayfarer",
@@ -3200,8 +3200,8 @@
     "lore": "Lanlan, Starforged Kilnheart Construct keeps an unfulfilled lamp pact among the floating observatories. It intercepts flying units and reduces incoming card-attack damage by 1."
   },
   "折光灯议长·索岚": {
-    "name": "Solan, Prismrift Lamp Regent",
-    "lore": "Solan, Prismrift Lamp Regent keeps an unfulfilled lamp pact among the refracted waystations. After damaging an enemy card, it restores 1 health, up to its maximum. When its own attack kills a card, it permanently gains 1 attack for this battle. After a damaging strike, it pushes a surviving target into an adjacent empty lane without an extra attack."
+    "name": "Pinhole Porter Roger",
+    "lore": "Roger, filed as Pinhole Porter. He remembers your face. He insists you first met tomorrow, in the waiting room. The red lamp in the negative room has never actually lit."
   },
   "折光晶棘蜥龙领誓·莱岚": {
     "name": "Lelan, Prismrift Crystal Drake Oathkeeper",
@@ -3224,8 +3224,8 @@
     "lore": "Renlan, Prismrift Hooktail Scorpion Oathkeeper keeps an unfulfilled lamp pact among the refracted waystations. A damaging strike poisons its target for two rounds, losing 1 health each round."
   },
   "折光石指傀儡领誓·佩岚": {
-    "name": "Pelan, Prismrift Stonefinger Oathkeeper",
-    "lore": "Pelan, Prismrift Stonefinger Oathkeeper keeps an unfulfilled lamp pact among the refracted waystations. It intercepts flying units and reduces incoming card-attack damage by 1."
+    "name": "Unseen Gloves",
+    "lore": "The old gloves have worn palms. Their cuff numbers match the workshop issue book. The red lamp in the negative room has never actually lit."
   },
   "折光铠卫领誓·泽岚": {
     "name": "Zelan, Prismrift Warden Oathkeeper",
@@ -3256,8 +3256,8 @@
     "lore": "Ozel, Prismrift Crystal Drake Oathkeeper keeps an unfulfilled lamp pact among the refracted waystations. It flies over the opposing card to strike enemy life directly; Guard units intercept it."
   },
   "折光磐颚河兽领誓·乌泽": {
-    "name": "Uzel, Prismrift Stonejaw Oathkeeper",
-    "lore": "Uzel, Prismrift Stonejaw Oathkeeper keeps an unfulfilled lamp pact among the refracted waystations. It intercepts flying units and reduces incoming card-attack damage by 1. After a damaging strike, it pushes a surviving target into an adjacent empty lane without an extra attack."
+    "name": "Blur Hippo",
+    "lore": "It lowers its broad muzzle to eat the river grass, specks of mud still clinging to its nose. The red lamp in the negative room has never actually lit."
   },
   "折光铠卫领誓·依泽": {
     "name": "Aezel, Prismrift Warden Oathkeeper",
@@ -3308,24 +3308,24 @@
     "lore": "Prismrift Mirror-Etched Warden keeps an unfulfilled lamp pact among the refracted waystations. It can move once per round to an adjacent empty lane."
   },
   "折光苔痕裂角客": {
-    "name": "Prismrift Mossmarked Riftborn",
-    "lore": "Prismrift Mossmarked Riftborn keeps an unfulfilled lamp pact among the refracted waystations. After damaging an enemy card, it restores 1 health, up to its maximum."
+    "name": "Unseen Horn",
+    "lore": "Rain has soaked the brim of his old cap. His identity card lists his work in town. The red lamp in the negative room has never actually lit."
   },
   "折光铜缄观灯师": {
     "name": "Prismrift Brass-Sealed Luminary",
     "lore": "Prismrift Brass-Sealed Luminary keeps an unfulfilled lamp pact among the refracted waystations. Without an extra sigil, it holds its opposing lane through attack and resilience alone."
   },
   "折光铜缄裂角客": {
-    "name": "Prismrift Brass-Sealed Riftborn",
-    "lore": "Prismrift Brass-Sealed Riftborn keeps an unfulfilled lamp pact among the refracted waystations. It intercepts flying units and reduces incoming card-attack damage by 1."
+    "name": "Split Fiend",
+    "lore": "He checks two conflicting statements. Asked for his name, he takes out his identity card first. The red lamp in the negative room has never actually lit."
   },
   "折光铜缄枝灯树灵": {
     "name": "Prismrift Brass-Sealed Boughlight",
     "lore": "Prismrift Brass-Sealed Boughlight keeps an unfulfilled lamp pact among the refracted waystations. It intercepts flying units and reduces incoming card-attack damage by 1. After a damaging strike, it pushes a surviving target into an adjacent empty lane without an extra attack."
   },
   "折光苔痕甲灯虫": {
-    "name": "Prismrift Mossmarked Lantern Beetle",
-    "lore": "Prismrift Mossmarked Lantern Beetle keeps an unfulfilled lamp pact among the refracted waystations. A damaging strike poisons its target for two rounds, losing 1 health each round. It can move once per round to an adjacent empty lane."
+    "name": "Frame Beetle",
+    "lore": "Photographic chemicals stain its wings. Faces shake loose beneath the lamp when it flies. The red lamp in the negative room has never actually lit."
   },
   "折光铜缄钩针蝎": {
     "name": "Prismrift Brass-Sealed Hooktail Scorpion",
@@ -3428,16 +3428,16 @@
     "lore": "Olin, Prismrift Wayfarer keeps an unfulfilled lamp pact among the refracted waystations. It parries attacks of at most 1 damage and retaliates for 1. It can move once per round to an adjacent empty lane."
   },
   "苔庭暖灰缄骨客": {
-    "name": "Mireglass Warm-Cinder Bonebound",
-    "lore": "Mireglass Warm-Cinder Bonebound keeps an unfulfilled lamp pact among the mist-lit causeways. On death or sacrifice, draw 1 cards from your finite deck."
+    "name": "Woodside Passerby",
+    "lore": "A nail was missing when the wooden crate was sealed. It was later found in his coat pocket. The investigator entered it in the second missing-person report."
   },
   "苔庭铜缄掠风鸟": {
     "name": "Mireglass Brass-Sealed Galeswift",
     "lore": "Mireglass Brass-Sealed Galeswift keeps an unfulfilled lamp pact among the mist-lit causeways. It flies over the opposing card to strike enemy life directly; Guard units intercept it. It can move once per round to an adjacent empty lane."
   },
   "苔庭悬灯缄骨客": {
-    "name": "Mireglass Lantern-Hung Bonebound",
-    "lore": "Mireglass Lantern-Hung Bonebound keeps an unfulfilled lamp pact among the mist-lit causeways. Its broken shell leaves a 1/1 Broken-Lamp Construct, available for sacrifice next round."
+    "name": "Wet Wayfarer",
+    "lore": "His voice is hoarse, but he carefully speaks every place name into the recorder. The investigator entered it in the second missing-person report."
   },
   "砂镜铠卫·乌翎": {
     "name": "Ulin, Sandmirror Warden",
@@ -3464,8 +3464,8 @@
     "lore": "Dusktide Echoing Prism Hound keeps an unfulfilled lamp pact among the night-tide quays. Without an extra sigil, it holds its opposing lane through attack and resilience alone."
   },
   "苔庭银露缄骨客": {
-    "name": "Mireglass Silverdew Bonebound",
-    "lore": "Mireglass Silverdew Bonebound keeps an unfulfilled lamp pact among the mist-lit causeways. Without an extra sigil, it holds its opposing lane through attack and resilience alone."
+    "name": "Deadleaf Passerby",
+    "lore": "He remembers the aid station, but his directions home still lead to the old district. The investigator entered it in the second missing-person report."
   },
   "铜钟铠卫领誓·瑟翎": {
     "name": "Selin, Brassbell Warden Oathkeeper",
@@ -3484,24 +3484,24 @@
     "lore": "Dusktide Mirror-Etched Facetborn keeps an unfulfilled lamp pact among the night-tide quays. After damaging an enemy card, it restores 1 health, up to its maximum."
   },
   "苔庭缄骨客·维翎": {
-    "name": "Velin, Mireglass Bonebound",
-    "lore": "Velin, Mireglass Bonebound keeps an unfulfilled lamp pact among the mist-lit causeways. On entry, draw 2 cards from your finite deck."
+    "name": "Drowned Wayfarer",
+    "lore": "The tears in his coat have been mended. The thread matches the cloth left at the evacuation point. The investigator entered it in the second missing-person report."
   },
   "苔庭回声地缝蠕虫": {
     "name": "Mireglass Echoing Burrowcoil",
     "lore": "Mireglass Echoing Burrowcoil keeps an unfulfilled lamp pact among the mist-lit causeways. On death or sacrifice, draw 1 cards from your finite deck."
   },
   "苔庭雾羽缄骨客": {
-    "name": "Mireglass Mistfeather Bonebound",
-    "lore": "Mireglass Mistfeather Bonebound keeps an unfulfilled lamp pact among the mist-lit causeways. On death or sacrifice, draw 1 cards from your finite deck."
+    "name": "Soaked Traveler",
+    "lore": "It does not pursue the living. It follows names that have already been entered in the death register. The investigator entered it in the second missing-person report."
   },
   "砂镜回声浮辉使": {
     "name": "Sandmirror Echoing Gleam Wisp",
     "lore": "Sandmirror Echoing Gleam Wisp keeps an unfulfilled lamp pact among the echoing crystal shafts. On death or sacrifice, draw 1 cards from your finite deck."
   },
   "砂镜绒雾缄骨客": {
-    "name": "Sandmirror Velvetmist Bonebound",
-    "lore": "Sandmirror Velvetmist Bonebound keeps an unfulfilled lamp pact among the echoing crystal shafts. On death or sacrifice, draw 1 cards from your finite deck."
+    "name": "Sealed-File Clerk",
+    "lore": "A nail was missing when the wooden crate was sealed. It was later found in his coat pocket. Thick dust fills the space where the file should be."
   },
   "霜枝铜缄静棱铠卫": {
     "name": "Frostbough Brass-Sealed Still-Faceted Warden",
@@ -3548,8 +3548,8 @@
     "lore": "The pact seal of Gilded Tuper, Mireglass Lamp Regent is set in unfading lamp-gold, still carrying the winds of the mist-lit causeways. It parries attacks of at most 1 damage and retaliates for 1. On death or sacrifice, restore 2 friendly life, up to 7. On entry, it rekindles 1 additional life for its side."
   },
   "鎏金·苔庭缄骨客领誓·米珀": {
-    "name": "Gilded Miper, Mireglass Bonebound Oathkeeper",
-    "lore": "The pact seal of Gilded Miper, Mireglass Bonebound Oathkeeper is set in unfading lamp-gold, still carrying the winds of the mist-lit causeways. Its broken shell leaves a 1/1 Broken-Lamp Construct, available for sacrifice next round. On death or sacrifice, summon a 1/1 Gilded Wick."
+    "name": "Groundsman Amos",
+    "lore": "Amos, filed as Groundsman. His name is crossed out of the roadwork register, but another sandbag appears in the tool shed each day. The timestamp has faded, but the pause lasts exactly as long as before."
   },
   "鎏金·暮潮灯议长·乌汀": {
     "name": "Gilded Utin, Dusktide Lamp Regent",
@@ -3584,8 +3584,8 @@
     "lore": "The pact seal of Gilded Veser, Sandmirror Lamp Regent is set in unfading lamp-gold, still carrying the winds of the echoing crystal shafts. It restores 1 health at the end of each round, up to its maximum. On entry, restore 1 life to your side, up to 7. On death or sacrifice, restore 2 friendly life, up to 7. On entry, it rekindles 1 additional life for its side."
   },
   "鎏金·折光灯议长·索岚": {
-    "name": "Gilded Solan, Prismrift Lamp Regent",
-    "lore": "The pact seal of Gilded Solan, Prismrift Lamp Regent is set in unfading lamp-gold, still carrying the winds of the refracted waystations. After damaging an enemy card, it restores 1 health, up to its maximum. When its own attack kills a card, it permanently gains 1 attack for this battle. After a damaging strike, it pushes a surviving target into an adjacent empty lane without an extra attack."
+    "name": "Pinhole Porter Roger",
+    "lore": "Roger, filed as Pinhole Porter. He remembers your face. He insists you first met tomorrow, in the waiting room. The old stamp presses into gold foil. Its date is a day earlier than remembered."
   },
   "鎏金·折光镜瞳山猫领誓·塔岚": {
     "name": "Gilded Talan, Prismrift Glass Lynx Oathkeeper",
@@ -3692,8 +3692,8 @@
     "lore": "The pact seal of Gilded Vetin, Dusktide Lamp Regent is set in unfading lamp-gold, still carrying the winds of the night-tide quays. After damaging an enemy card, it restores 1 health, up to its maximum. When its own attack kills a card, it permanently gains 1 attack for this battle. It can move once per round to an adjacent empty lane."
   },
   "鎏金·霜枝攀钟猿领誓·艾诺": {
-    "name": "Gilded Enor, Frostbough Bellclimber Oathkeeper",
-    "lore": "The pact seal of Gilded Enor, Frostbough Bellclimber Oathkeeper is set in unfading lamp-gold, still carrying the winds of the frost-laced bridges. It restores 1 health at the end of each round, up to its maximum. After a damaging strike, it pushes a surviving target into an adjacent empty lane without an extra attack. On its first departure each battle, it returns to hand with its initial attack and health."
+    "name": "One-Arm Ape Ulric",
+    "lore": "Ulric, filed as One-Arm Ape. The veterinary report notes its old injury. The deleted line returns after you fold the sheet."
   },
   "鎏金·霜枝裂角客领誓·瑟诺": {
     "name": "Gilded Senor, Frostbough Riftborn Oathkeeper",
@@ -3736,8 +3736,8 @@
     "lore": "The pact seal of Gilded Yaper, Mireglass Gleamweaver Oathkeeper is set in unfading lamp-gold, still carrying the winds of the mist-lit causeways. Its ridged armor retaliates for 1 damage when attacked by a card. On death or sacrifice, summon two 0/1 Gilded Wick Spiders."
   },
   "鎏金·苔庭峰脊巨灵领誓·瑟珀": {
-    "name": "Gilded Seper, Mireglass Ridge Colossus Oathkeeper",
-    "lore": "The pact seal of Gilded Seper, Mireglass Ridge Colossus Oathkeeper is set in unfading lamp-gold, still carrying the winds of the mist-lit causeways. It intercepts flying units and reduces incoming card-attack damage by 1. After a damaging strike, it pushes a surviving target into an adjacent empty lane without an extra attack."
+    "name": "Porter Hugo",
+    "lore": "Hugo, filed as Porter. He is taller than the duty-room doorway, yet enters without stooping. The handover field has one signature, written in inks from different years."
   },
   "鎏金·苔庭铠卫领誓·维珀": {
     "name": "Gilded Veper, Mireglass Warden Oathkeeper",
@@ -3764,8 +3764,8 @@
     "lore": "The pact seal of Gilded Lera, Brassbell Lamp Regent is set in unfading lamp-gold, still carrying the winds of the hanging bell streets. It can move once per round to an adjacent empty lane."
   },
   "鎏金·铜钟缄骨客领誓·岑拉": {
-    "name": "Gilded Cenra, Brassbell Bonebound Oathkeeper",
-    "lore": "The pact seal of Gilded Cenra, Brassbell Bonebound Oathkeeper is set in unfading lamp-gold, still carrying the winds of the hanging bell streets. Its broken shell leaves a 1/1 Broken-Lamp Construct, available for sacrifice next round. On death or sacrifice, summon a 1/1 Gilded Wick."
+    "name": "Caretaker Morris",
+    "lore": "Morris, filed as Caretaker. A small cart without a seat is kept beneath the tower. An extra breath on the tape exactly fills your silence."
   },
   "鎏金·铜钟环藤蛇领誓·伦拉": {
     "name": "Gilded Renra, Brassbell Vine Coil Oathkeeper",
@@ -3804,8 +3804,8 @@
     "lore": "The pact seal of Gilded Semi, Cinderglass Lamp Regent is set in unfading lamp-gold, still carrying the winds of the red-sand workshops. It restores 1 health at the end of each round, up to its maximum."
   },
   "鎏金·炽砂缄骨客领誓·希弥": {
-    "name": "Gilded Shimi, Cinderglass Bonebound Oathkeeper",
-    "lore": "The pact seal of Gilded Shimi, Cinderglass Bonebound Oathkeeper is set in unfading lamp-gold, still carrying the winds of the red-sand workshops. Its broken shell leaves a 1/1 Broken-Lamp Construct, available for sacrifice next round."
+    "name": "Salvager Tobias",
+    "lore": "Tobias, filed as Salvager. There are three rows of empty seats in the workshop. The repaired area passes carefully around your own figure in the photograph."
   },
   "鎏金·炽砂峰脊巨灵领誓·索弥": {
     "name": "Gilded Somi, Cinderglass Ridge Colossus Oathkeeper",
@@ -3836,8 +3836,8 @@
     "lore": "The pact seal of Gilded Moden, Dusktide Riftborn Oathkeeper is set in unfading lamp-gold, still carrying the winds of the night-tide quays. A damaging strike poisons its target for two rounds, losing 1 health each round. It can move once per round to an adjacent empty lane."
   },
   "鎏金·暮潮星枝鹿领誓·伦尘": {
-    "name": "Gilded Renden, Dusktide Starbough Stag Oathkeeper",
-    "lore": "The pact seal of Gilded Renden, Dusktide Starbough Stag Oathkeeper is set in unfading lamp-gold, still carrying the winds of the night-tide quays. It restores 1 health at the end of each round, up to its maximum."
+    "name": "Ferry Deer Orin",
+    "lore": "Orin, filed as Ferry Deer. Seawater will not stay in the deer's hoofprints. The prints left after sealing belong to nobody who has been here."
   },
   "鎏金·暮潮灯议长·佩尘": {
     "name": "Gilded Peden, Dusktide Lamp Regent",
@@ -3852,8 +3852,8 @@
     "lore": "The pact seal of Gilded Tuden, Dusktide Gleamweaver Oathkeeper is set in unfading lamp-gold, still carrying the winds of the night-tide quays. It intercepts flying units and reduces incoming card-attack damage by 1."
   },
   "鎏金·暮潮缄骨客领誓·阿汀": {
-    "name": "Gilded Atin, Dusktide Bonebound Oathkeeper",
-    "lore": "The pact seal of Gilded Atin, Dusktide Bonebound Oathkeeper is set in unfading lamp-gold, still carrying the winds of the night-tide quays. It restores 1 health at the end of each round, up to its maximum. On death or sacrifice, restore 2 friendly life, up to 7."
+    "name": "Bilge Guest Conrad",
+    "lore": "Conrad, filed as Bilge Guest. He checks every recovered bag and records the name of the person claiming it. A warning on the back is signed with your former address."
   },
   "鎏金·暮潮灯议长·艾汀": {
     "name": "Gilded Etin, Dusktide Lamp Regent",
@@ -3880,8 +3880,8 @@
     "lore": "The pact seal of Gilded Frostbough Mossmarked Emberhorn is set in unfading lamp-gold, still carrying the winds of the frost-laced bridges. Its ridged armor retaliates for 1 damage when attacked by a card. After a damaging strike, it pushes a surviving target into an adjacent empty lane without an extra attack."
   },
   "鎏金·霜枝攀钟猿领誓·阿诺": {
-    "name": "Gilded Anor, Frostbough Bellclimber Oathkeeper",
-    "lore": "The pact seal of Gilded Anor, Frostbough Bellclimber Oathkeeper is set in unfading lamp-gold, still carrying the winds of the frost-laced bridges. On death or sacrifice, draw two cards from the finite deck. It can move once per round to an adjacent empty lane."
+    "name": "White Ape Arlo",
+    "lore": "Arlo, filed as White Ape. Frost covers the observation pane on the ape enclosure. The ape’s thick fur and calm eyes are visible behind it. The repaired area passes carefully around your own figure in the photograph."
   },
   "鎏金·霜枝攀钟猿领誓·伊诺": {
     "name": "Gilded Inor, Frostbough Bellclimber Oathkeeper",

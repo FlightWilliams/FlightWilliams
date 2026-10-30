@@ -58,8 +58,8 @@
   "苔庭峰脊巨灵领誓·瑟珀": {
     "zh": "雨果",
     "en": "Hugo",
-    "roleZh": "搬尸人",
-    "roleEn": "Body Porter",
+    "roleZh": "搬运工",
+    "roleEn": "Porter",
     "world": "mire"
   },
   "苔庭铠卫领誓·维珀": {
@@ -79,8 +79,8 @@
   "苔庭缄骨客领誓·米珀": {
     "zh": "阿莫斯",
     "en": "Amos",
-    "roleZh": "掘墓人",
-    "roleEn": "Gravedigger",
+    "roleZh": "掘土人",
+    "roleEn": "Groundsman",
     "world": "mire"
   },
   "苔庭铠卫领誓·阿恩": {
@@ -142,8 +142,8 @@
   "铜钟缄骨客领誓·岑拉": {
     "zh": "莫里斯",
     "en": "Morris",
-    "roleZh": "守尸人",
-    "roleEn": "Mortuary Guard",
+    "roleZh": "看守人",
+    "roleEn": "Caretaker",
     "world": "brass"
   },
   "铜钟环藤蛇领誓·伦拉": {
@@ -261,8 +261,8 @@
   "炽砂缄骨客领誓·希弥": {
     "zh": "托比亚斯",
     "en": "Tobias",
-    "roleZh": "拾骨人",
-    "roleEn": "Bone Collector",
+    "roleZh": "拾荒人",
+    "roleEn": "Salvager",
     "world": "cinder"
   },
   "炽砂灯议长·米弥": {
@@ -359,8 +359,8 @@
   "暮潮星枝鹿领誓·伦尘": {
     "zh": "奥林",
     "en": "Orin",
-    "roleZh": "浮尸鹿",
-    "roleEn": "Drift Deer",
+    "roleZh": "渡口鹿",
+    "roleEn": "Ferry Deer",
     "world": "tide"
   },
   "暮潮灯议长·佩尘": {

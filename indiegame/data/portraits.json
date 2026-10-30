@@ -4,11 +4,12 @@
     "features": [],
     "color": "#7f8960",
     "seed": 3687157962,
-    "note": "自然插画：断角客亚伯。以清晰的职业服饰、日常物件或自然生物呈现。",
+    "note": "牌面：断角客亚伯。正常成年人物，头顶仅一只清楚可见的角；沿用羊皮纸墨线风格。",
     "portraitKind": "person",
     "occupation": "worker",
     "gender": "male",
-    "role": "roadworker"
+    "role": "roadworker",
+    "portraitVariant": "single-horn"
   },
   "苔庭赤角兽领誓·艾珀": {
     "family": "bull",
@@ -23,8 +24,9 @@
     "features": [],
     "color": "#8f795b",
     "seed": 3118804441,
-    "note": "自然插画：湿衣羊。以清晰的职业服饰、日常物件或自然生物呈现。",
-    "portraitKind": "animal"
+    "note": "牌面：湿衣羊。有羊毛、垂耳、羊嘴与四蹄的羊；沿用羊皮纸墨线风格。",
+    "portraitKind": "animal",
+    "portraitVariant": "sheep"
   },
   "苔庭裂角客领誓·欧珀": {
     "family": "demon",
@@ -75,10 +77,10 @@
     "features": [],
     "color": "#698c89",
     "seed": 3321033885,
-    "note": "自然插画：搬尸人雨果。以清晰的职业服饰、日常物件或自然生物呈现。",
+    "note": "自然插画：搬运工雨果。以清晰的职业服饰、日常物件或自然生物呈现。",
     "portraitKind": "person",
     "occupation": "worker",
-    "gender": "female"
+    "gender": "male"
   },
   "苔庭铠卫领誓·维珀": {
     "family": "knight",
@@ -115,9 +117,9 @@
     "features": [],
     "color": "#b07d60",
     "seed": 191796619,
-    "note": "自然插画：掘墓人阿莫斯。以清晰的职业服饰、日常物件或自然生物呈现。",
+    "note": "自然插画：掘土人阿莫斯。以清晰的职业服饰、日常物件或自然生物呈现。",
     "portraitKind": "person",
-    "occupation": "courier",
+    "occupation": "worker",
     "gender": "male"
   },
   "苔庭晶棘蜥龙领誓·岚珀": {
@@ -133,9 +135,10 @@
     "features": [],
     "color": "#7d956f",
     "seed": 2626074538,
-    "note": "自然插画：闭眼残响。以清晰的职业服饰、日常物件或自然生物呈现。",
-    "portraitKind": "object",
-    "objectType": "radio"
+    "note": "牌面：闭眼残响。用布带蒙住双眼的正常成年人；沿用羊皮纸墨线风格。",
+    "portraitKind": "person",
+    "portraitVariant": "blindfolded",
+    "occupation": "witness"
   },
   "苔庭峰脊巨灵领誓·莱珀": {
     "family": "giant",
@@ -170,9 +173,9 @@
     "features": [],
     "color": "#8c91a4",
     "seed": 2247406604,
-    "note": "自然插画：落水树灵。以清晰的职业服饰、日常物件或自然生物呈现。",
-    "portraitKind": "object",
-    "objectType": "plant"
+    "note": "牌面：落水树灵。树人，木纹面孔、树枝手臂与树根双脚；沿用羊皮纸墨线风格。",
+    "portraitKind": "person",
+    "portraitVariant": "treefolk"
   },
   "苔庭巡影狼领誓·伦珀": {
     "family": "wolf",
@@ -189,7 +192,7 @@
     "seed": 2492657152,
     "note": "自然插画：落水目击者。以清晰的职业服饰、日常物件或自然生物呈现。",
     "portraitKind": "person",
-    "occupation": "watch",
+    "occupation": "clerk",
     "gender": "male"
   },
   "苔庭灯议长·泽珀": {
@@ -255,7 +258,7 @@
     "seed": 692082412,
     "note": "自然插画：旧警卫欧文。以清晰的职业服饰、日常物件或自然生物呈现。",
     "portraitKind": "person",
-    "occupation": "clerk",
+    "occupation": "watch",
     "gender": "male"
   },
   "苔庭铠卫·乌恩": {
@@ -274,8 +277,9 @@
     "color": "#b18f80",
     "seed": 4178873119,
     "note": "自然插画：无眠巡守。以清晰的职业服饰、日常物件或自然生物呈现。",
-    "portraitKind": "object",
-    "objectType": "keys"
+    "portraitKind": "person",
+    "occupation": "watch",
+    "gender": "male"
   },
   "苔庭铠卫·雅恩": {
     "family": "knight",
@@ -304,8 +308,9 @@
     "color": "#7d956f",
     "seed": 2100212714,
     "note": "自然插画：失温搬石者。以清晰的职业服饰、日常物件或自然生物呈现。",
-    "portraitKind": "object",
-    "objectType": "toolbox"
+    "portraitKind": "person",
+    "occupation": "worker",
+    "gender": "male"
   },
   "苔庭缄骨客·维恩": {
     "family": "undead",
@@ -313,8 +318,9 @@
     "color": "#b18f80",
     "seed": 985933271,
     "note": "自然插画：落水返客。以清晰的职业服饰、日常物件或自然生物呈现。",
-    "portraitKind": "object",
-    "objectType": "lantern"
+    "portraitKind": "person",
+    "occupation": "courier",
+    "gender": "male"
   },
   "苔庭观灯师·希恩": {
     "family": "mage",
@@ -352,8 +358,9 @@
     "color": "#698c89",
     "seed": 4166889949,
     "note": "自然插画：逆足祷告者。以清晰的职业服饰、日常物件或自然生物呈现。",
-    "portraitKind": "object",
-    "objectType": "radio"
+    "portraitKind": "person",
+    "occupation": "courier",
+    "gender": "male"
   },
   "苔庭巡灯使·索恩": {
     "family": "human",
@@ -361,8 +368,9 @@
     "color": "#698c89",
     "seed": 3768988709,
     "note": "自然插画：白雾换班人。以清晰的职业服饰、日常物件或自然生物呈现。",
-    "portraitKind": "object",
-    "objectType": "toolbox"
+    "portraitKind": "person",
+    "occupation": "courier",
+    "gender": "male"
   },
   "苔庭织光蛛·莱恩": {
     "family": "spider",
@@ -429,8 +437,9 @@
     "color": "#8c91a4",
     "seed": 417934404,
     "note": "自然插画：白雾巨人。以清晰的职业服饰、日常物件或自然生物呈现。",
-    "portraitKind": "object",
-    "objectType": "toolbox"
+    "portraitKind": "person",
+    "occupation": "worker",
+    "gender": "female"
   },
   "苔庭潜印客·图恩": {
     "family": "rogue",
@@ -438,8 +447,9 @@
     "color": "#b07d60",
     "seed": 600083659,
     "note": "自然插画：漏雨尾随者。以清晰的职业服饰、日常物件或自然生物呈现。",
-    "portraitKind": "object",
-    "objectType": "rope"
+    "portraitKind": "person",
+    "occupation": "courier",
+    "gender": "male"
   },
   "苔庭潜印客·芮恩": {
     "family": "rogue",
@@ -473,8 +483,9 @@
     "color": "#8c91a4",
     "seed": 716329012,
     "note": "自然插画：野径失踪者。以清晰的职业服饰、日常物件或自然生物呈现。",
-    "portraitKind": "object",
-    "objectType": "compass"
+    "portraitKind": "person",
+    "occupation": "courier",
+    "gender": "male"
   },
   "苔庭缄骨客·欧拉": {
     "family": "undead",
@@ -482,8 +493,9 @@
     "color": "#a18d6d",
     "seed": 3164431582,
     "note": "自然插画：斜灯失踪者。以清晰的职业服饰、日常物件或自然生物呈现。",
-    "portraitKind": "object",
-    "objectType": "lantern"
+    "portraitKind": "person",
+    "occupation": "courier",
+    "gender": "male"
   },
   "苔庭巡灯使·乌拉": {
     "family": "human",
@@ -500,9 +512,9 @@
     "features": [],
     "color": "#698c89",
     "seed": 3004567197,
-    "note": "自然插画：哑声菌人。以清晰的职业服饰、日常物件或自然生物呈现。",
-    "portraitKind": "object",
-    "objectType": "mushroom"
+    "note": "牌面：哑声菌人。蘑菇人，有蘑菇伞帽、面孔、双臂与双腿；沿用羊皮纸墨线风格。",
+    "portraitKind": "person",
+    "portraitVariant": "mushroomfolk"
   },
   "苔庭观灯师·雅拉": {
     "family": "mage",
@@ -539,27 +551,30 @@
     "features": [],
     "color": "#b07d60",
     "seed": 888653803,
-    "note": "自然插画：门缝空皮。以清晰的职业服饰、日常物件或自然生物呈现。",
-    "portraitKind": "object",
-    "objectType": "keys"
+    "note": "自然插画：门缝过客。以清晰的职业服饰、日常物件或自然生物呈现。",
+    "portraitKind": "person",
+    "occupation": "courier",
+    "gender": "male"
   },
   "苔庭风蚀缄骨客": {
     "family": "undead",
     "features": [],
     "color": "#a18d6d",
     "seed": 1891773078,
-    "note": "自然插画：低声空皮。以清晰的职业服饰、日常物件或自然生物呈现。",
-    "portraitKind": "object",
-    "objectType": "radio"
+    "note": "自然插画：低声过客。以清晰的职业服饰、日常物件或自然生物呈现。",
+    "portraitKind": "person",
+    "occupation": "courier",
+    "gender": "female"
   },
   "苔庭静棱缄骨客": {
     "family": "undead",
     "features": [],
     "color": "#698c89",
     "seed": 1665825533,
-    "note": "自然插画：斜灯空皮。以清晰的职业服饰、日常物件或自然生物呈现。",
-    "portraitKind": "object",
-    "objectType": "lantern"
+    "note": "自然插画：斜灯过客。以清晰的职业服饰、日常物件或自然生物呈现。",
+    "portraitKind": "person",
+    "occupation": "courier",
+    "gender": "male"
   },
   "苔庭绒雾缄骨客": {
     "family": "undead",
@@ -567,8 +582,9 @@
     "color": "#698c89",
     "seed": 1617042997,
     "note": "自然插画：独行失踪者。以清晰的职业服饰、日常物件或自然生物呈现。",
-    "portraitKind": "object",
-    "objectType": "book"
+    "portraitKind": "person",
+    "occupation": "courier",
+    "gender": "male"
   },
   "苔庭微烛潜印客": {
     "family": "rogue",
@@ -576,8 +592,9 @@
     "color": "#b07d60",
     "seed": 2626464923,
     "note": "自然插画：门缝尾随者。以清晰的职业服饰、日常物件或自然生物呈现。",
-    "portraitKind": "object",
-    "objectType": "keys"
+    "portraitKind": "person",
+    "occupation": "courier",
+    "gender": "male"
   },
   "苔庭苔痕棱耳猎犬": {
     "family": "dog",
@@ -624,9 +641,10 @@
     "features": [],
     "color": "#698c89",
     "seed": 2756084381,
-    "note": "自然插画：门缝肉块。以清晰的职业服饰、日常物件或自然生物呈现。",
+    "note": "牌面：门缝泥团。带门框、门板、把手与窄门缝的木门；沿用羊皮纸墨线风格。",
     "portraitKind": "object",
-    "objectType": "jar"
+    "objectType": "door",
+    "portraitVariant": "door"
   },
   "苔庭铜缄枝灯树灵": {
     "family": "plant",
@@ -642,18 +660,18 @@
     "features": [],
     "color": "#698c89",
     "seed": 261295093,
-    "note": "自然插画：短烛菌人。以清晰的职业服饰、日常物件或自然生物呈现。",
-    "portraitKind": "object",
-    "objectType": "mushroom"
+    "note": "牌面：短烛菌人。蘑菇人，有蘑菇伞帽、面孔、双臂与双腿；沿用羊皮纸墨线风格。",
+    "portraitKind": "person",
+    "portraitVariant": "mushroomfolk"
   },
   "苔庭回声绒伞菌灵": {
     "family": "mushroom",
     "features": [],
     "color": "#8f795b",
     "seed": 2419475929,
-    "note": "自然插画：失温菌人。以清晰的职业服饰、日常物件或自然生物呈现。",
-    "portraitKind": "object",
-    "objectType": "mushroom"
+    "note": "牌面：失温菌人。蘑菇人，有蘑菇伞帽、面孔、双臂与双腿；沿用羊皮纸墨线风格。",
+    "portraitKind": "person",
+    "portraitVariant": "mushroomfolk"
   },
   "苔庭流砂铠卫": {
     "family": "knight",
@@ -661,8 +679,9 @@
     "color": "#b18f80",
     "seed": 3617042143,
     "note": "自然插画：退色巡守。以清晰的职业服饰、日常物件或自然生物呈现。",
-    "portraitKind": "object",
-    "objectType": "keys"
+    "portraitKind": "person",
+    "occupation": "watch",
+    "gender": "male"
   },
   "苔庭镜纹铠卫": {
     "family": "knight",
@@ -680,8 +699,9 @@
     "color": "#6f8b9c",
     "seed": 1486624112,
     "note": "自然插画：暗渠门卫。以清晰的职业服饰、日常物件或自然生物呈现。",
-    "portraitKind": "object",
-    "objectType": "keys"
+    "portraitKind": "person",
+    "occupation": "watch",
+    "gender": "male"
   },
   "苔庭石封铠卫": {
     "family": "knight",
@@ -689,8 +709,9 @@
     "color": "#a18d6d",
     "seed": 3040437798,
     "note": "自然插画：末班警卫。以清晰的职业服饰、日常物件或自然生物呈现。",
-    "portraitKind": "object",
-    "objectType": "keys"
+    "portraitKind": "person",
+    "occupation": "watch",
+    "gender": "female"
   },
   "苔庭鸣枝铠卫": {
     "family": "knight",
@@ -708,8 +729,9 @@
     "color": "#8c91a4",
     "seed": 4124219084,
     "note": "自然插画：井畔门卫。以清晰的职业服饰、日常物件或自然生物呈现。",
-    "portraitKind": "object",
-    "objectType": "keys"
+    "portraitKind": "person",
+    "occupation": "watch",
+    "gender": "male"
   },
   "苔庭夜航缄骨客": {
     "family": "undead",
@@ -717,17 +739,19 @@
     "color": "#6f8b9c",
     "seed": 3497983872,
     "note": "自然插画：落水失踪者。以清晰的职业服饰、日常物件或自然生物呈现。",
-    "portraitKind": "object",
-    "objectType": "letter"
+    "portraitKind": "person",
+    "occupation": "courier",
+    "gender": "female"
   },
   "苔庭流砂缄骨客": {
     "family": "undead",
     "features": [],
     "color": "#b07d60",
     "seed": 3704866459,
-    "note": "自然插画：枯叶白骨。以清晰的职业服饰、日常物件或自然生物呈现。",
-    "portraitKind": "object",
-    "objectType": "book"
+    "note": "自然插画：枯叶行客。以清晰的职业服饰、日常物件或自然生物呈现。",
+    "portraitKind": "person",
+    "occupation": "courier",
+    "gender": "male"
   },
   "苔庭夜航观灯师": {
     "family": "mage",
@@ -735,17 +759,19 @@
     "color": "#6f8b9c",
     "seed": 3279868472,
     "note": "自然插画：失温播音人。以清晰的职业服饰、日常物件或自然生物呈现。",
-    "portraitKind": "object",
-    "objectType": "radio"
+    "portraitKind": "person",
+    "occupation": "clerk",
+    "gender": "male"
   },
   "苔庭镜纹缄骨客": {
     "family": "undead",
     "features": [],
     "color": "#a18d6d",
     "seed": 3900201174,
-    "note": "自然插画：漏雨白骨。以清晰的职业服饰、日常物件或自然生物呈现。",
-    "portraitKind": "object",
-    "objectType": "letter"
+    "note": "自然插画：漏雨旅人。以清晰的职业服饰、日常物件或自然生物呈现。",
+    "portraitKind": "person",
+    "occupation": "courier",
+    "gender": "female"
   },
   "苔庭远路缄骨客": {
     "family": "undead",
@@ -753,8 +779,9 @@
     "color": "#698c89",
     "seed": 801365837,
     "note": "自然插画：雨夜失踪者。以清晰的职业服饰、日常物件或自然生物呈现。",
-    "portraitKind": "object",
-    "objectType": "lantern"
+    "portraitKind": "person",
+    "occupation": "courier",
+    "gender": "male"
   },
   "苔庭回声环藤蛇": {
     "family": "snake",
@@ -778,8 +805,9 @@
     "color": "#a18d6d",
     "seed": 381178718,
     "note": "自然插画：无影搬石者。以清晰的职业服饰、日常物件或自然生物呈现。",
-    "portraitKind": "object",
-    "objectType": "toolbox"
+    "portraitKind": "person",
+    "occupation": "worker",
+    "gender": "male"
   },
   "苔庭风蚀裂角客": {
     "family": "demon",
@@ -787,8 +815,9 @@
     "color": "#b07d60",
     "seed": 1566639475,
     "note": "自然插画：哑声窟客。以清晰的职业服饰、日常物件或自然生物呈现。",
-    "portraitKind": "object",
-    "objectType": "radio"
+    "portraitKind": "person",
+    "occupation": "courier",
+    "gender": "male"
   },
   "苔庭铜缄浮辉使": {
     "family": "spirit",
@@ -805,8 +834,9 @@
     "color": "#b07d60",
     "seed": 1300691947,
     "note": "自然插画：旧路巡守。以清晰的职业服饰、日常物件或自然生物呈现。",
-    "portraitKind": "object",
-    "objectType": "compass"
+    "portraitKind": "person",
+    "occupation": "watch",
+    "gender": "male"
   },
   "苔庭微烛晶棘蜥龙": {
     "family": "dragon",
@@ -857,8 +887,9 @@
     "color": "#8f795b",
     "seed": 2923818377,
     "note": "自然插画：低声失踪者。以清晰的职业服饰、日常物件或自然生物呈现。",
-    "portraitKind": "object",
-    "objectType": "radio"
+    "portraitKind": "person",
+    "occupation": "courier",
+    "gender": "male"
   },
   "苔庭铜缄地缝蠕虫": {
     "family": "worm",
@@ -874,8 +905,9 @@
     "color": "#a18d6d",
     "seed": 221739110,
     "note": "自然插画：旧帽白影。以清晰的职业服饰、日常物件或自然生物呈现。",
-    "portraitKind": "object",
-    "objectType": "book"
+    "portraitKind": "person",
+    "occupation": "courier",
+    "gender": "male"
   },
   "苔庭静棱裂角客": {
     "family": "demon",
@@ -883,8 +915,9 @@
     "color": "#7d956f",
     "seed": 2995493202,
     "note": "自然插画：返乡异客。以清晰的职业服饰、日常物件或自然生物呈现。",
-    "portraitKind": "object",
-    "objectType": "toolbox"
+    "portraitKind": "person",
+    "occupation": "courier",
+    "gender": "female"
   },
   "苔庭银露铠卫": {
     "family": "knight",
@@ -902,8 +935,9 @@
     "color": "#6f8b9c",
     "seed": 3464063208,
     "note": "自然插画：短烛巨人。以清晰的职业服饰、日常物件或自然生物呈现。",
-    "portraitKind": "object",
-    "objectType": "lantern"
+    "portraitKind": "person",
+    "occupation": "worker",
+    "gender": "female"
   },
   "苔庭流砂观灯师": {
     "family": "mage",
@@ -946,8 +980,9 @@
     "color": "#b07d60",
     "seed": 1758374675,
     "note": "自然插画：闭眼窟客。以清晰的职业服饰、日常物件或自然生物呈现。",
-    "portraitKind": "object",
-    "objectType": "rope"
+    "portraitKind": "person",
+    "occupation": "courier",
+    "gender": "male"
   },
   "苔庭镜纹观灯师": {
     "family": "mage",
@@ -964,9 +999,10 @@
     "features": [],
     "color": "#698c89",
     "seed": 1770401189,
-    "note": "自然插画：退色白骨。以清晰的职业服饰、日常物件或自然生物呈现。",
-    "portraitKind": "object",
-    "objectType": "lantern"
+    "note": "自然插画：褪衣行客。以清晰的职业服饰、日常物件或自然生物呈现。",
+    "portraitKind": "person",
+    "occupation": "courier",
+    "gender": "male"
   },
   "苔庭藤印铠卫": {
     "family": "knight",
@@ -974,8 +1010,9 @@
     "color": "#8f795b",
     "seed": 316445809,
     "note": "自然插画：闭眼巡守。以清晰的职业服饰、日常物件或自然生物呈现。",
-    "portraitKind": "object",
-    "objectType": "keys"
+    "portraitKind": "person",
+    "occupation": "watch",
+    "gender": "male"
   },
   "苔庭回声枝灯树灵": {
     "family": "plant",
@@ -1061,9 +1098,9 @@
     "features": [],
     "color": "#8f795b",
     "seed": 1250234665,
-    "note": "自然插画：守尸人莫里斯。以清晰的职业服饰、日常物件或自然生物呈现。",
+    "note": "自然插画：看守人莫里斯。以清晰的职业服饰、日常物件或自然生物呈现。",
     "portraitKind": "person",
-    "occupation": "worker",
+    "occupation": "watch",
     "gender": "male"
   },
   "铜钟踏铃驹领誓·塔拉": {
@@ -1270,7 +1307,7 @@
     "features": [],
     "color": "#698c89",
     "seed": 3161971005,
-    "note": "自然插画：缝隙尸人。以清晰的职业服饰、日常物件或自然生物呈现。",
+    "note": "自然插画：缝隙路人。以清晰的职业服饰、日常物件或自然生物呈现。",
     "portraitKind": "person",
     "occupation": "worker",
     "gender": "female"
@@ -1404,8 +1441,9 @@
     "color": "#7d956f",
     "seed": 2044042954,
     "note": "自然插画：钟下执勤者。以清晰的职业服饰、日常物件或自然生物呈现。",
-    "portraitKind": "object",
-    "objectType": "clock"
+    "portraitKind": "person",
+    "occupation": "watch",
+    "gender": "male"
   },
   "铜钟巡灯使·雅雅": {
     "family": "human",
@@ -1443,8 +1481,9 @@
     "color": "#698c89",
     "seed": 3618819509,
     "note": "自然插画：铜屑换班人。以清晰的职业服饰、日常物件或自然生物呈现。",
-    "portraitKind": "object",
-    "objectType": "toolbox"
+    "portraitKind": "person",
+    "occupation": "courier",
+    "gender": "male"
   },
   "铜钟巡灯使·希雅": {
     "family": "human",
@@ -1510,8 +1549,9 @@
     "color": "#7d956f",
     "seed": 435564354,
     "note": "自然插画：无刻守火人。以清晰的职业服饰、日常物件或自然生物呈现。",
-    "portraitKind": "object",
-    "objectType": "lantern"
+    "portraitKind": "person",
+    "occupation": "courier",
+    "gender": "female"
   },
   "铜钟观灯师·塔雅": {
     "family": "mage",
@@ -1557,8 +1597,9 @@
     "color": "#b07d60",
     "seed": 4173273859,
     "note": "自然插画：缝隙祷告者。以清晰的职业服饰、日常物件或自然生物呈现。",
-    "portraitKind": "object",
-    "objectType": "radio"
+    "portraitKind": "person",
+    "occupation": "courier",
+    "gender": "male"
   },
   "铜钟观灯师·图雅": {
     "family": "mage",
@@ -1604,8 +1645,9 @@
     "color": "#b07d60",
     "seed": 1485968539,
     "note": "自然插画：断齿守火人。以清晰的职业服饰、日常物件或自然生物呈现。",
-    "portraitKind": "object",
-    "objectType": "lantern"
+    "portraitKind": "person",
+    "occupation": "courier",
+    "gender": "male"
   },
   "铜钟浮辉使·欧弥": {
     "family": "spirit",
@@ -1621,9 +1663,10 @@
     "features": [],
     "color": "#8c91a4",
     "seed": 1071688724,
-    "note": "自然插画：漏刻白骨。以清晰的职业服饰、日常物件或自然生物呈现。",
-    "portraitKind": "object",
-    "objectType": "clock"
+    "note": "自然插画：漏刻钟匠。以清晰的职业服饰、日常物件或自然生物呈现。",
+    "portraitKind": "person",
+    "occupation": "worker",
+    "gender": "male"
   },
   "铜钟银露铠卫": {
     "family": "knight",
@@ -1649,8 +1692,9 @@
     "color": "#a18d6d",
     "seed": 2203687454,
     "note": "自然插画：回声门卫。以清晰的职业服饰、日常物件或自然生物呈现。",
-    "portraitKind": "object",
-    "objectType": "radio"
+    "portraitKind": "person",
+    "occupation": "watch",
+    "gender": "male"
   },
   "铜钟雾羽铠卫": {
     "family": "knight",
@@ -1658,8 +1702,9 @@
     "color": "#6f8b9c",
     "seed": 3887166128,
     "note": "自然插画：失约门卫。以清晰的职业服饰、日常物件或自然生物呈现。",
-    "portraitKind": "object",
-    "objectType": "keys"
+    "portraitKind": "person",
+    "occupation": "watch",
+    "gender": "male"
   },
   "铜钟苔痕潜印客": {
     "family": "rogue",
@@ -1667,8 +1712,9 @@
     "color": "#698c89",
     "seed": 265588741,
     "note": "自然插画：钟摆潜行人。以清晰的职业服饰、日常物件或自然生物呈现。",
-    "portraitKind": "object",
-    "objectType": "bell"
+    "portraitKind": "person",
+    "occupation": "courier",
+    "gender": "male"
   },
   "铜钟铜缄潜印客": {
     "family": "rogue",
@@ -1686,8 +1732,9 @@
     "color": "#698c89",
     "seed": 3436493365,
     "note": "自然插画：铜屑凝视者。以清晰的职业服饰、日常物件或自然生物呈现。",
-    "portraitKind": "object",
-    "objectType": "compass"
+    "portraitKind": "person",
+    "occupation": "courier",
+    "gender": "male"
   },
   "铜钟弧光铠卫": {
     "family": "knight",
@@ -1704,9 +1751,10 @@
     "features": [],
     "color": "#b18f80",
     "seed": 1463068543,
-    "note": "自然插画：黑铃空皮。以清晰的职业服饰、日常物件或自然生物呈现。",
-    "portraitKind": "object",
-    "objectType": "bell"
+    "note": "自然插画：黑铃过客。以清晰的职业服饰、日常物件或自然生物呈现。",
+    "portraitKind": "person",
+    "occupation": "courier",
+    "gender": "male"
   },
   "铜钟铜缄苔痕铠卫": {
     "family": "knight",
@@ -1714,8 +1762,9 @@
     "color": "#7d956f",
     "seed": 3442015778,
     "note": "自然插画：错层门卫。以清晰的职业服饰、日常物件或自然生物呈现。",
-    "portraitKind": "object",
-    "objectType": "keys"
+    "portraitKind": "person",
+    "occupation": "watch",
+    "gender": "male"
   },
   "铜钟静棱缄骨客": {
     "family": "undead",
@@ -1723,26 +1772,29 @@
     "color": "#a18d6d",
     "seed": 2371149366,
     "note": "自然插画：锈斑返客。以清晰的职业服饰、日常物件或自然生物呈现。",
-    "portraitKind": "object",
-    "objectType": "letter"
+    "portraitKind": "person",
+    "occupation": "courier",
+    "gender": "female"
   },
   "铜钟绒雾缄骨客": {
     "family": "undead",
     "features": [],
     "color": "#b07d60",
     "seed": 1415270875,
-    "note": "自然插画：钟下尸人。以清晰的职业服饰、日常物件或自然生物呈现。",
-    "portraitKind": "object",
-    "objectType": "bell"
+    "note": "自然插画：钟下路人。以清晰的职业服饰、日常物件或自然生物呈现。",
+    "portraitKind": "person",
+    "occupation": "courier",
+    "gender": "male"
   },
   "铜钟夜航缄骨客": {
     "family": "undead",
     "features": [],
     "color": "#698c89",
     "seed": 1105695029,
-    "note": "自然插画：钟下白骨。以清晰的职业服饰、日常物件或自然生物呈现。",
-    "portraitKind": "object",
-    "objectType": "bell"
+    "note": "自然插画：钟下修匠。以清晰的职业服饰、日常物件或自然生物呈现。",
+    "portraitKind": "person",
+    "occupation": "worker",
+    "gender": "male"
   },
   "铜钟远路巡灯使": {
     "family": "human",
@@ -1750,8 +1802,9 @@
     "color": "#698c89",
     "seed": 1450895973,
     "note": "自然插画：错层换班人。以清晰的职业服饰、日常物件或自然生物呈现。",
-    "portraitKind": "object",
-    "objectType": "satchel"
+    "portraitKind": "person",
+    "occupation": "courier",
+    "gender": "female"
   },
   "铜钟夜航观灯师": {
     "family": "mage",
@@ -1759,8 +1812,9 @@
     "color": "#8c91a4",
     "seed": 3674418812,
     "note": "自然插画：假面播音人。以清晰的职业服饰、日常物件或自然生物呈现。",
-    "portraitKind": "object",
-    "objectType": "radio"
+    "portraitKind": "person",
+    "occupation": "clerk",
+    "gender": "male"
   },
   "铜钟铜缄铜缄铠卫": {
     "family": "knight",
@@ -1812,8 +1866,9 @@
     "color": "#8c91a4",
     "seed": 1372493364,
     "note": "自然插画：缝隙窃听客。以清晰的职业服饰、日常物件或自然生物呈现。",
-    "portraitKind": "object",
-    "objectType": "radio"
+    "portraitKind": "person",
+    "occupation": "courier",
+    "gender": "female"
   },
   "铜钟苔痕岩铃象": {
     "family": "elephant",
@@ -1839,8 +1894,9 @@
     "color": "#b18f80",
     "seed": 1083227983,
     "note": "自然插画：敲门巡守。以清晰的职业服饰、日常物件或自然生物呈现。",
-    "portraitKind": "object",
-    "objectType": "bell"
+    "portraitKind": "person",
+    "occupation": "watch",
+    "gender": "male"
   },
   "铜钟铜缄织光蛛": {
     "family": "spider",
@@ -1864,8 +1920,9 @@
     "color": "#b07d60",
     "seed": 2932788363,
     "note": "自然插画：假面抄写员。以清晰的职业服饰、日常物件或自然生物呈现。",
-    "portraitKind": "object",
-    "objectType": "book"
+    "portraitKind": "person",
+    "occupation": "clerk",
+    "gender": "female"
   },
   "铜钟微烛修灯师": {
     "family": "healer",
@@ -1873,8 +1930,9 @@
     "color": "#a18d6d",
     "seed": 556626934,
     "note": "自然插画：旧票守火人。以清晰的职业服饰、日常物件或自然生物呈现。",
-    "portraitKind": "object",
-    "objectType": "lantern"
+    "portraitKind": "person",
+    "occupation": "courier",
+    "gender": "male"
   },
   "铜钟铜缄折面星客": {
     "family": "alien",
@@ -1882,8 +1940,9 @@
     "color": "#6f8b9c",
     "seed": 2685431368,
     "note": "自然插画：断弦凝视者。以清晰的职业服饰、日常物件或自然生物呈现。",
-    "portraitKind": "object",
-    "objectType": "compass"
+    "portraitKind": "person",
+    "occupation": "courier",
+    "gender": "male"
   },
   "铜钟铜缄琉纹铠卫": {
     "family": "knight",
@@ -1891,8 +1950,9 @@
     "color": "#a18d6d",
     "seed": 3444164182,
     "note": "自然插画：锈斑执勤者。以清晰的职业服饰、日常物件或自然生物呈现。",
-    "portraitKind": "object",
-    "objectType": "keys"
+    "portraitKind": "person",
+    "occupation": "watch",
+    "gender": "male"
   },
   "铜钟铜缄风蚀铠卫": {
     "family": "knight",
@@ -1900,8 +1960,9 @@
     "color": "#b07d60",
     "seed": 1119074387,
     "note": "自然插画：断齿守备。以清晰的职业服饰、日常物件或自然生物呈现。",
-    "portraitKind": "object",
-    "objectType": "keys"
+    "portraitKind": "person",
+    "occupation": "watch",
+    "gender": "male"
   },
   "铜钟铜缄静棱铠卫": {
     "family": "knight",
@@ -1919,8 +1980,9 @@
     "color": "#a18d6d",
     "seed": 2799996398,
     "note": "自然插画：锁孔门卫。以清晰的职业服饰、日常物件或自然生物呈现。",
-    "portraitKind": "object",
-    "objectType": "keys"
+    "portraitKind": "person",
+    "occupation": "watch",
+    "gender": "male"
   },
   "铜钟铜缄夜航铠卫": {
     "family": "knight",
@@ -1928,8 +1990,9 @@
     "color": "#8c91a4",
     "seed": 4255332756,
     "note": "自然插画：锁孔警卫。以清晰的职业服饰、日常物件或自然生物呈现。",
-    "portraitKind": "object",
-    "objectType": "keys"
+    "portraitKind": "person",
+    "occupation": "watch",
+    "gender": "female"
   },
   "铜钟回声浮辉使": {
     "family": "spirit",
@@ -1946,17 +2009,19 @@
     "color": "#b07d60",
     "seed": 4081290067,
     "note": "自然插画：锈斑播音人。以清晰的职业服饰、日常物件或自然生物呈现。",
-    "portraitKind": "object",
-    "objectType": "radio"
+    "portraitKind": "person",
+    "occupation": "clerk",
+    "gender": "male"
   },
   "铜钟流砂缄骨客": {
     "family": "undead",
     "features": [],
     "color": "#a18d6d",
     "seed": 1705231254,
-    "note": "自然插画：无刻白骨。以清晰的职业服饰、日常物件或自然生物呈现。",
-    "portraitKind": "object",
-    "objectType": "clock"
+    "note": "自然插画：无刻表匠。以清晰的职业服饰、日常物件或自然生物呈现。",
+    "portraitKind": "person",
+    "occupation": "worker",
+    "gender": "female"
   },
   "铜钟铜缄流砂铠卫": {
     "family": "knight",
@@ -1974,8 +2039,9 @@
     "color": "#b18f80",
     "seed": 1453829599,
     "note": "自然插画：倒针巡守。以清晰的职业服饰、日常物件或自然生物呈现。",
-    "portraitKind": "object",
-    "objectType": "clock"
+    "portraitKind": "person",
+    "occupation": "watch",
+    "gender": "male"
   },
   "铜钟铜缄远路铠卫": {
     "family": "knight",
@@ -1983,8 +2049,9 @@
     "color": "#a18d6d",
     "seed": 3551825278,
     "note": "自然插画：迟针执勤者。以清晰的职业服饰、日常物件或自然生物呈现。",
-    "portraitKind": "object",
-    "objectType": "clock"
+    "portraitKind": "person",
+    "occupation": "watch",
+    "gender": "male"
   },
   "铜钟石封观灯师": {
     "family": "mage",
@@ -1992,8 +2059,9 @@
     "color": "#8c91a4",
     "seed": 227314572,
     "note": "自然插画：漏刻播音人。以清晰的职业服饰、日常物件或自然生物呈现。",
-    "portraitKind": "object",
-    "objectType": "radio"
+    "portraitKind": "person",
+    "occupation": "clerk",
+    "gender": "female"
   },
   "铜钟铜缄石封铠卫": {
     "family": "knight",
@@ -2001,8 +2069,9 @@
     "color": "#b07d60",
     "seed": 723544187,
     "note": "自然插画：绞索警卫。以清晰的职业服饰、日常物件或自然生物呈现。",
-    "portraitKind": "object",
-    "objectType": "keys"
+    "portraitKind": "person",
+    "occupation": "watch",
+    "gender": "male"
   },
   "铜钟铜缄鸣枝铠卫": {
     "family": "knight",
@@ -2010,8 +2079,9 @@
     "color": "#b18f80",
     "seed": 1978540311,
     "note": "自然插画：铜屑执勤者。以清晰的职业服饰、日常物件或自然生物呈现。",
-    "portraitKind": "object",
-    "objectType": "keys"
+    "portraitKind": "person",
+    "occupation": "watch",
+    "gender": "female"
   },
   "铜钟铜缄暖灰铠卫": {
     "family": "knight",
@@ -2019,8 +2089,9 @@
     "color": "#a18d6d",
     "seed": 3758390902,
     "note": "自然插画：锈斑守备。以清晰的职业服饰、日常物件或自然生物呈现。",
-    "portraitKind": "object",
-    "objectType": "keys"
+    "portraitKind": "person",
+    "occupation": "watch",
+    "gender": "male"
   },
   "铜钟铜缄悬灯铠卫": {
     "family": "knight",
@@ -2057,7 +2128,7 @@
     "seed": 3170754710,
     "note": "自然插画：炉门卫古斯。以清晰的职业服饰、日常物件或自然生物呈现。",
     "portraitKind": "person",
-    "occupation": "worker",
+    "occupation": "watch",
     "gender": "male"
   },
   "炽砂铠卫领誓·依弥": {
@@ -2114,9 +2185,9 @@
     "features": [],
     "color": "#a18d6d",
     "seed": 3389060438,
-    "note": "自然插画：拾骨人托比亚斯。以清晰的职业服饰、日常物件或自然生物呈现。",
+    "note": "自然插画：拾荒人托比亚斯。以清晰的职业服饰、日常物件或自然生物呈现。",
     "portraitKind": "person",
-    "occupation": "clerk",
+    "occupation": "worker",
     "gender": "male"
   },
   "炽砂裂角客领誓·洛弥": {
@@ -2144,7 +2215,7 @@
     "features": [],
     "color": "#b18f80",
     "seed": 2208959143,
-    "note": "自然插画：沥青肉块。以清晰的职业服饰、日常物件或自然生物呈现。",
+    "note": "自然插画：沥青泥团。以清晰的职业服饰、日常物件或自然生物呈现。",
     "portraitKind": "object",
     "objectType": "jar"
   },
@@ -2213,7 +2284,7 @@
     "seed": 3775661004,
     "note": "自然插画：抄表警卫。以清晰的职业服饰、日常物件或自然生物呈现。",
     "portraitKind": "person",
-    "occupation": "clerk",
+    "occupation": "watch",
     "gender": "female"
   },
   "炽砂晶棘蜥龙领誓·泽弥": {
@@ -2338,7 +2409,7 @@
     "seed": 3500095725,
     "note": "自然插画：空炉看守。以清晰的职业服饰、日常物件或自然生物呈现。",
     "portraitKind": "person",
-    "occupation": "worker",
+    "occupation": "watch",
     "gender": "female"
   },
   "炽砂巡灯使·希罗": {
@@ -2367,17 +2438,19 @@
     "color": "#b18f80",
     "seed": 2993346471,
     "note": "自然插画：夜班返客。以清晰的职业服饰、日常物件或自然生物呈现。",
-    "portraitKind": "object",
-    "objectType": "letter"
+    "portraitKind": "person",
+    "occupation": "courier",
+    "gender": "female"
   },
   "炽砂缄骨客·岚罗": {
     "family": "undead",
     "features": [],
     "color": "#a18d6d",
     "seed": 582768950,
-    "note": "自然插画：焦边尸人。以清晰的职业服饰、日常物件或自然生物呈现。",
-    "portraitKind": "object",
-    "objectType": "lantern"
+    "note": "自然插画：焦边路人。以清晰的职业服饰、日常物件或自然生物呈现。",
+    "portraitKind": "person",
+    "occupation": "courier",
+    "gender": "male"
   },
   "炽砂潜印客·索罗": {
     "family": "rogue",
@@ -2445,8 +2518,9 @@
     "color": "#a18d6d",
     "seed": 3796424494,
     "note": "自然插画：污水夜行客。以清晰的职业服饰、日常物件或自然生物呈现。",
-    "portraitKind": "object",
-    "objectType": "rope"
+    "portraitKind": "person",
+    "occupation": "courier",
+    "gender": "male"
   },
   "炽砂巡灯使·泽罗": {
     "family": "human",
@@ -2474,8 +2548,9 @@
     "color": "#7d956f",
     "seed": 4128782834,
     "note": "自然插画：黑油门卫。以清晰的职业服饰、日常物件或自然生物呈现。",
-    "portraitKind": "object",
-    "objectType": "keys"
+    "portraitKind": "person",
+    "occupation": "watch",
+    "gender": "male"
   },
   "炽砂观灯师·阿安": {
     "family": "mage",
@@ -2533,8 +2608,9 @@
     "color": "#6f8b9c",
     "seed": 709371584,
     "note": "自然插画：空炉门卫。以清晰的职业服饰、日常物件或自然生物呈现。",
-    "portraitKind": "object",
-    "objectType": "keys"
+    "portraitKind": "person",
+    "occupation": "watch",
+    "gender": "male"
   },
   "炽砂铠卫·雅安": {
     "family": "knight",
@@ -2542,8 +2618,9 @@
     "color": "#8f795b",
     "seed": 2757846569,
     "note": "自然插画：盲印警卫。以清晰的职业服饰、日常物件或自然生物呈现。",
-    "portraitKind": "object",
-    "objectType": "book"
+    "portraitKind": "person",
+    "occupation": "watch",
+    "gender": "male"
   },
   "炽砂修灯师·诺安": {
     "family": "healer",
@@ -2582,7 +2659,7 @@
     "seed": 1240366856,
     "note": "自然插画：空炉目击者。以清晰的职业服饰、日常物件或自然生物呈现。",
     "portraitKind": "person",
-    "occupation": "worker",
+    "occupation": "clerk",
     "gender": "male"
   },
   "炽砂铠卫·洛安": {
@@ -2592,7 +2669,7 @@
     "seed": 61438633,
     "note": "自然插画：炉后巡守。以清晰的职业服饰、日常物件或自然生物呈现。",
     "portraitKind": "person",
-    "occupation": "worker",
+    "occupation": "watch",
     "gender": "male"
   },
   "炽砂铠卫·米安": {
@@ -2601,26 +2678,29 @@
     "color": "#6f8b9c",
     "seed": 1984276224,
     "note": "自然插画：欠条警卫。以清晰的职业服饰、日常物件或自然生物呈现。",
-    "portraitKind": "object",
-    "objectType": "keys"
+    "portraitKind": "person",
+    "occupation": "watch",
+    "gender": "female"
   },
   "炽砂微烛缄骨客": {
     "family": "undead",
     "features": [],
     "color": "#8f795b",
     "seed": 10957529,
-    "note": "自然插画：复写白骨。以清晰的职业服饰、日常物件或自然生物呈现。",
-    "portraitKind": "object",
-    "objectType": "lantern"
+    "note": "自然插画：复写工人。以清晰的职业服饰、日常物件或自然生物呈现。",
+    "portraitKind": "person",
+    "occupation": "worker",
+    "gender": "male"
   },
   "炽砂琉纹缄骨客": {
     "family": "undead",
     "features": [],
     "color": "#b18f80",
     "seed": 1391423135,
-    "note": "自然插画：空炉尸人。以清晰的职业服饰、日常物件或自然生物呈现。",
-    "portraitKind": "object",
-    "objectType": "lantern"
+    "note": "自然插画：空炉路人。以清晰的职业服饰、日常物件或自然生物呈现。",
+    "portraitKind": "person",
+    "occupation": "courier",
+    "gender": "male"
   },
   "炽砂苔痕环藤蛇": {
     "family": "snake",
@@ -2644,8 +2724,9 @@
     "color": "#b18f80",
     "seed": 3842660367,
     "note": "自然插画：夜班看守。以清晰的职业服饰、日常物件或自然生物呈现。",
-    "portraitKind": "object",
-    "objectType": "keys"
+    "portraitKind": "person",
+    "occupation": "watch",
+    "gender": "female"
   },
   "炽砂铜缄回声铠卫": {
     "family": "knight",
@@ -2653,8 +2734,9 @@
     "color": "#698c89",
     "seed": 1158336117,
     "note": "自然插画：无薪看守。以清晰的职业服饰、日常物件或自然生物呈现。",
-    "portraitKind": "object",
-    "objectType": "keys"
+    "portraitKind": "person",
+    "occupation": "watch",
+    "gender": "female"
   },
   "炽砂铜缄微烛铠卫": {
     "family": "knight",
@@ -2663,7 +2745,7 @@
     "seed": 3433068586,
     "note": "自然插画：空炉执勤者。以清晰的职业服饰、日常物件或自然生物呈现。",
     "portraitKind": "person",
-    "occupation": "worker",
+    "occupation": "watch",
     "gender": "male"
   },
   "炽砂铜缄琉纹铠卫": {
@@ -2672,8 +2754,9 @@
     "color": "#b07d60",
     "seed": 1382742419,
     "note": "自然插画：余热守备。以清晰的职业服饰、日常物件或自然生物呈现。",
-    "portraitKind": "object",
-    "objectType": "keys"
+    "portraitKind": "person",
+    "occupation": "watch",
+    "gender": "male"
   },
   "炽砂铜缄风蚀铠卫": {
     "family": "knight",
@@ -2682,7 +2765,7 @@
     "seed": 3638818461,
     "note": "自然插画：停工看守。以清晰的职业服饰、日常物件或自然生物呈现。",
     "portraitKind": "person",
-    "occupation": "worker",
+    "occupation": "watch",
     "gender": "female"
   },
   "炽砂琉纹修灯师": {
@@ -2691,8 +2774,9 @@
     "color": "#8c91a4",
     "seed": 3056976148,
     "note": "自然插画：断电值班医。以清晰的职业服饰、日常物件或自然生物呈现。",
-    "portraitKind": "object",
-    "objectType": "medicine"
+    "portraitKind": "person",
+    "occupation": "medic",
+    "gender": "male"
   },
   "炽砂风蚀缄骨客": {
     "family": "undead",
@@ -2700,17 +2784,19 @@
     "color": "#a18d6d",
     "seed": 2303416262,
     "note": "自然插画：黑油失踪者。以清晰的职业服饰、日常物件或自然生物呈现。",
-    "portraitKind": "object",
-    "objectType": "lantern"
+    "portraitKind": "person",
+    "occupation": "courier",
+    "gender": "male"
   },
   "炽砂静棱缄骨客": {
     "family": "undead",
     "features": [],
     "color": "#6f8b9c",
     "seed": 3939472728,
-    "note": "自然插画：墙灰空皮。以清晰的职业服饰、日常物件或自然生物呈现。",
-    "portraitKind": "object",
-    "objectType": "letter"
+    "note": "自然插画：墙灰过客。以清晰的职业服饰、日常物件或自然生物呈现。",
+    "portraitKind": "person",
+    "occupation": "courier",
+    "gender": "female"
   },
   "炽砂回声裂角客": {
     "family": "demon",
@@ -2718,8 +2804,9 @@
     "color": "#8c91a4",
     "seed": 3312164148,
     "note": "自然插画：红灰角客。以清晰的职业服饰、日常物件或自然生物呈现。",
-    "portraitKind": "object",
-    "objectType": "toolbox"
+    "portraitKind": "person",
+    "occupation": "courier",
+    "gender": "female"
   },
   "炽砂绒雾缄骨客": {
     "family": "undead",
@@ -2727,17 +2814,19 @@
     "color": "#b18f80",
     "seed": 275280071,
     "note": "自然插画：抄表返客。以清晰的职业服饰、日常物件或自然生物呈现。",
-    "portraitKind": "object",
-    "objectType": "book"
+    "portraitKind": "person",
+    "occupation": "clerk",
+    "gender": "male"
   },
   "炽砂夜航缄骨客": {
     "family": "undead",
     "features": [],
     "color": "#698c89",
     "seed": 2927494333,
-    "note": "自然插画：熄火空皮。以清晰的职业服饰、日常物件或自然生物呈现。",
-    "portraitKind": "object",
-    "objectType": "lantern"
+    "note": "自然插画：熄火过客。以清晰的职业服饰、日常物件或自然生物呈现。",
+    "portraitKind": "person",
+    "occupation": "courier",
+    "gender": "male"
   },
   "炽砂苔痕掠风鸟": {
     "family": "bird",
@@ -2769,8 +2858,9 @@
     "color": "#8c91a4",
     "seed": 2836620308,
     "note": "自然插画：沥青门卫。以清晰的职业服饰、日常物件或自然生物呈现。",
-    "portraitKind": "object",
-    "objectType": "keys"
+    "portraitKind": "person",
+    "occupation": "watch",
+    "gender": "male"
   },
   "炽砂铜缄绒雾铠卫": {
     "family": "knight",
@@ -2778,8 +2868,9 @@
     "color": "#8f795b",
     "seed": 323591489,
     "note": "自然插画：抄表守备。以清晰的职业服饰、日常物件或自然生物呈现。",
-    "portraitKind": "object",
-    "objectType": "book"
+    "portraitKind": "person",
+    "occupation": "watch",
+    "gender": "male"
   },
   "炽砂苔痕砂脊蜥": {
     "family": "lizard",
@@ -2803,8 +2894,9 @@
     "color": "#8c91a4",
     "seed": 2130999676,
     "note": "自然插画：墙灰药师。以清晰的职业服饰、日常物件或自然生物呈现。",
-    "portraitKind": "object",
-    "objectType": "medicine"
+    "portraitKind": "person",
+    "occupation": "medic",
+    "gender": "male"
   },
   "炽砂铜缄夜航铠卫": {
     "family": "knight",
@@ -2812,8 +2904,9 @@
     "color": "#8f795b",
     "seed": 3762562553,
     "note": "自然插画：灰垢守备。以清晰的职业服饰、日常物件或自然生物呈现。",
-    "portraitKind": "object",
-    "objectType": "keys"
+    "portraitKind": "person",
+    "occupation": "watch",
+    "gender": "male"
   },
   "炽砂回声峰脊巨灵": {
     "family": "giant",
@@ -2821,8 +2914,9 @@
     "color": "#a18d6d",
     "seed": 1188042302,
     "note": "自然插画：灰衣搬石者。以清晰的职业服饰、日常物件或自然生物呈现。",
-    "portraitKind": "object",
-    "objectType": "toolbox"
+    "portraitKind": "person",
+    "occupation": "worker",
+    "gender": "male"
   },
   "炽砂流砂缄骨客": {
     "family": "undead",
@@ -2830,8 +2924,9 @@
     "color": "#6f8b9c",
     "seed": 4198427792,
     "note": "自然插画：暗火失踪者。以清晰的职业服饰、日常物件或自然生物呈现。",
-    "portraitKind": "object",
-    "objectType": "lantern"
+    "portraitKind": "person",
+    "occupation": "courier",
+    "gender": "male"
   },
   "炽砂苔痕匣中客": {
     "family": "mimic",
@@ -2847,9 +2942,10 @@
     "features": [],
     "color": "#7d956f",
     "seed": 350282234,
-    "note": "自然插画：熄火白骨。以清晰的职业服饰、日常物件或自然生物呈现。",
-    "portraitKind": "object",
-    "objectType": "lantern"
+    "note": "自然插画：熄火炉工。以清晰的职业服饰、日常物件或自然生物呈现。",
+    "portraitKind": "person",
+    "occupation": "worker",
+    "gender": "male"
   },
   "炽砂铜缄流砂铠卫": {
     "family": "knight",
@@ -2857,8 +2953,9 @@
     "color": "#b18f80",
     "seed": 3558445239,
     "note": "自然插画：焚痕看守。以清晰的职业服饰、日常物件或自然生物呈现。",
-    "portraitKind": "object",
-    "objectType": "keys"
+    "portraitKind": "person",
+    "occupation": "watch",
+    "gender": "female"
   },
   "炽砂远路缄骨客": {
     "family": "undead",
@@ -2866,17 +2963,19 @@
     "color": "#a18d6d",
     "seed": 279173046,
     "note": "自然插画：无薪返客。以清晰的职业服饰、日常物件或自然生物呈现。",
-    "portraitKind": "object",
-    "objectType": "letter"
+    "portraitKind": "person",
+    "occupation": "courier",
+    "gender": "female"
   },
   "炽砂石封缄骨客": {
     "family": "undead",
     "features": [],
     "color": "#b18f80",
     "seed": 182509023,
-    "note": "自然插画：欠条空皮。以清晰的职业服饰、日常物件或自然生物呈现。",
-    "portraitKind": "object",
-    "objectType": "letter"
+    "note": "自然插画：欠条过客。以清晰的职业服饰、日常物件或自然生物呈现。",
+    "portraitKind": "person",
+    "occupation": "courier",
+    "gender": "female"
   },
   "炽砂苔痕铜壳蟹": {
     "family": "crab",
@@ -2892,8 +2991,9 @@
     "color": "#8f795b",
     "seed": 1264331289,
     "note": "自然插画：烟垢罅客。以清晰的职业服饰、日常物件或自然生物呈现。",
-    "portraitKind": "object",
-    "objectType": "toolbox"
+    "portraitKind": "person",
+    "occupation": "courier",
+    "gender": "female"
   },
   "炽砂静棱修灯师": {
     "family": "healer",
@@ -2901,8 +3001,9 @@
     "color": "#6f8b9c",
     "seed": 451249272,
     "note": "自然插画：抄表诊疗员。以清晰的职业服饰、日常物件或自然生物呈现。",
-    "portraitKind": "object",
-    "objectType": "book"
+    "portraitKind": "person",
+    "occupation": "medic",
+    "gender": "female"
   },
   "炽砂苔痕地缝蠕虫": {
     "family": "worm",
@@ -2919,7 +3020,7 @@
     "seed": 3251233266,
     "note": "自然插画：冷炉警卫。以清晰的职业服饰、日常物件或自然生物呈现。",
     "portraitKind": "person",
-    "occupation": "worker",
+    "occupation": "watch",
     "gender": "female"
   },
   "炽砂静棱观灯师": {
@@ -2928,8 +3029,9 @@
     "color": "#8f795b",
     "seed": 1467664433,
     "note": "自然插画：背光抄写员。以清晰的职业服饰、日常物件或自然生物呈现。",
-    "portraitKind": "object",
-    "objectType": "book"
+    "portraitKind": "person",
+    "occupation": "clerk",
+    "gender": "male"
   },
   "炽砂铜缄远路铠卫": {
     "family": "knight",
@@ -2937,8 +3039,9 @@
     "color": "#b18f80",
     "seed": 3314986839,
     "note": "自然插画：背光看守。以清晰的职业服饰、日常物件或自然生物呈现。",
-    "portraitKind": "object",
-    "objectType": "keys"
+    "portraitKind": "person",
+    "occupation": "watch",
+    "gender": "female"
   },
   "炽砂铜缄石封铠卫": {
     "family": "knight",
@@ -2946,8 +3049,9 @@
     "color": "#b07d60",
     "seed": 41613947,
     "note": "自然插画：细烟守备。以清晰的职业服饰、日常物件或自然生物呈现。",
-    "portraitKind": "object",
-    "objectType": "keys"
+    "portraitKind": "person",
+    "occupation": "watch",
+    "gender": "male"
   },
   "炽砂鸣枝缄骨客": {
     "family": "undead",
@@ -2955,8 +3059,9 @@
     "color": "#7d956f",
     "seed": 1287978162,
     "note": "自然插画：烟垢失踪者。以清晰的职业服饰、日常物件或自然生物呈现。",
-    "portraitKind": "object",
-    "objectType": "letter"
+    "portraitKind": "person",
+    "occupation": "courier",
+    "gender": "female"
   },
   "炽砂回声巡影狼": {
     "family": "wolf",
@@ -2972,8 +3077,9 @@
     "color": "#8c91a4",
     "seed": 2087760812,
     "note": "自然插画：断管租客。以清晰的职业服饰、日常物件或自然生物呈现。",
-    "portraitKind": "object",
-    "objectType": "toolbox"
+    "portraitKind": "person",
+    "occupation": "courier",
+    "gender": "male"
   },
   "炽砂苔痕折面星客": {
     "family": "alien",
@@ -2981,8 +3087,9 @@
     "color": "#8c91a4",
     "seed": 343756188,
     "note": "自然插画：焚痕异相。以清晰的职业服饰、日常物件或自然生物呈现。",
-    "portraitKind": "object",
-    "objectType": "radio"
+    "portraitKind": "person",
+    "occupation": "courier",
+    "gender": "female"
   },
   "炽砂琉纹裂角客": {
     "family": "demon",
@@ -2990,17 +3097,18 @@
     "color": "#6f8b9c",
     "seed": 3496100984,
     "note": "自然插画：熄火角客。以清晰的职业服饰、日常物件或自然生物呈现。",
-    "portraitKind": "object",
-    "objectType": "lantern"
+    "portraitKind": "person",
+    "occupation": "courier",
+    "gender": "male"
   },
   "炽砂苔痕石指傀儡": {
     "family": "hand",
     "features": [],
     "color": "#a18d6d",
     "seed": 2369541710,
-    "note": "自然插画：盲印断手。以清晰的职业服饰、日常物件或自然生物呈现。",
+    "note": "自然插画：盲印手套。以清晰的职业服饰、日常物件或自然生物呈现。",
     "portraitKind": "object",
-    "objectType": "toolbox"
+    "objectType": "gloves"
   },
   "炽砂铜缄环藤蛇": {
     "family": "snake",
@@ -3060,8 +3168,9 @@
     "color": "#a18d6d",
     "seed": 1573561494,
     "note": "自然插画：余热警卫。以清晰的职业服饰、日常物件或自然生物呈现。",
-    "portraitKind": "object",
-    "objectType": "keys"
+    "portraitKind": "person",
+    "occupation": "watch",
+    "gender": "female"
   },
   "炽砂铜缄银露铠卫": {
     "family": "knight",
@@ -3106,8 +3215,9 @@
     "color": "#8f795b",
     "seed": 896984777,
     "note": "自然插画：炉后守备。以清晰的职业服饰、日常物件或自然生物呈现。",
-    "portraitKind": "object",
-    "objectType": "keys"
+    "portraitKind": "person",
+    "occupation": "watch",
+    "gender": "male"
   },
   "炽砂铜缄弧光铠卫": {
     "family": "knight",
@@ -3133,8 +3243,9 @@
     "color": "#8c91a4",
     "seed": 754507508,
     "note": "自然插画：冷炉值班医。以清晰的职业服饰、日常物件或自然生物呈现。",
-    "portraitKind": "object",
-    "objectType": "medicine"
+    "portraitKind": "person",
+    "occupation": "medic",
+    "gender": "male"
   },
   "炽砂苔痕绛纹蝶": {
     "family": "butterfly",
@@ -3157,9 +3268,10 @@
     "features": [],
     "color": "#8c91a4",
     "seed": 1679139860,
-    "note": "自然插画：炉后尸人。以清晰的职业服饰、日常物件或自然生物呈现。",
-    "portraitKind": "object",
-    "objectType": "lantern"
+    "note": "自然插画：炉后路人。以清晰的职业服饰、日常物件或自然生物呈现。",
+    "portraitKind": "person",
+    "occupation": "courier",
+    "gender": "male"
   },
   "炽砂微烛峰脊巨灵": {
     "family": "giant",
@@ -3186,9 +3298,10 @@
     "features": [],
     "color": "#8f795b",
     "seed": 3990155993,
-    "note": "自然插画：绞索空皮。以清晰的职业服饰、日常物件或自然生物呈现。",
-    "portraitKind": "object",
-    "objectType": "lantern"
+    "note": "自然插画：绞索过客。以清晰的职业服饰、日常物件或自然生物呈现。",
+    "portraitKind": "person",
+    "occupation": "courier",
+    "gender": "male"
   },
   "炽砂回声苔痕铠卫": {
     "family": "knight",
@@ -3236,7 +3349,7 @@
     "seed": 4036352012,
     "note": "自然插画：旧印门卫沃尔特。以清晰的职业服饰、日常物件或自然生物呈现。",
     "portraitKind": "person",
-    "occupation": "clerk",
+    "occupation": "watch",
     "gender": "male"
   },
   "砂镜裂角客领誓·伦安": {
@@ -3349,7 +3462,7 @@
     "seed": 708842379,
     "note": "自然插画：窄柜巨人。以清晰的职业服饰、日常物件或自然生物呈现。",
     "portraitKind": "person",
-    "occupation": "clerk",
+    "occupation": "worker",
     "gender": "female"
   },
   "砂镜地缝蠕虫领誓·诺瑟": {
@@ -3426,7 +3539,7 @@
     "seed": 988311462,
     "note": "自然插画：错柜警卫。以清晰的职业服饰、日常物件或自然生物呈现。",
     "portraitKind": "person",
-    "occupation": "clerk",
+    "occupation": "watch",
     "gender": "female"
   },
   "砂镜铠卫·莱瑟": {
@@ -3435,8 +3548,9 @@
     "color": "#7d956f",
     "seed": 1311832514,
     "note": "自然插画：下架门卫。以清晰的职业服饰、日常物件或自然生物呈现。",
-    "portraitKind": "object",
-    "objectType": "keys"
+    "portraitKind": "person",
+    "occupation": "watch",
+    "gender": "male"
   },
   "砂镜巡灯使·岑瑟": {
     "family": "human",
@@ -3454,8 +3568,9 @@
     "color": "#8f795b",
     "seed": 3356569089,
     "note": "自然插画：封条录事。以清晰的职业服饰、日常物件或自然生物呈现。",
-    "portraitKind": "object",
-    "objectType": "radio"
+    "portraitKind": "person",
+    "occupation": "clerk",
+    "gender": "female"
   },
   "砂镜巡灯使·莫瑟": {
     "family": "human",
@@ -3463,8 +3578,9 @@
     "color": "#698c89",
     "seed": 2050960989,
     "note": "自然插画：弃卷换班人。以清晰的职业服饰、日常物件或自然生物呈现。",
-    "portraitKind": "object",
-    "objectType": "book"
+    "portraitKind": "person",
+    "occupation": "courier",
+    "gender": "female"
   },
   "砂镜铠卫·伦瑟": {
     "family": "knight",
@@ -3492,8 +3608,9 @@
     "color": "#8c91a4",
     "seed": 2618201844,
     "note": "自然插画：残页警卫。以清晰的职业服饰、日常物件或自然生物呈现。",
-    "portraitKind": "object",
-    "objectType": "book"
+    "portraitKind": "person",
+    "occupation": "watch",
+    "gender": "female"
   },
   "砂镜铠卫·图瑟": {
     "family": "knight",
@@ -3599,8 +3716,9 @@
     "color": "#6f8b9c",
     "seed": 141452624,
     "note": "自然插画：冷章窃听客。以清晰的职业服饰、日常物件或自然生物呈现。",
-    "portraitKind": "object",
-    "objectType": "radio"
+    "portraitKind": "person",
+    "occupation": "courier",
+    "gender": "male"
   },
   "砂镜潜印客·维尘": {
     "family": "rogue",
@@ -3658,8 +3776,9 @@
     "color": "#6f8b9c",
     "seed": 2513566344,
     "note": "自然插画：盲档目击者。以清晰的职业服饰、日常物件或自然生物呈现。",
-    "portraitKind": "object",
-    "objectType": "book"
+    "portraitKind": "person",
+    "occupation": "clerk",
+    "gender": "female"
   },
   "砂镜镜纹铠卫": {
     "family": "knight",
@@ -3667,8 +3786,9 @@
     "color": "#698c89",
     "seed": 1679331629,
     "note": "自然插画：纸灰守备。以清晰的职业服饰、日常物件或自然生物呈现。",
-    "portraitKind": "object",
-    "objectType": "book"
+    "portraitKind": "person",
+    "occupation": "watch",
+    "gender": "male"
   },
   "砂镜远路铠卫": {
     "family": "knight",
@@ -3685,9 +3805,10 @@
     "features": [],
     "color": "#6f8b9c",
     "seed": 1582350440,
-    "note": "自然插画：页边尸人。以清晰的职业服饰、日常物件或自然生物呈现。",
-    "portraitKind": "object",
-    "objectType": "book"
+    "note": "自然插画：页边路人。以清晰的职业服饰、日常物件或自然生物呈现。",
+    "portraitKind": "person",
+    "occupation": "courier",
+    "gender": "male"
   },
   "砂镜苔痕棱耳猎犬": {
     "family": "dog",
@@ -3703,26 +3824,29 @@
     "color": "#a18d6d",
     "seed": 152449094,
     "note": "自然插画：封条司灯人。以清晰的职业服饰、日常物件或自然生物呈现。",
-    "portraitKind": "object",
-    "objectType": "lantern"
+    "portraitKind": "person",
+    "occupation": "courier",
+    "gender": "male"
   },
   "砂镜铜缄缄骨客": {
     "family": "undead",
     "features": [],
     "color": "#b07d60",
     "seed": 3509800883,
-    "note": "自然插画：封条空皮。以清晰的职业服饰、日常物件或自然生物呈现。",
-    "portraitKind": "object",
-    "objectType": "letter"
+    "note": "自然插画：封条过客。以清晰的职业服饰、日常物件或自然生物呈现。",
+    "portraitKind": "person",
+    "occupation": "courier",
+    "gender": "male"
   },
   "砂镜回声缄骨客": {
     "family": "undead",
     "features": [],
     "color": "#b18f80",
     "seed": 3080840159,
-    "note": "自然插画：褪墨白骨。以清晰的职业服饰、日常物件或自然生物呈现。",
-    "portraitKind": "object",
-    "objectType": "lantern"
+    "note": "自然插画：褪墨抄手。以清晰的职业服饰、日常物件或自然生物呈现。",
+    "portraitKind": "person",
+    "occupation": "clerk",
+    "gender": "male"
   },
   "砂镜苔痕甲灯虫": {
     "family": "insect",
@@ -3737,7 +3861,7 @@
     "features": [],
     "color": "#b07d60",
     "seed": 726281251,
-    "note": "自然插画：压纸肉块。以清晰的职业服饰、日常物件或自然生物呈现。",
+    "note": "自然插画：压纸泥团。以清晰的职业服饰、日常物件或自然生物呈现。",
     "portraitKind": "object",
     "objectType": "jar"
   },
@@ -3772,8 +3896,9 @@
     "color": "#8c91a4",
     "seed": 1803685364,
     "note": "自然插画：褪墨角客。以清晰的职业服饰、日常物件或自然生物呈现。",
-    "portraitKind": "object",
-    "objectType": "rope"
+    "portraitKind": "person",
+    "occupation": "courier",
+    "gender": "male"
   },
   "砂镜铜缄潮纹游鱼": {
     "family": "fish",
@@ -3788,9 +3913,10 @@
     "features": [],
     "color": "#a18d6d",
     "seed": 2949433958,
-    "note": "自然插画：旧案空皮。以清晰的职业服饰、日常物件或自然生物呈现。",
-    "portraitKind": "object",
-    "objectType": "lantern"
+    "note": "自然插画：旧案过客。以清晰的职业服饰、日常物件或自然生物呈现。",
+    "portraitKind": "person",
+    "occupation": "courier",
+    "gender": "male"
   },
   "砂镜苔痕苔脊软虫": {
     "family": "slug",
@@ -3823,7 +3949,7 @@
     "seed": 32858456,
     "note": "自然插画：副档门卫。以清晰的职业服饰、日常物件或自然生物呈现。",
     "portraitKind": "person",
-    "occupation": "clerk",
+    "occupation": "watch",
     "gender": "male"
   },
   "砂镜鸣枝铠卫": {
@@ -3832,8 +3958,9 @@
     "color": "#7d956f",
     "seed": 3684870114,
     "note": "自然插画：纸脊警卫。以清晰的职业服饰、日常物件或自然生物呈现。",
-    "portraitKind": "object",
-    "objectType": "book"
+    "portraitKind": "person",
+    "occupation": "watch",
+    "gender": "female"
   },
   "砂镜微烛潜印客": {
     "family": "rogue",
@@ -3841,17 +3968,19 @@
     "color": "#7d956f",
     "seed": 3419359914,
     "note": "自然插画：页边夜行客。以清晰的职业服饰、日常物件或自然生物呈现。",
-    "portraitKind": "object",
-    "objectType": "book"
+    "portraitKind": "person",
+    "occupation": "courier",
+    "gender": "female"
   },
   "砂镜琉纹缄骨客": {
     "family": "undead",
     "features": [],
     "color": "#7d956f",
     "seed": 3125410090,
-    "note": "自然插画：空匣尸人。以清晰的职业服饰、日常物件或自然生物呈现。",
-    "portraitKind": "object",
-    "objectType": "book"
+    "note": "自然插画：空匣路人。以清晰的职业服饰、日常物件或自然生物呈现。",
+    "portraitKind": "person",
+    "occupation": "courier",
+    "gender": "male"
   },
   "砂镜风蚀缄骨客": {
     "family": "undead",
@@ -3859,17 +3988,19 @@
     "color": "#8c91a4",
     "seed": 3528332076,
     "note": "自然插画：旧印返客。以清晰的职业服饰、日常物件或自然生物呈现。",
-    "portraitKind": "object",
-    "objectType": "book"
+    "portraitKind": "person",
+    "occupation": "courier",
+    "gender": "female"
   },
   "砂镜静棱缄骨客": {
     "family": "undead",
     "features": [],
     "color": "#6f8b9c",
     "seed": 496670680,
-    "note": "自然插画：冷章尸人。以清晰的职业服饰、日常物件或自然生物呈现。",
-    "portraitKind": "object",
-    "objectType": "book"
+    "note": "自然插画：冷章路人。以清晰的职业服饰、日常物件或自然生物呈现。",
+    "portraitKind": "person",
+    "occupation": "courier",
+    "gender": "male"
   },
   "砂镜微烛峰脊巨灵": {
     "family": "giant",
@@ -3877,8 +4008,9 @@
     "color": "#b07d60",
     "seed": 3248167499,
     "note": "自然插画：副档搬石者。以清晰的职业服饰、日常物件或自然生物呈现。",
-    "portraitKind": "object",
-    "objectType": "book"
+    "portraitKind": "person",
+    "occupation": "worker",
+    "gender": "male"
   },
   "砂镜苔痕折面星客": {
     "family": "alien",
@@ -3886,8 +4018,9 @@
     "color": "#b07d60",
     "seed": 261828083,
     "note": "自然插画：黑标白影。以清晰的职业服饰、日常物件或自然生物呈现。",
-    "portraitKind": "object",
-    "objectType": "book"
+    "portraitKind": "person",
+    "occupation": "courier",
+    "gender": "male"
   },
   "砂镜静棱观灯师": {
     "family": "mage",
@@ -3905,8 +4038,9 @@
     "color": "#8f795b",
     "seed": 1890458497,
     "note": "自然插画：纸脊播音人。以清晰的职业服饰、日常物件或自然生物呈现。",
-    "portraitKind": "object",
-    "objectType": "radio"
+    "portraitKind": "person",
+    "occupation": "clerk",
+    "gender": "male"
   },
   "砂镜铜缄晶棘蜥龙": {
     "family": "dragon",
@@ -3966,7 +4100,7 @@
     "features": [],
     "color": "#698c89",
     "seed": 3760628605,
-    "note": "自然插画：浮尸鹿奥林。以清晰的职业服饰、日常物件或自然生物呈现。",
+    "note": "自然插画：渡口鹿奥林。以清晰的职业服饰、日常物件或自然生物呈现。",
     "portraitKind": "animal"
   },
   "暮潮灯议长·佩尘": {
@@ -4139,7 +4273,7 @@
     "features": [],
     "color": "#b07d60",
     "seed": 2902322243,
-    "note": "自然插画：湿骨抄写员。以清晰的职业服饰、日常物件或自然生物呈现。",
+    "note": "自然插画：湿衣抄写员。以清晰的职业服饰、日常物件或自然生物呈现。",
     "portraitKind": "person",
     "occupation": "clerk",
     "gender": "male"
@@ -4159,7 +4293,7 @@
     "features": [],
     "color": "#b07d60",
     "seed": 2992550995,
-    "note": "自然插画：湿骨窟客。以清晰的职业服饰、日常物件或自然生物呈现。",
+    "note": "自然插画：湿衣窟客。以清晰的职业服饰、日常物件或自然生物呈现。",
     "portraitKind": "person",
     "occupation": "worker",
     "gender": "male"
@@ -4216,8 +4350,9 @@
     "color": "#7d956f",
     "seed": 3862715786,
     "note": "自然插画：漂流白影。以清晰的职业服饰、日常物件或自然生物呈现。",
-    "portraitKind": "object",
-    "objectType": "book"
+    "portraitKind": "person",
+    "occupation": "courier",
+    "gender": "male"
   },
   "暮潮修灯师·泽汀": {
     "family": "healer",
@@ -4234,9 +4369,10 @@
     "features": [],
     "color": "#6f8b9c",
     "seed": 713245184,
-    "note": "自然插画：湿骨目击者。以清晰的职业服饰、日常物件或自然生物呈现。",
-    "portraitKind": "object",
-    "objectType": "toolbox"
+    "note": "自然插画：湿衣目击者。以清晰的职业服饰、日常物件或自然生物呈现。",
+    "portraitKind": "person",
+    "occupation": "clerk",
+    "gender": "male"
   },
   "暮潮巡灯使·芮汀": {
     "family": "human",
@@ -4244,8 +4380,9 @@
     "color": "#a18d6d",
     "seed": 94730054,
     "note": "自然插画：破锚司灯人。以清晰的职业服饰、日常物件或自然生物呈现。",
-    "portraitKind": "object",
-    "objectType": "lantern"
+    "portraitKind": "person",
+    "occupation": "courier",
+    "gender": "male"
   },
   "暮潮修灯师·阿芙": {
     "family": "healer",
@@ -4284,7 +4421,7 @@
     "seed": 64290483,
     "note": "自然插画：潮湿搬运工。以清晰的职业服饰、日常物件或自然生物呈现。",
     "portraitKind": "person",
-    "occupation": "sailor",
+    "occupation": "worker",
     "gender": "female"
   },
   "暮潮巡灯使·乌芙": {
@@ -4303,8 +4440,9 @@
     "color": "#7d956f",
     "seed": 3086169274,
     "note": "自然插画：下沉守火人。以清晰的职业服饰、日常物件或自然生物呈现。",
-    "portraitKind": "object",
-    "objectType": "lantern"
+    "portraitKind": "person",
+    "occupation": "courier",
+    "gender": "male"
   },
   "暮潮修灯师·雅芙": {
     "family": "healer",
@@ -4322,8 +4460,9 @@
     "color": "#8c91a4",
     "seed": 1667068164,
     "note": "自然插画：无人窃听客。以清晰的职业服饰、日常物件或自然生物呈现。",
-    "portraitKind": "object",
-    "objectType": "radio"
+    "portraitKind": "person",
+    "occupation": "courier",
+    "gender": "female"
   },
   "暮潮潜印客·瑟芙": {
     "family": "rogue",
@@ -4401,8 +4540,9 @@
     "color": "#b18f80",
     "seed": 3779093183,
     "note": "自然插画：空舱白影。以清晰的职业服饰、日常物件或自然生物呈现。",
-    "portraitKind": "object",
-    "objectType": "boat"
+    "portraitKind": "person",
+    "occupation": "sailor",
+    "gender": "male"
   },
   "暮潮巡灯使·岑芙": {
     "family": "human",
@@ -4439,7 +4579,7 @@
     "seed": 2724415227,
     "note": "自然插画：黑港尾随者。以清晰的职业服饰、日常物件或自然生物呈现。",
     "portraitKind": "person",
-    "occupation": "courier",
+    "occupation": "sailor",
     "gender": "female"
   },
   "暮潮微烛缄骨客": {
@@ -4448,8 +4588,9 @@
     "color": "#8c91a4",
     "seed": 318334316,
     "note": "自然插画：涌井返客。以清晰的职业服饰、日常物件或自然生物呈现。",
-    "portraitKind": "object",
-    "objectType": "lantern"
+    "portraitKind": "person",
+    "occupation": "courier",
+    "gender": "male"
   },
   "暮潮铜缄铠卫": {
     "family": "knight",
@@ -4457,17 +4598,19 @@
     "color": "#698c89",
     "seed": 2034893389,
     "note": "自然插画：漂流巡守。以清晰的职业服饰、日常物件或自然生物呈现。",
-    "portraitKind": "object",
-    "objectType": "keys"
+    "portraitKind": "person",
+    "occupation": "watch",
+    "gender": "male"
   },
   "暮潮琉纹缄骨客": {
     "family": "undead",
     "features": [],
     "color": "#a18d6d",
     "seed": 1028466030,
-    "note": "自然插画：黑港尸人。以清晰的职业服饰、日常物件或自然生物呈现。",
-    "portraitKind": "object",
-    "objectType": "letter"
+    "note": "自然插画：黑港路人。以清晰的职业服饰、日常物件或自然生物呈现。",
+    "portraitKind": "person",
+    "occupation": "sailor",
+    "gender": "female"
   },
   "暮潮铜缄棱耳猎犬": {
     "family": "dog",
@@ -4499,8 +4642,9 @@
     "color": "#a18d6d",
     "seed": 3750526214,
     "note": "自然插画：破锚书记。以清晰的职业服饰、日常物件或自然生物呈现。",
-    "portraitKind": "object",
-    "objectType": "book"
+    "portraitKind": "person",
+    "occupation": "clerk",
+    "gender": "male"
   },
   "暮潮静棱折面星客": {
     "family": "alien",
@@ -4508,24 +4652,26 @@
     "color": "#a18d6d",
     "seed": 3780036910,
     "note": "自然插画：盐痕凝视者。以清晰的职业服饰、日常物件或自然生物呈现。",
-    "portraitKind": "object",
-    "objectType": "compass"
+    "portraitKind": "person",
+    "occupation": "courier",
+    "gender": "male"
   },
   "暮潮风蚀缄骨客": {
     "family": "undead",
     "features": [],
     "color": "#6f8b9c",
     "seed": 122791120,
-    "note": "自然插画：船尾尸人。以清晰的职业服饰、日常物件或自然生物呈现。",
-    "portraitKind": "object",
-    "objectType": "rope"
+    "note": "自然插画：船尾路人。以清晰的职业服饰、日常物件或自然生物呈现。",
+    "portraitKind": "person",
+    "occupation": "sailor",
+    "gender": "male"
   },
   "暮潮苔痕巡影狼": {
     "family": "wolf",
     "features": [],
     "color": "#7d956f",
     "seed": 3517543018,
-    "note": "自然插画：湿骨狼。以清晰的职业服饰、日常物件或自然生物呈现。",
+    "note": "自然插画：湿毛狼。以清晰的职业服饰、日常物件或自然生物呈现。",
     "portraitKind": "animal"
   },
   "暮潮绒雾折面星客": {
@@ -4534,8 +4680,9 @@
     "color": "#8f795b",
     "seed": 412146169,
     "note": "自然插画：无桨凝视者。以清晰的职业服饰、日常物件或自然生物呈现。",
-    "portraitKind": "object",
-    "objectType": "boat"
+    "portraitKind": "person",
+    "occupation": "courier",
+    "gender": "male"
   },
   "暮潮苔痕甲灯虫": {
     "family": "insect",
@@ -4588,7 +4735,7 @@
     "seed": 3181867326,
     "note": "自然插画：潮下巨人。以清晰的职业服饰、日常物件或自然生物呈现。",
     "portraitKind": "person",
-    "occupation": "sailor",
+    "occupation": "worker",
     "gender": "female"
   },
   "暮潮弧光巡灯使": {
@@ -4597,8 +4744,9 @@
     "color": "#8f795b",
     "seed": 2748953697,
     "note": "自然插画：空网录事。以清晰的职业服饰、日常物件或自然生物呈现。",
-    "portraitKind": "object",
-    "objectType": "radio"
+    "portraitKind": "person",
+    "occupation": "clerk",
+    "gender": "female"
   },
   "暮潮铜缄巡影狼": {
     "family": "wolf",
@@ -4613,9 +4761,10 @@
     "features": [],
     "color": "#a18d6d",
     "seed": 3549771142,
-    "note": "自然插画：湿骨播音人。以清晰的职业服饰、日常物件或自然生物呈现。",
-    "portraitKind": "object",
-    "objectType": "radio"
+    "note": "自然插画：湿衣播音人。以清晰的职业服饰、日常物件或自然生物呈现。",
+    "portraitKind": "person",
+    "occupation": "clerk",
+    "gender": "male"
   },
   "暮潮夜航折面星客": {
     "family": "alien",
@@ -4623,8 +4772,9 @@
     "color": "#b18f80",
     "seed": 2852637863,
     "note": "自然插画：漂流异相。以清晰的职业服饰、日常物件或自然生物呈现。",
-    "portraitKind": "object",
-    "objectType": "book"
+    "portraitKind": "person",
+    "occupation": "courier",
+    "gender": "male"
   },
   "暮潮流砂折面星客": {
     "family": "alien",
@@ -4632,8 +4782,9 @@
     "color": "#6f8b9c",
     "seed": 57143920,
     "note": "自然插画：渔灯凝视者。以清晰的职业服饰、日常物件或自然生物呈现。",
-    "portraitKind": "object",
-    "objectType": "lantern"
+    "portraitKind": "person",
+    "occupation": "courier",
+    "gender": "male"
   },
   "暮潮苔痕锈鬃豕": {
     "family": "boar",
@@ -4692,8 +4843,9 @@
     "color": "#7d956f",
     "seed": 1883013578,
     "note": "自然插画：下沉异客。以清晰的职业服饰、日常物件或自然生物呈现。",
-    "portraitKind": "object",
-    "objectType": "rope"
+    "portraitKind": "person",
+    "occupation": "courier",
+    "gender": "male"
   },
   "暮潮铜缄浮辉使": {
     "family": "spirit",
@@ -4720,8 +4872,9 @@
     "color": "#7d956f",
     "seed": 2059245922,
     "note": "自然插画：旧帆信使。以清晰的职业服饰、日常物件或自然生物呈现。",
-    "portraitKind": "object",
-    "objectType": "letter"
+    "portraitKind": "person",
+    "occupation": "courier",
+    "gender": "male"
   },
   "暮潮回声织光蛛": {
     "family": "spider",
@@ -4737,8 +4890,9 @@
     "color": "#8f795b",
     "seed": 2034970329,
     "note": "自然插画：沉底录事。以清晰的职业服饰、日常物件或自然生物呈现。",
-    "portraitKind": "object",
-    "objectType": "radio"
+    "portraitKind": "person",
+    "occupation": "clerk",
+    "gender": "female"
   },
   "霜枝潜印客领誓·佩芙": {
     "family": "rogue",
@@ -4889,8 +5043,9 @@
     "color": "#b07d60",
     "seed": 3593654779,
     "note": "自然插画：空笛巡守。以清晰的职业服饰、日常物件或自然生物呈现。",
-    "portraitKind": "object",
-    "objectType": "keys"
+    "portraitKind": "person",
+    "occupation": "watch",
+    "gender": "male"
   },
   "霜枝铠卫·米诺": {
     "family": "knight",
@@ -4898,8 +5053,9 @@
     "color": "#b07d60",
     "seed": 2438959883,
     "note": "自然插画：回站守备。以清晰的职业服饰、日常物件或自然生物呈现。",
-    "portraitKind": "object",
-    "objectType": "keys"
+    "portraitKind": "person",
+    "occupation": "watch",
+    "gender": "male"
   },
   "霜枝铠卫·岚诺": {
     "family": "knight",
@@ -4907,8 +5063,9 @@
     "color": "#b18f80",
     "seed": 1362553767,
     "note": "自然插画：长夜执勤者。以清晰的职业服饰、日常物件或自然生物呈现。",
-    "portraitKind": "object",
-    "objectType": "keys"
+    "portraitKind": "person",
+    "occupation": "watch",
+    "gender": "female"
   },
   "霜枝铠卫·索诺": {
     "family": "knight",
@@ -4926,8 +5083,9 @@
     "color": "#b07d60",
     "seed": 3721347427,
     "note": "自然插画：封站巡守。以清晰的职业服饰、日常物件或自然生物呈现。",
-    "portraitKind": "object",
-    "objectType": "letter"
+    "portraitKind": "person",
+    "occupation": "watch",
+    "gender": "male"
   },
   "霜枝铠卫·岑诺": {
     "family": "knight",
@@ -4945,8 +5103,9 @@
     "color": "#b07d60",
     "seed": 867143979,
     "note": "自然插画：雪孔看守。以清晰的职业服饰、日常物件或自然生物呈现。",
-    "portraitKind": "object",
-    "objectType": "keys"
+    "portraitKind": "person",
+    "occupation": "watch",
+    "gender": "female"
   },
   "霜枝铜缄裂角客": {
     "family": "demon",
@@ -4954,8 +5113,9 @@
     "color": "#698c89",
     "seed": 2592029773,
     "note": "自然插画：雪角埃里克。以清晰的职业服饰、日常物件或自然生物呈现。",
-    "portraitKind": "object",
-    "objectType": "satchel"
+    "portraitKind": "person",
+    "occupation": "courier",
+    "gender": "male"
   },
   "霜枝巡灯使·莫诺": {
     "family": "human",
@@ -4973,8 +5133,9 @@
     "color": "#7d956f",
     "seed": 2201662474,
     "note": "自然插画：冻枝信使。以清晰的职业服饰、日常物件或自然生物呈现。",
-    "portraitKind": "object",
-    "objectType": "letter"
+    "portraitKind": "person",
+    "occupation": "courier",
+    "gender": "male"
   },
   "霜枝铠卫·佩诺": {
     "family": "knight",
@@ -4982,8 +5143,9 @@
     "color": "#b18f80",
     "seed": 2807168767,
     "note": "自然插画：雪盲门卫。以清晰的职业服饰、日常物件或自然生物呈现。",
-    "portraitKind": "object",
-    "objectType": "keys"
+    "portraitKind": "person",
+    "occupation": "watch",
+    "gender": "male"
   },
   "霜枝苔痕赤角兽": {
     "family": "bull",
@@ -5017,8 +5179,9 @@
     "color": "#8f795b",
     "seed": 482144049,
     "note": "自然插画：雪孔录事。以清晰的职业服饰、日常物件或自然生物呈现。",
-    "portraitKind": "object",
-    "objectType": "radio"
+    "portraitKind": "person",
+    "occupation": "clerk",
+    "gender": "female"
   },
   "霜枝巡灯使·图诺": {
     "family": "human",
@@ -5036,8 +5199,9 @@
     "color": "#698c89",
     "seed": 4112710957,
     "note": "自然插画：旧哨潜行人。以清晰的职业服饰、日常物件或自然生物呈现。",
-    "portraitKind": "object",
-    "objectType": "rope"
+    "portraitKind": "person",
+    "occupation": "courier",
+    "gender": "male"
   },
   "霜枝潜印客·阿烙": {
     "family": "rogue",
@@ -5045,8 +5209,9 @@
     "color": "#6f8b9c",
     "seed": 2786783992,
     "note": "自然插画：冰后窃听客。以清晰的职业服饰、日常物件或自然生物呈现。",
-    "portraitKind": "object",
-    "objectType": "radio"
+    "portraitKind": "person",
+    "occupation": "courier",
+    "gender": "male"
   },
   "霜枝静棱潜印客": {
     "family": "rogue",
@@ -5054,8 +5219,9 @@
     "color": "#6f8b9c",
     "seed": 500416232,
     "note": "自然插画：无足窃听客。以清晰的职业服饰、日常物件或自然生物呈现。",
-    "portraitKind": "object",
-    "objectType": "radio"
+    "portraitKind": "person",
+    "occupation": "courier",
+    "gender": "male"
   },
   "霜枝绒雾潜印客": {
     "family": "rogue",
@@ -5073,8 +5239,9 @@
     "color": "#8f795b",
     "seed": 3807960633,
     "note": "自然插画：无足潜行人。以清晰的职业服饰、日常物件或自然生物呈现。",
-    "portraitKind": "object",
-    "objectType": "satchel"
+    "portraitKind": "person",
+    "occupation": "courier",
+    "gender": "female"
   },
   "霜枝苔痕折面星客": {
     "family": "alien",
@@ -5082,8 +5249,9 @@
     "color": "#8c91a4",
     "seed": 1009540220,
     "note": "自然插画：雪孔白影。以清晰的职业服饰、日常物件或自然生物呈现。",
-    "portraitKind": "object",
-    "objectType": "book"
+    "portraitKind": "person",
+    "occupation": "courier",
+    "gender": "male"
   },
   "霜枝苔痕浮辉使": {
     "family": "spirit",
@@ -5109,8 +5277,9 @@
     "color": "#8c91a4",
     "seed": 2846635812,
     "note": "自然插画：冷信警卫。以清晰的职业服饰、日常物件或自然生物呈现。",
-    "portraitKind": "object",
-    "objectType": "letter"
+    "portraitKind": "person",
+    "occupation": "watch",
+    "gender": "female"
   },
   "霜枝苔痕环藤蛇": {
     "family": "snake",
@@ -5154,8 +5323,9 @@
     "color": "#698c89",
     "seed": 1560610029,
     "note": "自然插画：断线潜行人。以清晰的职业服饰、日常物件或自然生物呈现。",
-    "portraitKind": "object",
-    "objectType": "satchel"
+    "portraitKind": "person",
+    "occupation": "courier",
+    "gender": "female"
   },
   "霜枝巡灯使·雅烙": {
     "family": "human",
@@ -5173,8 +5343,9 @@
     "color": "#8c91a4",
     "seed": 1404094124,
     "note": "自然插画：冻土租客。以清晰的职业服饰、日常物件或自然生物呈现。",
-    "portraitKind": "object",
-    "objectType": "toolbox"
+    "portraitKind": "person",
+    "occupation": "courier",
+    "gender": "male"
   },
   "霜枝峰脊巨灵·瑟烙": {
     "family": "giant",
@@ -5222,8 +5393,9 @@
     "color": "#a18d6d",
     "seed": 2806482054,
     "note": "自然插画：裂冰夜行客。以清晰的职业服饰、日常物件或自然生物呈现。",
-    "portraitKind": "object",
-    "objectType": "satchel"
+    "portraitKind": "person",
+    "occupation": "courier",
+    "gender": "female"
   },
   "霜枝修灯师·岚烙": {
     "family": "healer",
@@ -5260,7 +5432,7 @@
     "features": [],
     "color": "#a18d6d",
     "seed": 2540493694,
-    "note": "自然插画：断线骨瓮。以清晰的职业服饰、日常物件或自然生物呈现。",
+    "note": "自然插画：断线陶瓮。以清晰的职业服饰、日常物件或自然生物呈现。",
     "portraitKind": "object",
     "objectType": "jar"
   },
@@ -5289,8 +5461,9 @@
     "color": "#b18f80",
     "seed": 3886670623,
     "note": "自然插画：断线巡守。以清晰的职业服饰、日常物件或自然生物呈现。",
-    "portraitKind": "object",
-    "objectType": "keys"
+    "portraitKind": "person",
+    "occupation": "watch",
+    "gender": "male"
   },
   "霜枝藤印铠卫": {
     "family": "knight",
@@ -5298,8 +5471,9 @@
     "color": "#8c91a4",
     "seed": 1135782924,
     "note": "自然插画：长夜警卫。以清晰的职业服饰、日常物件或自然生物呈现。",
-    "portraitKind": "object",
-    "objectType": "keys"
+    "portraitKind": "person",
+    "occupation": "watch",
+    "gender": "female"
   },
   "霜枝雾羽铠卫": {
     "family": "knight",
@@ -5317,8 +5491,9 @@
     "color": "#b07d60",
     "seed": 3502770539,
     "note": "自然插画：雪下搬运工。以清晰的职业服饰、日常物件或自然生物呈现。",
-    "portraitKind": "object",
-    "objectType": "toolbox"
+    "portraitKind": "person",
+    "occupation": "worker",
+    "gender": "male"
   },
   "霜枝石封潜印客": {
     "family": "rogue",
@@ -5326,8 +5501,9 @@
     "color": "#8c91a4",
     "seed": 382054684,
     "note": "自然插画：雪盲窃听客。以清晰的职业服饰、日常物件或自然生物呈现。",
-    "portraitKind": "object",
-    "objectType": "radio"
+    "portraitKind": "person",
+    "occupation": "courier",
+    "gender": "male"
   },
   "霜枝鸣枝潜印客": {
     "family": "rogue",
@@ -5335,8 +5511,9 @@
     "color": "#b07d60",
     "seed": 3190686731,
     "note": "自然插画：白衣尾随者。以清晰的职业服饰、日常物件或自然生物呈现。",
-    "portraitKind": "object",
-    "objectType": "letter"
+    "portraitKind": "person",
+    "occupation": "courier",
+    "gender": "male"
   },
   "霜枝弧光铠卫": {
     "family": "knight",
@@ -5370,17 +5547,19 @@
     "color": "#a18d6d",
     "seed": 494610566,
     "note": "自然插画：冰衣门卫。以清晰的职业服饰、日常物件或自然生物呈现。",
-    "portraitKind": "object",
-    "objectType": "keys"
+    "portraitKind": "person",
+    "occupation": "watch",
+    "gender": "male"
   },
   "霜枝苔痕缄骨客": {
     "family": "undead",
     "features": [],
     "color": "#6f8b9c",
     "seed": 1922645344,
-    "note": "自然插画：黑雪白骨。以清晰的职业服饰、日常物件或自然生物呈现。",
-    "portraitKind": "object",
-    "objectType": "book"
+    "note": "自然插画：黑雪旅人。以清晰的职业服饰、日常物件或自然生物呈现。",
+    "portraitKind": "person",
+    "occupation": "courier",
+    "gender": "male"
   },
   "霜枝铜缄折面星客": {
     "family": "alien",
@@ -5388,8 +5567,9 @@
     "color": "#8c91a4",
     "seed": 619414812,
     "note": "自然插画：旧印异相。以清晰的职业服饰、日常物件或自然生物呈现。",
-    "portraitKind": "object",
-    "objectType": "book"
+    "portraitKind": "person",
+    "occupation": "courier",
+    "gender": "female"
   },
   "霜枝苔痕砂脊蜥": {
     "family": "lizard",
@@ -5435,8 +5615,9 @@
     "color": "#8c91a4",
     "seed": 1214821036,
     "note": "自然插画：旧哨租客。以清晰的职业服饰、日常物件或自然生物呈现。",
-    "portraitKind": "object",
-    "objectType": "book"
+    "portraitKind": "person",
+    "occupation": "courier",
+    "gender": "male"
   },
   "霜枝石封巡灯使": {
     "family": "human",
@@ -5454,8 +5635,9 @@
     "color": "#a18d6d",
     "seed": 1901856078,
     "note": "自然插画：旧哨司灯人。以清晰的职业服饰、日常物件或自然生物呈现。",
-    "portraitKind": "object",
-    "objectType": "lantern"
+    "portraitKind": "person",
+    "occupation": "courier",
+    "gender": "female"
   },
   "霜枝琉纹攀钟猿": {
     "family": "monkey",
@@ -5471,8 +5653,9 @@
     "color": "#8f795b",
     "seed": 1257982113,
     "note": "自然插画：抖雪看守。以清晰的职业服饰、日常物件或自然生物呈现。",
-    "portraitKind": "object",
-    "objectType": "keys"
+    "portraitKind": "person",
+    "occupation": "watch",
+    "gender": "female"
   },
   "霜枝苔痕掠风鸟": {
     "family": "bird",
@@ -5488,8 +5671,9 @@
     "color": "#b07d60",
     "seed": 1542156459,
     "note": "自然插画：寒号看守。以清晰的职业服饰、日常物件或自然生物呈现。",
-    "portraitKind": "object",
-    "objectType": "keys"
+    "portraitKind": "person",
+    "occupation": "watch",
+    "gender": "female"
   },
   "霜枝铜缄微烛铠卫": {
     "family": "knight",
@@ -5497,8 +5681,9 @@
     "color": "#6f8b9c",
     "seed": 1961420968,
     "note": "自然插画：长夜守备。以清晰的职业服饰、日常物件或自然生物呈现。",
-    "portraitKind": "object",
-    "objectType": "keys"
+    "portraitKind": "person",
+    "occupation": "watch",
+    "gender": "male"
   },
   "霜枝铜缄琉纹铠卫": {
     "family": "knight",
@@ -5506,8 +5691,9 @@
     "color": "#8c91a4",
     "seed": 3647122132,
     "note": "自然插画：黑雪执勤者。以清晰的职业服饰、日常物件或自然生物呈现。",
-    "portraitKind": "object",
-    "objectType": "keys"
+    "portraitKind": "person",
+    "occupation": "watch",
+    "gender": "male"
   },
   "霜枝铜缄峰脊巨灵": {
     "family": "giant",
@@ -5515,17 +5701,19 @@
     "color": "#7d956f",
     "seed": 2813516882,
     "note": "自然插画：哑哨搬石者。以清晰的职业服饰、日常物件或自然生物呈现。",
-    "portraitKind": "object",
-    "objectType": "toolbox"
+    "portraitKind": "person",
+    "occupation": "worker",
+    "gender": "male"
   },
   "霜枝铜缄缄骨客": {
     "family": "undead",
     "features": [],
     "color": "#b18f80",
     "seed": 2695509935,
-    "note": "自然插画：雪下尸人。以清晰的职业服饰、日常物件或自然生物呈现。",
-    "portraitKind": "object",
-    "objectType": "lantern"
+    "note": "自然插画：雪下路人。以清晰的职业服饰、日常物件或自然生物呈现。",
+    "portraitKind": "person",
+    "occupation": "courier",
+    "gender": "male"
   },
   "霜枝浮辉使·伦烙": {
     "family": "spirit",
@@ -5573,7 +5761,7 @@
     "seed": 1180579322,
     "note": "自然插画：石碑卫西塞尔。以清晰的职业服饰、日常物件或自然生物呈现。",
     "portraitKind": "person",
-    "occupation": "worker",
+    "occupation": "watch",
     "gender": "male"
   },
   "星铸环藤蛇领誓·阿玟": {
@@ -6140,7 +6328,7 @@
     "seed": 3520529256,
     "note": "自然插画：暗片目击者。以清晰的职业服饰、日常物件或自然生物呈现。",
     "portraitKind": "person",
-    "occupation": "watch",
+    "occupation": "clerk",
     "gender": "female"
   },
   "星铸灯议长·米霖": {
@@ -6289,8 +6477,9 @@
     "color": "#8f795b",
     "seed": 988099393,
     "note": "自然插画：负片巡守。以清晰的职业服饰、日常物件或自然生物呈现。",
-    "portraitKind": "object",
-    "objectType": "keys"
+    "portraitKind": "person",
+    "occupation": "watch",
+    "gender": "male"
   },
   "星铸鸣枝铠卫": {
     "family": "knight",
@@ -6298,8 +6487,9 @@
     "color": "#b07d60",
     "seed": 327452899,
     "note": "自然插画：空瞳巡守。以清晰的职业服饰、日常物件或自然生物呈现。",
-    "portraitKind": "object",
-    "objectType": "keys"
+    "portraitKind": "person",
+    "occupation": "watch",
+    "gender": "male"
   },
   "星铸暖灰铠卫": {
     "family": "knight",
@@ -6307,8 +6497,9 @@
     "color": "#a18d6d",
     "seed": 1999038902,
     "note": "自然插画：删行门卫。以清晰的职业服饰、日常物件或自然生物呈现。",
-    "portraitKind": "object",
-    "objectType": "keys"
+    "portraitKind": "person",
+    "occupation": "watch",
+    "gender": "male"
   },
   "星铸悬灯铠卫": {
     "family": "knight",
@@ -6316,8 +6507,9 @@
     "color": "#b07d60",
     "seed": 3213873403,
     "note": "自然插画：伪证巡守。以清晰的职业服饰、日常物件或自然生物呈现。",
-    "portraitKind": "object",
-    "objectType": "book"
+    "portraitKind": "person",
+    "occupation": "watch",
+    "gender": "male"
   },
   "星铸银露铠卫": {
     "family": "knight",
@@ -6335,8 +6527,9 @@
     "color": "#b07d60",
     "seed": 3744809843,
     "note": "自然插画：白室守备。以清晰的职业服饰、日常物件或自然生物呈现。",
-    "portraitKind": "object",
-    "objectType": "keys"
+    "portraitKind": "person",
+    "occupation": "watch",
+    "gender": "male"
   },
   "星铸雾羽铠卫": {
     "family": "knight",
@@ -6344,8 +6537,9 @@
     "color": "#b07d60",
     "seed": 1421569651,
     "note": "自然插画：缺页巡守。以清晰的职业服饰、日常物件或自然生物呈现。",
-    "portraitKind": "object",
-    "objectType": "book"
+    "portraitKind": "person",
+    "occupation": "watch",
+    "gender": "male"
   },
   "星铸弧光巡灯使": {
     "family": "human",
@@ -6353,8 +6547,9 @@
     "color": "#7d956f",
     "seed": 4227322818,
     "note": "自然插画：负片信使。以清晰的职业服饰、日常物件或自然生物呈现。",
-    "portraitKind": "object",
-    "objectType": "letter"
+    "portraitKind": "person",
+    "occupation": "courier",
+    "gender": "female"
   },
   "星铸微烛观灯师": {
     "family": "mage",
@@ -6362,8 +6557,9 @@
     "color": "#7d956f",
     "seed": 3376546426,
     "note": "自然插画：错字录音师。以清晰的职业服饰、日常物件或自然生物呈现。",
-    "portraitKind": "object",
-    "objectType": "radio"
+    "portraitKind": "person",
+    "occupation": "clerk",
+    "gender": "male"
   },
   "星铸铜缄苔痕巡灯使": {
     "family": "human",
@@ -6371,8 +6567,9 @@
     "color": "#a18d6d",
     "seed": 1595334574,
     "note": "自然插画：门后司灯人。以清晰的职业服饰、日常物件或自然生物呈现。",
-    "portraitKind": "object",
-    "objectType": "lantern"
+    "portraitKind": "person",
+    "occupation": "courier",
+    "gender": "male"
   },
   "星铸苔痕露囊蛙": {
     "family": "frog",
@@ -6388,8 +6585,9 @@
     "color": "#b07d60",
     "seed": 285987707,
     "note": "自然插画：余像搬运工。以清晰的职业服饰、日常物件或自然生物呈现。",
-    "portraitKind": "object",
-    "objectType": "toolbox"
+    "portraitKind": "person",
+    "occupation": "worker",
+    "gender": "male"
   },
   "星铸绒雾裂角客": {
     "family": "demon",
@@ -6397,8 +6595,9 @@
     "color": "#698c89",
     "seed": 1091741765,
     "note": "自然插画：复本罅客。以清晰的职业服饰、日常物件或自然生物呈现。",
-    "portraitKind": "object",
-    "objectType": "rope"
+    "portraitKind": "person",
+    "occupation": "courier",
+    "gender": "male"
   },
   "星铸夜航裂角客": {
     "family": "demon",
@@ -6406,8 +6605,9 @@
     "color": "#b07d60",
     "seed": 3869957955,
     "note": "自然插画：空框窟客。以清晰的职业服饰、日常物件或自然生物呈现。",
-    "portraitKind": "object",
-    "objectType": "toolbox"
+    "portraitKind": "person",
+    "occupation": "courier",
+    "gender": "female"
   },
   "星铸流砂裂角客": {
     "family": "demon",
@@ -6415,8 +6615,9 @@
     "color": "#8f795b",
     "seed": 2192390641,
     "note": "自然插画：失焦罅客。以清晰的职业服饰、日常物件或自然生物呈现。",
-    "portraitKind": "object",
-    "objectType": "satchel"
+    "portraitKind": "person",
+    "occupation": "courier",
+    "gender": "male"
   },
   "星铸镜纹裂角客": {
     "family": "demon",
@@ -6424,8 +6625,9 @@
     "color": "#b07d60",
     "seed": 2242974763,
     "note": "自然插画：折页窟客。以清晰的职业服饰、日常物件或自然生物呈现。",
-    "portraitKind": "object",
-    "objectType": "book"
+    "portraitKind": "person",
+    "occupation": "courier",
+    "gender": "male"
   },
   "星铸远路裂角客": {
     "family": "demon",
@@ -6433,8 +6635,9 @@
     "color": "#6f8b9c",
     "seed": 992457768,
     "note": "自然插画：无面角客。以清晰的职业服饰、日常物件或自然生物呈现。",
-    "portraitKind": "object",
-    "objectType": "toolbox"
+    "portraitKind": "person",
+    "occupation": "courier",
+    "gender": "female"
   },
   "星铸回声潜印客": {
     "family": "rogue",
@@ -6460,9 +6663,10 @@
     "features": [],
     "color": "#b18f80",
     "seed": 2252273887,
-    "note": "自然插画：白室白骨。以清晰的职业服饰、日常物件或自然生物呈现。",
-    "portraitKind": "object",
-    "objectType": "book"
+    "note": "自然插画：白室访客。以清晰的职业服饰、日常物件或自然生物呈现。",
+    "portraitKind": "person",
+    "occupation": "courier",
+    "gender": "male"
   },
   "星铸铜缄缄骨客": {
     "family": "undead",
@@ -6470,8 +6674,9 @@
     "color": "#b07d60",
     "seed": 203796251,
     "note": "自然插画：负片返客。以清晰的职业服饰、日常物件或自然生物呈现。",
-    "portraitKind": "object",
-    "objectType": "lantern"
+    "portraitKind": "person",
+    "occupation": "courier",
+    "gender": "male"
   },
   "星铸石封裂角客": {
     "family": "demon",
@@ -6479,8 +6684,9 @@
     "color": "#a18d6d",
     "seed": 719806310,
     "note": "自然插画：暗片异客。以清晰的职业服饰、日常物件或自然生物呈现。",
-    "portraitKind": "object",
-    "objectType": "rope"
+    "portraitKind": "person",
+    "occupation": "courier",
+    "gender": "male"
   },
   "星铸鸣枝裂角客": {
     "family": "demon",
@@ -6488,8 +6694,9 @@
     "color": "#8c91a4",
     "seed": 1925085780,
     "note": "自然插画：错字角客。以清晰的职业服饰、日常物件或自然生物呈现。",
-    "portraitKind": "object",
-    "objectType": "book"
+    "portraitKind": "person",
+    "occupation": "courier",
+    "gender": "female"
   },
   "星铸回声掠风鸟": {
     "family": "bird",
@@ -6560,7 +6767,7 @@
     "features": [],
     "color": "#698c89",
     "seed": 3272564021,
-    "note": "自然插画：删行肉块。以清晰的职业服饰、日常物件或自然生物呈现。",
+    "note": "自然插画：删行泥团。以清晰的职业服饰、日常物件或自然生物呈现。",
     "portraitKind": "object",
     "objectType": "jar"
   },
@@ -6596,8 +6803,9 @@
     "color": "#698c89",
     "seed": 3568371613,
     "note": "自然插画：白室罅客。以清晰的职业服饰、日常物件或自然生物呈现。",
-    "portraitKind": "object",
-    "objectType": "satchel"
+    "portraitKind": "person",
+    "occupation": "courier",
+    "gender": "male"
   },
   "星铸铜缄流墨触灵": {
     "family": "octopus",
@@ -6623,17 +6831,18 @@
     "color": "#b18f80",
     "seed": 626214343,
     "note": "自然插画：无面书记。以清晰的职业服饰、日常物件或自然生物呈现。",
-    "portraitKind": "object",
-    "objectType": "book"
+    "portraitKind": "person",
+    "occupation": "clerk",
+    "gender": "male"
   },
   "星铸苔痕石指傀儡": {
     "family": "hand",
     "features": [],
     "color": "#698c89",
     "seed": 2148147845,
-    "note": "自然插画：负片残掌。以清晰的职业服饰、日常物件或自然生物呈现。",
+    "note": "自然插画：负片手套。以清晰的职业服饰、日常物件或自然生物呈现。",
     "portraitKind": "object",
-    "objectType": "toolbox"
+    "objectType": "gloves"
   },
   "星铸铜缄露囊蛙": {
     "family": "frog",
@@ -6674,8 +6883,9 @@
     "color": "#8c91a4",
     "seed": 2202585100,
     "note": "自然插画：折页返客。以清晰的职业服饰、日常物件或自然生物呈现。",
-    "portraitKind": "object",
-    "objectType": "book"
+    "portraitKind": "person",
+    "occupation": "courier",
+    "gender": "male"
   },
   "星铸铜缄线尾鼠": {
     "family": "rat",
@@ -6691,8 +6901,9 @@
     "color": "#8f795b",
     "seed": 871597953,
     "note": "自然插画：白噪看守。以清晰的职业服饰、日常物件或自然生物呈现。",
-    "portraitKind": "object",
-    "objectType": "keys"
+    "portraitKind": "person",
+    "occupation": "watch",
+    "gender": "female"
   },
   "星铸风蚀掠风鸟": {
     "family": "bird",
@@ -6718,8 +6929,9 @@
     "color": "#a18d6d",
     "seed": 3953398078,
     "note": "自然插画：镜后执勤者。以清晰的职业服饰、日常物件或自然生物呈现。",
-    "portraitKind": "object",
-    "objectType": "keys"
+    "portraitKind": "person",
+    "occupation": "watch",
+    "gender": "male"
   },
   "星铸暖灰晶棘蜥龙": {
     "family": "dragon",
@@ -6745,8 +6957,9 @@
     "color": "#6f8b9c",
     "seed": 507755512,
     "note": "自然插画：抹痕执勤者。以清晰的职业服饰、日常物件或自然生物呈现。",
-    "portraitKind": "object",
-    "objectType": "keys"
+    "portraitKind": "person",
+    "occupation": "watch",
+    "gender": "male"
   },
   "星铸铜缄微烛铠卫": {
     "family": "knight",
@@ -6774,8 +6987,9 @@
     "color": "#7d956f",
     "seed": 3822833562,
     "note": "自然插画：伪证警卫。以清晰的职业服饰、日常物件或自然生物呈现。",
-    "portraitKind": "object",
-    "objectType": "book"
+    "portraitKind": "person",
+    "occupation": "watch",
+    "gender": "female"
   },
   "星铸铜缄静棱铠卫": {
     "family": "knight",
@@ -6783,8 +6997,9 @@
     "color": "#a18d6d",
     "seed": 3687404494,
     "note": "自然插画：错字执勤者。以清晰的职业服饰、日常物件或自然生物呈现。",
-    "portraitKind": "object",
-    "objectType": "book"
+    "portraitKind": "person",
+    "occupation": "watch",
+    "gender": "male"
   },
   "星铸铠卫·依沐": {
     "family": "knight",
@@ -6802,8 +7017,9 @@
     "color": "#a18d6d",
     "seed": 3829130494,
     "note": "自然插画：署印警卫。以清晰的职业服饰、日常物件或自然生物呈现。",
-    "portraitKind": "object",
-    "objectType": "book"
+    "portraitKind": "person",
+    "occupation": "watch",
+    "gender": "male"
   },
   "星铸铜缄修灯师": {
     "family": "healer",
@@ -6831,8 +7047,9 @@
     "color": "#6f8b9c",
     "seed": 3446361632,
     "note": "自然插画：空白目击者。以清晰的职业服饰、日常物件或自然生物呈现。",
-    "portraitKind": "object",
-    "objectType": "toolbox"
+    "portraitKind": "person",
+    "occupation": "clerk",
+    "gender": "male"
   },
   "星铸风蚀观灯师": {
     "family": "mage",
@@ -6849,7 +7066,7 @@
     "features": [],
     "color": "#698c89",
     "seed": 3116887917,
-    "note": "自然插画：抹痕肉块。以清晰的职业服饰、日常物件或自然生物呈现。",
+    "note": "自然插画：抹痕泥团。以清晰的职业服饰、日常物件或自然生物呈现。",
     "portraitKind": "object",
     "objectType": "jar"
   },
@@ -6868,7 +7085,7 @@
     "seed": 3589232080,
     "note": "自然插画：署印执勤者。以清晰的职业服饰、日常物件或自然生物呈现。",
     "portraitKind": "person",
-    "occupation": "clerk",
+    "occupation": "watch",
     "gender": "male"
   },
   "星铸铠卫·瑟沐": {
@@ -6887,8 +7104,9 @@
     "color": "#b07d60",
     "seed": 680497619,
     "note": "自然插画：重影守备。以清晰的职业服饰、日常物件或自然生物呈现。",
-    "portraitKind": "object",
-    "objectType": "keys"
+    "portraitKind": "person",
+    "occupation": "watch",
+    "gender": "male"
   },
   "星铸铠卫·希沐": {
     "family": "knight",
@@ -6897,7 +7115,7 @@
     "seed": 920604095,
     "note": "自然插画：署印巡守。以清晰的职业服饰、日常物件或自然生物呈现。",
     "portraitKind": "person",
-    "occupation": "clerk",
+    "occupation": "watch",
     "gender": "male"
   },
   "星铸修灯师·洛沐": {
@@ -6963,7 +7181,7 @@
     "features": [],
     "color": "#6f8b9c",
     "seed": 568508416,
-    "note": "自然插画：反光骨瓮。以清晰的职业服饰、日常物件或自然生物呈现。",
+    "note": "自然插画：反光陶瓮。以清晰的职业服饰、日常物件或自然生物呈现。",
     "portraitKind": "object",
     "objectType": "jar"
   },
@@ -6992,8 +7210,9 @@
     "color": "#6f8b9c",
     "seed": 3827009664,
     "note": "自然插画：无名警卫。以清晰的职业服饰、日常物件或自然生物呈现。",
-    "portraitKind": "object",
-    "objectType": "keys"
+    "portraitKind": "person",
+    "occupation": "watch",
+    "gender": "female"
   },
   "星铸巡灯使·泽沐": {
     "family": "human",
@@ -7029,8 +7248,9 @@
     "color": "#7d956f",
     "seed": 2991026914,
     "note": "自然插画：反光夜行客。以清晰的职业服饰、日常物件或自然生物呈现。",
-    "portraitKind": "object",
-    "objectType": "rope"
+    "portraitKind": "person",
+    "occupation": "courier",
+    "gender": "male"
   },
   "星铸巡灯使·艾洛": {
     "family": "human",
@@ -7109,7 +7329,7 @@
     "seed": 1923330097,
     "note": "自然插画：署印门卫。以清晰的职业服饰、日常物件或自然生物呈现。",
     "portraitKind": "person",
-    "occupation": "clerk",
+    "occupation": "watch",
     "gender": "male"
   },
   "星铸观灯师·维洛": {
@@ -7218,8 +7438,9 @@
     "color": "#b18f80",
     "seed": 1029965511,
     "note": "自然插画：署印失踪者。以清晰的职业服饰、日常物件或自然生物呈现。",
-    "portraitKind": "object",
-    "objectType": "book"
+    "portraitKind": "person",
+    "occupation": "courier",
+    "gender": "female"
   },
   "星铸修灯师·佩洛": {
     "family": "healer",
@@ -7266,9 +7487,10 @@
     "features": [],
     "color": "#b07d60",
     "seed": 3073234099,
-    "note": "自然插画：署印空皮。以清晰的职业服饰、日常物件或自然生物呈现。",
-    "portraitKind": "object",
-    "objectType": "book"
+    "note": "自然插画：署印过客。以清晰的职业服饰、日常物件或自然生物呈现。",
+    "portraitKind": "person",
+    "occupation": "courier",
+    "gender": "male"
   },
   "星铸巡灯使·艾岚": {
     "family": "human",
@@ -7364,8 +7586,9 @@
     "color": "#8f795b",
     "seed": 3319929449,
     "note": "自然插画：门后录事。以清晰的职业服饰、日常物件或自然生物呈现。",
-    "portraitKind": "object",
-    "objectType": "radio"
+    "portraitKind": "person",
+    "occupation": "clerk",
+    "gender": "male"
   },
   "星铸环藤蛇·洛岚": {
     "family": "snake",
@@ -7451,9 +7674,9 @@
     "features": [],
     "color": "#a18d6d",
     "seed": 3377057862,
-    "note": "自然插画：无形断手。以清晰的职业服饰、日常物件或自然生物呈现。",
+    "note": "自然插画：无形手套。以清晰的职业服饰、日常物件或自然生物呈现。",
     "portraitKind": "object",
-    "objectType": "toolbox"
+    "objectType": "gloves"
   },
   "折光铠卫领誓·泽岚": {
     "family": "knight",
@@ -7472,7 +7695,7 @@
     "seed": 1665166448,
     "note": "自然插画：假影目击者。以清晰的职业服饰、日常物件或自然生物呈现。",
     "portraitKind": "person",
-    "occupation": "watch",
+    "occupation": "clerk",
     "gender": "male"
   },
   "折光铠卫领誓·芮岚": {
@@ -7588,8 +7811,9 @@
     "color": "#6f8b9c",
     "seed": 7390576,
     "note": "自然插画：底光执勤者。以清晰的职业服饰、日常物件或自然生物呈现。",
-    "portraitKind": "object",
-    "objectType": "keys"
+    "portraitKind": "person",
+    "occupation": "watch",
+    "gender": "male"
   },
   "折光绒雾铠卫": {
     "family": "knight",
@@ -7597,8 +7821,9 @@
     "color": "#b07d60",
     "seed": 1720561067,
     "note": "自然插画：光孔守备。以清晰的职业服饰、日常物件或自然生物呈现。",
-    "portraitKind": "object",
-    "objectType": "keys"
+    "portraitKind": "person",
+    "occupation": "watch",
+    "gender": "male"
   },
   "折光夜航铠卫": {
     "family": "knight",
@@ -7606,8 +7831,9 @@
     "color": "#6f8b9c",
     "seed": 2509681384,
     "note": "自然插画：漏光执勤者。以清晰的职业服饰、日常物件或自然生物呈现。",
-    "portraitKind": "object",
-    "objectType": "keys"
+    "portraitKind": "person",
+    "occupation": "watch",
+    "gender": "male"
   },
   "折光苔痕浮辉使": {
     "family": "spirit",
@@ -7624,8 +7850,9 @@
     "color": "#b07d60",
     "seed": 3044936643,
     "note": "自然插画：失真看守。以清晰的职业服饰、日常物件或自然生物呈现。",
-    "portraitKind": "object",
-    "objectType": "keys"
+    "portraitKind": "person",
+    "occupation": "watch",
+    "gender": "female"
   },
   "折光镜纹铠卫": {
     "family": "knight",
@@ -7633,8 +7860,9 @@
     "color": "#7d956f",
     "seed": 330815034,
     "note": "自然插画：空膜警卫。以清晰的职业服饰、日常物件或自然生物呈现。",
-    "portraitKind": "object",
-    "objectType": "keys"
+    "portraitKind": "person",
+    "occupation": "watch",
+    "gender": "female"
   },
   "折光苔痕裂角客": {
     "family": "demon",
@@ -7642,8 +7870,9 @@
     "color": "#8c91a4",
     "seed": 2916620964,
     "note": "自然插画：无形角客。以清晰的职业服饰、日常物件或自然生物呈现。",
-    "portraitKind": "object",
-    "objectType": "toolbox"
+    "portraitKind": "person",
+    "occupation": "courier",
+    "gender": "female"
   },
   "折光铜缄观灯师": {
     "family": "mage",
@@ -7661,8 +7890,9 @@
     "color": "#8f795b",
     "seed": 3204930481,
     "note": "自然插画：裂镜罅客。以清晰的职业服饰、日常物件或自然生物呈现。",
-    "portraitKind": "object",
-    "objectType": "satchel"
+    "portraitKind": "person",
+    "occupation": "courier",
+    "gender": "male"
   },
   "折光铜缄枝灯树灵": {
     "family": "plant",
@@ -7730,8 +7960,9 @@
     "color": "#8f795b",
     "seed": 2964076601,
     "note": "自然插画：镜外守备。以清晰的职业服饰、日常物件或自然生物呈现。",
-    "portraitKind": "object",
-    "objectType": "keys"
+    "portraitKind": "person",
+    "occupation": "watch",
+    "gender": "male"
   },
   "折光石封铠卫": {
     "family": "knight",
@@ -7739,8 +7970,9 @@
     "color": "#8c91a4",
     "seed": 3902516252,
     "note": "自然插画：暗面门卫。以清晰的职业服饰、日常物件或自然生物呈现。",
-    "portraitKind": "object",
-    "objectType": "keys"
+    "portraitKind": "person",
+    "occupation": "watch",
+    "gender": "male"
   },
   "折光鸣枝铠卫": {
     "family": "knight",
@@ -7748,8 +7980,9 @@
     "color": "#b18f80",
     "seed": 1467534439,
     "note": "自然插画：复影巡守。以清晰的职业服饰、日常物件或自然生物呈现。",
-    "portraitKind": "object",
-    "objectType": "keys"
+    "portraitKind": "person",
+    "occupation": "watch",
+    "gender": "male"
   },
   "折光铠卫·洛泽": {
     "family": "knight",
@@ -7777,8 +8010,9 @@
     "color": "#b18f80",
     "seed": 595318679,
     "note": "自然插画：余幕守备。以清晰的职业服饰、日常物件或自然生物呈现。",
-    "portraitKind": "object",
-    "objectType": "keys"
+    "portraitKind": "person",
+    "occupation": "watch",
+    "gender": "male"
   },
   "折光巡灯使·索泽": {
     "family": "human",
@@ -7796,8 +8030,9 @@
     "color": "#8f795b",
     "seed": 4112376169,
     "note": "自然插画：无形录事。以清晰的职业服饰、日常物件或自然生物呈现。",
-    "portraitKind": "object",
-    "objectType": "radio"
+    "portraitKind": "person",
+    "occupation": "clerk",
+    "gender": "male"
   },
   "折光巡灯使·岑泽": {
     "family": "human",
@@ -7825,8 +8060,9 @@
     "color": "#b18f80",
     "seed": 309064439,
     "note": "自然插画：凹痕书记。以清晰的职业服饰、日常物件或自然生物呈现。",
-    "portraitKind": "object",
-    "objectType": "book"
+    "portraitKind": "person",
+    "occupation": "clerk",
+    "gender": "male"
   },
   "折光枝灯树灵·伦泽": {
     "family": "plant",
@@ -7863,8 +8099,9 @@
     "color": "#b18f80",
     "seed": 360393879,
     "note": "自然插画：镜外看守。以清晰的职业服饰、日常物件或自然生物呈现。",
-    "portraitKind": "object",
-    "objectType": "keys"
+    "portraitKind": "person",
+    "occupation": "watch",
+    "gender": "female"
   },
   "折光铠卫·芮泽": {
     "family": "knight",
@@ -7883,7 +8120,7 @@
     "seed": 106572712,
     "note": "自然插画：余幕目击者。以清晰的职业服饰、日常物件或自然生物呈现。",
     "portraitKind": "person",
-    "occupation": "watch",
+    "occupation": "clerk",
     "gender": "male"
   },
   "折光铠卫·艾翎": {
@@ -7892,8 +8129,9 @@
     "color": "#b18f80",
     "seed": 1909664839,
     "note": "自然插画：复影门卫。以清晰的职业服饰、日常物件或自然生物呈现。",
-    "portraitKind": "object",
-    "objectType": "keys"
+    "portraitKind": "person",
+    "occupation": "watch",
+    "gender": "male"
   },
   "折光铠卫·伊翎": {
     "family": "knight",
@@ -7911,17 +8149,19 @@
     "color": "#698c89",
     "seed": 1482220989,
     "note": "自然插画：重曝换班人。以清晰的职业服饰、日常物件或自然生物呈现。",
-    "portraitKind": "object",
-    "objectType": "satchel"
+    "portraitKind": "person",
+    "occupation": "courier",
+    "gender": "female"
   },
   "苔庭暖灰缄骨客": {
     "family": "undead",
     "features": [],
     "color": "#a18d6d",
     "seed": 2725078974,
-    "note": "自然插画：林边尸人。以清晰的职业服饰、日常物件或自然生物呈现。",
-    "portraitKind": "object",
-    "objectType": "letter"
+    "note": "自然插画：林边路人。以清晰的职业服饰、日常物件或自然生物呈现。",
+    "portraitKind": "person",
+    "occupation": "courier",
+    "gender": "female"
   },
   "苔庭铜缄掠风鸟": {
     "family": "bird",
@@ -7936,9 +8176,10 @@
     "features": [],
     "color": "#b07d60",
     "seed": 4270855787,
-    "note": "自然插画：雨夜空皮。以清晰的职业服饰、日常物件或自然生物呈现。",
-    "portraitKind": "object",
-    "objectType": "lantern"
+    "note": "自然插画：雨夜过客。以清晰的职业服饰、日常物件或自然生物呈现。",
+    "portraitKind": "person",
+    "occupation": "courier",
+    "gender": "male"
   },
   "砂镜铠卫·乌翎": {
     "family": "knight",
@@ -7946,8 +8187,9 @@
     "color": "#b18f80",
     "seed": 2228406767,
     "note": "自然插画：档后守备。以清晰的职业服饰、日常物件或自然生物呈现。",
-    "portraitKind": "object",
-    "objectType": "book"
+    "portraitKind": "person",
+    "occupation": "watch",
+    "gender": "male"
   },
   "砂镜观灯师·依翎": {
     "family": "mage",
@@ -7965,8 +8207,9 @@
     "color": "#8f795b",
     "seed": 3384427649,
     "note": "自然插画：副档守火人。以清晰的职业服饰、日常物件或自然生物呈现。",
-    "portraitKind": "object",
-    "objectType": "lantern"
+    "portraitKind": "person",
+    "occupation": "courier",
+    "gender": "male"
   },
   "砂镜铠卫领誓·诺翎": {
     "family": "knight",
@@ -7984,8 +8227,9 @@
     "color": "#8c91a4",
     "seed": 1597118732,
     "note": "自然插画：霜牙门卫。以清晰的职业服饰、日常物件或自然生物呈现。",
-    "portraitKind": "object",
-    "objectType": "keys"
+    "portraitKind": "person",
+    "occupation": "watch",
+    "gender": "male"
   },
   "暮潮回声棱耳猎犬": {
     "family": "dog",
@@ -8000,9 +8244,10 @@
     "features": [],
     "color": "#8f795b",
     "seed": 4198154505,
-    "note": "自然插画：枯叶尸人。以清晰的职业服饰、日常物件或自然生物呈现。",
-    "portraitKind": "object",
-    "objectType": "letter"
+    "note": "自然插画：枯叶路人。以清晰的职业服饰、日常物件或自然生物呈现。",
+    "portraitKind": "person",
+    "occupation": "courier",
+    "gender": "female"
   },
   "铜钟铠卫领誓·瑟翎": {
     "family": "knight",
@@ -8020,8 +8265,9 @@
     "color": "#7d956f",
     "seed": 2338425962,
     "note": "自然插画：潮湿夜行客。以清晰的职业服饰、日常物件或自然生物呈现。",
-    "portraitKind": "object",
-    "objectType": "letter"
+    "portraitKind": "person",
+    "occupation": "courier",
+    "gender": "male"
   },
   "暮潮微烛织光蛛": {
     "family": "spider",
@@ -8037,17 +8283,19 @@
     "color": "#8f795b",
     "seed": 3748170193,
     "note": "自然插画：船尾凝视者。以清晰的职业服饰、日常物件或自然生物呈现。",
-    "portraitKind": "object",
-    "objectType": "boat"
+    "portraitKind": "person",
+    "occupation": "sailor",
+    "gender": "male"
   },
   "苔庭缄骨客·维翎": {
     "family": "undead",
     "features": [],
     "color": "#7d956f",
     "seed": 2780656722,
-    "note": "自然插画：落水空皮。以清晰的职业服饰、日常物件或自然生物呈现。",
-    "portraitKind": "object",
-    "objectType": "letter"
+    "note": "自然插画：落水过客。以清晰的职业服饰、日常物件或自然生物呈现。",
+    "portraitKind": "person",
+    "occupation": "courier",
+    "gender": "female"
   },
   "苔庭回声地缝蠕虫": {
     "family": "worm",
@@ -8062,9 +8310,10 @@
     "features": [],
     "color": "#a18d6d",
     "seed": 1690725222,
-    "note": "自然插画：落水白骨。以清晰的职业服饰、日常物件或自然生物呈现。",
-    "portraitKind": "object",
-    "objectType": "letter"
+    "note": "自然插画：落水旅人。以清晰的职业服饰、日常物件或自然生物呈现。",
+    "portraitKind": "person",
+    "occupation": "courier",
+    "gender": "female"
   },
   "砂镜回声浮辉使": {
     "family": "spirit",
@@ -8080,9 +8329,10 @@
     "features": [],
     "color": "#7d956f",
     "seed": 874378954,
-    "note": "自然插画：封档白骨。以清晰的职业服饰、日常物件或自然生物呈现。",
-    "portraitKind": "object",
-    "objectType": "letter"
+    "note": "自然插画：封档文员。以清晰的职业服饰、日常物件或自然生物呈现。",
+    "portraitKind": "person",
+    "occupation": "clerk",
+    "gender": "male"
   },
   "霜枝铜缄静棱铠卫": {
     "family": "knight",
@@ -8193,9 +8443,9 @@
     "features": [],
     "color": "#b07d60",
     "seed": 3322870459,
-    "note": "自然插画：掘墓人阿莫斯。与对应普通卡共用人物或物件形象，以金色牌面区分。",
+    "note": "自然插画：掘土人阿莫斯。与对应普通卡共用人物或物件形象，以金色牌面区分。",
     "portraitKind": "person",
-    "occupation": "courier",
+    "occupation": "worker",
     "gender": "male"
   },
   "鎏金·暮潮灯议长·乌汀": {
@@ -8255,7 +8505,7 @@
     "seed": 209973967,
     "note": "自然插画：旧印门卫沃尔特。与对应普通卡共用人物或物件形象，以金色牌面区分。",
     "portraitKind": "person",
-    "occupation": "clerk",
+    "occupation": "watch",
     "gender": "male"
   },
   "鎏金·砂镜潮纹游鱼领誓·依瑟": {
@@ -8328,11 +8578,12 @@
     "features": [],
     "color": "#7f8960",
     "seed": 2718568243,
-    "note": "自然插画：断角客亚伯。与对应普通卡共用人物或物件形象，以金色牌面区分。",
+    "note": "牌面：断角客亚伯。正常成年人物，头顶仅一只清楚可见的角；沿用羊皮纸墨线风格。",
     "portraitKind": "person",
     "role": "roadworker",
     "occupation": "worker",
-    "gender": "male"
+    "gender": "male",
+    "portraitVariant": "single-horn"
   },
   "鎏金·铜钟铠卫领誓·瑟翎": {
     "family": "knight",
@@ -8629,7 +8880,7 @@
     "seed": 3673381497,
     "note": "自然插画：旧警卫欧文。与对应普通卡共用人物或物件形象，以金色牌面区分。",
     "portraitKind": "person",
-    "occupation": "clerk",
+    "occupation": "watch",
     "gender": "male"
   },
   "鎏金·苔庭织光蛛领誓·雅珀": {
@@ -8645,10 +8896,10 @@
     "features": [],
     "color": "#698c89",
     "seed": 3302407422,
-    "note": "自然插画：搬尸人雨果。与对应普通卡共用人物或物件形象，以金色牌面区分。",
+    "note": "自然插画：搬运工雨果。与对应普通卡共用人物或物件形象，以金色牌面区分。",
     "portraitKind": "person",
     "occupation": "worker",
-    "gender": "female"
+    "gender": "male"
   },
   "鎏金·苔庭铠卫领誓·维珀": {
     "family": "knight",
@@ -8713,9 +8964,9 @@
     "features": [],
     "color": "#8f795b",
     "seed": 914373133,
-    "note": "自然插画：守尸人莫里斯。与对应普通卡共用人物或物件形象，以金色牌面区分。",
+    "note": "自然插画：看守人莫里斯。与对应普通卡共用人物或物件形象，以金色牌面区分。",
     "portraitKind": "person",
-    "occupation": "worker",
+    "occupation": "watch",
     "gender": "male"
   },
   "鎏金·铜钟环藤蛇领誓·伦拉": {
@@ -8782,7 +9033,7 @@
     "seed": 1444907211,
     "note": "自然插画：炉门卫古斯。与对应普通卡共用人物或物件形象，以金色牌面区分。",
     "portraitKind": "person",
-    "occupation": "worker",
+    "occupation": "watch",
     "gender": "male"
   },
   "鎏金·炽砂灯议长·诺弥": {
@@ -8810,9 +9061,9 @@
     "features": [],
     "color": "#a18d6d",
     "seed": 254925480,
-    "note": "自然插画：拾骨人托比亚斯。与对应普通卡共用人物或物件形象，以金色牌面区分。",
+    "note": "自然插画：拾荒人托比亚斯。与对应普通卡共用人物或物件形象，以金色牌面区分。",
     "portraitKind": "person",
-    "occupation": "clerk",
+    "occupation": "worker",
     "gender": "male"
   },
   "鎏金·炽砂峰脊巨灵领誓·索弥": {
@@ -8890,7 +9141,7 @@
     "features": [],
     "color": "#698c89",
     "seed": 3324413946,
-    "note": "自然插画：浮尸鹿奥林。与对应普通卡共用人物或物件形象，以金色牌面区分。",
+    "note": "自然插画：渡口鹿奥林。与对应普通卡共用人物或物件形象，以金色牌面区分。",
     "portraitKind": "animal"
   },
   "鎏金·暮潮灯议长·佩尘": {
@@ -8975,8 +9226,9 @@
     "color": "#698c89",
     "seed": 1111808340,
     "note": "自然插画：雪角埃里克。与对应普通卡共用人物或物件形象，以金色牌面区分。",
-    "portraitKind": "object",
-    "objectType": "satchel"
+    "portraitKind": "person",
+    "occupation": "courier",
+    "gender": "male"
   },
   "鎏金·霜枝苔痕赤角兽": {
     "family": "bull",
@@ -9086,7 +9338,7 @@
     "seed": 439964938,
     "note": "自然插画：石碑卫西塞尔。与对应普通卡共用人物或物件形象，以金色牌面区分。",
     "portraitKind": "person",
-    "occupation": "worker",
+    "occupation": "watch",
     "gender": "male"
   },
   "鎏金·星铸铠卫领誓·米玟": {

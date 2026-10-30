@@ -521,8 +521,8 @@
     "ashCost": 1,
     "cooldownRounds": 1,
     "nameEn": "Turned Earth",
-    "flavor": "掘墓人扒开刚落下的湿土，找到一块还没写名字的木牌，把它插回了桌边。",
-    "flavorEn": "The gravedigger parts fresh wet earth, finds an unnamed marker, and sets it beside the table again."
+    "flavor": "掘土人扒开刚落下的湿土，找到一块还没写名字的木牌，把它插回了桌边。",
+    "flavorEn": "The groundsman parts fresh wet earth, finds an unnamed marker, and sets it beside the table again."
   },
   {
     "id": "boss-36",
@@ -632,7 +632,7 @@
   {
     "id": "boss-43",
     "boss": "霜枝攀钟猿领誓·艾诺",
-    "name": "接骨",
+    "name": "整装",
     "timing": "deploy",
     "description": "从弃牌堆回收一张费用不超过2的卡到手牌，再次部署时只有1血。本场同一张卡最多这样复活一次。",
     "costText": "需要符合费用且本场未这样复活的己方弃牌。",
@@ -640,9 +640,9 @@
     "limitText": "从第2回合开始；成功发动后跳过下一完整回合，再下一回合才能重用。每次固定消耗1张未冻结的手牌余芯，原技能代价另付；条件不足不扣余芯、不进入冷却。",
     "ashCost": 1,
     "cooldownRounds": 1,
-    "nameEn": "Bone Set",
-    "flavor": "断臂猿从废布里取回熟悉的扣子，用一只手按进衣领，旧衣慢慢撑出人的形状。",
-    "flavorEn": "The one-armed ape retrieves a familiar button and fits it into a collar. The old coat slowly fills with a shape."
+    "nameEn": "Refit",
+    "flavor": "断臂猿从废布里取回熟悉的扣子，用一只手扣好自己身上的旧外套。",
+    "flavorEn": "The one-armed ape retrieves a familiar button and fastens the old coat it is wearing."
   },
   {
     "id": "boss-44",
@@ -812,7 +812,7 @@
   {
     "id": "boss-55",
     "boss": "苔庭峰脊巨灵领誓·瑟珀",
-    "name": "压棺",
+    "name": "按架",
     "timing": "deploy",
     "description": "选择玩家生命最高的一张有攻击力的卡，使其本轮不能移动，第一次攻击伤害减少1。",
     "costText": "需要有攻击力的玩家卡。",
@@ -821,8 +821,8 @@
     "ashCost": 1,
     "cooldownRounds": 1,
     "nameEn": "Hold the Lid",
-    "flavor": "他把担架放下，只按住一角；里面的动静停了，门框却矮了一寸。",
-    "flavorEn": "He lowers the stretcher and holds one corner. Movement beneath it stops. The doorway is an inch shorter."
+    "flavor": "他把担架放下，按稳一角，等伤员坐好才招呼门边的人一起抬。",
+    "flavorEn": "He steadies one corner of the stretcher and waits for the injured traveler to settle before calling for help to lift it."
   },
   {
     "id": "boss-56",
@@ -917,17 +917,17 @@
   {
     "id": "boss-62",
     "boss": "铜钟缄骨客领誓·岑拉",
-    "name": "推柩",
+    "name": "推车",
     "timing": "deploy",
-    "description": "消耗一张己方弃牌，在空格召唤1攻1血、具有击退的骸骨车轮；不能献祭。",
+    "description": "消耗一张己方弃牌，在空格召唤1攻1血、具有击退的旧木车轮；不能献祭。",
     "costText": "消耗一张己方弃牌，需要空格。",
     "triggerText": "Boss部署阶段发动。",
     "limitText": "从第2回合开始；成功发动后跳过下一完整回合，再下一回合才能重用。每次固定消耗1张未冻结的手牌余芯，原技能代价另付；条件不足不扣余芯、不进入冷却。",
     "ashCost": 1,
     "cooldownRounds": 1,
-    "nameEn": "Set the Bier Rolling",
-    "flavor": "守尸人给小车轮轴添油，油瓶空了很久，车底仍滴着新鲜的黑水。",
-    "flavorEn": "The mortuary keeper oils the cart axle. The bottle has long been empty, but fresh black water drips underneath."
+    "nameEn": "Set the Cart Rolling",
+    "flavor": "看守人给小车轮轴添油，油瓶空了很久，车底仍滴着新鲜的黑水。",
+    "flavorEn": "The caretaker oils the cart axle. The bottle has long been empty, but fresh black water drips underneath."
   },
   {
     "id": "boss-63",
@@ -1076,8 +1076,8 @@
     "ashCost": 1,
     "cooldownRounds": 1,
     "nameEn": "End Seats",
-    "flavor": "他沿着车间最外两排收骨，经过中间空座时，仍替人扶了一下椅背。",
-    "flavorEn": "He gathers bones along the two outer rows. Passing the empty middle seats, he steadies a chair for someone."
+    "flavor": "他沿着车间最外两排收拾工具，经过中间空座时，仍替人扶了一下椅背。",
+    "flavorEn": "He collects tools along the two outer rows. Passing the empty middle seats, he steadies a chair for someone."
   },
   {
     "id": "boss-73",
@@ -1204,7 +1204,7 @@
     "boss": "暮潮灯议长·佩尘",
     "name": "旧锚",
     "timing": "deploy",
-    "description": "消耗一张己方弃牌，在空格召唤0攻2血、具有守护的墓地伏影；不能献祭，本轮结束消失。",
+    "description": "消耗一张己方弃牌，在空格召唤0攻2血、具有守护的港口伏影；不能献祭，本轮结束消失。",
     "costText": "消耗一张己方弃牌，需要空格。",
     "triggerText": "Boss部署阶段发动。",
     "limitText": "从第2回合开始；成功发动后跳过下一完整回合，再下一回合才能重用。每次固定消耗1张未冻结的手牌余芯，原技能代价另付；条件不足不扣余芯、不进入冷却。",

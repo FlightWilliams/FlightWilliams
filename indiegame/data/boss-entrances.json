@@ -20,11 +20,11 @@
     "speaker": "苔庭裂角客领誓·阿珀",
     "zh": {
       "title": "让照片落到地图上",
-      "text": "亚伯没有让你凭照片认路。他量了量背景里的栏杆，把街图转向窗外：“这里通往撤离转运点，不是墓地。”\n你们决定先查这条路上的来往记录。照片能提供地点，还不能说明谁受了伤、谁又已经回来。"
+      "text": "亚伯没有让你凭照片认路。他量了量背景里的栏杆，把街图转向窗外：“这里通往撤离转运点，不是镇外的荒地。”\n你们决定先查这条路上的来往记录。照片能提供地点，还不能说明谁受了伤、谁又已经回来。"
     },
     "en": {
       "title": "Place the Photograph on the Map",
-      "text": "Abel measures the railing in the photograph and turns the map toward the window. “This road leads to the evacuation transfer point, not the cemetery.”\nYou will check the traffic recorded along it. The photograph offers a location, not yet an answer about who was hurt or who returned."
+      "text": "Abel measures the railing in the photograph and turns the map toward the window. “This road leads to the evacuation transfer point, not the wasteland outside town.”\nYou will check the traffic recorded along it. The photograph offers a location, not yet an answer about who was hurt or who returned."
     }
   },
   "苔庭赤角兽领誓·艾珀": {
@@ -159,12 +159,12 @@
     "kind": "hostile",
     "speaker": "苔庭铠卫·雅恩",
     "zh": {
-      "title": "空栏不能变成墓碑",
-      "text": "守墓地的人指着空白的寻获栏，坚持说你该留下姓名、不要再往前走。诺亚将案卷收回，问他亲眼见到过什么。\n对方答不出来。你们不会因为一栏尚未填写，就接受他替你安排的结局；先把已经确认的回镇记录带走。"
+      "title": "空栏不能替人下结论",
+      "text": "照看荒地的人指着空白的寻获栏，坚持说你该留下姓名、不要再往前走。诺亚将案卷收回，问他亲眼见到过什么。\n对方答不出来。你们不会因为一栏尚未填写，就接受他替你安排的结局；先把已经确认的回镇记录带走。"
     },
     "en": {
-      "title": "An Empty Field Is Not a Grave",
-      "text": "A cemetery keeper points at the blank “Found” field and insists you leave your name and stop searching. Noah asks what he actually witnessed.\nThere is no answer. An unfinished field is no reason to accept the ending he assigns you. You retain the verified record of your return."
+      "title": "An Empty Field Is Not a Verdict",
+      "text": "A groundskeeper points at the blank “Found” field and insists you leave your name and stop searching. Noah asks what he actually witnessed.\nThere is no answer. An unfinished field is no reason to accept the ending he assigns you. You retain the verified record of your return."
     }
   },
   "苔庭铠卫领誓·阿恩": {
@@ -285,12 +285,12 @@
     "kind": "support",
     "speaker": "苔庭铠卫·雅恩",
     "zh": {
-      "title": "抄件漏了一个字",
-      "text": "诺亚在搬运单上找到完整用途：运送伤员。短抄件只剩下“搬运”，才让你误以为那是处理尸体的记录。\n他将两张纸一同留下。别人省掉的一个字，不该替你决定那夜所有人的生死；还得听当时正在安排撤离的人。"
+      "title": "抄件漏了用途",
+      "text": "诺亚在搬运单上找到完整用途：运送伤员。短抄件只剩下“搬运”，才让你误以为那是运送废弃物的记录。\n他将两张纸一同留下。被省掉的用途，不该替你决定那夜所有人的生死；还得听当时正在安排撤离的人。"
     },
     "en": {
-      "title": "A Word Missing from the Summary",
-      "text": "Noah finds the full purpose on the transport slip: injured passengers. A shortened copy says only “transport,” which made you imagine bodies.\nHe keeps both versions. An omitted word cannot decide everyone’s fate; you still need the call arranging the evacuation."
+      "title": "A Purpose Missing from the Summary",
+      "text": "Noah finds the full purpose on the transport slip: injured passengers. A shortened copy says only “transport,” which made you assume it concerned discarded equipment.\nHe keeps both versions. An omitted purpose cannot decide everyone’s fate; you still need the call arranging the evacuation."
     }
   },
   "铜钟环藤蛇领誓·伦拉": {
@@ -524,11 +524,11 @@
     "speaker": "炽砂修灯师·瑟罗",
     "zh": {
       "title": "数的是走出去的人",
-      "text": "艾莉残影将疏散点名页展开，指给你看仍能行走、需要搀扶和需要担架的分组。每一栏都在安排救援，没有把受伤的人写成遗骸。\n她请你继续核对出厂交接。人数在门里对得上，还要知道最后是谁把他们领到门外。"
+      "text": "艾莉残影将疏散点名页展开，指给你看仍能行走、需要搀扶和需要担架的分组。每一栏都在安排救援，也写明了受伤的人需要怎样的帮助。\n她请你继续核对出厂交接。人数在门里对得上，还要知道最后是谁把他们领到门外。"
     },
     "en": {
       "title": "Count the People Leaving",
-      "text": "Ellie's Echo unfolds the evacuation sheet: people walking, needing assistance or needing stretchers. Each category concerns rescue, not remains.\nShe asks you to check the handover out of the works. A count inside the door still needs someone to establish who led them outside."
+      "text": "Ellie's Echo unfolds the evacuation sheet: people walking, needing assistance or needing stretchers. Each category records the help the injured people need.\nShe asks you to check the handover out of the works. A count inside the door still needs someone to establish who led them outside."
     }
   },
   "炽砂灯议长·米弥": {
