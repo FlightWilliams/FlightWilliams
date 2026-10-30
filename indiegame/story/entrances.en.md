@@ -8,11 +8,11 @@ By Will Wang. Contains every encounter entrance.
 
 Night Watch Noah first explains the town’s predicament. Since the Ash Works caught fire, the town has been trapped in this one night. Some roads bring you back where you started, and memories lose pieces. He does not know how it began; he only knows that paper and recordings are more reliable than memory.
 
-Noah sets hot tea beside the file and shows you two unanswered fields: who reported you missing, and where you went afterward. Instead of taking the file away, he finds a street map.
+He sets tea beside the file and returns the portable lantern from the desk. Its rim is dented, with soot in one corner of the glass. You cannot remember the roads it traveled, but your hand settles firmly around its worn handle. With the power out, you need light to read the map and watch your footing.
 
-“I saw you return to the duty room. I did not see you disappear. For anything earlier, we need witnesses. Abel knows the roads by the bridge. Finn used to carry messages for the post office.”
+“I saw you bring it back to the duty room. I did not see you disappear,” Noah says. “For anything earlier, we need witnesses. Abel knows the bridge roads. Finn carried messages for the post office.” Recognizing the lantern does not let him invent the rest of your night.
 
-You ask about the people wrapped in blankets in the photograph. Noah points out the bridge, post office and duty room, leaving room for your questions beside them. First sort out what is certain; then follow that route.
+You ask about the people wrapped in blankets in the photograph. Noah marks the bridge, post office and duty room while you write your questions by lamplight. You take both lantern and file: establish your return, then find the people who once followed its light.
 
 ### 2 · Broken Horn Abel · Place the Photograph on the Map
 
@@ -52,11 +52,11 @@ Someone by the newsstand calls the missing notice an obituary and offers to sell
 
 ### 8 · Empty Hands Finn · Finn Keeps the Whole Envelope
 
-Finn waits behind the post office with your envelope. He removes blue thread from its lining, then unfolds the lining in front of you, leaving no hidden pocket.
+Finn waits behind the post office with your envelope. You set the lantern on a dry crate. He removes the blue thread from the lining, then unfolds the lining in front of you, leaving no hidden pocket.
 
-“People used to ask me to deliver only the page they wanted seen. This time, look at all of it.” The knot is backward, like the one at your cuff. Your fingers recognize an old sewing habit.
+“People used to ask me to deliver only the page they wanted seen. This time, look at all of it.” The light reveals the backward knot, like the one at your cuff. Your fingers recognize an old sewing habit.
 
-Does that identify the sender? Finn shakes his head: coats can be borrowed and thread can change hands. He will keep the material intact, not name a culprit for you. Next, compare its transit stamps with the road accounts.
+Does that identify the sender? Finn shakes his head: coats can be borrowed and thread can change hands. Seeing clearly is not the same as establishing a fact. He has you copy the intact envelope’s transit stamps beside the map before packing the original. The lantern lights the road; dates and independent sightings must connect it.
 
 ### 9 · Night Watch Noah · The Stretcher Stopped at the Street
 
@@ -102,21 +102,21 @@ It shows no second version of you. You file the complete print so its location c
 
 ### 16 · Broken Horn Abel · The Bell Tower Comes Next
 
-Abel refolds the map along the bridge, post office and duty room. You can establish a return along the evacuation road, but not yet what happened before it.
+Abel holds the map beside your lantern and traces the verified stretches between bridge, post office and duty room. A person wearing this coat and carrying this lamp returned along the evacuation road. What happened before that remains unestablished.
 
-Finn brings the final transit slip: the file passed through the Bell Tower. A nearby call index records a fire alarm mentioning your name. Noah clips his signed sighting on top so new guesses cannot bury established facts.
+Finn brings the final transit slip: the file passed through the Bell Tower. A call index also records a fire alarm mentioning your name. Noah clips his signed sighting on top so new guesses cannot bury established facts. The dented rim can help someone recognize the lantern; it cannot replace those signatures.
 
-“Hear the original words. Then find who spoke them.” Abel points to the tower. After checking these independent accounts, you will seek the original tape, with a specific question instead of another rumor about your death.
+“Hear the original words. Then find who spoke them.” Abel points to the tower and holds down a corner of the map against the wind. You lift the lamp and make room for him beside you. The next questions concern the fire call and the last evacuees, not another rumor about your death in the dark streets.
 
 ## Bell Tower
 
 ### 1 · Night Watch Noah · Hear the Tape with a Traceable Source
 
-Noah sets the duty book by the tower window beside the reference Finn copied at the post office. The great clock has stopped. Instead of asking how many chimes you remember, he requests the connection log.
+The tower has no power. You hang your lantern beside the connection desk so Noah can unfold the duty book and Finn can check the reference copied at the post office. The great clock has stopped. Noah asks for the connection log instead of another account of its chimes.
 
-“The clock stopped. People did not. We need the source of that fire call, not another story attached to 03:17.” Abel checks the old line toward the works.
+“The clock stopped. People did not. We need the source of that fire call, not another story attached to 03:17.” By lamplight, Abel checks that the old line’s direction matches the works plan.
 
-On the tape, a voice like yours tells people not to use the main gate. Noah does not identify it at once. He separates the cards for alarm, opening and evacuation so you can hear a complete sentence before deciding what its speaker was doing.
+On the tape, a voice like yours tells people not to use the main gate. Noah does not identify it at once. He asks you to move the lamp closer to the original notes and hear the words obscured by the alarm. Establish how the speaker wanted people rescued before deciding who spoke.
 
 ### 2 · Empty Hands Finn · Keep the Question Specific
 
@@ -156,11 +156,11 @@ Finn traces the extension to the east-furnace duty room at the Ash Works. There 
 
 ### 8 · Empty Hands Finn · Finn Restores the Missing Word
 
-Finn puts two transcripts before you. One says “Use the main gate”; the other begins “Do not.” He will not let you choose the version that feels better. He asks for the operator’s original notes.
+Finn puts two transcripts beside the lantern. One says “Use the main gate”; the other begins “Do not.” He will not let you choose the version that feels better. He asks the operator to lay the original notes between them.
 
-The tape strains beneath the noise, but the notes preserve the full instruction: “Do not use the main gate. Open the service passage. Take people to the pier.” Listening again, you can hear the urgent negative beneath the alarm.
+The tape strains beneath the noise, but the notes preserve the full instruction: “Do not use the main gate. Open the service passage. Take people to the pier.” You move the lamp so glare on its glass does not obscure the first words. Listening again, you hear the urgent negative beneath the alarm.
 
-“Someone wanted to sell you the shortened version as proof you hurt them.” Finn keeps that copy for comparison. The speaker’s identity is still unconfirmed, but the instruction is clearly avoiding danger, not sending people into the fire.
+“Someone shortened the words to make you accept a different story.” Finn keeps the altered copy for comparison. Familiarity alone cannot identify the voice, but its instruction now describes a route away from the fire. Keep the whole account under the light, and a visible road for anyone following it.
 
 ### 9 · Broken Horn Abel · The Passage Really Exists
 
@@ -206,21 +206,21 @@ That is enough to take to the scene. Voice, name and route can be checked withou
 
 ### 16 · Broken Horn Abel · Take the Complete Words to the Works
 
-Abel packs the tape, original notes and works plan in a firm box marked “East-Furnace Duty Room.” Finn bags the altered transcript separately. Noah records where the originals are kept so nobody can later deny they existed.
+By your lantern, Abel packs the tape, original notes and works plan in a firm box marked “East-Furnace Duty Room.” Finn bags the altered transcript separately. Noah records where the originals are kept so nobody can later deny they existed.
 
-“Now we know what to ask.” Abel traces the service passage. “Why did the caller know this route? Whom did the people at the door see? Where did the last group go?” He draws no exit that has not been checked.
+“Now we know what to ask.” Abel traces the service passage. “Why did the caller know this route? Whom did the people at the door see? Where did the last group go?” The plan stops at what has been checked. He invents no door out of the night.
 
-The familiar voice still unsettles you, but its purpose is clear: rescue. Ellie's Echo and site records can test that account. First finish comparing the sequence, then visit those who witnessed the door.
+You test the handle and carry the lantern to the stairs, waiting until everyone has their footing before descending. Ellie's Echo and the site records can test the rescue account. Take the complete words to the works, and ask whom the lamp in the photograph was helping to leave.
 
 ## Ash Works
 
 ### 1 · Broken Horn Abel · Abel Finds the Right Door
 
-Abel spreads the tower plan outside the works and locates the service passage before checking its direction. He knows roads, but does not claim to have witnessed the whole night. Each line still needs a witness or record.
+Abel spreads the tower plan outside the works. You light the base of the wall while he locates the service passage and checks its direction. He knows roads, but does not claim to have witnessed the whole night. Even a visible door must agree with the plan and records.
 
-The gate book says you entered through the rescue entrance, took no production tools and joined no shift. Finn records that arrival before checking the east-furnace duty-room telephone.
+The gate book says you entered through the rescue entrance, took no production tools and joined no shift. Finn notes the arrival before checking the east-furnace duty-room telephone. The soot in your lantern’s glass unsettles you, but does not by itself establish what you did.
 
-“Hearing you ask for a door to open does not mean you started the fire.” Ellie's Echo has left word that she will explain the passage she held. You need not imagine the whole fire at once: establish what the people entering did, then whether they left.
+“Hearing you ask for a door to open does not mean you started the fire.” Ellie's Echo is willing to explain the passage she held. You raise the lamp so the people behind can see the entrance too. Establish how those entering helped, then whether the last group left.
 
 ### 2 · Empty Hands Finn · The Water Slip Reaches the Clinic
 
@@ -260,11 +260,11 @@ The surrounding negative numbers are continuous. He keeps the other people in fr
 
 ### 8 · Empty Hands Finn · Finn Does Not Hand Over the Original
 
-Someone blocks you, claiming the sealed service door proves nobody could have escaped and demanding the photograph for destruction. Finn puts the original inside his coat and offers a numbered copy instead.
+Someone blocks you, claiming the sealed service door proves nobody could have escaped and demanding the photograph for destruction. Finn puts the original inside his coat and offers a numbered copy. You set the lantern by the door so both sides can read it.
 
-He asks Ellie's Echo when the door closed. She directs you to its supports and the roll call: it was open for the evacuation and sealed against the fire after the last group passed. A seal alone does not distinguish those moments.
+He asks Ellie's Echo when the door closed. She shows you where the supports stood and checks the roll call: the passage opened for evacuation and was sealed against the fire after the last group passed. The seal, opening and closure are different facts. One moment cannot stand for the whole night.
 
-“A copy is enough if he only wants to check.” You follow the sequence of opening, crossing and sealing rather than accept a blanket declaration of death. One vague claim cannot erase the living people in the photograph.
+“A copy is enough if he only wants to check.” You lift the lamp and light the ground as Ellie crosses the threshold, then follow the sequence through to the handover. One vague claim cannot erase the living people in the photograph.
 
 ### 9 · Broken Horn Abel · This Passage Leads to the Harbor
 
@@ -310,21 +310,21 @@ The photograph and roll call now share a location. You take the departure record
 
 ### 16 · Ellie's Echo · Ellie's Echo Takes You to the Gate
 
-Ellie's Echo moves the soup aside and dries a place for the departure slip. She recognizes the lamp and the way you cleared the doorway for an injured traveler. Those are things she witnessed, not comforting details invented for you.
+Ellie's Echo dries a place for the departure slip and asks you to put the lantern beside the photograph. The same dented rim and sooty corner appear there. She recognizes how you raised it ahead of the group and turned to help an injured traveler, but still has you read the roll call and handover.
 
-“I held back fire, not people.” She points through the evacuation order. You led the last group through the passage before the furnace area was sealed. Abel’s route and the originals Finn retained corroborate it.
+“While I hold the lantern, the people behind me still have a way.” She looks at you. “That was what you said. I held the door; you led the last group through the service passage. We sealed the furnace area afterward.” Abel’s route, Finn’s originals and her own sighting now describe the same stretch.
 
-The next entry names the harbor’s final evacuation boat, but she does not sign for the pier. “Beyond that gate, I could not see. Ask whom the boat received, then whether they arrived.” You straighten the blue-stitched cuff. You helped people here, and know which stretch still needs checking.
+The next entry names the harbor’s final evacuation boat, but Ellie does not sign for the pier. She clears ash from the shade’s air holes and returns your lantern. “Beyond the gate, I could not see. Light the road ahead. Ask whom the boat received, then whether they arrived.” You pack the originals, knowing which stretch remains.
 
 ## Sunken Harbor
 
 ### 1 · Broken Horn Abel · Find the Receiving Desk
 
-Abel shelters the factory handover sheet inside his coat and leads you along the coal walkway to the waiting shelter. Amid the noise, he stops at an empty desk and points to the factory transfer sign still tied to its leg.
+Abel shelters the factory handover inside his coat and leads you along the coal walkway to the waiting shelter. You hold the lantern between you, lighting the wet boards so those behind do not lose their footing while staring at the water. He stops at a desk bearing the factory transfer sign.
 
-“This is where the factory sent them. Find who received them before deciding somebody fell into the water.” He lifts the tarpaulin with his broken horn so you can turn the pages in the dry. A receiving entry matches the factory batch number, but your name is absent from the seat list beside it.
+“This is where the factory sent them. Find who received them before deciding somebody fell into the water.” He lifts the tarpaulin with his broken horn so you can turn the pages in the dry. You move the lamp beside the receiving field. Its batch number matches the factory sheet, but your name is absent from the seat list.
 
-Abel does not fill the gap for you. He separates the two sheets and divides the work: he will check the approach, you will identify the boat, and Finn will find whoever copied the list.
+Abel separates the sheets instead of filling the gap for you: he will check the approach, you will identify the boat, and Finn will find the copyist. You take lantern and file into the shelter, remembering Ellie’s account. Your help at the works is established; one omitted line cannot decide the rest.
 
 ### 2 · Broken Horn Abel · Count People Before Tickets
 
@@ -364,11 +364,11 @@ Once the stretcher was secured, you remained beside the crew. Abel writes that d
 
 ### 8 · Empty Hands Finn · Finn Will Not Invent a Ticket
 
-Finn returns from the copying room with a curled carbon sheet between his fingers. For once he does not joke. He shows you the impression beneath the helper entry: your name, followed by “aboard with the last passenger group.”
+Finn returns from the copying room with a curled carbon sheet. He asks you to steady the lantern before reading the impression beneath the helper entry: your name, followed by “aboard with the last passenger group.”
 
-“I can recover an omitted line. I cannot invent a seat you never had.” You ask why Nico lied. Finn shrugs. “Admitting a copying mistake looked worse to him than calling you missing. He chose the easier story.”
+“I can recover an omitted line. I cannot invent a seat you never had.” A crew member checks the entry and remembers you on that same boat, hanging the lantern beside the stretcher so its straps could be secured again. The action agrees with the working copy; it does not establish the later cart transfer.
 
-He gives the original to the captain for verification and keeps the wrong list too. Both must be checked against the landing record: one establishes that you traveled, the other shows where the false report began.
+Finn gives the original to the captain for verification and keeps the wrong list too. You lift the lantern that now lights the boat record and check the landing together: establish that you traveled, and exactly where the helpers’ entry was left out.
 
 ### 9 · Lighthouse Warden Eli · Light Cannot Sign for a Passenger
 
@@ -414,21 +414,21 @@ Your finger follows the map to Snow Station reception and its missing receiving 
 
 ### 16 · Lighthouse Warden Eli · Take the Boat Record to Snow Station
 
-Eli places the repaired lamp by the window and clears space to stamp the verified boat record. Beside him, you can now describe the crossing: you yielded a numbered seat, remained aboard the last boat, and helped transfer the injured after landing.
+Eli puts his own navigation lamp by the window to clear space for the boat record’s verification stamp. Then he tightens the loose handle clasp on your portable lantern. The two lights have different jobs; names and sailings still require the book. A visible light cannot prove someone reached shore.
 
-“I will give the captain an accurate report.” He tucks a dry cloth into your document bag. “At Snow Station, find the receiving window. Do not let them search only the ticket book; helpers may not be in it.”
+You can now describe the crossing: you yielded a numbered seat, stayed aboard the last boat, lit the stretcher straps and helped transfer the injured after landing. “I will give the captain an accurate report.” Eli puts a dry cloth in your document bag. “At Snow Station, find the receiving window, not just the ticket book.”
 
-He signs only what he has verified, without declaring everyone safe in advance. You take the record copy and transfer number. The next task is no longer to guess whether you drowned, but to find who received the group and where you went afterward.
+He signs only what he verified, without declaring everyone safe in advance. You take lantern, record copy and transfer number. Next establish who received the group and where you went afterward. Carry the light ahead; let the records follow the journey one stretch at a time.
 
 ## Snow Station
 
 ### 1 · Ellie's Echo · Warm Your Hands First
 
-Ellie's Echo is heating water at Snow Station's temporary clinic. When you arrive clutching damp papers, she puts a cup in your hands and waits until you can untie the bundle before asking about the harbor.
+Ellie's Echo is heating water at Snow Station’s temporary clinic. You arrive with the lantern in one hand and damp papers in the other. She finds a secure hook for the light, then puts a cup in your hands, waiting until you can untie the bundle before asking about the harbor.
 
-You explain that you gave up your seat but stayed aboard to help. She recognizes the blue cuff. “I gave you the needle and thread. You tied the knot backward yourself. A missing stretch of memory does not erase the person who stopped to help.”
+You explain that you gave up your seat but stayed aboard to help. She recognizes the blue cuff. “I gave you the needle and thread. You tied the knot backward yourself. A missing stretch of memory does not erase the person who stopped to help.” The lantern burns between you. Your promise to those behind no longer depends on your own recollection alone.
 
-She sends the transfer number to Alma at reception. The gap now begins after disembarking: did the group enter the station, and were you among them? You drink the hot water and can finally turn the pages steadily.
+Ellie sends the transfer number to Alma at reception. Once your hands are warm, you take down the lamp and read the names page by page. Establish whether the group entered the station and whether you came with them, without signing for a road not yet checked.
 
 ### 2 · Lighthouse Warden Eli · From the Landing to Reception
 
@@ -468,11 +468,11 @@ She keeps both signatures with their separate functions. Two people handling one
 
 ### 8 · Lighthouse Warden Eli · Eli Leaves the Uncertain Part Open
 
-Eli dries the last page of the boat record beside the radiator and checks the order of landing and cart transfer with you. When you begin writing “everyone reached the White Room,” he stops your pen at the boundary of his signature.
+Eli dries the last page of the boat record beside the radiator. You set the lantern on the table corner and compare the landing with the cart transfer. He asks you to move the shade’s shadow so every name can be read in full.
 
-“I can confirm the landing and the stretcher handover. I did not follow them inside. Reassuring you is no reason to claim another stretch.” He places Alma's station records separately, letting each witness establish only their own part.
+When you begin writing “everyone reached the White Room,” he stops the pen. “I can confirm the landing and stretcher handover. I did not follow them inside. Reassuring you is no reason to claim another stretch.” He lays Alma’s station records separately, letting each witness establish only their own part.
 
-The trail has not broken. The crossing is solid; what remains is the path from the waiting room toward the White Room. Eli returns the book for you to check with station staff. He will give the captain the facts already established.
+The crossing remains solid. The remaining gap is the path from waiting room to White Room. Eli returns the book for you to check with the people who stayed inside. You lift the lamp, making room for established facts and leaving unverified fields open. A gap in your evidence does not erase the part already established.
 
 ### 9 · Frozen Sentry Alma · Separate Arrival from Onward Transfer
 
@@ -518,21 +518,21 @@ You do not declare the White Room investigation finished. This confirmed result 
 
 ### 16 · Frozen Sentry Alma · Alma Hands You the Receipt
 
-Alma binds a copy to the arrival receipt and matches the receiving batch, crew record and your guide entry before asking you to sign for it. Seeing how tightly you hold the pen, she slides the mint closer.
+Alma binds a copy to the arrival receipt and matches the receiving batch, crew record and guide entry. You light the names, checking that the helpers were not omitted again, before signing for the document. Seeing how tightly you hold the pen, she slides the mint closer.
 
-“Snow Station is established. You all reached here, and you later went toward the White Room.” She marks the reception entrance. “Do not go back and wait for somebody to announce your name. Ask who received you there, then how the missing-person application began.”
+“Snow Station is established. You all reached here, and you later went toward the White Room.” She marks reception on the map. “Do not wait for somebody to announce your name. Ask who received you there, then how the missing-person application began.” She will walk the footpath with you, without deciding what happened in a room she has not seen.
 
-You pack her signed receipt and the old broadcast. Alma will keep tracing its routing and stand by the facts already checked, without deciding what happened in a room she did not see. At last you know which door to approach.
+You pack the signed receipt and old broadcast. Holding the lantern on the windward side, you light the ice for those behind you. Keeping their road visible is now something you choose to do. The map and station records establish the destination; the lamp helps you reach it step by step.
 
 ## White Room
 
 ### 1 · Night Watch Noah · Noah Asks for More Than a Name
 
-Noah waits beside the White Room reception desk with his duty book wrapped in its old cloth. Instead of asking how much you remember, he clears space for the factory, boat and station records in the order of your journey.
+Noah waits at White Room reception with his duty book wrapped in its old cloth. You set the lantern from your journey at the center of the table. He clears space for the factory, boat and station evidence in route order, without first asking how much you remember.
 
-“I saw you return to town. These establish where you had been before.” He points to the remaining gap. “Who received you here, and why did you not take the outer door?” For once the missing-person form does not outweigh every other account.
+“I saw you bring the lantern back to town. These establish where you had been before.” Noah points to the remaining gap. “Who received you here, and why did you not take the outer door?” The light falls across independent signatures. Difficulty reading one page cannot make the other two vanish.
 
-He gives you the pen. With three independent sources, you no longer have to prove your existence alone. He will help ask about this room's records, while leaving each witness responsible for what they actually saw.
+He offers the pen. You no longer have to prove your existence alone. You leave room for the recorder and turn the lantern’s handle toward your hand. After checking the final stretch, carry the complete account along the road yourself. The White Room can return paper and recordings to earlier in the night; it cannot walk anyone out.
 
 ### 2 · Night Watch Noah · The Last Arrival in the Reception Book
 
@@ -572,11 +572,11 @@ The guard admits he never checked the attachments. You request a written reason 
 
 ### 8 · Empty Hands Finn · Finn Opens the Dispatch Book
 
-Finn puts the envelope's blue thread beside your cuff under the lamp, then turns the retained dispatch number toward you. This time he hides no corner to make you guess. He waits until you have checked both receiving and dispatch counterfoils.
+Finn asks you to move the lantern beside the dispatch book, lays the envelope’s blue thread beside your cuff and turns the retained envelope number toward you. He hides no corner to make you guess. He waits until you have read the counterfoils from both ends.
 
-“At the post office I could show you the transit slip, not sign for its sender,” he says. “Now we have the retained original. Read it yourself. Do not accept the resemblance just because I say so.” The handwriting ends with your familiar long hook.
+“The post office’s transit slip cannot sign for the sender,” he says. “Now we have the retained original. Check it yourself. Do not trust the resemblance just because I say so.” The handwriting ends with your familiar long hook. The lantern reveals the writing; it cannot explain why the page was written.
 
-He does not announce the answer for you. First establish that it is the same envelope, then hear the application recording. The sender is close to being identified, but motive and early delivery remain separate questions.
+First establish that it is the same envelope, then hear the application recording. Finn holds down the edge curled by the handle instead of announcing the answer. The sender is close to being identified, but the reason for the appeal and the means of its early arrival still need separate explanations.
 
 ### 9 · Frozen Sentry Alma · The Return Slot Sends Records Back
 
@@ -622,8 +622,8 @@ Finn attaches the three sets of evidence to the old file and keeps the corrected
 
 ### 16 · Frozen Sentry Alma · This Time You Know Which Door
 
-Alma lights the outer-door sign and asks you to trace the map yourself. Noah keeps the verified file safe while Finn checks the return-passage sign and makes its destination clearer. They give you time to reach your own conclusion rather than crowding you for an answer.
+Alma asks you to carry your own lantern and trace the map to the outer door. Noah guards the verified file while Finn checks the return-passage sign. They do not hurry you, or promise that following a light will explain everything about the night.
 
-You can explain the factory, the missing seat entry, Snow Station and your arrival in the White Room. The old application was your earlier appeal, and tomorrow was a deliberate choice. The pieces now describe one journey.
+You can describe the works, the missing seat entry, Snow Station and your arrival here. The old application was your earlier appeal; tomorrow was a deliberate date. Besides the dent, the rim bears fine lines worn by a hand. Their origin is still unknown, and you will not invent an answer for them. The journey established this time has independent witnesses.
 
-“Finish this last review, then act on what you know.” Alma points toward the recording desk. The useful warning still needs its source, and the file needs its found entry. You mark the outer exit separately from the return passage. This time you will not simply choose the nearer route.
+“Complete the last account, then walk the road yourself.” Alma points to the recording desk. The warning sent to the past still needs its source, and the file needs its found entry. You distinguish the outer door from the return passage and close your hand around the handle. Whatever remains ahead, take the established facts and your promise to those behind you.

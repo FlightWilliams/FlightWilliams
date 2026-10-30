@@ -1377,3 +1377,7 @@ body.card-lift-active .game-shell .player-board{touch-action:none}
  #lifted-card-layer.lifted-card-layer>.card{transition:none}
  #lifted-card-layer>.card.rare-card .art::before,#lifted-card-layer>.card.rare-card .art::after{animation:none}
 }
+
+/* Keep the current spiral leg visible alongside the encounter information. */
+.spiral-difficulty{color:var(--candle);font-size:11px;line-height:1.5;letter-spacing:0}
+.spiral-difficulty.is-compact{flex:none;font-size:9px;line-height:1.1;white-space:nowrap}

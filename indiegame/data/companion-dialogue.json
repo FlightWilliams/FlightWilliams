@@ -1,11 +1,11 @@
 {
   "苔庭铠卫·雅恩": {
-    "join": "我只替自己见过的事签字。你要再往前查，我带着值班簿一起走。",
-    "joinEn": "I sign only what I saw. If you keep investigating, I will bring the duty book and come with you."
+    "join": "把提灯拿稳，我带上值班簿。你记不清的事，我们拿原件一段段核；后面还有人，不能只顾自己走。",
+    "joinEn": "Keep hold of the lantern. I will bring the duty book. Where memory fails, we will check the originals one stretch at a time. There are people behind us; we cannot think only of our own way out."
   },
   "苔庭裂角客领誓·阿珀": {
-    "join": "我记不住所有人的话，但认得你走过的路。别催，我陪你一段段对。",
-    "joinEn": "I cannot remember every account, but I recognize the road you took. Do not rush me. We can check it one stretch at a time."
+    "join": "灯别只照脚下。你带前面的人走，我在后面数人，到了路口再一起核名单。",
+    "joinEn": "Do not point the lantern only at your feet. Lead the people in front; I will count those behind. At the next junction we will check the names together."
   },
   "苔庭赤角兽领誓·艾珀": {
     "join": "",
@@ -16,8 +16,8 @@
     "joinEn": ""
   },
   "苔庭潜印客·莫恩": {
-    "join": "这回收条放你手里。近路我知道几条，真能出去的，咱们得一起核实。",
-    "joinEn": "You keep the receipt this time. I know several shortcuts. We will check together which one actually leads out."
+    "join": "收条交给你，这回不藏了。你提灯照路，我把每个转寄戳看清；近路是不是真的通，咱们走到头再说。",
+    "joinEn": "You keep the receipt. I will not hide it this time. Hold the lantern while I check each forwarding stamp. We will call a shortcut useful after we have followed it all the way."
   },
   "苔庭铠卫·欧恩": {
     "join": "",
@@ -224,8 +224,8 @@
     "joinEn": ""
   },
   "暮潮灯议长·艾汀": {
-    "join": "船册我带着。空座位不是失踪的人，去找接收他们的那一联。",
-    "joinEn": "I will bring the boat record. An empty seat is not a missing person. Let us find the receiving copy."
+    "join": "船册我带着。你的灯照过船上的担架，但人有没有到站，还得看接收人的签字；我陪你去找。",
+    "joinEn": "I will bring the boat record. Your lantern lit the stretcher aboard, but the receiving signature must establish who reached the station. I will help you find it."
   },
   "暮潮浮辉使领誓·塔尘": {
     "join": "",
@@ -288,8 +288,8 @@
     "joinEn": ""
   },
   "霜枝灯议长·欧诺": {
-    "join": "回执别再塞进袖口。放平，我陪你走到登记窗口，把后来那段也问清。",
-    "joinEn": "Do not stuff the receipt into your sleeve again. Keep it flat. I will go with you to registration and ask what happened afterward."
+    "join": "把灯放稳，先照清回执上的名字。你若记不起来，我就从这一行读给你听；核完到站的人，再一起问往后那段路。",
+    "joinEn": "Set the lantern down so we can read the receipt. If you cannot remember, I will start at this line and read it to you. Once we have checked the arrivals, we can ask about the onward road."
   },
   "霜枝潜印客领誓·依诺": {
     "join": "",
@@ -384,7 +384,7 @@
     "joinEn": ""
   },
   "炽砂修灯师·瑟罗": {
-    "join": "先把这碗汤喝了。门交给留守的人，我跟你去看看最后那批人到底到了没有。",
-    "joinEn": "Finish the soup. The remaining watch can hold the door. I will come and find whether that last group reached safety."
+    "join": "先把汤喝了，灯芯也给我理一理。门有人接守，我陪你去核最后那批人的回执；灯照到的人，一个也别漏记。",
+    "joinEn": "Finish the soup and let me trim that wick. Someone has taken over the door. I will come to check the last group’s receipt; we must account for everyone who passed through your light."
   }
 }

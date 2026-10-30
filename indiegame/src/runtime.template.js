@@ -986,6 +986,16 @@ const DIFFICULTY_ORDER=['mire','brass','cinder','tide','frost','astral'];
 const JOURNEY_STORAGE='lo_journey_progress_v1';
 let journey={cleared:0,unlocked:0,loops:0};
 try{const saved=JSON.parse(localStorage.getItem(JOURNEY_STORAGE)||'null');if(saved&&Number.isInteger(saved.cleared)&&saved.cleared>=0&&saved.cleared<=DIFFICULTY_ORDER.length)journey={cleared:saved.cleared,unlocked:Math.min(6,Math.max(saved.cleared,Number.isInteger(saved.unlocked)?saved.unlocked:0)),loops:Number.isSafeInteger(saved.loops)&&saved.loops>=0?saved.loops:0}}catch{}
+function normaliseSpiralLoop(value){return Number.isSafeInteger(value)&&value>=0?value:0}
+function currentSpiralLoop(game=G){return game?.tutorial?0:normaliseSpiralLoop(game?.spiralLoop??journey.loops)}
+function spiralDifficulty(loop=currentSpiralLoop()){loop=normaliseSpiralLoop(loop);return {loop,attack:Math.ceil(loop/2),health:loop}}
+function spiralDifficultyText(loop=currentSpiralLoop(),compact=false){
+ const level=spiralDifficulty(loop),en=gameLanguage==='en',cycle=en?`Cycle ${level.loop+1}`:`第${level.loop+1}周目`;
+ if(compact)return cycle;
+ if(!level.loop)return cycle+(en?' · Baseline difficulty':' · 初始难度');
+ return cycle+(en?` · Enemy non-summoned cards: +${level.attack} ATK, +${level.health} HP (Wicks excluded)`:` · 敌方非召唤卡攻击+${level.attack}、生命+${level.health}（余芯除外）`);
+}
+function spiralDifficultyHTML(loop=currentSpiralLoop(),compact=false){return `<span class="spiral-difficulty${compact?' is-compact':''}" data-spiral-loop="${normaliseSpiralLoop(loop)}" data-i18n-control title="${esc(spiralDifficultyText(loop))}">${esc(spiralDifficultyText(loop,compact))}</span>`}
 function activeDifficulty(){return DIFFICULTY_ORDER[Math.min(journey.cleared,DIFFICULTY_ORDER.length-1)]}
 let difficulty=activeDifficulty(),catalogGame='all',catalogKind='all',catalogRarity='all',catalogSearch='',catalogPage=0,returnOV='title',customDeck=[];
 try{customDeck=JSON.parse(localStorage.getItem('lo_custom_deck')||'[]')}catch{}
@@ -1001,7 +1011,7 @@ function completeDifficulty(){
 function journeyHTML(){
  const complete=journey.cleared===DIFFICULTY_ORDER.length;
  const note=complete?storyCopy('loop','notice'):(gameLanguage==='en'?`Current site: ${storyWorldName(activeDifficulty())}. Complete all 16 encounters to open the next file.`:`当前现场：${storyWorldName(activeDifficulty())}。完成16场问询，寻找下一份案卷。`);
- return `<div class="journey-panel"><div class="journey-label">${gameLanguage==='en'?'Six sites · 96 witnesses':'六处现场 · 96位知情人'} · ${esc(storyCopy('loop','countLabel',{loop:(journey.loops||0)+1}))}</div><ol class="journey-steps" aria-label="旅途进度">${DIFFICULTY_ORDER.map((key,index)=>`<li class="${index<journey.cleared?'complete':key===activeDifficulty()?'current':'locked'}" ${index===journey.cleared?'aria-current="step"':''}><span class="journey-number">${index<journey.cleared?'✓':index+1}</span><b data-realm-short="${key}">${esc(storyWorldName(key))}</b><small>${index<journey.cleared?(gameLanguage==='en'?'Passed':'已走过'):key===activeDifficulty()?(gameLanguage==='en'?'Here':'身在此处'):(gameLanguage==='en'?'Ahead':'尚未抵达')}</small></li>`).join('')}</ol><p class="journey-description">${esc(note)}</p></div>`;
+ return `<div class="journey-panel"><div class="journey-label">${gameLanguage==='en'?'Six sites · 96 witnesses':'六处现场 · 96位知情人'} · ${esc(storyCopy('loop','countLabel',{loop:(journey.loops||0)+1}))}</div><ol class="journey-steps" aria-label="旅途进度">${DIFFICULTY_ORDER.map((key,index)=>`<li class="${index<journey.cleared?'complete':key===activeDifficulty()?'current':'locked'}" ${index===journey.cleared?'aria-current="step"':''}><span class="journey-number">${index<journey.cleared?'✓':index+1}</span><b data-realm-short="${key}">${esc(storyWorldName(key))}</b><small>${index<journey.cleared?(gameLanguage==='en'?'Passed':'已走过'):key===activeDifficulty()?(gameLanguage==='en'?'Here':'身在此处'):(gameLanguage==='en'?'Ahead':'尚未抵达')}</small></li>`).join('')}</ol><p class="journey-description">${esc(note)}<br>${spiralDifficultyHTML(normaliseSpiralLoop(journey.loops))}</p></div>`;
 }
 function campaignIndex(){return Math.max(0,DIFFICULTY_ORDER.indexOf(difficulty))}
 function otherSide(side){return side==='p'?'e':'p'}
@@ -1148,7 +1158,7 @@ function newRun(){
  difficulty=activeDifficulty();
  STG.splice(0,STG.length,...CAMPAIGNS[difficulty].map(st=>({...st,dk:[]})));
  const carry=getCampaignCarry(difficulty),names=validDeck(customDeck)?customDeck:STARTER;
- G={lv:1,wins:0,kills:0,deck:carry?carry.deck.map(c=>makeCard(c)):names.map(n=>makeCard(collectionCard(n))),reserve:carry?carry.reserve.map(c=>makeCard(c)):[],defeatedBosses:carry?[...carry.defeatedBosses]:[],sel:null,sac:new Set(),busy:1,log:[],history:[],identityRecorded:false};
+ G={spiralLoop:normaliseSpiralLoop(journey.loops),lv:1,wins:0,kills:0,deck:carry?carry.deck.map(c=>makeCard(c)):names.map(n=>makeCard(collectionCard(n))),reserve:carry?carry.reserve.map(c=>makeCard(c)):[],defeatedBosses:carry?[...carry.defeatedBosses]:[],sel:null,sac:new Set(),busy:1,log:[],history:[],identityRecorded:false};
  const remnant=identityForRun();if(remnant&&!G.deck.some(c=>c.n===remnant.n)&&!G.reserve.some(c=>c.n===remnant.n)){const c=makeCard(remnant);if(G.deck.length<DECK_MAX&&collectionHasCopyRoom(c,G.deck))G.deck.push(c);else G.reserve.push(c)}
  G.deck.forEach(collectCard);battle();
 }
@@ -1159,6 +1169,7 @@ function awardCoinWick(first){
  logBattle(`金币化作余芯交给${side==='p'?'你':'Boss'}：后手起手6张，多获得1张余芯；需要自行部署并存活一回合才能献祭。`);render();return true;
 }
 async function battle(){
+ if(!Number.isSafeInteger(G.spiralLoop)||G.spiralLoop<0)G.spiralLoop=normaliseSpiralLoop(journey.loops);
  const game=G,carry=G.hp;Object.assign(G,{hp:G.lv===1?7:Math.min(7,Math.max(4,carry+RULES[difficulty].heal)),ehp:7,p:Array(5).fill(null),e:Array(5).fill(null),turn:1,passiveTurn:-1,sel:null,moveSel:null,freezeChoice:false,busy:1,killer:null,lastHit:null,log:[],rewardClaimed:false,rewardSelection:new Set(),rewardFeedback:"",newRewards:[],newReward:null,bossFarewell:null,deathEcho:null,mustDraw:1,enemyDeployedTurn:0,phase:'opening',coinBonusSide:null,coinBonusGranted:false,entrancePending:false});
  G.sac.clear();G.st=STG[G.lv-1];G.st.dk=stageDeck(G.st);G.ed=opening(shuf(G.st.dk.map(n=>eCard(n,G.st))));G.eh=[];G.draw=opening(shuf(G.deck.map(c=>makeCard(c))));G.hand=[];bossAbilitiesInitBattle();OV=null;
  if(!G.tutorial&&BOSS_ENTRANCES[G.st.boss]){G.entrancePending=true;G.phase='encounter-intro';G.mustDraw=0;G.busy=0;infoPanel='entrance';render();return}
@@ -1175,7 +1186,12 @@ async function dealBattleOpening(game){
  if(roundFirstSide()==='e'){await deployEnemyForRound();if(G!==game||chk())return}
  G.mustDraw=0;G.busy=0;logBattle('首回合无需再抽牌。请自行部署余芯或零费牌，新出场卡须存活到下一回合才能献祭。');render();
 }
-function eCard(n,st){const c=makeCard(POOL.find(c=>c.n===n),true);c.h+=c.c>=2?(RULES[difficulty]?.bonus||0):0;c.h0=c.h;return c}
+function eCard(n,st){
+ const c=makeCard(POOL.find(c=>c.n===n),true),boost=spiralDifficulty();
+ c.h+=c.c>=2?(RULES[difficulty]?.bonus||0):0;
+ if(!c.token&&!c.fod&&c.n!=='余芯'){c.a+=boost.attack;c.h+=boost.health}
+ c.a0=c.a;c.h0=c.h;return c;
+}
 function sacrificeCandidates(c){return LANE_LIST.filter(i=>canSacrificeCard('e',i)).sort((x,y)=>{const a=G.e[x],b=G.e[y];return (a.fod?0:10+a.a*2+a.h)-(b.fod?0:10+b.a*2+b.h)}).slice(0,c.c)}
 function laneScore(c,lane){const target=G.p[lane];if(!target)return c.s==='fly'?2:1;const threat=effectiveCardAttack(target,c),attack=effectiveCardAttack(c,target);return threat*2+(threat>=G.hp?10:0)+(c.s==='guard'&&target.s==='fly'?5:0)+(c.h>dealt(target,c)?2:0)+(attack>=target.h?3:0)}
 // The opening opponent compares legal deployments with keeping its current board.
@@ -1307,7 +1323,7 @@ function pileHTML(side){
  const n=side==='p'?G.draw.length:G.ed.length,total=side==='p'?G.deck.length:G.st.dk.length,layers=Math.min(n,40),depth=Math.min(n*.55,22);
  return `<div class="deck-wrap">${side==='p'?'<button class="deck-access-pile" data-a="deckmanager" aria-label="查看并管理我的卡组">':''}<div class="deck-pile" id="deck-${side}" role="img" aria-label="${side==='p'?'我方':'敌方'}牌堆，剩余${n}张">${n?Array.from({length:layers},(_,i)=>`<div class="deck-layer" style="transform:translate(${i*depth/Math.max(1,layers-1)}px,${-i*depth/Math.max(1,layers-1)}px)"></div>`).join(''):'<span class="deck-empty">空</span>'}</div><div class="deck-info"><span class="deck-name">${side==='p'?'我方':'敌方'}牌堆</span><span class="deck-count"><b>${n}</b><small> / ${total}</small></span></div>${side==='p'?'<span class="deck-management-hint" aria-hidden="true">≡</span></button>':''}</div>`;
 }
-function rulesHTML(){return `<div class="rules-copy"><p class="drawer-eyebrow">FIELD PROCEDURE</p><h2>落牌之前</h2><p>你与敌人各有7点生命、五个战斗格。攻击空位或飞越对手会直击生命，生命归零即落败。</p><button class="tutorial-home-link" data-a="tutorial">重看新手指引 · 界面与出牌</button><button class="tutorial-home-link" data-a="catalog">浏览全部卡牌图鉴</button><h3>保存与继续</h3><p>点牌桌上方的“返回主页”，保存当前关卡、回合、生命、手牌和牌桌。主页点“继续游戏”回到原来的对局；返回主页后刷新页面，仍可从这里继续。发牌与战斗结算期间须等结算完成。新手练习与重战不会覆盖主线存档。</p><h3>卡组与备用</h3><p>出战上限36张，推荐24张；起始卡组至少12张。点牌堆图标查看卡组，按费用、功能、属性或名称排序。排序只改变显示，不改变抽牌顺序。默认初始卡组16张，推荐24张。奖励卡直接加入出战，达到36张上限后才提示整理；已满36张时新奖励放入备用，备用不参加抽牌。</p>${elementRulesHTML()}<h3>拿起与落牌</h3><p>点击可打出的手牌将它拿起。电脑上移动鼠标预览落点，再点击我方格子落牌；手机上先点选手牌，再点击格子落牌，也可按住我方牌桌滑动预览，松手落牌。需要献祭时，先点选足够的成熟祭品。拿起的卡牌与对位敌卡右上角显示克制箭头，落牌后继续显示；空位或无克制关系时不显示。预览不会消耗手牌或祭品。再次点击所选手牌，或点击“取消”，可放回手牌；电脑也可按Esc或右键取消。</p><h3>抽牌与献祭</h3><p>双方基础起手各5张，包含1张余芯，首回合无需再抽牌。每轮回首关掷币后，金币化为1张额外余芯交给后手：先手5张、后手6张。额外余芯不消耗牌库，仍需自行部署并存活到下一回合才能献祭。正式对战由空牌桌开场，双方自行部署；新部署的祭品须存活到下一回合才能献祭。之后每回合免费获得1张余芯，再选择抽1张卡组牌或再取余芯。费用●代表需要献祭的友军数量；新召唤的牌下回合才能献祭。场上余芯标明“新入场”或“可献祭”，敌我使用相同规则。</p><h3>永久收藏与死亡身份</h3><p>未获得的牌以问号背面封存，不能查看能力或自由编入；获得并实际加入出战后才永久解锁。备用中的新牌须先编入并保存。普通出战同名最多2张；鎏金在出战与备用中合计最多1张，余芯不受同名限制。每轮16关内最多暂存1张死亡身份，第二次死亡可保留旧卡或替换新卡；重试自动携带，通关本轮16关后才永久归档并可自由组卡。</p><h3>死亡余芯的成长</h3><p>正式战斗的死亡次数在当前浏览器累计保存。每第3次死亡（第3、6、9次等）单独有33%概率生成比上一份死亡遗骸更强的身份；费用可为1、2或3费，成长存在上限。没有命中不会消耗或削弱已保留的身份。每轮仍最多暂存一张，第二次死亡可比较旧卡与新卡后保留或替换；通关16关后才永久归档，练习不计死亡。</p><h3>我方装备Boss技能</h3><p>与守关Boss同名的普通或鎏金卡部署在我方场上后，可点击我方生命旁的技能按钮装备其专属主动技能；仅在手牌或卡组中不能装备。每回合最多装备一次，从第2回合开始启用。每次成功发动额外消耗一张未冻结的手牌余芯；发动后下一回合冷却，再下一回合才能再次发动，原技能的弃牌、生命等代价仍需另外支付。部署技能在我方部署阶段点击发动；攻击后技能先点击准备，在双方攻击结束后结算。效果中的友军、敌军与代价按我方视角计算。已装备技能可沿用至下回合，来源卡离场或暂时化灰后失效，不能靠换卡或换技能绕过次数限制。</p><h3>Boss主动技能与弃牌</h3><p>每位守关者使用与自身角色和技能搭配的专属卡组。Boss名字旁显示专属技能，点按或悬停阅读时机、代价与本回合状态。从第2回合开始，每次成功发动消耗一张未冻结的手牌余芯，随后跳过下一回合，再下一回合才能重用；没有目标或代价不足时，不扣余芯也不进入冷却，敌我一致。部署类在敌方部署时使用，攻击后类在双方攻击结算后使用。主动丢弃手牌不触发亡语、死亡抽牌或复燃，抽牌仍消耗有限牌堆。双方弃牌堆可在战斗记录中查看。</p><p>暂时余芯化会覆盖玩家下一次完整行动，之后恢复原卡当前攻血与成长，不回满血、不重复入场。余芯被杀或献祭后不再恢复，也不触发原卡亡语；刚恢复的卡有一轮再次变形免疫。</p><h3>鎏金稀有与亡语</h3><p>共有${POOL.filter(c=>c.rarity==='rare'&&!c.token).length}张鎏金卡，含全部96位轮回Boss与旧版收藏，攻防均高于对应普通版。普通通关奖励有5%概率出现当前Boss的鎏金，可从三张中任选一张。每章通关第16关后，只从本章三位主导人物中选择一张。优先提供未拥有的金卡；已拥有或没有金卡版本时提供对应普通卡。成长卡每次以自身攻击击杀敌方卡牌后攻击加1，直击生命或中毒击杀不触发。亡语在死亡和献祭时触发。鎏金灯蛛优先生成于原格与最近空格，位置不足则进入手牌；召唤物须存活到下一回合才能献祭。亡语召唤物不计入稀有收集卡。</p><h3>苔庭潜印客·莫恩与冻结</h3><p>苔庭潜印客·莫恩出场后，可选一张自己的手牌冻结。冻结本回合与下一回合，期间不能打出；第三回合开始自动解冻并减少1点献祭费用，最低0费。手牌上显示剩余回合。右键、Esc或“跳过”可放弃本次效果；已完成的部署不会撤回。冻结与减费仅在本次对战中有效。</p><h3>走位与先攻</h3><p>点选手牌，再选祭品与落点。选错时按鼠标右键或Esc，手机点击“取消”，即可清除选牌、祭品和位移选择。取消仅清除待确认选择，已完成的出牌或移动不会撤回。未选手牌时，点击带横移／换位的友军，再用左右按钮调整位置，每回合一次。换位后双方均不能再次移动；击退不追加攻击。</p><p>每轮回首关，先选契币正反，再点击灯契币投掷：猜中我方先手，否则Boss先手。金币伴随叮声和旋转声落定，再化成余芯交给后手。之后每位Boss的开场先手交替；同一场内逐回合交换先部署与先攻的一方。后手转先手时，Boss可能在回合切换前后连续部署；中央会显示新回合提示，战斗记录按回合分隔，这不代表新放下的余芯可在同回合献祭。双方都部署后才结算攻击，每张存活卡每回合最多攻击一次。守护可以拦截飞行；吸血和中毒只有造成伤害才生效。</p><h3>护盾与重战</h3><p>护盾完整抵消下一次受到的伤害，随后消失；没有造成伤害的攻击不消耗护盾。普通敌卡死亡不再因魂系关卡规则自动生成余芯，只有卡牌自身明确写出的能力才会留下遗骸；新生成的牌仍须等下一回合才能献祭。</p><p>首页和第一关可选择重战已经击败的单个Boss，未通关关卡锁定。重战使用最近保存的卡组，不覆盖主线存档，也不发通关奖励或累计死亡成长。</p><h3>轮回配乐</h3><p>每个轮回按第1–4、5–8、9–12、13–15关分段切换原创配乐，第16关另用最终Boss曲，共30首。顶部音乐按钮可独立开关，按钮说明显示当前曲名与关卡段；静音偏好保存在当前浏览器，切后台暂停、返回恢复。游戏内本地合成，无需额外下载音乐。</p><h3>调查与同行者</h3><p>六位关键人物贯穿六处现场，每章由三人主导。小关卡奖励是收录的卡牌；每章结束只从本章三位主导人物中选一张。只有关键人物会成为同行者，其他对手不会因获得其卡牌而加入。重开调查保留收藏、牌组、同行者与重战解锁，每章仍有16场对局。</p><p>苔雾荒庭 → 铜钟堡垒 → 炽砂熔城 → 暮潮港湾 → 霜枝高地 → 星铸天穹。每轮16位不同守关者，共96关；难度与电脑决策逐轮提升。通关后沿用已获得的出战卡组与备用牌。晋阶和跨难度卡组保存在当前浏览器，回到首页可继续管理；主线在安全出牌节点及关卡结束后自动保存，重新载入会继续上次未完成的位置；未领取奖励保留。第36回合仍未分胜负时，按生命、场面战力裁决；完全同分玩家获胜。</p><p class="drawer-note">手牌较多时可左右滑动；手机长按卡牌查看介绍与完整技能，也可选牌后点“详情”。主线安全节点自动保存；新手与重战不覆盖主线存档。</p></div>`}
+function rulesHTML(){return `<div class="rules-copy"><p class="drawer-eyebrow">FIELD PROCEDURE</p><h2>落牌之前</h2><p>你与敌人各有7点生命、五个战斗格。攻击空位或飞越对手会直击生命，生命归零即落败。</p><button class="tutorial-home-link" data-a="tutorial">重看新手指引 · 界面与出牌</button><button class="tutorial-home-link" data-a="catalog">浏览全部卡牌图鉴</button><h3>保存与继续</h3><p>点牌桌上方的“返回主页”，保存当前关卡、回合、生命、手牌和牌桌。主页点“继续游戏”回到原来的对局；返回主页后刷新页面，仍可从这里继续。发牌与战斗结算期间须等结算完成。新手练习与重战不会覆盖主线存档。</p><h3>卡组与备用</h3><p>出战上限36张，推荐24张；起始卡组至少12张。点牌堆图标查看卡组，按费用、功能、属性或名称排序。排序只改变显示，不改变抽牌顺序。默认初始卡组16张，推荐24张。奖励卡直接加入出战，达到36张上限后才提示整理；已满36张时新奖励放入备用，备用不参加抽牌。</p>${elementRulesHTML()}<h3>提灯与螺旋周目</h3><p>每完成全部六章96关后，下一周目从雾镇重新开始。主角失去记忆，玩家对上一轮的认识以及已经获得的卡牌、收藏、牌组和同行约定保留。敌方非召唤卡（余芯除外）每增加一周目，生命增加1；攻击在第2、4、6周目等轮次各再增加1。第一周目的数值保持原样。场上新召唤的单位不获得周目加成。</p><p>${spiralDifficultyHTML()}</p><h3>拿起与落牌</h3><p>点击可打出的手牌将它拿起。电脑上移动鼠标预览落点，再点击我方格子落牌；手机上先点选手牌，再点击格子落牌，也可按住我方牌桌滑动预览，松手落牌。需要献祭时，先点选足够的成熟祭品。拿起的卡牌与对位敌卡右上角显示克制箭头，落牌后继续显示；空位或无克制关系时不显示。预览不会消耗手牌或祭品。再次点击所选手牌，或点击“取消”，可放回手牌；电脑也可按Esc或右键取消。</p><h3>抽牌与献祭</h3><p>双方基础起手各5张，包含1张余芯，首回合无需再抽牌。每轮回首关掷币后，金币化为1张额外余芯交给后手：先手5张、后手6张。额外余芯不消耗牌库，仍需自行部署并存活到下一回合才能献祭。正式对战由空牌桌开场，双方自行部署；新部署的祭品须存活到下一回合才能献祭。之后每回合免费获得1张余芯，再选择抽1张卡组牌或再取余芯。费用●代表需要献祭的友军数量；新召唤的牌下回合才能献祭。场上余芯标明“新入场”或“可献祭”，敌我使用相同规则。</p><h3>永久收藏与死亡身份</h3><p>未获得的牌以问号背面封存，不能查看能力或自由编入；获得并实际加入出战后才永久解锁。备用中的新牌须先编入并保存。普通出战同名最多2张；鎏金在出战与备用中合计最多1张，余芯不受同名限制。每轮16关内最多暂存1张死亡身份，第二次死亡可保留旧卡或替换新卡；重试自动携带，通关本轮16关后才永久归档并可自由组卡。</p><h3>死亡余芯的成长</h3><p>正式战斗的死亡次数在当前浏览器累计保存。每第3次死亡（第3、6、9次等）单独有33%概率生成比上一份死亡遗骸更强的身份；费用可为1、2或3费，成长存在上限。没有命中不会消耗或削弱已保留的身份。每轮仍最多暂存一张，第二次死亡可比较旧卡与新卡后保留或替换；通关16关后才永久归档，练习不计死亡。</p><h3>我方装备Boss技能</h3><p>与守关Boss同名的普通或鎏金卡部署在我方场上后，可点击我方生命旁的技能按钮装备其专属主动技能；仅在手牌或卡组中不能装备。每回合最多装备一次，从第2回合开始启用。每次成功发动额外消耗一张未冻结的手牌余芯；发动后下一回合冷却，再下一回合才能再次发动，原技能的弃牌、生命等代价仍需另外支付。部署技能在我方部署阶段点击发动；攻击后技能先点击准备，在双方攻击结束后结算。效果中的友军、敌军与代价按我方视角计算。已装备技能可沿用至下回合，来源卡离场或暂时化灰后失效，不能靠换卡或换技能绕过次数限制。</p><h3>Boss主动技能与弃牌</h3><p>每位守关者使用与自身角色和技能搭配的专属卡组。Boss名字旁显示专属技能，点按或悬停阅读时机、代价与本回合状态。从第2回合开始，每次成功发动消耗一张未冻结的手牌余芯，随后跳过下一回合，再下一回合才能重用；没有目标或代价不足时，不扣余芯也不进入冷却，敌我一致。部署类在敌方部署时使用，攻击后类在双方攻击结算后使用。主动丢弃手牌不触发亡语、死亡抽牌或复燃，抽牌仍消耗有限牌堆。双方弃牌堆可在战斗记录中查看。</p><p>暂时余芯化会覆盖玩家下一次完整行动，之后恢复原卡当前攻血与成长，不回满血、不重复入场。余芯被杀或献祭后不再恢复，也不触发原卡亡语；刚恢复的卡有一轮再次变形免疫。</p><h3>鎏金稀有与亡语</h3><p>共有${POOL.filter(c=>c.rarity==='rare'&&!c.token).length}张鎏金卡，含全部96位轮回Boss与旧版收藏，攻防均高于对应普通版。普通通关奖励有5%概率出现当前Boss的鎏金，可从三张中任选一张。每章通关第16关后，只从本章三位主导人物中选择一张。优先提供未拥有的金卡；已拥有或没有金卡版本时提供对应普通卡。成长卡每次以自身攻击击杀敌方卡牌后攻击加1，直击生命或中毒击杀不触发。亡语在死亡和献祭时触发。鎏金灯蛛优先生成于原格与最近空格，位置不足则进入手牌；召唤物须存活到下一回合才能献祭。亡语召唤物不计入稀有收集卡。</p><h3>苔庭潜印客·莫恩与冻结</h3><p>苔庭潜印客·莫恩出场后，可选一张自己的手牌冻结。冻结本回合与下一回合，期间不能打出；第三回合开始自动解冻并减少1点献祭费用，最低0费。手牌上显示剩余回合。右键、Esc或“跳过”可放弃本次效果；已完成的部署不会撤回。冻结与减费仅在本次对战中有效。</p><h3>走位与先攻</h3><p>点选手牌，再选祭品与落点。选错时按鼠标右键或Esc，手机点击“取消”，即可清除选牌、祭品和位移选择。取消仅清除待确认选择，已完成的出牌或移动不会撤回。未选手牌时，点击带横移／换位的友军，再用左右按钮调整位置，每回合一次。换位后双方均不能再次移动；击退不追加攻击。</p><p>每轮回首关，先选契币正反，再点击灯契币投掷：猜中我方先手，否则Boss先手。金币伴随叮声和旋转声落定，再化成余芯交给后手。之后每位Boss的开场先手交替；同一场内逐回合交换先部署与先攻的一方。后手转先手时，Boss可能在回合切换前后连续部署；中央会显示新回合提示，战斗记录按回合分隔，这不代表新放下的余芯可在同回合献祭。双方都部署后才结算攻击，每张存活卡每回合最多攻击一次。守护可以拦截飞行；吸血和中毒只有造成伤害才生效。</p><h3>护盾与重战</h3><p>护盾完整抵消下一次受到的伤害，随后消失；没有造成伤害的攻击不消耗护盾。普通敌卡死亡不再因魂系关卡规则自动生成余芯，只有卡牌自身明确写出的能力才会留下遗骸；新生成的牌仍须等下一回合才能献祭。</p><p>首页和第一关可选择重战已经击败的单个Boss，未通关关卡锁定。重战使用最近保存的卡组，不覆盖主线存档，也不发通关奖励或累计死亡成长。</p><h3>轮回配乐</h3><p>每个轮回按第1–4、5–8、9–12、13–15关分段切换原创配乐，第16关另用最终Boss曲，共30首。顶部音乐按钮可独立开关，按钮说明显示当前曲名与关卡段；静音偏好保存在当前浏览器，切后台暂停、返回恢复。游戏内本地合成，无需额外下载音乐。</p><h3>调查与同行者</h3><p>六位关键人物贯穿六处现场，每章由三人主导。小关卡奖励是收录的卡牌；每章结束只从本章三位主导人物中选一张。只有关键人物会成为同行者，其他对手不会因获得其卡牌而加入。重开调查保留收藏、牌组、同行者与重战解锁，每章仍有16场对局。</p><p>苔雾荒庭 → 铜钟堡垒 → 炽砂熔城 → 暮潮港湾 → 霜枝高地 → 星铸天穹。每轮16位不同守关者，共96关；难度与电脑决策逐轮提升。通关后沿用已获得的出战卡组与备用牌。晋阶和跨难度卡组保存在当前浏览器，回到首页可继续管理；主线在安全出牌节点及关卡结束后自动保存，重新载入会继续上次未完成的位置；未领取奖励保留。第36回合仍未分胜负时，按生命、场面战力裁决；完全同分玩家获胜。</p><p class="drawer-note">手牌较多时可左右滑动；手机长按卡牌查看介绍与完整技能，也可选牌后点“详情”。主线安全节点自动保存；新手与重战不覆盖主线存档。</p></div>`}
 function selectedCard(){return G?.sel!=null?G.hand[G.sel]:G?.moveSel!=null?G.p[G.moveSel]:null}
 function drawerHTML(){
  let title='灯台手册',content=storyJournalButton()+rulesHTML();
@@ -1689,7 +1705,7 @@ window.addEventListener('pagehide',stopInitiativeCoinSounds);
 function bossStageLabelHTML(){
  const stage=G.st;if(G.tutorial)return esc(stage.n);
  const boss=stage.boss||stage.n,split=stage.n.lastIndexOf(boss),region=split>=0?stage.n.slice(0,split).replace(/[\s·]+$/,''):'';
- return `${region?`<span class="stage-region">${esc(region)} · </span>`:''}<span class="combatant-name boss-name" title="${esc(boss)}">${esc(boss)}</span>${typeof bossAbilityButtonHTML==='function'?bossAbilityButtonHTML():''}<span class="stage-progress"> · ${G.lv}/${STG.length}关</span>`;
+ return `${region?`<span class="stage-region">${esc(region)} · </span>`:''}<span class="combatant-name boss-name" title="${esc(boss)}">${esc(boss)}</span>${typeof bossAbilityButtonHTML==='function'?bossAbilityButtonHTML():''}<span class="stage-progress"> · ${G.lv}/${STG.length}关</span>${spiralDifficultyHTML(currentSpiralLoop(),true)}`;
 }
 function healthHTML(side){
  const theme=G.st.pas,life=LIFE_ICONS[theme],hp=G.hp;
@@ -3045,7 +3061,7 @@ async function startBossReplay(game,level){
  if(typeof closeBossAbilityPopover==='function')closeBossAbilityPopover(false);
  if(typeof closePlayerBossSkillPopover==='function')closePlayerBossSkillPopover(false);
  TUT=null;DM=null;HOLD_DETAIL=null;infoPanel=null;detailCardOverride=null;difficulty=game;STG.splice(0,STG.length,...CAMPAIGNS[game].map(st=>({...st,dk:[]})));
- G={replay:true,lv:level,hp:7,wins:0,kills:0,...portfolio,sel:null,sac:new Set(),busy:1,log:[],history:[],identityRecorded:true};
+ G={replay:true,spiralLoop:normaliseSpiralLoop(journey.loops),lv:level,hp:7,wins:0,kills:0,...portfolio,sel:null,sac:new Set(),busy:1,log:[],history:[],identityRecorded:true};
  await battle();return true;
 }
 function finishBossReplay(won){
@@ -3146,6 +3162,7 @@ function checkpointBaseEntry(game=G,key=difficulty){
 }
 function checkpointSave(options={}){
  if(checkpointRestoring||!G||G.tutorial||G.replay||(typeof isBossReplay==='function'&&isBossReplay()))return false;
+ if(G.spiralLoop==null)G.spiralLoop=normaliseSpiralLoop(journey.loops);
  // A pagehide between claiming a reward and entering the next battle must
  // retain the transition marker, rather than turn it into an empty reward page.
  const transition=!!G.rewardClaimed&&(!!options.transition||OV==='win'),terminal=['win','camp','clear','dead'].includes(OV);
@@ -3156,7 +3173,7 @@ function checkpointSave(options={}){
  try{
   const entry=checkpointBaseEntry(),mode=transition&&G.lv<CAMPAIGNS[difficulty].length?'next':'state';
   const overlay=transition?(G.lv>=CAMPAIGNS[difficulty].length?'clear':null):OV;
-  const body={version:CHECKPOINT_VERSION,difficulty,lv:G.lv,overlay,mode,name:typeof pname==='string'?pname:'',identity:checkpointIdentityMark(),journeyCleared:journey.cleared,deckRevision:options.revision??checkpointLatestRevision(),entry:{hp:entry.hp,kills:entry.kills},graph:checkpointGraphEncode(G)};
+  const body={version:CHECKPOINT_VERSION,difficulty,lv:G.lv,overlay,mode,name:typeof pname==='string'?pname:'',identity:checkpointIdentityMark(),journeyCleared:journey.cleared,journeyLoops:normaliseSpiralLoop(journey.loops),spiralLoop:currentSpiralLoop(),deckRevision:options.revision??checkpointLatestRevision(),entry:{hp:entry.hp,kills:entry.kills},graph:checkpointGraphEncode(G)};
   const signature=JSON.stringify(body);if(signature===checkpointLastBody)return true;
   const raw=JSON.stringify({...body,savedAt:Date.now()});if(raw.length>CHECKPOINT_MAX_BYTES)throw Error('quota');
   localStorage.setItem(CHECKPOINT_STORAGE,raw);checkpointLastBody=signature;checkpointLastError='';return true;
@@ -3168,30 +3185,34 @@ function checkpointKnownIdentity(card){
  const archived=typeof collectionCard==='function'?collectionCard(card.n):null;if(archived?.identity&&archived.permanent)known.push(archived);
  return known.some(value=>value.identityId&&value.identityId===card.identityId&&value.n===card.n);
 }
-function checkpointCardValid(card,owned=false,historical=false){
+function checkpointCardValid(card,owned=false,historical=false,spiralLoop=0){
  if(!card||typeof card!=='object'||typeof card.n!=='string'||card.n.length>180)return false;
  for(const field of ['a','h','c'])if(!Number.isFinite(card[field])||!Number.isInteger(card[field]))return false;
- if(card.a<0||card.a>999||card.h< -999||card.h>999||card.c<0||card.c>3)return false;
- if(card.bossWickOriginal&&!checkpointCardValid(card.bossWickOriginal,owned,historical))return false;
+ const boost=spiralDifficulty(spiralLoop);
+ if(card.a<0||card.a>999+boost.attack||card.h< -999||card.h>999+boost.health||card.c<0||card.c>3)return false;
+ if(card.bossWickOriginal&&!checkpointCardValid(card.bossWickOriginal,owned,historical,spiralLoop))return false;
  if(card.identity&&!card.permanent)return checkpointKnownIdentity(card)||historical&&typeof card.identityId==='string'&&card.identityId.startsWith('identity-')&&card.a<=6&&card.h<=9;
  if(card.token||card.fod||['余芯','碎灯偶'].includes(card.n))return true;
  const source=typeof collectionCard==='function'?collectionCard(card.n):POOL.find(value=>value.n===card.n);
  return !!source&&(!owned||typeof isCollected==='function'&&isCollected(source));
 }
 function checkpointGameValid(game,saved){
+ if(game?.spiralLoop!=null&&(!Number.isSafeInteger(game.spiralLoop)||game.spiralLoop<0))return false;
+ if(saved.spiralLoop!=null&&(!Number.isSafeInteger(saved.spiralLoop)||saved.spiralLoop<0||game?.spiralLoop!==saved.spiralLoop))return false;
+ const spiralLoop=normaliseSpiralLoop(game?.spiralLoop??journey.loops);
  if(!game||game.tutorial||game.replay||game.lv!==saved.lv||!Number.isInteger(game.wins)||game.wins<0||game.wins>16||!Number.isInteger(game.turn)||game.turn<1||game.turn>36)return false;
  if(![game.hp,game.ehp].every(hp=>Number.isInteger(hp)&&hp>=0&&hp<=7))return false;
  if(!Array.isArray(game.deck)||game.deck.length<DECK_MIN||game.deck.length>DECK_MAX||!Array.isArray(game.reserve)||game.reserve.length>4096)return false;
  const historical=saved.overlay==='dead';
  if(![game.deck,game.reserve].every(cards=>cards.every(card=>checkpointCardValid(card,cards===game.deck,historical))))return false;
  for(const [key,owned]of [['p',true],['e',false],['hand',true],['eh',false],['draw',true],['ed',false]]){
-  const cards=game[key];if(!Array.isArray(cards)||cards.length>4096||['p','e'].includes(key)&&cards.length!==5||!cards.every(card=>card===null&&['p','e'].includes(key)||checkpointCardValid(card,owned,historical)))return false;
+  const cards=game[key];if(!Array.isArray(cards)||cards.length>4096||['p','e'].includes(key)&&cards.length!==5||!cards.every(card=>card===null&&['p','e'].includes(key)||checkpointCardValid(card,owned,historical,owned?0:spiralLoop)))return false;
  }
  if(!game.st||game.st.boss!==CAMPAIGNS[saved.difficulty][saved.lv-1].boss||!Array.isArray(game.st.dk)||!game.st.dk.every(name=>typeof name==='string'&&!!collectionCard(name)))return false;
  const entrance=!!game.entrancePending&&game.phase==='encounter-intro';
  if(entrance){if(game.hand.length||game.eh.length||game.p.some(Boolean)||game.e.some(Boolean))return false}
  else if(!['p','e'].includes(game.campaignFirst)||!['p','e'].includes(game.encounterFirst))return false;
- if(!game.discard||!['p','e'].every(side=>Array.isArray(game.discard[side])&&game.discard[side].length<=4096&&game.discard[side].every(card=>checkpointCardValid(card,side==='p',historical))))return false;
+ if(!game.discard||!['p','e'].every(side=>Array.isArray(game.discard[side])&&game.discard[side].length<=4096&&game.discard[side].every(card=>checkpointCardValid(card,side==='p',historical,side==='e'?spiralLoop:0))))return false;
  if(!game.bossSkill||!Array.isArray(game.bossSkill.temp)||!Array.isArray(game.bossSkill.deferred))return false;
  if(saved.overlay==='win'&&(!Array.isArray(game.rw)||game.rw.length>3||game.rw.some(card=>!checkpointCardValid(card))))return false;
  if(saved.overlay==='dead'&&(!checkpointCardValid(game.dc)||game.identityChoice&&(!checkpointKnownIdentity(game.identityChoice.old)||!checkpointKnownIdentity(game.identityChoice.new))))return false;
@@ -3221,7 +3242,9 @@ function checkpointRestore(){
  const saved=checkpointRead();if(!checkpointHeaderValid(saved))return false;
  try{
   if(saved.journeyCleared!==journey.cleared||JSON.stringify(saved.identity)!==JSON.stringify(checkpointIdentityMark()))throw Error('newer progress exists');
+  if(saved.journeyLoops!=null&&saved.journeyLoops!==normaliseSpiralLoop(journey.loops))throw Error('newer loop exists');
   const game=checkpointGraphDecode(saved.graph);if(!checkpointGameValid(game,saved))throw Error('invalid battle');
+  if(game.spiralLoop==null)game.spiralLoop=normaliseSpiralLoop(journey.loops);
   // Older full-deck rewards paused in camp; a claimed reward can continue safely.
   if(saved.overlay==='camp'&&game.rewardClaimed&&!deckRunIssue(game.deck,game.reserve||[])){
    const next=game.lv<CAMPAIGNS[saved.difficulty].length;saved.mode=next?'next':'state';saved.overlay=next?null:'clear';

@@ -2648,5 +2648,7 @@
   "拿起与落牌": "Picking up and placing cards",
   "点击可打出的手牌将它拿起。电脑上移动鼠标预览落点，再点击我方格子落牌；手机上先点选手牌，再点击格子落牌，也可按住我方牌桌滑动预览，松手落牌。需要献祭时，先点选足够的成熟祭品。拿起的卡牌与对位敌卡右上角显示克制箭头，落牌后继续显示；空位或无克制关系时不显示。预览不会消耗手牌或祭品。再次点击所选手牌，或点击“取消”，可放回手牌；电脑也可按Esc或右键取消。": "Click a playable hand card to pick it up. On desktop, move the pointer to preview a lane, then click a friendly lane to place it. On mobile, tap a hand card and then a lane, or hold on your side of the board, slide to preview, and release to place. Cards with a cost still require enough mature sacrifices to be selected first. The lifted card and its opposing enemy show elemental arrows in their top-right corners, and the arrows remain after placement. Empty lanes and neutral matchups show no arrow. Previewing spends no cards or sacrifices. Select the same hand card again or tap Cancel to put it back; desktop players can also press Esc or right-click.",
   "选择一张奖励，继续本章收尾。": "Choose a reward to continue to the chapter conclusion.",
-  "选择一张奖励，直接进入下一位Boss。": "Choose a reward to proceed directly to the next Boss."
+  "选择一张奖励，直接进入下一位Boss。": "Choose a reward to proceed directly to the next Boss.",
+  "提灯与螺旋周目": "The Lantern and Rising Cycles",
+  "每完成全部六章96关后，下一周目从雾镇重新开始。主角失去记忆，玩家对上一轮的认识以及已经获得的卡牌、收藏、牌组和同行约定保留。敌方非召唤卡（余芯除外）每增加一周目，生命增加1；攻击在第2、4、6周目等轮次各再增加1。第一周目的数值保持原样。场上新召唤的单位不获得周目加成。": "After all six chapters and 96 encounters, the next cycle starts in Fogtown. The protagonist loses their memory. Your knowledge of the previous cycle, acquired cards, collection, deck and companion promises remain. Enemy non-summoned cards, excluding Wicks, gain 1 HP for each additional cycle; ATK increases by another 1 in cycles 2, 4, 6 and so on. The first cycle keeps its original stats. Units summoned during battle receive no cycle bonus."
 }

@@ -1,9 +1,9 @@
 {
   "苔庭裂角客领誓·阿珀": {
-    "farewell": "路栏的位置对上了，回镇的方向还要继续核。",
-    "farewellEn": "The railing matches. Keep checking the return direction.",
-    "echo": "把图转正，再找一次桥头的位置。",
-    "echoEn": "Turn the map around and locate the bridge again."
+    "farewell": "路栏的位置对上了。把灯提高，沿回镇的方向再核一段，后面的人我来数。",
+    "farewellEn": "The barrier matches. Raise the lantern and check the next stretch toward town. I will count the people behind us.",
+    "echo": "我守着这个路口。喘匀了再提灯，先把图转正，别摸黑折回去。",
+    "echoEn": "I will hold this junction. Catch your breath before taking the lantern again. Turn the map around; do not retrace the road in the dark."
   },
   "苔庭赤角兽领誓·艾珀": {
     "farewell": "水送给了撤离的人，这一项可以留下。",
@@ -180,10 +180,10 @@
     "echoEn": "You checked the door behind him, but not the shadow inside it. The seal was applied from inside."
   },
   "苔庭铠卫·雅恩": {
-    "farewell": "先沿街图问。只记亲眼见过的那一段。",
-    "farewellEn": "Follow the map. Record only what each person witnessed.",
-    "echo": "先歇口气。案卷不会因为这一局输赢就变成死亡证明。",
-    "echoEn": "Rest first. A lost game does not turn the file into a death certificate."
+    "farewell": "提灯别放下。先沿街图核你走过的路，只记亲眼见过的那一段。",
+    "farewellEn": "Keep the lantern in hand. Follow the map and record only the parts of your route that someone actually witnessed.",
+    "echo": "先歇口气，我替你把灯护住。记不清可以再查，别急着拿猜测填满案卷。",
+    "echoEn": "Rest a moment. I will shelter the lantern. We can investigate what you cannot remember; do not fill the file with guesses."
   },
   "苔庭巡灯使·诺恩": {
     "farewell": "我没带走那封信，因为封面上没有我的名字。我记得当时没有开灯。",
@@ -252,10 +252,10 @@
     "echoEn": "You turned the last page. Its back carried the date of your first visit. The date was never corrected."
   },
   "苔庭潜印客·莫恩": {
-    "farewell": "封皮你留好，我不替它猜寄件人。",
-    "farewellEn": "Keep the envelope. I will not guess its sender.",
-    "echo": "先分开那几张纸，再来核对。",
-    "echoEn": "Separate the papers before checking them again."
+    "farewell": "封皮你留好。把灯挪过来，先看转寄戳，我不替它猜寄件人。",
+    "farewellEn": "Keep the envelope. Bring the lantern closer so we can read the transit stamp. I will not guess its sender.",
+    "echo": "纸没丢，灯也在。等你缓过来，我们把夹在一起的那几联分开核。",
+    "echoEn": "The papers are safe, and the lantern is here. When you are ready, we will separate the copies and check them."
   },
   "苔庭修灯师·伦恩": {
     "farewell": "每次查房，绷带都比上一次干净。我没有递交第二份。",
@@ -912,10 +912,10 @@
     "echoEn": "You helped people here. Keep checking the next stretch."
   },
   "炽砂修灯师·瑟罗": {
-    "farewell": "别把汤泼了，我熬了一夜。炉门上的封条麻烦按紧，里面那位一闻见饭味就醒。",
-    "farewellEn": "Mind the soup. It took all night. Press the seal on the furnace door. Whoever is inside wakes at the smell of supper.",
-    "echo": "艾莉残影夹住你指间的火柴，慢慢放回铁盒。“手抖就歇会儿。”炉门紧锁，里面却响起刮擦汤勺的声音。",
-    "echoEn": "Ellie's Echo takes the match from your trembling fingers and returns it to its tin. “Rest those hands.” The furnace is locked. A spoon scrapes a bowl inside."
+    "farewell": "灯芯理好了，汤也还热。检修道那批人的去向，拜托你拿回执来告诉我。",
+    "farewellEn": "The wick is trimmed and the soup is still warm. Find the service-passage group’s receipt and tell me where they arrived.",
+    "echo": "艾莉残影替你罩住晃动的灯火。“手抖就歇会儿。灯还得照着后面的人，别拿自己硬撑。”",
+    "echoEn": "Ellie's Echo shelters the wavering flame. “Rest those hands. People behind you still need that light. You do not have to bear it alone.”"
   },
   "炽砂铠卫·维罗": {
     "farewell": "外套上的破口比伤口少一处。别把背面的字遮住。",
@@ -1446,10 +1446,10 @@
     "echoEn": "Do not invent a ticket for reassurance."
   },
   "暮潮灯议长·艾汀": {
-    "farewell": "线路记下了，人还要查回执。",
-    "farewellEn": "The line is recorded; people need a receipt.",
-    "echo": "先查人去了哪里。",
-    "echoEn": "First establish where the people went."
+    "farewell": "你的灯照过船上的担架，船册也有帮工记录。去雪站找接收人的签字，别只凭水面那点亮光。",
+    "farewellEn": "Your lantern lit the stretcher aboard, and the crew recorded your help. Find the receiving signature at Snow Station. A light on the water is not enough.",
+    "echo": "我守着码头的航灯。你的提灯先放稳；船到过哪里、谁接走了人，分开核。",
+    "echoEn": "I will keep the harbor light. Set your lantern safely down. Check where the boat landed and who received its passengers as separate questions."
   },
   "暮潮折面星客领誓·伊汀": {
     "farewell": "那个问题没有人回答，笔录上仍然有一句答复。盖章的人那天没有值班。纸边缺口与窗口的影子重合。",
@@ -1746,10 +1746,10 @@
     "echoEn": "Keep confirmed facts; do not fill in what you never saw."
   },
   "霜枝灯议长·欧诺": {
-    "farewell": "你确实到了雪站。",
-    "farewellEn": "You did reach Snow Station.",
-    "echo": "到站和往后走，分开记。",
-    "echoEn": "Separate arrival from onward travel."
+    "farewell": "你确实到了雪站。把回执收进灯旁的案卷，下一段去白室问清。",
+    "farewellEn": "You did reach Snow Station. Keep the receipt in the file beside your lantern. Ask about the next stretch at the White Room.",
+    "echo": "灯放桌上，我替你看着。到站和往后走分开记，空下的那一栏还可以继续查。",
+    "echoEn": "Leave the lantern on the desk; I will watch it. Record arrival and onward travel separately. We can still investigate the empty field."
   },
   "霜枝灯议长·乌诺": {
     "farewell": "领走的是同一件外套。",

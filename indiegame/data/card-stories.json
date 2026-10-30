@@ -816,8 +816,8 @@
     "en": "The patrol boots stay clean. Mud caught in the soles comes from a river that was filled in. The time clock at the Ash Works prints tomorrow’s date."
   },
   "炽砂修灯师·瑟罗": {
-    "zh": "艾莉残影将白菜汤推到你面前。那夜炉区起火，她守着防火门，让撤离的人从检修道通过；你的袖口被铁钩扯破，她递来针和蓝线，你自己匆匆补好。“结打反了也先穿着。出去以后再拆，别站在门口挡路。”",
-    "en": "Ellie's Echo sets cabbage soup before you. When the furnace area caught fire that night, she held the fire door while people used the service passage. When a hook tore your cuff, she gave you a needle and blue thread; you patched it in a hurry. “The knot is backward. Wear it anyway. Fix it outside, and keep the doorway clear.”"
+    "zh": "艾莉残影将白菜汤推到你面前，顺手理好提灯的灯芯。炉区起火时，她守着防火门，你举灯带人走检修道；铁钩扯破袖口，她递来针和蓝线，你自己匆匆补好。“结打反了也先穿着。灯提稳，后面的人还等着过门。”",
+    "en": "Ellie's Echo offers cabbage soup and trims your lantern’s wick. When the furnace area caught fire, she held the fire door while you lit the service passage for the evacuees. A hook tore your cuff; she supplied a needle and blue thread, and you patched it yourself. “Wear the backward knot for now. Keep that light steady. People are still waiting to get through.”"
   },
   "炽砂铠卫·维罗": {
     "zh": "他的证件照闭着眼，见到你之后，照片里的眼睛才睁开。灰厂的打卡钟打印着明天的日期。",
@@ -3184,20 +3184,20 @@
     "en": "Cora, filed as Etched Wyrm. Sheets of scale remain beneath the bridge. The largest is wider than the missing car’s door. A new gold mark stops outside the door. Every companion denies drawing it."
   },
   "苔庭铠卫·雅恩": {
-    "zh": "诺亚，档案称“守夜人”。身后的钟停在03:17。他把热茶放在值班簿旁，只在自己见过的那一段路后签字。“我见你回来，没见你失踪。”他说。说完，他将案卷摊开，把邮局的转寄戳指给你看。",
-    "en": "Noah, filed as Night Watch. The clock behind him reads 03:17. He sets hot tea beside his duty book and signs only the part of the route he witnessed. “I saw you return. I did not see you disappear.” He opens the file and points out the post office transit stamp."
+    "zh": "守夜人诺亚把热茶和值班簿放在你的提灯旁，钟停在03:17。他认得灯圈上的撞痕，却只肯替自己见过的归路签字。“人会忘，纸也可能抄错，所以要把原件并在一起。”灯火照出转寄戳，他让你先从这枚能核实的印记查起。",
+    "en": "Night Watch Noah sets tea and his duty book beside your lantern. The clock reads 03:17. He recognizes the dent in its rim, but signs only the return journey he witnessed. “Memory fails and copies can be wrong. Put the originals side by side.” In the lamplight, he points to the transit stamp as a place to begin."
   },
   "鎏金·苔庭铠卫·雅恩": {
-    "zh": "诺亚，档案称“守夜人”。金边值班簿里留着不同人的原话，没有替他们补上漂亮的结尾。他给你腾出一把椅子：“记不住就一起查。别因为一栏空着，就急着把人划掉。”",
-    "en": "Noah, filed as Night Watch. His gold-edged duty book keeps each witness’s own words without improving the ending. He clears a chair for you. “If memory fails, we can check together. An empty field is no reason to cross a person out.”"
+    "zh": "守夜人诺亚在金边值班簿里留着不同人的原话，没有替他们补上漂亮结尾。他指着灯圈上一道较新的刻痕，把你上次签过的记录推到光里。“你若不认得我，我们就从姓名开始。纸在，约定也在。”他没有要求你想起才能继续。",
+    "en": "Night Watch Noah keeps each witness’s words in his gold-edged duty book without improving the ending. He points to a newer mark on the lantern’s rim and brings an account you once signed into the light. “If you do not know me, we can begin with names. The paper is here. So is the promise.” Remembering is not a condition of continuing."
   },
   "苔庭裂角客领誓·阿珀": {
-    "zh": "亚伯，档案称“断角客”。他额头上的硬角刮伤了测量尺。档案写着先天畸形，附上的出生照里却没有这个人。",
-    "en": "Abel, filed as Broken Horn. The hard growths on his forehead have scored the measuring rule. The file calls it a birth defect. The attached birth photograph contains no child."
+    "zh": "断角客亚伯当夜守着撤离路口。他记得你提灯回来，也记得自己搬开过哪道障碍，却不肯替更远的路作证。人数对不上时，他让队伍停下重数。“灯照着前面，后面的人也得有人管。”说完，他接过最后一人的行李。",
+    "en": "Broken Horn Abel watched an evacuation junction that night. He saw you return with the lantern and knows which barrier he moved, but will not testify about a road he did not see. When the count fails, he stops the group and counts again. “The light goes in front. Someone must watch the people behind.” He takes the last traveler’s bag."
   },
   "鎏金·苔庭裂角客领誓·阿珀": {
-    "zh": "亚伯，档案称“断角客”。他额头上的硬角刮伤了测量尺。你再看照片时，画面里的空位已经有人站过。",
-    "en": "Abel, filed as Broken Horn. The hard growths on his forehead have scored the measuring rule. When you look again, someone has occupied the empty space in the photograph."
+    "zh": "断角客亚伯把旧地图摊在提灯旁，障碍移开的地方都有当事人的签字。你不认得那些路口，他便指着灯圈上的记号，读出留下的约定：“举灯的人带路，后面的人也要带到。”他再次站到队尾，等你准备好出发。",
+    "en": "Broken Horn Abel spreads the old map beside your lantern. Witnesses have signed where barriers were moved. When you do not recognize the junctions, he points to the marks on the rim and reads the promise left with the map: “Carry the light ahead, and bring the people behind.” He takes the rear again and waits until you are ready."
   },
   "苔庭赤角兽领誓·艾珀": {
     "zh": "布鲁诺，档案称“井牛”。牛栏里只有一头牛，地上却有两排工鞋印。它顶开木板时，栏外那排脚印也向你靠近。",
@@ -3216,12 +3216,12 @@
     "en": "Silas, filed as Hanged Guest. They blame the scorched roof on lightning. The prints left after sealing belong to nobody who has been here."
   },
   "苔庭潜印客·莫恩": {
-    "zh": "芬恩，档案称“空手人”。他把口供中间一页藏进袖口，证人的座位随即换到了窗边。录音里，椅子却没有移动过。",
-    "en": "Finn, filed as Empty Hands. He slips the middle page of the statement into his sleeve. The witness is suddenly seated by the window. On the tape, no chair has moved."
+    "zh": "空手人芬恩熟悉邮路，也总把有用的纸先藏进袖口。他借你的提灯看清信封上的转寄戳，终于将收条摊到桌上。“近路可以问我，信是谁寄的，得按这些章往回找。”这回他留下完整的纸，自己跟在灯后面。",
+    "en": "Empty Hands Finn knows the postal routes and tends to hide useful papers in his sleeve. He borrows your lantern to read the envelope’s forwarding stamp, then lays the receipt on the desk. “Ask me about shortcuts. To find the sender, follow these stamps backward.” This time he leaves the paper whole and follows the light."
   },
   "鎏金·苔庭潜印客·莫恩": {
-    "zh": "芬恩，档案称“空手人”。他把口供中间一页藏进袖口，证人的座位随即换到了窗边。录音中多了一次呼吸，恰好填满你沉默的地方。",
-    "en": "Finn, filed as Empty Hands. He slips the middle page of the statement into his sleeve. An extra breath on the tape exactly fills your silence."
+    "zh": "空手人芬恩将原信封、收条和副本并排放进灯光里。你问起灯圈上的旧刻痕，他没有借机编个英雄故事，只把相应编号指给你看。“我还欠过你一张纸。今天先还清，路上的事边走边核。”",
+    "en": "Empty Hands Finn lays the original envelope, receipt and copy side by side in the lamplight. When you ask about an old mark on the lantern’s rim, he offers no heroic tale, only the matching reference number. “I owed you a sheet of paper. Let me return it first. We can check the journey as we go.”"
   },
   "苔庭铠卫·欧恩": {
     "zh": "欧文，档案称“旧警卫”。旧警卫用鞋跟磕掉门槛上的泥，再把烟掐灭，夹回湿透的烟盒。他说戒烟最难的是打发夜班。你注意到每根烟都剩同样长，滤嘴上，是几个月后才会印出的日期。",
@@ -3632,12 +3632,12 @@
     "en": "Conrad, filed as Bilge Guest. He examines every recovered body but never writes a cause of death. A warning on the back is signed with your former address."
   },
   "暮潮灯议长·艾汀": {
-    "zh": "伊莱，档案称“灯塔守护者”。他将座位表翻到背面，指着船工留下的帮工记录。“让出座位的人，也能留在船上。”说完，他递给你一块干布，让你先擦净交接编号，再去问靠岸的人。",
-    "en": "Eli, filed as Lighthouse Warden. He turns the seat list over and points to the crew’s helper entry. “Giving up a seat does not mean leaving the boat.” He offers a dry cloth so you can clean the transfer number before asking who received the landing party."
+    "zh": "灯塔守护者伊莱看过你在末班船上举灯，替船工照清担架的系带。他将座位表翻到背面，指着帮工记录：“让出座位，不等于离开船。”他擦净交接编号，让你带着提灯和这份副本去找雪站的签收。",
+    "en": "Lighthouse Warden Eli saw you hold the lantern over the stretcher straps aboard the last boat. He turns the seat list over to show the crew’s helper entry. “Giving up a seat does not mean leaving the boat.” He cleans the transfer number and sends you with your lantern and a copy to find Snow Station’s receiving signature."
   },
   "鎏金·暮潮灯议长·艾汀": {
-    "zh": "伊莱，档案称“灯塔守护者”。航灯的接线簿标着白室的线路。他能查清灯为什么亮，却不肯拿一束水面倒影证明谁已经到站。“去找接收人的签字。”他把干燥的船册副本放进你的案卷。",
-    "en": "Eli, filed as Lighthouse Warden. The lamp’s wiring log names the White Room line. He can trace the signal, but a reflection on the water cannot prove a passenger arrived. “Find the receiving signature.” He slips a dry copy of the boat record into your file."
+    "zh": "灯塔守护者伊莱将干燥的船册副本交给你。你的提灯玻璃还留着当夜的烟痕，灯圈却多了一道刻记；他不拿这点变化猜测整座镇子的命运，只重新核过船次和接车编号。“灯能照路，人到没到，还得有人签收。”",
+    "en": "Lighthouse Warden Eli hands you a dry copy of the boat record. Smoke still marks your lantern’s glass, and its rim carries another cut. He does not use those marks to guess the town’s fate; he checks the boat and transfer references again. “A lamp shows the road. A receiving signature tells us who arrived.”"
   },
   "暮潮浮辉使领誓·塔尘": {
     "zh": "泰丝，档案称“雾中影”。他的声音只在海水碰到鞋边时出现，嘴唇从来不动。干燥的录音带上，却留着持续的吞咽声。",
@@ -3760,12 +3760,12 @@
     "en": "Nestor, filed as Old Snow Ape. Two ape shadows alternate on the snow wall. A warning on the back is signed with your former address."
   },
   "霜枝灯议长·欧诺": {
-    "zh": "阿尔玛，档案称“冻哨”。他的防寒服内衬是整页病历，换岗前必须重新排序。你看见同一张脸，排在了两种不同的结局里。",
-    "en": "Alma, filed as Frozen Sentry. His winter coat is lined with medical records that must be reordered before each shift. The same face appears under two different outcomes."
+    "zh": "冻哨阿尔玛让你将提灯放在转运窗口，逐个照清回执上的姓名。码头交接、站房接收和白室去向，是三栏不同的记录；她只替自己接到的人签字。“忘了就拿纸来核。先把人认全，再问他们往哪里去了。”",
+    "en": "Frozen Sentry Alma asks you to set the lantern at the transfer window and checks every name on the receipt. Harbor handover, station arrival and onward travel to the White Room belong in separate fields. She signs only for those she received. “If memory fails, bring the paper. Account for the people first, then ask where they went.”"
   },
   "鎏金·霜枝灯议长·欧诺": {
-    "zh": "阿尔玛，档案称“冻哨”。他的防寒服内衬是整页病历，换岗前必须重新排序。交接栏只有一个签名，墨迹分成了不同的年份。",
-    "en": "Alma, filed as Frozen Sentry. His winter coat is lined with medical records that must be reordered before each shift. The handover field has one signature, written in inks from different years."
+    "zh": "冻哨阿尔玛将旧回执和本轮的记录并在灯下。你不记得上次来过，她就从你当时帮助的那批人开始读；没有把别人的姓名当作考验你的题目。“灯和纸带回来了，事情就还能接着做。”她在核实过的到站栏后落笔。",
+    "en": "Frozen Sentry Alma places the old receipt and the current account together under your lantern. If you cannot remember the last visit, she begins by reading the names of the people you helped, without making their names a test. “You brought the light and the paper back. We can continue the work.” She signs the arrivals she has checked."
   },
   "霜枝潜印客领誓·依诺": {
     "zh": "索伦，档案称“隐名人”。他在口供里标出了需要停顿的地方，墨迹随后变成细小的霉。你跳过一行，喉咙便像被谁握住。",

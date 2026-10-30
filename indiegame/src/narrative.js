@@ -46,12 +46,14 @@ function storyParagraphs(text){return text.split('\n').map(p=>`<p>${esc(p)}</p>`
 function storeJourney(){try{localStorage.setItem(JOURNEY_STORAGE,JSON.stringify({version:3,cleared:journey.cleared,unlocked:journey.unlocked,loops:journey.loops}));return true}catch{return false}}
 function beginNextStoryLoop(){
  if(journey.cleared!==DIFFICULTY_ORDER.length||G?.replay||G?.tutorial||OV==='win'&&!G?.rewardClaimed)return false;
- // Claim the final choice before crossing the door. Collections, identities,
- // custom decks, reserves and replay clears never belong to a single loop.
+ // The protagonist loses their recollection, not the player's earned progress.
+ // Claim the final choice before carrying the same lantern into another night.
  if(G&&OV==='clear'&&typeof savePlayerDeck==='function')savePlayerDeck();
- const next={cleared:0,unlocked:DIFFICULTY_ORDER.length,loops:(journey.loops||0)+1};
+ const completed=Number.isSafeInteger(journey.loops)&&journey.loops>=0?journey.loops:0;
+ if(completed>=Number.MAX_SAFE_INTEGER)return false;
+ const next={cleared:0,unlocked:DIFFICULTY_ORDER.length,loops:completed+1};
  try{localStorage.setItem(JOURNEY_STORAGE,JSON.stringify({version:3,...next}))}catch{return false}
- Object.assign(journey,next);return true;
+ Object.assign(journey,next);STORY.pendingFriend=null;saveStory();return true;
 }
 function storyBossIdentity(card){
  const id=typeof card==='string'?card:card?.baseName||card?.n;
