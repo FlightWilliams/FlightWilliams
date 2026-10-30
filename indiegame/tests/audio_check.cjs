@@ -14,9 +14,18 @@ async function check(name,fn){const evidence=await fn();results.push({name,passe
   const manifest=JSON.parse(fs.readFileSync(path.join(ROOT,'audio/manifest.json')));
   for(const entry of manifest){const a=fs.readFileSync(path.join(ROOT,'audio',entry.id+'.wav')),b=fs.readFileSync(path.join(GAME,'audio',entry.id+'.wav'));assert.ok(a.equals(b),entry.id);assert.equal(hash(a),entry.wav_sha256)}assert.equal(manifest.length,12);
  });
- await check('All thirty scores retain identical musical events and synthesis parameters',()=>{
-  const normalize=scores=>scores.map(({id,game,title,description,...music})=>music);
-  const a=normalize(JSON.parse(fs.readFileSync(path.join(ROOT,'data/music-scores.json')))),b=normalize(JSON.parse(fs.readFileSync(path.join(GAME,'music-scores.json'))));assert.equal(a.length,30);assert.deepEqual(a,b);
+ await check('Thirty independent detective scores retain the campaign routes and valid musical events',()=>{
+  const scores=JSON.parse(fs.readFileSync(path.join(ROOT,'data/music-scores.json')));
+  assert.equal(scores.length,30);assert.equal(new Set(scores.map(s=>s.id)).size,30);
+  const instruments=new Set(['guitar','upright','rhodes','piano','brush','strings']);
+  for(const world of ['mire','brass','cinder','tide','frost','astral']){
+   for(const[act,stages]of [[1,[1,4]],[2,[5,8]],[3,[9,12]],[4,[13,15]],[5,[16,16]]]){
+    const id=world+(act===5?'-final':act===1?'':'-act'+act),s=scores.find(row=>row.id===id);
+    assert.ok(s,id);assert.equal(s.game,world);assert.deepEqual(s.stages,stages);assert.equal(s.final,act===5);
+    assert.ok(s.tempo>0&&s.beatsPerBar>0&&s.bars>0&&s.events.length>0);
+    for(const e of s.events){assert.ok(instruments.has(e.i),id+': '+e.i);assert.ok(Number.isFinite(e.b)&&e.b>=0&&e.b<s.bars*s.beatsPerBar);assert.ok(Number.isInteger(e.p)&&e.p>=12&&e.p<=108);assert.ok(e.d>0&&e.v>0&&e.v<=1)}
+   }
+  }
  });
  const browser=await chromium.launch({executablePath:process.env.CHROMIUM_PATH||(fs.existsSync('/usr/bin/chromium')?'/usr/bin/chromium':undefined),args:['--no-sandbox','--autoplay-policy=no-user-gesture-required']});
  try{

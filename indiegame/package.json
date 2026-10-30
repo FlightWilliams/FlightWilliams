@@ -16,7 +16,9 @@
     "test:home": "node tests/home_check.cjs",
     "test:boss-identities": "node tests/boss_identity_check.cjs",
     "test:entrances": "node tests/entrance_check.cjs",
-    "test:spiral": "node tests/spiral_difficulty_check.cjs"
+    "test:spiral": "node tests/spiral_difficulty_check.cjs",
+    "test:music": "node tests/detective_music_check.cjs",
+    "test:palette": "node tests/chapter_palette_check.cjs"
   },
   "devDependencies": {
     "playwright": "1.62.1"

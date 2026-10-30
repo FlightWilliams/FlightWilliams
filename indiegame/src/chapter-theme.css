@@ -1,0 +1,446 @@
+/* Six chapters cool the table from Ember Cards' amber wood to Lantern Oath's
+   original green. Only surfaces are recoloured: card illustrations, rarity,
+   elemental arrows and health flames retain their own colours. The final
+   chapter deliberately falls through to horror-theme.css for an exact match. */
+
+/* 1. Fogtown / warm amber */
+html[data-table-chapter="mire"]{
+ --chapter-text:#e9e2d0;
+ --chapter-muted:#ae9977;
+ --chapter-heading:#f0dfb6;
+ --chapter-accent:#d1ad67;
+ --chapter-page-glow:#46331e;
+ --chapter-page-mid:#1b1811;
+ --chapter-page-dark:#0d0e0a;
+ --chapter-frame:#483927;
+ --chapter-frame-top:#6e5734;
+ --chapter-frame-bottom:#251e15;
+ --chapter-felt:#161c16;
+ --chapter-felt-glow:#3c433034;
+ --chapter-frame-ring:#b99b5255;
+ --chapter-frame-inner:#ab945735;
+ --chapter-slot-border:#ad965238;
+ --chapter-slot-mark:#b29c6a;
+ --chapter-dock:#211c13;
+ --chapter-dock-glow:#49341c55;
+ --chapter-dock-edge:#977a4355;
+ --chapter-dock-top:#b1935a66;
+ --chapter-panel:#211e15;
+ --chapter-panel-glow:#49362277;
+ --chapter-panel-edge:#9b7a3a55;
+ --chapter-panel-rule:#a2864b44;
+ --chapter-button-top:#493b2b;
+ --chapter-button-mid:#29251d;
+ --chapter-button-low:#201c15;
+ --chapter-button-bottom:#33291d;
+ --chapter-button-border:#8d693b;
+ --chapter-button-text:#e7d7b5;
+ --chapter-primary-top:#b79555;
+ --chapter-primary-mid:#87632e;
+ --chapter-primary-low:#785222;
+ --chapter-primary-bottom:#a17c3f;
+ --chapter-primary-border:#b99a60;
+ --chapter-primary-border-top:#e2c389;
+ --chapter-primary-border-bottom:#59411f;
+ --chapter-primary-text:#fff0cd;
+ --chapter-drawer:#1e2017;
+ --chapter-drawer-glow:#44351e88;
+ --chapter-drawer-edge:#b09355;
+ --chapter-drawer-text:#d5c9ad;
+ --chapter-input:#241b15;
+ --chapter-input-edge:#725437;
+ --chapter-shell:rgba(13,27,20,0);
+ --chapter-shell-wash:rgba(65,85,60,0.0000);
+ --chapter-slot:rgba(23,41,28,0);
+ --chapter-slot-shade:rgba(0,0,0,0.2);
+ --chapter-inner-health:rgba(19,32,24,0);
+ --chapter-dock-bottom:rgba(13,29,20,0);
+ --chapter-dock-grain:rgba(0,0,0,0.0470);
+}
+
+/* 2. Bell Tower / copper */
+html[data-table-chapter="brass"]{
+ --chapter-text:#e4decb;
+ --chapter-muted:#a99c7b;
+ --chapter-heading:#ebdeb7;
+ --chapter-accent:#c6ad6d;
+ --chapter-page-glow:#423623;
+ --chapter-page-mid:#181711;
+ --chapter-page-dark:#0d0f0b;
+ --chapter-frame:#453d2b;
+ --chapter-frame-top:#6d5e3c;
+ --chapter-frame-bottom:#222017;
+ --chapter-felt:#141c16;
+ --chapter-felt-glow:#3d47332f;
+ --chapter-frame-ring:#af9a5852;
+ --chapter-frame-inner:#a8986132;
+ --chapter-slot-border:#9f90553e;
+ --chapter-slot-mark:#a6986a;
+ --chapter-dock:#1a160fcc;
+ --chapter-dock-glow:#41341e63;
+ --chapter-dock-edge:#8f7b4a55;
+ --chapter-dock-top:#a48f5c63;
+ --chapter-panel:#1d1e15f0;
+ --chapter-panel-glow:#3d311f5f;
+ --chapter-panel-edge:#917b4153;
+ --chapter-panel-rule:#96834e44;
+ --chapter-button-top:#453d2c;
+ --chapter-button-mid:#26261e;
+ --chapter-button-low:#1e1e16;
+ --chapter-button-bottom:#2c271c;
+ --chapter-button-border:#866c42;
+ --chapter-button-text:#e2d7b6;
+ --chapter-primary-top:#ab9258;
+ --chapter-primary-mid:#7b6231;
+ --chapter-primary-low:#6c5126;
+ --chapter-primary-bottom:#89703b;
+ --chapter-primary-border:#b59f68;
+ --chapter-primary-border-top:#d6bf89;
+ --chapter-primary-border-bottom:#685734;
+ --chapter-primary-text:#fcf0cf;
+ --chapter-drawer:#1b2017;
+ --chapter-drawer-glow:#4037217a;
+ --chapter-drawer-edge:#a9945c;
+ --chapter-drawer-text:#d4ccb0;
+ --chapter-input:#1f1a14;
+ --chapter-input-edge:#715c3f;
+ --chapter-shell:rgba(13,27,20,0.2);
+ --chapter-shell-wash:rgba(65,85,60,0.0164);
+ --chapter-slot:rgba(23,41,28,0.04);
+ --chapter-slot-shade:rgba(0,0,0,0.16);
+ --chapter-inner-health:rgba(19,32,24,0.2);
+ --chapter-dock-bottom:rgba(13,29,20,0.12);
+ --chapter-dock-grain:rgba(0,0,0,0.0376);
+}
+
+/* 3. Ash Works / olive stone */
+html[data-table-chapter="cinder"]{
+ --chapter-text:#e0dbc6;
+ --chapter-muted:#a49f80;
+ --chapter-heading:#e5dcb9;
+ --chapter-accent:#bcad72;
+ --chapter-page-glow:#3e3929;
+ --chapter-page-mid:#151611;
+ --chapter-page-dark:#0c100d;
+ --chapter-frame:#424130;
+ --chapter-frame-top:#6d6544;
+ --chapter-frame-bottom:#1f2319;
+ --chapter-felt:#121c15;
+ --chapter-felt-glow:#3e4b3529;
+ --chapter-frame-ring:#a5995e4e;
+ --chapter-frame-inner:#a59c6c2e;
+ --chapter-slot-border:#918a5744;
+ --chapter-slot-mark:#9a936a;
+ --chapter-dock:#14110b99;
+ --chapter-dock-glow:#39352070;
+ --chapter-dock-edge:#887d5155;
+ --chapter-dock-top:#978c5e5f;
+ --chapter-panel:#191e15e1;
+ --chapter-panel-glow:#312c1d47;
+ --chapter-panel-edge:#887c4852;
+ --chapter-panel-rule:#8a805144;
+ --chapter-button-top:#413e2d;
+ --chapter-button-mid:#23281f;
+ --chapter-button-low:#1c2018;
+ --chapter-button-bottom:#26251b;
+ --chapter-button-border:#7f6f48;
+ --chapter-button-text:#ded7b8;
+ --chapter-primary-top:#9f905a;
+ --chapter-primary-mid:#6f6134;
+ --chapter-primary-low:#60512a;
+ --chapter-primary-bottom:#726437;
+ --chapter-primary-border:#b1a371;
+ --chapter-primary-border-top:#cabc89;
+ --chapter-primary-border-bottom:#786e4a;
+ --chapter-primary-text:#f9f0d0;
+ --chapter-drawer:#181f17;
+ --chapter-drawer-glow:#3d3a246d;
+ --chapter-drawer-edge:#a19562;
+ --chapter-drawer-text:#d4cfb3;
+ --chapter-input:#1a1913;
+ --chapter-input-edge:#706447;
+ --chapter-shell:rgba(13,27,20,0.4);
+ --chapter-shell-wash:rgba(65,85,60,0.0328);
+ --chapter-slot:rgba(23,41,28,0.08);
+ --chapter-slot-shade:rgba(0,0,0,0.12);
+ --chapter-inner-health:rgba(19,32,24,0.4);
+ --chapter-dock-bottom:rgba(13,29,20,0.24);
+ --chapter-dock-grain:rgba(0,0,0,0.0282);
+}
+
+/* 4. Sunken Harbor / grey teal */
+html[data-table-chapter="tide"]{
+ --chapter-text:#dbd7c1;
+ --chapter-muted:#9ea184;
+ --chapter-heading:#e0dbba;
+ --chapter-accent:#b1ae78;
+ --chapter-page-glow:#3b3b2e;
+ --chapter-page-mid:#111611;
+ --chapter-page-dark:#0c120e;
+ --chapter-frame:#3f4634;
+ --chapter-frame-top:#6c6c4d;
+ --chapter-frame-bottom:#1b251c;
+ --chapter-felt:#101b15;
+ --chapter-felt-glow:#3f4e3824;
+ --chapter-frame-ring:#9b97644b;
+ --chapter-frame-inner:#a39f762b;
+ --chapter-slot-border:#83855a49;
+ --chapter-slot-mark:#8d8f6a;
+ --chapter-dock:#0d0b0866;
+ --chapter-dock-glow:#3235227e;
+ --chapter-dock-edge:#807e5755;
+ --chapter-dock-top:#8b88615c;
+ --chapter-panel:#161d15d1;
+ --chapter-panel-glow:#26271a30;
+ --chapter-panel-edge:#7e7c4e50;
+ --chapter-panel-rule:#7d7d5444;
+ --chapter-button-top:#3d402f;
+ --chapter-button-mid:#20291f;
+ --chapter-button-low:#1a2219;
+ --chapter-button-bottom:#1f241a;
+ --chapter-button-border:#77714f;
+ --chapter-button-text:#d9d6b9;
+ --chapter-primary-top:#928d5d;
+ --chapter-primary-mid:#625f38;
+ --chapter-primary-low:#54502d;
+ --chapter-primary-bottom:#5a5934;
+ --chapter-primary-border:#aea879;
+ --chapter-primary-border-top:#beb88a;
+ --chapter-primary-border-bottom:#87845f;
+ --chapter-primary-text:#f6efd2;
+ --chapter-drawer:#161f17;
+ --chapter-drawer-glow:#393c275f;
+ --chapter-drawer-edge:#9a9669;
+ --chapter-drawer-text:#d3d1b6;
+ --chapter-input:#141713;
+ --chapter-input-edge:#6e6c50;
+ --chapter-shell:rgba(13,27,20,0.6);
+ --chapter-shell-wash:rgba(65,85,60,0.0492);
+ --chapter-slot:rgba(23,41,28,0.12);
+ --chapter-slot-shade:rgba(0,0,0,0.08);
+ --chapter-inner-health:rgba(19,32,24,0.6);
+ --chapter-dock-bottom:rgba(13,29,20,0.36);
+ --chapter-dock-grain:rgba(0,0,0,0.0188);
+}
+
+/* 5. Snow Station / cool sage */
+html[data-table-chapter="frost"]{
+ --chapter-text:#d7d4bc;
+ --chapter-muted:#99a489;
+ --chapter-heading:#dad9bc;
+ --chapter-accent:#a7ae7d;
+ --chapter-page-glow:#373e34;
+ --chapter-page-mid:#0e1511;
+ --chapter-page-dark:#0b1310;
+ --chapter-frame:#3c4a39;
+ --chapter-frame-top:#6c7355;
+ --chapter-frame-bottom:#18281e;
+ --chapter-felt:#0e1b14;
+ --chapter-felt-glow:#40523a1e;
+ --chapter-frame-ring:#91966a47;
+ --chapter-frame-inner:#a0a38127;
+ --chapter-slot-border:#757f5c4f;
+ --chapter-slot-mark:#818a6a;
+ --chapter-dock:#07060433;
+ --chapter-dock-glow:#2a36248b;
+ --chapter-dock-edge:#79805e55;
+ --chapter-dock-top:#7e856358;
+ --chapter-panel:#121d15c2;
+ --chapter-panel-glow:#1a221818;
+ --chapter-panel-edge:#757d554f;
+ --chapter-panel-rule:#717a5744;
+ --chapter-button-top:#394130;
+ --chapter-button-mid:#1d2b20;
+ --chapter-button-low:#18241b;
+ --chapter-button-bottom:#192219;
+ --chapter-button-border:#707455;
+ --chapter-button-text:#d5d6bb;
+ --chapter-primary-top:#868b5f;
+ --chapter-primary-mid:#565e3b;
+ --chapter-primary-low:#485031;
+ --chapter-primary-bottom:#434d30;
+ --chapter-primary-border:#aaac82;
+ --chapter-primary-border-top:#b2b58a;
+ --chapter-primary-border-bottom:#979b75;
+ --chapter-primary-text:#f3efd3;
+ --chapter-drawer:#131e17;
+ --chapter-drawer-glow:#363f2a52;
+ --chapter-drawer-edge:#92976f;
+ --chapter-drawer-text:#d3d4b9;
+ --chapter-input:#0f1612;
+ --chapter-input-edge:#6d7458;
+ --chapter-shell:rgba(13,27,20,0.8);
+ --chapter-shell-wash:rgba(65,85,60,0.0656);
+ --chapter-slot:rgba(23,41,28,0.16);
+ --chapter-slot-shade:rgba(0,0,0,0.04);
+ --chapter-inner-health:rgba(19,32,24,0.8);
+ --chapter-dock-bottom:rgba(13,29,20,0.48);
+ --chapter-dock-grain:rgba(0,0,0,0.0094);
+}
+
+/* 6. White Room / original cold green */
+html[data-table-chapter="astral"]{
+ --chapter-text:#d2d0b7;
+ --chapter-muted:#94a78d;
+ --chapter-heading:#d5d8bd;
+ --chapter-accent:#9cae83;
+ --chapter-page-glow:#334139;
+ --chapter-page-mid:#0b1411;
+ --chapter-page-dark:#0b1411;
+ --chapter-frame:#394e3d;
+ --chapter-frame-top:#6b7a5d;
+ --chapter-frame-bottom:#152a20;
+ --chapter-felt:#0c1b14;
+ --chapter-felt-glow:#41563d19;
+ --chapter-frame-ring:#87957044;
+ --chapter-frame-inner:#9da78b24;
+ --chapter-slot-border:#67795f55;
+ --chapter-slot-mark:#75866a;
+ --chapter-dock:#00000000;
+ --chapter-dock-glow:#22362699;
+ --chapter-dock-edge:#71816555;
+ --chapter-dock-top:#71816555;
+ --chapter-panel:#0e1d15b3;
+ --chapter-panel-glow:#0e1d1500;
+ --chapter-panel-edge:#6b7e5c4d;
+ --chapter-panel-rule:#65775a44;
+ --chapter-button-top:#354331;
+ --chapter-button-mid:#1a2c21;
+ --chapter-button-low:#16261c;
+ --chapter-button-bottom:#122018;
+ --chapter-button-border:#69775c;
+ --chapter-button-text:#d0d6bc;
+ --chapter-primary-top:#7a8862;
+ --chapter-primary-mid:#4a5d3e;
+ --chapter-primary-low:#3c4f35;
+ --chapter-primary-bottom:#2b412c;
+ --chapter-primary-border:#a6b18a;
+ --chapter-primary-border-top:#a6b18a;
+ --chapter-primary-border-bottom:#a6b18a;
+ --chapter-primary-text:#f0efd5;
+ --chapter-drawer:#101e17;
+ --chapter-drawer-glow:#32412d44;
+ --chapter-drawer-edge:#8b9876;
+ --chapter-drawer-text:#d2d7bc;
+ --chapter-input:#0a1511;
+ --chapter-input-edge:#6c7c60;
+ --chapter-shell:rgba(13,27,20,1);
+ --chapter-shell-wash:rgba(65,85,60,0.0820);
+ --chapter-slot:rgba(23,41,28,0.2);
+ --chapter-slot-shade:rgba(0,0,0,0);
+ --chapter-inner-health:rgba(19,32,24,1);
+ --chapter-dock-bottom:rgba(13,29,20,0.6);
+ --chapter-dock-grain:rgba(0,0,0,0.0000);
+}
+
+
+/* Retaining the attribute in the selectors makes menu/catalog presentation
+   independent of the last battle. Astral uses the unchanged original theme. */
+html[data-table-chapter]:not([data-table-chapter="astral"]){background:none;color:var(--chapter-text)}
+html[data-table-chapter]:not([data-table-chapter="astral"]) body{
+ background-color:transparent;
+ background-image:radial-gradient(ellipse at 50% 30%,var(--chapter-page-glow),var(--chapter-page-mid) 65%,var(--chapter-page-dark));
+ color:var(--chapter-text);
+}
+html[data-table-chapter]:not([data-table-chapter="astral"]) #app{background:none;color:var(--chapter-text)}
+html[data-table-chapter]:not([data-table-chapter="astral"]) .game-shell{
+ background-color:var(--chapter-shell);
+ background-image:radial-gradient(ellipse at 50% 0,var(--chapter-shell-wash),transparent 70%);
+ color:var(--chapter-text);
+}
+html[data-table-chapter="mire"] .game-shell{background:none}
+html[data-table-chapter]:not([data-table-chapter="astral"]) .table-arena{
+ border-color:var(--chapter-frame);border-top-color:var(--chapter-frame-top);border-bottom-color:var(--chapter-frame-bottom);
+ background-color:var(--chapter-felt);
+ background-image:radial-gradient(ellipse at 50% 40%,var(--chapter-felt-glow),transparent 80%),repeating-linear-gradient(90deg,#ffffff02 0 1px,transparent 1px 6px);
+ box-shadow:0 0 0 1px var(--chapter-frame-ring),inset 0 2px 16px #000a,0 5px 15px #0005;
+}
+html[data-table-chapter]:not([data-table-chapter="astral"]) .table-arena::before{border-color:var(--chapter-frame-inner)}
+html[data-table-chapter]:not([data-table-chapter="astral"]) .table-arena::after{border-color:var(--chapter-frame-bottom)}
+html[data-table-chapter]:not([data-table-chapter="astral"]) .game-shell .slot:not(.ok){
+ border-color:var(--chapter-slot-border);background-color:var(--chapter-slot);
+ background-image:linear-gradient(135deg,var(--chapter-slot-shade),transparent,var(--chapter-slot-shade));
+}
+html[data-table-chapter]:not([data-table-chapter="astral"]) .game-shell .slot small,
+html[data-table-chapter]:not([data-table-chapter="astral"]) .game-shell .slot>span{color:var(--chapter-slot-mark)}
+html[data-table-chapter]:not([data-table-chapter="astral"]) .player-dock{
+ border-color:var(--chapter-dock-edge);border-top-color:var(--chapter-dock-top);
+ background-color:var(--chapter-dock);
+ background-image:linear-gradient(180deg,var(--chapter-dock-glow),var(--chapter-dock-bottom) 45%),repeating-linear-gradient(90deg,var(--chapter-dock-grain) 0 2px,transparent 2px 11px);
+}
+html[data-table-chapter]:not([data-table-chapter="astral"]) .table-sidebar{
+ border-color:var(--chapter-panel-edge);background-color:var(--chapter-panel);
+ background-image:linear-gradient(120deg,var(--chapter-panel-glow),transparent 65%),repeating-linear-gradient(0deg,#00000015 0 1px,transparent 1px 5px);
+ box-shadow:inset 0 0 0 3px var(--chapter-page-dark),inset 0 0 0 4px var(--chapter-frame-ring);
+}
+html[data-table-chapter]:not([data-table-chapter="astral"]) .sidebar-heading,
+html[data-table-chapter]:not([data-table-chapter="astral"]) .sidebar-inspection,
+html[data-table-chapter]:not([data-table-chapter="astral"]) .interaction-bar,
+html[data-table-chapter]:not([data-table-chapter="astral"]) .table-topbar{border-color:var(--chapter-panel-rule)}
+html[data-table-chapter]:not([data-table-chapter="astral"]) .table-brand strong,
+html[data-table-chapter]:not([data-table-chapter="astral"]) .sidebar-heading b,
+html[data-table-chapter]:not([data-table-chapter="astral"]) .sidebar-inspection h3,
+html[data-table-chapter]:not([data-table-chapter="astral"]) .round-banner b{color:var(--chapter-heading)}
+html[data-table-chapter]:not([data-table-chapter="astral"]) .table-brand small,
+html[data-table-chapter]:not([data-table-chapter="astral"]) .table-sidebar .stage-rule,
+html[data-table-chapter]:not([data-table-chapter="astral"]) .sidebar-inspection p,
+html[data-table-chapter]:not([data-table-chapter="astral"]) .round-banner,
+html[data-table-chapter]:not([data-table-chapter="astral"]) .deck-info,
+html[data-table-chapter]:not([data-table-chapter="astral"]) .action-caption{color:var(--chapter-muted)}
+html[data-table-chapter]:not([data-table-chapter="astral"]) .table-emblem,
+html[data-table-chapter]:not([data-table-chapter="astral"]) .table-seal{color:var(--chapter-accent)}
+html[data-table-chapter]:not([data-table-chapter="astral"]) .round-banner i{background-color:var(--chapter-panel-rule)}
+html[data-table-chapter]:not([data-table-chapter="astral"]) .candle-panel{background-color:var(--chapter-inner-health)}
+html[data-table-chapter]:not([data-table-chapter="astral"]) button:not(:where(.drawer-scrim,.card-hold-scrim,.deck-access-pile,.initiative-coin-toss,.boss-ability-trigger,.player-boss-skill-trigger)){
+ background:linear-gradient(135deg,#ffffff09,transparent 38%),linear-gradient(var(--chapter-button-top),var(--chapter-button-mid) 48%,var(--chapter-button-low) 51%,var(--chapter-button-bottom));
+ border-color:var(--chapter-button-border);color:var(--chapter-button-text);
+ box-shadow:inset 0 1px 0 #e3bd7140,inset 0 -2px 2px #0009,0 2px 0 #0a0c08;
+}
+html[data-table-chapter]:not([data-table-chapter="astral"]) button:not(:where(.drawer-scrim,.card-hold-scrim,.deck-access-pile,.initiative-coin-toss,.boss-ability-trigger,.player-boss-skill-trigger)):hover{border-color:var(--chapter-primary-border)}
+html[data-table-chapter]:not([data-table-chapter="astral"]) button:not(:where(.drawer-scrim,.card-hold-scrim,.deck-access-pile,.initiative-coin-toss,.boss-ability-trigger,.player-boss-skill-trigger)).pri{
+ background:linear-gradient(110deg,transparent,#fff3b81c 48%,transparent),linear-gradient(var(--chapter-primary-top),var(--chapter-primary-mid) 48%,var(--chapter-primary-low) 51%,var(--chapter-primary-bottom));
+ border-color:var(--chapter-primary-border);border-top-color:var(--chapter-primary-border-top);border-bottom-color:var(--chapter-primary-border-bottom);
+ color:var(--chapter-primary-text);text-shadow:0 1px 2px #3a210b;
+ box-shadow:inset 0 1px 0 #f8df9d66,inset 0 -2px 2px #30200899,0 2px 0 #131109;
+}
+html[data-table-chapter]:not([data-table-chapter="astral"]) .info-drawer,
+html[data-table-chapter]:not([data-table-chapter="astral"]) .deck-manager,
+html[data-table-chapter]:not([data-table-chapter="astral"]) .card-hold-dialog,
+html[data-table-chapter]:not([data-table-chapter="astral"]) .replay-panel{
+ border-color:var(--chapter-drawer-edge);background:linear-gradient(135deg,var(--chapter-drawer-glow),transparent),var(--chapter-drawer);color:var(--chapter-drawer-text);
+}
+html[data-table-chapter]:not([data-table-chapter="astral"]) .drawer-head,
+html[data-table-chapter]:not([data-table-chapter="astral"]) .deck-manager-head,
+html[data-table-chapter]:not([data-table-chapter="astral"]) .card-hold-head{border-color:var(--chapter-panel-rule)}
+html[data-table-chapter]:not([data-table-chapter="astral"]) .drawer-head h2,
+html[data-table-chapter]:not([data-table-chapter="astral"]) .card-hold-dialog h2,
+html[data-table-chapter]:not([data-table-chapter="astral"]) .modal-screen h1,
+html[data-table-chapter]:not([data-table-chapter="astral"]) .modal-screen h2{color:var(--chapter-heading)}
+html[data-table-chapter]:not([data-table-chapter="astral"]) .drawer-scroll p,
+html[data-table-chapter]:not([data-table-chapter="astral"]) .story-prose{color:var(--chapter-drawer-text)}
+html[data-table-chapter]:not([data-table-chapter="astral"]) .story-note{color:var(--chapter-muted)}
+html[data-table-chapter]:not([data-table-chapter="astral"]) .deck-manager input,
+html[data-table-chapter]:not([data-table-chapter="astral"]) .deck-manager select{background-color:var(--chapter-input);border-color:var(--chapter-input-edge);color:var(--chapter-text)}
+html[data-table-chapter]:not([data-table-chapter="astral"]) .ov.modal-screen{
+ background:radial-gradient(ellipse at top,var(--chapter-panel-glow),transparent 70%),var(--chapter-page-dark);
+}
+/* Interpolate colours only; layout, card states and touch hit areas stay still. */
+html[data-table-chapter],html[data-table-chapter] body,html[data-table-chapter] #app,
+html[data-table-chapter] .game-shell,html[data-table-chapter] .table-arena,
+html[data-table-chapter] .table-arena::before,html[data-table-chapter] .table-arena::after,
+html[data-table-chapter] .player-dock,html[data-table-chapter] .table-sidebar,
+html[data-table-chapter] .slot,html[data-table-chapter] .table-topbar,
+html[data-table-chapter] .candle-panel,html[data-table-chapter] button,
+html[data-table-chapter] .info-drawer,html[data-table-chapter] .drawer-head{
+ transition:background-color .8s ease,border-color .8s ease,color .8s ease,box-shadow .8s ease;
+}
+@media(prefers-reduced-motion:reduce){
+ html[data-table-chapter],html[data-table-chapter] body,html[data-table-chapter] #app,
+ html[data-table-chapter] .game-shell,html[data-table-chapter] .table-arena,
+ html[data-table-chapter] .table-arena::before,html[data-table-chapter] .table-arena::after,
+ html[data-table-chapter] .player-dock,html[data-table-chapter] .table-sidebar,
+ html[data-table-chapter] .slot,html[data-table-chapter] .table-topbar,
+ html[data-table-chapter] .candle-panel,html[data-table-chapter] button,
+ html[data-table-chapter] .info-drawer,html[data-table-chapter] .drawer-head{transition:none}
+}
+

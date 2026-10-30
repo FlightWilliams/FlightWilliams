@@ -105,14 +105,15 @@ function campaignSynthCache(context){
 }
 function campaignSynthWave(context,name){
  const cache=campaignSynthCache(context);if(cache.waves.has(name))return cache.waves.get(name);
- const harmonics={choir:[1,.14,.29,.055,.085,.02,.025],strings:[1,.38,.17,.09,.05,.028,.016,.01],organ:[1,.43,.21,.15,.075,.04],piano:[1,.23,.085,.025],flute:[1,.055,.015],bass:[1,.23,.07,.025]}[name]||[1];
+ const harmonics={choir:[1,.14,.29,.055,.085,.02,.025],strings:[1,.29,.12,.055,.028,.014,.008],organ:[1,.43,.21,.15,.075,.04],piano:[1,.23,.085,.025],flute:[1,.055,.015],bass:[1,.23,.07,.025],guitar:[1,.37,.14,.075,.035,.018,.008],upright:[1,.28,.075,.02],rhodes:[1,.15,.035,.012]}[name]||[1];
  const real=new Float32Array(harmonics.length+1),imag=new Float32Array(real.length);harmonics.forEach((n,i)=>imag[i+1]=n);
  const wave=context.createPeriodicWave(real,imag);cache.waves.set(name,wave);return wave;
 }
 function createCampaignSynth(context,destination){
  const c=context,voices=new Set(),rack=[],mix=c.createGain(),low=c.createBiquadFilter(),dry=c.createGain();let disposed=false,disposeAt=Infinity,roomTimer=0,roomClosed=false;
- const keep=node=>(rack.push(node),node);keep(mix);keep(low);keep(dry);low.type='lowpass';low.frequency.value=5800;low.Q.value=.32;dry.gain.value=.9;mix.connect(low);low.connect(dry);dry.connect(destination);
- for(const [seconds,amount,cutoff]of [[.149,.115,3200],[.277,.075,2400],[.421,.04,1800]]){
+ const keep=node=>(rack.push(node),node);keep(mix);keep(low);keep(dry);low.type='lowpass';low.frequency.value=4900;low.Q.value=.25;dry.gain.value=.94;mix.connect(low);low.connect(dry);dry.connect(destination);
+ // A small, quiet room keeps individual plucks close instead of building a drone.
+ for(const [seconds,amount,cutoff]of [[.095,.065,2800],[.183,.035,2100]]){
   const delay=keep(c.createDelay(.5)),tone=keep(c.createBiquadFilter()),wet=keep(c.createGain());delay.delayTime.value=seconds;tone.type='lowpass';tone.frequency.value=cutoff;tone.Q.value=.25;wet.gain.value=amount;low.connect(delay);delay.connect(tone);tone.connect(wet);wet.connect(destination);
  }
  function closeRoom(){
@@ -147,8 +148,23 @@ function createCampaignSynth(context,destination){
   try{
    switch(kind){
     case 'choir':attack=Math.min(.48,gate*.18);release=.85;strength=.25;filter.frequency.value=1950;filter.Q.value=.65;oscillator(1,.53,'sine',-3,'choir');oscillator(1,.47,'sine',4,'choir');break;
-    case 'strings':attack=Math.min(.32,gate*.14);release=.65;strength=.25;filter.frequency.value=2300;oscillator(1,.52,'sine',-5,'strings');oscillator(1,.48,'sine',5,'strings');break;
+    case 'strings':attack=Math.min(.16,gate*.12);release=.32;gate=Math.min(gate,2.6);strength=.21;filter.frequency.value=2400;oscillator(1,.52,'sine',-1.5,'strings');oscillator(1,.48,'sine',1.5,'strings');break;
     case 'organ':attack=.075;release=.55;strength=.25;filter.frequency.value=2900;oscillator(1,1,'sine',0,'organ');break;
+    case 'guitar':{
+     attack=.004;release=.16;gate=Math.min(gate,2.4);strength=.48;decay=true;body=.2;
+     filter.frequency.setValueAtTime(Math.min(4400,frequency*8),t);filter.frequency.exponentialRampToValueAtTime(Math.max(700,frequency*2.2),t+Math.min(.5,gate));
+     oscillator(1,.95,'sine',0,'guitar');oscillator(2,.05);noise(.012,2600,.75);break;
+    }
+    case 'upright':{
+     attack=.012;release=.14;gate=Math.min(gate,1.6);strength=.39;decay=true;body=.28;
+     filter.frequency.setValueAtTime(1350,t);filter.frequency.exponentialRampToValueAtTime(560,t+Math.min(.35,gate));
+     oscillator(1,.98,'sine',0,'upright');noise(.014,900,.8);break;
+    }
+    case 'rhodes':{
+     attack=.009;release=.28;gate=Math.min(gate,3);strength=.38;decay=true;body=.38;
+     filter.frequency.setValueAtTime(3400,t);filter.frequency.exponentialRampToValueAtTime(1650,t+Math.min(.65,gate));
+     oscillator(1,.9,'sine',0,'rhodes');oscillator(2,.1);break;
+    }
     case 'piano':attack=.006;release=.22;gate=Math.min(gate,5);strength=.42;decay=true;body=.35;filter.frequency.value=3600;oscillator(1,.83,'sine',0,'piano');oscillator(2.004,.17,'sine');break;
     case 'bell':attack=.004;release=.32;gate=Math.min(gate,4.5);strength=.34;decay=true;body=.34;filter.frequency.value=5200;oscillator(1,.7);oscillator(2.756,.23);oscillator(5.404,.07);break;
     case 'harp':attack=.005;release=.2;gate=Math.min(gate,2.7);strength=.4;decay=true;body=.25;filter.frequency.value=3400;oscillator(1,.82,'sine',0,'piano');oscillator(2.003,.18);break;
@@ -180,15 +196,19 @@ let mmute=false,MM=null,MC=null;
 try{mmute=localStorage.getItem(MUSIC_MUTE_STORAGE)==='1'}catch{}
 const MUSIC_STATE={key:null,timer:0,groups:new Set(),generation:0,scheduledEvents:0,paused:false,saved:null,contexts:new WeakSet(),busContext:null,limiter:null};
 const MUSIC_CUES={
- home:{id:'home',title:'灯台余声',tempo:52,beatsPerBar:4,bars:8,dynamics:.64,events:[
-  ...[[50,53,57],[46,50,53],[48,53,57],[48,52,55]].reduce((events,chord,i)=>events.concat(chord.map((p,j)=>({b:i*8,p,d:7.2,v:.16,i:'choir',pan:(j-1)*.25}))),[]),
-  ...[[2,69],[6,65],[10,62],[14,65],[18,69],[22,67],[26,64],[30,62]].map(([b,p])=>({b,p,d:1.8,v:.25,i:'bell',pan:.18}))]},
- victory:{id:'victory',title:'灯火尚存',tempo:78,beatsPerBar:4,bars:3,dynamics:.8,events:[
-  ...[[0,[50,57,62]],[4,[53,57,65]],[8,[50,54,57,62]]].reduce((events,[b,chord])=>events.concat(chord.map((p,j)=>({b,p,d:3.5,v:.2,i:'strings',pan:(j-1)*.2}))),[]),
-  ...[[0,62],[1,65],[2,69],[4,67],[6,69],[8,74]].map(([b,p])=>({b,p,d:b===8?3:1.3,v:.3,i:'harp',pan:.16}))]},
- defeat:{id:'defeat',title:'灰中留名',tempo:48,beatsPerBar:4,bars:2,dynamics:.65,events:[
-  ...[38,45,50].map((p,j)=>({b:0,p,d:7,v:.19,i:'choir',pan:(j-1)*.22})),
-  ...[[0,65],[2,64],[4,62],[6,57]].map(([b,p])=>({b,p,d:1.8,v:.28,i:'piano',pan:-.1}))]}
+ home:{id:'home',title:'灯台余声',tempo:72,beatsPerBar:4,bars:8,dynamics:.5,events:[
+  ...[[0,[57,60,64,67]],[8,[53,57,60,64]],[16,[55,59,62,67]],[24,[55,59,62,64]]].reduce((events,[b,chord])=>events.concat(chord.map((p,j)=>({b:b+j*.12,p,d:1.7,v:.17,i:'guitar',pan:-.2}))),[]),
+  ...[[0,45],[6,52],[8,41],[14,48],[16,43],[22,50],[24,40],[30,47]].map(([b,p])=>({b,p,d:.9,v:.13,i:'upright',pan:.08})),
+  ...[[2,64],[4,67],[6.5,69],[10,67],[12,64],[14.5,60],[18,62],[20,64],[22.5,67],[26,64],[28,62],[30,59]].map(([b,p])=>({b,p,d:1.1,v:.2,i:'rhodes',pan:.2})),
+  ...[3,7,11,15,19,23,27,31].map(b=>({b,p:60,d:.15,v:.055,i:'brush',pan:-.08}))]},
+ victory:{id:'victory',title:'灯火尚存',tempo:82,beatsPerBar:4,bars:3,dynamics:.55,events:[
+  ...[[0,[55,59,62,69]],[4,[57,60,64,67]],[8,[55,59,62,67]]].reduce((events,[b,chord])=>events.concat(chord.map((p,j)=>({b:b+j*.1,p,d:2.1,v:.17,i:'guitar',pan:-.16}))),[]),
+  ...[[0,43],[4,45],[8,43]].map(([b,p])=>({b,p,d:1.1,v:.14,i:'upright',pan:.05})),
+  ...[[.5,62],[2,64],[4.5,67],[6,69],[8.5,67]].map(([b,p])=>({b,p,d:b===8.5?2.2:1.1,v:.22,i:'piano',pan:.18}))]},
+ defeat:{id:'defeat',title:'灰中留名',tempo:68,beatsPerBar:4,bars:2,dynamics:.46,events:[
+  ...[[0,[57,60,64,67]],[4,[53,57,60,64]]].reduce((events,[b,chord])=>events.concat(chord.map((p,j)=>({b:b+j*.12,p,d:1.9,v:.15,i:'guitar',pan:-.18}))),[]),
+  ...[[0,45],[4,41]].map(([b,p])=>({b,p,d:.9,v:.12,i:'upright',pan:.05})),
+  ...[[1,64],[2.5,62],[5,60],[6.5,64]].map(([b,p])=>({b,p,d:1.1,v:.18,i:'rhodes',pan:.17}))]}
 };
 function wantTrack(){
  if(OV==='title'||!G||G.tutorial)return ['home',true];
@@ -1367,7 +1387,15 @@ function renderSelection(){
  const inspection=shell.querySelector('.sidebar-inspection');
  if(inspection._selectionCard!==selected){inspection.innerHTML=selectionInspectionHTML(selected);inspection._selectionCard=selected}
 }
+// Chapter colour follows the active encounter, including replays and restored saves.
+function syncChapterTablePalette(){
+ const world=G&&OV!=='title'&&OV!=='catalog'?(G.tutorial?'mire':G.st?.games?.find(key=>DIFFICULTY_ORDER.includes(key))||difficulty):null;
+ const chapter=DIFFICULTY_ORDER.includes(world)?world:null,root=document.documentElement;
+ if(chapter){if(root.dataset.tableChapter!==chapter)root.dataset.tableChapter=chapter}
+ else if(root.hasAttribute('data-table-chapter'))root.removeAttribute('data-table-chapter');
+}
 function render(){
+ syncChapterTablePalette();
  hideTip();cancelPendingCardHold();const A=document.getElementById('app');boardObserver?.disconnect();
  A.classList.toggle('catalog-mode',OV==='catalog');A.classList.toggle('home-mode',OV==='title');A.classList.toggle('battle-mode',!!G&&OV!=='title'&&OV!=='catalog');
  if(OV==='catalog'){A.innerHTML=catalogueHTML()+(DM?deckManagerHTML():'')+cardHoldHTML();const catalog=A.querySelector('.catalog-shell');if(catalog)catalog.inert=!!DM||!!HOLD_DETAIL;const manager=A.querySelector('.deck-manager-backdrop');if(manager)manager.inert=!!HOLD_DETAIL;return}
