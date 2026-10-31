@@ -20,7 +20,8 @@
     "test:music": "node tests/detective_music_check.cjs",
     "test:palette": "node tests/chapter_palette_check.cjs",
     "test:player-skills": "node tests/player_skill_flow_check.cjs",
-    "test:portraits": "node tests/portrait_variety_check.cjs"
+    "test:portraits": "node tests/portrait_variety_check.cjs",
+    "test:mobile-cards": "node tests/mobile_card_layout_check.cjs"
   },
   "devDependencies": {
     "playwright": "1.62.1"

@@ -35,7 +35,7 @@ html{color-scheme:dark;background:#171a12}body{margin:0;color:#ead9b3;font-famil
   var idle=function(){if(!document.hidden)state.loadAudio();};
   if(window.requestIdleCallback)window.requestIdleCallback(idle,{timeout:1800});else setTimeout(idle,600);
  };
- var link=document.createElement('link');link.rel='stylesheet';link.href="assets/game.644c5038d3ff.css";
+ var link=document.createElement('link');link.rel='stylesheet';link.href="assets/game.4c6745f00339.css";
  link.onerror=function(){message('牌桌样式未能下载。请重试；游戏存档不会因此清除。');};document.head.appendChild(link);
  var recovery=document.getElementById('web-retry');
  if(recovery)recovery.onclick=function(){location.reload();};

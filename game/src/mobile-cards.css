@@ -1,0 +1,89 @@
+/* Mobile cards reserve the same four rows for every name, skill set and rarity.
+   The square portrait uses its own remaining row and never shrinks to fit text. */
+@media (max-width:760px) and (orientation:portrait),
+       (max-height:520px) and (min-aspect-ratio:1.25/1){
+ html[lang] :is(.catalog-entry,.managed-card-preview,.reward-row,.identity-option,.discard-card-list,.card-hold-preview,.detail-card) .card,
+ html[lang] .game-shell :is(.board,.hand) > :is(.card,.card.boss-card.rare-card),
+ html[lang] #lifted-card-layer > .card{
+  --mobile-card-unit:var(--cw,88px);
+  --mobile-name-size:clamp(6px,calc(var(--mobile-card-unit)*.1),10px);
+  --mobile-skill-size:clamp(5px,calc(var(--mobile-card-unit)*.075),8px);
+  --mobile-stat-size:clamp(7px,calc(var(--mobile-card-unit)*.17),17px);
+  display:grid;grid-template-columns:minmax(0,1fr);
+  grid-template-rows:max(12px,calc(var(--mobile-card-unit)*.2)) minmax(0,1fr) max(5px,calc(var(--mobile-card-unit)*.1)) max(7px,calc(var(--mobile-card-unit)*.18));
+  align-items:stretch;justify-items:stretch;justify-content:normal;align-content:normal;
+  gap:0;padding:2px;min-width:0;min-height:0;
+  -webkit-text-size-adjust:100%;text-size-adjust:100%;
+ }
+ html[lang] .game-shell .board > :is(.card,.card.boss-card.rare-card){--mobile-card-unit:var(--battle-card-width)}
+ html[lang] .game-shell .hand > :is(.card,.card.boss-card.rare-card){--mobile-card-unit:var(--hand-card-width)}
+ html[lang] .discard-card-list .card{--mobile-card-unit:88px}
+
+ html[lang] :is(.catalog-entry,.managed-card-preview,.reward-row,.identity-option,.discard-card-list,.card-hold-preview,.detail-card) .card > .top,
+ html[lang] .game-shell :is(.board,.hand) > :is(.card,.card.boss-card.rare-card) > .top,
+ html[lang] #lifted-card-layer > .card > .top{
+  display:grid;grid-template-columns:minmax(0,1fr) auto;align-items:start;
+  gap:1px;margin:0;padding:0;min-width:0;min-height:0;max-height:none;
+  font-size:inherit;line-height:1;overflow:hidden;border-radius:1px;
+ }
+ html[lang] :is(.catalog-entry,.managed-card-preview,.reward-row,.identity-option,.discard-card-list,.card-hold-preview,.detail-card) .card > .top b,
+ html[lang] .game-shell :is(.board,.hand) > :is(.card,.card.boss-card.rare-card) > .top b,
+ html[lang] #lifted-card-layer > .card > .top b{
+  display:-webkit-box;-webkit-box-orient:vertical;-webkit-line-clamp:2;
+  width:auto;min-width:0;margin:0;padding:0;
+  overflow:hidden;overflow-wrap:anywhere;word-break:normal;
+  font-size:var(--mobile-name-size);line-height:1;letter-spacing:0;
+ }
+ html[lang] :is(.catalog-entry,.managed-card-preview,.reward-row,.identity-option,.discard-card-list,.card-hold-preview,.detail-card) .card > .top i,
+ html[lang] .game-shell .hand > :is(.card,.card.boss-card.rare-card) > .top i,
+ html[lang] #lifted-card-layer > .card > .top i{
+  display:block;position:static;justify-self:end;align-self:start;flex:none;
+  margin:0;padding:0;white-space:nowrap;font-size:var(--mobile-name-size);line-height:1;
+ }
+ html[lang] .game-shell .board > :is(.card,.card.boss-card.rare-card) > .top i{display:none}
+ html[lang] .game-shell .board > :is(.card,.card.boss-card.rare-card).has-element-matchup > .top{padding-right:12px}
+ /* Keep the first name glyph clear of the existing enemy seal. */
+ html[lang] .game-shell .board > :is(.card,.card.boss-card.rare-card).e > .top{padding-left:8px}
+
+ html[lang] :is(.catalog-entry,.managed-card-preview,.reward-row,.identity-option,.discard-card-list,.card-hold-preview,.detail-card) .card > .art,
+ html[lang] .game-shell :is(.board,.hand) > :is(.card,.card.boss-card.rare-card) > .art,
+ html[lang] #lifted-card-layer > .card > .art{
+  display:flex;justify-content:center;align-items:center;justify-self:center;align-self:center;
+  flex:none;width:auto;height:100%;aspect-ratio:1;max-width:100%;max-height:100%;
+  min-width:0;min-height:0;margin:0;padding:0;overflow:hidden;box-sizing:border-box;
+ }
+ html[lang] :is(.catalog-entry,.managed-card-preview,.reward-row,.identity-option,.discard-card-list,.card-hold-preview,.detail-card) .card > .art > svg,
+ html[lang] .game-shell :is(.board,.hand) > :is(.card,.card.boss-card.rare-card) > .art > svg,
+ html[lang] #lifted-card-layer > .card > .art > svg{
+  display:block;flex:none;width:100%;height:100%;max-width:100%;max-height:100%;
+  min-width:0;min-height:0;aspect-ratio:1;object-fit:contain;
+ }
+ html[lang] :is(.catalog-entry,.managed-card-preview,.reward-row,.identity-option,.discard-card-list,.card-hold-preview,.detail-card) .card > .sg,
+ html[lang] .game-shell :is(.board,.hand) > :is(.card,.card.boss-card.rare-card) > .sg,
+ html[lang] #lifted-card-layer > .card > .sg{
+  display:flex;align-items:center;justify-content:center;flex-wrap:nowrap;
+  flex:none;gap:1px;min-width:0;min-height:0;max-height:none;height:100%;
+  margin:0;padding:0;overflow:hidden;font-size:var(--mobile-skill-size);line-height:1;
+ }
+ html[lang] :is(.catalog-entry,.managed-card-preview,.reward-row,.identity-option,.discard-card-list,.card-hold-preview,.detail-card) .card > .sg .sk,
+ html[lang] .game-shell :is(.board,.hand) > :is(.card,.card.boss-card.rare-card) > .sg .sk,
+ html[lang] #lifted-card-layer > .card > .sg .sk{
+  display:block;flex:0 1 auto;min-width:0;max-width:100%;
+  padding:0 1px;border-width:0;border-radius:1px;
+  font-size:var(--mobile-skill-size);line-height:1;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;
+ }
+ html[lang] :is(.catalog-entry,.managed-card-preview,.reward-row,.identity-option,.discard-card-list,.card-hold-preview,.detail-card) .card > .st,
+ html[lang] .game-shell :is(.board,.hand) > :is(.card,.card.boss-card.rare-card) > .st,
+ html[lang] #lifted-card-layer > .card > .st{
+  display:flex;align-items:end;justify-content:space-between;flex:none;gap:2px;
+  min-width:0;min-height:0;margin:0;padding:0;
+  font-size:var(--mobile-stat-size);line-height:1;
+ }
+ html[lang] :is(.catalog-entry,.managed-card-preview,.reward-row,.identity-option,.discard-card-list,.card-hold-preview,.detail-card) .card.rare-card > .rarity-mark,
+ html[lang] .game-shell :is(.board,.hand) > .card.rare-card > .rarity-mark,
+ html[lang] #lifted-card-layer > .card.rare-card > .rarity-mark{
+  top:auto;bottom:2px;right:auto;left:calc(50% - .55em);
+  width:1.1em;height:1.1em;min-width:6px;min-height:6px;
+  font-size:clamp(6px,calc(var(--mobile-card-unit)*.1),10px);line-height:1;
+ }
+}

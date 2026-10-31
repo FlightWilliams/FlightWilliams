@@ -13,7 +13,7 @@ locale_data='const I18N_CARDS='+json.dumps(cards,ensure_ascii=False,separators=(
 runtime=read('src/runtime.js').replace('__I18N_DATA__',locale_data).replace('__I18N_SOURCE__',read('src/i18n.js'))
 for token,file in [('__PLAYER_SKILL_UI_SOURCE__','src/player-skill-ui.js'),('__PLAYER_SKILL_EFFECTS_SOURCE__','src/player-skill-effects.js')]:runtime=runtime.replace(token,read(file))
 assert not re.search(r'__(?:I18N_|PLAYER_SKILL_)',runtime),'Unresolved build token'
-styles='\n'.join(read(name)for name in ['src/table.css','src/player-skill-ui.css','src/player-skill-effects.css'])
+styles='\n'.join(read(name)for name in ['src/table.css','src/player-skill-ui.css','src/player-skill-effects.css','src/mobile-cards.css'])
 script=fingerprint('game','js',runtime);style=fingerprint('game','css',styles)
 index=read('src/index.template.html').replace('__VERSION__',VERSION).replace('__CORE__',script).replace('__CSS__',style)
 (ROOT/'index.html').write_text(index,encoding='utf-8')
