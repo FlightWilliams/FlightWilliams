@@ -57,17 +57,36 @@ const trigger='.player-boss-skill-trigger',panel='#player-boss-skill-panel',use=
     await reset(page);assert.equal(await page.locator(trigger+' .player-boss-skill-label').textContent(),'装备战技');
     await equip(page);assert.equal(await page.locator(panel).count(),0);assert.equal(await page.evaluate(()=>G.playerBossSkill.usedCount),0);
    });
-   await check(target.name,'Desktop hover describes the owned skill without spending or activating it',async()=>{
+   await check(target.name,'Desktop hover never opens details, spends a card or activates the equipped skill',async()=>{
     await equip(page);await page.mouse.move(2,2);await page.waitForTimeout(700);const before=await state(page);
-    await page.locator(trigger).hover();await page.locator(panel).waitFor();assert.equal(await page.locator(panel).getAttribute('data-mode'),'effect');
+    await page.locator(trigger).hover();await page.waitForTimeout(350);
+    assert.equal(await page.locator(panel).count(),0);assert.equal(await page.locator(trigger).getAttribute('aria-expanded'),'false');
+    assert.deepEqual(await state(page),before);assert.equal(await page.locator('.player-skill-delta').count(),0);
+   });
+   await check(target.name,'A lifted card crosses the skill button unobstructed; only clicking opens details and confirming animates',async()=>{
+    await equip(page);const before=await state(page);
+    await page.locator('.game-shell .hand [data-a="h"][data-i="0"]').click();
+    assert.equal(await page.evaluate(()=>!!CARD_LIFT&&CARD_LIFT.card===G.hand[0]&&G.sel===0),true);
+    const rect=await page.locator(trigger).boundingBox();assert.ok(rect);
+    await page.mouse.move(rect.x-12,rect.y+rect.height/2);await page.waitForTimeout(700);
+    await page.mouse.move(rect.x+rect.width/2,rect.y+rect.height/2,{steps:8});await page.waitForTimeout(350);
+    assert.equal(await page.locator(panel).count(),0);assert.equal(await page.evaluate(()=>!!CARD_LIFT&&CARD_LIFT.card===G.hand[0]),true);
+    assert.deepEqual(await state(page),before);assert.equal(await page.locator('.player-skill-delta').count(),0);
+    await open(page);assert.deepEqual(await state(page),before);
     assert.equal(await page.locator(panel+' .player-boss-skill-options').count(),0);
     assert.ok((await page.locator(panel).textContent()).includes(await page.evaluate(()=>playerBossSkillEquippedAbility().name)));
-    assert.deepEqual(await state(page),before);assert.equal(await page.locator('.player-skill-delta').count(),0);
-    await page.locator(panel).hover();assert.ok(await page.locator(panel).isVisible());await page.mouse.move(2,2);await page.locator(panel).waitFor({state:'detached'});
+    await page.locator(use).click();await page.locator(panel).waitFor({state:'detached'});
+    assert.equal((await state(page)).a,before.a+1);assert.equal((await state(page)).used,1);
+    assert.equal(await page.evaluate(()=>CARD_LIFT),null);await delta(page,'attack',1).first().waitFor();
    });
-   await check(target.name,'Keyboard inspection and Escape work without activating or immediately reopening',async()=>{
-    await equip(page);const before=await state(page);await page.locator(trigger).focus();await page.keyboard.press('Enter');await page.locator(panel).waitFor();
-    await page.keyboard.press('Escape');await page.locator(panel).waitFor({state:'detached'});await page.waitForTimeout(250);assert.equal(await page.locator(panel).count(),0);assert.deepEqual(await state(page),before);
+   await check(target.name,'Keyboard focus alone is silent; Enter and Space explicitly inspect without activating',async()=>{
+    await equip(page);const before=await state(page);await page.locator(trigger).focus();await page.waitForTimeout(700);
+    assert.equal(await page.locator(panel).count(),0);
+    for(const key of ['Enter','Space']){
+     await page.keyboard.press(key);await page.locator(panel).waitFor();assert.deepEqual(await state(page),before);
+     await page.keyboard.press('Escape');await page.locator(panel).waitFor({state:'detached'});await page.waitForTimeout(250);
+     assert.equal(await page.locator(panel).count(),0);assert.deepEqual(await state(page),before);
+    }
    });
    await check(target.name,'A paid attack buff updates and animates its printed number exactly once',async()=>{
     await equip(page);const before=await state(page);await open(page);await page.locator(use).click();await page.locator(panel).waitFor({state:'detached'});
@@ -139,6 +158,23 @@ const trigger='.player-boss-skill-trigger',panel='#player-boss-skill-panel',use=
    await check(target.name,'A real mobile tap inspects first and the explicit second action activates once',async()=>{
     await reset(phone);await phone.locator(trigger).tap();await phone.locator(panel+' [data-player-boss-skill="equip"][data-player-skill-lane="0"]').tap();await phone.locator(panel).waitFor({state:'detached'});const before=await state(phone);
     await phone.locator(trigger).tap();await phone.locator(panel).waitFor();assert.deepEqual(await state(phone),before);assert.equal(await phone.locator('.player-skill-delta').count(),0);await phone.locator(use).tap();await phone.locator(panel).waitFor({state:'detached'});assert.equal((await state(phone)).a,before.a+1);assert.equal((await state(phone)).used,1);await delta(phone,'attack',1).first().waitFor();await phone.screenshot({path:path.join(OUT,target.name+'-attack-buff-phone.png')});
+   });
+   await check(target.name,'A phone carries a selected card past the button without opening details or activating',async()=>{
+    await reset(phone);await phone.locator(trigger).tap();await phone.locator(panel+' [data-player-boss-skill="equip"][data-player-skill-lane="0"]').tap();await phone.locator(panel).waitFor({state:'detached'});
+    await phone.locator('.game-shell .hand [data-a="h"][data-i="0"]').tap();
+    assert.equal(await phone.evaluate(()=>!!CARD_LIFT&&CARD_LIFT.card===G.hand[0]),true);const before=await state(phone);
+    const rect=await phone.locator(trigger).boundingBox();assert.ok(rect);
+    const session=await mobile.newCDPSession(phone),y=Math.max(3,rect.y-10),x=rect.x+rect.width/2;
+    await session.send('Input.dispatchTouchEvent',{type:'touchStart',touchPoints:[{x,y}]});
+    await session.send('Input.dispatchTouchEvent',{type:'touchMove',touchPoints:[{x,y:rect.y+rect.height/2}]});
+    await phone.waitForTimeout(350);assert.equal(await phone.locator(panel).count(),0);
+    await session.send('Input.dispatchTouchEvent',{type:'touchMove',touchPoints:[{x,y}]});
+    await session.send('Input.dispatchTouchEvent',{type:'touchEnd',touchPoints:[]});await session.detach();
+    assert.equal(await phone.locator(panel).count(),0);assert.deepEqual(await state(phone),before);
+    assert.equal(await phone.evaluate(()=>!!CARD_LIFT&&CARD_LIFT.card===G.hand[0]),true);
+    await phone.locator(trigger).tap();await phone.locator(panel).waitFor();assert.deepEqual(await state(phone),before);
+    await phone.locator(use).tap();await phone.locator(panel).waitFor({state:'detached'});
+    assert.equal((await state(phone)).a,before.a+1);assert.equal((await state(phone)).used,1);await delta(phone,'attack',1).first().waitFor();
    });
    await check(target.name,'Equip and Activate labels and compact hints fit four viewports in both languages',async()=>{
     const proof=[];for(const [width,height]of[[320,568],[390,759],[844,390],[1366,768]]){await phone.setViewportSize({width,height});for(const language of ['zh-CN','en']){

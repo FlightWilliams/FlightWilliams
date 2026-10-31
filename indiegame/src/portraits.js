@@ -60,11 +60,27 @@ function portraitPersonFace(t,p){
  if(t.glasses==='square')out+=`<g fill="none" stroke="${ink}" stroke-width=".9"><path d="m29 26 9-1 1 7-9 1Zm14-1 10 1-1 7-9-1Zm-4 3h4m-14 1-3-1m27 1 2-1"/></g>`;
  return `<g data-portrait-feature="face" data-face-shape="${t.shape}" data-face-expression="${t.expression}" data-face-age="${t.age}" data-face-hair="${t.hair}">${out}</g>`;
 }
-// Original parchment-and-ink illustrations with the angular linework of game cards.
-// The art is deterministic and has no filters, animation or gameplay random calls.
+// Shared portrait caching never consumes battle randomness. Authored oil paintings
+// use atlas cells; the original deterministic drawings remain a token fallback.
 const CARD_PORTRAIT_CACHE=new Map();
 const portraitEscape=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 function cardPortraitHTML(c){
+ const id=c.baseName||c.n;
+ const art=typeof CARD_PAINTED_ART==='object'&&CARD_PAINTED_ART?CARD_PAINTED_ART[id]:null;
+ if(!art||typeof art.atlas!=='string'||!art.atlas||
+    !Number.isInteger(art.columns)||art.columns<1||!Number.isInteger(art.rows)||art.rows<1||
+    !Number.isInteger(art.column)||art.column<0||art.column>=art.columns||
+    !Number.isInteger(art.row)||art.row<0||art.row>=art.rows)return legacyCardPortraitHTML(c);
+ const profile=CARD_ART_PROFILES[id]||{},label=typeof shortCardName==='function'?shortCardName(id):id;
+ const kind=art.kind||profile.portraitKind||profile.subject||'person',role=profile.role||'',variant=profile.portraitVariant||'',family=profile.family||kind;
+ const key=JSON.stringify(['oil',id,art.atlas,art.column,art.row,art.columns,art.rows,kind,role,variant,family,label]);
+ if(CARD_PORTRAIT_CACHE.has(key))return CARD_PORTRAIT_CACHE.get(key);
+ // Nested SVG viewports isolate a square cell without cropping or modifying the
+ // source painting. Browsers share the same external image across every card.
+ const result=`<svg class="card-portrait oil-card-portrait" data-art-medium="oil-painting" data-portrait-kind="${portraitEscape(kind)}" data-portrait-role="${portraitEscape(role)}" data-portrait-variant="${portraitEscape(variant)}" data-art-family="${portraitEscape(family)}" data-art-cell="${art.column},${art.row}" viewBox="0 0 80 80" role="img" aria-label="${portraitEscape(label)}" focusable="false"><title>${portraitEscape(label)}</title><svg x="0" y="0" width="80" height="80" viewBox="${art.column*80} ${art.row*80} 80 80" overflow="hidden" aria-hidden="true"><image href="${portraitEscape(art.atlas)}" x="0" y="0" width="${art.columns*80}" height="${art.rows*80}" preserveAspectRatio="none"/></svg></svg>`;
+ CARD_PORTRAIT_CACHE.set(key,result);return result;
+}
+function legacyCardPortraitHTML(c){
  const id=c.baseName||c.n,profile=CARD_ART_PROFILES[id]||{family:c.tokenKind==='spider'?'spider':c.tokenKind==='flame'||c.fod||c.n==='余芯'?'flame':'human',seed:7,...(/^(骸骨车轮|旧木车轮)$/.test(id)?{portraitKind:'object',objectType:'wheel'}:/^(碎灯偶|骸骨仆从|提灯助手|墓地伏影|港口伏影)$/.test(id)?{portraitKind:'person',occupation:'watch'}:{})};
  const label=typeof shortCardName==='function'?shortCardName(c):c.n,seed=(profile.seed||7)>>>0,f=profile.family||'human',role=profile.role||'',variant=profile.portraitVariant||'';
  const animalFamilies=['bull','goat','wolf','dog','cat','bear','boar','rat','monkey','horse','deer','hippo','elephant','hedgehog','lion','lizard','dragon','bird','bat','butterfly','insect','spider','scorpion','octopus','crab','snake','worm','slug','fish','turtle','frog'];

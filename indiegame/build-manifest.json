@@ -6,7 +6,170 @@
   "bossEntrances": 96,
   "musicTracks": 30,
   "sounds": "assets/sounds.9dd4337a50d2.js",
-  "script": "assets/pact.9f0610d1cfa6.js",
-  "style": "assets/table.564dd437ef75.css",
-  "scriptSha256": "9f0610d1cfa61b29e09e0eebafaeb8c16b7d2e79626b327a5a77d0efe32a0e6c"
+  "script": "assets/pact.a7f8aaf3bdfe.js",
+  "style": "assets/table.6383bd338c99.css",
+  "scriptSha256": "a7f8aaf3bdfea4cc5c63198bf6b1b2606d79d05391a57346af2a71e899b5734b",
+  "paintedCards": 880,
+  "paintingAtlases": [
+    {
+      "path": "assets/oil-animals-01.eecfbd5ae6b2.webp",
+      "sha256": "eecfbd5ae6b224cfb6f0d916756395b6bdab065dbae7ff57c99f6b0c7c70ad62",
+      "bytes": 731324,
+      "mime": "image/webp",
+      "width": 1254,
+      "height": 1254,
+      "columns": 8,
+      "rows": 8
+    },
+    {
+      "path": "assets/oil-animals-02.81ace8adfd8a.webp",
+      "sha256": "81ace8adfd8a2d6af8789347388ef82565df4243f370898e3f84d5759b9051ef",
+      "bytes": 721370,
+      "mime": "image/webp",
+      "width": 1254,
+      "height": 1254,
+      "columns": 8,
+      "rows": 8
+    },
+    {
+      "path": "assets/oil-animals-03.290871a39d8e.webp",
+      "sha256": "290871a39d8eb14554d6003b00541fee975bf037908f0a47cede6b68d50618db",
+      "bytes": 741362,
+      "mime": "image/webp",
+      "width": 1254,
+      "height": 1254,
+      "columns": 8,
+      "rows": 8
+    },
+    {
+      "path": "assets/oil-core.3202370a639c.webp",
+      "sha256": "3202370a639c204ec6ecc8dff82ebe25a6d7477c4de30914b140f94fb8805b45",
+      "bytes": 448156,
+      "mime": "image/webp",
+      "width": 1536,
+      "height": 1024,
+      "columns": 3,
+      "rows": 2
+    },
+    {
+      "path": "assets/oil-objects.fcb3158a9f57.webp",
+      "sha256": "fcb3158a9f571e1dde63ba627ef31152d9bbd38006eea29b726993ad36a8532a",
+      "bytes": 665108,
+      "mime": "image/webp",
+      "width": 1254,
+      "height": 1254,
+      "columns": 8,
+      "rows": 8
+    },
+    {
+      "path": "assets/oil-people-01.9529245675c1.webp",
+      "sha256": "9529245675c14beb7697e755684ca05a71f6846fd888ce67634fc5452fc5e3fa",
+      "bytes": 592826,
+      "mime": "image/webp",
+      "width": 1254,
+      "height": 1254,
+      "columns": 8,
+      "rows": 8
+    },
+    {
+      "path": "assets/oil-people-02.7f3cbcd4219d.webp",
+      "sha256": "7f3cbcd4219d3d5b92a0e3f38904f9b2dac43e6f71d18afeb9707114292445b7",
+      "bytes": 558190,
+      "mime": "image/webp",
+      "width": 1254,
+      "height": 1254,
+      "columns": 8,
+      "rows": 8
+    },
+    {
+      "path": "assets/oil-people-03.537c648cbaa7.webp",
+      "sha256": "537c648cbaa7ea9d8c04f8693d75a60f961275adc66826524d8efc30b3e32c2f",
+      "bytes": 580614,
+      "mime": "image/webp",
+      "width": 1254,
+      "height": 1254,
+      "columns": 8,
+      "rows": 8
+    },
+    {
+      "path": "assets/oil-people-04.5839270e6e57.webp",
+      "sha256": "5839270e6e576cc06bd0990a72dbbded2b3327a32776d347392445152d6f226d",
+      "bytes": 560176,
+      "mime": "image/webp",
+      "width": 1254,
+      "height": 1254,
+      "columns": 8,
+      "rows": 8
+    },
+    {
+      "path": "assets/oil-people-05.5ae2a78256ae.webp",
+      "sha256": "5ae2a78256aeb2c3afe2543edc97b849ec756e64973f42efe42562e1e59fa4c0",
+      "bytes": 574332,
+      "mime": "image/webp",
+      "width": 1254,
+      "height": 1254,
+      "columns": 8,
+      "rows": 8
+    },
+    {
+      "path": "assets/oil-people-06.e0d97cb31ef2.webp",
+      "sha256": "e0d97cb31ef2dee19f6e77605757e806b0ef963c4917ee3a84c07d9fc5252746",
+      "bytes": 578350,
+      "mime": "image/webp",
+      "width": 1254,
+      "height": 1254,
+      "columns": 8,
+      "rows": 8
+    },
+    {
+      "path": "assets/oil-people-07.ede49b89f4a7.webp",
+      "sha256": "ede49b89f4a740a18af809e365774d7235d3afbdd4bf30a8707894ff9a7a7b2c",
+      "bytes": 622068,
+      "mime": "image/webp",
+      "width": 1254,
+      "height": 1254,
+      "columns": 8,
+      "rows": 8
+    },
+    {
+      "path": "assets/oil-people-08.4792d1aa1566.webp",
+      "sha256": "4792d1aa15665cef8af5e52a4c9959c913d6fa576657ffdf35decd9715e87902",
+      "bytes": 577720,
+      "mime": "image/webp",
+      "width": 1254,
+      "height": 1254,
+      "columns": 8,
+      "rows": 8
+    },
+    {
+      "path": "assets/oil-people-09.d72a304233c6.webp",
+      "sha256": "d72a304233c60a35b5e9abd1420ed6861b551c4994a766a1637b250ad43c9bd7",
+      "bytes": 561868,
+      "mime": "image/webp",
+      "width": 1254,
+      "height": 1254,
+      "columns": 8,
+      "rows": 8
+    },
+    {
+      "path": "assets/oil-people-10.7d32b91359d0.webp",
+      "sha256": "7d32b91359d0ad6e3a05304e802c4d75724da7641a2db0db02a30b870daaffc2",
+      "bytes": 562580,
+      "mime": "image/webp",
+      "width": 1254,
+      "height": 1254,
+      "columns": 8,
+      "rows": 8
+    },
+    {
+      "path": "assets/oil-special.edc0c409d8b7.webp",
+      "sha256": "edc0c409d8b73ce2b387f19db8c7b4ddadaba95e9cce7bd3a6ad6657a034857d",
+      "bytes": 508698,
+      "mime": "image/webp",
+      "width": 1774,
+      "height": 887,
+      "columns": 4,
+      "rows": 2
+    }
+  ]
 }

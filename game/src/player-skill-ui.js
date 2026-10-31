@@ -1,5 +1,4 @@
-// The equipment chooser closes after selection; an equipped skill has a compact effect hint.
-let playerSkillUICloseTimer=0,playerSkillUISuppressHoverUntil=0;
+// Skill details open only after explicit button activation, leaving card movement unobstructed.
 function playerSkillUIText(zh,en){return typeof gameLanguage!=='undefined'&&gameLanguage==='en'?en:zh}
 function playerSkillUITranslate(text){return typeof i18nText==='function'?i18nText(text):text}
 function playerSkillUIWickName(){return typeof bossSkillWickIndex==='function'?playerSkillUIText('余芯','Wick'):playerSkillUIText('余灰','Ash')}
@@ -66,44 +65,33 @@ function refreshPlayerBossSkillPopover(){
  if(typeof localizeRoot==='function')localizeRoot(panel);
  document.querySelector('.player-boss-skill-trigger')?.setAttribute('aria-expanded','true');positionPlayerBossSkillPopover();
 }
-function openPlayerBossSkillPopover(pinned=true,requestedMode=null,moveFocus=false){
+function openPlayerBossSkillPopover(requestedMode=null,moveFocus=false){
  if(!G||G.tutorial||OV!==null||G.busy||(typeof DM!=='undefined'&&DM)||(typeof HOLD_DETAIL!=='undefined'&&HOLD_DETAIL)||(typeof infoPanel!=='undefined'&&infoPanel))return;
- if(!pinned&&performance.now()<playerSkillUISuppressHoverUntil)return;
  const ability=playerBossSkillEquippedAbility(),mode=requestedMode||(!ability?'equip':'effect');
- clearTimeout(playerSkillUICloseTimer);
- if(PLAYER_BOSS_SKILL_UI){PLAYER_BOSS_SKILL_UI.pinned=PLAYER_BOSS_SKILL_UI.pinned||pinned;PLAYER_BOSS_SKILL_UI.mode=mode;refreshPlayerBossSkillPopover();if(moveFocus)document.querySelector('#player-boss-skill-panel [data-player-boss-skill="use"]:not(:disabled),#player-boss-skill-panel [data-player-boss-skill="close"]')?.focus({preventScroll:true});return}
+ if(PLAYER_BOSS_SKILL_UI){PLAYER_BOSS_SKILL_UI.mode=mode;refreshPlayerBossSkillPopover();if(moveFocus)document.querySelector('#player-boss-skill-panel [data-player-boss-skill="use"]:not(:disabled),#player-boss-skill-panel [data-player-boss-skill="close"]')?.focus({preventScroll:true});return}
  if(typeof closeBossAbilityPopover==='function')closeBossAbilityPopover(false);
  const panel=document.createElement('section');panel.id='player-boss-skill-panel';panel.className='player-boss-skill-popover';panel.setAttribute('role','dialog');panel.setAttribute('aria-labelledby','player-boss-skill-title');
- PLAYER_BOSS_SKILL_UI={game:G,turn:G.turn,phase:G.phase,source:playerBossSkillState()?.source,mode,pinned};document.body.appendChild(panel);refreshPlayerBossSkillPopover();playerBossSkillUITimer=setInterval(refreshPlayerBossSkillPopover,250);
+ PLAYER_BOSS_SKILL_UI={game:G,turn:G.turn,phase:G.phase,source:playerBossSkillState()?.source,mode};document.body.appendChild(panel);refreshPlayerBossSkillPopover();playerBossSkillUITimer=setInterval(refreshPlayerBossSkillPopover,250);
  if(moveFocus)panel.querySelector('[data-player-boss-skill="use"]:not(:disabled),[data-player-boss-skill="close"]')?.focus({preventScroll:true});
 }
 function closePlayerBossSkillPopover(restoreFocus=true){
- const active=PLAYER_BOSS_SKILL_UI;PLAYER_BOSS_SKILL_UI=null;clearInterval(playerBossSkillUITimer);clearTimeout(playerSkillUICloseTimer);playerBossSkillUITimer=0;playerSkillUICloseTimer=0;
+ const active=PLAYER_BOSS_SKILL_UI;PLAYER_BOSS_SKILL_UI=null;clearInterval(playerBossSkillUITimer);playerBossSkillUITimer=0;
  if(typeof document==='undefined')return;document.getElementById('player-boss-skill-panel')?.remove();const trigger=document.querySelector('.player-boss-skill-trigger');trigger?.setAttribute('aria-expanded','false');
- if(active&&(active.source!==G?.playerBossSkill?.source||G?.playerBossSkill?.turnUsed===G?.turn||G?.playerBossSkill?.armed))playerSkillUISuppressHoverUntil=performance.now()+600;
- if(active&&restoreFocus){playerSkillUISuppressHoverUntil=performance.now()+500;trigger?.focus({preventScroll:true})}
+ if(active&&restoreFocus)trigger?.focus({preventScroll:true});
 }
-function deferClosePlayerBossSkillPopover(){clearTimeout(playerSkillUICloseTimer);if(PLAYER_BOSS_SKILL_UI&&!PLAYER_BOSS_SKILL_UI.pinned)playerSkillUICloseTimer=setTimeout(()=>closePlayerBossSkillPopover(false),180)}
 function finishPlayerSkillUIAction(event){
- playerSkillUISuppressHoverUntil=performance.now()+600;closePlayerBossSkillPopover(false);if(typeof render==='function')render();
+ closePlayerBossSkillPopover(false);if(typeof render==='function')render();
  if(event.detail===0)document.querySelector('.player-boss-skill-trigger')?.focus({preventScroll:true});
 }
 document.addEventListener('click',event=>{
  const button=event.target.closest('[data-player-boss-skill]');if(!button)return;
  event.preventDefault();event.stopImmediatePropagation();if(button.disabled)return;const action=button.dataset.playerBossSkill;
  if(action==='close'){closePlayerBossSkillPopover();return}
- if(action==='open'){openPlayerBossSkillPopover(true,null,event.detail===0);return}
- if(action==='change'){openPlayerBossSkillPopover(true,'equip',true);return}
+ if(action==='open'){openPlayerBossSkillPopover(null,event.detail===0);return}
+ if(action==='change'){openPlayerBossSkillPopover('equip',true);return}
  if(action==='equip'){if(equipPlayerBossSkill(Number(button.dataset.playerSkillLane)))finishPlayerSkillUIAction(event);else{if(typeof render==='function')render();refreshPlayerBossSkillPopover()}return}
  if(action==='use'){const used=usePlayerBossSkill();if(used){if(typeof chk==='function')chk();finishPlayerSkillUIAction(event)}else{if(PLAYER_BOSS_SKILL_UI)PLAYER_BOSS_SKILL_UI.failure=true;if(typeof render==='function')render();refreshPlayerBossSkillPopover()}}
 },true);
-document.addEventListener('pointerover',event=>{
- if(event.pointerType==='touch'||!matchMedia('(hover:hover)').matches)return;
- const target=event.target.closest('.player-boss-skill-trigger,#player-boss-skill-panel');if(!target)return;clearTimeout(playerSkillUICloseTimer);
- if(target.classList.contains('player-boss-skill-trigger')&&playerBossSkillEquippedAbility())openPlayerBossSkillPopover(false);
-});
-document.addEventListener('pointerout',event=>{if(event.pointerType==='touch'||!event.target.closest('.player-boss-skill-trigger,#player-boss-skill-panel')||event.relatedTarget?.closest?.('.player-boss-skill-trigger,#player-boss-skill-panel'))return;deferClosePlayerBossSkillPopover()});
-document.addEventListener('focusin',event=>{if(event.target.closest('.player-boss-skill-trigger')&&performance.now()>=playerSkillUISuppressHoverUntil&&playerBossSkillEquippedAbility())openPlayerBossSkillPopover(true)});
 document.addEventListener('focusout',event=>{if(!event.target.closest('.player-boss-skill-trigger,#player-boss-skill-panel'))return;setTimeout(()=>{if(PLAYER_BOSS_SKILL_UI&&!document.activeElement?.closest?.('.player-boss-skill-trigger,#player-boss-skill-panel'))closePlayerBossSkillPopover(false)},0)});
 document.addEventListener('pointerdown',event=>{if(!PLAYER_BOSS_SKILL_UI||event.button!==0||event.target.closest('.player-boss-skill-popover,.player-boss-skill-trigger'))return;closePlayerBossSkillPopover(false)},true);
 document.addEventListener('contextmenu',event=>{if(!PLAYER_BOSS_SKILL_UI)return;event.preventDefault();event.stopImmediatePropagation();closePlayerBossSkillPopover()},true);

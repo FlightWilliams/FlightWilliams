@@ -1,0 +1,7162 @@
+{
+  "苔庭铠卫·雅恩": {
+    "atlas": "assets/oil-core.3202370a639c.webp",
+    "column": 0,
+    "row": 0,
+    "columns": 3,
+    "rows": 2,
+    "kind": "person"
+  },
+  "苔庭潜印客·莫恩": {
+    "atlas": "assets/oil-core.3202370a639c.webp",
+    "column": 1,
+    "row": 0,
+    "columns": 3,
+    "rows": 2,
+    "kind": "person"
+  },
+  "苔庭裂角客领誓·阿珀": {
+    "atlas": "assets/oil-core.3202370a639c.webp",
+    "column": 2,
+    "row": 0,
+    "columns": 3,
+    "rows": 2,
+    "kind": "person"
+  },
+  "炽砂修灯师·瑟罗": {
+    "atlas": "assets/oil-core.3202370a639c.webp",
+    "column": 0,
+    "row": 1,
+    "columns": 3,
+    "rows": 2,
+    "kind": "person"
+  },
+  "暮潮灯议长·艾汀": {
+    "atlas": "assets/oil-core.3202370a639c.webp",
+    "column": 1,
+    "row": 1,
+    "columns": 3,
+    "rows": 2,
+    "kind": "person"
+  },
+  "霜枝灯议长·欧诺": {
+    "atlas": "assets/oil-core.3202370a639c.webp",
+    "column": 2,
+    "row": 1,
+    "columns": 3,
+    "rows": 2,
+    "kind": "person"
+  },
+  "苔庭枝灯树灵领誓·莫珀": {
+    "atlas": "assets/oil-special.edc0c409d8b7.webp",
+    "column": 0,
+    "row": 0,
+    "columns": 4,
+    "rows": 2,
+    "kind": "person"
+  },
+  "苔庭绒伞菌灵·依拉": {
+    "atlas": "assets/oil-special.edc0c409d8b7.webp",
+    "column": 1,
+    "row": 0,
+    "columns": 4,
+    "rows": 2,
+    "kind": "person"
+  },
+  "苔庭铜缄绒伞菌灵": {
+    "atlas": "assets/oil-special.edc0c409d8b7.webp",
+    "column": 2,
+    "row": 0,
+    "columns": 4,
+    "rows": 2,
+    "kind": "person"
+  },
+  "苔庭回声绒伞菌灵": {
+    "atlas": "assets/oil-special.edc0c409d8b7.webp",
+    "column": 3,
+    "row": 0,
+    "columns": 4,
+    "rows": 2,
+    "kind": "person"
+  },
+  "苔庭浮辉使领誓·索珀": {
+    "atlas": "assets/oil-special.edc0c409d8b7.webp",
+    "column": 0,
+    "row": 1,
+    "columns": 4,
+    "rows": 2,
+    "kind": "person"
+  },
+  "苔庭攀崖羊灵领誓·伊珀": {
+    "atlas": "assets/oil-special.edc0c409d8b7.webp",
+    "column": 1,
+    "row": 1,
+    "columns": 4,
+    "rows": 2,
+    "kind": "animal"
+  },
+  "苔庭苔痕凝光泥团": {
+    "atlas": "assets/oil-special.edc0c409d8b7.webp",
+    "column": 2,
+    "row": 1,
+    "columns": 4,
+    "rows": 2,
+    "kind": "object"
+  },
+  "苔庭裂角客领誓·欧珀": {
+    "atlas": "assets/oil-people-01.9529245675c1.webp",
+    "column": 0,
+    "row": 0,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "苔庭裂角客领誓·诺珀": {
+    "atlas": "assets/oil-people-01.9529245675c1.webp",
+    "column": 1,
+    "row": 0,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "苔庭峰脊巨灵领誓·瑟珀": {
+    "atlas": "assets/oil-people-01.9529245675c1.webp",
+    "column": 2,
+    "row": 0,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "苔庭铠卫领誓·维珀": {
+    "atlas": "assets/oil-people-01.9529245675c1.webp",
+    "column": 3,
+    "row": 0,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "苔庭铠卫领誓·希珀": {
+    "atlas": "assets/oil-people-01.9529245675c1.webp",
+    "column": 4,
+    "row": 0,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "苔庭灯议长·洛珀": {
+    "atlas": "assets/oil-people-01.9529245675c1.webp",
+    "column": 5,
+    "row": 0,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "苔庭缄骨客领誓·米珀": {
+    "atlas": "assets/oil-people-01.9529245675c1.webp",
+    "column": 6,
+    "row": 0,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "苔庭峰脊巨灵领誓·莱珀": {
+    "atlas": "assets/oil-people-01.9529245675c1.webp",
+    "column": 7,
+    "row": 0,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "苔庭裂角客领誓·岑珀": {
+    "atlas": "assets/oil-people-01.9529245675c1.webp",
+    "column": 0,
+    "row": 1,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "苔庭灯议长·佩珀": {
+    "atlas": "assets/oil-people-01.9529245675c1.webp",
+    "column": 1,
+    "row": 1,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "苔庭灯议长·泽珀": {
+    "atlas": "assets/oil-people-01.9529245675c1.webp",
+    "column": 2,
+    "row": 1,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "苔庭灯议长·图珀": {
+    "atlas": "assets/oil-people-01.9529245675c1.webp",
+    "column": 3,
+    "row": 1,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "苔庭铠卫领誓·阿恩": {
+    "atlas": "assets/oil-people-01.9529245675c1.webp",
+    "column": 4,
+    "row": 1,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "苔庭裂角客领誓·伊恩": {
+    "atlas": "assets/oil-people-01.9529245675c1.webp",
+    "column": 5,
+    "row": 1,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "苔庭铠卫·欧恩": {
+    "atlas": "assets/oil-people-01.9529245675c1.webp",
+    "column": 6,
+    "row": 1,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "苔庭铠卫·乌恩": {
+    "atlas": "assets/oil-people-01.9529245675c1.webp",
+    "column": 7,
+    "row": 1,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "苔庭铠卫·依恩": {
+    "atlas": "assets/oil-people-01.9529245675c1.webp",
+    "column": 0,
+    "row": 2,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "苔庭巡灯使·诺恩": {
+    "atlas": "assets/oil-people-01.9529245675c1.webp",
+    "column": 1,
+    "row": 2,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "苔庭峰脊巨灵·瑟恩": {
+    "atlas": "assets/oil-people-01.9529245675c1.webp",
+    "column": 2,
+    "row": 2,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "苔庭缄骨客·维恩": {
+    "atlas": "assets/oil-people-01.9529245675c1.webp",
+    "column": 3,
+    "row": 2,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "苔庭观灯师·希恩": {
+    "atlas": "assets/oil-people-01.9529245675c1.webp",
+    "column": 4,
+    "row": 2,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "苔庭观灯师·洛恩": {
+    "atlas": "assets/oil-people-01.9529245675c1.webp",
+    "column": 5,
+    "row": 2,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "苔庭观灯师·米恩": {
+    "atlas": "assets/oil-people-01.9529245675c1.webp",
+    "column": 6,
+    "row": 2,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "苔庭观灯师·岚恩": {
+    "atlas": "assets/oil-people-01.9529245675c1.webp",
+    "column": 7,
+    "row": 2,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "苔庭巡灯使·索恩": {
+    "atlas": "assets/oil-people-01.9529245675c1.webp",
+    "column": 0,
+    "row": 3,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "苔庭修灯师·岑恩": {
+    "atlas": "assets/oil-people-01.9529245675c1.webp",
+    "column": 1,
+    "row": 3,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "苔庭修灯师·塔恩": {
+    "atlas": "assets/oil-people-01.9529245675c1.webp",
+    "column": 2,
+    "row": 3,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "苔庭修灯师·伦恩": {
+    "atlas": "assets/oil-people-01.9529245675c1.webp",
+    "column": 3,
+    "row": 3,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "苔庭铠卫·佩恩": {
+    "atlas": "assets/oil-people-01.9529245675c1.webp",
+    "column": 4,
+    "row": 3,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "苔庭峰脊巨灵·泽恩": {
+    "atlas": "assets/oil-people-01.9529245675c1.webp",
+    "column": 5,
+    "row": 3,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "苔庭潜印客·图恩": {
+    "atlas": "assets/oil-people-01.9529245675c1.webp",
+    "column": 6,
+    "row": 3,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "苔庭潜印客·芮恩": {
+    "atlas": "assets/oil-people-01.9529245675c1.webp",
+    "column": 7,
+    "row": 3,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "苔庭缄骨客·伊拉": {
+    "atlas": "assets/oil-people-01.9529245675c1.webp",
+    "column": 0,
+    "row": 4,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "苔庭缄骨客·欧拉": {
+    "atlas": "assets/oil-people-01.9529245675c1.webp",
+    "column": 1,
+    "row": 4,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "苔庭巡灯使·乌拉": {
+    "atlas": "assets/oil-people-01.9529245675c1.webp",
+    "column": 2,
+    "row": 4,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "苔庭观灯师·雅拉": {
+    "atlas": "assets/oil-people-01.9529245675c1.webp",
+    "column": 3,
+    "row": 4,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "苔庭铠卫·诺拉": {
+    "atlas": "assets/oil-people-01.9529245675c1.webp",
+    "column": 4,
+    "row": 4,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "苔庭观灯师·瑟拉": {
+    "atlas": "assets/oil-people-01.9529245675c1.webp",
+    "column": 5,
+    "row": 4,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "苔庭琉纹缄骨客": {
+    "atlas": "assets/oil-people-01.9529245675c1.webp",
+    "column": 6,
+    "row": 4,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "苔庭风蚀缄骨客": {
+    "atlas": "assets/oil-people-01.9529245675c1.webp",
+    "column": 7,
+    "row": 4,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "苔庭静棱缄骨客": {
+    "atlas": "assets/oil-people-01.9529245675c1.webp",
+    "column": 0,
+    "row": 5,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "苔庭绒雾缄骨客": {
+    "atlas": "assets/oil-people-01.9529245675c1.webp",
+    "column": 1,
+    "row": 5,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "苔庭微烛潜印客": {
+    "atlas": "assets/oil-people-01.9529245675c1.webp",
+    "column": 2,
+    "row": 5,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "苔庭流砂铠卫": {
+    "atlas": "assets/oil-people-01.9529245675c1.webp",
+    "column": 3,
+    "row": 5,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "苔庭镜纹铠卫": {
+    "atlas": "assets/oil-people-01.9529245675c1.webp",
+    "column": 4,
+    "row": 5,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "苔庭远路铠卫": {
+    "atlas": "assets/oil-people-01.9529245675c1.webp",
+    "column": 5,
+    "row": 5,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "苔庭石封铠卫": {
+    "atlas": "assets/oil-people-01.9529245675c1.webp",
+    "column": 6,
+    "row": 5,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "苔庭鸣枝铠卫": {
+    "atlas": "assets/oil-people-01.9529245675c1.webp",
+    "column": 7,
+    "row": 5,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "苔庭暖灰铠卫": {
+    "atlas": "assets/oil-people-01.9529245675c1.webp",
+    "column": 0,
+    "row": 6,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "苔庭夜航缄骨客": {
+    "atlas": "assets/oil-people-01.9529245675c1.webp",
+    "column": 1,
+    "row": 6,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "苔庭流砂缄骨客": {
+    "atlas": "assets/oil-people-01.9529245675c1.webp",
+    "column": 2,
+    "row": 6,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "苔庭夜航观灯师": {
+    "atlas": "assets/oil-people-01.9529245675c1.webp",
+    "column": 3,
+    "row": 6,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "苔庭镜纹缄骨客": {
+    "atlas": "assets/oil-people-01.9529245675c1.webp",
+    "column": 4,
+    "row": 6,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "苔庭远路缄骨客": {
+    "atlas": "assets/oil-people-01.9529245675c1.webp",
+    "column": 5,
+    "row": 6,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "苔庭琉纹峰脊巨灵": {
+    "atlas": "assets/oil-people-01.9529245675c1.webp",
+    "column": 6,
+    "row": 6,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "苔庭风蚀裂角客": {
+    "atlas": "assets/oil-people-01.9529245675c1.webp",
+    "column": 7,
+    "row": 6,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "苔庭悬灯铠卫": {
+    "atlas": "assets/oil-people-01.9529245675c1.webp",
+    "column": 0,
+    "row": 7,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "苔庭琉纹潜印客": {
+    "atlas": "assets/oil-people-01.9529245675c1.webp",
+    "column": 1,
+    "row": 7,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "苔庭石封缄骨客": {
+    "atlas": "assets/oil-people-01.9529245675c1.webp",
+    "column": 2,
+    "row": 7,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "苔庭苔痕折面星客": {
+    "atlas": "assets/oil-people-01.9529245675c1.webp",
+    "column": 3,
+    "row": 7,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "苔庭静棱裂角客": {
+    "atlas": "assets/oil-people-01.9529245675c1.webp",
+    "column": 4,
+    "row": 7,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "苔庭银露铠卫": {
+    "atlas": "assets/oil-people-01.9529245675c1.webp",
+    "column": 5,
+    "row": 7,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "苔庭风蚀峰脊巨灵": {
+    "atlas": "assets/oil-people-01.9529245675c1.webp",
+    "column": 6,
+    "row": 7,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "苔庭流砂观灯师": {
+    "atlas": "assets/oil-people-01.9529245675c1.webp",
+    "column": 7,
+    "row": 7,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "苔庭绒雾裂角客": {
+    "atlas": "assets/oil-people-02.7f3cbcd4219d.webp",
+    "column": 0,
+    "row": 0,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "苔庭镜纹观灯师": {
+    "atlas": "assets/oil-people-02.7f3cbcd4219d.webp",
+    "column": 1,
+    "row": 0,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "苔庭鸣枝缄骨客": {
+    "atlas": "assets/oil-people-02.7f3cbcd4219d.webp",
+    "column": 2,
+    "row": 0,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "苔庭藤印铠卫": {
+    "atlas": "assets/oil-people-02.7f3cbcd4219d.webp",
+    "column": 3,
+    "row": 0,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "铜钟峰脊巨灵领誓·维拉": {
+    "atlas": "assets/oil-people-02.7f3cbcd4219d.webp",
+    "column": 4,
+    "row": 0,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "铜钟铠卫领誓·希拉": {
+    "atlas": "assets/oil-people-02.7f3cbcd4219d.webp",
+    "column": 5,
+    "row": 0,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "铜钟铠卫领誓·洛拉": {
+    "atlas": "assets/oil-people-02.7f3cbcd4219d.webp",
+    "column": 6,
+    "row": 0,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "铜钟铠卫领誓·米拉": {
+    "atlas": "assets/oil-people-02.7f3cbcd4219d.webp",
+    "column": 7,
+    "row": 0,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "铜钟峰脊巨灵领誓·岚拉": {
+    "atlas": "assets/oil-people-02.7f3cbcd4219d.webp",
+    "column": 0,
+    "row": 1,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "铜钟铠卫领誓·索拉": {
+    "atlas": "assets/oil-people-02.7f3cbcd4219d.webp",
+    "column": 1,
+    "row": 1,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "铜钟灯议长·莱拉": {
+    "atlas": "assets/oil-people-02.7f3cbcd4219d.webp",
+    "column": 2,
+    "row": 1,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "铜钟缄骨客领誓·岑拉": {
+    "atlas": "assets/oil-people-02.7f3cbcd4219d.webp",
+    "column": 3,
+    "row": 1,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "铜钟裂角客领誓·佩拉": {
+    "atlas": "assets/oil-people-02.7f3cbcd4219d.webp",
+    "column": 4,
+    "row": 1,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "铜钟裂角客领誓·泽拉": {
+    "atlas": "assets/oil-people-02.7f3cbcd4219d.webp",
+    "column": 5,
+    "row": 1,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "铜钟灯议长·芮拉": {
+    "atlas": "assets/oil-people-02.7f3cbcd4219d.webp",
+    "column": 6,
+    "row": 1,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "铜钟缄骨客领誓·欧温": {
+    "atlas": "assets/oil-people-02.7f3cbcd4219d.webp",
+    "column": 7,
+    "row": 1,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "铜钟铠卫领誓·乌温": {
+    "atlas": "assets/oil-people-02.7f3cbcd4219d.webp",
+    "column": 0,
+    "row": 2,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "铜钟铠卫领誓·雅温": {
+    "atlas": "assets/oil-people-02.7f3cbcd4219d.webp",
+    "column": 1,
+    "row": 2,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "铜钟峰脊巨灵领誓·瑟温": {
+    "atlas": "assets/oil-people-02.7f3cbcd4219d.webp",
+    "column": 2,
+    "row": 2,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "铜钟铠卫领誓·维温": {
+    "atlas": "assets/oil-people-02.7f3cbcd4219d.webp",
+    "column": 3,
+    "row": 2,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "铜钟铠卫领誓·希温": {
+    "atlas": "assets/oil-people-02.7f3cbcd4219d.webp",
+    "column": 4,
+    "row": 2,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "铜钟缄骨客领誓·洛温": {
+    "atlas": "assets/oil-people-02.7f3cbcd4219d.webp",
+    "column": 5,
+    "row": 2,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "铜钟铠卫领誓·米温": {
+    "atlas": "assets/oil-people-02.7f3cbcd4219d.webp",
+    "column": 6,
+    "row": 2,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "铜钟缄骨客领誓·莱温": {
+    "atlas": "assets/oil-people-02.7f3cbcd4219d.webp",
+    "column": 7,
+    "row": 2,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "铜钟灯议长·莫温": {
+    "atlas": "assets/oil-people-02.7f3cbcd4219d.webp",
+    "column": 0,
+    "row": 3,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "铜钟灯议长·伦温": {
+    "atlas": "assets/oil-people-02.7f3cbcd4219d.webp",
+    "column": 1,
+    "row": 3,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "铜钟铠卫领誓·佩温": {
+    "atlas": "assets/oil-people-02.7f3cbcd4219d.webp",
+    "column": 2,
+    "row": 3,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "铜钟铠卫领誓·泽温": {
+    "atlas": "assets/oil-people-02.7f3cbcd4219d.webp",
+    "column": 3,
+    "row": 3,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "铜钟裂角客领誓·图温": {
+    "atlas": "assets/oil-people-02.7f3cbcd4219d.webp",
+    "column": 4,
+    "row": 3,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "铜钟铠卫领誓·阿雅": {
+    "atlas": "assets/oil-people-02.7f3cbcd4219d.webp",
+    "column": 5,
+    "row": 3,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "铜钟修灯师·伊雅": {
+    "atlas": "assets/oil-people-02.7f3cbcd4219d.webp",
+    "column": 6,
+    "row": 3,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "铜钟铠卫·欧雅": {
+    "atlas": "assets/oil-people-02.7f3cbcd4219d.webp",
+    "column": 7,
+    "row": 3,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "铜钟铠卫·乌雅": {
+    "atlas": "assets/oil-people-02.7f3cbcd4219d.webp",
+    "column": 0,
+    "row": 4,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "铜钟铠卫·依雅": {
+    "atlas": "assets/oil-people-02.7f3cbcd4219d.webp",
+    "column": 1,
+    "row": 4,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "铜钟巡灯使·雅雅": {
+    "atlas": "assets/oil-people-02.7f3cbcd4219d.webp",
+    "column": 2,
+    "row": 4,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "铜钟巡灯使·诺雅": {
+    "atlas": "assets/oil-people-02.7f3cbcd4219d.webp",
+    "column": 3,
+    "row": 4,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "铜钟巡灯使·瑟雅": {
+    "atlas": "assets/oil-people-02.7f3cbcd4219d.webp",
+    "column": 4,
+    "row": 4,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "铜钟巡灯使·维雅": {
+    "atlas": "assets/oil-people-02.7f3cbcd4219d.webp",
+    "column": 5,
+    "row": 4,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "铜钟巡灯使·希雅": {
+    "atlas": "assets/oil-people-02.7f3cbcd4219d.webp",
+    "column": 6,
+    "row": 4,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "铜钟巡灯使·洛雅": {
+    "atlas": "assets/oil-people-02.7f3cbcd4219d.webp",
+    "column": 7,
+    "row": 4,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "铜钟巡灯使·岚雅": {
+    "atlas": "assets/oil-people-02.7f3cbcd4219d.webp",
+    "column": 0,
+    "row": 5,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "铜钟巡灯使·索雅": {
+    "atlas": "assets/oil-people-02.7f3cbcd4219d.webp",
+    "column": 1,
+    "row": 5,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "铜钟铠卫·莱雅": {
+    "atlas": "assets/oil-people-02.7f3cbcd4219d.webp",
+    "column": 2,
+    "row": 5,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "铜钟修灯师·岑雅": {
+    "atlas": "assets/oil-people-02.7f3cbcd4219d.webp",
+    "column": 3,
+    "row": 5,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "铜钟观灯师·塔雅": {
+    "atlas": "assets/oil-people-02.7f3cbcd4219d.webp",
+    "column": 4,
+    "row": 5,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "铜钟观灯师·莫雅": {
+    "atlas": "assets/oil-people-02.7f3cbcd4219d.webp",
+    "column": 5,
+    "row": 5,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "铜钟观灯师·伦雅": {
+    "atlas": "assets/oil-people-02.7f3cbcd4219d.webp",
+    "column": 6,
+    "row": 5,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "铜钟观灯师·泽雅": {
+    "atlas": "assets/oil-people-02.7f3cbcd4219d.webp",
+    "column": 7,
+    "row": 5,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "铜钟观灯师·图雅": {
+    "atlas": "assets/oil-people-02.7f3cbcd4219d.webp",
+    "column": 0,
+    "row": 6,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "铜钟巡灯使·芮雅": {
+    "atlas": "assets/oil-people-02.7f3cbcd4219d.webp",
+    "column": 1,
+    "row": 6,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "铜钟观灯师·艾弥": {
+    "atlas": "assets/oil-people-02.7f3cbcd4219d.webp",
+    "column": 2,
+    "row": 6,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "铜钟修灯师·伊弥": {
+    "atlas": "assets/oil-people-02.7f3cbcd4219d.webp",
+    "column": 3,
+    "row": 6,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "铜钟琉纹缄骨客": {
+    "atlas": "assets/oil-people-02.7f3cbcd4219d.webp",
+    "column": 4,
+    "row": 6,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "铜钟银露铠卫": {
+    "atlas": "assets/oil-people-02.7f3cbcd4219d.webp",
+    "column": 5,
+    "row": 6,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "铜钟藤印铠卫": {
+    "atlas": "assets/oil-people-02.7f3cbcd4219d.webp",
+    "column": 6,
+    "row": 6,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "铜钟雾羽铠卫": {
+    "atlas": "assets/oil-people-02.7f3cbcd4219d.webp",
+    "column": 7,
+    "row": 6,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "铜钟苔痕潜印客": {
+    "atlas": "assets/oil-people-02.7f3cbcd4219d.webp",
+    "column": 0,
+    "row": 7,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "铜钟铜缄潜印客": {
+    "atlas": "assets/oil-people-02.7f3cbcd4219d.webp",
+    "column": 1,
+    "row": 7,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "铜钟苔痕折面星客": {
+    "atlas": "assets/oil-people-02.7f3cbcd4219d.webp",
+    "column": 2,
+    "row": 7,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "铜钟弧光铠卫": {
+    "atlas": "assets/oil-people-02.7f3cbcd4219d.webp",
+    "column": 3,
+    "row": 7,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "铜钟风蚀缄骨客": {
+    "atlas": "assets/oil-people-02.7f3cbcd4219d.webp",
+    "column": 4,
+    "row": 7,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "铜钟铜缄苔痕铠卫": {
+    "atlas": "assets/oil-people-02.7f3cbcd4219d.webp",
+    "column": 5,
+    "row": 7,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "铜钟静棱缄骨客": {
+    "atlas": "assets/oil-people-02.7f3cbcd4219d.webp",
+    "column": 6,
+    "row": 7,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "铜钟绒雾缄骨客": {
+    "atlas": "assets/oil-people-02.7f3cbcd4219d.webp",
+    "column": 7,
+    "row": 7,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "铜钟夜航缄骨客": {
+    "atlas": "assets/oil-people-03.537c648cbaa7.webp",
+    "column": 0,
+    "row": 0,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "铜钟远路巡灯使": {
+    "atlas": "assets/oil-people-03.537c648cbaa7.webp",
+    "column": 1,
+    "row": 0,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "铜钟夜航观灯师": {
+    "atlas": "assets/oil-people-03.537c648cbaa7.webp",
+    "column": 2,
+    "row": 0,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "铜钟铜缄铜缄铠卫": {
+    "atlas": "assets/oil-people-03.537c648cbaa7.webp",
+    "column": 3,
+    "row": 0,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "铜钟流砂观灯师": {
+    "atlas": "assets/oil-people-03.537c648cbaa7.webp",
+    "column": 4,
+    "row": 0,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "铜钟回声潜印客": {
+    "atlas": "assets/oil-people-03.537c648cbaa7.webp",
+    "column": 5,
+    "row": 0,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "铜钟铜缄回声铠卫": {
+    "atlas": "assets/oil-people-03.537c648cbaa7.webp",
+    "column": 6,
+    "row": 0,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "铜钟铜缄微烛铠卫": {
+    "atlas": "assets/oil-people-03.537c648cbaa7.webp",
+    "column": 7,
+    "row": 0,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "铜钟镜纹观灯师": {
+    "atlas": "assets/oil-people-03.537c648cbaa7.webp",
+    "column": 0,
+    "row": 1,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "铜钟微烛修灯师": {
+    "atlas": "assets/oil-people-03.537c648cbaa7.webp",
+    "column": 1,
+    "row": 1,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "铜钟铜缄折面星客": {
+    "atlas": "assets/oil-people-03.537c648cbaa7.webp",
+    "column": 2,
+    "row": 1,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "铜钟铜缄琉纹铠卫": {
+    "atlas": "assets/oil-people-03.537c648cbaa7.webp",
+    "column": 3,
+    "row": 1,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "铜钟铜缄风蚀铠卫": {
+    "atlas": "assets/oil-people-03.537c648cbaa7.webp",
+    "column": 4,
+    "row": 1,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "铜钟铜缄静棱铠卫": {
+    "atlas": "assets/oil-people-03.537c648cbaa7.webp",
+    "column": 5,
+    "row": 1,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "铜钟铜缄绒雾铠卫": {
+    "atlas": "assets/oil-people-03.537c648cbaa7.webp",
+    "column": 6,
+    "row": 1,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "铜钟铜缄夜航铠卫": {
+    "atlas": "assets/oil-people-03.537c648cbaa7.webp",
+    "column": 7,
+    "row": 1,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "铜钟远路观灯师": {
+    "atlas": "assets/oil-people-03.537c648cbaa7.webp",
+    "column": 0,
+    "row": 2,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "铜钟流砂缄骨客": {
+    "atlas": "assets/oil-people-03.537c648cbaa7.webp",
+    "column": 1,
+    "row": 2,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "铜钟铜缄流砂铠卫": {
+    "atlas": "assets/oil-people-03.537c648cbaa7.webp",
+    "column": 2,
+    "row": 2,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "铜钟铜缄镜纹铠卫": {
+    "atlas": "assets/oil-people-03.537c648cbaa7.webp",
+    "column": 3,
+    "row": 2,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "铜钟铜缄远路铠卫": {
+    "atlas": "assets/oil-people-03.537c648cbaa7.webp",
+    "column": 4,
+    "row": 2,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "铜钟石封观灯师": {
+    "atlas": "assets/oil-people-03.537c648cbaa7.webp",
+    "column": 5,
+    "row": 2,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "铜钟铜缄石封铠卫": {
+    "atlas": "assets/oil-people-03.537c648cbaa7.webp",
+    "column": 6,
+    "row": 2,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "铜钟铜缄鸣枝铠卫": {
+    "atlas": "assets/oil-people-03.537c648cbaa7.webp",
+    "column": 7,
+    "row": 2,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "铜钟铜缄暖灰铠卫": {
+    "atlas": "assets/oil-people-03.537c648cbaa7.webp",
+    "column": 0,
+    "row": 3,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "铜钟铜缄悬灯铠卫": {
+    "atlas": "assets/oil-people-03.537c648cbaa7.webp",
+    "column": 1,
+    "row": 3,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "铜钟铜缄银露铠卫": {
+    "atlas": "assets/oil-people-03.537c648cbaa7.webp",
+    "column": 2,
+    "row": 3,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "炽砂铠卫领誓·乌弥": {
+    "atlas": "assets/oil-people-03.537c648cbaa7.webp",
+    "column": 3,
+    "row": 3,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "炽砂铠卫领誓·依弥": {
+    "atlas": "assets/oil-people-03.537c648cbaa7.webp",
+    "column": 4,
+    "row": 3,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "炽砂灯议长·诺弥": {
+    "atlas": "assets/oil-people-03.537c648cbaa7.webp",
+    "column": 5,
+    "row": 3,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "炽砂灯议长·瑟弥": {
+    "atlas": "assets/oil-people-03.537c648cbaa7.webp",
+    "column": 6,
+    "row": 3,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "炽砂铠卫领誓·维弥": {
+    "atlas": "assets/oil-people-03.537c648cbaa7.webp",
+    "column": 7,
+    "row": 3,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "炽砂缄骨客领誓·希弥": {
+    "atlas": "assets/oil-people-03.537c648cbaa7.webp",
+    "column": 0,
+    "row": 4,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "炽砂裂角客领誓·洛弥": {
+    "atlas": "assets/oil-people-03.537c648cbaa7.webp",
+    "column": 1,
+    "row": 4,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "炽砂灯议长·米弥": {
+    "atlas": "assets/oil-people-03.537c648cbaa7.webp",
+    "column": 2,
+    "row": 4,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "炽砂峰脊巨灵领誓·索弥": {
+    "atlas": "assets/oil-people-03.537c648cbaa7.webp",
+    "column": 3,
+    "row": 4,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "炽砂铠卫领誓·莱弥": {
+    "atlas": "assets/oil-people-03.537c648cbaa7.webp",
+    "column": 4,
+    "row": 4,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "炽砂铠卫领誓·塔弥": {
+    "atlas": "assets/oil-people-03.537c648cbaa7.webp",
+    "column": 5,
+    "row": 4,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "炽砂铠卫领誓·莫弥": {
+    "atlas": "assets/oil-people-03.537c648cbaa7.webp",
+    "column": 6,
+    "row": 4,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "炽砂灯议长·伦弥": {
+    "atlas": "assets/oil-people-03.537c648cbaa7.webp",
+    "column": 7,
+    "row": 4,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "炽砂铠卫领誓·佩弥": {
+    "atlas": "assets/oil-people-03.537c648cbaa7.webp",
+    "column": 0,
+    "row": 5,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "炽砂灯议长·图弥": {
+    "atlas": "assets/oil-people-03.537c648cbaa7.webp",
+    "column": 1,
+    "row": 5,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "炽砂铠卫领誓·芮弥": {
+    "atlas": "assets/oil-people-03.537c648cbaa7.webp",
+    "column": 2,
+    "row": 5,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "炽砂铠卫领誓·阿罗": {
+    "atlas": "assets/oil-people-03.537c648cbaa7.webp",
+    "column": 3,
+    "row": 5,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "炽砂灯议长·伊罗": {
+    "atlas": "assets/oil-people-03.537c648cbaa7.webp",
+    "column": 4,
+    "row": 5,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "炽砂峰脊巨灵领誓·欧罗": {
+    "atlas": "assets/oil-people-03.537c648cbaa7.webp",
+    "column": 5,
+    "row": 5,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "炽砂裂角客领誓·乌罗": {
+    "atlas": "assets/oil-people-03.537c648cbaa7.webp",
+    "column": 6,
+    "row": 5,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "炽砂铠卫领誓·依罗": {
+    "atlas": "assets/oil-people-03.537c648cbaa7.webp",
+    "column": 7,
+    "row": 5,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "炽砂灯议长·诺罗": {
+    "atlas": "assets/oil-people-03.537c648cbaa7.webp",
+    "column": 0,
+    "row": 6,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "炽砂铠卫·维罗": {
+    "atlas": "assets/oil-people-03.537c648cbaa7.webp",
+    "column": 1,
+    "row": 6,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "炽砂巡灯使·希罗": {
+    "atlas": "assets/oil-people-03.537c648cbaa7.webp",
+    "column": 2,
+    "row": 6,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "炽砂巡灯使·洛罗": {
+    "atlas": "assets/oil-people-03.537c648cbaa7.webp",
+    "column": 3,
+    "row": 6,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "炽砂缄骨客·米罗": {
+    "atlas": "assets/oil-people-03.537c648cbaa7.webp",
+    "column": 4,
+    "row": 6,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "炽砂缄骨客·岚罗": {
+    "atlas": "assets/oil-people-03.537c648cbaa7.webp",
+    "column": 5,
+    "row": 6,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "炽砂潜印客·索罗": {
+    "atlas": "assets/oil-people-03.537c648cbaa7.webp",
+    "column": 6,
+    "row": 6,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "炽砂铠卫·莱罗": {
+    "atlas": "assets/oil-people-03.537c648cbaa7.webp",
+    "column": 7,
+    "row": 6,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "炽砂铠卫·岑罗": {
+    "atlas": "assets/oil-people-03.537c648cbaa7.webp",
+    "column": 0,
+    "row": 7,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "炽砂铠卫·塔罗": {
+    "atlas": "assets/oil-people-03.537c648cbaa7.webp",
+    "column": 1,
+    "row": 7,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "炽砂潜印客·莫罗": {
+    "atlas": "assets/oil-people-03.537c648cbaa7.webp",
+    "column": 2,
+    "row": 7,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "炽砂铠卫·伦罗": {
+    "atlas": "assets/oil-people-03.537c648cbaa7.webp",
+    "column": 3,
+    "row": 7,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "炽砂潜印客·佩罗": {
+    "atlas": "assets/oil-people-03.537c648cbaa7.webp",
+    "column": 4,
+    "row": 7,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "炽砂巡灯使·泽罗": {
+    "atlas": "assets/oil-people-03.537c648cbaa7.webp",
+    "column": 5,
+    "row": 7,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "炽砂修灯师·图罗": {
+    "atlas": "assets/oil-people-03.537c648cbaa7.webp",
+    "column": 6,
+    "row": 7,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "炽砂铠卫·芮罗": {
+    "atlas": "assets/oil-people-03.537c648cbaa7.webp",
+    "column": 7,
+    "row": 7,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "炽砂观灯师·阿安": {
+    "atlas": "assets/oil-people-04.5839270e6e57.webp",
+    "column": 0,
+    "row": 0,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "炽砂观灯师·艾安": {
+    "atlas": "assets/oil-people-04.5839270e6e57.webp",
+    "column": 1,
+    "row": 0,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "炽砂观灯师·伊安": {
+    "atlas": "assets/oil-people-04.5839270e6e57.webp",
+    "column": 2,
+    "row": 0,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "炽砂潜印客·欧安": {
+    "atlas": "assets/oil-people-04.5839270e6e57.webp",
+    "column": 3,
+    "row": 0,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "炽砂观灯师·乌安": {
+    "atlas": "assets/oil-people-04.5839270e6e57.webp",
+    "column": 4,
+    "row": 0,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "炽砂铠卫·依安": {
+    "atlas": "assets/oil-people-04.5839270e6e57.webp",
+    "column": 5,
+    "row": 0,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "炽砂铠卫·雅安": {
+    "atlas": "assets/oil-people-04.5839270e6e57.webp",
+    "column": 6,
+    "row": 0,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "炽砂修灯师·诺安": {
+    "atlas": "assets/oil-people-04.5839270e6e57.webp",
+    "column": 7,
+    "row": 0,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "炽砂潜印客·瑟安": {
+    "atlas": "assets/oil-people-04.5839270e6e57.webp",
+    "column": 0,
+    "row": 1,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "炽砂铠卫·维安": {
+    "atlas": "assets/oil-people-04.5839270e6e57.webp",
+    "column": 1,
+    "row": 1,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "炽砂巡灯使·希安": {
+    "atlas": "assets/oil-people-04.5839270e6e57.webp",
+    "column": 2,
+    "row": 1,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "炽砂铠卫·洛安": {
+    "atlas": "assets/oil-people-04.5839270e6e57.webp",
+    "column": 3,
+    "row": 1,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "炽砂铠卫·米安": {
+    "atlas": "assets/oil-people-04.5839270e6e57.webp",
+    "column": 4,
+    "row": 1,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "炽砂微烛缄骨客": {
+    "atlas": "assets/oil-people-04.5839270e6e57.webp",
+    "column": 5,
+    "row": 1,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "炽砂琉纹缄骨客": {
+    "atlas": "assets/oil-people-04.5839270e6e57.webp",
+    "column": 6,
+    "row": 1,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "炽砂铜缄铜缄铠卫": {
+    "atlas": "assets/oil-people-04.5839270e6e57.webp",
+    "column": 7,
+    "row": 1,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "炽砂铜缄回声铠卫": {
+    "atlas": "assets/oil-people-04.5839270e6e57.webp",
+    "column": 0,
+    "row": 2,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "炽砂铜缄微烛铠卫": {
+    "atlas": "assets/oil-people-04.5839270e6e57.webp",
+    "column": 1,
+    "row": 2,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "炽砂铜缄琉纹铠卫": {
+    "atlas": "assets/oil-people-04.5839270e6e57.webp",
+    "column": 2,
+    "row": 2,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "炽砂铜缄风蚀铠卫": {
+    "atlas": "assets/oil-people-04.5839270e6e57.webp",
+    "column": 3,
+    "row": 2,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "炽砂琉纹修灯师": {
+    "atlas": "assets/oil-people-04.5839270e6e57.webp",
+    "column": 4,
+    "row": 2,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "炽砂风蚀缄骨客": {
+    "atlas": "assets/oil-people-04.5839270e6e57.webp",
+    "column": 5,
+    "row": 2,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "炽砂静棱缄骨客": {
+    "atlas": "assets/oil-people-04.5839270e6e57.webp",
+    "column": 6,
+    "row": 2,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "炽砂回声裂角客": {
+    "atlas": "assets/oil-people-04.5839270e6e57.webp",
+    "column": 7,
+    "row": 2,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "炽砂绒雾缄骨客": {
+    "atlas": "assets/oil-people-04.5839270e6e57.webp",
+    "column": 0,
+    "row": 3,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "炽砂夜航缄骨客": {
+    "atlas": "assets/oil-people-04.5839270e6e57.webp",
+    "column": 1,
+    "row": 3,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "炽砂铜缄静棱铠卫": {
+    "atlas": "assets/oil-people-04.5839270e6e57.webp",
+    "column": 2,
+    "row": 3,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "炽砂铜缄绒雾铠卫": {
+    "atlas": "assets/oil-people-04.5839270e6e57.webp",
+    "column": 3,
+    "row": 3,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "炽砂风蚀修灯师": {
+    "atlas": "assets/oil-people-04.5839270e6e57.webp",
+    "column": 4,
+    "row": 3,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "炽砂铜缄夜航铠卫": {
+    "atlas": "assets/oil-people-04.5839270e6e57.webp",
+    "column": 5,
+    "row": 3,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "炽砂回声峰脊巨灵": {
+    "atlas": "assets/oil-people-04.5839270e6e57.webp",
+    "column": 6,
+    "row": 3,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "炽砂流砂缄骨客": {
+    "atlas": "assets/oil-people-04.5839270e6e57.webp",
+    "column": 7,
+    "row": 3,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "炽砂镜纹缄骨客": {
+    "atlas": "assets/oil-people-04.5839270e6e57.webp",
+    "column": 0,
+    "row": 4,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "炽砂铜缄流砂铠卫": {
+    "atlas": "assets/oil-people-04.5839270e6e57.webp",
+    "column": 1,
+    "row": 4,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "炽砂远路缄骨客": {
+    "atlas": "assets/oil-people-04.5839270e6e57.webp",
+    "column": 2,
+    "row": 4,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "炽砂石封缄骨客": {
+    "atlas": "assets/oil-people-04.5839270e6e57.webp",
+    "column": 3,
+    "row": 4,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "炽砂微烛裂角客": {
+    "atlas": "assets/oil-people-04.5839270e6e57.webp",
+    "column": 4,
+    "row": 4,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "炽砂静棱修灯师": {
+    "atlas": "assets/oil-people-04.5839270e6e57.webp",
+    "column": 5,
+    "row": 4,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "炽砂铜缄镜纹铠卫": {
+    "atlas": "assets/oil-people-04.5839270e6e57.webp",
+    "column": 6,
+    "row": 4,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "炽砂静棱观灯师": {
+    "atlas": "assets/oil-people-04.5839270e6e57.webp",
+    "column": 7,
+    "row": 4,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "炽砂铜缄远路铠卫": {
+    "atlas": "assets/oil-people-04.5839270e6e57.webp",
+    "column": 0,
+    "row": 5,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "炽砂铜缄石封铠卫": {
+    "atlas": "assets/oil-people-04.5839270e6e57.webp",
+    "column": 1,
+    "row": 5,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "炽砂鸣枝缄骨客": {
+    "atlas": "assets/oil-people-04.5839270e6e57.webp",
+    "column": 2,
+    "row": 5,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "炽砂夜航巡灯使": {
+    "atlas": "assets/oil-people-04.5839270e6e57.webp",
+    "column": 3,
+    "row": 5,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "炽砂苔痕折面星客": {
+    "atlas": "assets/oil-people-04.5839270e6e57.webp",
+    "column": 4,
+    "row": 5,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "炽砂琉纹裂角客": {
+    "atlas": "assets/oil-people-04.5839270e6e57.webp",
+    "column": 5,
+    "row": 5,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "炽砂铜缄鸣枝铠卫": {
+    "atlas": "assets/oil-people-04.5839270e6e57.webp",
+    "column": 6,
+    "row": 5,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "炽砂铜缄暖灰铠卫": {
+    "atlas": "assets/oil-people-04.5839270e6e57.webp",
+    "column": 7,
+    "row": 5,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "炽砂铜缄悬灯铠卫": {
+    "atlas": "assets/oil-people-04.5839270e6e57.webp",
+    "column": 0,
+    "row": 6,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "炽砂铜缄银露铠卫": {
+    "atlas": "assets/oil-people-04.5839270e6e57.webp",
+    "column": 1,
+    "row": 6,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "炽砂铜缄藤印铠卫": {
+    "atlas": "assets/oil-people-04.5839270e6e57.webp",
+    "column": 2,
+    "row": 6,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "炽砂铜缄雾羽铠卫": {
+    "atlas": "assets/oil-people-04.5839270e6e57.webp",
+    "column": 3,
+    "row": 6,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "炽砂铜缄弧光铠卫": {
+    "atlas": "assets/oil-people-04.5839270e6e57.webp",
+    "column": 4,
+    "row": 6,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "炽砂绒雾修灯师": {
+    "atlas": "assets/oil-people-04.5839270e6e57.webp",
+    "column": 5,
+    "row": 6,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "炽砂暖灰缄骨客": {
+    "atlas": "assets/oil-people-04.5839270e6e57.webp",
+    "column": 6,
+    "row": 6,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "炽砂微烛峰脊巨灵": {
+    "atlas": "assets/oil-people-04.5839270e6e57.webp",
+    "column": 7,
+    "row": 6,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "苔庭铠卫·岚安": {
+    "atlas": "assets/oil-people-04.5839270e6e57.webp",
+    "column": 0,
+    "row": 7,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "铜钟缄骨客·索安": {
+    "atlas": "assets/oil-people-04.5839270e6e57.webp",
+    "column": 1,
+    "row": 7,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "炽砂回声苔痕铠卫": {
+    "atlas": "assets/oil-people-04.5839270e6e57.webp",
+    "column": 2,
+    "row": 7,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "炽砂铠卫·莱安": {
+    "atlas": "assets/oil-people-04.5839270e6e57.webp",
+    "column": 3,
+    "row": 7,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "砂镜铠卫领誓·塔安": {
+    "atlas": "assets/oil-people-04.5839270e6e57.webp",
+    "column": 4,
+    "row": 7,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "砂镜铠卫领誓·莫安": {
+    "atlas": "assets/oil-people-04.5839270e6e57.webp",
+    "column": 5,
+    "row": 7,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "砂镜裂角客领誓·伦安": {
+    "atlas": "assets/oil-people-04.5839270e6e57.webp",
+    "column": 6,
+    "row": 7,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "砂镜峰脊巨灵领誓·佩安": {
+    "atlas": "assets/oil-people-04.5839270e6e57.webp",
+    "column": 7,
+    "row": 7,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "砂镜裂角客领誓·泽安": {
+    "atlas": "assets/oil-people-05.5ae2a78256ae.webp",
+    "column": 0,
+    "row": 0,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "砂镜铠卫领誓·图安": {
+    "atlas": "assets/oil-people-05.5ae2a78256ae.webp",
+    "column": 1,
+    "row": 0,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "砂镜裂角客领誓·艾瑟": {
+    "atlas": "assets/oil-people-05.5ae2a78256ae.webp",
+    "column": 2,
+    "row": 0,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "砂镜灯议长·欧瑟": {
+    "atlas": "assets/oil-people-05.5ae2a78256ae.webp",
+    "column": 3,
+    "row": 0,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "砂镜灯议长·乌瑟": {
+    "atlas": "assets/oil-people-05.5ae2a78256ae.webp",
+    "column": 4,
+    "row": 0,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "砂镜峰脊巨灵领誓·雅瑟": {
+    "atlas": "assets/oil-people-05.5ae2a78256ae.webp",
+    "column": 5,
+    "row": 0,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "砂镜峰脊巨灵领誓·瑟瑟": {
+    "atlas": "assets/oil-people-05.5ae2a78256ae.webp",
+    "column": 6,
+    "row": 0,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "砂镜灯议长·维瑟": {
+    "atlas": "assets/oil-people-05.5ae2a78256ae.webp",
+    "column": 7,
+    "row": 0,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "砂镜修灯师·希瑟": {
+    "atlas": "assets/oil-people-05.5ae2a78256ae.webp",
+    "column": 0,
+    "row": 1,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "砂镜修灯师·米瑟": {
+    "atlas": "assets/oil-people-05.5ae2a78256ae.webp",
+    "column": 1,
+    "row": 1,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "砂镜修灯师·岚瑟": {
+    "atlas": "assets/oil-people-05.5ae2a78256ae.webp",
+    "column": 2,
+    "row": 1,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "砂镜铠卫·索瑟": {
+    "atlas": "assets/oil-people-05.5ae2a78256ae.webp",
+    "column": 3,
+    "row": 1,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "砂镜铠卫·莱瑟": {
+    "atlas": "assets/oil-people-05.5ae2a78256ae.webp",
+    "column": 4,
+    "row": 1,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "砂镜巡灯使·岑瑟": {
+    "atlas": "assets/oil-people-05.5ae2a78256ae.webp",
+    "column": 5,
+    "row": 1,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "砂镜巡灯使·塔瑟": {
+    "atlas": "assets/oil-people-05.5ae2a78256ae.webp",
+    "column": 6,
+    "row": 1,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "砂镜巡灯使·莫瑟": {
+    "atlas": "assets/oil-people-05.5ae2a78256ae.webp",
+    "column": 7,
+    "row": 1,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "砂镜铠卫·伦瑟": {
+    "atlas": "assets/oil-people-05.5ae2a78256ae.webp",
+    "column": 0,
+    "row": 2,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "砂镜铠卫·佩瑟": {
+    "atlas": "assets/oil-people-05.5ae2a78256ae.webp",
+    "column": 1,
+    "row": 2,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "砂镜铠卫·泽瑟": {
+    "atlas": "assets/oil-people-05.5ae2a78256ae.webp",
+    "column": 2,
+    "row": 2,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "砂镜铠卫·图瑟": {
+    "atlas": "assets/oil-people-05.5ae2a78256ae.webp",
+    "column": 3,
+    "row": 2,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "砂镜巡灯使·芮瑟": {
+    "atlas": "assets/oil-people-05.5ae2a78256ae.webp",
+    "column": 4,
+    "row": 2,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "砂镜巡灯使·阿尘": {
+    "atlas": "assets/oil-people-05.5ae2a78256ae.webp",
+    "column": 5,
+    "row": 2,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "砂镜铠卫·艾尘": {
+    "atlas": "assets/oil-people-05.5ae2a78256ae.webp",
+    "column": 6,
+    "row": 2,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "砂镜潜印客·伊尘": {
+    "atlas": "assets/oil-people-05.5ae2a78256ae.webp",
+    "column": 7,
+    "row": 2,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "砂镜巡灯使·欧尘": {
+    "atlas": "assets/oil-people-05.5ae2a78256ae.webp",
+    "column": 0,
+    "row": 3,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "砂镜巡灯使·乌尘": {
+    "atlas": "assets/oil-people-05.5ae2a78256ae.webp",
+    "column": 1,
+    "row": 3,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "砂镜巡灯使·依尘": {
+    "atlas": "assets/oil-people-05.5ae2a78256ae.webp",
+    "column": 2,
+    "row": 3,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "砂镜巡灯使·雅尘": {
+    "atlas": "assets/oil-people-05.5ae2a78256ae.webp",
+    "column": 3,
+    "row": 3,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "砂镜潜印客·瑟尘": {
+    "atlas": "assets/oil-people-05.5ae2a78256ae.webp",
+    "column": 4,
+    "row": 3,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "砂镜潜印客·维尘": {
+    "atlas": "assets/oil-people-05.5ae2a78256ae.webp",
+    "column": 5,
+    "row": 3,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "砂镜观灯师·希尘": {
+    "atlas": "assets/oil-people-05.5ae2a78256ae.webp",
+    "column": 6,
+    "row": 3,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "砂镜观灯师·洛尘": {
+    "atlas": "assets/oil-people-05.5ae2a78256ae.webp",
+    "column": 7,
+    "row": 3,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "砂镜观灯师·米尘": {
+    "atlas": "assets/oil-people-05.5ae2a78256ae.webp",
+    "column": 0,
+    "row": 4,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "砂镜观灯师·岚尘": {
+    "atlas": "assets/oil-people-05.5ae2a78256ae.webp",
+    "column": 1,
+    "row": 4,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "砂镜巡灯使·索尘": {
+    "atlas": "assets/oil-people-05.5ae2a78256ae.webp",
+    "column": 2,
+    "row": 4,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "砂镜镜纹铠卫": {
+    "atlas": "assets/oil-people-05.5ae2a78256ae.webp",
+    "column": 3,
+    "row": 4,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "砂镜远路铠卫": {
+    "atlas": "assets/oil-people-05.5ae2a78256ae.webp",
+    "column": 4,
+    "row": 4,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "砂镜苔痕缄骨客": {
+    "atlas": "assets/oil-people-05.5ae2a78256ae.webp",
+    "column": 5,
+    "row": 4,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "砂镜镜纹巡灯使": {
+    "atlas": "assets/oil-people-05.5ae2a78256ae.webp",
+    "column": 6,
+    "row": 4,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "砂镜铜缄缄骨客": {
+    "atlas": "assets/oil-people-05.5ae2a78256ae.webp",
+    "column": 7,
+    "row": 4,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "砂镜回声缄骨客": {
+    "atlas": "assets/oil-people-05.5ae2a78256ae.webp",
+    "column": 0,
+    "row": 5,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "砂镜微烛裂角客": {
+    "atlas": "assets/oil-people-05.5ae2a78256ae.webp",
+    "column": 1,
+    "row": 5,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "砂镜微烛缄骨客": {
+    "atlas": "assets/oil-people-05.5ae2a78256ae.webp",
+    "column": 2,
+    "row": 5,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "砂镜石封铠卫": {
+    "atlas": "assets/oil-people-05.5ae2a78256ae.webp",
+    "column": 3,
+    "row": 5,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "砂镜鸣枝铠卫": {
+    "atlas": "assets/oil-people-05.5ae2a78256ae.webp",
+    "column": 4,
+    "row": 5,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "砂镜微烛潜印客": {
+    "atlas": "assets/oil-people-05.5ae2a78256ae.webp",
+    "column": 5,
+    "row": 5,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "砂镜琉纹缄骨客": {
+    "atlas": "assets/oil-people-05.5ae2a78256ae.webp",
+    "column": 6,
+    "row": 5,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "砂镜风蚀缄骨客": {
+    "atlas": "assets/oil-people-05.5ae2a78256ae.webp",
+    "column": 7,
+    "row": 5,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "砂镜静棱缄骨客": {
+    "atlas": "assets/oil-people-05.5ae2a78256ae.webp",
+    "column": 0,
+    "row": 6,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "砂镜微烛峰脊巨灵": {
+    "atlas": "assets/oil-people-05.5ae2a78256ae.webp",
+    "column": 1,
+    "row": 6,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "砂镜苔痕折面星客": {
+    "atlas": "assets/oil-people-05.5ae2a78256ae.webp",
+    "column": 2,
+    "row": 6,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "砂镜静棱观灯师": {
+    "atlas": "assets/oil-people-05.5ae2a78256ae.webp",
+    "column": 3,
+    "row": 6,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "砂镜绒雾观灯师": {
+    "atlas": "assets/oil-people-05.5ae2a78256ae.webp",
+    "column": 4,
+    "row": 6,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "暮潮灯议长·岑尘": {
+    "atlas": "assets/oil-people-05.5ae2a78256ae.webp",
+    "column": 5,
+    "row": 6,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "暮潮裂角客领誓·莫尘": {
+    "atlas": "assets/oil-people-05.5ae2a78256ae.webp",
+    "column": 6,
+    "row": 6,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "暮潮灯议长·佩尘": {
+    "atlas": "assets/oil-people-05.5ae2a78256ae.webp",
+    "column": 7,
+    "row": 6,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "暮潮潜印客领誓·泽尘": {
+    "atlas": "assets/oil-people-05.5ae2a78256ae.webp",
+    "column": 0,
+    "row": 7,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "暮潮缄骨客领誓·芮尘": {
+    "atlas": "assets/oil-people-05.5ae2a78256ae.webp",
+    "column": 1,
+    "row": 7,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "暮潮缄骨客领誓·阿汀": {
+    "atlas": "assets/oil-people-05.5ae2a78256ae.webp",
+    "column": 2,
+    "row": 7,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "暮潮折面星客领誓·伊汀": {
+    "atlas": "assets/oil-people-05.5ae2a78256ae.webp",
+    "column": 3,
+    "row": 7,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "暮潮折面星客领誓·欧汀": {
+    "atlas": "assets/oil-people-05.5ae2a78256ae.webp",
+    "column": 4,
+    "row": 7,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "暮潮灯议长·乌汀": {
+    "atlas": "assets/oil-people-05.5ae2a78256ae.webp",
+    "column": 5,
+    "row": 7,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "暮潮折面星客领誓·依汀": {
+    "atlas": "assets/oil-people-05.5ae2a78256ae.webp",
+    "column": 6,
+    "row": 7,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "暮潮折面星客领誓·瑟汀": {
+    "atlas": "assets/oil-people-05.5ae2a78256ae.webp",
+    "column": 7,
+    "row": 7,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "暮潮灯议长·维汀": {
+    "atlas": "assets/oil-people-06.e0d97cb31ef2.webp",
+    "column": 0,
+    "row": 0,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "暮潮灯议长·希汀": {
+    "atlas": "assets/oil-people-06.e0d97cb31ef2.webp",
+    "column": 1,
+    "row": 0,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "暮潮灯议长·洛汀": {
+    "atlas": "assets/oil-people-06.e0d97cb31ef2.webp",
+    "column": 2,
+    "row": 0,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "暮潮灯议长·米汀": {
+    "atlas": "assets/oil-people-06.e0d97cb31ef2.webp",
+    "column": 3,
+    "row": 0,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "暮潮灯议长·岚汀": {
+    "atlas": "assets/oil-people-06.e0d97cb31ef2.webp",
+    "column": 4,
+    "row": 0,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "暮潮峰脊巨灵领誓·索汀": {
+    "atlas": "assets/oil-people-06.e0d97cb31ef2.webp",
+    "column": 5,
+    "row": 0,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "暮潮裂角客领誓·莱汀": {
+    "atlas": "assets/oil-people-06.e0d97cb31ef2.webp",
+    "column": 6,
+    "row": 0,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "暮潮缄骨客领誓·莫汀": {
+    "atlas": "assets/oil-people-06.e0d97cb31ef2.webp",
+    "column": 7,
+    "row": 0,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "暮潮灯议长·伦汀": {
+    "atlas": "assets/oil-people-06.e0d97cb31ef2.webp",
+    "column": 0,
+    "row": 1,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "暮潮裂角客领誓·佩汀": {
+    "atlas": "assets/oil-people-06.e0d97cb31ef2.webp",
+    "column": 1,
+    "row": 1,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "暮潮琉纹折面星客": {
+    "atlas": "assets/oil-people-06.e0d97cb31ef2.webp",
+    "column": 2,
+    "row": 1,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "暮潮修灯师·泽汀": {
+    "atlas": "assets/oil-people-06.e0d97cb31ef2.webp",
+    "column": 3,
+    "row": 1,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "暮潮巡灯使·图汀": {
+    "atlas": "assets/oil-people-06.e0d97cb31ef2.webp",
+    "column": 4,
+    "row": 1,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "暮潮巡灯使·芮汀": {
+    "atlas": "assets/oil-people-06.e0d97cb31ef2.webp",
+    "column": 5,
+    "row": 1,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "暮潮修灯师·阿芙": {
+    "atlas": "assets/oil-people-06.e0d97cb31ef2.webp",
+    "column": 6,
+    "row": 1,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "暮潮巡灯使·艾芙": {
+    "atlas": "assets/oil-people-06.e0d97cb31ef2.webp",
+    "column": 7,
+    "row": 1,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "暮潮巡灯使·伊芙": {
+    "atlas": "assets/oil-people-06.e0d97cb31ef2.webp",
+    "column": 0,
+    "row": 2,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "暮潮巡灯使·欧芙": {
+    "atlas": "assets/oil-people-06.e0d97cb31ef2.webp",
+    "column": 1,
+    "row": 2,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "暮潮巡灯使·乌芙": {
+    "atlas": "assets/oil-people-06.e0d97cb31ef2.webp",
+    "column": 2,
+    "row": 2,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "暮潮修灯师·依芙": {
+    "atlas": "assets/oil-people-06.e0d97cb31ef2.webp",
+    "column": 3,
+    "row": 2,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "暮潮修灯师·雅芙": {
+    "atlas": "assets/oil-people-06.e0d97cb31ef2.webp",
+    "column": 4,
+    "row": 2,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "暮潮潜印客·诺芙": {
+    "atlas": "assets/oil-people-06.e0d97cb31ef2.webp",
+    "column": 5,
+    "row": 2,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "暮潮潜印客·瑟芙": {
+    "atlas": "assets/oil-people-06.e0d97cb31ef2.webp",
+    "column": 6,
+    "row": 2,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "暮潮铠卫·维芙": {
+    "atlas": "assets/oil-people-06.e0d97cb31ef2.webp",
+    "column": 7,
+    "row": 2,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "暮潮潜印客·希芙": {
+    "atlas": "assets/oil-people-06.e0d97cb31ef2.webp",
+    "column": 0,
+    "row": 3,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "暮潮巡灯使·洛芙": {
+    "atlas": "assets/oil-people-06.e0d97cb31ef2.webp",
+    "column": 1,
+    "row": 3,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "暮潮巡灯使·米芙": {
+    "atlas": "assets/oil-people-06.e0d97cb31ef2.webp",
+    "column": 2,
+    "row": 3,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "暮潮潜印客·岚芙": {
+    "atlas": "assets/oil-people-06.e0d97cb31ef2.webp",
+    "column": 3,
+    "row": 3,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "暮潮潜印客·索芙": {
+    "atlas": "assets/oil-people-06.e0d97cb31ef2.webp",
+    "column": 4,
+    "row": 3,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "暮潮折面星客·莱芙": {
+    "atlas": "assets/oil-people-06.e0d97cb31ef2.webp",
+    "column": 5,
+    "row": 3,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "暮潮巡灯使·岑芙": {
+    "atlas": "assets/oil-people-06.e0d97cb31ef2.webp",
+    "column": 6,
+    "row": 3,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "暮潮潜印客·莫芙": {
+    "atlas": "assets/oil-people-06.e0d97cb31ef2.webp",
+    "column": 7,
+    "row": 3,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "暮潮潜印客·伦芙": {
+    "atlas": "assets/oil-people-06.e0d97cb31ef2.webp",
+    "column": 0,
+    "row": 4,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "暮潮微烛缄骨客": {
+    "atlas": "assets/oil-people-06.e0d97cb31ef2.webp",
+    "column": 1,
+    "row": 4,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "暮潮铜缄铠卫": {
+    "atlas": "assets/oil-people-06.e0d97cb31ef2.webp",
+    "column": 2,
+    "row": 4,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "暮潮琉纹缄骨客": {
+    "atlas": "assets/oil-people-06.e0d97cb31ef2.webp",
+    "column": 3,
+    "row": 4,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "暮潮雾羽巡灯使": {
+    "atlas": "assets/oil-people-06.e0d97cb31ef2.webp",
+    "column": 4,
+    "row": 4,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "暮潮静棱折面星客": {
+    "atlas": "assets/oil-people-06.e0d97cb31ef2.webp",
+    "column": 5,
+    "row": 4,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "暮潮风蚀缄骨客": {
+    "atlas": "assets/oil-people-06.e0d97cb31ef2.webp",
+    "column": 6,
+    "row": 4,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "暮潮绒雾折面星客": {
+    "atlas": "assets/oil-people-06.e0d97cb31ef2.webp",
+    "column": 7,
+    "row": 4,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "暮潮铜缄峰脊巨灵": {
+    "atlas": "assets/oil-people-06.e0d97cb31ef2.webp",
+    "column": 0,
+    "row": 5,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "暮潮回声峰脊巨灵": {
+    "atlas": "assets/oil-people-06.e0d97cb31ef2.webp",
+    "column": 1,
+    "row": 5,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "暮潮微烛峰脊巨灵": {
+    "atlas": "assets/oil-people-06.e0d97cb31ef2.webp",
+    "column": 2,
+    "row": 5,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "暮潮弧光巡灯使": {
+    "atlas": "assets/oil-people-06.e0d97cb31ef2.webp",
+    "column": 3,
+    "row": 5,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "暮潮铜缄观灯师": {
+    "atlas": "assets/oil-people-06.e0d97cb31ef2.webp",
+    "column": 4,
+    "row": 5,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "暮潮夜航折面星客": {
+    "atlas": "assets/oil-people-06.e0d97cb31ef2.webp",
+    "column": 5,
+    "row": 5,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "暮潮流砂折面星客": {
+    "atlas": "assets/oil-people-06.e0d97cb31ef2.webp",
+    "column": 6,
+    "row": 5,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "暮潮夜航潜印客": {
+    "atlas": "assets/oil-people-06.e0d97cb31ef2.webp",
+    "column": 7,
+    "row": 5,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "暮潮微烛裂角客": {
+    "atlas": "assets/oil-people-06.e0d97cb31ef2.webp",
+    "column": 0,
+    "row": 6,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "暮潮回声铠卫": {
+    "atlas": "assets/oil-people-06.e0d97cb31ef2.webp",
+    "column": 1,
+    "row": 6,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "暮潮铜缄苔痕巡灯使": {
+    "atlas": "assets/oil-people-06.e0d97cb31ef2.webp",
+    "column": 2,
+    "row": 6,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "暮潮铜缄铜缄巡灯使": {
+    "atlas": "assets/oil-people-06.e0d97cb31ef2.webp",
+    "column": 3,
+    "row": 6,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "霜枝潜印客领誓·佩芙": {
+    "atlas": "assets/oil-people-06.e0d97cb31ef2.webp",
+    "column": 4,
+    "row": 6,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "霜枝铠卫领誓·泽芙": {
+    "atlas": "assets/oil-people-06.e0d97cb31ef2.webp",
+    "column": 5,
+    "row": 6,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "霜枝潜印客领誓·图芙": {
+    "atlas": "assets/oil-people-06.e0d97cb31ef2.webp",
+    "column": 6,
+    "row": 6,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "霜枝铠卫领誓·芮芙": {
+    "atlas": "assets/oil-people-06.e0d97cb31ef2.webp",
+    "column": 7,
+    "row": 6,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "霜枝灯议长·乌诺": {
+    "atlas": "assets/oil-people-06.e0d97cb31ef2.webp",
+    "column": 0,
+    "row": 7,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "霜枝潜印客领誓·依诺": {
+    "atlas": "assets/oil-people-06.e0d97cb31ef2.webp",
+    "column": 1,
+    "row": 7,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "霜枝潜印客领誓·雅诺": {
+    "atlas": "assets/oil-people-06.e0d97cb31ef2.webp",
+    "column": 2,
+    "row": 7,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "霜枝灯议长·诺诺": {
+    "atlas": "assets/oil-people-06.e0d97cb31ef2.webp",
+    "column": 3,
+    "row": 7,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "霜枝裂角客领誓·瑟诺": {
+    "atlas": "assets/oil-people-06.e0d97cb31ef2.webp",
+    "column": 4,
+    "row": 7,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "霜枝灯议长·希诺": {
+    "atlas": "assets/oil-people-06.e0d97cb31ef2.webp",
+    "column": 5,
+    "row": 7,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "霜枝铠卫·洛诺": {
+    "atlas": "assets/oil-people-06.e0d97cb31ef2.webp",
+    "column": 6,
+    "row": 7,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "霜枝铠卫·米诺": {
+    "atlas": "assets/oil-people-06.e0d97cb31ef2.webp",
+    "column": 7,
+    "row": 7,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "霜枝铠卫·岚诺": {
+    "atlas": "assets/oil-people-07.ede49b89f4a7.webp",
+    "column": 0,
+    "row": 0,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "霜枝铠卫·索诺": {
+    "atlas": "assets/oil-people-07.ede49b89f4a7.webp",
+    "column": 1,
+    "row": 0,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "霜枝铠卫·莱诺": {
+    "atlas": "assets/oil-people-07.ede49b89f4a7.webp",
+    "column": 2,
+    "row": 0,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "霜枝铠卫·岑诺": {
+    "atlas": "assets/oil-people-07.ede49b89f4a7.webp",
+    "column": 3,
+    "row": 0,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "霜枝铠卫·塔诺": {
+    "atlas": "assets/oil-people-07.ede49b89f4a7.webp",
+    "column": 4,
+    "row": 0,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "霜枝铜缄裂角客": {
+    "atlas": "assets/oil-people-07.ede49b89f4a7.webp",
+    "column": 5,
+    "row": 0,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "霜枝巡灯使·莫诺": {
+    "atlas": "assets/oil-people-07.ede49b89f4a7.webp",
+    "column": 6,
+    "row": 0,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "霜枝巡灯使·伦诺": {
+    "atlas": "assets/oil-people-07.ede49b89f4a7.webp",
+    "column": 7,
+    "row": 0,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "霜枝铠卫·佩诺": {
+    "atlas": "assets/oil-people-07.ede49b89f4a7.webp",
+    "column": 0,
+    "row": 1,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "霜枝镜纹铠卫": {
+    "atlas": "assets/oil-people-07.ede49b89f4a7.webp",
+    "column": 1,
+    "row": 1,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "霜枝巡灯使·泽诺": {
+    "atlas": "assets/oil-people-07.ede49b89f4a7.webp",
+    "column": 2,
+    "row": 1,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "霜枝巡灯使·图诺": {
+    "atlas": "assets/oil-people-07.ede49b89f4a7.webp",
+    "column": 3,
+    "row": 1,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "霜枝潜印客·芮诺": {
+    "atlas": "assets/oil-people-07.ede49b89f4a7.webp",
+    "column": 4,
+    "row": 1,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "霜枝潜印客·阿烙": {
+    "atlas": "assets/oil-people-07.ede49b89f4a7.webp",
+    "column": 5,
+    "row": 1,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "霜枝静棱潜印客": {
+    "atlas": "assets/oil-people-07.ede49b89f4a7.webp",
+    "column": 6,
+    "row": 1,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "霜枝绒雾潜印客": {
+    "atlas": "assets/oil-people-07.ede49b89f4a7.webp",
+    "column": 7,
+    "row": 1,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "霜枝潜印客·艾烙": {
+    "atlas": "assets/oil-people-07.ede49b89f4a7.webp",
+    "column": 0,
+    "row": 2,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "霜枝苔痕折面星客": {
+    "atlas": "assets/oil-people-07.ede49b89f4a7.webp",
+    "column": 1,
+    "row": 2,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "霜枝铠卫·伊烙": {
+    "atlas": "assets/oil-people-07.ede49b89f4a7.webp",
+    "column": 2,
+    "row": 2,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "霜枝巡灯使·欧烙": {
+    "atlas": "assets/oil-people-07.ede49b89f4a7.webp",
+    "column": 3,
+    "row": 2,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "霜枝修灯师·乌烙": {
+    "atlas": "assets/oil-people-07.ede49b89f4a7.webp",
+    "column": 4,
+    "row": 2,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "霜枝潜印客·依烙": {
+    "atlas": "assets/oil-people-07.ede49b89f4a7.webp",
+    "column": 5,
+    "row": 2,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "霜枝巡灯使·雅烙": {
+    "atlas": "assets/oil-people-07.ede49b89f4a7.webp",
+    "column": 6,
+    "row": 2,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "霜枝巡灯使·诺烙": {
+    "atlas": "assets/oil-people-07.ede49b89f4a7.webp",
+    "column": 7,
+    "row": 2,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "霜枝峰脊巨灵·瑟烙": {
+    "atlas": "assets/oil-people-07.ede49b89f4a7.webp",
+    "column": 0,
+    "row": 3,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "霜枝铠卫·维烙": {
+    "atlas": "assets/oil-people-07.ede49b89f4a7.webp",
+    "column": 1,
+    "row": 3,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "霜枝铠卫·希烙": {
+    "atlas": "assets/oil-people-07.ede49b89f4a7.webp",
+    "column": 2,
+    "row": 3,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "霜枝铠卫·洛烙": {
+    "atlas": "assets/oil-people-07.ede49b89f4a7.webp",
+    "column": 3,
+    "row": 3,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "霜枝潜印客·米烙": {
+    "atlas": "assets/oil-people-07.ede49b89f4a7.webp",
+    "column": 4,
+    "row": 3,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "霜枝修灯师·岚烙": {
+    "atlas": "assets/oil-people-07.ede49b89f4a7.webp",
+    "column": 5,
+    "row": 3,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "霜枝修灯师·索烙": {
+    "atlas": "assets/oil-people-07.ede49b89f4a7.webp",
+    "column": 6,
+    "row": 3,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "霜枝铠卫·莱烙": {
+    "atlas": "assets/oil-people-07.ede49b89f4a7.webp",
+    "column": 7,
+    "row": 3,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "霜枝潜印客·莫烙": {
+    "atlas": "assets/oil-people-07.ede49b89f4a7.webp",
+    "column": 0,
+    "row": 4,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "霜枝银露铠卫": {
+    "atlas": "assets/oil-people-07.ede49b89f4a7.webp",
+    "column": 1,
+    "row": 4,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "霜枝藤印铠卫": {
+    "atlas": "assets/oil-people-07.ede49b89f4a7.webp",
+    "column": 2,
+    "row": 4,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "霜枝雾羽铠卫": {
+    "atlas": "assets/oil-people-07.ede49b89f4a7.webp",
+    "column": 3,
+    "row": 4,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "霜枝镜纹巡灯使": {
+    "atlas": "assets/oil-people-07.ede49b89f4a7.webp",
+    "column": 4,
+    "row": 4,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "霜枝石封潜印客": {
+    "atlas": "assets/oil-people-07.ede49b89f4a7.webp",
+    "column": 5,
+    "row": 4,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "霜枝鸣枝潜印客": {
+    "atlas": "assets/oil-people-07.ede49b89f4a7.webp",
+    "column": 6,
+    "row": 4,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "霜枝弧光铠卫": {
+    "atlas": "assets/oil-people-07.ede49b89f4a7.webp",
+    "column": 7,
+    "row": 4,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "霜枝铜缄苔痕铠卫": {
+    "atlas": "assets/oil-people-07.ede49b89f4a7.webp",
+    "column": 0,
+    "row": 5,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "霜枝苔痕缄骨客": {
+    "atlas": "assets/oil-people-07.ede49b89f4a7.webp",
+    "column": 1,
+    "row": 5,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "霜枝铜缄折面星客": {
+    "atlas": "assets/oil-people-07.ede49b89f4a7.webp",
+    "column": 2,
+    "row": 5,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "霜枝暖灰潜印客": {
+    "atlas": "assets/oil-people-07.ede49b89f4a7.webp",
+    "column": 3,
+    "row": 5,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "霜枝悬灯潜印客": {
+    "atlas": "assets/oil-people-07.ede49b89f4a7.webp",
+    "column": 4,
+    "row": 5,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "霜枝银露潜印客": {
+    "atlas": "assets/oil-people-07.ede49b89f4a7.webp",
+    "column": 5,
+    "row": 5,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "霜枝远路巡灯使": {
+    "atlas": "assets/oil-people-07.ede49b89f4a7.webp",
+    "column": 6,
+    "row": 5,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "霜枝石封巡灯使": {
+    "atlas": "assets/oil-people-07.ede49b89f4a7.webp",
+    "column": 7,
+    "row": 5,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "霜枝鸣枝巡灯使": {
+    "atlas": "assets/oil-people-07.ede49b89f4a7.webp",
+    "column": 0,
+    "row": 6,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "霜枝铜缄铜缄铠卫": {
+    "atlas": "assets/oil-people-07.ede49b89f4a7.webp",
+    "column": 1,
+    "row": 6,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "霜枝铜缄回声铠卫": {
+    "atlas": "assets/oil-people-07.ede49b89f4a7.webp",
+    "column": 2,
+    "row": 6,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "霜枝铜缄微烛铠卫": {
+    "atlas": "assets/oil-people-07.ede49b89f4a7.webp",
+    "column": 3,
+    "row": 6,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "霜枝铜缄琉纹铠卫": {
+    "atlas": "assets/oil-people-07.ede49b89f4a7.webp",
+    "column": 4,
+    "row": 6,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "霜枝铜缄峰脊巨灵": {
+    "atlas": "assets/oil-people-07.ede49b89f4a7.webp",
+    "column": 5,
+    "row": 6,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "霜枝铜缄缄骨客": {
+    "atlas": "assets/oil-people-07.ede49b89f4a7.webp",
+    "column": 6,
+    "row": 6,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "星铸裂角客领誓·佩烙": {
+    "atlas": "assets/oil-people-07.ede49b89f4a7.webp",
+    "column": 7,
+    "row": 6,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "星铸灯议长·泽烙": {
+    "atlas": "assets/oil-people-07.ede49b89f4a7.webp",
+    "column": 0,
+    "row": 7,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "星铸灯议长·图烙": {
+    "atlas": "assets/oil-people-07.ede49b89f4a7.webp",
+    "column": 1,
+    "row": 7,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "星铸铠卫领誓·芮烙": {
+    "atlas": "assets/oil-people-07.ede49b89f4a7.webp",
+    "column": 2,
+    "row": 7,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "星铸裂角客领誓·艾玟": {
+    "atlas": "assets/oil-people-07.ede49b89f4a7.webp",
+    "column": 3,
+    "row": 7,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "星铸裂角客领誓·伊玟": {
+    "atlas": "assets/oil-people-07.ede49b89f4a7.webp",
+    "column": 4,
+    "row": 7,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "星铸峰脊巨灵领誓·欧玟": {
+    "atlas": "assets/oil-people-07.ede49b89f4a7.webp",
+    "column": 5,
+    "row": 7,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "星铸灯议长·依玟": {
+    "atlas": "assets/oil-people-07.ede49b89f4a7.webp",
+    "column": 6,
+    "row": 7,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "星铸灯议长·雅玟": {
+    "atlas": "assets/oil-people-07.ede49b89f4a7.webp",
+    "column": 7,
+    "row": 7,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "星铸灯议长·诺玟": {
+    "atlas": "assets/oil-people-08.4792d1aa1566.webp",
+    "column": 0,
+    "row": 0,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "星铸折面星客领誓·瑟玟": {
+    "atlas": "assets/oil-people-08.4792d1aa1566.webp",
+    "column": 1,
+    "row": 0,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "星铸铠卫领誓·维玟": {
+    "atlas": "assets/oil-people-08.4792d1aa1566.webp",
+    "column": 2,
+    "row": 0,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "星铸修灯师·希玟": {
+    "atlas": "assets/oil-people-08.4792d1aa1566.webp",
+    "column": 3,
+    "row": 0,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "星铸铠卫领誓·洛玟": {
+    "atlas": "assets/oil-people-08.4792d1aa1566.webp",
+    "column": 4,
+    "row": 0,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "星铸铠卫领誓·米玟": {
+    "atlas": "assets/oil-people-08.4792d1aa1566.webp",
+    "column": 5,
+    "row": 0,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "星铸裂角客领誓·岚玟": {
+    "atlas": "assets/oil-people-08.4792d1aa1566.webp",
+    "column": 6,
+    "row": 0,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "星铸灯议长·索玟": {
+    "atlas": "assets/oil-people-08.4792d1aa1566.webp",
+    "column": 7,
+    "row": 0,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "星铸铠卫领誓·岑玟": {
+    "atlas": "assets/oil-people-08.4792d1aa1566.webp",
+    "column": 0,
+    "row": 1,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "星铸铠卫领誓·塔玟": {
+    "atlas": "assets/oil-people-08.4792d1aa1566.webp",
+    "column": 1,
+    "row": 1,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "星铸铠卫领誓·莫玟": {
+    "atlas": "assets/oil-people-08.4792d1aa1566.webp",
+    "column": 2,
+    "row": 1,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "星铸铠卫领誓·伦玟": {
+    "atlas": "assets/oil-people-08.4792d1aa1566.webp",
+    "column": 3,
+    "row": 1,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "星铸铠卫领誓·佩玟": {
+    "atlas": "assets/oil-people-08.4792d1aa1566.webp",
+    "column": 4,
+    "row": 1,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "星铸潜印客领誓·泽玟": {
+    "atlas": "assets/oil-people-08.4792d1aa1566.webp",
+    "column": 5,
+    "row": 1,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "星铸潜印客领誓·图玟": {
+    "atlas": "assets/oil-people-08.4792d1aa1566.webp",
+    "column": 6,
+    "row": 1,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "星铸铠卫领誓·芮玟": {
+    "atlas": "assets/oil-people-08.4792d1aa1566.webp",
+    "column": 7,
+    "row": 1,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "星铸铠卫领誓·阿斐": {
+    "atlas": "assets/oil-people-08.4792d1aa1566.webp",
+    "column": 0,
+    "row": 2,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "星铸铠卫领誓·艾斐": {
+    "atlas": "assets/oil-people-08.4792d1aa1566.webp",
+    "column": 1,
+    "row": 2,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "星铸灯议长·维斐": {
+    "atlas": "assets/oil-people-08.4792d1aa1566.webp",
+    "column": 2,
+    "row": 2,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "星铸灯议长·希斐": {
+    "atlas": "assets/oil-people-08.4792d1aa1566.webp",
+    "column": 3,
+    "row": 2,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "星铸峰脊巨灵领誓·洛斐": {
+    "atlas": "assets/oil-people-08.4792d1aa1566.webp",
+    "column": 4,
+    "row": 2,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "星铸灯议长·米斐": {
+    "atlas": "assets/oil-people-08.4792d1aa1566.webp",
+    "column": 5,
+    "row": 2,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "星铸灯议长·岚斐": {
+    "atlas": "assets/oil-people-08.4792d1aa1566.webp",
+    "column": 6,
+    "row": 2,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "星铸裂角客领誓·莱斐": {
+    "atlas": "assets/oil-people-08.4792d1aa1566.webp",
+    "column": 7,
+    "row": 2,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "星铸裂角客领誓·岑斐": {
+    "atlas": "assets/oil-people-08.4792d1aa1566.webp",
+    "column": 0,
+    "row": 3,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "星铸灯议长·泽斐": {
+    "atlas": "assets/oil-people-08.4792d1aa1566.webp",
+    "column": 1,
+    "row": 3,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "星铸灯议长·图斐": {
+    "atlas": "assets/oil-people-08.4792d1aa1566.webp",
+    "column": 2,
+    "row": 3,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "星铸灯议长·芮斐": {
+    "atlas": "assets/oil-people-08.4792d1aa1566.webp",
+    "column": 3,
+    "row": 3,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "星铸灯议长·伊霖": {
+    "atlas": "assets/oil-people-08.4792d1aa1566.webp",
+    "column": 4,
+    "row": 3,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "星铸灯议长·欧霖": {
+    "atlas": "assets/oil-people-08.4792d1aa1566.webp",
+    "column": 5,
+    "row": 3,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "星铸灯议长·乌霖": {
+    "atlas": "assets/oil-people-08.4792d1aa1566.webp",
+    "column": 6,
+    "row": 3,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "星铸灯议长·依霖": {
+    "atlas": "assets/oil-people-08.4792d1aa1566.webp",
+    "column": 7,
+    "row": 3,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "星铸灯议长·雅霖": {
+    "atlas": "assets/oil-people-08.4792d1aa1566.webp",
+    "column": 0,
+    "row": 4,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "星铸灯议长·诺霖": {
+    "atlas": "assets/oil-people-08.4792d1aa1566.webp",
+    "column": 1,
+    "row": 4,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "星铸灯议长·瑟霖": {
+    "atlas": "assets/oil-people-08.4792d1aa1566.webp",
+    "column": 2,
+    "row": 4,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "星铸灯议长·洛霖": {
+    "atlas": "assets/oil-people-08.4792d1aa1566.webp",
+    "column": 3,
+    "row": 4,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "星铸灯议长·米霖": {
+    "atlas": "assets/oil-people-08.4792d1aa1566.webp",
+    "column": 4,
+    "row": 4,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "星铸裂角客领誓·莱霖": {
+    "atlas": "assets/oil-people-08.4792d1aa1566.webp",
+    "column": 5,
+    "row": 4,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "星铸石封铠卫": {
+    "atlas": "assets/oil-people-08.4792d1aa1566.webp",
+    "column": 6,
+    "row": 4,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "星铸鸣枝铠卫": {
+    "atlas": "assets/oil-people-08.4792d1aa1566.webp",
+    "column": 7,
+    "row": 4,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "星铸暖灰铠卫": {
+    "atlas": "assets/oil-people-08.4792d1aa1566.webp",
+    "column": 0,
+    "row": 5,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "星铸悬灯铠卫": {
+    "atlas": "assets/oil-people-08.4792d1aa1566.webp",
+    "column": 1,
+    "row": 5,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "星铸银露铠卫": {
+    "atlas": "assets/oil-people-08.4792d1aa1566.webp",
+    "column": 2,
+    "row": 5,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "星铸藤印铠卫": {
+    "atlas": "assets/oil-people-08.4792d1aa1566.webp",
+    "column": 3,
+    "row": 5,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "星铸雾羽铠卫": {
+    "atlas": "assets/oil-people-08.4792d1aa1566.webp",
+    "column": 4,
+    "row": 5,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "星铸弧光巡灯使": {
+    "atlas": "assets/oil-people-08.4792d1aa1566.webp",
+    "column": 5,
+    "row": 5,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "星铸微烛观灯师": {
+    "atlas": "assets/oil-people-08.4792d1aa1566.webp",
+    "column": 6,
+    "row": 5,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "星铸铜缄苔痕巡灯使": {
+    "atlas": "assets/oil-people-08.4792d1aa1566.webp",
+    "column": 7,
+    "row": 5,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "星铸铜缄铜缄巡灯使": {
+    "atlas": "assets/oil-people-08.4792d1aa1566.webp",
+    "column": 0,
+    "row": 6,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "星铸绒雾裂角客": {
+    "atlas": "assets/oil-people-08.4792d1aa1566.webp",
+    "column": 1,
+    "row": 6,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "星铸夜航裂角客": {
+    "atlas": "assets/oil-people-08.4792d1aa1566.webp",
+    "column": 2,
+    "row": 6,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "星铸流砂裂角客": {
+    "atlas": "assets/oil-people-08.4792d1aa1566.webp",
+    "column": 3,
+    "row": 6,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "星铸镜纹裂角客": {
+    "atlas": "assets/oil-people-08.4792d1aa1566.webp",
+    "column": 4,
+    "row": 6,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "星铸远路裂角客": {
+    "atlas": "assets/oil-people-08.4792d1aa1566.webp",
+    "column": 5,
+    "row": 6,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "星铸回声潜印客": {
+    "atlas": "assets/oil-people-08.4792d1aa1566.webp",
+    "column": 6,
+    "row": 6,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "星铸苔痕缄骨客": {
+    "atlas": "assets/oil-people-08.4792d1aa1566.webp",
+    "column": 7,
+    "row": 6,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "星铸铜缄缄骨客": {
+    "atlas": "assets/oil-people-08.4792d1aa1566.webp",
+    "column": 0,
+    "row": 7,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "星铸石封裂角客": {
+    "atlas": "assets/oil-people-08.4792d1aa1566.webp",
+    "column": 1,
+    "row": 7,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "星铸鸣枝裂角客": {
+    "atlas": "assets/oil-people-08.4792d1aa1566.webp",
+    "column": 2,
+    "row": 7,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "星铸暖灰裂角客": {
+    "atlas": "assets/oil-people-08.4792d1aa1566.webp",
+    "column": 3,
+    "row": 7,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "星铸回声峰脊巨灵": {
+    "atlas": "assets/oil-people-08.4792d1aa1566.webp",
+    "column": 4,
+    "row": 7,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "星铸铜缄回声巡灯使": {
+    "atlas": "assets/oil-people-08.4792d1aa1566.webp",
+    "column": 5,
+    "row": 7,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "星铸回声缄骨客": {
+    "atlas": "assets/oil-people-08.4792d1aa1566.webp",
+    "column": 6,
+    "row": 7,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "星铸弧光铠卫": {
+    "atlas": "assets/oil-people-08.4792d1aa1566.webp",
+    "column": 7,
+    "row": 7,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "星铸琉纹观灯师": {
+    "atlas": "assets/oil-people-09.d72a304233c6.webp",
+    "column": 0,
+    "row": 0,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "星铸铜缄苔痕铠卫": {
+    "atlas": "assets/oil-people-09.d72a304233c6.webp",
+    "column": 1,
+    "row": 0,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "星铸铜缄铜缄铠卫": {
+    "atlas": "assets/oil-people-09.d72a304233c6.webp",
+    "column": 2,
+    "row": 0,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "星铸铜缄回声铠卫": {
+    "atlas": "assets/oil-people-09.d72a304233c6.webp",
+    "column": 3,
+    "row": 0,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "星铸铜缄微烛铠卫": {
+    "atlas": "assets/oil-people-09.d72a304233c6.webp",
+    "column": 4,
+    "row": 0,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "星铸铜缄琉纹铠卫": {
+    "atlas": "assets/oil-people-09.d72a304233c6.webp",
+    "column": 5,
+    "row": 0,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "星铸铜缄风蚀铠卫": {
+    "atlas": "assets/oil-people-09.d72a304233c6.webp",
+    "column": 6,
+    "row": 0,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "星铸铜缄静棱铠卫": {
+    "atlas": "assets/oil-people-09.d72a304233c6.webp",
+    "column": 7,
+    "row": 0,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "星铸铠卫·依沐": {
+    "atlas": "assets/oil-people-09.d72a304233c6.webp",
+    "column": 0,
+    "row": 1,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "星铸铠卫·雅沐": {
+    "atlas": "assets/oil-people-09.d72a304233c6.webp",
+    "column": 1,
+    "row": 1,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "星铸铜缄修灯师": {
+    "atlas": "assets/oil-people-09.d72a304233c6.webp",
+    "column": 2,
+    "row": 1,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "星铸铜缄微烛巡灯使": {
+    "atlas": "assets/oil-people-09.d72a304233c6.webp",
+    "column": 3,
+    "row": 1,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "星铸铜缄琉纹巡灯使": {
+    "atlas": "assets/oil-people-09.d72a304233c6.webp",
+    "column": 4,
+    "row": 1,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "星铸风蚀观灯师": {
+    "atlas": "assets/oil-people-09.d72a304233c6.webp",
+    "column": 5,
+    "row": 1,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "星铸铠卫·诺沐": {
+    "atlas": "assets/oil-people-09.d72a304233c6.webp",
+    "column": 6,
+    "row": 1,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "星铸铠卫·瑟沐": {
+    "atlas": "assets/oil-people-09.d72a304233c6.webp",
+    "column": 7,
+    "row": 1,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "星铸铠卫·维沐": {
+    "atlas": "assets/oil-people-09.d72a304233c6.webp",
+    "column": 0,
+    "row": 2,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "星铸铠卫·希沐": {
+    "atlas": "assets/oil-people-09.d72a304233c6.webp",
+    "column": 1,
+    "row": 2,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "星铸修灯师·洛沐": {
+    "atlas": "assets/oil-people-09.d72a304233c6.webp",
+    "column": 2,
+    "row": 2,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "星铸观灯师·米沐": {
+    "atlas": "assets/oil-people-09.d72a304233c6.webp",
+    "column": 3,
+    "row": 2,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "星铸观灯师·索沐": {
+    "atlas": "assets/oil-people-09.d72a304233c6.webp",
+    "column": 4,
+    "row": 2,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "星铸潜印客·莱沐": {
+    "atlas": "assets/oil-people-09.d72a304233c6.webp",
+    "column": 5,
+    "row": 2,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "星铸巡灯使·岑沐": {
+    "atlas": "assets/oil-people-09.d72a304233c6.webp",
+    "column": 6,
+    "row": 2,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "星铸铠卫·伦沐": {
+    "atlas": "assets/oil-people-09.d72a304233c6.webp",
+    "column": 7,
+    "row": 2,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "星铸铠卫·佩沐": {
+    "atlas": "assets/oil-people-09.d72a304233c6.webp",
+    "column": 0,
+    "row": 3,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "星铸巡灯使·泽沐": {
+    "atlas": "assets/oil-people-09.d72a304233c6.webp",
+    "column": 1,
+    "row": 3,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "星铸巡灯使·图沐": {
+    "atlas": "assets/oil-people-09.d72a304233c6.webp",
+    "column": 2,
+    "row": 3,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "星铸潜印客·阿洛": {
+    "atlas": "assets/oil-people-09.d72a304233c6.webp",
+    "column": 3,
+    "row": 3,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "星铸巡灯使·艾洛": {
+    "atlas": "assets/oil-people-09.d72a304233c6.webp",
+    "column": 4,
+    "row": 3,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "星铸铠卫·伊洛": {
+    "atlas": "assets/oil-people-09.d72a304233c6.webp",
+    "column": 5,
+    "row": 3,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "星铸铠卫·欧洛": {
+    "atlas": "assets/oil-people-09.d72a304233c6.webp",
+    "column": 6,
+    "row": 3,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "星铸铠卫·乌洛": {
+    "atlas": "assets/oil-people-09.d72a304233c6.webp",
+    "column": 7,
+    "row": 3,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "星铸铠卫·依洛": {
+    "atlas": "assets/oil-people-09.d72a304233c6.webp",
+    "column": 0,
+    "row": 4,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "星铸铠卫·雅洛": {
+    "atlas": "assets/oil-people-09.d72a304233c6.webp",
+    "column": 1,
+    "row": 4,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "星铸潜印客·诺洛": {
+    "atlas": "assets/oil-people-09.d72a304233c6.webp",
+    "column": 2,
+    "row": 4,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "星铸铠卫·瑟洛": {
+    "atlas": "assets/oil-people-09.d72a304233c6.webp",
+    "column": 3,
+    "row": 4,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "星铸观灯师·维洛": {
+    "atlas": "assets/oil-people-09.d72a304233c6.webp",
+    "column": 4,
+    "row": 4,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "星铸观灯师·希洛": {
+    "atlas": "assets/oil-people-09.d72a304233c6.webp",
+    "column": 5,
+    "row": 4,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "星铸观灯师·洛洛": {
+    "atlas": "assets/oil-people-09.d72a304233c6.webp",
+    "column": 6,
+    "row": 4,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "星铸观灯师·米洛": {
+    "atlas": "assets/oil-people-09.d72a304233c6.webp",
+    "column": 7,
+    "row": 4,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "星铸观灯师·岚洛": {
+    "atlas": "assets/oil-people-09.d72a304233c6.webp",
+    "column": 0,
+    "row": 5,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "星铸观灯师·索洛": {
+    "atlas": "assets/oil-people-09.d72a304233c6.webp",
+    "column": 1,
+    "row": 5,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "星铸巡灯使·莱洛": {
+    "atlas": "assets/oil-people-09.d72a304233c6.webp",
+    "column": 2,
+    "row": 5,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "星铸巡灯使·岑洛": {
+    "atlas": "assets/oil-people-09.d72a304233c6.webp",
+    "column": 3,
+    "row": 5,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "星铸铠卫·塔洛": {
+    "atlas": "assets/oil-people-09.d72a304233c6.webp",
+    "column": 4,
+    "row": 5,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "星铸修灯师·莫洛": {
+    "atlas": "assets/oil-people-09.d72a304233c6.webp",
+    "column": 5,
+    "row": 5,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "星铸缄骨客·伦洛": {
+    "atlas": "assets/oil-people-09.d72a304233c6.webp",
+    "column": 6,
+    "row": 5,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "星铸修灯师·佩洛": {
+    "atlas": "assets/oil-people-09.d72a304233c6.webp",
+    "column": 7,
+    "row": 5,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "星铸峰脊巨灵·泽洛": {
+    "atlas": "assets/oil-people-09.d72a304233c6.webp",
+    "column": 0,
+    "row": 6,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "星铸峰脊巨灵·图洛": {
+    "atlas": "assets/oil-people-09.d72a304233c6.webp",
+    "column": 1,
+    "row": 6,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "星铸观灯师·芮洛": {
+    "atlas": "assets/oil-people-09.d72a304233c6.webp",
+    "column": 2,
+    "row": 6,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "星铸缄骨客·阿岚": {
+    "atlas": "assets/oil-people-09.d72a304233c6.webp",
+    "column": 3,
+    "row": 6,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "星铸巡灯使·艾岚": {
+    "atlas": "assets/oil-people-09.d72a304233c6.webp",
+    "column": 4,
+    "row": 6,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "星铸修灯师·伊岚": {
+    "atlas": "assets/oil-people-09.d72a304233c6.webp",
+    "column": 5,
+    "row": 6,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "星铸巡灯使·乌岚": {
+    "atlas": "assets/oil-people-09.d72a304233c6.webp",
+    "column": 6,
+    "row": 6,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "星铸潜印客·依岚": {
+    "atlas": "assets/oil-people-09.d72a304233c6.webp",
+    "column": 7,
+    "row": 6,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "星铸铠卫·雅岚": {
+    "atlas": "assets/oil-people-09.d72a304233c6.webp",
+    "column": 0,
+    "row": 7,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "星铸巡灯使·诺岚": {
+    "atlas": "assets/oil-people-09.d72a304233c6.webp",
+    "column": 1,
+    "row": 7,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "星铸观灯师·瑟岚": {
+    "atlas": "assets/oil-people-09.d72a304233c6.webp",
+    "column": 2,
+    "row": 7,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "星铸巡灯使·维岚": {
+    "atlas": "assets/oil-people-09.d72a304233c6.webp",
+    "column": 3,
+    "row": 7,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "星铸巡灯使·希岚": {
+    "atlas": "assets/oil-people-09.d72a304233c6.webp",
+    "column": 4,
+    "row": 7,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "星铸巡灯使·米岚": {
+    "atlas": "assets/oil-people-09.d72a304233c6.webp",
+    "column": 5,
+    "row": 7,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "折光灯议长·索岚": {
+    "atlas": "assets/oil-people-09.d72a304233c6.webp",
+    "column": 6,
+    "row": 7,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "折光铠卫领誓·岑岚": {
+    "atlas": "assets/oil-people-09.d72a304233c6.webp",
+    "column": 7,
+    "row": 7,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "折光铠卫领誓·泽岚": {
+    "atlas": "assets/oil-people-10.7d32b91359d0.webp",
+    "column": 0,
+    "row": 0,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "折光灯议长·图岚": {
+    "atlas": "assets/oil-people-10.7d32b91359d0.webp",
+    "column": 1,
+    "row": 0,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "折光铠卫领誓·芮岚": {
+    "atlas": "assets/oil-people-10.7d32b91359d0.webp",
+    "column": 2,
+    "row": 0,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "折光铠卫领誓·阿泽": {
+    "atlas": "assets/oil-people-10.7d32b91359d0.webp",
+    "column": 3,
+    "row": 0,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "折光铠卫领誓·艾泽": {
+    "atlas": "assets/oil-people-10.7d32b91359d0.webp",
+    "column": 4,
+    "row": 0,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "折光铠卫领誓·依泽": {
+    "atlas": "assets/oil-people-10.7d32b91359d0.webp",
+    "column": 5,
+    "row": 0,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "折光灯议长·雅泽": {
+    "atlas": "assets/oil-people-10.7d32b91359d0.webp",
+    "column": 6,
+    "row": 0,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "折光静棱铠卫": {
+    "atlas": "assets/oil-people-10.7d32b91359d0.webp",
+    "column": 7,
+    "row": 0,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "折光绒雾铠卫": {
+    "atlas": "assets/oil-people-10.7d32b91359d0.webp",
+    "column": 0,
+    "row": 1,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "折光夜航铠卫": {
+    "atlas": "assets/oil-people-10.7d32b91359d0.webp",
+    "column": 1,
+    "row": 1,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "折光流砂铠卫": {
+    "atlas": "assets/oil-people-10.7d32b91359d0.webp",
+    "column": 2,
+    "row": 1,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "折光镜纹铠卫": {
+    "atlas": "assets/oil-people-10.7d32b91359d0.webp",
+    "column": 3,
+    "row": 1,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "折光苔痕裂角客": {
+    "atlas": "assets/oil-people-10.7d32b91359d0.webp",
+    "column": 4,
+    "row": 1,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "折光铜缄观灯师": {
+    "atlas": "assets/oil-people-10.7d32b91359d0.webp",
+    "column": 5,
+    "row": 1,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "折光铜缄裂角客": {
+    "atlas": "assets/oil-people-10.7d32b91359d0.webp",
+    "column": 6,
+    "row": 1,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "折光回声巡灯使": {
+    "atlas": "assets/oil-people-10.7d32b91359d0.webp",
+    "column": 7,
+    "row": 1,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "折光远路铠卫": {
+    "atlas": "assets/oil-people-10.7d32b91359d0.webp",
+    "column": 0,
+    "row": 2,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "折光石封铠卫": {
+    "atlas": "assets/oil-people-10.7d32b91359d0.webp",
+    "column": 1,
+    "row": 2,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "折光鸣枝铠卫": {
+    "atlas": "assets/oil-people-10.7d32b91359d0.webp",
+    "column": 2,
+    "row": 2,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "折光铠卫·洛泽": {
+    "atlas": "assets/oil-people-10.7d32b91359d0.webp",
+    "column": 3,
+    "row": 2,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "折光铠卫·米泽": {
+    "atlas": "assets/oil-people-10.7d32b91359d0.webp",
+    "column": 4,
+    "row": 2,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "折光铠卫·岚泽": {
+    "atlas": "assets/oil-people-10.7d32b91359d0.webp",
+    "column": 5,
+    "row": 2,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "折光巡灯使·索泽": {
+    "atlas": "assets/oil-people-10.7d32b91359d0.webp",
+    "column": 6,
+    "row": 2,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "折光巡灯使·莱泽": {
+    "atlas": "assets/oil-people-10.7d32b91359d0.webp",
+    "column": 7,
+    "row": 2,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "折光巡灯使·岑泽": {
+    "atlas": "assets/oil-people-10.7d32b91359d0.webp",
+    "column": 0,
+    "row": 3,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "折光铠卫·塔泽": {
+    "atlas": "assets/oil-people-10.7d32b91359d0.webp",
+    "column": 1,
+    "row": 3,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "折光巡灯使·莫泽": {
+    "atlas": "assets/oil-people-10.7d32b91359d0.webp",
+    "column": 2,
+    "row": 3,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "折光巡灯使·佩泽": {
+    "atlas": "assets/oil-people-10.7d32b91359d0.webp",
+    "column": 3,
+    "row": 3,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "折光巡灯使·泽泽": {
+    "atlas": "assets/oil-people-10.7d32b91359d0.webp",
+    "column": 4,
+    "row": 3,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "折光铠卫·图泽": {
+    "atlas": "assets/oil-people-10.7d32b91359d0.webp",
+    "column": 5,
+    "row": 3,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "折光铠卫·芮泽": {
+    "atlas": "assets/oil-people-10.7d32b91359d0.webp",
+    "column": 6,
+    "row": 3,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "折光巡灯使·阿翎": {
+    "atlas": "assets/oil-people-10.7d32b91359d0.webp",
+    "column": 7,
+    "row": 3,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "折光铠卫·艾翎": {
+    "atlas": "assets/oil-people-10.7d32b91359d0.webp",
+    "column": 0,
+    "row": 4,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "折光铠卫·伊翎": {
+    "atlas": "assets/oil-people-10.7d32b91359d0.webp",
+    "column": 1,
+    "row": 4,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "折光巡灯使·欧翎": {
+    "atlas": "assets/oil-people-10.7d32b91359d0.webp",
+    "column": 2,
+    "row": 4,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "苔庭暖灰缄骨客": {
+    "atlas": "assets/oil-people-10.7d32b91359d0.webp",
+    "column": 3,
+    "row": 4,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "苔庭悬灯缄骨客": {
+    "atlas": "assets/oil-people-10.7d32b91359d0.webp",
+    "column": 4,
+    "row": 4,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "砂镜铠卫·乌翎": {
+    "atlas": "assets/oil-people-10.7d32b91359d0.webp",
+    "column": 5,
+    "row": 4,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "砂镜观灯师·依翎": {
+    "atlas": "assets/oil-people-10.7d32b91359d0.webp",
+    "column": 6,
+    "row": 4,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "砂镜修灯师·雅翎": {
+    "atlas": "assets/oil-people-10.7d32b91359d0.webp",
+    "column": 7,
+    "row": 4,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "砂镜铠卫领誓·诺翎": {
+    "atlas": "assets/oil-people-10.7d32b91359d0.webp",
+    "column": 0,
+    "row": 5,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "霜枝铜缄风蚀铠卫": {
+    "atlas": "assets/oil-people-10.7d32b91359d0.webp",
+    "column": 1,
+    "row": 5,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "苔庭银露缄骨客": {
+    "atlas": "assets/oil-people-10.7d32b91359d0.webp",
+    "column": 2,
+    "row": 5,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "铜钟铠卫领誓·瑟翎": {
+    "atlas": "assets/oil-people-10.7d32b91359d0.webp",
+    "column": 3,
+    "row": 5,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "暮潮流砂潜印客": {
+    "atlas": "assets/oil-people-10.7d32b91359d0.webp",
+    "column": 4,
+    "row": 5,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "暮潮镜纹折面星客": {
+    "atlas": "assets/oil-people-10.7d32b91359d0.webp",
+    "column": 5,
+    "row": 5,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "苔庭缄骨客·维翎": {
+    "atlas": "assets/oil-people-10.7d32b91359d0.webp",
+    "column": 6,
+    "row": 5,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "苔庭雾羽缄骨客": {
+    "atlas": "assets/oil-people-10.7d32b91359d0.webp",
+    "column": 7,
+    "row": 5,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "砂镜绒雾缄骨客": {
+    "atlas": "assets/oil-people-10.7d32b91359d0.webp",
+    "column": 0,
+    "row": 6,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "霜枝铜缄静棱铠卫": {
+    "atlas": "assets/oil-people-10.7d32b91359d0.webp",
+    "column": 1,
+    "row": 6,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "霜枝藤印潜印客": {
+    "atlas": "assets/oil-people-10.7d32b91359d0.webp",
+    "column": 2,
+    "row": 6,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "星铸回声微烛铠卫": {
+    "atlas": "assets/oil-people-10.7d32b91359d0.webp",
+    "column": 3,
+    "row": 6,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "星铸苔痕石背熊": {
+    "atlas": "assets/oil-animals-01.eecfbd5ae6b2.webp",
+    "column": 0,
+    "row": 0,
+    "columns": 8,
+    "rows": 8,
+    "kind": "animal"
+  },
+  "苔庭苔痕掠风鸟": {
+    "atlas": "assets/oil-animals-01.eecfbd5ae6b2.webp",
+    "column": 1,
+    "row": 0,
+    "columns": 8,
+    "rows": 8,
+    "kind": "animal"
+  },
+  "铜钟掠风鸟·佩雅": {
+    "atlas": "assets/oil-animals-01.eecfbd5ae6b2.webp",
+    "column": 2,
+    "row": 0,
+    "columns": 8,
+    "rows": 8,
+    "kind": "animal"
+  },
+  "炽砂苔痕掠风鸟": {
+    "atlas": "assets/oil-animals-01.eecfbd5ae6b2.webp",
+    "column": 3,
+    "row": 0,
+    "columns": 8,
+    "rows": 8,
+    "kind": "animal"
+  },
+  "炽砂铜缄掠风鸟": {
+    "atlas": "assets/oil-animals-01.eecfbd5ae6b2.webp",
+    "column": 4,
+    "row": 0,
+    "columns": 8,
+    "rows": 8,
+    "kind": "animal"
+  },
+  "砂镜掠风鸟·诺尘": {
+    "atlas": "assets/oil-animals-01.eecfbd5ae6b2.webp",
+    "column": 5,
+    "row": 0,
+    "columns": 8,
+    "rows": 8,
+    "kind": "animal"
+  },
+  "暮潮苔痕掠风鸟": {
+    "atlas": "assets/oil-animals-01.eecfbd5ae6b2.webp",
+    "column": 6,
+    "row": 0,
+    "columns": 8,
+    "rows": 8,
+    "kind": "animal"
+  },
+  "霜枝苔痕掠风鸟": {
+    "atlas": "assets/oil-animals-01.eecfbd5ae6b2.webp",
+    "column": 7,
+    "row": 0,
+    "columns": 8,
+    "rows": 8,
+    "kind": "animal"
+  },
+  "星铸掠风鸟领誓·伊斐": {
+    "atlas": "assets/oil-animals-01.eecfbd5ae6b2.webp",
+    "column": 0,
+    "row": 1,
+    "columns": 8,
+    "rows": 8,
+    "kind": "animal"
+  },
+  "星铸掠风鸟领誓·欧斐": {
+    "atlas": "assets/oil-animals-01.eecfbd5ae6b2.webp",
+    "column": 1,
+    "row": 1,
+    "columns": 8,
+    "rows": 8,
+    "kind": "animal"
+  },
+  "星铸回声掠风鸟": {
+    "atlas": "assets/oil-animals-01.eecfbd5ae6b2.webp",
+    "column": 2,
+    "row": 1,
+    "columns": 8,
+    "rows": 8,
+    "kind": "animal"
+  },
+  "星铸微烛掠风鸟": {
+    "atlas": "assets/oil-animals-01.eecfbd5ae6b2.webp",
+    "column": 3,
+    "row": 1,
+    "columns": 8,
+    "rows": 8,
+    "kind": "animal"
+  },
+  "星铸琉纹掠风鸟": {
+    "atlas": "assets/oil-animals-01.eecfbd5ae6b2.webp",
+    "column": 4,
+    "row": 1,
+    "columns": 8,
+    "rows": 8,
+    "kind": "animal"
+  },
+  "星铸风蚀掠风鸟": {
+    "atlas": "assets/oil-animals-01.eecfbd5ae6b2.webp",
+    "column": 5,
+    "row": 1,
+    "columns": 8,
+    "rows": 8,
+    "kind": "animal"
+  },
+  "苔庭铜缄掠风鸟": {
+    "atlas": "assets/oil-animals-01.eecfbd5ae6b2.webp",
+    "column": 6,
+    "row": 1,
+    "columns": 8,
+    "rows": 8,
+    "kind": "animal"
+  },
+  "暮潮苔痕锈鬃豕": {
+    "atlas": "assets/oil-animals-01.eecfbd5ae6b2.webp",
+    "column": 7,
+    "row": 1,
+    "columns": 8,
+    "rows": 8,
+    "kind": "animal"
+  },
+  "折光锈鬃豕领誓·莫岚": {
+    "atlas": "assets/oil-animals-01.eecfbd5ae6b2.webp",
+    "column": 0,
+    "row": 2,
+    "columns": 8,
+    "rows": 8,
+    "kind": "animal"
+  },
+  "苔庭赤角兽领誓·艾珀": {
+    "atlas": "assets/oil-animals-01.eecfbd5ae6b2.webp",
+    "column": 1,
+    "row": 2,
+    "columns": 8,
+    "rows": 8,
+    "kind": "animal"
+  },
+  "霜枝苔痕赤角兽": {
+    "atlas": "assets/oil-animals-01.eecfbd5ae6b2.webp",
+    "column": 2,
+    "row": 2,
+    "columns": 8,
+    "rows": 8,
+    "kind": "animal"
+  },
+  "霜枝铜缄赤角兽": {
+    "atlas": "assets/oil-animals-01.eecfbd5ae6b2.webp",
+    "column": 3,
+    "row": 2,
+    "columns": 8,
+    "rows": 8,
+    "kind": "animal"
+  },
+  "星铸赤角兽领誓·维霖": {
+    "atlas": "assets/oil-animals-01.eecfbd5ae6b2.webp",
+    "column": 4,
+    "row": 2,
+    "columns": 8,
+    "rows": 8,
+    "kind": "animal"
+  },
+  "星铸赤角兽领誓·希霖": {
+    "atlas": "assets/oil-animals-01.eecfbd5ae6b2.webp",
+    "column": 5,
+    "row": 2,
+    "columns": 8,
+    "rows": 8,
+    "kind": "animal"
+  },
+  "苔庭绛纹蝶领誓·乌珀": {
+    "atlas": "assets/oil-animals-01.eecfbd5ae6b2.webp",
+    "column": 6,
+    "row": 2,
+    "columns": 8,
+    "rows": 8,
+    "kind": "animal"
+  },
+  "炽砂苔痕绛纹蝶": {
+    "atlas": "assets/oil-animals-01.eecfbd5ae6b2.webp",
+    "column": 7,
+    "row": 2,
+    "columns": 8,
+    "rows": 8,
+    "kind": "animal"
+  },
+  "苔庭镜瞳山猫领誓·芮珀": {
+    "atlas": "assets/oil-animals-01.eecfbd5ae6b2.webp",
+    "column": 0,
+    "row": 3,
+    "columns": 8,
+    "rows": 8,
+    "kind": "animal"
+  },
+  "铜钟镜瞳山猫领誓·芮温": {
+    "atlas": "assets/oil-animals-01.eecfbd5ae6b2.webp",
+    "column": 1,
+    "row": 3,
+    "columns": 8,
+    "rows": 8,
+    "kind": "animal"
+  },
+  "铜钟镜瞳山猫领誓·艾雅": {
+    "atlas": "assets/oil-animals-01.eecfbd5ae6b2.webp",
+    "column": 2,
+    "row": 3,
+    "columns": 8,
+    "rows": 8,
+    "kind": "animal"
+  },
+  "铜钟镜瞳山猫·米雅": {
+    "atlas": "assets/oil-animals-01.eecfbd5ae6b2.webp",
+    "column": 3,
+    "row": 3,
+    "columns": 8,
+    "rows": 8,
+    "kind": "animal"
+  },
+  "铜钟微烛镜瞳山猫": {
+    "atlas": "assets/oil-animals-01.eecfbd5ae6b2.webp",
+    "column": 4,
+    "row": 3,
+    "columns": 8,
+    "rows": 8,
+    "kind": "animal"
+  },
+  "星铸镜瞳山猫领誓·莱玟": {
+    "atlas": "assets/oil-animals-01.eecfbd5ae6b2.webp",
+    "column": 5,
+    "row": 3,
+    "columns": 8,
+    "rows": 8,
+    "kind": "animal"
+  },
+  "星铸镜瞳山猫领誓·瑟斐": {
+    "atlas": "assets/oil-animals-01.eecfbd5ae6b2.webp",
+    "column": 6,
+    "row": 3,
+    "columns": 8,
+    "rows": 8,
+    "kind": "animal"
+  },
+  "折光镜瞳山猫领誓·塔岚": {
+    "atlas": "assets/oil-animals-01.eecfbd5ae6b2.webp",
+    "column": 7,
+    "row": 3,
+    "columns": 8,
+    "rows": 8,
+    "kind": "animal"
+  },
+  "炽砂苔痕铜壳蟹": {
+    "atlas": "assets/oil-animals-01.eecfbd5ae6b2.webp",
+    "column": 0,
+    "row": 4,
+    "columns": 8,
+    "rows": 8,
+    "kind": "animal"
+  },
+  "星铸苔痕铜壳蟹": {
+    "atlas": "assets/oil-animals-01.eecfbd5ae6b2.webp",
+    "column": 1,
+    "row": 4,
+    "columns": 8,
+    "rows": 8,
+    "kind": "animal"
+  },
+  "星铸铜缄铜壳蟹": {
+    "atlas": "assets/oil-animals-01.eecfbd5ae6b2.webp",
+    "column": 2,
+    "row": 4,
+    "columns": 8,
+    "rows": 8,
+    "kind": "animal"
+  },
+  "暮潮星枝鹿领誓·莱尘": {
+    "atlas": "assets/oil-animals-01.eecfbd5ae6b2.webp",
+    "column": 3,
+    "row": 4,
+    "columns": 8,
+    "rows": 8,
+    "kind": "animal"
+  },
+  "暮潮星枝鹿领誓·伦尘": {
+    "atlas": "assets/oil-animals-01.eecfbd5ae6b2.webp",
+    "column": 4,
+    "row": 4,
+    "columns": 8,
+    "rows": 8,
+    "kind": "animal"
+  },
+  "暮潮星枝鹿领誓·诺汀": {
+    "atlas": "assets/oil-animals-01.eecfbd5ae6b2.webp",
+    "column": 5,
+    "row": 4,
+    "columns": 8,
+    "rows": 8,
+    "kind": "animal"
+  },
+  "星铸星枝鹿领誓·塔斐": {
+    "atlas": "assets/oil-animals-01.eecfbd5ae6b2.webp",
+    "column": 6,
+    "row": 4,
+    "columns": 8,
+    "rows": 8,
+    "kind": "animal"
+  },
+  "星铸星枝鹿领誓·莫斐": {
+    "atlas": "assets/oil-animals-01.eecfbd5ae6b2.webp",
+    "column": 7,
+    "row": 4,
+    "columns": 8,
+    "rows": 8,
+    "kind": "animal"
+  },
+  "苔庭苔痕棱耳猎犬": {
+    "atlas": "assets/oil-animals-01.eecfbd5ae6b2.webp",
+    "column": 0,
+    "row": 5,
+    "columns": 8,
+    "rows": 8,
+    "kind": "animal"
+  },
+  "炽砂苔痕棱耳猎犬": {
+    "atlas": "assets/oil-animals-01.eecfbd5ae6b2.webp",
+    "column": 1,
+    "row": 5,
+    "columns": 8,
+    "rows": 8,
+    "kind": "animal"
+  },
+  "砂镜苔痕棱耳猎犬": {
+    "atlas": "assets/oil-animals-01.eecfbd5ae6b2.webp",
+    "column": 2,
+    "row": 5,
+    "columns": 8,
+    "rows": 8,
+    "kind": "animal"
+  },
+  "暮潮棱耳猎犬领誓·塔汀": {
+    "atlas": "assets/oil-animals-01.eecfbd5ae6b2.webp",
+    "column": 3,
+    "row": 5,
+    "columns": 8,
+    "rows": 8,
+    "kind": "animal"
+  },
+  "暮潮铜缄棱耳猎犬": {
+    "atlas": "assets/oil-animals-01.eecfbd5ae6b2.webp",
+    "column": 4,
+    "row": 5,
+    "columns": 8,
+    "rows": 8,
+    "kind": "animal"
+  },
+  "霜枝苔痕棱耳猎犬": {
+    "atlas": "assets/oil-animals-01.eecfbd5ae6b2.webp",
+    "column": 5,
+    "row": 5,
+    "columns": 8,
+    "rows": 8,
+    "kind": "animal"
+  },
+  "星铸苔痕棱耳猎犬": {
+    "atlas": "assets/oil-animals-01.eecfbd5ae6b2.webp",
+    "column": 6,
+    "row": 5,
+    "columns": 8,
+    "rows": 8,
+    "kind": "animal"
+  },
+  "星铸铜缄棱耳猎犬": {
+    "atlas": "assets/oil-animals-01.eecfbd5ae6b2.webp",
+    "column": 7,
+    "row": 5,
+    "columns": 8,
+    "rows": 8,
+    "kind": "animal"
+  },
+  "暮潮回声棱耳猎犬": {
+    "atlas": "assets/oil-animals-01.eecfbd5ae6b2.webp",
+    "column": 0,
+    "row": 6,
+    "columns": 8,
+    "rows": 8,
+    "kind": "animal"
+  },
+  "苔庭晶棘蜥龙领誓·依珀": {
+    "atlas": "assets/oil-animals-01.eecfbd5ae6b2.webp",
+    "column": 1,
+    "row": 6,
+    "columns": 8,
+    "rows": 8,
+    "kind": "animal"
+  },
+  "苔庭晶棘蜥龙领誓·岚珀": {
+    "atlas": "assets/oil-animals-01.eecfbd5ae6b2.webp",
+    "column": 2,
+    "row": 6,
+    "columns": 8,
+    "rows": 8,
+    "kind": "animal"
+  },
+  "苔庭晶棘蜥龙领誓·艾恩": {
+    "atlas": "assets/oil-animals-01.eecfbd5ae6b2.webp",
+    "column": 3,
+    "row": 6,
+    "columns": 8,
+    "rows": 8,
+    "kind": "animal"
+  },
+  "苔庭微烛晶棘蜥龙": {
+    "atlas": "assets/oil-animals-01.eecfbd5ae6b2.webp",
+    "column": 4,
+    "row": 6,
+    "columns": 8,
+    "rows": 8,
+    "kind": "animal"
+  },
+  "苔庭琉纹晶棘蜥龙": {
+    "atlas": "assets/oil-animals-01.eecfbd5ae6b2.webp",
+    "column": 5,
+    "row": 6,
+    "columns": 8,
+    "rows": 8,
+    "kind": "animal"
+  },
+  "铜钟晶棘蜥龙领誓·岚温": {
+    "atlas": "assets/oil-animals-01.eecfbd5ae6b2.webp",
+    "column": 6,
+    "row": 6,
+    "columns": 8,
+    "rows": 8,
+    "kind": "animal"
+  },
+  "铜钟晶棘蜥龙领誓·索温": {
+    "atlas": "assets/oil-animals-01.eecfbd5ae6b2.webp",
+    "column": 7,
+    "row": 6,
+    "columns": 8,
+    "rows": 8,
+    "kind": "animal"
+  },
+  "铜钟晶棘蜥龙领誓·塔温": {
+    "atlas": "assets/oil-animals-01.eecfbd5ae6b2.webp",
+    "column": 0,
+    "row": 7,
+    "columns": 8,
+    "rows": 8,
+    "kind": "animal"
+  },
+  "炽砂晶棘蜥龙领誓·岑弥": {
+    "atlas": "assets/oil-animals-01.eecfbd5ae6b2.webp",
+    "column": 1,
+    "row": 7,
+    "columns": 8,
+    "rows": 8,
+    "kind": "animal"
+  },
+  "炽砂晶棘蜥龙领誓·泽弥": {
+    "atlas": "assets/oil-animals-01.eecfbd5ae6b2.webp",
+    "column": 2,
+    "row": 7,
+    "columns": 8,
+    "rows": 8,
+    "kind": "animal"
+  },
+  "炽砂晶棘蜥龙领誓·雅罗": {
+    "atlas": "assets/oil-animals-01.eecfbd5ae6b2.webp",
+    "column": 3,
+    "row": 7,
+    "columns": 8,
+    "rows": 8,
+    "kind": "animal"
+  },
+  "砂镜晶棘蜥龙领誓·伊瑟": {
+    "atlas": "assets/oil-animals-01.eecfbd5ae6b2.webp",
+    "column": 4,
+    "row": 7,
+    "columns": 8,
+    "rows": 8,
+    "kind": "animal"
+  },
+  "砂镜铜缄晶棘蜥龙": {
+    "atlas": "assets/oil-animals-01.eecfbd5ae6b2.webp",
+    "column": 5,
+    "row": 7,
+    "columns": 8,
+    "rows": 8,
+    "kind": "animal"
+  },
+  "砂镜回声晶棘蜥龙": {
+    "atlas": "assets/oil-animals-01.eecfbd5ae6b2.webp",
+    "column": 6,
+    "row": 7,
+    "columns": 8,
+    "rows": 8,
+    "kind": "animal"
+  },
+  "霜枝晶棘蜥龙领誓·维诺": {
+    "atlas": "assets/oil-animals-01.eecfbd5ae6b2.webp",
+    "column": 7,
+    "row": 7,
+    "columns": 8,
+    "rows": 8,
+    "kind": "animal"
+  },
+  "星铸晶棘蜥龙领誓·伦斐": {
+    "atlas": "assets/oil-animals-02.81ace8adfd8a.webp",
+    "column": 0,
+    "row": 0,
+    "columns": 8,
+    "rows": 8,
+    "kind": "animal"
+  },
+  "星铸晶棘蜥龙领誓·佩斐": {
+    "atlas": "assets/oil-animals-02.81ace8adfd8a.webp",
+    "column": 1,
+    "row": 0,
+    "columns": 8,
+    "rows": 8,
+    "kind": "animal"
+  },
+  "星铸晶棘蜥龙领誓·塔霖": {
+    "atlas": "assets/oil-animals-02.81ace8adfd8a.webp",
+    "column": 2,
+    "row": 0,
+    "columns": 8,
+    "rows": 8,
+    "kind": "animal"
+  },
+  "星铸晶棘蜥龙领誓·莫霖": {
+    "atlas": "assets/oil-animals-02.81ace8adfd8a.webp",
+    "column": 3,
+    "row": 0,
+    "columns": 8,
+    "rows": 8,
+    "kind": "animal"
+  },
+  "星铸晶棘蜥龙领誓·伦霖": {
+    "atlas": "assets/oil-animals-02.81ace8adfd8a.webp",
+    "column": 4,
+    "row": 0,
+    "columns": 8,
+    "rows": 8,
+    "kind": "animal"
+  },
+  "星铸晶棘蜥龙领誓·佩霖": {
+    "atlas": "assets/oil-animals-02.81ace8adfd8a.webp",
+    "column": 5,
+    "row": 0,
+    "columns": 8,
+    "rows": 8,
+    "kind": "animal"
+  },
+  "星铸晶棘蜥龙领誓·泽霖": {
+    "atlas": "assets/oil-animals-02.81ace8adfd8a.webp",
+    "column": 6,
+    "row": 0,
+    "columns": 8,
+    "rows": 8,
+    "kind": "animal"
+  },
+  "星铸晶棘蜥龙领誓·图霖": {
+    "atlas": "assets/oil-animals-02.81ace8adfd8a.webp",
+    "column": 7,
+    "row": 0,
+    "columns": 8,
+    "rows": 8,
+    "kind": "animal"
+  },
+  "星铸晶棘蜥龙领誓·芮霖": {
+    "atlas": "assets/oil-animals-02.81ace8adfd8a.webp",
+    "column": 0,
+    "row": 1,
+    "columns": 8,
+    "rows": 8,
+    "kind": "animal"
+  },
+  "星铸晶棘蜥龙领誓·阿沐": {
+    "atlas": "assets/oil-animals-02.81ace8adfd8a.webp",
+    "column": 1,
+    "row": 1,
+    "columns": 8,
+    "rows": 8,
+    "kind": "animal"
+  },
+  "星铸晶棘蜥龙领誓·艾沐": {
+    "atlas": "assets/oil-animals-02.81ace8adfd8a.webp",
+    "column": 2,
+    "row": 1,
+    "columns": 8,
+    "rows": 8,
+    "kind": "animal"
+  },
+  "星铸晶棘蜥龙领誓·伊沐": {
+    "atlas": "assets/oil-animals-02.81ace8adfd8a.webp",
+    "column": 3,
+    "row": 1,
+    "columns": 8,
+    "rows": 8,
+    "kind": "animal"
+  },
+  "星铸晶棘蜥龙领誓·欧沐": {
+    "atlas": "assets/oil-animals-02.81ace8adfd8a.webp",
+    "column": 4,
+    "row": 1,
+    "columns": 8,
+    "rows": 8,
+    "kind": "animal"
+  },
+  "星铸晶棘蜥龙领誓·乌沐": {
+    "atlas": "assets/oil-animals-02.81ace8adfd8a.webp",
+    "column": 5,
+    "row": 1,
+    "columns": 8,
+    "rows": 8,
+    "kind": "animal"
+  },
+  "星铸暖灰晶棘蜥龙": {
+    "atlas": "assets/oil-animals-02.81ace8adfd8a.webp",
+    "column": 6,
+    "row": 1,
+    "columns": 8,
+    "rows": 8,
+    "kind": "animal"
+  },
+  "折光晶棘蜥龙领誓·莱岚": {
+    "atlas": "assets/oil-animals-02.81ace8adfd8a.webp",
+    "column": 7,
+    "row": 1,
+    "columns": 8,
+    "rows": 8,
+    "kind": "animal"
+  },
+  "折光晶棘蜥龙领誓·伊泽": {
+    "atlas": "assets/oil-animals-02.81ace8adfd8a.webp",
+    "column": 0,
+    "row": 2,
+    "columns": 8,
+    "rows": 8,
+    "kind": "animal"
+  },
+  "折光晶棘蜥龙领誓·欧泽": {
+    "atlas": "assets/oil-animals-02.81ace8adfd8a.webp",
+    "column": 1,
+    "row": 2,
+    "columns": 8,
+    "rows": 8,
+    "kind": "animal"
+  },
+  "折光晶棘蜥龙领誓·诺泽": {
+    "atlas": "assets/oil-animals-02.81ace8adfd8a.webp",
+    "column": 2,
+    "row": 2,
+    "columns": 8,
+    "rows": 8,
+    "kind": "animal"
+  },
+  "折光晶棘蜥龙领誓·维泽": {
+    "atlas": "assets/oil-animals-02.81ace8adfd8a.webp",
+    "column": 3,
+    "row": 2,
+    "columns": 8,
+    "rows": 8,
+    "kind": "animal"
+  },
+  "铜钟苔痕岩铃象": {
+    "atlas": "assets/oil-animals-02.81ace8adfd8a.webp",
+    "column": 4,
+    "row": 2,
+    "columns": 8,
+    "rows": 8,
+    "kind": "animal"
+  },
+  "苔庭苔痕潮纹游鱼": {
+    "atlas": "assets/oil-animals-02.81ace8adfd8a.webp",
+    "column": 5,
+    "row": 2,
+    "columns": 8,
+    "rows": 8,
+    "kind": "animal"
+  },
+  "砂镜潮纹游鱼领誓·依瑟": {
+    "atlas": "assets/oil-animals-02.81ace8adfd8a.webp",
+    "column": 6,
+    "row": 2,
+    "columns": 8,
+    "rows": 8,
+    "kind": "animal"
+  },
+  "砂镜铜缄潮纹游鱼": {
+    "atlas": "assets/oil-animals-02.81ace8adfd8a.webp",
+    "column": 7,
+    "row": 2,
+    "columns": 8,
+    "rows": 8,
+    "kind": "animal"
+  },
+  "暮潮苔痕潮纹游鱼": {
+    "atlas": "assets/oil-animals-02.81ace8adfd8a.webp",
+    "column": 0,
+    "row": 3,
+    "columns": 8,
+    "rows": 8,
+    "kind": "animal"
+  },
+  "暮潮铜缄潮纹游鱼": {
+    "atlas": "assets/oil-animals-02.81ace8adfd8a.webp",
+    "column": 1,
+    "row": 3,
+    "columns": 8,
+    "rows": 8,
+    "kind": "animal"
+  },
+  "暮潮回声潮纹游鱼": {
+    "atlas": "assets/oil-animals-02.81ace8adfd8a.webp",
+    "column": 2,
+    "row": 3,
+    "columns": 8,
+    "rows": 8,
+    "kind": "animal"
+  },
+  "霜枝苔痕潮纹游鱼": {
+    "atlas": "assets/oil-animals-02.81ace8adfd8a.webp",
+    "column": 3,
+    "row": 3,
+    "columns": 8,
+    "rows": 8,
+    "kind": "animal"
+  },
+  "苔庭苔痕露囊蛙": {
+    "atlas": "assets/oil-animals-02.81ace8adfd8a.webp",
+    "column": 4,
+    "row": 3,
+    "columns": 8,
+    "rows": 8,
+    "kind": "animal"
+  },
+  "铜钟露囊蛙领誓·依温": {
+    "atlas": "assets/oil-animals-02.81ace8adfd8a.webp",
+    "column": 5,
+    "row": 3,
+    "columns": 8,
+    "rows": 8,
+    "kind": "animal"
+  },
+  "炽砂苔痕露囊蛙": {
+    "atlas": "assets/oil-animals-02.81ace8adfd8a.webp",
+    "column": 6,
+    "row": 3,
+    "columns": 8,
+    "rows": 8,
+    "kind": "animal"
+  },
+  "星铸苔痕露囊蛙": {
+    "atlas": "assets/oil-animals-02.81ace8adfd8a.webp",
+    "column": 7,
+    "row": 3,
+    "columns": 8,
+    "rows": 8,
+    "kind": "animal"
+  },
+  "星铸铜缄露囊蛙": {
+    "atlas": "assets/oil-animals-02.81ace8adfd8a.webp",
+    "column": 0,
+    "row": 4,
+    "columns": 8,
+    "rows": 8,
+    "kind": "animal"
+  },
+  "铜钟苔痕刺灯兽": {
+    "atlas": "assets/oil-animals-02.81ace8adfd8a.webp",
+    "column": 1,
+    "row": 4,
+    "columns": 8,
+    "rows": 8,
+    "kind": "animal"
+  },
+  "折光磐颚河兽领誓·乌泽": {
+    "atlas": "assets/oil-animals-02.81ace8adfd8a.webp",
+    "column": 2,
+    "row": 4,
+    "columns": 8,
+    "rows": 8,
+    "kind": "animal"
+  },
+  "铜钟踏铃驹领誓·塔拉": {
+    "atlas": "assets/oil-animals-02.81ace8adfd8a.webp",
+    "column": 3,
+    "row": 4,
+    "columns": 8,
+    "rows": 8,
+    "kind": "animal"
+  },
+  "暮潮踏铃驹领誓·雅汀": {
+    "atlas": "assets/oil-animals-02.81ace8adfd8a.webp",
+    "column": 4,
+    "row": 4,
+    "columns": 8,
+    "rows": 8,
+    "kind": "animal"
+  },
+  "铜钟苔痕甲灯虫": {
+    "atlas": "assets/oil-animals-02.81ace8adfd8a.webp",
+    "column": 5,
+    "row": 4,
+    "columns": 8,
+    "rows": 8,
+    "kind": "animal"
+  },
+  "炽砂苔痕甲灯虫": {
+    "atlas": "assets/oil-animals-02.81ace8adfd8a.webp",
+    "column": 6,
+    "row": 4,
+    "columns": 8,
+    "rows": 8,
+    "kind": "animal"
+  },
+  "砂镜苔痕甲灯虫": {
+    "atlas": "assets/oil-animals-02.81ace8adfd8a.webp",
+    "column": 7,
+    "row": 4,
+    "columns": 8,
+    "rows": 8,
+    "kind": "animal"
+  },
+  "砂镜铜缄甲灯虫": {
+    "atlas": "assets/oil-animals-02.81ace8adfd8a.webp",
+    "column": 0,
+    "row": 5,
+    "columns": 8,
+    "rows": 8,
+    "kind": "animal"
+  },
+  "暮潮苔痕甲灯虫": {
+    "atlas": "assets/oil-animals-02.81ace8adfd8a.webp",
+    "column": 1,
+    "row": 5,
+    "columns": 8,
+    "rows": 8,
+    "kind": "animal"
+  },
+  "星铸甲灯虫领誓·岚霖": {
+    "atlas": "assets/oil-animals-02.81ace8adfd8a.webp",
+    "column": 2,
+    "row": 5,
+    "columns": 8,
+    "rows": 8,
+    "kind": "animal"
+  },
+  "星铸甲灯虫领誓·索霖": {
+    "atlas": "assets/oil-animals-02.81ace8adfd8a.webp",
+    "column": 3,
+    "row": 5,
+    "columns": 8,
+    "rows": 8,
+    "kind": "animal"
+  },
+  "星铸甲灯虫领誓·岑霖": {
+    "atlas": "assets/oil-animals-02.81ace8adfd8a.webp",
+    "column": 4,
+    "row": 5,
+    "columns": 8,
+    "rows": 8,
+    "kind": "animal"
+  },
+  "折光苔痕甲灯虫": {
+    "atlas": "assets/oil-animals-02.81ace8adfd8a.webp",
+    "column": 5,
+    "row": 5,
+    "columns": 8,
+    "rows": 8,
+    "kind": "animal"
+  },
+  "苔庭苔痕砂脊蜥": {
+    "atlas": "assets/oil-animals-02.81ace8adfd8a.webp",
+    "column": 6,
+    "row": 5,
+    "columns": 8,
+    "rows": 8,
+    "kind": "animal"
+  },
+  "铜钟苔痕砂脊蜥": {
+    "atlas": "assets/oil-animals-02.81ace8adfd8a.webp",
+    "column": 7,
+    "row": 5,
+    "columns": 8,
+    "rows": 8,
+    "kind": "animal"
+  },
+  "炽砂苔痕砂脊蜥": {
+    "atlas": "assets/oil-animals-02.81ace8adfd8a.webp",
+    "column": 0,
+    "row": 6,
+    "columns": 8,
+    "rows": 8,
+    "kind": "animal"
+  },
+  "炽砂铜缄砂脊蜥": {
+    "atlas": "assets/oil-animals-02.81ace8adfd8a.webp",
+    "column": 1,
+    "row": 6,
+    "columns": 8,
+    "rows": 8,
+    "kind": "animal"
+  },
+  "炽砂回声砂脊蜥": {
+    "atlas": "assets/oil-animals-02.81ace8adfd8a.webp",
+    "column": 2,
+    "row": 6,
+    "columns": 8,
+    "rows": 8,
+    "kind": "animal"
+  },
+  "砂镜苔痕砂脊蜥": {
+    "atlas": "assets/oil-animals-02.81ace8adfd8a.webp",
+    "column": 3,
+    "row": 6,
+    "columns": 8,
+    "rows": 8,
+    "kind": "animal"
+  },
+  "霜枝苔痕砂脊蜥": {
+    "atlas": "assets/oil-animals-02.81ace8adfd8a.webp",
+    "column": 4,
+    "row": 6,
+    "columns": 8,
+    "rows": 8,
+    "kind": "animal"
+  },
+  "霜枝攀钟猿领誓·阿诺": {
+    "atlas": "assets/oil-animals-02.81ace8adfd8a.webp",
+    "column": 5,
+    "row": 6,
+    "columns": 8,
+    "rows": 8,
+    "kind": "animal"
+  },
+  "霜枝攀钟猿领誓·艾诺": {
+    "atlas": "assets/oil-animals-02.81ace8adfd8a.webp",
+    "column": 6,
+    "row": 6,
+    "columns": 8,
+    "rows": 8,
+    "kind": "animal"
+  },
+  "霜枝攀钟猿领誓·伊诺": {
+    "atlas": "assets/oil-animals-02.81ace8adfd8a.webp",
+    "column": 7,
+    "row": 6,
+    "columns": 8,
+    "rows": 8,
+    "kind": "animal"
+  },
+  "霜枝微烛攀钟猿": {
+    "atlas": "assets/oil-animals-02.81ace8adfd8a.webp",
+    "column": 0,
+    "row": 7,
+    "columns": 8,
+    "rows": 8,
+    "kind": "animal"
+  },
+  "霜枝琉纹攀钟猿": {
+    "atlas": "assets/oil-animals-02.81ace8adfd8a.webp",
+    "column": 1,
+    "row": 7,
+    "columns": 8,
+    "rows": 8,
+    "kind": "animal"
+  },
+  "星铸攀钟猿·芮沐": {
+    "atlas": "assets/oil-animals-02.81ace8adfd8a.webp",
+    "column": 2,
+    "row": 7,
+    "columns": 8,
+    "rows": 8,
+    "kind": "animal"
+  },
+  "折光攀钟猿领誓·瑟泽": {
+    "atlas": "assets/oil-animals-02.81ace8adfd8a.webp",
+    "column": 3,
+    "row": 7,
+    "columns": 8,
+    "rows": 8,
+    "kind": "animal"
+  },
+  "星铸苔痕流墨触灵": {
+    "atlas": "assets/oil-animals-02.81ace8adfd8a.webp",
+    "column": 4,
+    "row": 7,
+    "columns": 8,
+    "rows": 8,
+    "kind": "animal"
+  },
+  "星铸铜缄流墨触灵": {
+    "atlas": "assets/oil-animals-02.81ace8adfd8a.webp",
+    "column": 5,
+    "row": 7,
+    "columns": 8,
+    "rows": 8,
+    "kind": "animal"
+  },
+  "苔庭苔痕线尾鼠": {
+    "atlas": "assets/oil-animals-02.81ace8adfd8a.webp",
+    "column": 6,
+    "row": 7,
+    "columns": 8,
+    "rows": 8,
+    "kind": "animal"
+  },
+  "苔庭铜缄线尾鼠": {
+    "atlas": "assets/oil-animals-02.81ace8adfd8a.webp",
+    "column": 7,
+    "row": 7,
+    "columns": 8,
+    "rows": 8,
+    "kind": "animal"
+  },
+  "铜钟线尾鼠领誓·艾温": {
+    "atlas": "assets/oil-animals-03.290871a39d8e.webp",
+    "column": 0,
+    "row": 0,
+    "columns": 8,
+    "rows": 8,
+    "kind": "animal"
+  },
+  "铜钟线尾鼠领誓·伊温": {
+    "atlas": "assets/oil-animals-03.290871a39d8e.webp",
+    "column": 1,
+    "row": 0,
+    "columns": 8,
+    "rows": 8,
+    "kind": "animal"
+  },
+  "铜钟回声线尾鼠": {
+    "atlas": "assets/oil-animals-03.290871a39d8e.webp",
+    "column": 2,
+    "row": 0,
+    "columns": 8,
+    "rows": 8,
+    "kind": "animal"
+  },
+  "砂镜苔痕线尾鼠": {
+    "atlas": "assets/oil-animals-03.290871a39d8e.webp",
+    "column": 3,
+    "row": 0,
+    "columns": 8,
+    "rows": 8,
+    "kind": "animal"
+  },
+  "暮潮苔痕线尾鼠": {
+    "atlas": "assets/oil-animals-03.290871a39d8e.webp",
+    "column": 4,
+    "row": 0,
+    "columns": 8,
+    "rows": 8,
+    "kind": "animal"
+  },
+  "星铸苔痕线尾鼠": {
+    "atlas": "assets/oil-animals-03.290871a39d8e.webp",
+    "column": 5,
+    "row": 0,
+    "columns": 8,
+    "rows": 8,
+    "kind": "animal"
+  },
+  "星铸铜缄线尾鼠": {
+    "atlas": "assets/oil-animals-03.290871a39d8e.webp",
+    "column": 6,
+    "row": 0,
+    "columns": 8,
+    "rows": 8,
+    "kind": "animal"
+  },
+  "星铸回声线尾鼠": {
+    "atlas": "assets/oil-animals-03.290871a39d8e.webp",
+    "column": 7,
+    "row": 0,
+    "columns": 8,
+    "rows": 8,
+    "kind": "animal"
+  },
+  "铜钟钩针蝎领誓·图拉": {
+    "atlas": "assets/oil-animals-03.290871a39d8e.webp",
+    "column": 0,
+    "row": 1,
+    "columns": 8,
+    "rows": 8,
+    "kind": "animal"
+  },
+  "铜钟钩针蝎·阿弥": {
+    "atlas": "assets/oil-animals-03.290871a39d8e.webp",
+    "column": 1,
+    "row": 1,
+    "columns": 8,
+    "rows": 8,
+    "kind": "animal"
+  },
+  "折光钩针蝎领誓·伦岚": {
+    "atlas": "assets/oil-animals-03.290871a39d8e.webp",
+    "column": 2,
+    "row": 1,
+    "columns": 8,
+    "rows": 8,
+    "kind": "animal"
+  },
+  "折光铜缄钩针蝎": {
+    "atlas": "assets/oil-animals-03.290871a39d8e.webp",
+    "column": 3,
+    "row": 1,
+    "columns": 8,
+    "rows": 8,
+    "kind": "animal"
+  },
+  "铜钟苔脊软虫领誓·莫拉": {
+    "atlas": "assets/oil-animals-03.290871a39d8e.webp",
+    "column": 4,
+    "row": 1,
+    "columns": 8,
+    "rows": 8,
+    "kind": "animal"
+  },
+  "砂镜苔痕苔脊软虫": {
+    "atlas": "assets/oil-animals-03.290871a39d8e.webp",
+    "column": 5,
+    "row": 1,
+    "columns": 8,
+    "rows": 8,
+    "kind": "animal"
+  },
+  "苔庭环藤蛇·阿拉": {
+    "atlas": "assets/oil-animals-03.290871a39d8e.webp",
+    "column": 6,
+    "row": 1,
+    "columns": 8,
+    "rows": 8,
+    "kind": "animal"
+  },
+  "苔庭环藤蛇·艾拉": {
+    "atlas": "assets/oil-animals-03.290871a39d8e.webp",
+    "column": 7,
+    "row": 1,
+    "columns": 8,
+    "rows": 8,
+    "kind": "animal"
+  },
+  "苔庭回声环藤蛇": {
+    "atlas": "assets/oil-animals-03.290871a39d8e.webp",
+    "column": 0,
+    "row": 2,
+    "columns": 8,
+    "rows": 8,
+    "kind": "animal"
+  },
+  "苔庭微烛环藤蛇": {
+    "atlas": "assets/oil-animals-03.290871a39d8e.webp",
+    "column": 1,
+    "row": 2,
+    "columns": 8,
+    "rows": 8,
+    "kind": "animal"
+  },
+  "苔庭琉纹环藤蛇": {
+    "atlas": "assets/oil-animals-03.290871a39d8e.webp",
+    "column": 2,
+    "row": 2,
+    "columns": 8,
+    "rows": 8,
+    "kind": "animal"
+  },
+  "铜钟环藤蛇领誓·伦拉": {
+    "atlas": "assets/oil-animals-03.290871a39d8e.webp",
+    "column": 3,
+    "row": 2,
+    "columns": 8,
+    "rows": 8,
+    "kind": "animal"
+  },
+  "炽砂苔痕环藤蛇": {
+    "atlas": "assets/oil-animals-03.290871a39d8e.webp",
+    "column": 4,
+    "row": 2,
+    "columns": 8,
+    "rows": 8,
+    "kind": "animal"
+  },
+  "炽砂铜缄环藤蛇": {
+    "atlas": "assets/oil-animals-03.290871a39d8e.webp",
+    "column": 5,
+    "row": 2,
+    "columns": 8,
+    "rows": 8,
+    "kind": "animal"
+  },
+  "炽砂回声环藤蛇": {
+    "atlas": "assets/oil-animals-03.290871a39d8e.webp",
+    "column": 6,
+    "row": 2,
+    "columns": 8,
+    "rows": 8,
+    "kind": "animal"
+  },
+  "炽砂微烛环藤蛇": {
+    "atlas": "assets/oil-animals-03.290871a39d8e.webp",
+    "column": 7,
+    "row": 2,
+    "columns": 8,
+    "rows": 8,
+    "kind": "animal"
+  },
+  "暮潮苔痕环藤蛇": {
+    "atlas": "assets/oil-animals-03.290871a39d8e.webp",
+    "column": 0,
+    "row": 3,
+    "columns": 8,
+    "rows": 8,
+    "kind": "animal"
+  },
+  "暮潮铜缄环藤蛇": {
+    "atlas": "assets/oil-animals-03.290871a39d8e.webp",
+    "column": 1,
+    "row": 3,
+    "columns": 8,
+    "rows": 8,
+    "kind": "animal"
+  },
+  "霜枝苔痕环藤蛇": {
+    "atlas": "assets/oil-animals-03.290871a39d8e.webp",
+    "column": 2,
+    "row": 3,
+    "columns": 8,
+    "rows": 8,
+    "kind": "animal"
+  },
+  "星铸环藤蛇领誓·阿玟": {
+    "atlas": "assets/oil-animals-03.290871a39d8e.webp",
+    "column": 3,
+    "row": 3,
+    "columns": 8,
+    "rows": 8,
+    "kind": "animal"
+  },
+  "星铸铜缄环藤蛇": {
+    "atlas": "assets/oil-animals-03.290871a39d8e.webp",
+    "column": 4,
+    "row": 3,
+    "columns": 8,
+    "rows": 8,
+    "kind": "animal"
+  },
+  "星铸环藤蛇·洛岚": {
+    "atlas": "assets/oil-animals-03.290871a39d8e.webp",
+    "column": 5,
+    "row": 3,
+    "columns": 8,
+    "rows": 8,
+    "kind": "animal"
+  },
+  "苔庭织光蛛领誓·雅珀": {
+    "atlas": "assets/oil-animals-03.290871a39d8e.webp",
+    "column": 6,
+    "row": 3,
+    "columns": 8,
+    "rows": 8,
+    "kind": "animal"
+  },
+  "苔庭织光蛛·莱恩": {
+    "atlas": "assets/oil-animals-03.290871a39d8e.webp",
+    "column": 7,
+    "row": 3,
+    "columns": 8,
+    "rows": 8,
+    "kind": "animal"
+  },
+  "铜钟织光蛛领誓·阿温": {
+    "atlas": "assets/oil-animals-03.290871a39d8e.webp",
+    "column": 0,
+    "row": 4,
+    "columns": 8,
+    "rows": 8,
+    "kind": "animal"
+  },
+  "铜钟铜缄织光蛛": {
+    "atlas": "assets/oil-animals-03.290871a39d8e.webp",
+    "column": 1,
+    "row": 4,
+    "columns": 8,
+    "rows": 8,
+    "kind": "animal"
+  },
+  "铜钟回声织光蛛": {
+    "atlas": "assets/oil-animals-03.290871a39d8e.webp",
+    "column": 2,
+    "row": 4,
+    "columns": 8,
+    "rows": 8,
+    "kind": "animal"
+  },
+  "砂镜织光蛛领誓·阿瑟": {
+    "atlas": "assets/oil-animals-03.290871a39d8e.webp",
+    "column": 3,
+    "row": 4,
+    "columns": 8,
+    "rows": 8,
+    "kind": "animal"
+  },
+  "暮潮织光蛛领誓·图尘": {
+    "atlas": "assets/oil-animals-03.290871a39d8e.webp",
+    "column": 4,
+    "row": 4,
+    "columns": 8,
+    "rows": 8,
+    "kind": "animal"
+  },
+  "暮潮织光蛛·塔芙": {
+    "atlas": "assets/oil-animals-03.290871a39d8e.webp",
+    "column": 5,
+    "row": 4,
+    "columns": 8,
+    "rows": 8,
+    "kind": "animal"
+  },
+  "暮潮回声织光蛛": {
+    "atlas": "assets/oil-animals-03.290871a39d8e.webp",
+    "column": 6,
+    "row": 4,
+    "columns": 8,
+    "rows": 8,
+    "kind": "animal"
+  },
+  "暮潮微烛织光蛛": {
+    "atlas": "assets/oil-animals-03.290871a39d8e.webp",
+    "column": 7,
+    "row": 4,
+    "columns": 8,
+    "rows": 8,
+    "kind": "animal"
+  },
+  "星铸浮岛龟·欧岚": {
+    "atlas": "assets/oil-animals-03.290871a39d8e.webp",
+    "column": 0,
+    "row": 5,
+    "columns": 8,
+    "rows": 8,
+    "kind": "animal"
+  },
+  "苔庭巡影狼领誓·伦珀": {
+    "atlas": "assets/oil-animals-03.290871a39d8e.webp",
+    "column": 1,
+    "row": 5,
+    "columns": 8,
+    "rows": 8,
+    "kind": "animal"
+  },
+  "炽砂巡影狼领誓·艾罗": {
+    "atlas": "assets/oil-animals-03.290871a39d8e.webp",
+    "column": 2,
+    "row": 5,
+    "columns": 8,
+    "rows": 8,
+    "kind": "animal"
+  },
+  "炽砂铜缄巡影狼": {
+    "atlas": "assets/oil-animals-03.290871a39d8e.webp",
+    "column": 3,
+    "row": 5,
+    "columns": 8,
+    "rows": 8,
+    "kind": "animal"
+  },
+  "炽砂回声巡影狼": {
+    "atlas": "assets/oil-animals-03.290871a39d8e.webp",
+    "column": 4,
+    "row": 5,
+    "columns": 8,
+    "rows": 8,
+    "kind": "animal"
+  },
+  "炽砂微烛巡影狼": {
+    "atlas": "assets/oil-animals-03.290871a39d8e.webp",
+    "column": 5,
+    "row": 5,
+    "columns": 8,
+    "rows": 8,
+    "kind": "animal"
+  },
+  "暮潮苔痕巡影狼": {
+    "atlas": "assets/oil-animals-03.290871a39d8e.webp",
+    "column": 6,
+    "row": 5,
+    "columns": 8,
+    "rows": 8,
+    "kind": "animal"
+  },
+  "暮潮铜缄巡影狼": {
+    "atlas": "assets/oil-animals-03.290871a39d8e.webp",
+    "column": 7,
+    "row": 5,
+    "columns": 8,
+    "rows": 8,
+    "kind": "animal"
+  },
+  "星铸巡影狼领誓·乌玟": {
+    "atlas": "assets/oil-animals-03.290871a39d8e.webp",
+    "column": 0,
+    "row": 6,
+    "columns": 8,
+    "rows": 8,
+    "kind": "animal"
+  },
+  "星铸巡影狼领誓·阿霖": {
+    "atlas": "assets/oil-animals-03.290871a39d8e.webp",
+    "column": 1,
+    "row": 6,
+    "columns": 8,
+    "rows": 8,
+    "kind": "animal"
+  },
+  "星铸巡影狼领誓·艾霖": {
+    "atlas": "assets/oil-animals-03.290871a39d8e.webp",
+    "column": 2,
+    "row": 6,
+    "columns": 8,
+    "rows": 8,
+    "kind": "animal"
+  },
+  "星铸微烛巡影狼": {
+    "atlas": "assets/oil-animals-03.290871a39d8e.webp",
+    "column": 3,
+    "row": 6,
+    "columns": 8,
+    "rows": 8,
+    "kind": "animal"
+  },
+  "星铸巡影狼·岚沐": {
+    "atlas": "assets/oil-animals-03.290871a39d8e.webp",
+    "column": 4,
+    "row": 6,
+    "columns": 8,
+    "rows": 8,
+    "kind": "animal"
+  },
+  "苔庭地缝蠕虫领誓·塔珀": {
+    "atlas": "assets/oil-animals-03.290871a39d8e.webp",
+    "column": 5,
+    "row": 6,
+    "columns": 8,
+    "rows": 8,
+    "kind": "animal"
+  },
+  "苔庭铜缄地缝蠕虫": {
+    "atlas": "assets/oil-animals-03.290871a39d8e.webp",
+    "column": 6,
+    "row": 6,
+    "columns": 8,
+    "rows": 8,
+    "kind": "animal"
+  },
+  "炽砂苔痕地缝蠕虫": {
+    "atlas": "assets/oil-animals-03.290871a39d8e.webp",
+    "column": 7,
+    "row": 6,
+    "columns": 8,
+    "rows": 8,
+    "kind": "animal"
+  },
+  "砂镜地缝蠕虫领誓·诺瑟": {
+    "atlas": "assets/oil-animals-03.290871a39d8e.webp",
+    "column": 0,
+    "row": 7,
+    "columns": 8,
+    "rows": 8,
+    "kind": "animal"
+  },
+  "砂镜铜缄地缝蠕虫": {
+    "atlas": "assets/oil-animals-03.290871a39d8e.webp",
+    "column": 1,
+    "row": 7,
+    "columns": 8,
+    "rows": 8,
+    "kind": "animal"
+  },
+  "暮潮地缝蠕虫领誓·岑汀": {
+    "atlas": "assets/oil-animals-03.290871a39d8e.webp",
+    "column": 2,
+    "row": 7,
+    "columns": 8,
+    "rows": 8,
+    "kind": "animal"
+  },
+  "折光苔痕地缝蠕虫": {
+    "atlas": "assets/oil-animals-03.290871a39d8e.webp",
+    "column": 3,
+    "row": 7,
+    "columns": 8,
+    "rows": 8,
+    "kind": "animal"
+  },
+  "折光铜缄地缝蠕虫": {
+    "atlas": "assets/oil-animals-03.290871a39d8e.webp",
+    "column": 4,
+    "row": 7,
+    "columns": 8,
+    "rows": 8,
+    "kind": "animal"
+  },
+  "苔庭回声地缝蠕虫": {
+    "atlas": "assets/oil-animals-03.290871a39d8e.webp",
+    "column": 5,
+    "row": 7,
+    "columns": 8,
+    "rows": 8,
+    "kind": "animal"
+  },
+  "苔庭铜缄枝灯树灵": {
+    "atlas": "assets/oil-objects.fcb3158a9f57.webp",
+    "column": 0,
+    "row": 0,
+    "columns": 8,
+    "rows": 8,
+    "kind": "object"
+  },
+  "苔庭铜缄浮辉使": {
+    "atlas": "assets/oil-objects.fcb3158a9f57.webp",
+    "column": 1,
+    "row": 0,
+    "columns": 8,
+    "rows": 8,
+    "kind": "object"
+  },
+  "苔庭铜缄凝光泥团": {
+    "atlas": "assets/oil-objects.fcb3158a9f57.webp",
+    "column": 2,
+    "row": 0,
+    "columns": 8,
+    "rows": 8,
+    "kind": "object"
+  },
+  "苔庭回声浮辉使": {
+    "atlas": "assets/oil-objects.fcb3158a9f57.webp",
+    "column": 3,
+    "row": 0,
+    "columns": 8,
+    "rows": 8,
+    "kind": "object"
+  },
+  "苔庭回声枝灯树灵": {
+    "atlas": "assets/oil-objects.fcb3158a9f57.webp",
+    "column": 4,
+    "row": 0,
+    "columns": 8,
+    "rows": 8,
+    "kind": "object"
+  },
+  "铜钟枝灯树灵领誓·诺温": {
+    "atlas": "assets/oil-objects.fcb3158a9f57.webp",
+    "column": 5,
+    "row": 0,
+    "columns": 8,
+    "rows": 8,
+    "kind": "object"
+  },
+  "铜钟浮辉使领誓·岑温": {
+    "atlas": "assets/oil-objects.fcb3158a9f57.webp",
+    "column": 6,
+    "row": 0,
+    "columns": 8,
+    "rows": 8,
+    "kind": "object"
+  },
+  "铜钟浮辉使·欧弥": {
+    "atlas": "assets/oil-objects.fcb3158a9f57.webp",
+    "column": 7,
+    "row": 0,
+    "columns": 8,
+    "rows": 8,
+    "kind": "object"
+  },
+  "铜钟回声浮辉使": {
+    "atlas": "assets/oil-objects.fcb3158a9f57.webp",
+    "column": 0,
+    "row": 1,
+    "columns": 8,
+    "rows": 8,
+    "kind": "object"
+  },
+  "炽砂枝灯树灵领誓·雅弥": {
+    "atlas": "assets/oil-objects.fcb3158a9f57.webp",
+    "column": 1,
+    "row": 1,
+    "columns": 8,
+    "rows": 8,
+    "kind": "object"
+  },
+  "炽砂凝光泥团领誓·岚弥": {
+    "atlas": "assets/oil-objects.fcb3158a9f57.webp",
+    "column": 2,
+    "row": 1,
+    "columns": 8,
+    "rows": 8,
+    "kind": "object"
+  },
+  "炽砂苔痕匣中客": {
+    "atlas": "assets/oil-objects.fcb3158a9f57.webp",
+    "column": 3,
+    "row": 1,
+    "columns": 8,
+    "rows": 8,
+    "kind": "object"
+  },
+  "炽砂苔痕石指傀儡": {
+    "atlas": "assets/oil-objects.fcb3158a9f57.webp",
+    "column": 4,
+    "row": 1,
+    "columns": 8,
+    "rows": 8,
+    "kind": "object"
+  },
+  "炽砂铜缄枝灯树灵": {
+    "atlas": "assets/oil-objects.fcb3158a9f57.webp",
+    "column": 5,
+    "row": 1,
+    "columns": 8,
+    "rows": 8,
+    "kind": "object"
+  },
+  "砂镜凝光泥团领誓·岑安": {
+    "atlas": "assets/oil-objects.fcb3158a9f57.webp",
+    "column": 6,
+    "row": 1,
+    "columns": 8,
+    "rows": 8,
+    "kind": "object"
+  },
+  "砂镜凝光泥团领誓·芮安": {
+    "atlas": "assets/oil-objects.fcb3158a9f57.webp",
+    "column": 7,
+    "row": 1,
+    "columns": 8,
+    "rows": 8,
+    "kind": "object"
+  },
+  "砂镜浮辉使·洛瑟": {
+    "atlas": "assets/oil-objects.fcb3158a9f57.webp",
+    "column": 0,
+    "row": 2,
+    "columns": 8,
+    "rows": 8,
+    "kind": "object"
+  },
+  "砂镜回声凝光泥团": {
+    "atlas": "assets/oil-objects.fcb3158a9f57.webp",
+    "column": 1,
+    "row": 2,
+    "columns": 8,
+    "rows": 8,
+    "kind": "object"
+  },
+  "砂镜铜缄浮辉使": {
+    "atlas": "assets/oil-objects.fcb3158a9f57.webp",
+    "column": 2,
+    "row": 2,
+    "columns": 8,
+    "rows": 8,
+    "kind": "object"
+  },
+  "暮潮浮辉使领誓·塔尘": {
+    "atlas": "assets/oil-objects.fcb3158a9f57.webp",
+    "column": 3,
+    "row": 2,
+    "columns": 8,
+    "rows": 8,
+    "kind": "object"
+  },
+  "暮潮苔痕凝光泥团": {
+    "atlas": "assets/oil-objects.fcb3158a9f57.webp",
+    "column": 4,
+    "row": 2,
+    "columns": 8,
+    "rows": 8,
+    "kind": "object"
+  },
+  "暮潮铜缄浮辉使": {
+    "atlas": "assets/oil-objects.fcb3158a9f57.webp",
+    "column": 5,
+    "row": 2,
+    "columns": 8,
+    "rows": 8,
+    "kind": "object"
+  },
+  "霜枝苔痕浮辉使": {
+    "atlas": "assets/oil-objects.fcb3158a9f57.webp",
+    "column": 6,
+    "row": 2,
+    "columns": 8,
+    "rows": 8,
+    "kind": "object"
+  },
+  "霜枝铜缄浮辉使": {
+    "atlas": "assets/oil-objects.fcb3158a9f57.webp",
+    "column": 7,
+    "row": 2,
+    "columns": 8,
+    "rows": 8,
+    "kind": "object"
+  },
+  "霜枝窑心偶·岑烙": {
+    "atlas": "assets/oil-objects.fcb3158a9f57.webp",
+    "column": 0,
+    "row": 3,
+    "columns": 8,
+    "rows": 8,
+    "kind": "object"
+  },
+  "霜枝窑心偶·塔烙": {
+    "atlas": "assets/oil-objects.fcb3158a9f57.webp",
+    "column": 1,
+    "row": 3,
+    "columns": 8,
+    "rows": 8,
+    "kind": "object"
+  },
+  "霜枝浮辉使·伦烙": {
+    "atlas": "assets/oil-objects.fcb3158a9f57.webp",
+    "column": 2,
+    "row": 3,
+    "columns": 8,
+    "rows": 8,
+    "kind": "object"
+  },
+  "星铸枝灯树灵领誓·乌斐": {
+    "atlas": "assets/oil-objects.fcb3158a9f57.webp",
+    "column": 3,
+    "row": 3,
+    "columns": 8,
+    "rows": 8,
+    "kind": "object"
+  },
+  "星铸枝灯树灵领誓·依斐": {
+    "atlas": "assets/oil-objects.fcb3158a9f57.webp",
+    "column": 4,
+    "row": 3,
+    "columns": 8,
+    "rows": 8,
+    "kind": "object"
+  },
+  "星铸枝灯树灵领誓·雅斐": {
+    "atlas": "assets/oil-objects.fcb3158a9f57.webp",
+    "column": 5,
+    "row": 3,
+    "columns": 8,
+    "rows": 8,
+    "kind": "object"
+  },
+  "星铸枝灯树灵领誓·诺斐": {
+    "atlas": "assets/oil-objects.fcb3158a9f57.webp",
+    "column": 6,
+    "row": 3,
+    "columns": 8,
+    "rows": 8,
+    "kind": "object"
+  },
+  "星铸凝光泥团领誓·索斐": {
+    "atlas": "assets/oil-objects.fcb3158a9f57.webp",
+    "column": 7,
+    "row": 3,
+    "columns": 8,
+    "rows": 8,
+    "kind": "object"
+  },
+  "星铸苔痕浮辉使": {
+    "atlas": "assets/oil-objects.fcb3158a9f57.webp",
+    "column": 0,
+    "row": 4,
+    "columns": 8,
+    "rows": 8,
+    "kind": "object"
+  },
+  "星铸铜缄凝光泥团": {
+    "atlas": "assets/oil-objects.fcb3158a9f57.webp",
+    "column": 1,
+    "row": 4,
+    "columns": 8,
+    "rows": 8,
+    "kind": "object"
+  },
+  "星铸琉纹枝灯树灵": {
+    "atlas": "assets/oil-objects.fcb3158a9f57.webp",
+    "column": 2,
+    "row": 4,
+    "columns": 8,
+    "rows": 8,
+    "kind": "object"
+  },
+  "星铸铜缄浮辉使": {
+    "atlas": "assets/oil-objects.fcb3158a9f57.webp",
+    "column": 3,
+    "row": 4,
+    "columns": 8,
+    "rows": 8,
+    "kind": "object"
+  },
+  "星铸苔痕石指傀儡": {
+    "atlas": "assets/oil-objects.fcb3158a9f57.webp",
+    "column": 4,
+    "row": 4,
+    "columns": 8,
+    "rows": 8,
+    "kind": "object"
+  },
+  "星铸回声凝光泥团": {
+    "atlas": "assets/oil-objects.fcb3158a9f57.webp",
+    "column": 5,
+    "row": 4,
+    "columns": 8,
+    "rows": 8,
+    "kind": "object"
+  },
+  "星铸微烛凝光泥团": {
+    "atlas": "assets/oil-objects.fcb3158a9f57.webp",
+    "column": 6,
+    "row": 4,
+    "columns": 8,
+    "rows": 8,
+    "kind": "object"
+  },
+  "星铸窑心偶·塔沐": {
+    "atlas": "assets/oil-objects.fcb3158a9f57.webp",
+    "column": 7,
+    "row": 4,
+    "columns": 8,
+    "rows": 8,
+    "kind": "object"
+  },
+  "星铸窑心偶·莫沐": {
+    "atlas": "assets/oil-objects.fcb3158a9f57.webp",
+    "column": 0,
+    "row": 5,
+    "columns": 8,
+    "rows": 8,
+    "kind": "object"
+  },
+  "星铸窑心偶·岚岚": {
+    "atlas": "assets/oil-objects.fcb3158a9f57.webp",
+    "column": 1,
+    "row": 5,
+    "columns": 8,
+    "rows": 8,
+    "kind": "object"
+  },
+  "折光石指傀儡领誓·佩岚": {
+    "atlas": "assets/oil-objects.fcb3158a9f57.webp",
+    "column": 2,
+    "row": 5,
+    "columns": 8,
+    "rows": 8,
+    "kind": "object"
+  },
+  "折光枝灯树灵领誓·希泽": {
+    "atlas": "assets/oil-objects.fcb3158a9f57.webp",
+    "column": 3,
+    "row": 5,
+    "columns": 8,
+    "rows": 8,
+    "kind": "object"
+  },
+  "折光苔痕浮辉使": {
+    "atlas": "assets/oil-objects.fcb3158a9f57.webp",
+    "column": 4,
+    "row": 5,
+    "columns": 8,
+    "rows": 8,
+    "kind": "object"
+  },
+  "折光铜缄枝灯树灵": {
+    "atlas": "assets/oil-objects.fcb3158a9f57.webp",
+    "column": 5,
+    "row": 5,
+    "columns": 8,
+    "rows": 8,
+    "kind": "object"
+  },
+  "折光苔痕窑心偶": {
+    "atlas": "assets/oil-objects.fcb3158a9f57.webp",
+    "column": 6,
+    "row": 5,
+    "columns": 8,
+    "rows": 8,
+    "kind": "object"
+  },
+  "折光枝灯树灵·伦泽": {
+    "atlas": "assets/oil-objects.fcb3158a9f57.webp",
+    "column": 7,
+    "row": 5,
+    "columns": 8,
+    "rows": 8,
+    "kind": "object"
+  },
+  "砂镜回声浮辉使": {
+    "atlas": "assets/oil-objects.fcb3158a9f57.webp",
+    "column": 0,
+    "row": 6,
+    "columns": 8,
+    "rows": 8,
+    "kind": "object"
+  },
+  "碎灯偶": {
+    "atlas": "assets/oil-special.edc0c409d8b7.webp",
+    "column": 3,
+    "row": 1,
+    "columns": 4,
+    "rows": 2,
+    "kind": "person"
+  },
+  "骸骨仆从": {
+    "atlas": "assets/oil-special.edc0c409d8b7.webp",
+    "column": 3,
+    "row": 1,
+    "columns": 4,
+    "rows": 2,
+    "kind": "person"
+  },
+  "提灯助手": {
+    "atlas": "assets/oil-special.edc0c409d8b7.webp",
+    "column": 3,
+    "row": 1,
+    "columns": 4,
+    "rows": 2,
+    "kind": "person"
+  },
+  "骸骨车轮": {
+    "atlas": "assets/oil-objects.fcb3158a9f57.webp",
+    "column": 1,
+    "row": 6,
+    "columns": 8,
+    "rows": 8,
+    "kind": "object"
+  },
+  "旧木车轮": {
+    "atlas": "assets/oil-objects.fcb3158a9f57.webp",
+    "column": 1,
+    "row": 6,
+    "columns": 8,
+    "rows": 8,
+    "kind": "object"
+  },
+  "余芯": {
+    "atlas": "assets/oil-objects.fcb3158a9f57.webp",
+    "column": 2,
+    "row": 6,
+    "columns": 8,
+    "rows": 8,
+    "kind": "object"
+  },
+  "鎏金余芯": {
+    "atlas": "assets/oil-objects.fcb3158a9f57.webp",
+    "column": 2,
+    "row": 6,
+    "columns": 8,
+    "rows": 8,
+    "kind": "object"
+  },
+  "树影幼苗": {
+    "atlas": "assets/oil-objects.fcb3158a9f57.webp",
+    "column": 3,
+    "row": 6,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "树影分身": {
+    "atlas": "assets/oil-objects.fcb3158a9f57.webp",
+    "column": 4,
+    "row": 6,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "练习灯偶": {
+    "atlas": "assets/oil-objects.fcb3158a9f57.webp",
+    "column": 5,
+    "row": 6,
+    "columns": 8,
+    "rows": 8,
+    "kind": "object"
+  },
+  "鎏金灯蛛": {
+    "atlas": "assets/oil-animals-03.290871a39d8e.webp",
+    "column": 6,
+    "row": 3,
+    "columns": 8,
+    "rows": 8,
+    "kind": "animal"
+  },
+  "灯蛛": {
+    "atlas": "assets/oil-animals-03.290871a39d8e.webp",
+    "column": 6,
+    "row": 3,
+    "columns": 8,
+    "rows": 8,
+    "kind": "animal"
+  },
+  "墓地伏影": {
+    "atlas": "assets/oil-people-05.5ae2a78256ae.webp",
+    "column": 1,
+    "row": 7,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "港口伏影": {
+    "atlas": "assets/oil-people-05.5ae2a78256ae.webp",
+    "column": 1,
+    "row": 7,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  },
+  "练习巡灯者": {
+    "atlas": "assets/oil-people-01.9529245675c1.webp",
+    "column": 3,
+    "row": 0,
+    "columns": 8,
+    "rows": 8,
+    "kind": "person"
+  }
+}
